@@ -1,0 +1,212 @@
+{
+  "id": "1106178",
+  "timePublished": "2026-11-11T09:00:26+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Brax Wink — модульный смартфон с 4-дюймовым экраном, съемной QWERTY-клавиатурой и Android без сервисов Google",
+  "leadData": {
+    "textHtml": "<p>Brax Technologies представила компактный смартфон Wink с 4-дюймовым OLED-экраном и съемной QWERTY-клавиатурой. Устройство работает на BraxOS — версии Android без аккаунта Google, Google Play Services и встроенных сервисов Google. Новинка ориентирована на энтузиастов и ценителей приватности.</p>",
+    "imageUrl": "https://habrastorage.org/extt/83/dd/59/83dd5923def5e70ff3e3a25edb23f4f1.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/83/dd/59/83dd5923def5e70ff3e3a25edb23f4f1.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5174463",
+    "alias": "TrexSelectel",
+    "fullname": "Самый зубастый автор",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/351/c2c/d04/351c2cd0454796adab40bb11c60d4a49.png",
+    "speciality": "Тирекс Академии Selectel: https://selectel.ru/blog",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 68,
+      "votesCount": 156
+    },
+    "rating": 289,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 6,
+    "readingCount": 848,
+    "score": 12,
+    "votesCount": 6,
+    "votesCountPlus": 6,
+    "votesCountMinus": 0,
+    "reach": 6389,
+    "readers": 671
+  },
+  "hubs": [
+    {
+      "id": "14740",
+      "alias": "selectel",
+      "type": "corporative",
+      "title": "Блог компании Selectel",
+      "titleHtml": "Блог компании Selectel",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21908",
+      "alias": "smartphones",
+      "type": "collective",
+      "title": "Смартфоны",
+      "titleHtml": "Смартфоны",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21894",
+      "alias": "gadgets",
+      "type": "collective",
+      "title": "Гаджеты",
+      "titleHtml": "Гаджеты",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21898",
+      "alias": "hardware",
+      "type": "collective",
+      "title": "Компьютерное железо",
+      "titleHtml": "Компьютерное железо",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "17107",
+      "alias": "android_dev",
+      "type": "collective",
+      "title": "Android",
+      "titleHtml": "Android",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/4b/46/ee/4b46ee92010f516ba72673d537d30f05.png\" width=\"1198\" height=\"674\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/4b/46/ee/4b46ee92010f516ba72673d537d30f05.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/4b/46/ee/4b46ee92010f516ba72673d537d30f05.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Brax Technologies представила компактный смартфон Wink с 4-дюймовым OLED-экраном и съемной QWERTY-клавиатурой. Устройство работает на BraxOS — версии Android без аккаунта Google, Google Play Services и встроенных сервисов Google. Новинка ориентирована на энтузиастов и ценителей приватности.</p><h2>Про железо</h2><p>Первые поставки запланированы на лето 2027 года. Смартфон заметно меньше большинства современных моделей. Без клавиатуры его размеры 85 × 75 × 10 мм. Нижний модуль съемный, поэтому Wink можно использовать как обычное устройство с сенсорным экраном или установить физическую клавиатуру.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c4/d5/ea/c4d5ea910cddab6ec52fdee503e71775.png\" alt=\"Источник\" title=\"Источник.\" width=\"900\" height=\"502\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c4/d5/ea/c4d5ea910cddab6ec52fdee503e71775.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c4/d5/ea/c4d5ea910cddab6ec52fdee503e71775.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><a href=\"https://braxtech.net/blogs/news/brax-wink-is-open-for-pre-order\"><em>Источник</em></a><em>.</em></figcaption></div></figure><p>Клавиатура при этом работает еще и как сенсорная поверхность. По клавишам можно проводить пальцем для прокрутки страниц и выполнения жестов, не перенося руку на дисплей. Производитель также допускает появление других сменных модулей. В основе Wink лежит 4-нм MediaTek MT8875 с четырьмя производительными ядрами Arm C1-Pro и четырьмя C1-Nano. Смартфон получил 8 ГБ оперативной памяти и накопитель на 128 ГБ. Есть слот microSD с поддержкой карт объемом до 1 ТБ.</p><p>Разрешение основной камеры — 50 МП, а фронтальной нет вообще. Смартфон поддерживает 5G и LTE, физическую SIM-карту и eSIM, Wi-Fi 6E и Bluetooth 5.4. Есть USB-C, обычный 3,5-мм разъем для наушников и два динамика. NFC при этом отсутствует.</p><h2>Про ОС</h2><p>Важная особенность Wink — софт. BraxOS основана на Android, однако Google Play Services в ней нет вообще — их не нужно отключать или удалять после покупки. По словам Brax, в системе также нет фирменной аналитики, рекламных модулей и фоновой синхронизации с серверами Google.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/7a/f3/4c/7af34cbea7238eb91e5cb638a3955a5e.png\" alt=\"Источник\" title=\"Источник.\" width=\"1717\" height=\"1401\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/7a/f3/4c/7af34cbea7238eb91e5cb638a3955a5e.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/7a/f3/4c/7af34cbea7238eb91e5cb638a3955a5e.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><a href=\"https://braxtech.net/blogs/news/brax-wink-is-open-for-pre-order\"><em>Источник</em></a><em>.</em></figcaption></div></figure><p>У BraxOS предусмотрено два режима. Omni позволяет устанавливать обычные Android-приложения и пользоваться смартфоном почти как привычным Android-устройством. Более строгий режим Zero оставляет только основные функции вроде звонков, сообщений и защищенного мессенджера. При необходимости можно добавить навигацию. Правда, отсутствие сервисов Google имеет и обратную сторону. Большинство Android-приложений, по данным Brax, работают нормально, но отдельные банковские приложения проверяют наличие сервисов Google и могут отказаться запускаться.</p><div class=\"floating-image\"><figure class=\"float \"><img src=\"https://habrastorage.org/r/w1560/getpro/habr/upload_files/bb6/10d/1bb/bb610d1bb5fca8a608b862ad27a8fe2f.png\" width=\"144\" height=\"144\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/getpro/habr/upload_files/bb6/10d/1bb/bb610d1bb5fca8a608b862ad27a8fe2f.png 780w,&#10;       https://habrastorage.org/r/w1560/getpro/habr/upload_files/bb6/10d/1bb/bb610d1bb5fca8a608b862ad27a8fe2f.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Игровой сервер с криперами и порталом в Незер.</strong></p><p>Добывайте ресурсы, стройте объекты, исследуйте мир Selectel в Minecraft и получайте призы.</p><p><a href=\"https://promo.selectel.ru/minecraft/?utm_source=habr.com&amp;utm_medium=referral&amp;utm_campaign=minecraft_news_brax-wink_111126_banner_ord\"><strong>Исследовать →</strong></a></p></div><p>На верхней грани есть отдельный переключатель приватности. Пользователь сам задает, что именно он будет отключать: доступ к микрофону, камере, геолокации, мобильной сети или датчикам. Возврат переключателя в исходное положение восстанавливает обычные настройки. BraxOS также умеет автоматически стирать данные при определенных условиях. Можно настроить очистку после нескольких неверных попыток разблокировки, использовать специальный пароль для принудительного удаления данных или заставить устройство очищаться после перезагрузки. Обновления системы компания обещает выпускать до 2032 года.</p><p>Предзаказы уже открыты. Первую партию предлагают за 449 $ при полной оплате сразу, ее обещают отправить в июле 2027 года. Для второй партии можно внести 30 $, а затем доплатить еще 520 $ — итоговая цена составит 550 $, поставки ожидаются в сентябре 2027 года.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "selectel"
+    },
+    {
+      "titleHtml": "смартфон"
+    },
+    {
+      "titleHtml": "модульность"
+    },
+    {
+      "titleHtml": "brax"
+    },
+    {
+      "titleHtml": "google"
+    },
+    {
+      "titleHtml": "android"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106178/208f13202936682920b6c2dd0846bf3a/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106178/208f13202936682920b6c2dd0846bf3a/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/selectel\\/articles\\/1106178\\/\"},\"headline\":\"Brax Wink — модульный смартфон с 4-дюймовым экраном, съемной QWERTY-клавиатурой и Android без сервисов Google\",\"datePublished\":\"2026-11-11T12:00:26+03:00\",\"dateModified\":\"2026-11-11T18:22:13+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Brax Technologies представила компактный смартфон Wink с 4-дюймовым OLED-экраном и съемной QWERTY-клавиатурой. Устройство работает на BraxOS — версии Android...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/selectel\\/articles\\/1106178\\/#post-content-body\",\"about\":[\"c_selectel\",\"h_smartphones\",\"h_gadgets\",\"h_hardware\",\"h_android_dev\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/4b\\/46\\/ee\\/4b46ee92010f516ba72673d537d30f05.png\",\"https:\\/\\/habrastorage.org\\/extt\\/c4\\/d5\\/ea\\/c4d5ea910cddab6ec52fdee503e71775.png\",\"https:\\/\\/habrastorage.org\\/extt\\/7a\\/f3\\/4c\\/7af34cbea7238eb91e5cb638a3955a5e.png\",\"https:\\/\\/habrastorage.org\\/r\\/w1560\\/getpro\\/habr\\/upload_files\\/bb6\\/10d\\/1bb\\/bb610d1bb5fca8a608b862ad27a8fe2f.png\"]}",
+    "metaDescription": "Brax Technologies представила компактный смартфон Wink с 4-дюймовым OLED-экраном и съемной QWERTY-клавиатурой. Устройство работает на BraxOS — версии Android без аккаунта Google, Google Play Services...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "42",
+    "title": "Железо и гаджеты",
+    "alias": "hardware_and_gadgets"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

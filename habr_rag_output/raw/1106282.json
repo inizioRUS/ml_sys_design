@@ -1,0 +1,221 @@
+{
+  "id": "1106282",
+  "timePublished": "2026-11-10T18:57:04+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Во имя безопасности: как обновление Ubuntu 26.04 может положить вам прод",
+  "leadData": {
+    "textHtml": "<p>Добрый день, меня зовут Петр. Обычно я не пишу статьи про баги и инциденты из практики, но сегодня хотелось бы описать изменение в ядре Ubuntu, которое внезапно вызвало проблемы на пустом месте и это же изменение касается многие инфраструктуры.</p>",
+    "imageUrl": "https://habrastorage.org/extt/d5/90/30/d590300fa21eae9e8af1555cdc08d0fc.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/d5/90/30/d590300fa21eae9e8af1555cdc08d0fc.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2341763",
+    "alias": "RukInDaHouse",
+    "fullname": "Петр Рукин",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/e81/93e/87b/e8193e87b84a6d8be0d54a9a1eed803f.jpg",
+    "speciality": "Инженер DevOps",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 38,
+      "votesCount": 40
+    },
+    "rating": 14,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 18,
+    "readingCount": 2564,
+    "score": 14,
+    "votesCount": 15,
+    "votesCountPlus": 14,
+    "votesCountMinus": 1,
+    "reach": 11183,
+    "readers": 1991
+  },
+  "hubs": [
+    {
+      "id": "20788",
+      "alias": "devops",
+      "type": "collective",
+      "title": "DevOps",
+      "titleHtml": "DevOps",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "6398",
+      "alias": "it-infrastructure",
+      "type": "collective",
+      "title": "IT-инфраструктура",
+      "titleHtml": "IT-инфраструктура",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "22196",
+      "alias": "kubernetes",
+      "type": "collective",
+      "title": "Kubernetes",
+      "titleHtml": "Kubernetes",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19727",
+      "alias": "linux_dev",
+      "type": "collective",
+      "title": "Linux",
+      "titleHtml": "Linux",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "36",
+      "alias": "linux",
+      "type": "collective",
+      "title": "Настройка Linux",
+      "titleHtml": "Настройка Linux",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/08/93/2e/08932e95334b5014dfa4ab623e0a8b7c.png\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/08/93/2e/08932e95334b5014dfa4ab623e0a8b7c.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/08/93/2e/08932e95334b5014dfa4ab623e0a8b7c.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Добрый день, меня зовут Петр. Обычно я не пишу статьи про баги и инциденты из своей практики, но сегодня хотелось бы описать изменение в ядре Ubuntu, которое может создать неприятный сюрприз в вашей инфраструктуре, разобрать его механизм, а в конце — немного порассуждать про общую тенденцию безопасности в 2026 году.</p><h2>Кого касается?</h2><ul><li><p>Ubuntu 26.04 (или ядро с бэкпортом из 7.0.0–41+, включая облачные сборки вроде linux‑aws и linux‑azure);</p></li><li><p>kernel.apparmor_restrict_unprivileged_unconfined=1 (в 26.04 это значение по умолчанию);</p></li><li><p>containerd или Docker со стандартным AppArmor‑профилем — то есть почти любой Kubernetes, k3s, RKE2 или Docker‑хост.</p></li></ul><h2>Характерные симптомы</h2><ul><li><p>Операция kill: (…) получает Permission denied внутри контейнера при совпадающем uid и выключенном seccomp;</p></li><li><p>gosu (и любой Go‑бинарь, вызывающий setuid) крутится на 100% CPU, но сервис не стартует и логов нет;</p></li><li><p>PostgreSQL: получает ошибку could not signal for checkpoint: Permission denied;</p></li><li><p>Сообщения в журнале ядра вида: apparmor=«DENIED» operation=«signal» … peer=«cri‑containerd.apparmor.d//&amp;unconfined».</p></li></ul><h2>Типовой инцидент</h2><p>Штатная ситуация: необходимо изменить ресурсы CPU и RAM на нод группе виртуальных машин в Kubernetes кластере. Запуск Terraform кода проходит штатно, машины поднимаются корректно, все замечательно. Однако несколько подов PXC (Percona Operator for MySQL) не могут стартануть. В логах стандартная просьба инициализировать процесс восстановления через команду:</p><pre><code>kubectl -n pxc exec pxc-pxc-0 -c pxc -- sh -c 'kill -s USR1 1' </code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Однако, в ответ при выполнении получаем:</p><pre><code>sh: line 1: kill: (1) - Permission denied\ncommand terminated with exit code 1</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Чего? Сначала исключаем очевидное. Shell от kubectl exec и PID 1 работают под одним uid 1001 (mysql), capabilities пустые у обоих, Seccomp: 0. По правилам Unix сигнал должен проходить.</p><pre><code>kill -0 1 &amp;&amp; echo \"kill -0 1 OK\" # OK\nsleep 30 &amp; kill $!               # Permission denied \ncat /proc/1/attr/current         # cri-containerd.apparmor.d//&amp;unconfined (enforce)</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Чего х2? То есть, процесс получает Permission denied от своего же процесса? Отказ даже для собственного sleep навивает мысли об LSM (<strong>Linux Security Module</strong>). </p><p>Ладно, быстрым решением стало снятие <strong>AppArmor </strong>в CR PerconaXtraDBCluster:</p><pre><code>spec:\n  pxc:\n    containerSecurityContext:\n      appArmorProfile:\n        type: Unconfined</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Альтернатива без пересоздания пода — послать сигнал с самой ноды от root, найдя host‑PID через crictl inspect. Стандартный профиль принимает сигналы от unconfined‑отправителей — именно так kubelet и останавливает контейнеры.</p><p>Тем не менее, на этом движ не закончился: когда база поднялась, приложение так и не стало Ready, и перезапуск деплоймента не помог. Readiness‑проба получала connection refused, kubectl logs был пуст. Первая гипотеза — приложение зависло на подключении к недоступной БД — отпала: после судорожного рестарта приложения на живой базе картина повторилась. Ладно, лезем в контейнер и фиксируем интересную картину:</p><pre><code>PID     ELAPSED STAT %CPU COMMAND\n      1       02:04 Rsl  95.6 gosu</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>В контейнере нет ни одного слушающего сокета в /proc/net/tcp, нет дочерних процессов, нет файлов в log/: вообще ничего нет.</p><p>Нормальный gosu живёт миллисекунды: он делает setuid и exec в приложение, так что PID 1 с именем gosu через две минуты — уже ненормально. Дальше те же проверки, что и для PXC:</p><pre><code>lsm: cri-containerd.apparmor.d//&amp;unconfined (enforce)\nUid:    0  0  0  0\nThreads: 6          # один поток в R, остальные в S\nsh: 1: kill: Permission denied</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Поток в состоянии R — это тот самый цикл sched_yield в рантайме Go. Здесь пришлось переписывать весь Helm чарт, чтобы добавить аналогичные параметры, что и с PXC.</p><p>После 30 минут стресса захотелось понять, что произошло. Единственное, что изменилось после перезагрузки нод — это патч версия ядра. В эту сторону и будем копать.</p><h3>Что произошло?</h3><p>Регрессию принёсло исправление CVE в AppArmor из stable‑патчсета 2026–10-05: оно изменило, когда профиль принудительно стакается. В changelog Ubuntu это строка CVE-2026-90231:</p><pre><code>apparmor: fix unconfined user namespace restriction forced stack в блоке Resolute update: upstream stable patchset 2026-10-05 (LP: #2169638).</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Примерная хронология событий следующая:</p><div><div class=\"table\"><table><tbody><tr><td><p align=\"center\"><strong>Дата</strong></p></td><td><p align=\"center\"><strong>Событие</strong></p></td></tr><tr><td><p align=\"center\">2025–02-11</p></td><td><p align=\"left\">apparmor 4.1.0~beta4-0ubuntu1 включает kernel.apparmor_restrict_unprivileged_unconfined=1 по умолчанию (<a href=\"https://github.com/containerd/containerd/issues/14485\" rel=\"noopener nofollow\">containerd#14485</a>)</p></td></tr><tr><td><p align=\"center\">2026–10-01</p></td><td><p align=\"left\">Выходит linux 7.0.0–38.38 — последнее незатронутое ядро (<a href=\"https://www.ubuntuupdates.org/package/core/resolute/main/updates/linux\" rel=\"noopener nofollow\">ubuntuupdates</a>)</p></td></tr><tr><td><p align=\"center\">2026–10-15</p></td><td><p align=\"left\">Загрузка linux 7.0.0–42.42 в Resolute; в него входит changelog 7.0.0–41.41 с бэкпортом 08c2f7c8d4b1 (<a href=\"https://launchpad.net/ubuntu/+source/linux/7.0.0-42.42\" rel=\"noopener nofollow\">Launchpad</a>)</p></td></tr><tr><td><p align=\"center\">2026–10-28</p></td><td><p align=\"left\">7.0.0–42.42 публикуется в resolute‑updates; в тот же день открыты <a href=\"https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2172422\" rel=\"noopener nofollow\">LP #2172422</a> («Go programs livelock in setuid (gosu)») и <a href=\"https://github.com/containerd/containerd/issues/14485\" rel=\"noopener nofollow\">containerd#14485</a></p></td></tr><tr><td><p align=\"center\">2026–10-29</p></td><td><p align=\"left\">Предложен фикс профиля <a href=\"https://github.com/containerd/containerd/pull/14487\" rel=\"noopener nofollow\">containerd PR #14487</a></p></td></tr><tr><td><p align=\"center\">2026–11-01</p></td><td><p align=\"left\">Раннеры GitHub ubuntu-26.04 начинают ломать e2e с Postgres, MariaDB, CrowdSec (<a href=\"https://github.com/zeabur-oss/zeabur/issues/254\" rel=\"noopener nofollow\">zeabur#254</a>)</p></td></tr><tr><td><p align=\"center\">2026–11-02</p></td><td><p align=\"left\">7.0.0–42.42 попадает в resolute‑security — теперь его ставит и unattended‑upgrades; первые аварии после перезагрузки нод (<a href=\"https://github.com/GiganticMinecraft/seichi_infra/issues/6671\" rel=\"noopener nofollow\">seichi_infra#6671</a>)</p></td></tr><tr><td><p align=\"center\">2026–11-06</p></td><td><p align=\"left\">7.0.0–43.43 в resolute‑security, симптомы сохраняются; 7.0.0–44.44 в proposed</p></td></tr><tr><td><p align=\"center\">2026–11-10</p></td><td><p align=\"left\">PR #14487 всё ещё не смержен</p></td></tr></tbody></table></div></div><p>Здесь есть небольшое расхождение в данных: часть отчётов называет первой плохой версией 7.0.0–41, часть проверяла только -42.</p><h2>Как это работает?</h2><p>Контейнер получает составную метку AppArmor, а правила стандартного профиля разрешают сигналы только для точного имени. Цепочка выглядит так:</p><ol><li><p>В Ubuntu с февраля 2025 года включён параметр ядра kernel.apparmor_restrict_unprivileged_unconfined=1. Он мешает unconfined‑процессу без CAP_MAC_OVERRIDE просто сменить профиль: вместо смены новый профиль накладывается стеком поверх unconfined </p></li><li><p>Коммит 08c2f7c8d4b1 (CVE-2026-90231) закрыл обход этого ограничения и стал применять принудительный стек и при exec.</p></li><li><p>runc сначала сбрасывает capabilities, потом делает exec в процесс контейнера. В результате каждый контейнер со стандартным профилем работает под cri‑containerd.apparmor.d//&amp;unconfined (в Docker — docker‑default//&amp;unconfined).</p></li><li><p>В шаблоне профиля containerd есть только signal (receive) peer=cri‑containerd.apparmor.d и аналогичное правило для ptrace. Составная метка под них не попадает, поэтому ядро отказывает любому сигналу между процессами и даже потоками одного контейнера.</p></li></ol><p>Схематично, механизм работает примерно следующим образом:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f4/e1/be/f4e1be5ed8dc06d5364a0f9a546fcdab.png\" width=\"1280\" height=\"821\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f4/e1/be/f4e1be5ed8dc06d5364a0f9a546fcdab.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/f4/e1/be/f4e1be5ed8dc06d5364a0f9a546fcdab.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Отказ происходит в одной точке — в проверке peer. А дальше каждое приложение ломается по‑своему. Например, Go просто висит: с Go 1.16 syscall.Setuid меняет uid сразу у всех потоков процесса. Рантайм (doAllThreadsSyscall) рассылает каждому потоку сигнал SIGRTMIN+1 через tgkill и ждёт ответа. AppArmor отклоняет tgkill, рантайм ошибку не проверяет и бесконечно вызывает sched_yield. Снаружи это PID 1 с именем gosu, один поток в состоянии R, 100% CPU — и никакого exec в приложение. Визуально в Kubernetes будет бесконечно в статусе 0/1 Running по Readiness пробам и без внятной информации, в чем проблема.</p><p>В треде Launchpad и в разборах других команд это считают намеренным изменением поведения, а не багом ядра: в -43 отката нет. Чинить нужно профиль containerd — именно это делает <a href=\"https://github.com/containerd/containerd/pull/14487\" rel=\"noopener nofollow\">PR #14487</a>, добавляя signal и ptrace для peer={{.Name}}//&amp;unconfined.</p><h3>Как проверить у себя?</h3><p>Хватает пяти команд: три на хосте и две внутри любого контейнера.</p><p>На ноде:</p><pre><code>uname -r                                                # 7.0.0-41 и новее - вы в зоне риска\nsysctl kernel.apparmor_restrict_unprivileged_unconfined # = 1 — вы в зоне риска\njournalctl -k | grep -i 'apparmor=\"DENIED\".*operation=\"signal\"' | tail\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Внутри контейнера (нужен только sh):</p><pre><code>cat /proc/self/attr/current        # ...//&amp;unconfined (enforce) — метка составная\nsleep 30 &amp; kill $! &amp;&amp; echo OK      # Permission denied - вы уже затронуты</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Как чинить?</h3><p>Лучший вариант — исправить профиль containerd на хосте: AppArmor и hardening остаются включены, а приложения не нужно трогать. Остальные способы быстрее, но чем‑то жертвуют.</p><div><div class=\"table\"><table><tbody><tr><td><p align=\"center\"><strong>Способ</strong></p></td><td><p align=\"center\"><strong>Что делает</strong></p></td><td><p align=\"center\"><strong>Цена</strong></p></td><td><p align=\"center\"><strong>Где применили</strong></p></td></tr><tr><td><p align=\"left\">Профиль на хосте</p></td><td><p align=\"left\">Загрузить копию cri‑containerd.apparmor.d с правилами для //&amp;unconfined</p></td><td><p align=\"left\">Нужно разложить на все ноды и убрать после фикса в containerd</p></td><td><p align=\"left\"><a href=\"https://github.com/GiganticMinecraft/seichi_infra/issues/6671\" rel=\"noopener nofollow\">seichi_infra</a>, <a href=\"https://github.com/zeabur-oss/zeabur/issues/254\" rel=\"noopener nofollow\">zeabur</a>, <a href=\"https://github.com/zach-source/nix-fleet/pull/86\" rel=\"noopener nofollow\">nix‑fleet</a></p></td></tr><tr><td><p align=\"left\">sysctl …unconfined=0</p></td><td><p align=\"left\">Возвращает старое поведение перехода профиля</p></td><td><p align=\"left\">Отключает hardening на всём хосте, связанный с CVE-2026-90231</p></td><td><p align=\"left\"><a href=\"https://github.com/AutomatosAI/automatos-ai/issues/1401\" rel=\"noopener nofollow\">AutomatosAI</a></p></td></tr><tr><td><p align=\"left\">Откат на 7.0.0–38 + hold</p></td><td><p align=\"left\">Убирает саму регрессию</p></td><td><p align=\"left\">Нет CVE‑фиксов из -41+; легко случайно обновиться обратно</p></td><td><p align=\"left\"><a href=\"https://github.com/ZetaTwo/infrastructure/issues/2\" rel=\"noopener nofollow\">ZetaTwo</a>, <a href=\"https://github.com/GiganticMinecraft/seichi_infra/issues/6671\" rel=\"noopener nofollow\">seichi_infra</a></p></td></tr><tr><td><p align=\"left\">appArmorProfile: Unconfined на под</p></td><td><p align=\"left\">Снимает AppArmor с конкретного контейнера</p></td><td><p align=\"left\">Поштучно, требует PodSecurity privileged; чарт должен уметь это поле</p></td><td><p align=\"left\">Мы (PXC, Redmine), <a href=\"https://github.com/OneUptime/oneuptime/pull/6418\" rel=\"noopener nofollow\">OneUptime</a></p></td></tr></tbody></table></div></div><h3>Выводы</h3><p>security‑обновление ядра изменило поведение так, что ломается не ядро и не контейнерный рантайм, а их стык. Симптомы при этом специфичны для каждого приложения и на общую причину не указывают. Если вам интересно — рекомендую прочитать разборы и аварии других команд:</p><ul><li><p><a href=\"https://github.com/GiganticMinecraft/seichi_infra/issues/6671\" rel=\"noopener nofollow\">seichi_infra #6671</a> — после перезагрузки kured на -42 легли mariadb и игровые серверы, простой около 7 часов (на японском, самый подробный разбор)</p></li><li><p><a href=\"https://github.com/zeabur-oss/zeabur/issues/254\" rel=\"noopener nofollow\">zeabur #254</a> — три условия срабатывания и профиль‑копия для K3s/RKE2</p></li><li><p><a href=\"https://github.com/stardelt/stardelt-platform/issues/445\" rel=\"noopener nofollow\">stardelt‑platform #445</a> — Postgres и ingress‑nginx, кластер лёг</p></li><li><p><a href=\"https://github.com/AutomatosAI/automatos-ai/issues/1401\" rel=\"noopener nofollow\">AutomatosAI #1401</a> — PostgreSQL в k3s, фикс через sysctl</p></li><li><p><a href=\"https://github.com/henrybro64/real_time_stocks_data_explorer/issues/308\" rel=\"noopener nofollow\">henrybro64 #308</a> — PostgreSQL и gosu после перезагрузки</p></li><li><p><a href=\"https://github.com/runs-on/runner-images-for-aws/issues/116\" rel=\"noopener nofollow\">runs‑on #116</a> и <a href=\"https://github.com/galaxyproject/galaxy/pull/24694\" rel=\"noopener nofollow\">galaxy PR #24694</a> — сломанный CI на раннерах Ubuntu 26.04</p></li><li><p><a href=\"https://github.com/OneUptime/oneuptime/pull/6418\" rel=\"noopener nofollow\">OneUptime PR #6418</a> — Unconfined для e2e‑ворклоадов</p></li><li><p><a href=\"https://github.com/ZetaTwo/infrastructure/issues/2\" rel=\"noopener nofollow\">ZetaTwo infrastructure #2</a> — фиксация ядра на -38</p></li><li><p><a href=\"https://github.com/zach-source/nix-fleet/pull/86\" rel=\"noopener nofollow\">nix‑fleet PR #86</a> — исправленный профиль containerd для k0s</p></li></ul><p>Официальные трекеры:</p><ul><li><p><a href=\"https://launchpad.net/ubuntu/+source/linux/7.0.0-42.42\" rel=\"noopener nofollow\">linux 7.0.0–42.42 на Launchpad</a> — changelog с CVE-2026-90231: apparmor: fix unconfined user namespace restriction forced stack (LP: #2169638)</p></li><li><p><a href=\"https://www.ubuntuupdates.org/package/core/resolute/main/updates/linux\" rel=\"noopener nofollow\">История пакета linux для resolute (ubuntuupdates)</a></p></li><li><p><a href=\"https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2172422\" rel=\"noopener nofollow\">LP #2172422</a> — Go‑программы зависают в setuid (gosu), статус Confirmed, фикса нет</p></li><li><p><a href=\"https://github.com/containerd/containerd/issues/14485\" rel=\"noopener nofollow\">containerd issue #14485</a> — открыт 28.10.2026</p></li><li><p><a href=\"https://github.com/containerd/containerd/pull/14487\" rel=\"noopener nofollow\">containerd PR #14487</a> — фикс профиля, не смержен</p></li><li><p><a href=\"https://github.com/moby/moby/issues/54099\" rel=\"noopener nofollow\">moby issue #54099</a> — то же для docker‑default</p></li><li><p><a href=\"https://github.com/k3s-io/k3s/issues/13625\" rel=\"noopener nofollow\">k3s issue #13625</a> — ранний отчёт об отказах SIGURG при стекинге профилей</p></li></ul><h3>Послесловие: что эта история говорит о безопасности в 2026 году</h3><p>В конце, в качестве послесловия, хотелось бы немного порассуждать на тему безопасности в целом.</p><p>Наш инцидент — маленькая модель всего 2026 года. Исправление CVE было корректным и осмысленным, обновление пришло через все проверки, как и должно. Но в итоге этот патч безопасности превратился в инцидент доступности и чтобы быстро его потушить, мы выключили MAC на базе данных. Замкнутый круг: фикс безопасности → авария → ослабление безопасности. И похоже, такие круги стали нормой. Причина этому — злосчастный ИИ:</p><ol><li><p><strong>Объём перестал быть посильным для людей.</strong> За 19–20 июля ядро Linux опубликовало 432 CVE — при обычных пятидесяти в неделю в 2025-м. В апреле NIST официально перестал анализировать в NVD всё, что не входит в KEV и федеральный список, а Торвальдс назвал закрытую security‑рассылку ядра «почти полностью неуправляемой» (<a href=\"https://www.noze.it/en/insights/432-linux-kernel-cves-two-days/\" rel=\"noopener nofollow\">Noze</a>). Заметная часть потока — находки ИИ‑систем, и CSA называет это «точкой перегиба, а не продолжением тренда» (<a href=\"https://labs.cloudsecurityalliance.org/research/ai-accelerated-patch-wave-enterprise-remediation-model-v1-cs/\" rel=\"noopener nofollow\">CSA</a>).</p></li><li><p><strong>Эксплойт стал быстрее патча.</strong> По DBIR 2026, эксплуатация уязвимостей впервые стала главным вектором первичного доступа, а медианное время полного устранения выросло до 43 дней (<a href=\"https://www.zafran.io/resources/patches-take-weeks-exploits-take-hours-the-2026-dbir-makes-the-math-brutal\" rel=\"noopener nofollow\">Zafran</a>). M‑Trends 2026 оценивает среднее время до эксплуатации в минус семь дней — атаки начинаются до выхода фикса (цитата по CSA).</p></li><li><p><strong>Сами фиксы стали чаще ломаться.</strong> Terra Security посчитала: в 2019–2025 годах лишь 0,2% security‑фиксов на GitHub получали в течение 90 дней повторный advisory о нерабочем патче, в 2026-м — 2,3%. В ядре 3,2% CVE внесены исправлением другой CVE, а в горячих подсистемах вроде net/sched — около 10% (<a href=\"https://www.theregister.com/patches/2026/10/19/security-patches-need-patches-now-that-attackers-have-ai/5303927\" rel=\"noopener nofollow\">The Register</a>). Описаный мной случай формально не «сломанный фикс», но из той же оперы: патч изменил поведение, а экосистема за ним не успела — PR в containerd две недели ждёт ревью.</p></li></ol><p>Можно попытаться найти позитив: удвоение объясняется не только ИИ, но и автоматической выдачей CVE в open source. Из примерно 5 000 CVE ядра за январь‑август ни одна не была эксплуатируемым 0-day. </p><p>Дает ли это надежду на расслабление? Нет. Разбирать CVE ядра по одной уже невозможно, поэтому ядро берут целиком, потоком stable‑обновлений. Но вместе с сотнями никем не эксплуатируемых исправлений в этом потоке приезжают и изменения поведения вроде CVE-2026-90231. Теперь угроза инфраструктуре перешла из категории «ой, не успели запатчить ядро» в «ой, запатчили ядро и не заметили, что уронили прод».</p><p>Класс, нагнали жути. А что это все значит для рядового инфраструктурного инженера на практике?</p><ol><li><p><strong>Теперь обновление ядра — это релиз, а не фоновая задача.</strong> Автоматизация перезагрузок и накатки обновлений нужна, без неё поток патчей не переварить. Но в ней должны быть канареечные релизы, тесты на dev стендах и поведенческие проверки приложений, а не только то, что ноды поднялись.</p></li><li><p><strong>При аварии ослаблять защиту точечно и со сроком.</strong> sysctl=0 на всём или откат на ядро без CVE‑фиксов — это обмен одного риска на другой, просто менее заметный. Каждое исключение — с обоснованием, компенсирующим контролем и датой истечения.</p></li><li><p><strong>Редкие пути кода ломаются первыми.</strong> Работающий сервис может неделями жить на новом ядре, пока не понадобится перезапуск, восстановление или graceful shutdown и тут вас может ждать сюрприз. Такие сервисы нужно прогонять регулярно.</p></li><li><p><strong>Следить не только за CVE, но и за регрессиями.</strong> Первые сигналы про эту историю появились в Launchpad и GitHub за недели до нашей аварии. Если бы мы со своей стороны прочитали статьи на эту тему заранее — избежали бы аварии. Рассылка по ключевым компонентам (ядро, рантайм, операторы БД) дешевле любого простоя. </p></li></ol><p>Безопасность в 2026 году перестала быть вопросом «успели ли мы поставить патч за неделю». Теперь это вопрос того, умеет ли инфраструктура переваривать постоянный поток изменений, иногда ломающих, и при этом не расплачиваться за доступность самой защитой. Теперь скорость обновления без умения быстро заметить и откатить сломанное — это просто быстрая доставка аварий на прод.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "linux"
+    },
+    {
+      "titleHtml": "kubernetes"
+    },
+    {
+      "titleHtml": "containers"
+    },
+    {
+      "titleHtml": "cri"
+    },
+    {
+      "titleHtml": "ubuntu"
+    },
+    {
+      "titleHtml": "docker"
+    },
+    {
+      "titleHtml": "seccomp"
+    },
+    {
+      "titleHtml": "apparmor"
+    },
+    {
+      "titleHtml": "infrastructure"
+    },
+    {
+      "titleHtml": "kernel"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106282/89f093f9b8ab8e0a6b9b95f21c972776/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106282/89f093f9b8ab8e0a6b9b95f21c972776/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106282\\/\"},\"headline\":\"Во имя безопасности: как обновление Ubuntu 26.04 может положить вам прод\",\"datePublished\":\"2026-11-10T21:57:04+03:00\",\"dateModified\":\"2026-11-11T02:19:23+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Добрый день, меня зовут Петр. Обычно я не&nbsp;пишу статьи про&nbsp;баги и инциденты из&nbsp;своей практики, но&nbsp;сегодня хотелось&nbsp;бы описать изменение...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106282\\/#post-content-body\",\"about\":[\"h_devops\",\"h_it-infrastructure\",\"h_kubernetes\",\"h_linux_dev\",\"h_linux\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/08\\/93\\/2e\\/08932e95334b5014dfa4ab623e0a8b7c.png\",\"https:\\/\\/habrastorage.org\\/extt\\/f4\\/e1\\/be\\/f4e1be5ed8dc06d5364a0f9a546fcdab.png\"]}",
+    "metaDescription": "Добрый день, меня зовут Петр. Обычно я не&nbsp;пишу статьи про&nbsp;баги и инциденты из&nbsp;своей практики, но&nbsp;сегодня хотелось&nbsp;бы описать изменение в&nbsp;ядре Ubuntu, которое может...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 10,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

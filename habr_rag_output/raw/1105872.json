@@ -1,0 +1,200 @@
+{
+  "id": "1105872",
+  "timePublished": "2026-11-11T13:04:13+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "AI, СХД, open source: разбираемся, как устроен аппаратный QA",
+  "leadData": {
+    "textHtml": "<p>Пост стал новостью, новость — статьей, а тестирование железа все еще остается тестированием железа. Или и здесь не все так просто?</p><p>На митапе эксперты YADRO поговорят о том, как тестируют аппаратное обеспечение: разберут подходы, инструменты и реальные инженерные задачи.</p><p>Поговорим о том, что происходит за пределами привычных тест-кейсов и как убедиться, что железо готово к работе в реальных условиях.</p>",
+    "imageUrl": "https://habrastorage.org/extt/ed/9a/fe/ed9afe373b64fde097f1ce0f0d80aaa6.png",
+    "buttonTextHtml": "Подробности",
+    "image": {
+      "url": "https://habrastorage.org/extt/ed/9a/fe/ed9afe373b64fde097f1ce0f0d80aaa6.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "1536659",
+    "alias": "yadro_team",
+    "fullname": "YADRO",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/643/716/787/643716787bd18f3c4b710d7530a12579.png",
+    "speciality": "Компания YADRO",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 132,
+      "votesCount": 178
+    },
+    "rating": 27.1,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 255,
+    "score": 9,
+    "votesCount": 7,
+    "votesCountPlus": 7,
+    "votesCountMinus": 0,
+    "reach": 6721,
+    "readers": 152
+  },
+  "hubs": [
+    {
+      "id": "20806",
+      "alias": "yadro",
+      "type": "corporative",
+      "title": "Блог компании YADRO",
+      "titleHtml": "Блог компании YADRO",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "210",
+      "alias": "it_testing",
+      "type": "collective",
+      "title": "Тестирование IT-систем",
+      "titleHtml": "Тестирование IT-систем",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20754",
+      "alias": "tech_events",
+      "type": "collective",
+      "title": "Конференции",
+      "titleHtml": "Конференции",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "4",
+      "alias": "marketing",
+      "title": "Маркетинг",
+      "titleHtml": "Маркетинг"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Пост стал новостью, новость — статьей, а тестирование железа все еще остается тестированием железа. Или и здесь не все так просто? <a href=\"https://events.yadro.com/qa-msk-1126/?utm_source=habr&amp;utm_medium=referral&amp;utm_campaign=enterprise_2026&amp;utm_content=announce_111126&amp;utm_referrer=habr.com\">На митапе</a> эксперты YADRO поговорят о том, как тестируют аппаратное обеспечение: разберут подходы, инструменты и реальные инженерные задачи.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e8/66/97/e8669710d83e22e40111ed5d4e923f92.png\" width=\"780\" height=\"440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e8/66/97/e8669710d83e22e40111ed5d4e923f92.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/e8/66/97/e8669710d83e22e40111ed5d4e923f92.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h2>О митапе</h2><p>Надеемся, что в этот инфоповод мы запрыгнули правильно. На митапе инженеры будут обсуждать тестирование с двух сторон: расскажут о разработке инструментов для QA (TestY TMS) и о проверке сложных инженерных систем. </p><h2>Что в программе?</h2><h3>TestY TMS: что нового в open source-системе управления тестированием</h3><div class=\"persona\"><img class=\"image persona__image\" src=\"https://habrastorage.org/r/w1560/extt/41/d1/b9/41d1b9a782fda77130eccc5dca01e43b.webp\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/41/d1/b9/41d1b9a782fda77130eccc5dca01e43b.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/41/d1/b9/41d1b9a782fda77130eccc5dca01e43b.webp 781w\" loading=\"lazy\" decode=\"async\"/><h5 class=\"persona__heading\">Александр Зырянов</h5><p class=\"persona__text\">YADRO</p></div><p>Доклад будет полезен не только для активных пользователей TestY TMS, но и тем, кто думает о миграции. Система появилась давно (про нее мы рассказывали <a href=\"https://habr.com/ru/companies/yadro/articles/881714/\">тут</a> и <a href=\"https://habr.com/ru/companies/yadro/articles/947812/\">тут</a>) и за это время она активно развивалась как самодостаточное open source-решение. Александр, руководитель проекта, расскажет, какие задачи пользователей они стремились решить и с какими сложностями столкнулись в процессе разработки. А также обсудит новые возможности TMS и немного поговорит о планах.  </p><h3>Как тестируют хранилища данных?</h3><div class=\"persona\"><img class=\"image persona__image\" src=\"https://habrastorage.org/r/w1560/extt/1f/d8/26/1fd826bf8cd364d89d33fdcacbaa9df1.webp\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1f/d8/26/1fd826bf8cd364d89d33fdcacbaa9df1.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/1f/d8/26/1fd826bf8cd364d89d33fdcacbaa9df1.webp 781w\" loading=\"lazy\" decode=\"async\"/><h5 class=\"persona__heading\">Полина Ященко</h5><p class=\"persona__text\">YADRO</p></div><p>Системы хранения данных (СХД) обеспечивают работу современной телекоммуникационной инфраструктуры. Их тестирование — закрытая и узкоспециализированная область, скрытая от глаз большинства IT-специалистов. Полина расскажет, как устроены хранилища данных, на что обращать внимание при их тестировании и с какими неочевидными кейсами столкнулась на практике.</p><h3>Когда пользователь не человек: тестирование MCP-серверов</h3><div class=\"persona\"><img class=\"image persona__image\" src=\"https://habrastorage.org/r/w1560/extt/57/97/81/5797815c9b89e27f24765cddc556c9c4.webp\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/57/97/81/5797815c9b89e27f24765cddc556c9c4.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/57/97/81/5797815c9b89e27f24765cddc556c9c4.webp 781w\" loading=\"lazy\" decode=\"async\"/><h5 class=\"persona__heading\"> Левон Авакимянц  </h5><p class=\"persona__text\">Сбербанк</p></div><p>MCP-сервер (Model Context Protocol Server) — это легковесная программа, которая подключает искусственный интеллект к внешним данным, инструментам и системам через единый стандартный протокол. </p><p>Левон расскажет, как AI-агент взаимодействует с инструментами и почему даже правильно выбранный тул не гарантирует успеха.</p><blockquote><p><strong>Кому будет интересно?</strong></p><p>QA-инженерам, которые интересуются встраиваемыми системами, сетями и тестированием сложных программно-аппаратных решений.</p><p><strong>Где?</strong></p><p>Офлайн в Москве и онлайн (запись будет).</p><p><strong>Когда?</strong></p><p>19 ноября (четверг), с 18:00 до 23:00.</p><p><strong>Как попасть?</strong></p><p>👉 <a href=\"https://events.yadro.com/qa-msk-1126/?utm_source=habr&amp;utm_medium=referral&amp;utm_campaign=enterprise_2026&amp;utm_content=announce_111126&amp;utm_referrer=habr.com\">Зарегистрироваться на митап</a>.</p></blockquote></div>",
+  "tags": [
+    {
+      "titleHtml": "qa"
+    },
+    {
+      "titleHtml": "митапы"
+    },
+    {
+      "titleHtml": "москва"
+    },
+    {
+      "titleHtml": "тестирование"
+    },
+    {
+      "titleHtml": "тестирование схд"
+    },
+    {
+      "titleHtml": "железо"
+    },
+    {
+      "titleHtml": "аппаратное обеспечение"
+    },
+    {
+      "titleHtml": "testy"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105872/25dfa3534baa87cb12ec1e5107da9c1e/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105872/25dfa3534baa87cb12ec1e5107da9c1e/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/yadro\\/articles\\/1105872\\/\"},\"headline\":\"AI, СХД, open source: разбираемся, как устроен аппаратный QA\",\"datePublished\":\"2026-11-11T16:04:13+03:00\",\"dateModified\":\"2026-11-12T19:58:22+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Пост стал новостью, новость — статьей, а тестирование железа все еще остается тестированием железа. Или и здесь не все так просто? На митапе эксперты YADRO...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/yadro\\/articles\\/1105872\\/#post-content-body\",\"about\":[\"c_yadro\",\"h_it_testing\",\"h_tech_events\",\"f_develop\",\"f_marketing\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/e8\\/66\\/97\\/e8669710d83e22e40111ed5d4e923f92.png\",\"https:\\/\\/habrastorage.org\\/extt\\/41\\/d1\\/b9\\/41d1b9a782fda77130eccc5dca01e43b.webp\",\"https:\\/\\/habrastorage.org\\/extt\\/1f\\/d8\\/26\\/1fd826bf8cd364d89d33fdcacbaa9df1.webp\",\"https:\\/\\/habrastorage.org\\/extt\\/57\\/97\\/81\\/5797815c9b89e27f24765cddc556c9c4.webp\"]}",
+    "metaDescription": "Пост стал новостью, новость — статьей, а тестирование железа все еще остается тестированием железа. Или и здесь не все так просто? На митапе эксперты YADRO поговорят о том, как тестируют аппаратное...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "18",
+    "title": "Тестирование",
+    "alias": "quality_assurance"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

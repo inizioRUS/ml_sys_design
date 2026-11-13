@@ -1,0 +1,237 @@
+{
+  "id": "1106120",
+  "timePublished": "2026-11-10T13:30:05+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Энтузиаст запустил DeepSeek-V4-Flash на ПК без видеокарты",
+  "leadData": {
+    "textHtml": "<p>Проект <a href=\"https://github.com/synchopate/llama-modchip\">llama-modchip</a> выложен под Apache 2.0. Это набор патчей для ядер ggml/llama.cpp, инструменты квантования и скрипты, которые позволяют гонять разреженные MoE-модели прямо на процессоре. Автор утверждает, что DeepSeek-V4-Flash (284 млрд параметров, из них 13 млрд активных) работает на машине с 64 ГБ оперативной памяти: без видеокарты и без свопа. Разбираю, что у него получилось ниже.</p>",
+    "imageUrl": "https://habrastorage.org/extt/24/ce/2a/24ce2a34920b81bbc08493f53051dff4.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/24/ce/2a/24ce2a34920b81bbc08493f53051dff4.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "4038794",
+    "alias": "techno_mot",
+    "fullname": "Матвей Чернов",
+    "avatarUrl": "//habrastorage.org/extt/b3/f5/a5/b3f5a578217a50f7e5375281a5f9a152.jpg",
+    "speciality": "Инженер, который утащил ИИ в маркетинг",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 107,
+      "votesCount": 177
+    },
+    "rating": 225.2,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/mmmotomotoo",
+        "value": "mmmotomotoo",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/mmmotomotoo",
+        "value": "mmmotomotoo",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 9,
+    "favoritesCount": 21,
+    "readingCount": 4677,
+    "score": 28,
+    "votesCount": 21,
+    "votesCountPlus": 19,
+    "votesCountMinus": 2,
+    "reach": 12880,
+    "readers": 3651
+  },
+  "hubs": [
+    {
+      "id": "14740",
+      "alias": "selectel",
+      "type": "corporative",
+      "title": "Блог компании Selectel",
+      "titleHtml": "Блог компании Selectel",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20688",
+      "alias": "research",
+      "type": "collective",
+      "title": "Исследования и прогнозы в IT",
+      "titleHtml": "Исследования и прогнозы в IT",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "22026",
+      "alias": "itcompanies",
+      "type": "collective",
+      "title": "IT-компании",
+      "titleHtml": "IT-компании",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/24/ce/2a/24ce2a34920b81bbc08493f53051dff4.jpg\" width=\"750\" height=\"422\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/24/ce/2a/24ce2a34920b81bbc08493f53051dff4.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/24/ce/2a/24ce2a34920b81bbc08493f53051dff4.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Проект <a href=\"https://github.com/synchopate/llama-modchip\">llama-modchip</a> выложен под Apache 2.0. Это набор патчей для ядер ggml/llama.cpp, инструменты квантования и скрипты, которые позволяют гонять разреженные MoE-модели прямо на процессоре. Автор утверждает, что DeepSeek-V4-Flash (284 млрд параметров, из них 13 млрд активных) работает на машине с 64 ГБ оперативной памяти: без видеокарты и без свопа. Разбираю, что у него получилось ниже.</p><h2>Что получилось</h2><p>Пиковое потребление памяти около 58 ГБ при контексте 256 000 токенов. Префилл, то есть «прочтение» запроса, идет со скоростью 44 токена в секунду, генерация дает от 9 до 15 токенов в секунду. Тестировали все это дело на 16-ядерном Ryzen<sup>TM</sup> 9 9955HX. Для сравнения: это примерно тот темп, в котором текст еще удобно читать по мере появления на экране.</p><h2>Почему это вообще возможно</h2><p>Здесь сошлись два приема, первый заложен в самой модели. MoE (mixture of experts) похожа на большую библиотеку, где на каждый вопрос открывают только нужные книги-эксперты. Параметров у DeepSeek-V4-Flash 284 млрд, но на каждый токен работает лишь 13 млрд, так что по вычислениям она ближе к моделям среднего размера. Проблема в другом: хранить нужно все 284 млрд, и именно память обычно упирается в потолок.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c9/52/fb/c952fb0e247d807655781b1dcde1e714.png\" alt=\"Источник.\" title=\"Источник.\" width=\"833\" height=\"474\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c9/52/fb/c952fb0e247d807655781b1dcde1e714.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c9/52/fb/c952fb0e247d807655781b1dcde1e714.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><a href=\"https://github.com/synchopate/llama-modchip\"><em>Источник</em></a>.</figcaption></div></figure><p>Второй прием делает автор проекта: агрессивное квантование маршрутизируемых экспертов, до 1,56 бита на вес по схеме IQ1_S, плюс собственный формат файлов. 284 млрд весов по полтора бита с небольшим дают чуть больше 50 ГБ, и в 64 ГБ это уже помещается.</p><h2>Где подвох</h2><p>Слово «lossless» в README автора означает только то, что логиты совпадают с непропатченной сборкой на тех же квантованных весах. С полноточной моделью никто не сравнивал, а при 1,56 бита на вес потеря качества почти наверняка есть, вопрос лишь в ее размере. Все цифры получены самим автором, независимых повторов пока нет. Квантованные файлы не открываются в обычных llama.cpp, Ollama и LM Studio: нужна именно сборка проекта.</p><h2>Почему это стоит отметить</h2><p>Спрос на HBM и DRAM растет, а рынок памяти и видеокарты переживают не лучшие времена. Если такие сборки подтвердятся, локальный инференс моделей уровня фронтира прошлого года уйдет с дорогих GPU на домашние ПК и серверы. </p><blockquote><p><strong>Как считаете, софтверная оптимизация вроде этой, поможет уменьшить зависимость от видеокарт, или это просто красивая игрушка для энтузиастов?</strong> Жду ваше мнение в комментариях.</p></blockquote><div class=\"floating-image\"><figure class=\"float \"><img src=\"https://habrastorage.org/getpro/habr/upload_files/872/b78/ec9/872b78ec933ec8074db743484f4064c9.gif\" alt=\"\" title=\"\" width=\"200\" height=\"200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/getpro/habr/upload_files/872/b78/ec9/872b78ec933ec8074db743484f4064c9.gif 780w,&#10;       https://habrastorage.org/getpro/habr/upload_files/872/b78/ec9/872b78ec933ec8074db743484f4064c9.gif 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Token Factory: инференс открытых ИИ‑моделей на серверах в РФ</strong></p><p>Подключайте GLM, DeepSeek, Qwen и Kimi через OpenAI‑совместимый API и платите в рублях только за используемые токены. </p><p><a href=\"https://nogpu_101126_banner_ord\"><strong>Подробнее →</strong></a><strong> </strong></p></div></div>",
+  "tags": [
+    {
+      "titleHtml": "ai"
+    },
+    {
+      "titleHtml": "ml"
+    },
+    {
+      "titleHtml": "llama-modchip"
+    },
+    {
+      "titleHtml": "apache 2.0"
+    },
+    {
+      "titleHtml": "deepseek-v4-flash"
+    },
+    {
+      "titleHtml": "DeepSeek"
+    },
+    {
+      "titleHtml": "видеокарта"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106120/694609101e943bdb3d016cb1c105fdab/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106120/694609101e943bdb3d016cb1c105fdab/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/selectel\\/articles\\/1106120\\/\"},\"headline\":\"Энтузиаст запустил DeepSeek-V4-Flash на ПК без видеокарты\",\"datePublished\":\"2026-11-10T16:30:05+03:00\",\"dateModified\":\"2026-11-11T21:53:00+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Проект llama-modchip выложен под Apache 2.0. Это набор патчей для ядер ggml\\/llama.cpp, инструменты квантования и скрипты, которые позволяют гонять разреженные...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/selectel\\/articles\\/1106120\\/#post-content-body\",\"about\":[\"c_selectel\",\"h_artificial_intelligence\",\"h_machine_learning\",\"h_research\",\"h_itcompanies\",\"f_develop\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/24\\/ce\\/2a\\/24ce2a34920b81bbc08493f53051dff4.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/c9\\/52\\/fb\\/c952fb0e247d807655781b1dcde1e714.png\",\"https:\\/\\/habrastorage.org\\/getpro\\/habr\\/upload_files\\/872\\/b78\\/ec9\\/872b78ec933ec8074db743484f4064c9.gif\"]}",
+    "metaDescription": "Проект llama-modchip выложен под Apache 2.0. Это набор патчей для ядер ggml/llama.cpp, инструменты квантования и скрипты, которые позволяют гонять разреженные MoE-модели прямо на процессоре. Автор...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

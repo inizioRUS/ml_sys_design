@@ -1,0 +1,200 @@
+{
+  "id": "1105788",
+  "timePublished": "2026-11-10T07:47:34+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "В сетевом оборудовании Zyxel обнаружили уязвимость с повышением привилегий из локальной сети",
+  "leadData": {
+    "textHtml": "<p>Компания Zyxel <a href=\"https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-out-of-bounds-write-vulnerability-in-gs1900-series-switches-11-03-2026\" rel=\"noopener nofollow\">устранила</a> уязвимость нулевого дня в&nbsp;сетевых коммутаторах серии GS1900. Злоумышленники использовали её для&nbsp;компрометации почти 1000&nbsp;устройств по&nbsp;всему миру, похищая файлы конфигурации и учётные данные.</p>",
+    "imageUrl": "https://habrastorage.org/extt/65/e7/e7/65e7e79d56627d92fec67f0e134f98ea.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/65/e7/e7/65e7e79d56627d92fec67f0e134f98ea.jpg",
+      "fit": "cover",
+      "positionY": 23,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2176401",
+    "alias": "maybe_elf",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/592/11d/4bc/59211d4bcd7f9afdadaef515b2b0706d.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 345,
+      "votesCount": 1085
+    },
+    "rating": 467.6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 1036,
+    "score": 7,
+    "votesCount": 3,
+    "votesCountPlus": 3,
+    "votesCountMinus": 0,
+    "reach": 6398,
+    "readers": 844
+  },
+  "hubs": [
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21958",
+      "alias": "network_hardware",
+      "type": "collective",
+      "title": "Сетевое оборудование",
+      "titleHtml": "Сетевое оборудование",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "17123",
+      "alias": "network_technologies",
+      "type": "collective",
+      "title": "Сетевые технологии",
+      "titleHtml": "Сетевые технологии",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Компания Zyxel <a href=\"https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-out-of-bounds-write-vulnerability-in-gs1900-series-switches-11-03-2026\" rel=\"noopener nofollow\">устранила</a> уязвимость нулевого дня в сетевых коммутаторах серии GS1900. Злоумышленники использовали её для компрометации почти 1000 устройств по всему миру, похищая файлы конфигурации и учётные данные.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/65/e7/e7/65e7e79d56627d92fec67f0e134f98ea.jpg\" width=\"480\" height=\"360\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/65/e7/e7/65e7e79d56627d92fec67f0e134f98ea.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/65/e7/e7/65e7e79d56627d92fec67f0e134f98ea.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Уязвимость, зарегистрированная под идентификатором CVE-2026-107441, представляет собой ошибку записи за пределами буфера (out‑of‑bounds write) в веб‑интерфейсе управления коммутаторами. Она позволяет неавторизованному злоумышленнику, имеющему доступ к сети, выполнять команды операционной системы с помощью специально сформированных HTTP‑запросов.</p><p>Проблема затрагивает десять моделей коммутаторов серии GS1900. Компания Zyxel выпустила обновления безопасности 22 октября, а 3 ноября опубликовала соответствующее уведомление.</p><p>При этом изначально уязвимость ошибочно приняли за другую, более старую проблему, которую Zyxel исправила за несколько месяцев до начала атак. Ещё 16 июня компания <a href=\"https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/\" rel=\"noopener nofollow\">выпустила</a> обновления для устранения CVE-2026-7273 — бага переполнения буфера, возникающего до этапа аутентификации и затрагивающего те же коммутаторы серии GS1900.</p><p>Примерно с 17 августа компания GreyNoise, специализирующаяся на кибербезопасности, зафиксировала активность группировки, получившей название Kapibala. Злоумышленники атаковали коммутаторы Zyxel, скомпрометировав 996 устройств в 48 странах.</p><p>В ходе атак злоумышленники выполняли команды удалённо, после чего загружали скрипт, который собирал конфигурации устройств, хешированные корневые учётные данные и сетевую информацию.</p><p>По данным GreyNoise, группировка Kapibala, предположительно, действует из Китая и связана с хакерской кампанией Red Heron. Ранее компания Acronis сообщала, что участники этой кампании использовали критическую уязвимость в Gitea — сервисе для хостинга Git‑репозиториев.</p><p>Когда 21 сентября GreyNoise раскрыла информацию об этой кампании, она связала атаки с уязвимостью CVE-2026-7273 — той самой, которую Zyxel исправила ещё в июне.</p><p>В тот же день Агентство по кибербезопасности и защите инфраструктуры США (CISA) <a href=\"https://nvd.nist.gov/vuln/detail/cve-2026-76955\" rel=\"noopener nofollow\">внесло</a> CVE-2026-7273 в каталог известных эксплуатируемых уязвимостей, обязав федеральные ведомства принять меры по устранению этой угрозы.</p><p>Однако исследователи из компании Binarly, специализирующейся на безопасности прошивок, <a href=\"https://www.binarly.io/blog/zyxel-gs1900-rce-cve-2026-107441\" rel=\"noopener nofollow\">выяснили</a>, что эксплойт, применявшийся в атаках, на самом деле был нацелен на другой, ранее неизвестный баг, который на тот момент оставался неисправленным. В ходе исследования инфраструктуры Red Heron, связанной с бэкдором JITTERLY и руткитом SIXZUT, специалисты компании Binarly обнаружили доступный архив, содержащий обфусцированный эксплойт на языке Python.</p><p>Анализ эксплойта показал, что он специально проверяет наличие версий прошивки, в которых была устранена уязвимость CVE-2026-7273. Это свидетельствует о том, что эксплойт был разработан или обновлён именно для атаки на эти версии.</p><p>28 сентября Binarly подтвердила, что эксплойт сохраняет свою эффективность против всех десяти версий прошивок, в которых была исправлена ​​уязвимость CVE-2026-7273.</p><p>Исследователи установили, что предыдущее обновление безопасности содержало проверки, призванные предотвратить переполнение буфера, однако злоумышленники могли обойти их, изменив значение счётчика параметров до того, как он проходил проверку.</p><p>Это позволяло эксплойту перезаписывать память и выполнять команды без прохождения аутентификации — даже на тех коммутаторах, где были установлены предыдущие обновления безопасности.</p><p>29 сентября Binarly сообщила о своих находках Zyxel. 11 октября производитель подтвердил наличие новой уязвимости, присвоив ей идентификатор CVE-2026-107441.</p><p>Zyxel классифицировала эту проблему как отдельную уязвимость, поскольку эксплойт также использовал отсутствие проверки длины HTTP‑параметров.</p><p>22 октября она выпустила новые обновления прошивки, которые ограничивают размер параметров и проверяют их количество перед копированием данных в память, что делает данный метод эксплуатации невозможным.</p><p>Хотя обнаруженный эксплойт был нацелен именно на прошивки, в которых была устранена уязвимость CVE-2026-7273, остается неясным, был ли он специально создан для обхода этих исправлений или же использовал связанную уязвимость, которую предыдущие патчи не затронули.</p><p>Администраторам коммутаторов порекомендовали установить последние обновления прошивки для защиты от уязвимости CVE-2026-107441.</p><p>В феврале в Zyxel <a href=\"https://habr.com/ru/articles/1003636/\" rel=\"noopener nofollow\">сообщили</a> о проблеме в прошивке ряда своих устройств. Речь шла о критической уязвимости CVE-2025-13942 в функции UPnP, которая позволяет удалённо выполнять команды на уязвимом маршрутизаторе. Уязвимыми оказались модели 4G LTE/5G NR CPE, DSL/Ethernet CPE, оптические терминалы Fiber ONT и беспроводные расширители.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "zyxel"
+    },
+    {
+      "titleHtml": "коммутаторы"
+    },
+    {
+      "titleHtml": "сетевое оборудование"
+    },
+    {
+      "titleHtml": "уязвимости"
+    },
+    {
+      "titleHtml": "хакеры"
+    },
+    {
+      "titleHtml": "кража данных"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    },
+    {
+      "titleHtml": "инфослужба хабра"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105788/fe9b28a39829a36fdeb4f75c145191c7/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105788/fe9b28a39829a36fdeb4f75c145191c7/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105788\\/\"},\"headline\":\"В сетевом оборудовании Zyxel обнаружили уязвимость с повышением привилегий из локальной сети\",\"datePublished\":\"2026-11-10T10:47:34+03:00\",\"dateModified\":\"2026-11-10T10:57:31+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Компания Zyxel устранила уязвимость нулевого дня в&nbsp;сетевых коммутаторах серии GS1900. Злоумышленники использовали её для&nbsp;компрометации почти...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105788\\/#post-content-body\",\"about\":[\"h_infosecurity\",\"h_network_hardware\",\"h_network_technologies\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/65\\/e7\\/e7\\/65e7e79d56627d92fec67f0e134f98ea.jpg\"]}",
+    "metaDescription": "Компания Zyxel устранила уязвимость нулевого дня в&nbsp;сетевых коммутаторах серии GS1900. Злоумышленники использовали её для&nbsp;компрометации почти 1000&nbsp;устройств по&nbsp;всему миру, похищая...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

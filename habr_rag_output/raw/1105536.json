@@ -1,0 +1,188 @@
+{
+  "id": "1105536",
+  "timePublished": "2026-11-09T14:22:13+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Cron запустил задачу дважды: как flock не даёт наложиться двум копиям скрипта",
+  "leadData": {
+    "textHtml": "<p>Задача в crontab ещё не закончилась, а следующий запуск уже стартовал: два START, два конкурирующих UPDATE. Воспроизводим на Linux, закрываем гонку через flock из util-linux, сравниваем «пропустить» и «подождать», и показываем тот же приём из Python через fcntl.flock. Весь вывод — с локального стенда.</p>",
+    "imageUrl": "https://habrastorage.org/extt/21/40/e1/2140e154f41d576f8c291a4ea37cbd8a.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/21/40/e1/2140e154f41d576f8c291a4ea37cbd8a.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5903928",
+    "alias": "nikita-practice",
+    "fullname": "Субконто",
+    "avatarUrl": "//habrastorage.org/extt/11/db/b4/11dbb407232afa31ce36170cd61d31cc.png",
+    "speciality": "Разработка на 1С, Битрикс24 и веб · Субконто",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 2,
+      "votesCount": 6
+    },
+    "rating": 17,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 3,
+    "favoritesCount": 8,
+    "readingCount": 362,
+    "score": 1,
+    "votesCount": 3,
+    "votesCountPlus": 2,
+    "votesCountMinus": 1,
+    "reach": 6700,
+    "readers": 259
+  },
+  "hubs": [
+    {
+      "id": "36",
+      "alias": "linux",
+      "type": "collective",
+      "title": "Настройка Linux",
+      "titleHtml": "Настройка Linux",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20788",
+      "alias": "devops",
+      "type": "collective",
+      "title": "DevOps",
+      "titleHtml": "DevOps",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Задача в crontab стоит каждые пять минут. Обычно она укладывается в две. Ночью база отвечала дольше, запуск ещё не закончился — и cron спокойно стартовал следующий. В логе два <code>START</code> с разницей в доли секунды, два одинаковых отчёта, два конкурирующих <code>UPDATE</code>. Никакого «бага cron»: расписание сработало ровно так, как написано.</p><p>Ниже воспроизведём это на обычном Linux, закроем гонку через <code>flock</code> из util-linux, сравним режимы «пропустить» и «подождать», и покажем тот же приём из Python через <code>fcntl.flock</code>. Весь вывод — с локального стенда: Bash 5.2, util-linux 2.41.5, Python 3.13.</p><h3>Что именно ломается</h3><p><code>cron</code> не знает и не обязан знать, жив ли предыдущий процесс. Для него каждая строка crontab — независимый запуск по времени. Если интервал короче длительности работы, или работа иногда растягивается, появятся параллельные копии.</p><p>Проверка «есть ли pid-файл?» не спасает сама по себе: между <code>test -f</code> и записью нового pid два процесса могут пройти проверку одновременно. Нужна атомарная блокировка на уровне ядра, а не договорённость «сначала посмотрим в файл».</p><h3>Учебный скрипт</h3><p>Один файл, три режима. Сохраните как <code>job.sh</code> и сделайте исполняемым. Логи и lock-файл лежат рядом со скриптом. Никаких внешних пакетов.</p><pre><code class=\"bash\">#!/usr/bin/env bash\nset -euo pipefail\nROOT=\"$(cd \"$(dirname \"$0\")\" &amp;&amp; pwd)\"\nLOG=\"$ROOT/job.log\"\nLOCK=\"$ROOT/job.lock\"\n\nstamp() { date '+%H:%M:%S.%3N'; }\n\nrun_body() {\n  echo \"[$(stamp)] START pid=$$\" | tee -a \"$LOG\"\n  echo \"$$\" &gt;&gt; \"$ROOT/runs.txt\"\n  sleep 1.5\n  echo \"[$(stamp)] END   pid=$$\" | tee -a \"$LOG\"\n}\n\nmode=\"${1:-plain}\"\ncase \"$mode\" in\n  plain)\n    run_body\n    ;;\n  flock-n)\n    exec 9&gt;\"$LOCK\"\n    if ! flock -n 9; then\n      echo \"[$(stamp)] SKIP pid=$$ (lock busy)\" | tee -a \"$LOG\"\n      exit 0\n    fi\n    run_body\n    ;;\n  flock-wait)\n    exec 9&gt;\"$LOCK\"\n    flock 9\n    run_body\n    ;;\n  *)\n    echo \"usage: $0 plain|flock-n|flock-wait\" &gt;&amp;2\n    exit 2\n    ;;\nesac\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p><code>sleep 1.5</code> имитирует работу. В реальной задаче здесь бэкап, сверка, выгрузка — что угодно дольше интервала crontab.</p><p>Запускаем две копии почти одновременно:</p><pre><code class=\"bash\">./job.sh plain &amp; ./job.sh plain &amp; wait\ncat job.log\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>На стенде получилось:</p><pre><code>[19:16:48.486] START pid=374253\n[19:16:48.486] START pid=374254\n[19:16:49.989] END   pid=374254\n[19:16:49.989] END   pid=374253\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Оба старта в одну миллисекунду. В <code>runs.txt</code> две строки. Это и есть «cron запустил дважды», только без ожидания пяти минут.</p><h3>Исправление: flock -n и выход</h3><p>Режим <code>flock-n</code> открывает lock-файл на дескрипторе 9 и берёт эксклюзивную блокировку без ожидания (<code>-n</code> / <code>--nonblock</code>). Если файл уже занят — пишем <code>SKIP</code> и выходим с кодом 0, чтобы cron не считал это аварией задачи.</p><pre><code class=\"bash\">./job.sh flock-n &amp; ./job.sh flock-n &amp; wait\ncat job.log\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><pre><code>[19:16:49.999] START pid=374328\n[19:16:49.999] SKIP pid=374327 (lock busy)\n[19:16:51.501] END   pid=374328\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>В <code>runs.txt</code> одна строка. Второй процесс увидел занятый lock и не вошёл в тело задачи.</p><p>Важно: блокировка держится на открытом файловом дескрипторе, а не на «имени файла как строке». Пока процесс жив и дескриптор открыт, второй <code>flock -n</code> на тот же inode получит отказ. Когда процесс завершится, ядро снимет блокировку само — отдельный <code>flock -u</code> в конце скрипта для этого сценария не обязателен.</p><h3>Когда лучше ждать, а не пропускать</h3><p>Иногда пропуск вреден: отчёт должен выполниться, просто не параллельно. Тогда берём блокирующий <code>flock</code> без <code>-n</code>:</p><pre><code class=\"bash\">./job.sh flock-wait &amp; ./job.sh flock-wait &amp; wait\ncat job.log\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><pre><code>[19:16:51.511] START pid=374360\n[19:16:53.015] END   pid=374360\n[19:16:53.017] START pid=374361\n[19:16:54.521] END   pid=374361\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Два запуска, но строго подряд. Суммарное время около трёх секунд вместо полутора. Для cron это значит: если задача регулярно не укладывается в интервал, очередь будет расти. Пропуск (<code>-n</code>) в таких случаях честнее, чем бесконечное накопление отставания.</p><h3>Одна строка в crontab</h3><p>Тот же эффект без правки скрипта — через обёртку <code>flock</code> из util-linux:</p><pre><code>*/5 * * * * flock -n /var/lock/my-job.lock -c '/opt/jobs/job.sh plain'\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>На стенде первый вызов взял lock и отработал, второй сразу вернул код 1:</p><pre><code>second_exit=1\n[19:16:54.532] START pid=374423\n[19:16:56.035] END   pid=374423\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Код 1 — штатный ответ <code>flock -n</code>, когда lock занят (это не падение вашего скрипта: до <code>-c</code> дело не дошло). Если мониторинг crontab реагирует на ненулевой код, либо пишите обёртку как в режиме <code>flock-n</code> выше (там мы сами решаем <code>exit 0</code>), либо задайте код конфликту через <code>-E</code>:</p><pre><code class=\"bash\">flock -n -E 0 /var/lock/my-job.lock -c '/opt/jobs/job.sh plain'\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Тогда «занято» тоже завершится нулём. Выбирайте осознанно: нулевой код при пропуске удобен для cron, но прячет факт пропуска от алерта «задача не стартовала».</p><p>Путь к <code>flock</code> в crontab лучше указывать абсолютный, если <code>PATH</code> у cron урезан. Lock-файл кладите на локальную файловую систему того хоста, где крутится задача.</p><h3>Тот же приём из Python</h3><p>Если воркер уже на Python, блокировку можно взять через <code>fcntl.flock</code> — это тот же механизм advisory locks ядра Linux, что использует утилита <code>flock</code>.</p><pre><code class=\"python\">import fcntl\nimport os\nimport time\nfrom concurrent.futures import ThreadPoolExecutor\nfrom pathlib import Path\n\nlock_path = Path('py.lock')\nlock_path.write_bytes(b'')\n\ndef worker(i: int) -&gt; str:\n    fd = os.open(lock_path, os.O_RDWR)\n    try:\n        fcntl.flock(fd, fcntl.LOCK_EX | fcntl.LOCK_NB)\n        time.sleep(0.4)\n        fcntl.flock(fd, fcntl.LOCK_UN)\n        return f'ok-{i}'\n    except BlockingIOError:\n        return f'skip-{i}'\n    finally:\n        os.close(fd)\n\nwith ThreadPoolExecutor(max_workers=8) as ex:\n    outs = list(ex.map(worker, range(8)))\n\nprint(outs)\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>На стенде:</p><pre><code>['skip-0', 'ok-1', 'skip-2', 'skip-3', 'skip-4', 'skip-5', 'skip-6', 'skip-7']\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Один <code>ok</code>, семь <code>skip</code>. Кто именно успел первым — зависит от планировщика; гарантия только в том, что эксклюзивный non-blocking lock получает не больше одного участника.</p><p>Для долгой задачи обычно держат lock на всё время работы и отпускают в <code>finally</code>. Не смешивайте без нужды «короткий lock вокруг проверки» и «долгую работу снаружи»: снова получите окно между проверкой и действием.</p><h3>Что flock не обещает</h3><p><strong>Это advisory lock.</strong> Процесс, который не вызывает <code>flock</code>/<code>fcntl</code>, спокойно прочитает и перезапишет те же данные. Защита работает только между участниками договора.</p><p><strong>Сеть и NFS.</strong> Поведение блокировок на сетевых ФС зависит от сервера, клиента и версии. Для cron-задачи lock-файл должен жить на локальном диске той машины, где запускается процесс. Общий NFS-путь «на всякий случай» — плохая идея, пока вы отдельно не проверили семантику lock на своём стеке.</p><p><strong>Несколько серверов.</strong> <code>flock</code> на локальном файле не синхронизирует два хоста. Если одна и та же crontab крутится на трёх нодах, нужен распределённый механизм (блокировка в БД, аренда в etcd/Consul, очередь с одним потребителем) — это уже другая задача.</p><p><strong>Удаление lock-файла.</strong> Снять блокировку чужого процесса, удалив путь, нельзя: блокировка привязана к открытому дескриптору. Новый файл с тем же именем — другой inode; старый процесс продолжит держать свой lock, а новый может получить «свой» файл. На практике lock-файл создают один раз и не удаляют в горячем пути.</p><p><strong>systemd timer.</strong> У unit-файла есть <code>RefuseManualStart</code>, но важнее <code>Type=</code> и запрет параллельного запуска через <code>flock</code> или через сам unit (<code>systemctl</code> не стартует второй instance того же oneshot, пока живёт предыдущий — при правильной схеме). Если остаётесь на cron, <code>flock</code> остаётся самым коротким щитом.</p><h3>Как проверить у себя за минуту</h3><ol><li><p>Поставьте в crontab интервал короче <code>sleep</code> внутри задачи, либо запустите две копии вручную, как выше.</p></li><li><p>Убедитесь, что без lock в логе два <code>START</code>.</p></li><li><p>Добавьте <code>flock -n</code> (в скрипт или в строку crontab).</p></li><li><p>Повторите: один <code>START</code>, один <code>SKIP</code> или ненулевой код обёртки.</p></li><li><p>Решите заранее: пропуск или ожидание. Для отчётов «раз в N минут» обычно нужен пропуск; для цепочки «обязательно догнать» — ожидание плюс алерт на длительность.</p></li></ol><h3>Вопрос в зал</h3><p>У вас cron-задачи защищены от наложений? Если да — чем именно: <code>flock</code>, pid-файл, уникальный индекс в БД, systemd, очередь? И был ли случай, когда защита была, а дубль всё равно прошёл — из-за NFS, второго хоста или «умного» удаления lock-файла?</p></div>",
+  "tags": [
+    {
+      "titleHtml": "Linux"
+    },
+    {
+      "titleHtml": "cron"
+    },
+    {
+      "titleHtml": "flock"
+    },
+    {
+      "titleHtml": "Bash"
+    },
+    {
+      "titleHtml": "Python"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105536/129dfa185445c7f14f5b358fe20474ca/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105536/129dfa185445c7f14f5b358fe20474ca/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105536\\/\"},\"headline\":\"Cron запустил задачу дважды: как flock не даёт наложиться двум копиям скрипта\",\"datePublished\":\"2026-11-09T17:22:13+03:00\",\"dateModified\":\"2026-11-10T18:36:19+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Задача в crontab стоит каждые пять минут. Обычно она укладывается в две. Ночью база отвечала дольше, запуск ещё не закончился — и cron спокойно стартовал...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105536\\/#post-content-body\",\"about\":[\"h_linux\",\"h_programming\",\"h_devops\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105536\\/129dfa185445c7f14f5b358fe20474ca\\/\"]}",
+    "metaDescription": "Задача в crontab стоит каждые пять минут. Обычно она укладывается в две. Ночью база отвечала дольше, запуск ещё не закончился — и cron спокойно стартовал следующий. В логе два START с разницей в доли...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,215 @@
+{
+  "id": "1106202",
+  "timePublished": "2026-11-11T08:00:19+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Как оптимизировать текущие мощности кластера, чтобы не переплачивать за новые узлы? Или всё-таки расширять?",
+  "leadData": {
+    "textHtml": "<p>Когда нагрузка растёт, а ресурсов в кластере остаётся всё меньше, кажется, что пора добавлять новые узлы. Но часто текущая инфраструктура способна на большее, если оптимизировать использование уже доступных мощностей.  </p><p>Расскажем, как точнее оценивать реальный объём доступных ресурсов, настраивать запросы приложений и выбирать подход к распределению нагрузки.</p>",
+    "imageUrl": "https://habrastorage.org/extt/10/9d/42/109d42ca2d6f49fcd06742cd53dc1710.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/10/9d/42/109d42ca2d6f49fcd06742cd53dc1710.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "274953",
+    "alias": "AlexGraff",
+    "fullname": "Алексей Бобылев",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/29f/f38/0ff/29ff380ff20a8833f160e785df2d9275.png",
+    "speciality": "Пользователь",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 29,
+      "votesCount": 29
+    },
+    "rating": 3,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "4K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 113,
+    "score": 3,
+    "votesCount": 3,
+    "votesCountPlus": 3,
+    "votesCountMinus": 0,
+    "reach": 4795,
+    "readers": 80
+  },
+  "hubs": [
+    {
+      "id": "20940",
+      "alias": "flant",
+      "type": "corporative",
+      "title": "Блог компании Флант",
+      "titleHtml": "Блог компании Флант",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20788",
+      "alias": "devops",
+      "type": "collective",
+      "title": "DevOps",
+      "titleHtml": "DevOps",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "6398",
+      "alias": "it-infrastructure",
+      "type": "collective",
+      "title": "IT-инфраструктура",
+      "titleHtml": "IT-инфраструктура",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "22196",
+      "alias": "kubernetes",
+      "type": "collective",
+      "title": "Kubernetes",
+      "titleHtml": "Kubernetes",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Когда нагрузка растёт, а ресурсов в кластере остаётся всё меньше, кажется, что пора добавлять новые узлы. Но часто текущая инфраструктура способна на большее, если оптимизировать использование уже доступных мощностей.</p><p>Привет! Я Алексей Бобылев, архитектор инфраструктурных решений Deckhouse. 13 ноября на вебинаре расскажу, как точнее оценивать реальный объём доступных ресурсов (в кластере Deckhouse Platform), настраивать запросы приложений и выбирать подход к распределению нагрузки.</p><p><a href=\"https://clc.to/web_cluster13\">Зарегистрироваться на вебинар</a></p><p>В программе разберём:</p><ul><li><p>зачем нужен Vertical Pod Autoscaler, какие у него есть режимы и как они работают;</p></li><li><p>как работает планировщик в Deckhouse Platform и чем отличаются его профили;</p></li><li><p>для чего нужен descheduler и в каких случаях его стоит применять;</p></li><li><p>как настраивать планировщик и descheduler для облачных и статических кластеров.</p></li></ul><p>После вебинара вы сможете точно определять, когда кластеру нужна оптимизация, а не расширение, чтобы снизить расходы на облако, а ещё настроить запросы ресурсов через VPA и собрать рабочую связку планировщика с descheduler под свою инфраструктуру.</p><p><strong>Бонус:</strong> разыграем ваучер на бесплатное обучение по любому из двух новых практических курсов Академии Deckhouse, которые презентуем на вебинаре.</p><p>📅 13 ноября, 12:00</p><p><a href=\"https://clc.to/web_cluster13\">Регистрируйтесь</a>, чтобы получить готовые рецепты оптимизации ресурсов и не переплачивать за лишние узлы.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "kubernetes"
+    },
+    {
+      "titleHtml": "deckhouse"
+    },
+    {
+      "titleHtml": "оптимизация ресурсов"
+    },
+    {
+      "titleHtml": "vertical pod autoscaler"
+    },
+    {
+      "titleHtml": "vpa"
+    },
+    {
+      "titleHtml": "планировщик кластера"
+    },
+    {
+      "titleHtml": "descheduler"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106202/dcb6689832f3d562db20afe7d7cb31e0/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106202/dcb6689832f3d562db20afe7d7cb31e0/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/flant\\/articles\\/1106202\\/\"},\"headline\":\"Как оптимизировать текущие мощности кластера, чтобы не переплачивать за новые узлы? Или всё-таки расширять?\",\"datePublished\":\"2026-11-11T11:00:19+03:00\",\"dateModified\":\"2026-11-12T17:13:01+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Когда нагрузка растёт, а ресурсов в кластере остаётся всё меньше, кажется, что пора добавлять новые узлы. Но часто текущая инфраструктура способна на большее,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/flant\\/articles\\/1106202\\/#post-content-body\",\"about\":[\"c_flant\",\"h_sys_admin\",\"h_devops\",\"h_it-infrastructure\",\"h_kubernetes\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1106202\\/dcb6689832f3d562db20afe7d7cb31e0\\/\"]}",
+    "metaDescription": "Когда нагрузка растёт, а ресурсов в кластере остаётся всё меньше, кажется, что пора добавлять новые узлы. Но часто текущая инфраструктура способна на большее, если оптимизировать использование уже...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

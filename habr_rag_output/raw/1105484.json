@@ -1,0 +1,211 @@
+{
+  "id": "1105484",
+  "timePublished": "2026-11-09T12:41:29+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Недельный геймдев: #300 — 8 ноября, 2026",
+  "leadData": {
+    "textHtml": "<p>Из <a href=\"https://suvitruf.ru/2026/11/08/20975/weekly-gamedev-300-08-november-2026/\" rel=\"noopener nofollow\">новостей</a>: itchio удалил терабайты ИИ-слопа, The Elder Scrolls VI получила подзаголовок Sentinel, Steam Tag Analyzer, в UE6 не будет Блюпринтов и C++ Gameplay Framework.</p>",
+    "imageUrl": "https://habrastorage.org/extt/6b/75/2e/6b752e54860afd5eb53b8213e136f767.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/6b/75/2e/6b752e54860afd5eb53b8213e136f767.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "180763",
+    "alias": "Suvitruf",
+    "fullname": "Андрей Апанасик Владимирович",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/78c/a06/c52/78ca06c52b5e82548aa9083df9d104ea.jpg",
+    "speciality": "Backend (node.js/ts), немного gamedev (unity)",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 146,
+      "votesCount": 380
+    },
+    "rating": 35,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Сайт",
+        "url": "https://balancy.co/",
+        "value": "https://balancy.co/",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "X",
+        "url": "https://x.com/Suvitruf",
+        "value": "Suvitruf",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/gamedev_suffering",
+        "value": "gamedev_suffering",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Сайт",
+        "url": "https://balancy.co/",
+        "value": "https://balancy.co/",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "X",
+        "url": "https://x.com/Suvitruf",
+        "value": "Suvitruf",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/gamedev_suffering",
+        "value": "gamedev_suffering",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": "41001674710054",
+      "paymentPayPalMe": "andreiapanasik",
+      "paymentWebmoney": null
+    },
+    "donationsMethod": "wallets",
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 1,
+    "readingCount": 669,
+    "score": 8,
+    "votesCount": 6,
+    "votesCountPlus": 6,
+    "votesCountMinus": 0,
+    "reach": 7494,
+    "readers": 499
+  },
+  "hubs": [
+    {
+      "id": "7773",
+      "alias": "gamedev",
+      "type": "collective",
+      "title": "Разработка игр",
+      "titleHtml": "Разработка игр",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Из <a href=\"https://suvitruf.ru/2026/11/08/20975/weekly-gamedev-300-08-november-2026/\" rel=\"noopener nofollow\">новостей</a>: itchio удалил терабайты ИИ‑слопа, The Elder Scrolls VI получила подзаголовок Sentinel, Steam Tag Analyzer, в UE6 не будет Блюпринтов и C++ Gameplay Framework.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/6b/75/2e/6b752e54860afd5eb53b8213e136f767.jpg\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/6b/75/2e/6b752e54860afd5eb53b8213e136f767.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/6b/75/2e/6b752e54860afd5eb53b8213e136f767.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Из интересностей: посиделки с инди про Akatori, мультиплатформенный движок для конкурса Nokia 3310 Jam, захотел добавить себя в игру, нейронные шейдеры.</p><h3>Обновления/релизы/новости</h3><h4>Суверенный фонд Саудовской Аравии провёл переговоры о покупке Unity</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/8c/77/db/8c77dbe77854cd09fcae3ac4e0d8871d.png\" width=\"1280\" height=\"563\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/8c/77/db/8c77dbe77854cd09fcae3ac4e0d8871d.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/8c/77/db/8c77dbe77854cd09fcae3ac4e0d8871d.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Согласно <a href=\"https://www.reuters.com/world/silver-lake-pif-have-held-recent-talks-buy-gaming-software-provider-unity-2026-11-05/\" rel=\"noopener nofollow\">Reuters</a>, объединение обсуждало оценку компании в размере 25 миллиардов долларов.Они же в 2026 году выкупили EA с биржи за 55 миллиардов долларов.</p><h4>Steam Tag Analyzer для анализа тегов и исследования рынка</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a4/75/43/a47543885c2dd76fbc80a9c0472c214f.png\" width=\"926\" height=\"827\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a4/75/43/a47543885c2dd76fbc80a9c0472c214f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/a4/75/43/a47543885c2dd76fbc80a9c0472c214f.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Помогает <a href=\"https://steam-tags-analyzer.apanasik.com/\" rel=\"noopener nofollow\">подбирать теги</a> и изучать похожие игры в Steam.</p><h4>World of Warcraft: Forever показала рекордный запуск в истории WoW по числу одновременных игроков</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ee/3e/f3/ee3ef3ff99d91971464cd26387720165.jpg\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ee/3e/f3/ee3ef3ff99d91971464cd26387720165.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/ee/3e/f3/ee3ef3ff99d91971464cd26387720165.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Кроме того, World of Warcraft: Forever <a href=\"https://x.com/Warcraft/status/2118893768984162668\" rel=\"noopener nofollow\">привлекла</a> рекордное количество вернувшихся игроков за всю историю MMORPG.</p><h4>Продажи Probably Stolen, симулятора управления магазином в космосе, достигли миллиона копий — за девять дней с релиза</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d7/15/c3/d715c3a2acd2e0aaf60c0e5ed14921f4.png\" width=\"666\" height=\"331\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d7/15/c3/d715c3a2acd2e0aaf60c0e5ed14921f4.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d7/15/c3/d715c3a2acd2e0aaf60c0e5ed14921f4.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Разработчики <a href=\"https://store.steampowered.com/news/app/4348910/view/676262708841021730\" rel=\"noopener nofollow\">поделились</a> дорожной картой развития игры.</p><h4>Pragmata и Onimusha: Way of the Sword продаются «быстрее ожидаемого»</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ce/0f/37/ce0f379a18db5677f50f1b6b0a216781.jpg\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ce/0f/37/ce0f379a18db5677f50f1b6b0a216781.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/ce/0f/37/ce0f379a18db5677f50f1b6b0a216781.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Dragon’s Dogma 2: Dark Arisen тоже <a href=\"https://dtf.ru/gameindustry/5396323-pragmata-i-onimusha-vysokie-prodazhi\" rel=\"noopener nofollow\">показала себя</a> лучше прогноза. </p><h4>Ретро‑RPG Queen’s Domain окупила затраты на производство за неделю с релиза</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/4c/15/33/4c15333e37b6b306f211cee04c7a4110.png\" width=\"564\" height=\"311\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/4c/15/33/4c15333e37b6b306f211cee04c7a4110.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/4c/15/33/4c15333e37b6b306f211cee04c7a4110.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Игра <a href=\"https://store.steampowered.com/news/app/1799840/view/669507202639200931\" rel=\"noopener nofollow\">уже разошлась</a> тиражом в 100 к копий.</p><h4>Valve увеличила сроки одобрения игр в Steam до 12 рабочих дней</h4><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/37/1b/b8/371bb8d80ba3380cb39947024f56f859.png\" width=\"516\" height=\"508\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/37/1b/b8/371bb8d80ba3380cb39947024f56f859.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/37/1b/b8/371bb8d80ba3380cb39947024f56f859.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>И <a href=\"https://steamcommunity.com/groups/steamworks/announcements/detail/696528162820984746\" rel=\"noopener nofollow\">изменила процесс ревью</a>, чтоб помочь разработчикам отловить частые проблемы.</p><h4>Продажи Phantom Blade Zero за первые 3 дня составили 4 миллиона копий</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/1a/3a/ee/1a3aee0f2dfe96fa6c61c890d65fc3d3.jpg\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1a/3a/ee/1a3aee0f2dfe96fa6c61c890d65fc3d3.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/1a/3a/ee/1a3aee0f2dfe96fa6c61c890d65fc3d3.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Китайский экшен <a href=\"https://x.com/pbzero_official/status/2117074929594298758\" rel=\"noopener nofollow\">доступен</a> только на ПК и PS5 — в Steam пиковый онлайн игры 1 ноября достиг 834 тысяч.</p><h4>Ubisoft в числе претендентов на покупку Arkane</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ff/1a/ac/ff1aacf738934f93a10808fe13f71ce0.png\" width=\"647\" height=\"361\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ff/1a/ac/ff1aacf738934f93a10808fe13f71ce0.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ff/1a/ac/ff1aacf738934f93a10808fe13f71ce0.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>У студии, базирующейся в Лионе, <a href=\"https://www.gamedeveloper.com/business/ubisoft-among-the-bidders-for-arkane-as-xbox-looks-to-sell-the-studio\" rel=\"noopener nofollow\">есть несколько вариантов</a>, позволяющих избежать закрытия — в том числе возможность приобретения другой французской компанией.</p><h4>The Elder Scrolls VI получила подзаголовок Sentinel</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/bc/79/85/bc7985c5183be454e912eb1c46786895.jpg\" width=\"1320\" height=\"865\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/bc/79/85/bc7985c5183be454e912eb1c46786895.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/bc/79/85/bc7985c5183be454e912eb1c46786895.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Учитывая, что проект лишь не так давно вышел из препрода, <a href=\"https://x.com/BethesdaStudios/status/2117632698592469398\" rel=\"noopener nofollow\">можем и не дожить до релиза</a>.</p><h4>С itchio удалили «терабайты игр», созданных с помощью ИИ</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/31/52/ff/3152ff9eef1e13c2717b4c0a93054ef8.png\" width=\"1258\" height=\"508\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/31/52/ff/3152ff9eef1e13c2717b4c0a93054ef8.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/31/52/ff/3152ff9eef1e13c2717b4c0a93054ef8.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Теперь авторы <a href=\"https://x.com/itchio/status/2116740112801477119\" rel=\"noopener nofollow\">должны указывать</a>, применялись ли генеративные инструменты во время разработки.</p><h4>Продажи Marvel’s Wolverine достигли 2,4 миллиона копий</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/97/94/12/979412d71daba7f1049740122234dc95.png\" width=\"1600\" height=\"877\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/97/94/12/979412d71daba7f1049740122234dc95.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/97/94/12/979412d71daba7f1049740122234dc95.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>А отгрузки PS5 <a href=\"https://dtf.ru/gameindustry/5394205-prodazhi-marvels-wolverine-i-uspehi-ps5\" rel=\"noopener nofollow\">приблизились</a> к 98 миллионам единиц.</p><h4>В UE6 не будет Блюпринтов, а C++ Gameplay Framework станет deprecated</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/46/ed/96/46ed965e92adce8786b06dd225b135ef.png\" width=\"639\" height=\"374\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/46/ed/96/46ed965e92adce8786b06dd225b135ef.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/46/ed/96/46ed965e92adce8786b06dd225b135ef.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Epic Games <a href=\"https://gamemakers.jp/article/2026_11_03_149166/\" rel=\"noopener nofollow\">пытается</a> сделать движок удобным для ИИ, а не для человека.</p><h4>Game Jam Level 11 — время повеселиться и проверить себя</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c1/0a/0c/c10a0c53a81fee66b2e4455780a4392e.png\" width=\"731\" height=\"402\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c1/0a/0c/c10a0c53a81fee66b2e4455780a4392e.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c1/0a/0c/c10a0c53a81fee66b2e4455780a4392e.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Разработка с 13.11 (19:00) по 15.11 (23:00), <a href=\"https://myindie.net/jams/jam/myindie-level-11?utm_source=tg_gamedev_suffering&amp;utm_medium=telegram&amp;utm_campaign=lvl11\" rel=\"noopener nofollow\">призовой фонд</a> около 20 к.</p><h3>Халява/раздачи/бандлы/курсы</h3><h4>Вся библиотека Quixel Megascans становится бесплатной…снова</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a1/13/2a/a1132a2517d42ab954200301f6d7d703.jpg\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a1/13/2a/a1132a2517d42ab954200301f6d7d703.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/a1/13/2a/a1132a2517d42ab954200301f6d7d703.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Будем надеяться, что <a href=\"https://x.com/quixeltools/status/2118346475528994821\" rel=\"noopener nofollow\">на этот раз</a> навсегда.</p><h4>Fab: Лимитированный контент до 17 ноября 2026 го</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/fd/06/90/fd06906399805810f55afafc2ad19700.png\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/fd/06/90/fd06906399805810f55afafc2ad19700.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/fd/06/90/fd06906399805810f55afafc2ad19700.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Новая <a href=\"https://dtf.ru/gamedev/5391677-razdacha-assetov-dlya-ue4-i-unity\" rel=\"noopener nofollow\">пачка ассетов</a>.</p><h3>Интересные статьи/видео</h3><h4>[RU] Посиделки с инди #19: Akatori — как выполнить чужие обещания</h4><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af1be237ef7fd12ae5c6ec4\" data-style=\"\" id=\"6af1be237ef7fd12ae5c6ec4\" width=\"\" data-habr-games=\"\"></div><p>Продюсер Akatori Денис Поздняков рассказывает, как разработчикам Contrast Games пришлось отвечать за обещания прежней команды.</p><p>Обсуждаем, зачем из игры убрали прыжок на посохе, почему на старте Денис поставил бы цену в 10 долларов и чему его самого научили студенты.</p><h4>[RU] Мультиплатформенный движок для конкурса Nokia 3310 Jam</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c8/89/d2/c889d210aedd6587c603219c962d5c0c.png\" width=\"640\" height=\"359\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c8/89/d2/c889d210aedd6587c603219c962d5c0c.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c8/89/d2/c889d210aedd6587c603219c962d5c0c.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В сентябре 2026 автор статьи <a href=\"https://habr.com/ru/companies/ruvds/articles/1103538/\" rel=\"noopener nofollow\">участвовал</a> в восьмом конкурсе Nokia 3310 Jam, и его работа под названием Trick Shot II заняла первое место из 51.</p><h4>[RU] Ошибки инди‑разработчиков</h4><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af1be23f218c91306ab77c0\" data-style=\"\" id=\"6af1be23f218c91306ab77c0\" width=\"\" data-habr-games=\"\"></div><p>Почему амбициозные дебюты превращаются в долгострои, как утонуть в контенте, который никто никогда не увидит, и что происходит, если выпустить игру в ранний доступ бесплатно, а потом резко попытаться её монетизировать.</p><h4>[RU] Захотел добавить себя в игру. Как собрать 3D‑персонажа с помощью ИИ</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/1d/17/06/1d1706a8dca4000ddfa600a9a95fbada.png\" width=\"632\" height=\"387\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1d/17/06/1d1706a8dca4000ddfa600a9a95fbada.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/1d/17/06/1d1706a8dca4000ddfa600a9a95fbada.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Автор делает Dungeon Cult — игру про строительство подземелья на Unreal Engine 5. В какой‑то момент <a href=\"https://habr.com/ru/articles/1102828/\" rel=\"noopener nofollow\">захотелось добавить туда себя</a>: в плаще, с моей причёской, голосом и не самым дружелюбным выражением лица.</p><h4>[RU] Подписали HODKA — новую игру FLAZM</h4><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af1be23397ad9db832ceb7a\" data-style=\"\" id=\"6af1be23397ad9db832ceb7a\" width=\"\" data-habr-games=\"\"></div><p>Дима Муратов в гостях у «ПИЛИМ, ТРЁМ», где поговорили про HODKA, про путь от предпродакешена до подписания и анонса. Обсудили процессы в издательстве SkyStone и тренды Steam.</p><h4>[RU] Ветераны Fallout 4 поделились неочевидными механиками и секретами</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/18/a7/37/18a737f067f7389d5d0c96a7109c6de2.png\" width=\"984\" height=\"492\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/18/a7/37/18a737f067f7389d5d0c96a7109c6de2.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/18/a7/37/18a737f067f7389d5d0c96a7109c6de2.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>От <a href=\"https://shazoo.ru/2026/11/01/193320/veterany-fallout-4-podelilis-neocevidnymi-mexanikami-i-sekretami-ot-vozmoznosti-nepreryvno-pit-iz-luzi-do-izmeneniia-modelei-na-ekrane-zagruzki\" rel=\"noopener nofollow\">возможности непрерывно пить из лужи</a> до изменения моделей на экране загрузки.</p><h4>[EN] Близняшки из Atomic Heart, Ghost of Tsushima, LawBreakers</h4><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af1be24382d141339f62c1f\" data-style=\"\" id=\"6af1be24382d141339f62c1f\" width=\"\" data-habr-games=\"\"></div><p>В этот раз свою историю рассказал 3 д художник по персонажам — Олег Алейников.</p><h4>[EN] Как Probably Stolen за 5 дней разошлась тиражом до 750 к копий</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/cb/4d/fa/cb4dfa92db53d6295f7bfb2b51c70b12.png\" width=\"697\" height=\"397\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/cb/4d/fa/cb4dfa92db53d6295f7bfb2b51c70b12.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/cb/4d/fa/cb4dfa92db53d6295f7bfb2b51c70b12.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Зоркий глаз издателя, перерисовка арта и <a href=\"https://newsletter.gamediscover.co/p/how-probably-stolen-traded-up-to\" rel=\"noopener nofollow\">другое</a>.</p><h4>[EN] Забытую классическую RPG по мотивам D&amp;D возродили, не имея ни исходного кода, ни инструментария</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/de/ab/f6/deabf68b37f88e71d64b92122279ed15.jpg\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/de/ab/f6/deabf68b37f88e71d64b92122279ed15.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/de/ab/f6/deabf68b37f88e71d64b92122279ed15.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>У SNEG не было ни исходного кода, ни инструментов, ни документации к этой ролевой игре для ПК 2001 года, поэтому при создании современного ремастера <a href=\"https://80.lv/articles/this-forgotten-classic-d-d-rpg-was-revived-without-source-code-or-tools\" rel=\"noopener nofollow\">команде пришлось</a> прибегнуть к реверс‑инжинирингу игры на основе её розничных версий.</p><h4>[EN] Как The Coalition воплотила Gears of War: E‑Day в жизнь на Unreal Engine 5</h4><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af1be23f41be212d3c3b694\" data-style=\"\" id=\"6af1be23f41be212d3c3b694\" width=\"\" data-habr-games=\"\"></div><p>Колин Пенти, Фил Казинс и Кейт Рейнер из The Coalition рассказали о процессе разработки Gears of War: E‑Day. Обсудили переход с UE4 на UE5, создание Калона, влияние Nanite и Lumen на подход к разработке игровых объектов и окружения, внедрение таких решений, как MegaLights, Motion Matching и Iris, а также оптимизацию производительности и многое другое.</p><h4>[EN] Создание стилизованного барселонского окружения с использованием модульного архитектурного набора</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/1b/35/0b/1b350bbfebc85bd6a4aee8f934af5322.jpg\" width=\"3840\" height=\"2160\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1b/35/0b/1b350bbfebc85bd6a4aee8f934af5322.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/1b/35/0b/1b350bbfebc85bd6a4aee8f934af5322.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Фрэнки Поварчик <a href=\"https://80.lv/articles/creating-a-stylized-barcelona-environment-using-a-modular-architecture-kit\" rel=\"noopener nofollow\">рассказал</a> о своей стилизованной барселонской локации, показав, как создал модульный архитектурный набор, разработал тайлящиеся материалы и трим‑щиты, а также выполнил финальное наполнение сцены, используя Substance 3D Designer, Photoshop и Unreal Engine 5.</p><h4>[EN] Рекомендации по созданию веб‑игр</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/9f/96/9b/9f969bf95fe0afc28b98e36bf31f9a60.png\" width=\"916\" height=\"643\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/9f/96/9b/9f969bf95fe0afc28b98e36bf31f9a60.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/9f/96/9b/9f969bf95fe0afc28b98e36bf31f9a60.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Когда запускаешь собственную игру в сотый раз, легко перестать замечать её начальный этап. Ты уже знаешь управление и, не задумываясь, пролистываешь экраны, отделяющие тебя от самого игрового процесса. Возможно, у тебя даже сохранился прогресс. Но новые игроки в этот момент только <a href=\"https://defold.com/2026/11/03/Good-practices-for-web-games-on-Poki/\" rel=\"noopener nofollow\">пытаются разобраться</a>, на что нажимать и как вообще играть.</p><h4>[EN] Просто об управлении памятью: Часть 3</h4><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af1be232a2228dac4711b88\" data-style=\"\" id=\"6af1be232a2228dac4711b88\" width=\"\" data-habr-games=\"\"></div><p>Охватывает такие темы, как виртуальная память, страничная организация и стратегии распределения памяти.</p><h4>[EN] Нейронные шейдеры: объяснение на примере облаков</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/72/06/e1/7206e18430100f09eafcd8789e7a7733.png\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/72/06/e1/7206e18430100f09eafcd8789e7a7733.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/72/06/e1/7206e18430100f09eafcd8789e7a7733.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Представлено <a href=\"https://charlesgrassi.dev/blog/neural-volumetric-clouds/\" rel=\"noopener nofollow\">описание</a> процесса замены аппроксимации рассеяния света в облаках на небольшую обученную нейронную сеть.</p><h4>[EN] Behind the Frame: Endfield | Анализ визуализации на ПК</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/42/80/3b/42803b3e7e38a9f248ff920a9689bc15.png\" width=\"943\" height=\"511\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/42/80/3b/42803b3e7e38a9f248ff920a9689bc15.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/42/80/3b/42803b3e7e38a9f248ff920a9689bc15.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Подробно <a href=\"https://endfield-behind-the-frame.vinluo46.chatgpt.site/en\" rel=\"noopener nofollow\">описывается</a>, как инпуты обрабатываются с использованием семплов из MIP‑пирамиды и многослойного перцептрона (MLP) с двумя скрытыми слоями, реализованного на языке HLSL.</p><h3>Разное</h3><h4>LAIKA рассказывает, как создавались перья для персонажа Wildwood</h4><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/44/ab/d5/44abd57470d4906b0ff144aecd0fee57.png\" width=\"517\" height=\"226\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/44/ab/d5/44abd57470d4906b0ff144aecd0fee57.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/44/ab/d5/44abd57470d4906b0ff144aecd0fee57.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Из <a href=\"https://x.com/LAIKAStudios/status/2118040546954690584\" rel=\"noopener nofollow\">Твиттера</a>.</p><h4>Распространённые ошибки в пиксель‑арте и способы их исправления</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/35/77/f5/3577f572ee66acf102d261f22a7f41a3.png\" width=\"1080\" height=\"633\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/35/77/f5/3577f572ee66acf102d261f22a7f41a3.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/35/77/f5/3577f572ee66acf102d261f22a7f41a3.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>С <a href=\"https://www.reddit.com/r/PixelArtTutorials/comments/1xnmqya/common_pixel_art_mistakes_and_how_to_fix_them/\" rel=\"noopener nofollow\">Реддита</a>.</p><hr/><p>Также вы можете подписаться на <a href=\"https://gamedevsuffering.substack.com/p/weekly-gamedev-300-08-november-2026\" rel=\"noopener nofollow\">рассылку дайджеста</a>.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "разработка игр"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "дайджест"
+    },
+    {
+      "titleHtml": "gamedev"
+    },
+    {
+      "titleHtml": "gamedevnews"
+    },
+    {
+      "titleHtml": "news"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105484/606e3c1a4b1d373eb9772c12ac1ea7c6/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105484/606e3c1a4b1d373eb9772c12ac1ea7c6/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105484\\/\"},\"headline\":\"Недельный геймдев: #300 — 8 ноября, 2026\",\"datePublished\":\"2026-11-09T15:41:29+03:00\",\"dateModified\":\"2026-11-10T02:28:40+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Из новостей : itchio удалил терабайты ИИ‑слопа, The Elder Scrolls VI получила подзаголовок Sentinel, Steam Tag Analyzer, в&nbsp;UE6&nbsp;не&nbsp;будет...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105484\\/#post-content-body\",\"about\":[\"h_gamedev\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/6b\\/75\\/2e\\/6b752e54860afd5eb53b8213e136f767.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/8c\\/77\\/db\\/8c77dbe77854cd09fcae3ac4e0d8871d.png\",\"https:\\/\\/habrastorage.org\\/extt\\/a4\\/75\\/43\\/a47543885c2dd76fbc80a9c0472c214f.png\",\"https:\\/\\/habrastorage.org\\/extt\\/ee\\/3e\\/f3\\/ee3ef3ff99d91971464cd26387720165.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/d7\\/15\\/c3\\/d715c3a2acd2e0aaf60c0e5ed14921f4.png\",\"https:\\/\\/habrastorage.org\\/extt\\/ce\\/0f\\/37\\/ce0f379a18db5677f50f1b6b0a216781.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/4c\\/15\\/33\\/4c15333e37b6b306f211cee04c7a4110.png\",\"https:\\/\\/habrastorage.org\\/extt\\/37\\/1b\\/b8\\/371bb8d80ba3380cb39947024f56f859.png\",\"https:\\/\\/habrastorage.org\\/extt\\/1a\\/3a\\/ee\\/1a3aee0f2dfe96fa6c61c890d65fc3d3.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/ff\\/1a\\/ac\\/ff1aacf738934f93a10808fe13f71ce0.png\",\"https:\\/\\/habrastorage.org\\/extt\\/bc\\/79\\/85\\/bc7985c5183be454e912eb1c46786895.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/31\\/52\\/ff\\/3152ff9eef1e13c2717b4c0a93054ef8.png\",\"https:\\/\\/habrastorage.org\\/extt\\/97\\/94\\/12\\/979412d71daba7f1049740122234dc95.png\",\"https:\\/\\/habrastorage.org\\/extt\\/46\\/ed\\/96\\/46ed965e92adce8786b06dd225b135ef.png\",\"https:\\/\\/habrastorage.org\\/extt\\/c1\\/0a\\/0c\\/c10a0c53a81fee66b2e4455780a4392e.png\",\"https:\\/\\/habrastorage.org\\/extt\\/a1\\/13\\/2a\\/a1132a2517d42ab954200301f6d7d703.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/fd\\/06\\/90\\/fd06906399805810f55afafc2ad19700.png\",\"https:\\/\\/habrastorage.org\\/extt\\/c8\\/89\\/d2\\/c889d210aedd6587c603219c962d5c0c.png\",\"https:\\/\\/habrastorage.org\\/extt\\/1d\\/17\\/06\\/1d1706a8dca4000ddfa600a9a95fbada.png\",\"https:\\/\\/habrastorage.org\\/extt\\/18\\/a7\\/37\\/18a737f067f7389d5d0c96a7109c6de2.png\",\"https:\\/\\/habrastorage.org\\/extt\\/cb\\/4d\\/fa\\/cb4dfa92db53d6295f7bfb2b51c70b12.png\",\"https:\\/\\/habrastorage.org\\/extt\\/de\\/ab\\/f6\\/deabf68b37f88e71d64b92122279ed15.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/1b\\/35\\/0b\\/1b350bbfebc85bd6a4aee8f934af5322.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/9f\\/96\\/9b\\/9f969bf95fe0afc28b98e36bf31f9a60.png\",\"https:\\/\\/habrastorage.org\\/extt\\/72\\/06\\/e1\\/7206e18430100f09eafcd8789e7a7733.png\",\"https:\\/\\/habrastorage.org\\/extt\\/42\\/80\\/3b\\/42803b3e7e38a9f248ff920a9689bc15.png\",\"https:\\/\\/habrastorage.org\\/extt\\/44\\/ab\\/d5\\/44abd57470d4906b0ff144aecd0fee57.png\",\"https:\\/\\/habrastorage.org\\/extt\\/35\\/77\\/f5\\/3577f572ee66acf102d261f22a7f41a3.png\"]}",
+    "metaDescription": "Из новостей : itchio удалил терабайты ИИ‑слопа, The Elder Scrolls VI получила подзаголовок Sentinel, Steam Tag Analyzer, в&nbsp;UE6&nbsp;не&nbsp;будет Блюпринтов и C++ Gameplay Framework....",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "digest",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "16",
+    "title": "Геймдев",
+    "alias": "gamedev"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,167 @@
+{
+  "id": "1105516",
+  "timePublished": "2026-11-09T16:14:29+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Security Week 2646: взлом автомобилей через сервисный портал",
+  "leadData": {
+    "textHtml": "<p>В начале 2026 года известный специалист по безопасности автомобильных IT-систем Сэм Карри и его коллега Шубам Ша <a href=\"https://samcurry.net/forgerock\">обнаружили</a> уязвимость в веб-приложении двух крупных автопроизводителей, которая в некоторых случаях позволяла полностью перехватить контроль над автомобилем, в том числе получать информацию о геолокации, открывать-закрывать двери и запускать двигатель. В отличие от предыдущих похожих исследований, в этот раз Сэм Карри не стал раскрывать имена автопроизводителей по их просьбе. </p><p>Исследование инфраструктуры автопроизводителей началось с анализа работы соответствующих мобильных приложений, который в итоге привел к обнаружению проблем с конфигурацией решения ForgeRock для управления доступом. Изучая элементы этого решения и сопутствующие сервисы, исследователи смогли обойти ряд ограничений и в том числе обнаружили возможность доступа к одному из компонентов по дефолтному паролю admin:admin.</p>",
+    "imageUrl": "https://habrastorage.org/extt/e9/b9/de/e9b9deeed2e41b194b4a03b63d3a8d67.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/e9/b9/de/e9b9deeed2e41b194b4a03b63d3a8d67.jpg",
+      "fit": "cover",
+      "positionY": 100,
+      "positionX": 10
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "62152",
+    "alias": "Kaspersky_Lab",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/fe4/0e2/2a9/fe40e22a957a2624684a47d3da2d924f.png",
+    "speciality": "Пользователь",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 144,
+      "votesCount": 550
+    },
+    "rating": 14,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 494,
+    "score": 3,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 7947,
+    "readers": 355
+  },
+  "hubs": [
+    {
+      "id": "5020",
+      "alias": "kaspersky",
+      "type": "corporative",
+      "title": "Блог компании «Лаборатория Касперского»",
+      "titleHtml": "Блог компании «Лаборатория Касперского»",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>В начале 2026 года известный специалист по безопасности автомобильных IT-систем Сэм Карри и его коллега Шубам Ша <a href=\"https://samcurry.net/forgerock\">обнаружили</a> уязвимость в веб-приложении двух крупных автопроизводителей, которая в некоторых случаях позволяла полностью перехватить контроль над автомобилем, в том числе получать информацию о геолокации, открывать-закрывать двери и запускать двигатель. В отличие от предыдущих похожих исследований, в этот раз Сэм Карри не стал раскрывать имена автопроизводителей по их просьбе. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/9b/67/92/9b6792af3b363a71156226f6c8679007.jpg\" width=\"700\" height=\"460\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/9b/67/92/9b6792af3b363a71156226f6c8679007.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/9b/67/92/9b6792af3b363a71156226f6c8679007.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Исследование инфраструктуры автопроизводителей началось с анализа работы соответствующих мобильных приложений, который в итоге привел к обнаружению проблем с конфигурацией решения ForgeRock для управления доступом. Изучая элементы этого решения и сопутствующие сервисы, исследователи смогли обойти ряд ограничений и в том числе обнаружили возможность доступа к одному из компонентов по дефолтному паролю admin:admin.</p><p>Несмотря на то что доступ к «опасным» командам извне корректно блокировался, Сэму Карри удалось обойти и это ограничение. Конечный результат довольно сложной цепочки атаки: перехват контроля над учетной записью пользователя с полным доступом к функциям автомобиля. Ассортимент фич зависит от типа цифровой подписки и возраста авто, но в худшем случае можно было разблокировать двери автомобиля, завести двигатель и уехать.</p><p>В отличие от предыдущих исследований Сэма Карри (в которых были найдены <a href=\"https://habr.com/ru/companies/kaspersky/articles/709706/\">серьезные дыры</a> в инфраструктуре большинства крупнейших автопроизводителей), в этом случае не требовалось знать даже VIN-номер автомобиля. Обнаруженная цепочка уязвимостей открывала доступ к интерфейсу администратора и, соответственно, позволяла управлять всеми автомобилями, использующими данную систему идентификации. Информация об уязвимостях была передана автопроизводителям в начале 2026 года, и проблема была оперативно закрыта в день уведомления.</p><h3>Что еще произошло</h3><p>Прошедшая неделя выдалась богатой на сообщения о серьезных уязвимостях в популярном ПО и сервисах, что, похоже, становится нормой. В наборе утилит OpenSSH была обнаружена многолетняя проблема (<a href=\"https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password\">статья</a> на Ars Technica, <a href=\"https://habr.com/ru/articles/1104164/\">обсуждение</a> на Хабре), позволяющая залогиниться по протоколу SSH без пароля. Из-за особенностей уязвимости она затрагивает ограниченное число дистрибутивов, включая, например, Alpine Linux.</p><p>В ноябрьском наборе патчей для ОС Android <a href=\"https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html\">закрыта</a> критическая уязвимость CVE-2026-58868, в худшем случае приводящая к выполнению произвольного кода, причем действия от пользователя не требуются. Затронуты релизы Android версий 14–17. Еще одна критическая уязвимость <a href=\"https://nvd.nist.gov/vuln/detail/cve-2026-121114\">закрыта</a> в браузере Google Chrome. <a href=\"https://www.phoronix.com/news/Debian-APT-MITM-RCE\">Пропатчен</a> менеджер пакетов APT в Linux-дистрибутиве Debian; в нем обнаружена проблема, открывающая возможность атаки типа Man-in-the-Middle. Десятибалльная уязвимость <a href=\"https://www.theregister.com/security/2026/11/02/max-severity-bug-in-widely-used-ot-programming-tool-exploited-to-deliver-linux-malware/5307086\">найдена</a> в специализированном ПО Node-RED, используемом в промышленных IT-системах.</p><p>Удивительная уязвимость прошлой недели — это <a href=\"https://habr.com/ru/articles/1103722/\">проблема</a> в графическом редакторе Microsoft Paint, позволяющая выполнить на компьютере жертвы произвольный код, в том числе удаленно.</p><p>В новых публикациях исследователи «Лаборатории Касперского» <a href=\"https://securelist.ru/tr/new-cyber-threat-arra-ghouls-attacks-russian-organizations/117588/\">изучают деятельность</a> новой киберпреступной группировки Arra Ghouls, <a href=\"https://securelist.ru/storm-2603-fileless-toolshell-attack/117252/\">анализируют</a> бесфайловую атаку на Microsoft SharePoint и на двух примерах <a href=\"https://securelist.ru/virtualization-security-esxi-and-proxmox-ransomware-cases/117574/\">разбирают</a> вопрос безопасности систем виртуализации.</p><p>Производитель устройств NAS, компания QNAP, <a href=\"https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/\">предупреждает</a> об атаках с использованием недавно обнаруженной уязвимости <a href=\"https://habr.com/ru/companies/kaspersky/articles/1096230/\">Plex2Shell</a>. Компания Zyxel тем временем <a href=\"https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/\">закрывает</a> активно эксплуатируемую уязвимость в сетевых коммутаторах серии GS1900.</p><p>Криптобиржа Binance <a href=\"https://x.com/binance/status/2117626126214504729\">опубликовала</a> детали серьезного взлома собственной инфраструктуры. Атаке предшествовало два киберинцидента: в одном сотрудник компании загрузил вредоносное ПО вместо популярного пакета Homebrew. В другом случае инженер Binance был приглашен на фейковое собеседование, в ходе которого на его компьютере также удалось запустить вредоносное программное обеспечение. Тщательно подготовленная атака затем позволила в кратчайшие сроки обеспечить вывод крупных сумм в криптовалюте.</p><p>Уязвимость в WordPress <a href=\"https://www.wordfence.com/blog/2026/11/attackers-actively-probing-for-upgrade-window-rce-vulnerability-in-wordpress-core/\">позволяет</a> взломать веб-сервер во время короткого окна обновления на новую версию.</p><p>Компания Google успешно <a href=\"https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/\">нарушила работу</a> крупного ботнета, состоящего из миллионов зараженных телеприставок.</p><p>Две активно эксплуатируемые уязвимости <a href=\"https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/\">закрыты</a> в корпоративном сервисе Ivanti Connect Secure.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "иб"
+    },
+    {
+      "titleHtml": "forger"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105516/7e3fe34c12bac9a11a3d3c0a094bcd90/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105516/7e3fe34c12bac9a11a3d3c0a094bcd90/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/kaspersky\\/articles\\/1105516\\/\"},\"headline\":\"Security Week 2646: взлом автомобилей через сервисный портал\",\"datePublished\":\"2026-11-09T19:14:29+03:00\",\"dateModified\":\"2026-11-11T14:31:06+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В начале 2026 года известный специалист по безопасности автомобильных IT-систем Сэм Карри и его коллега Шубам Ша обнаружили уязвимость в веб-приложении двух...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/kaspersky\\/articles\\/1105516\\/#post-content-body\",\"about\":[\"c_kaspersky\",\"h_infosecurity\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/9b\\/67\\/92\\/9b6792af3b363a71156226f6c8679007.jpg\"]}",
+    "metaDescription": "В начале 2026 года известный специалист по безопасности автомобильных IT-систем Сэм Карри и его коллега Шубам Ша обнаружили уязвимость в веб-приложении двух крупных автопроизводителей, которая в...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

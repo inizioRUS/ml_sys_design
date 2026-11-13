@@ -1,0 +1,200 @@
+{
+  "id": "1106008",
+  "timePublished": "2026-11-10T10:53:53+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "OpenAI и ModRetro выпустили консоль для вайбкодеров",
+  "leadData": {
+    "textHtml": "<p>OpenAI объединилась с производителем ретро-устройств ModRetro и выпустила специальную версию портативной консоли Chromatic. За $200 пользователь получает устройство в стиле Game Boy Color и картридж, на который можно записывать собственные игры, созданные с помощью Codex. Первую партию уже раскупили. </p><p>Для разработки нужно установить в Codex плагин ModRetro Chromatic и описать идею игры: мир, персонажей, механики и правила. Агент собирает проект в GB Studio — редакторе игр для Game Boy Color, — а затем помогает дорабатывать графику, сцены и игровую логику.</p>",
+    "imageUrl": "https://habrastorage.org/extt/5b/44/1b/5b441bb9f1c60d42e9bbe43218c2d2a3.webp",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/5b/44/1b/5b441bb9f1c60d42e9bbe43218c2d2a3.webp",
+      "fit": "cover",
+      "positionY": 47,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5177951",
+    "alias": "DashaPasha",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": -2,
+      "votesCount": 120
+    },
+    "rating": 44.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 2,
+    "readingCount": 384,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 5224,
+    "readers": 301
+  },
+  "hubs": [
+    {
+      "id": "23256",
+      "alias": "bothub",
+      "type": "corporative",
+      "title": "Блог компании BotHub",
+      "titleHtml": "Блог компании BotHub",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "7773",
+      "alias": "gamedev",
+      "type": "collective",
+      "title": "Разработка игр",
+      "titleHtml": "Разработка игр",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19289",
+      "alias": "game_testing",
+      "type": "collective",
+      "title": "Тестирование игр",
+      "titleHtml": "Тестирование игр",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>OpenAI объединилась с производителем ретро-устройств ModRetro и <a href=\"https://openai.com/supply/co-lab/chromatic/\">выпустила </a>специальную версию портативной консоли Chromatic. За $200 пользователь получает устройство в стиле Game Boy Color и картридж, на который можно записывать собственные игры, созданные с помощью Codex. Первую партию уже раскупили. </p><p>Для разработки нужно установить в Codex плагин ModRetro Chromatic и описать идею игры: мир, персонажей, механики и правила. Агент собирает проект в GB Studio — редакторе игр для Game Boy Color, — а затем помогает дорабатывать графику, сцены и игровую логику.</p><p>Проверить результат можно тремя способами. Первый — запустить игру через браузер в эмуляторе, посмотреть, что получилось, и попросить Codex внести изменения. Можно сразу транслировать игру с компьютера на Chromatic, чтобы проверить управление, изображение и звук. Еще есть возможность собрать ROM-файл и записать его на комплектный Codex Cartridge. После этого играть можно без подключения к компьютеру.</p><p>OpenAI уже показала несколько игр, созданных таким способом: головоломку Seedy’s Sweet Garden, dungeon crawler Hollow Descent и ритм-игру Codex Dance.</p><h3>Что внутри</h3><p>Chromatic — отдельное устройство от ModRetro, не новая консоль, разработанная OpenAI с нуля. Codex Edition получила оформление коллаборации и интеграцию с ИИ-агентом.</p><p>Характеристики вполне соответствуют ретро-формату:</p><ul><li><p>2,56-дюймовый IPS-экран с разрешением 160 × 144 пикселя;</p></li><li><p>защитное стекло Gorilla Glass;</p></li><li><p>три батарейки AA в комплекте;</p></li><li><p>USB-C, динамик и разъём для наушников 3,5 мм;</p></li><li><p>совместимость с картриджами Game Boy и Game Boy Color.</p></li></ul><p>Стоимость комплекта — $200. Доставку организовали в США, Канаду, Австралию, Новую Зеландию, Японию, Великобританию и страны ЕС. Следующая поставка ожидается 19 ноября 2026 года.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "OpenAI"
+    },
+    {
+      "titleHtml": "Codex"
+    },
+    {
+      "titleHtml": "ModRetro Chromatic"
+    },
+    {
+      "titleHtml": "вайбкодинг"
+    },
+    {
+      "titleHtml": "ретроконсоль"
+    },
+    {
+      "titleHtml": "Game Boy Color"
+    },
+    {
+      "titleHtml": "разработка игр"
+    },
+    {
+      "titleHtml": "ИИ-агенты"
+    },
+    {
+      "titleHtml": "GB Studio"
+    },
+    {
+      "titleHtml": "генерация игр с помощью ИИ"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106008/bf5f44acd85de5a3240d6b930dc778b4/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106008/bf5f44acd85de5a3240d6b930dc778b4/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/bothub\\/articles\\/1106008\\/\"},\"headline\":\"OpenAI и ModRetro выпустили консоль для вайбкодеров\",\"datePublished\":\"2026-11-10T13:53:53+03:00\",\"dateModified\":\"2026-11-10T13:54:28+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"OpenAI объединилась с производителем ретро-устройств ModRetro и выпустила специальную версию портативной консоли Chromatic. За $200 пользователь получает...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/bothub\\/articles\\/1106008\\/#post-content-body\",\"about\":[\"c_bothub\",\"h_gamedev\",\"h_game_testing\",\"f_develop\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1106008\\/bf5f44acd85de5a3240d6b930dc778b4\\/\"]}",
+    "metaDescription": "OpenAI объединилась с производителем ретро-устройств ModRetro и выпустила специальную версию портативной консоли Chromatic. За $200 пользователь получает устройство в стиле Game Boy Color и картридж,...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

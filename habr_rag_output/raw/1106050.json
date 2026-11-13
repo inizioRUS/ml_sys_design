@@ -1,0 +1,191 @@
+{
+  "id": "1106050",
+  "timePublished": "2026-11-10T12:17:42+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Откройте, это приказ: эксплуатация CVE-2026-21513 для доставки JScript-бэкдора",
+  "leadData": {
+    "textHtml": "<p>Группа киберразведки PT ESC обнаружила эксплуатацию уязвимости <a href=\"https://dbu.gs/vulnerability/PT-2026-7399?fts=CVE-2026-21513\">CVE-2026-21513</a> в атаках на российские организации. Начальным звеном цепочки служил DOCX-документ «2026 Приказ от 08.10.2026 25-118ап.docx», замаскированный под служебный приказ. Анализ файла и связанных компонентов позволил восстановить цепочку доставки JScript-бэкдора. Ниже в статье читайте подробности.</p>",
+    "imageUrl": "https://habrastorage.org/extt/d9/1f/d8/d91fd80bda30b0d18bee566b24546d8c.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/d9/1f/d8/d91fd80bda30b0d18bee566b24546d8c.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "62118",
+    "alias": "ptsecurity",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/740/767/4f4/7407674f4515aab06525135167919689.png",
+    "speciality": "Пользователь",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 337,
+      "votesCount": 643
+    },
+    "rating": 94.7,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "64K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 10,
+    "readingCount": 877,
+    "score": 11,
+    "votesCount": 7,
+    "votesCountPlus": 7,
+    "votesCountMinus": 0,
+    "reach": 7397,
+    "readers": 673
+  },
+  "hubs": [
+    {
+      "id": "17217",
+      "alias": "pt",
+      "type": "corporative",
+      "title": "Блог компании Positive Technologies",
+      "titleHtml": "Блог компании Positive Technologies",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "332",
+      "alias": "virus",
+      "type": "collective",
+      "title": "Антивирусная защита",
+      "titleHtml": "Антивирусная защита",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d9/1f/d8/d91fd80bda30b0d18bee566b24546d8c.jpg\" width=\"1671\" height=\"941\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d9/1f/d8/d91fd80bda30b0d18bee566b24546d8c.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/d9/1f/d8/d91fd80bda30b0d18bee566b24546d8c.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Группа киберразведки PT ESC обнаружила эксплуатацию уязвимости <a href=\"https://dbu.gs/vulnerability/PT-2026-7399?fts=CVE-2026-21513\">CVE-2026-21513</a> в атаках на российские организации. Начальным звеном цепочки служил DOCX-документ «2026 Приказ от 08.10.2026 25-118ап.docx», замаскированный под служебный приказ. Анализ файла и связанных компонентов позволил восстановить цепочку доставки JScript-бэкдора. Ниже в статье читайте поробности.</p><blockquote><p><em>Статья носит исключительно информационный характер и не является инструкцией или призывом к совершению противоправных действий. Ее цель — исключительно образовательная: рассказать о существующих уязвимостях и векторах атак, которыми могут воспользоваться злоумышленники, предостеречь пользователей и дать рекомендации по защите. Автор не несет ответственности за неправомерное использование опубликованной информации.</em></p></blockquote><h3>Как начинается цепочка</h3><p>Адрес следующего документа хранится внутри DOCX, в <code>word/_rels/webSettings.xml.rels</code>. Ссылка ведет на <a href=\"http://cloudpostmail.net\"><code>cloudpostmail.net</code></a>. Word обращается к серверу при обработке внешнего фрейма и получает файл с расширением DOC, который по содержимому оказывается RTF.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/27/82/8a/27828a9a82ae2d9aea487c1e60c1ba89.jpg\" alt=\"Внешний фрейм DOCX со ссылкой на документ по WebDAV\" title=\"Внешний фрейм DOCX со ссылкой на документ по WebDAV\" width=\"1964\" height=\"228\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/27/82/8a/27828a9a82ae2d9aea487c1e60c1ba89.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/27/82/8a/27828a9a82ae2d9aea487c1e60c1ba89.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Внешний фрейм DOCX со ссылкой на документ по WebDAV</figcaption></div></figure><p>В RTF находятся два OLE-объекта компонента <code>Shell.Explorer.1</code> с <code>CLSID</code> <code>EAB22AC3-30C1-11CF-A7EB-0000C05BAE0B</code>. В потоке <code>CONTENTS</code> обоих объектов сохранены ссылки на удаленный ярлык <code>UKuFuXj.lNk</code>. Первый объект показан на скриншоте ниже. Один из адресов:</p><pre><code>\\\\cloudpostmail.net@ssl\\xcbuvhjg\\UKuFuXj.lNk</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Маркер <code>@ssl</code> задает обращение через WebDAV по HTTPS. Обработкой такого пути занимается служба WebClient.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f2/7a/9d/f27a9da4898bacf09af154a54d71d911.jpg\" alt=\"Декодированный OLE-объект Shell.Explorer.1 с CLSID и ссылкой на LNK\" title=\"Декодированный OLE-объект Shell.Explorer.1 с CLSID и ссылкой на LNK\" width=\"1542\" height=\"1546\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f2/7a/9d/f27a9da4898bacf09af154a54d71d911.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/f2/7a/9d/f27a9da4898bacf09af154a54d71d911.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Декодированный OLE-объект Shell.Explorer.1 с CLSID и ссылкой на LNK</figcaption></div></figure><h3>Что скрывает ярлык</h3><p>В <code>UKuFuXj.lNk</code> совмещены Windows-ярлык и HTML со скриптом. Двоичная часть указывает на удаленную DLL <code>eNlJ.d</code>, а HTML содержит код эксплуатации <code>CVE-2026-21513</code>. Он начинается со смещения <code>0xde</code>, то есть после первых 222 байт файла.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d7/19/a9/d719a9ecdac7781de89b224158755006.jpg\" alt=\"Содержимое LNK с адресом DLL и обфусцированным HTML и JavaScript\" title=\"Содержимое LNK с адресом DLL и обфусцированным HTML и JavaScript\" width=\"1720\" height=\"1306\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d7/19/a9/d719a9ecdac7781de89b224158755006.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/d7/19/a9/d719a9ecdac7781de89b224158755006.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Содержимое LNK с адресом DLL и обфусцированным HTML и JavaScript</figcaption></div></figure><p><code>CVE-2026-21513</code> затрагивает <code>MSHTML</code> — компонент Windows для обработки HTML, который используется и во встроенных элементах Word. Ошибка проверки адреса при переходе по ссылке позволяет обойти защитные ограничения для содержимого из интернета и передать запуск файла оболочке Windows. В результате специально подготовленный HTML может привести к выполнению кода за пределами предусмотренного браузерного контекста.<br/> <br/>В этой цепочке HTML внутри ярлыка создает вложенные фреймы и вызывает уязвимый механизм перехода по ссылке. При успешной эксплуатации это позволяет перейти от обработки HTML к запуску LNK и загрузке указанной в нем библиотеки <code>eNlJ.d</code>.<br/> <br/>Чтобы затруднить анализ, злоумышленники записали часть строк в обратном порядке, а другую часть — в виде кодов символов Unicode. Скрипт восстанавливает из них инструкции и выполняет их через execScript. Ниже показан декодированный фрагмент, вызывающий уязвимый механизм.</p><pre><code>&lt;html&gt;\n&lt;body&gt;\n&lt;iframe src=\"about:blank\"&gt;\n&lt;/iframe&gt;\n&lt;iframe src=\"about:blank\"&gt;\n&lt;/iframe&gt;\n&lt;script defer&gt;window[1].document.Script.open(\"http:///\",\"_parent\")&lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Как устанавливается бэкдор</h3><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/88/dc/a5/88dca54dffcf0f272d36c602d748d1a6.jpg\" alt=\"Последовательность доставки и установки бэкдора\" title=\"Последовательность доставки и установки бэкдора\" width=\"1842\" height=\"1020\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/88/dc/a5/88dca54dffcf0f272d36c602d748d1a6.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/88/dc/a5/88dca54dffcf0f272d36c602d748d1a6.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Последовательность доставки и установки бэкдора</figcaption></div></figure><p><code>eNlJ.d</code> — это вредоносная DLL-библиотека, которая служит промежуточным загрузчиком: при загрузке запускает системную утилиту <code>mshta.exe</code> и передает ей адрес <code>crmASA</code> на <a href=\"http://cloudpostmail.net\"><code>cloudpostmail.net</code></a>.</p><p><code>crmASA</code> — вредоносный HTA-файл, который работает как установщик бэкдора: загружает ресурс <code>IiVe</code>, декодирует его содержимое из Base64 и сохраняет полученный JScript-сценарий по пути:</p><pre><code>C:\\ProgramData\\Microsoft OneDrive\\Microsoft Update\\microsoft_update.js</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>За закрепление отвечает этот же HTA-установщик. Он создает задачу <code>MicrosoftEdgeUpdateTaskMachineWorker</code>, которая запускает сохраненный <code>microsoft_update.js</code> через штатный обработчик сценариев Windows <code>wscript.exe</code>. HTA сразу запускает задачу и настраивает ее повторный запуск каждые 30 минут. Сам JS-бэкдор задачу не создает.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/85/d9/75/85d9758270b7e15a184052e1eca8a3bf.jpg\" alt=\"Путь установки бэкдора и создание задачи с интервалом 30 минут\" title=\"Путь установки бэкдора и создание задачи с интервалом 30 минут\" width=\"2060\" height=\"802\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/85/d9/75/85d9758270b7e15a184052e1eca8a3bf.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/85/d9/75/85d9758270b7e15a184052e1eca8a3bf.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Путь установки бэкдора и создание задачи с интервалом 30 минут</figcaption></div></figure><h3>Что получает оператор</h3><p>При каждом запуске <code>microsoft_update.js</code> отправляет на <a href=\"http://supportxml.org/xcbuvhjg/WkbE\"><code>supportxml.org/xcbuvhjg/WkbE</code></a> имя пользователя, имя компьютера и домен. Эти сведения позволяют оператору различать зараженные устройства и определять, из какой учетной записи и домена работает скрипт.<br/> <br/> Затем бэкдор запрашивает у сервера JScript-код, декодирует ответ из Base64 и выполняет его через <code>eval</code> внутри процесса <code>wscript.exe</code>. Так оператор может менять задания без замены самого бэкдора. Полученный код работает с правами пользователя, от имени которого запущен скрипт.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/fa/3e/43/fa3e4387c392dc90fe3b8ed039aadd22.jpg\" alt=\"Адрес C2, отправка сведений об устройстве и выполнение полученного кода\" title=\"Адрес C2, отправка сведений об устройстве и выполнение полученного кода\" width=\"1650\" height=\"948\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/fa/3e/43/fa3e4387c392dc90fe3b8ed039aadd22.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/fa/3e/43/fa3e4387c392dc90fe3b8ed039aadd22.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Адрес C2, отправка сведений об устройстве и выполнение полученного кода</figcaption></div></figure><p>Внутри бэкдора нет постоянного цикла опроса сервера: повторный запуск каждые 30 минут обеспечивает созданная HTA-установщиком задача планировщика.</p><h3>Дополнительный сценарий WkbE</h3><p>С адреса <a href=\"http://supportxml.org/xcbuvhjg/WkbE\"><code>supportxml.org/xcbuvhjg/WkbE</code></a> нам удалось получить дополнительную полезную нагрузку — JScript-сценарий, закодированный в Base64. Бэкдор декодирует его и выполняет в памяти процесса <code>wscript.exe</code>, не сохраняя сам сценарий отдельным файлом на диск.<br/> <br/>Полезная нагрузка проводит разведку системы: собирает сведения об ОС и установленных обновлениях, запущенных процессах, программах, пользователях и группах, сетевых настройках и соединениях. Эти данные позволяют оператору изучить зараженный компьютер и его сетевое окружение, чтобы подготовить дальнейшие действия.<br/> <br/>Перед сбором сценарий пытается очистить файловые кэши Office и IE, что может удалить сохранившиеся там следы доставки. Результаты системных команд временно записываются в <code>%TEMP%\\temp.txt</code>. Затем сценарий читает этот файл, удаляет его и отправляет собранные сведения на тот же сервер.</p><h3>Где искать следы</h3><ul><li><p>В сетевой телеметрии: обращения <code>Word</code>/<code>WebClient</code> к <a href=\"http://cloudpostmail.net\"><code>cloudpostmail.net</code></a>, включая WebDAV-методы <code>OPTIONS</code>, <code>PROPFIND</code> и <code>LOCK</code>.</p></li><li><p>На конечных устройствах: указанный путь <code>microsoft_update.js</code>, задачу <code>MicrosoftEdgeUpdateTaskMachineWorker</code>, запуски <code>mshta.exe</code> с внешним URL.</p></li><li><p>В сетевой активности бэкдора: <code>POST</code> и <code>GET</code> к <a href=\"http://supportxml.org/xcbuvhjg/WkbE\"><code>supportxml.org/xcbuvhjg/WkbE</code></a>.</p></li></ul><h3>Как снизить риск</h3><p>Установите обновления безопасности Windows за февраль 2026 года или более поздние. Дополнительно стоит проверить перечисленные артефакты и сетевые обращения: установка обновлений не удаляет уже установленный бэкдор.</p><details class=\"spoiler\"><summary>Индикаторы комрометации</summary><div class=\"spoiler__content\"><blockquote><p><strong>Сервер доставки:</strong> <a href=\"http://cloudpostmail.net\"><code>cloudpostmail.net</code></a><code> </code></p><p><strong>Зафиксированный IP сервера доставки:</strong> <code>77.232.38.172</code></p><p><strong>Управляющий сервер:</strong> <a href=\"http://supportxml.org/xcbuvhjg/WkbE\"><code>supportxml.org/xcbuvhjg/WkbE</code></a></p></blockquote><p><strong>SHA-256: </strong></p><pre><code>DOCX: 3e3e4ab49ef879ecdd424f24b5638666deb79b767d140a00cf47b58a6ad479aa \nRTF: 4d6a6e9c4a94f479b0670120aaa1d0cbb1090e9e0f48b60b2489e7be55815fda \nUKuFuXj.lNk: 7154b729333ec22e401b7529fe2c75dd712c03c673f89ff182a5bf36a0f972e0 \neNlJ.d — DLL: b7fdf63523250503c93b6c59f6cacfea72c61732f45ff9e2d544789005509f66 \ncrmASA — HTA: 06e9dbe71016f2e447b3106b50afc6646dcc81f365b69b74fef1f3aac79f5610 \nIiVe — бэкдор в Base64: 07efc69553cccbab7c06e2d362315abaffa045ff8904304a14a0c984ddabdfc7\nmicrosoft_update.js — декодированный бэкдор: f3d9ffcbb8378c71a102ad951ddcba08f42acdceddb9d4cf0205671141671571 \nWkbE — дополнительный сценарий в Base64: f695ed881d71c0103eabc7073c2d81116722c08a83fb27582010a33eeb4a93eb </code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre></div></details><div class=\"persona\"><img class=\"image persona__image\" src=\"https://habrastorage.org/r/w1560/extt/e5/5b/1e/e55b1e95f8e6ecf5e567469898133ea1.jpg\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e5/5b/1e/e55b1e95f8e6ecf5e567469898133ea1.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/e5/5b/1e/e55b1e95f8e6ecf5e567469898133ea1.jpg 781w\" loading=\"lazy\" decode=\"async\"/><h5 class=\"persona__heading\">Денис Казаков</h5><p class=\"persona__text\">Cпециалист группы киберразведки TI‑департамента, Positive Technologies</p></div><p>(<em>Источник: </em><a href=\"https://t.me/ptescalator\"><em>https://t.me/ptescalator</em></a>)</p></div>",
+  "tags": [
+    {
+      "titleHtml": "расследование инцидентов"
+    },
+    {
+      "titleHtml": "цепочка атаки хакера"
+    },
+    {
+      "titleHtml": "бэкдор"
+    },
+    {
+      "titleHtml": "кибератаки"
+    },
+    {
+      "titleHtml": "кибератаки в 2026"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106050/f87dad85f86e3d6821be565e7d94d863/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106050/f87dad85f86e3d6821be565e7d94d863/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/pt\\/articles\\/1106050\\/\"},\"headline\":\"Откройте, это приказ: эксплуатация CVE-2026-21513 для доставки JScript-бэкдора\",\"datePublished\":\"2026-11-10T15:17:42+03:00\",\"dateModified\":\"2026-11-11T20:27:10+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Группа киберразведки PT ESC обнаружила эксплуатацию уязвимости CVE-2026-21513 в атаках на российские организации. Начальным звеном цепочки служил DOCX-документ...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/pt\\/articles\\/1106050\\/#post-content-body\",\"about\":[\"c_pt\",\"h_infosecurity\",\"h_virus\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/d9\\/1f\\/d8\\/d91fd80bda30b0d18bee566b24546d8c.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/27\\/82\\/8a\\/27828a9a82ae2d9aea487c1e60c1ba89.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/f2\\/7a\\/9d\\/f27a9da4898bacf09af154a54d71d911.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/d7\\/19\\/a9\\/d719a9ecdac7781de89b224158755006.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/88\\/dc\\/a5\\/88dca54dffcf0f272d36c602d748d1a6.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/85\\/d9\\/75\\/85d9758270b7e15a184052e1eca8a3bf.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/fa\\/3e\\/43\\/fa3e4387c392dc90fe3b8ed039aadd22.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/e5\\/5b\\/1e\\/e55b1e95f8e6ecf5e567469898133ea1.jpg\"]}",
+    "metaDescription": "Группа киберразведки PT ESC обнаружила эксплуатацию уязвимости CVE-2026-21513 в атаках на российские организации. Начальным звеном цепочки служил DOCX-документ «2026 Приказ от 08.10.2026...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "id": "1105858",
+  "timePublished": "2026-11-10T08:49:12+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Rockstar продаёт реальный спортивный автомобиль Grotti Cheetah из GTA VI",
+  "leadData": {
+    "textHtml": "<p>В&nbsp;Лондоне на&nbsp;продажу <a href=\"https://www.selfridges.com/GB/en/inspiration/corner-shop/\" rel=\"noopener nofollow\">выставили</a> полноразмерную копию автомобиля Grotti Cheetah из&nbsp;GTA VI. Авто полностью на&nbsp;ходу, а&nbsp;Rockstar создала его вместе с&nbsp;ателье West Coast Customs. Стоит экземпляр 1&nbsp;млн фунтов стерлингов (~111&nbsp;млн рублей).</p>",
+    "imageUrl": "https://habrastorage.org/extt/33/41/88/3341889b0ed8299e2ce804270c3c0170.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/33/41/88/3341889b0ed8299e2ce804270c3c0170.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2320593",
+    "alias": "daniilshat",
+    "fullname": "Даниил Шатухин",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/165/6b8/929/1656b8929300fbfdbb3bbb0b1721ec87.png",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 300,
+      "votesCount": 580
+    },
+    "rating": 280.7,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/daniilshat/",
+        "value": "daniilshat",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/mrshatukhin",
+        "value": "mrshatukhin",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/daniilshat/",
+        "value": "daniilshat",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/mrshatukhin",
+        "value": "mrshatukhin",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": "423039146555"
+    },
+    "donationsMethod": "wallets",
+    "isInBlacklist": null,
+    "careerProfile": {
+      "careerProfileLink": "https://career.habr.com/daniilshat?utm_source=habr&utm_medium=profile_header&utm_campaign=button_habr_career",
+      "expertProfileLink": null
+    },
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 1253,
+    "score": 7,
+    "votesCount": 5,
+    "votesCountPlus": 4,
+    "votesCountMinus": 1,
+    "reach": 6635,
+    "readers": 1080
+  },
+  "hubs": [
+    {
+      "id": "21980",
+      "alias": "games",
+      "type": "collective",
+      "title": "Игры и игровые консоли",
+      "titleHtml": "Игры и игровые консоли",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22004",
+      "alias": "transport",
+      "type": "collective",
+      "title": "Транспорт",
+      "titleHtml": "Транспорт",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20844",
+      "alias": "game_promotion",
+      "type": "collective",
+      "title": "Продвижение игр",
+      "titleHtml": "Продвижение игр",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21892",
+      "alias": "design",
+      "type": "collective",
+      "title": "Дизайн",
+      "titleHtml": "Дизайн",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "2",
+      "alias": "design",
+      "title": "Дизайн",
+      "titleHtml": "Дизайн"
+    },
+    {
+      "id": "4",
+      "alias": "marketing",
+      "title": "Маркетинг",
+      "titleHtml": "Маркетинг"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>В Лондоне на продажу <a href=\"https://www.selfridges.com/GB/en/inspiration/corner-shop/\" rel=\"noopener nofollow\">выставили</a> полноразмерную копию автомобиля Grotti Cheetah из GTA VI. Авто полностью на ходу, а Rockstar создала его вместе с ателье West Coast Customs. Стоит экземпляр 1 млн фунтов стерлингов (~111 млн рублей).</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/33/41/88/3341889b0ed8299e2ce804270c3c0170.jpg\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/33/41/88/3341889b0ed8299e2ce804270c3c0170.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/33/41/88/3341889b0ed8299e2ce804270c3c0170.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Автомобиль получил розово‑голубой окрас с градиентами. Официально цвет называется Vice City Fade. Дополнительно ателье занизило подвеску, установило трековый комплект шин и отделала салон итальянской кожей. Внешность Cheetah отсылает к Ferrari Testarossa.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c6/0d/24/c60d2438cebe71cdbf431c32416e0caa.jpg\" width=\"1024\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c6/0d/24/c60d2438cebe71cdbf431c32416e0caa.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/c6/0d/24/c60d2438cebe71cdbf431c32416e0caa.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В официальных характеристиках указано, что автомобиль оснастили атмосферным V8 объёмом 4,9 л со среднемоторной компоновкой — двигатель расположен за салоном.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/af/7c/67/af7c6707a015af620aeae0adc44cbf48.jpg\" width=\"1024\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/af/7c/67/af7c6707a015af620aeae0adc44cbf48.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/af/7c/67/af7c6707a015af620aeae0adc44cbf48.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Grotti — вымышленная итальянская автомобильная марка из вселенной GTA, отсылающая к Ferrari. В игре у бренда есть собственные премиальные салоны и две модели: Cheetah и Turismo.</p><p>Впервые модель Cheetah появилась в GTA III в 2001 году, а позже авто добавляли в Vice City и San Andreas. Её ранние версии напоминают реальную Ferrari Testarossa, а в GTA VI машину добавили в версии '95 Grotti Cheetah.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a1/ed/84/a1ed84f0094689d98ce9b3bfcb5af281.jpg\" alt=\"Grotti Cheetah из GTA III\" title=\"Grotti Cheetah из GTA III\" width=\"1814\" height=\"1020\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a1/ed/84/a1ed84f0094689d98ce9b3bfcb5af281.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/a1/ed/84/a1ed84f0094689d98ce9b3bfcb5af281.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Grotti Cheetah из GTA III</figcaption></div></figure><p>В GTA Vice City на Grotti Cheetah ездили полицейские секретной службы Vice Squad. Их автомобиль был выполнен в обычном кузове, но со скрытыми проблесковыми маячками, сиреной и полицейским радио. Детективы на спортивном автомобиле подключались к погоне на третьем уровне розыска. Это отсылка к сериалу «Полиция Майами», в котором герой Сонни Крокетт водил Ferrari Testarossa.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/06/1d/26/061d26ab2e451ffd50a700c05afa3706.jpg\" alt=\"Grotti Cheetah из GTA Vice City\" title=\"Grotti Cheetah из GTA Vice City\" width=\"1814\" height=\"1021\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/06/1d/26/061d26ab2e451ffd50a700c05afa3706.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/06/1d/26/061d26ab2e451ffd50a700c05afa3706.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Grotti Cheetah из GTA Vice City</figcaption></div></figure><p>Посмотреть на реальную версию Grotti Cheetah можно в лондонском универмаге Selfridges до 28 ноября. Там работает временный магазин в стиле Vice City. Помимо машины в нём можно купить форму работников внутриигрового фастфуда Burger Shot, атрибутику вымышленных спортивных команд и другие сувениры.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c5/9b/5f/c59b5f790628ca41183c09fef4b70752.jpg\" alt=\"Ferrari Testarossa F512 M \" title=\"Ferrari Testarossa F512 M \" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c5/9b/5f/c59b5f790628ca41183c09fef4b70752.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/c5/9b/5f/c59b5f790628ca41183c09fef4b70752.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Ferrari Testarossa F512 M </figcaption></div></figure></div>",
+  "tags": [
+    {
+      "titleHtml": "Grotti Cheetah"
+    },
+    {
+      "titleHtml": "Grotti"
+    },
+    {
+      "titleHtml": "rockstar"
+    },
+    {
+      "titleHtml": "gta"
+    },
+    {
+      "titleHtml": "gta 6"
+    },
+    {
+      "titleHtml": "автомобили"
+    },
+    {
+      "titleHtml": "транспорт"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105858/3178d2c3249b2613bf26438e2316b83a/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105858/3178d2c3249b2613bf26438e2316b83a/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105858\\/\"},\"headline\":\"Rockstar продаёт реальный спортивный автомобиль Grotti Cheetah из GTA VI\",\"datePublished\":\"2026-11-10T11:49:12+03:00\",\"dateModified\":\"2026-11-10T12:19:34+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В&nbsp;Лондоне на&nbsp;продажу выставили полноразмерную копию автомобиля Grotti Cheetah из&nbsp;GTA VI. Авто полностью на&nbsp;ходу, а&nbsp;Rockstar создала его...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105858\\/#post-content-body\",\"about\":[\"h_games\",\"h_transport\",\"h_game_promotion\",\"h_design\",\"f_design\",\"f_marketing\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/33\\/41\\/88\\/3341889b0ed8299e2ce804270c3c0170.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/c6\\/0d\\/24\\/c60d2438cebe71cdbf431c32416e0caa.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/af\\/7c\\/67\\/af7c6707a015af620aeae0adc44cbf48.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/a1\\/ed\\/84\\/a1ed84f0094689d98ce9b3bfcb5af281.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/06\\/1d\\/26\\/061d26ab2e451ffd50a700c05afa3706.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/c5\\/9b\\/5f\\/c59b5f790628ca41183c09fef4b70752.jpg\"]}",
+    "metaDescription": "В&nbsp;Лондоне на&nbsp;продажу выставили полноразмерную копию автомобиля Grotti Cheetah из&nbsp;GTA VI. Авто полностью на&nbsp;ходу, а&nbsp;Rockstar создала его вместе с&nbsp;ателье West Coast...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

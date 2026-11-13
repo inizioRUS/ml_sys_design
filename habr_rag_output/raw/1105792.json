@@ -1,0 +1,201 @@
+{
+  "id": "1105792",
+  "timePublished": "2026-11-10T07:44:26+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Где кончается скидка за тираж: считаю оптовый прайс печати на футболках",
+  "leadData": {
+    "textHtml": "<p>Корпоративному клиенту, который заказывает десять футболок с логотипом, обычно говорят одно и то же: возьмите пятьдесят, будет дешевле. Я захотел проверить, сколько именно дешевле и как внутри шкалы тиража устроена скидка за тираж. Не на пальцах, а по реальному оптовому прайсу производства корпоративного мерча, где шкала задана явно. Ниже код, числа из прогона и два места, где моя гипотеза разошлась с данными.</p>",
+    "imageUrl": "https://habrastorage.org/extt/75/d2/f4/75d2f4da1bf9934b9ad47431e1eca1e0.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/75/d2/f4/75d2f4da1bf9934b9ad47431e1eca1e0.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "4869587",
+    "alias": "IlyaAdonis",
+    "fullname": "Илья Анастасов",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/d17/4f3/18f/d174f318f6463e05c1f75035829641ad.png",
+    "speciality": "Готовый бизнес, брендирование",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 5
+    },
+    "rating": 2,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Сайт",
+        "url": "https://blog.adonisfranshiza.ru/",
+        "value": "https://blog.adonisfranshiza.ru/",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Сайт",
+        "url": "https://blog.adonisfranshiza.ru/",
+        "value": "https://blog.adonisfranshiza.ru/",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 209,
+    "score": 0,
+    "votesCount": 2,
+    "votesCountPlus": 1,
+    "votesCountMinus": 1,
+    "reach": 4845,
+    "readers": 172
+  },
+  "hubs": [
+    {
+      "id": "340",
+      "alias": "python",
+      "type": "collective",
+      "title": "Python",
+      "titleHtml": "Python",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "7152",
+      "alias": "data_mining",
+      "type": "collective",
+      "title": "Data Mining",
+      "titleHtml": "Data Mining",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "18081",
+      "alias": "opendata",
+      "type": "collective",
+      "title": "Открытые данные",
+      "titleHtml": "Открытые данные",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/75/d2/f4/75d2f4da1bf9934b9ad47431e1eca1e0.png\" width=\"1376\" height=\"768\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/75/d2/f4/75d2f4da1bf9934b9ad47431e1eca1e0.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/75/d2/f4/75d2f4da1bf9934b9ad47431e1eca1e0.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"\"><img src=\"\" width=\"0\" height=\"0\"/></figure><p>Корпоративному клиенту, который заказывает десять футболок с логотипом, обычно говорят одно и то же: возьмите пятьдесят, будет дешевле. Я захотел проверить, сколько именно дешевле и как внутри шкалы тиража устроена скидка за тираж. Не на пальцах, а по реальному оптовому прайсу производства корпоративного мерча, где шкала задана явно. Ниже код, числа из прогона и два места, где моя гипотеза разошлась с данными.</p><h3>Откуда данные и как их парсил</h3><p>Прайс на печать на футболках на заказ и смежные позиции: 15 товаров, от футболок и худи до кружек, пауэрбанков и ежедневников. У каждой позиции одна шкала тиража: 10 / 50 / 200 штук. Нанесение DTF формата А7 входит в цену позиции. От 201 штуки прайс чисел не даёт, там сказано «согласовывается с руководством». Первый вывод можно сделать ещё до кода: шкала короткая, дальше начинается переговорная зона.</p><p>Данные сняты из прайса февраля 2026 года, сверенного по сканам страниц. Таблицу выгрузил в JSON, считал в Python. Парсинг на регулярках:</p><pre><code>import re\n\nROW = re.compile(\n    r\"^\\|\\s*(?P&lt;name&gt;[^|]+?)\\s*\\|\\s*(?P&lt;p10&gt;[\\d\\s]+)\\s*\\|\"\n    r\"\\s*(?P&lt;p50&gt;[\\d\\s]+)\\s*\\|\\s*(?P&lt;p200&gt;[\\d\\s]+)\\s*\\|\"\n)\n\ndef parse(md_text: str) -&gt; list[dict]:\n    rows = []\n    for line in md_text.splitlines():\n        m = ROW.match(line.strip())\n        if m:\n            rows.append({\n                \"name\": m[\"name\"].strip(\" ¹²\"),\n                \"price_10\": int(m[\"p10\"].replace(\" \", \"\")),\n                \"price_50\": int(m[\"p50\"].replace(\" \", \"\")),\n                \"price_200\": int(m[\"p200\"].replace(\" \", \"\")),\n            })\n    return rows\n\ndef pct(a: int, b: int) -&gt; float:\n    \"\"\"Насколько процентов цена b ниже цены a.\"\"\"\n    return (a - b) / a * 100\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><h3>Что получилось по всем 15 позициям</h3><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Позиция</p></th><th><p align=\"left\">10 шт</p></th><th><p align=\"left\">50 шт</p></th><th><p align=\"left\">200 шт</p></th><th><p align=\"left\">Шаг 1 (10→50)</p></th><th><p align=\"left\">Шаг 2 (50→200)</p></th><th><p align=\"left\">Итого (10→200)</p></th></tr><tr><td><p align=\"left\">Футболка классика</p></td><td><p align=\"left\">680</p></td><td><p align=\"left\">610</p></td><td><p align=\"left\">550</p></td><td><p align=\"left\">10,3%</p></td><td><p align=\"left\">9,8%</p></td><td><p align=\"left\">19,1%</p></td></tr><tr><td><p align=\"left\">Футболка оверсайз</p></td><td><p align=\"left\">1470</p></td><td><p align=\"left\">1330</p></td><td><p align=\"left\">1190</p></td><td><p align=\"left\">9,5%</p></td><td><p align=\"left\">10,5%</p></td><td><p align=\"left\">19,0%</p></td></tr><tr><td><p align=\"left\">Поло</p></td><td><p align=\"left\">910</p></td><td><p align=\"left\">820</p></td><td><p align=\"left\">730</p></td><td><p align=\"left\">9,9%</p></td><td><p align=\"left\">11,0%</p></td><td><p align=\"left\">19,8%</p></td></tr><tr><td><p align=\"left\">Свитшот</p></td><td><p align=\"left\">1940</p></td><td><p align=\"left\">1750</p></td><td><p align=\"left\">1570</p></td><td><p align=\"left\">9,8%</p></td><td><p align=\"left\">10,3%</p></td><td><p align=\"left\">19,1%</p></td></tr><tr><td><p align=\"left\">Худи</p></td><td><p align=\"left\">2430</p></td><td><p align=\"left\">2210</p></td><td><p align=\"left\">1980</p></td><td><p align=\"left\">9,1%</p></td><td><p align=\"left\">10,4%</p></td><td><p align=\"left\">18,5%</p></td></tr><tr><td><p align=\"left\">Кепка</p></td><td><p align=\"left\">630</p></td><td><p align=\"left\">570</p></td><td><p align=\"left\">510</p></td><td><p align=\"left\">9,5%</p></td><td><p align=\"left\">10,5%</p></td><td><p align=\"left\">19,0%</p></td></tr><tr><td><p align=\"left\">Панама</p></td><td><p align=\"left\">630</p></td><td><p align=\"left\">570</p></td><td><p align=\"left\">510</p></td><td><p align=\"left\">9,5%</p></td><td><p align=\"left\">10,5%</p></td><td><p align=\"left\">19,0%</p></td></tr><tr><td><p align=\"left\">Шоппер</p></td><td><p align=\"left\">360</p></td><td><p align=\"left\">330</p></td><td><p align=\"left\">290</p></td><td><p align=\"left\">8,3%</p></td><td><p align=\"left\">12,1%</p></td><td><p align=\"left\">19,4%</p></td></tr><tr><td><p align=\"left\">Рюкзак</p></td><td><p align=\"left\">840</p></td><td><p align=\"left\">760</p></td><td><p align=\"left\">680</p></td><td><p align=\"left\">9,5%</p></td><td><p align=\"left\">10,5%</p></td><td><p align=\"left\">19,0%</p></td></tr><tr><td><p align=\"left\">Кружка</p></td><td><p align=\"left\">210</p></td><td><p align=\"left\">190</p></td><td><p align=\"left\">170</p></td><td><p align=\"left\">9,5%</p></td><td><p align=\"left\">10,5%</p></td><td><p align=\"left\">19,0%</p></td></tr><tr><td><p align=\"left\">Бутылка для воды</p></td><td><p align=\"left\">606</p></td><td><p align=\"left\">550</p></td><td><p align=\"left\">491</p></td><td><p align=\"left\">9,2%</p></td><td><p align=\"left\">10,7%</p></td><td><p align=\"left\">19,0%</p></td></tr><tr><td><p align=\"left\">Термокружка</p></td><td><p align=\"left\">978</p></td><td><p align=\"left\">885</p></td><td><p align=\"left\">792</p></td><td><p align=\"left\">9,5%</p></td><td><p align=\"left\">10,5%</p></td><td><p align=\"left\">19,0%</p></td></tr><tr><td><p align=\"left\">Пауэрбанк</p></td><td><p align=\"left\">1360</p></td><td><p align=\"left\">1240</p></td><td><p align=\"left\">1110</p></td><td><p align=\"left\">8,8%</p></td><td><p align=\"left\">10,5%</p></td><td><p align=\"left\">18,4%</p></td></tr><tr><td><p align=\"left\">Блокнот</p></td><td><p align=\"left\">870</p></td><td><p align=\"left\">760</p></td><td><p align=\"left\">680</p></td><td><p align=\"left\">12,6%</p></td><td><p align=\"left\">10,5%</p></td><td><p align=\"left\">21,8%</p></td></tr><tr><td><p align=\"left\">Ежедневник</p></td><td><p align=\"left\">1010</p></td><td><p align=\"left\">930</p></td><td><p align=\"left\">840</p></td><td><p align=\"left\">7,9%</p></td><td><p align=\"left\">9,7%</p></td><td><p align=\"left\">16,8%</p></td></tr></tbody></table></div></div><p>Сводные цифры прогона от 04.11.2026:</p><ul><li><p>суммарная скидка от 10 до 200 штук: медиана 19,0%, разброс от 16,8% у ежедневника до 21,8% у блокнота;</p></li><li><p>первый шаг (10 → 50, рост тиража в пять раз): медиана 9,5%;</p></li><li><p>второй шаг (50 → 200, рост в четыре раза): медиана 10,5%;</p></li><li><p>у 13 позиций из 15 второй шаг больше первого.</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/82/77/be/8277bee46dfa223115fbd3a19a1010e1.png\" alt=\"Оптовый прайс и скидка за тираж: суммарная скидка от 10 до 200 штук по 15 позициям\" title=\"Оптовый прайс и скидка за тираж: суммарная скидка от 10 до 200 штук по 15 позициям\" width=\"2320\" height=\"1594\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/82/77/be/8277bee46dfa223115fbd3a19a1010e1.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/82/77/be/8277bee46dfa223115fbd3a19a1010e1.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Оптовый прайс и скидка за тираж: суммарная скидка от 10 до 200 штук по 15 позициям</figcaption></div></figure><h3>Что из этого следует</h3><p>Скидка внутри шкалы не выдыхается. Моя стартовая гипотеза была про убывающую отдачу: первый скачок большой, дальше плато. Данные дают обратное: второй шаг обычно чуть круче первого. В процентах прайс почти линеен. Рост тиража в пять раз даёт минус примерно 9,5% к цене штуки, ещё рост в четыре раза даёт минус ещё примерно 10,5%. Двадцатикратный тираж стоит около минус 19%.</p><p>В рублях картина предметнее. Худи от 2430 до 1980 ₽: минус 450 ₽ на каждой штуке, на партии в 200 штук экономия 90 000 ₽. Свитшот даёт 370 ₽ на штуке (74 000 ₽ с партии), оверсайз 280 ₽ (56 000 ₽), пауэрбанк 250 ₽ (50 000 ₽). На дешёвых позициях эффект скромный: кружка экономит 40 ₽ на штуке и 8 000 ₽ с партии.</p><p>Практический вывод для выбора объёма: если весь тираж гарантированно уйдёт, следующая ступень шкалы почти всегда стоит перехода. Но после 200 штук прейскурант заканчивается, и «закажем пятьсот, будет ещё дешевле» опирается уже не на прайс, а на переговоры.</p><h3>Где мой метод соврал с данными</h3><p>Первое: я ждал, что скидка одинаковая у всех позиций. 13 из 15 действительно лежат в узком коридоре 18,4–19,8%, но пара позиций из искусственной кожи выбивается: блокнот 21,8%, ежедневник 16,8%. У ежедневника оба шага ниже медианных (7,9% и 9,7%), у блокнота первый шаг наоборот резкий (12,6%). Если считать бюджет по «средней скидке 19%», промах по этим двум позициям дойдёт до трёх процентных пунктов.</p><p>Второе: я ждал, что самый выгодный переход стоит на первой ступени. По медиане это почти так, но разница между шагами мала (9,5% против 10,5%), и полагаться на «первый скачок самый большой» не стоит.</p><h3>Границы расчёта и оговорки по данным</h3><p>Это одна вёрстка одного прайса, и три оговорки по данным.</p><p>У бутылки, термокружки и стикерпака в другой вёрстке того же прайса шкала другая, 50 / 200 / 500 штук; какая из двух вёрсток верна, по документам не установить. В расчёте основная таблица.</p><p>У блокнота и ежедневника в той же другой вёрстке шкала 20 / 100 / 250 штук. Их шаги из моего расчёта нельзя переносить в другой документ.</p><p>Скидка бывает не только процентной. В другом КП, которое я смотрел рядом для сравнения, цена на каждой позиции падает на фиксированную сумму: у худи это минус 50 ₽ на ступени (2650 → 2600, всего минус 1,9%), у ручки те же 50 ₽ дают минус 62,5% (80 → 30). Рублёвую шкалу в проценты не пересчитать, и наоборот: считать скидку «в среднем по отрасли» нельзя.</p><p>Источник данных: оптовый прайс производства корпоративного мерча, февраль 2026 года, сверка по сканам страниц 14.10.2026. Прогон и сводная таблица: 04.11.2026.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "малый бизнес"
+    },
+    {
+      "titleHtml": "печать"
+    },
+    {
+      "titleHtml": "расчеты"
+    },
+    {
+      "titleHtml": "python"
+    },
+    {
+      "titleHtml": "текстиль"
+    },
+    {
+      "titleHtml": "юнит-экономика"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105792/8d44f456dbaa0c2b7fcb9cc75d46c93d/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105792/8d44f456dbaa0c2b7fcb9cc75d46c93d/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105792\\/\"},\"headline\":\"Где кончается скидка за тираж: считаю оптовый прайс печати на футболках\",\"datePublished\":\"2026-11-10T10:44:26+03:00\",\"dateModified\":\"2026-11-11T13:08:37+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Корпоративному клиенту, который заказывает десять футболок с логотипом, обычно говорят одно и то же: возьмите пятьдесят, будет дешевле. Я захотел проверить,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105792\\/#post-content-body\",\"about\":[\"h_python\",\"h_data_mining\",\"h_opendata\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/75\\/d2\\/f4\\/75d2f4da1bf9934b9ad47431e1eca1e0.png\",\"https:\\/\\/habrastorage.org\\/extt\\/82\\/77\\/be\\/8277bee46dfa223115fbd3a19a1010e1.png\"]}",
+    "metaDescription": "Корпоративному клиенту, который заказывает десять футболок с логотипом, обычно говорят одно и то же: возьмите пятьдесят, будет дешевле. Я захотел проверить, сколько именно дешевле и как внутри шкалы...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "analytics",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "22",
+    "title": "Системный и бизнес-анализ",
+    "alias": "analytics"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

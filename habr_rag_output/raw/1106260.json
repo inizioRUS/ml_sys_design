@@ -1,0 +1,225 @@
+{
+  "id": "1106260",
+  "timePublished": "2026-11-10T17:32:23+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Делаю олдскульную браузерную 3D MMORPG: открытый мир без знания программирования",
+  "leadData": {
+    "textHtml": "<p>Задача проекта&nbsp;— собрать честную олдскульную 3D MMORPG в&nbsp;браузере (на Three.js и WebGL) с&nbsp;механикой классической Lineage 2&nbsp;(C1–C4), в&nbsp;оригинальном стимпанк‑сеттинге. </p>",
+    "imageUrl": "https://habrastorage.org/extt/6b/e0/a6/6be0a6a9f2633c827246836d64a3e2a1.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/6b/e0/a6/6be0a6a9f2633c827246836d64a3e2a1.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "sandbox",
+      "typeOf": "system",
+      "title": "Из песочницы",
+      "data": {
+        "url": null
+      }
+    }
+  ],
+  "author": {
+    "id": "6058548",
+    "alias": "AindieGus",
+    "fullname": "ИИндиГусь",
+    "avatarUrl": "//habrastorage.org/extt/8a/14/60/8a1460dcfbcc0eff0ad7486597806e4b.png",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 0,
+      "votesCount": 4
+    },
+    "rating": 1,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/ostrov_stali",
+        "value": "ostrov_stali",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/ostrov_stali",
+        "value": "ostrov_stali",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 7,
+    "favoritesCount": 3,
+    "readingCount": 996,
+    "score": 1,
+    "votesCount": 5,
+    "votesCountPlus": 2,
+    "votesCountMinus": 3,
+    "reach": 8489,
+    "readers": 776
+  },
+  "hubs": [
+    {
+      "id": "7773",
+      "alias": "gamedev",
+      "type": "collective",
+      "title": "Разработка игр",
+      "titleHtml": "Разработка игр",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "559",
+      "alias": "cpp",
+      "type": "collective",
+      "title": "C++",
+      "titleHtml": "C++",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "357",
+      "alias": "javascript",
+      "type": "collective",
+      "title": "JavaScript",
+      "titleHtml": "JavaScript",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "643",
+      "alias": "3d_graphics",
+      "type": "collective",
+      "title": "3D-графика",
+      "titleHtml": "3D-графика",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "2",
+      "alias": "design",
+      "title": "Дизайн",
+      "titleHtml": "Дизайн"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Задача проекта — собрать честную олдскульную 3D MMORPG в браузере (на Three.js и WebGL) с механикой классической Lineage 2 (C1–C4), в оригинальном стимпанк‑сеттинге. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/6c/db/4a/6cdb4adb97c2af5dc0e0f5f9bd1db169.png\" width=\"1925\" height=\"985\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/6c/db/4a/6cdb4adb97c2af5dc0e0f5f9bd1db169.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/6c/db/4a/6cdb4adb97c2af5dc0e0f5f9bd1db169.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h4></h4><p>Всё началось с простого чувства: современные онлайн‑игры перестали вызывать эмоции. Ты заходишь в новую MMO, а тебя берут за руку, ведут по светящейся стрелочке на полу, включают автобой, автоквест и засыпают сундуками с блестящей мишурой. Смерть персонажа не значит вообще ничего, управление свелось к попсовому слэшеру на WASD, а мобы превратились в безликие мешки с опытом, которых сдувает с двух кнопок.</p><p>Я скучал по временам классической Lineage 2 эпохи от C1 до C4. По тому самому чувству, когда ты немного подрос, выходишь за ворота стартовой деревни, по ошибке цепляешь моба чуть старше себя, ложишься лицом в траву, теряешь честно набитый за вечер опыт и понимаешь, что именно ради этого риска и стоило качаться. Когда попытка загнать пушку даже на +4 заставляла пальцы предательски дрожать, а удачная заточка становилась праздником для всей семьи.</p><p>Мне захотелось вернуть эти бескомпромиссные механики, но засунуть их прямо в браузер на Three.js и WebGL без многогигабайтных лаунчеров. Программировать я не умею, поэтому собираю проект в тандеме с нейросетями. Затея звучит безумно, но тем интереснее было проверить, на каком именно этапе сломается браузерный движок, или моя нервная система.</p><h4>Кухонный апокалипсис вместо эльфов</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ff/73/63/ff7363326eb8649db84bce9c451eed95.jpg\" width=\"2752\" height=\"1536\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ff/73/63/ff7363326eb8649db84bce9c451eed95.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/ff/73/63/ff7363326eb8649db84bce9c451eed95.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Делать очередное типичное фэнтези со светлыми эльфами, орками и древним злом было откровенно скучно, поэтому сеттинг я вывернул наизнанку. Мир игры называется «Остров поющей стали», а его жанр проще всего описать как техногенное средневековье. По лору некогда полностью автоматизированная цивилизация рухнула после катастрофы на химзаводе, которую выжившие прозвали «Зелёной порчей». Системы управления дали сбой, а брошенная сервисная и домашняя техника потеряла заводские протоколы и обрела хищную псевдоличность под названием «Искра».</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/97/61/a2/9761a26976e5d49dafe138da7da851f9.jpg\" width=\"1894\" height=\"987\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/97/61/a2/9761a26976e5d49dafe138da7da851f9.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/97/61/a2/9761a26976e5d49dafe138da7da851f9.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Единственным оплотом людей осталась Деревня поющей стали, выстроенная вокруг геотермального Первого Котла. Горячий пар под мостовыми заставляет массивные чугунные балки города непрерывно вибрировать низким гулом. Этот акустический фон глушит и ослепляет сенсоры диких машин, не давая им прорваться внутрь периметра.</p><p>Но стоит выйти за ворота, как вместо привычных волков и гоблинов на полянах тебя встречает сошедшая с ума бытовая утварь. На стартовых опушках пасутся «Сбежавшие болты», которых забыли затянуть при сборке: у них всего 12 HP, зато вагон амбиций. Чуть дальше рыщут «Бешеные газонокосилки», плюющиеся мусором «Пылесосы‑Харкачи» и их старшие собратья «Скрапперы» с прикрученными болгарками и заклинившим режимом «уборка до смерти». Если забрести глубже, можно нарваться на стаи «Шуруповертов‑Жужжало» и зубастые кофемашины «Паровые гончие», плюющиеся крутым кипятком, а в высокоуровневых руинах поджидают стиральные машины‑убийцы и тяжелые строительные боссы вроде Тирана Свалки.</p><h4>Три школы выживания и экономика тотального дефицита</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/7f/17/74/7f1774031eb503d044c2f1d5e5e76ed7.jpg\" width=\"2752\" height=\"1536\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/7f/17/74/7f1774031eb503d044c2f1d5e5e76ed7.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/7f/17/74/7f1774031eb503d044c2f1d5e5e76ed7.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Самая частая ошибка независимых разработчиков ММО заключается в попытке наобещать со старта бескрайнюю вселенную, осады сотни замков и межсерверную олимпиаду, чтобы потом выгореть через три месяца. Я сразу ограничил первую рабочую фазу плотным, вылизанным циклом прокачки с 1 по 20 уровень. По сути, это локальный Talking Island со своей замкнутой экосистемой. На острове площадью около 14 квадратных километров расположены 22 бесшовные локации без единого телепорта. Дойти от безопасной Деревни до запертого Южного Порта можно только своими ногами, постоянно рискуя нарваться на агрессивную железку или убийцу игроков и потерять не только опыт, но и часть экипировки.</p><p>Ролевая система опирается на каноны старой «Линейки», переложенные на рельсы стимпанка, где вместо маны используется давление пара. На выбор даются три базовые школы.</p><p>Первая школа это <strong>Операторы</strong>, полагающиеся на тяжелую броню, рычажные мечи и грубую физическую силу. Дожив до 20 уровня, Оператор выбирает первую профессию: становится закованным в котловую сталь Механиком со щитом, берет в руки двуручный паровой молот как Разрушитель или уходит в дистанционный бой со стилетом и пневматическим луком, становясь Стрелком.</p><p>Вторая школа представляет собой <strong>Инженеров</strong>, хранителей технологий исчезнувших Создателей. Ветка Конструктора позволяет выжигать врагов цепными молниями и направленными взрывами пара, а Наладчик работает полевым медиком. Он распыляет из контейнеров медицинских наноботов, которые прямо под ударами босса сращивают ткани и заваривают пробитую броню соратников.</p><p>Третья школа, <strong>Мастеровые</strong>, передает прямой привет гномам из первых хроник. Здесь разделение труда ощущается острее всего: Утилизатор владеет механикой спойла и прямо во время схватки вскрывает корпуса автоматонов, выдергивая оттуда дефицитные реле, клапаны и поршни, а Котловой Кузнец садится на оффлайн‑крафт у Общественного Горна и собирает из этого хлама экипировку.</p><p>Кузнецы здесь настоящие цари и боги, потому что вся экономика двадцатого капа построена по принципу жесткого крафта (Low‑D Craft‑Only). В магазинах у NPC продаются только примитивные вещи начального ранга No‑Grade. Весь D‑грейд полностью вырезан из лавок торговцев: любую серьезную пушку или кирасу можно получить только через руки живых Мастеровых, причем базовый шанс успешной ковки составляет суровые 60%. Даже расходники требуют расчета, так как аналог соулшотов здесь расходуется динамически: легкий меч съедает один заряд за удар, тяжелый паровой молот сжигает сразу три, а тугой пневматический лук требует от двух до шести зарядов на выстрел. В одиночку можно ковырять мелких роботов на холмах, но в плотные зоны и на боссов без живой группы соваться бессмысленно.</p><h4>Что дальше и зачем я всё это рассказываю</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c0/fa/c7/c0fac730bc16f235205a0b08504a58ba.jpg\" width=\"1376\" height=\"768\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c0/fa/c7/c0fac730bc16f235205a0b08504a58ba.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/c0/fa/c7/c0fac730bc16f235205a0b08504a58ba.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Сейчас проект находится на ранней рабочей стадии, поэтому громких дат релиза я не называю. Но клиент уже живет и дышит: персонаж бодро бегает по ржавым пустошам, лупит гаечными ключами обезумевшие пылесосы и собирает выбитые шестеренки. Графика намеренно стилизована под суровый лоу‑поли начала двухтысячных. Для меня это критически важно )).</p><p>Я выкладываю этот кейс, чтобы найти единомышленников, которым близка эстетика старых хардкорных миров и интересен сам инженерный эксперимент по сборке браузерной ММО силами одного новичка без навыков кода и стаи нейросетей. Буду безумно рад двум категориям людей: тем, кто хочет накидывать безумные идеи для лора, квестов и новых мобов из бытовой техники, и опытным разработчикам, которые могут заглянуть под капот, указать на узкие места и дать дельный архитектурный совет. А уж я позабочусь о том, чтобы правильно скормить эти советы ИИ и внедрить в проект.</p><p>Следить за процессом и участвовать в обсуждениях можно здесь:</p><p>👉 <strong>Telegram‑канал и чат:</strong> <a href=\"http://t.me/ostrov_stali\" rel=\"noopener nofollow\"><strong>t.me/ostrov_stali</strong></a></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/7b/57/89/7b5789c214a1a9a03e309b3b96b7e35c.png\" width=\"1925\" height=\"985\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/7b/57/89/7b5789c214a1a9a03e309b3b96b7e35c.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/7b/57/89/7b5789c214a1a9a03e309b3b96b7e35c.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/b2/1d/be/b21dbe61a43a0b1ae66afec7d248d360.jpg\" width=\"1914\" height=\"874\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b2/1d/be/b21dbe61a43a0b1ae66afec7d248d360.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/b2/1d/be/b21dbe61a43a0b1ae66afec7d248d360.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/2e/dc/e3/2edce3774dd374ba5bdaf10267fae1e7.jpg\" width=\"1920\" height=\"879\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/2e/dc/e3/2edce3774dd374ba5bdaf10267fae1e7.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/2e/dc/e3/2edce3774dd374ba5bdaf10267fae1e7.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure></div>",
+  "tags": [
+    {
+      "titleHtml": "mmorpg"
+    },
+    {
+      "titleHtml": "three.js"
+    },
+    {
+      "titleHtml": "gamedev"
+    },
+    {
+      "titleHtml": "lineage 2"
+    },
+    {
+      "titleHtml": "нейросети"
+    },
+    {
+      "titleHtml": "инди"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106260/a3baf274de4016bea83593f2cd29352b/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106260/a3baf274de4016bea83593f2cd29352b/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106260\\/\"},\"headline\":\"Делаю олдскульную браузерную 3D MMORPG: открытый мир без знания программирования\",\"datePublished\":\"2026-11-10T20:32:23+03:00\",\"dateModified\":\"2026-11-10T20:32:23+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Задача проекта&nbsp;— собрать честную олдскульную 3D MMORPG в&nbsp;браузере (на Three.js и WebGL) с&nbsp;механикой классической Lineage 2&nbsp;(C1–C4),...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106260\\/#post-content-body\",\"about\":[\"h_gamedev\",\"h_cpp\",\"h_javascript\",\"h_3d_graphics\",\"f_develop\",\"f_design\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/6c\\/db\\/4a\\/6cdb4adb97c2af5dc0e0f5f9bd1db169.png\",\"https:\\/\\/habrastorage.org\\/extt\\/ff\\/73\\/63\\/ff7363326eb8649db84bce9c451eed95.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/97\\/61\\/a2\\/9761a26976e5d49dafe138da7da851f9.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/7f\\/17\\/74\\/7f1774031eb503d044c2f1d5e5e76ed7.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/c0\\/fa\\/c7\\/c0fac730bc16f235205a0b08504a58ba.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/7b\\/57\\/89\\/7b5789c214a1a9a03e309b3b96b7e35c.png\",\"https:\\/\\/habrastorage.org\\/extt\\/b2\\/1d\\/be\\/b21dbe61a43a0b1ae66afec7d248d360.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/2e\\/dc\\/e3\\/2edce3774dd374ba5bdaf10267fae1e7.jpg\"]}",
+    "metaDescription": "Задача проекта&nbsp;— собрать честную олдскульную 3D MMORPG в&nbsp;браузере (на Three.js и WebGL) с&nbsp;механикой классической Lineage 2&nbsp;(C1–C4), в&nbsp;оригинальном стимпанк‑сеттинге. Всё...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "16",
+    "title": "Геймдев",
+    "alias": "gamedev"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

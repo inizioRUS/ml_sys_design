@@ -1,0 +1,215 @@
+{
+  "id": "1105362",
+  "timePublished": "2026-11-09T08:33:04+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Рекламодатели стали чаще инвестировать в продвижение через СМС‑рассылки",
+  "leadData": {
+    "textHtml": "<p>Вложения рекламодателей в&nbsp;СМС‑таргетирование от&nbsp;T2&nbsp;за&nbsp;девять месяцев выросли на 74%, <a href=\"https://www.kommersant.ru/doc/9092237\" rel=\"noopener nofollow\">рассказали</a> «Ъ» в&nbsp;компании. Там также сравнили период до&nbsp;и после февраля 2026&nbsp;года, когда у&nbsp;пользователей и рекламодателей начались проблемы с&nbsp;Telegram. По&nbsp;данным компании, с&nbsp;марта по&nbsp;октябрь 2026&nbsp;года количество новых рекламодателей СМС‑таргета росло на 47% быстрее, чем за&nbsp;август 2025-го&nbsp;— февраль 2026-го. В&nbsp;третьем квартале вложения микробизнеса в&nbsp;СМС‑продвижение в&nbsp;среднем росли на 89% ежемесячно, а&nbsp;число новых клиентов T2&nbsp;в&nbsp;этом направлении&nbsp;— на 19%, добавили в&nbsp;компании.</p>",
+    "imageUrl": "https://habrastorage.org/extt/a1/be/6b/a1be6b2bef0e392cbc656df06fb09d8b.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/a1/be/6b/a1be6b2bef0e392cbc656df06fb09d8b.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3000027",
+    "alias": "LizzieSimpson",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/87d/321/950/87d321950490400be5d296976a5747d0.png",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 97,
+      "votesCount": 429
+    },
+    "rating": 320.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 2,
+    "readingCount": 217,
+    "score": 3,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 5310,
+    "readers": 167
+  },
+  "hubs": [
+    {
+      "id": "22008",
+      "alias": "cellular",
+      "type": "collective",
+      "title": "Сотовая связь",
+      "titleHtml": "Сотовая связь",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20712",
+      "alias": "display_adv",
+      "type": "collective",
+      "title": "Медийная реклама",
+      "titleHtml": "Медийная реклама",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19395",
+      "alias": "netdev",
+      "type": "collective",
+      "title": "Системы связи",
+      "titleHtml": "Системы связи",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21928",
+      "alias": "finance",
+      "type": "collective",
+      "title": "Финансы в IT",
+      "titleHtml": "Финансы в IT",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20728",
+      "alias": "sales",
+      "type": "collective",
+      "title": "Управление продажами",
+      "titleHtml": "Управление продажами",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "4",
+      "alias": "marketing",
+      "title": "Маркетинг",
+      "titleHtml": "Маркетинг"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a1/be/6b/a1be6b2bef0e392cbc656df06fb09d8b.jpg\" width=\"740\" height=\"493\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a1/be/6b/a1be6b2bef0e392cbc656df06fb09d8b.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/a1/be/6b/a1be6b2bef0e392cbc656df06fb09d8b.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Вложения рекламодателей в СМС‑таргетирование от T2 за девять месяцев выросли на 74%, <a href=\"https://www.kommersant.ru/doc/9092237\" rel=\"noopener nofollow\">рассказали</a> «Ъ» в компании. Там также сравнили период до и после февраля 2026 года, когда у пользователей и рекламодателей начались проблемы с Telegram. По данным компании, с марта по октябрь 2026 года количество новых рекламодателей СМС‑таргета росло на 47% быстрее, чем за август 2025-го — февраль 2026-го. В третьем квартале вложения микробизнеса в СМС‑продвижение в среднем росли на 89% ежемесячно, а число новых клиентов T2 в этом направлении — на 19%, добавили в компании.</p><p>Другие операторы «большой четвёрки» также видят рост СМС‑продвижения в разной степени. В МТС AdTech «Ъ» рассказали, что рост инвестиций рекламодателей в СМС составил 22% за три квартала год к году. В «Вымпелкоме» абсолютных значений не привели, но также отметили растущий интерес рекламодателей к продвижению с помощью таргетированных СМС.</p><p>«За последний год заметно активизировался малый и средний бизнес. Доля таких рекламодателей в нашем клиентском портфеле существенно увеличилась», — говорят в компании. Развитие сегмента там связали не только с расширением круга рекламодателей, но и с растущим спросом на более точные, управляемые и измеримые рекламные коммуникации. </p><p>Как отметили в «МегаФоне», общий объём СМС‑рекламы сокращается, но сегмент таргетированных рассылок, которые используют для привлечения новых клиентов, растёт. «По нашим данным, объём такой рекламы за три квартала год к году прирос на 72,5%. Рекламодатели отказываются от массовых „холодных“ рассылок и спама в пользу точечного контакта с релевантной аудиторией», — рассказали в компании.</p><p>По итогам трёх кварталов объём российского рынка СМС‑продвижения (рекламные и проморассылки) вырос на 15–20%, до 20–25 млрд рублей, а по итогам 2026 года может достичь 28–33 млрд рублей, если в четвёртом квартале сохранится спрос со стороны ретейла, банков, медкомпаний и организаторов мероприятий, прогнозируют в PR Partner. Рынок непрозрачен, участники используют разную методологию; одни включают только рекламные сообщения по собственной клиентской базе, другие — таргетированные рассылки по аудиториям операторов, третьи объединяют их со всем A2P‑трафиком, напомнил директор по Digital и Social Media компании Дамир Фейзуллов.</p><p>В апреле в связи с участившимися случаями отключения мобильного интернета операторы зафиксировали рост маркетинговой активности через СМС‑сообщения более чем на 30%. Тогда представители рекламного рынка называли рост ситуативным.</p><p>В деньгах рынок растёт быстрее своего устойчивого физического объёма, причины — повышение тарифов, подорожание межоператорских отправок и переход от массовых рассылок к точечным кампаниям по «дорогим аудиториям», говорит Фейзуллов. Рост 2026 года связан прежде всего с ограничениями мобильного интернета и нестабильностью отдельных мессенджеров. </p><p>«Также бизнес всё чаще оценивает рекламные инструменты с точки зрения способности обеспечить конкретное целевое действие», — отметил управляющий директор по цифровому развитию ГК КИТ1217 (ранее «Игроник») Александр Солонин. При этом СМС остаётся дорогим рекламным каналом с ограниченным объёмом и уступает мессенджерам в визуальных возможностях и аналитике, считает Фейзуллов.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "смс"
+    },
+    {
+      "titleHtml": "реклама"
+    },
+    {
+      "titleHtml": "смс-рассылки"
+    },
+    {
+      "titleHtml": "операторы связи"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105362/331d8185c984357b4a9cd0f40ca5aac5/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105362/331d8185c984357b4a9cd0f40ca5aac5/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105362\\/\"},\"headline\":\"Рекламодатели стали чаще инвестировать в продвижение через СМС‑рассылки\",\"datePublished\":\"2026-11-09T11:33:04+03:00\",\"dateModified\":\"2026-11-09T12:41:16+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Вложения рекламодателей в&nbsp;СМС‑таргетирование от&nbsp;T2&nbsp;за&nbsp;девять месяцев выросли на 74%, рассказали «Ъ» в&nbsp;компании. Там также сравнили...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105362\\/#post-content-body\",\"about\":[\"h_cellular\",\"h_display_adv\",\"h_netdev\",\"h_finance\",\"h_sales\",\"f_develop\",\"f_management\",\"f_marketing\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/a1\\/be\\/6b\\/a1be6b2bef0e392cbc656df06fb09d8b.jpg\"]}",
+    "metaDescription": "Вложения рекламодателей в&nbsp;СМС‑таргетирование от&nbsp;T2&nbsp;за&nbsp;девять месяцев выросли на 74%, рассказали «Ъ» в&nbsp;компании. Там также сравнили период до&nbsp;и после февраля...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,164 @@
+{
+  "id": "1105680",
+  "timePublished": "2026-11-09T19:12:33+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "О, новый, прекрасный Хабр",
+  "leadData": {
+    "textHtml": "<p>Сегодня, я получил письмо с таким заголовком и соответствующим содержанием:<br>Я, разумеется, благодарен… Являюсь подписчиком с 2013 года. За эти годы, я получил огромное количество полезной, а иногда и нужной мне, информации. Иногда просто интересной. Всегда Хабр был моим самым читаемым сайтом. Потом появилось RSS - стало легче фильтровать информацию, что мне очень понравилось. Позже - появились Телеграм каналы, в них информация дублировалась, но RSS оставался. Потом, появились разделы: статьи, посты, новости… И это стало ещё лучше! А сегодня - день удивлений!<br></p>",
+    "imageUrl": "https://habrastorage.org/extt/22/70/a2/2270a2241c1b5302fde94d893d08e498.png",
+    "buttonTextHtml": "Удивление",
+    "image": {
+      "url": "https://habrastorage.org/extt/22/70/a2/2270a2241c1b5302fde94d893d08e498.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "398444",
+    "alias": "dleshko",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": "Пользователь",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 11,
+      "votesCount": 17
+    },
+    "rating": 11,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 29,
+    "favoritesCount": 4,
+    "readingCount": 3256,
+    "score": 22,
+    "votesCount": 26,
+    "votesCountPlus": 21,
+    "votesCountMinus": 5,
+    "reach": 10698,
+    "readers": 2496
+  },
+  "hubs": [
+    {
+      "id": "22014",
+      "alias": "futurenow",
+      "type": "collective",
+      "title": "Будущее здесь",
+      "titleHtml": "Будущее здесь",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21924",
+      "alias": "social_networks",
+      "type": "collective",
+      "title": "Социальные сети",
+      "titleHtml": "Социальные сети",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Сегодня, я получил письмо с таким заголовком и соответствующим содержанием:<br/><br/></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/22/70/a2/2270a2241c1b5302fde94d893d08e498.png\" width=\"2148\" height=\"699\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/22/70/a2/2270a2241c1b5302fde94d893d08e498.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/22/70/a2/2270a2241c1b5302fde94d893d08e498.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Я, разумеется, благодарен… Являюсь подписчиком с 2013 года. За эти годы я получил огромное количество полезной, а иногда и нужной мне, информации. Иногда просто интересной. Всегда Хабр был моим самым читаемым сайтом. Потом появилось RSS — стало легче фильтровать информацию, что мне очень понравилось. Позже — появились Телеграм каналы, в них информация дублировалась, но RSS оставался. Потом появились разделы: статьи, посты, новости… И это стало ещё лучше! А сегодня — день удивлений! Всё объединилось в одну ленту, что не может не огорчать. И мне дали «обладателя полноправного аккаунта». Я, разумеется, благодарен, но был крайне удивлён, хотя раньше, чтобы стать «полноценным», ты должен принести что‑то хорошее. То есть теперь я могу писать (как минимум, некоторое время, всё что мне вздумается). Удивился, залез в свой профиль: 1 пост, согласен, надо было не лениться и выразить свои мысли полнее. Сколько‑то комментариев — ну… не самые толковые мысли. А А теперь самое: есть мнение, что у Хабра беда с авторами. Даже я заметил, что LLM плохо влияет на нас. Люди стали более ленивыми. Некоторые даже перестали проверять тексты после LLM. А толковые спецы просто стали уходить отсюда, а идти им некуда ( ну, или я не знаю, куда ). И это огорчает.<br/>P. S. Надежда всё ещё остаётся.<br/>P.P. S. Этот текст написан с помощью двух LLM: огорчением и <a href=\"https://ru.wikipedia.org/wiki/J%C3%A4germeister\" rel=\"noopener nofollow\">Jägermeister</a>)</p></div>",
+  "tags": [
+    {
+      "titleHtml": "Удивление"
+    },
+    {
+      "titleHtml": "новый хабрахабр"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105680/9b2d76b5e1e368deb59af9a04f4774a5/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105680/9b2d76b5e1e368deb59af9a04f4774a5/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105680\\/\"},\"headline\":\"О, новый, прекрасный Хабр\",\"datePublished\":\"2026-11-09T22:12:33+03:00\",\"dateModified\":\"2026-11-10T09:53:34+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Сегодня, я получил письмо с&nbsp;таким заголовком и соответствующим содержанием: Я, разумеется, благодарен… Являюсь подписчиком с 2013&nbsp;года. За&nbsp;эти...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105680\\/#post-content-body\",\"about\":[\"h_futurenow\",\"h_social_networks\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/22\\/70\\/a2\\/2270a2241c1b5302fde94d893d08e498.png\"]}",
+    "metaDescription": "Сегодня, я получил письмо с&nbsp;таким заголовком и соответствующим содержанием: Я, разумеется, благодарен… Являюсь подписчиком с 2013&nbsp;года. За&nbsp;эти годы я получил огромное количество...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

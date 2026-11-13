@@ -1,0 +1,160 @@
+{
+  "id": "1106250",
+  "timePublished": "2026-11-10T17:14:07+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Как научить ИИ-ассистента отвечать на вопросы, опираясь на базу знаний компании?",
+  "leadData": {
+    "textHtml": "<p>Технология Retrieval-Augmented Generation (RAG), или генерация с поиском по источникам, позволяет ассистенту опираться не только на знания, полученные при обучении, но и на корпоративные документы. Она помогает находить в базе знаний фрагменты, подходящие к вопросу, и передавать их модели для подготовки ответа.</p><p>19 ноября в 11:00 на вебинаре VK AI Space разберем, как собрать ассистента с RAG и проверить его ответы. Дмитрий Багрий, менеджер продукта VK Tech, расскажет:</p><p>🔹 как подключить корпоративные документы и базы знаний к ассистенту в VK AI Space и использовать их в ответах<br>🔹 как поиск по этим материалам помогает модели точнее отвечать на рабочие вопросы<br>🔹 как проверить, на какой документ опирался ассистент<br>🔹 как работать с обновляемой базой знаний и снизить риск ответа по устаревшей информации.</p><p><strong>➡️ <a href=\"https://tech.vk.ru/events/ii-assistent-na-korporativnyh-znaniyah/?utm_source=habr&amp;utm_medium=referral&amp;utm_campaign=ii_assistent_101126&amp;utm_content=habr\">Посмотреть программу и зарегистрироваться</a></strong></p><p>👉 Подписывайтесь на каналы Tarantool в <a href=\"https://t.me/+PapwMCY6vuNkMWIy\">Telegram</a> и <a href=\"https://max.ru/tarantool_news\">МАХ</a></p>",
+    "imageUrl": "https://habrastorage.org/extt/06/04/ef/0604ef6ad53d957352be104604299fc7.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/06/04/ef/0604ef6ad53d957352be104604299fc7.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2829699",
+    "alias": "Zoran-1975",
+    "fullname": "Роман",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": -1,
+      "votesCount": 45
+    },
+    "rating": 7.2,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 1,
+    "readingCount": 358,
+    "score": 4,
+    "votesCount": 4,
+    "votesCountPlus": 2,
+    "votesCountMinus": 2,
+    "reach": 6316,
+    "readers": 247
+  },
+  "hubs": [
+    {
+      "id": "23638",
+      "alias": "vktech",
+      "type": "corporative",
+      "title": "Блог компании VK Tech",
+      "titleHtml": "Блог компании VK Tech",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/06/04/ef/0604ef6ad53d957352be104604299fc7.jpg\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/06/04/ef/0604ef6ad53d957352be104604299fc7.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/06/04/ef/0604ef6ad53d957352be104604299fc7.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Технология Retrieval-Augmented Generation (RAG), или генерация с поиском по источникам, позволяет ассистенту опираться не только на знания, полученные при обучении, но и на корпоративные документы. Она помогает находить в базе знаний фрагменты, подходящие к вопросу, и передавать их модели для подготовки ответа.</p><p>19 ноября в 11:00 на вебинаре VK AI Space разберем, как собрать ассистента с RAG и проверить его ответы. Дмитрий Багрий, менеджер продукта VK Tech, расскажет:</p><p>🔹 как подключить корпоративные документы и базы знаний к ассистенту в VK AI Space и использовать их в ответах<br/>🔹 как поиск по этим материалам помогает модели точнее отвечать на рабочие вопросы<br/>🔹 как проверить, на какой документ опирался ассистент<br/>🔹 как работать с обновляемой базой знаний и снизить риск ответа по устаревшей информации.</p><p><strong>➡️ </strong><a href=\"https://tech.vk.ru/events/ii-assistent-na-korporativnyh-znaniyah/?utm_source=habr&amp;utm_medium=referral&amp;utm_campaign=ii_assistent_101126&amp;utm_content=habr\"><strong>Посмотреть программу и зарегистрироваться</strong></a></p><p>👉 Подписывайтесь на каналы Tarantool в <a href=\"https://t.me/+PapwMCY6vuNkMWIy\">Telegram</a> и <a href=\"https://max.ru/tarantool_news\">МАХ</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "VK AI Space"
+    },
+    {
+      "titleHtml": "ии-ассистент"
+    },
+    {
+      "titleHtml": "rag"
+    },
+    {
+      "titleHtml": "VK Tech"
+    },
+    {
+      "titleHtml": "вебинар"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106250/892062d0a54de20f7c2e3f34c76ca3ac/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106250/892062d0a54de20f7c2e3f34c76ca3ac/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/vktech\\/articles\\/1106250\\/\"},\"headline\":\"Как научить ИИ-ассистента отвечать на вопросы, опираясь на базу знаний компании?\",\"datePublished\":\"2026-11-10T20:14:07+03:00\",\"dateModified\":\"2026-11-11T14:10:13+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Технология Retrieval-Augmented Generation (RAG), или генерация с поиском по источникам, позволяет ассистенту опираться не только на знания, полученные при...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/vktech\\/articles\\/1106250\\/#post-content-body\",\"about\":[\"c_vktech\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/06\\/04\\/ef\\/0604ef6ad53d957352be104604299fc7.jpg\"]}",
+    "metaDescription": "Технология Retrieval-Augmented Generation (RAG), или генерация с поиском по источникам, позволяет ассистенту опираться не только на знания, полученные при обучении, но и на корпоративные документы....",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

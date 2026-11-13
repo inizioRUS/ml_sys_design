@@ -1,0 +1,246 @@
+{
+  "id": "1105746",
+  "timePublished": "2026-11-10T04:36:45+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Почему мой Mac не загружался, хотя на диске было свободно 264 ГБ?",
+  "leadData": {
+    "textHtml": "<p>Mac второй раз завис при загрузке. Я решил, что закончилось место, но в режиме восстановления увидел 264 ГБ свободного пространства. За 16 часов ночные тесты оставили во временном каталоге 1 378 905 файлов. Рассказываю, как я нашёл два источника утечки, почему первая попытка восстановления сделала хуже и что пришлось изменить в запуске тестов.<br></p>",
+    "imageUrl": "https://habrastorage.org/extt/20/f4/13/20f4131ecf6300e1178eda8e49f6a243.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/20/f4/13/20f4131ecf6300e1178eda8e49f6a243.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "recovery",
+      "typeOf": "system",
+      "title": "Recovery Mode",
+      "data": {
+        "url": null
+      }
+    },
+    {
+      "type": "translation",
+      "typeOf": "system",
+      "title": "Перевод",
+      "data": {
+        "originalAuthorName": "mazahaka",
+        "originalUrl": "https://offerstock.net/journal/two-hundred-and-sixty-four-gigabytes-free"
+      }
+    }
+  ],
+  "author": {
+    "id": "4082852",
+    "alias": "ArtemAndr89",
+    "fullname": "Артём Андрианов",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": -1,
+      "votesCount": 3
+    },
+    "rating": 0,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/artemandrianov/",
+        "value": "artemandrianov",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/artemandrianov/",
+        "value": "artemandrianov",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": {
+      "careerProfileLink": "https://career.habr.com/artemandr?utm_source=habr&utm_medium=profile_header&utm_campaign=button_habr_career",
+      "expertProfileLink": null
+    },
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 619,
+    "score": 2,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 6571,
+    "readers": 502
+  },
+  "hubs": [
+    {
+      "id": "20788",
+      "alias": "devops",
+      "type": "collective",
+      "title": "DevOps",
+      "titleHtml": "DevOps",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19253",
+      "alias": "osx_dev",
+      "type": "collective",
+      "title": "macOS",
+      "titleHtml": "macOS",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17110",
+      "alias": "nodejs",
+      "type": "collective",
+      "title": "Node.JS",
+      "titleHtml": "Node.JS",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "210",
+      "alias": "it_testing",
+      "type": "collective",
+      "title": "Тестирование IT-систем",
+      "titleHtml": "Тестирование IT-систем",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Уже второе утро Mac зависал при загрузке. Индикатор доходил почти до конца и замирал. Я подумал, что закончилось место на диске. В режиме восстановления выяснилось обратное: свободны были 264 ГБ.</p><p>Причина оказалась во временном каталоге. За 16 часов ночные тесты оставили там 30 182 папки и 1 378 905 файлов. Сколько из них нужно, чтобы сломать загрузку macOS, я не знаю. Но с этим каталогом мой Mac не загружался, а после его очистки загрузился.<br/></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/20/f4/13/20f4131ecf6300e1178eda8e49f6a243.png\" alt=\"Место на диске\" title=\"Место на диске\" width=\"1600\" height=\"900\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/20/f4/13/20f4131ecf6300e1178eda8e49f6a243.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/20/f4/13/20f4131ecf6300e1178eda8e49f6a243.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Место на диске</figcaption></div></figure><h3>Где лежали эти файлы</h3><p>На моём Mac <code>os.tmpdir()</code> указывал не на привычный <code>/tmp</code>, а на пользовательский каталог вида <code>/private/var/folders/&lt;xx&gt;/&lt;hash&gt;/T</code>. <a href=\"https://nodejs.org/api/os.html#ostmpdir\" rel=\"noopener nofollow\">Документация Node.js</a> описывает <code>os.tmpdir()</code> как путь к системному временному каталогу; на него также может влиять переменная <code>TMPDIR</code>. Поэтому путь, который возвращает функция, лучше проверять на конкретной машине.</p><p>В режиме восстановления я разблокировал том с данными, отвёл старые временные каталоги в сторону и после успешной загрузки посчитал содержимое папки <code>T</code>:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Источник</p></th><th><p align=\"left\">Папок</p></th><th><p align=\"left\">Файлов</p></th></tr><tr><td><p align=\"left\">Временные файлы моих тестов</p></td><td><p align=\"left\">25 299</p></td><td><p align=\"left\">1 189 858</p></td></tr><tr><td><p align=\"left\">Временные каталоги Vitest</p></td><td><p align=\"left\">4 603</p></td><td><p align=\"left\">151 679</p></td></tr><tr><td><p align=\"left\">Приложения и система</p></td><td><p align=\"left\">280</p></td><td><p align=\"left\">37 368</p></td></tr><tr><td><p align=\"left\"><strong>Всего</strong></p></td><td><p align=\"left\"><strong>30 182</strong></p></td><td><p align=\"left\"><strong>1 378 905</strong></p></td></tr></tbody></table></div></div><p>Все эти файлы появились между 23:00 воскресенья и 15:00 понедельника. Основную массу дали несколько типов тестовых каталогов: <code>construct-detach-*</code> — около 246 тысяч файлов, <code>construct-attach-*</code> — около 234 тысяч, <code>ghosts-preflight-test-*</code> — ещё около 113 тысяч.</p><h3>Первая попытка исправления сделала хуже</h3><p>Сначала я в режиме восстановления переименовал <code>var/folders</code> и <code>tmp</code> в каталоги с суффиксом <code>.old</code>, затем создал пустой <code>tmp</code>. Я хотел убрать накопившиеся файлы с пути загрузки, сохранив старые каталоги для разбора. После перезагрузки Mac попал в цикл и по-прежнему не запускался.</p><p>Вот команды той неудачной попытки; пути относятся к моему тому данных в Recovery:</p><pre><code>mv /Volumes/Data/private/var/folders /Volumes/Data/private/var/folders.old\nmv /Volumes/Data/private/tmp /Volumes/Data/private/tmp.old\nmkdir -m 1777 /Volumes/Data/private/tmp</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Я упустил родительский каталог <code>/private/var/folders</code>. В моём случае macOS создавала пользовательские папки внутри него, но не восстановила сам каталог после переименования. Пришлось снова зайти в режим восстановления, создать пустой <code>/private/var/folders</code> и вернуть ему владельца <code>root:wheel</code> и права <code>755</code>. После этого система загрузилась.</p><pre><code>mkdir /Volumes/Data/private/var/folders\nchown root:wheel /Volumes/Data/private/var/folders\nchmod 755 /Volumes/Data/private/var/folders</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Это важная деталь именно этой истории: перенос системного каталога без восстановления его родительской структуры добавил мне вторую неисправность поверх первой.</p><h3>Откуда взялось почти полтора миллиона файлов</h3><p>Ночью агенты запускали тесты параллельно в разных git worktree. Каждый отдельный прогон выглядел нормально. Вместе они многократно повторили утечку временных файлов.</p><p>Часть тестов создавала каталог через <code>mkdtempSync</code>:</p><pre><code>const dir = mkdtempSync(join(tmpdir(), 'construct-detach-'))</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Сам вызов <a href=\"https://nodejs.org/api/fs.html#fsmkdtempsyncprefix-options\" rel=\"noopener nofollow\">создаёт каталог и возвращает его путь</a>. Удаление нужно организовать отдельно. В тестах его не было. Один каталог легко не заметить; тысячи прогонов оставили 25 299 каталогов только от наших тестовых фикстур.</p><p>Я уже внёс исправление: каждый запуск получал собственный корневой каталог вида <code>mkr-&lt;pid&gt;-XXXXXX</code>, а <code>TMPDIR</code> указывал внутрь него. В конце запуска корень удалялся. Изменение попало в <code>main</code> в 00:50 понедельника, но утечка прекратилась только около 04:00.</p><p>Причина задержки — старые worktree. Они были созданы до исправления и продолжали выполнять прежний код. Когда я проверил их, два ещё не были обновлены. Правка в <code>main</code> сама по себе не меняет уже запущенные ветки.</p><p>Оставался второй источник: Vitest 5.0.0. В моих запусках он создавал временную папку при старте, до того как обёртка переназначала <code>TMPDIR</code>. Если процесс успевал нормально завершиться, внутреннее удаление убирало папки проектов, но корневая папка оставалась. Я воспроизвёл это на одном тестовом файле: после запуска в пустом временном каталоге появилась новая папка. Таких папок накопилось 4 603; они продолжали появляться примерно по 40 в час.</p><h3>Что я изменил после разбора</h3><p>Я меняю запуск Vitest: он должен проходить через ту же обёртку, что и остальные процессы, чтобы <code>TMPDIR</code> указывал внутрь каталога запуска ещё до старта тестового раннера. Тогда временные файлы будут удаляться вместе с этим каталогом.</p><p>На случай прерванных запусков я расширяю процесс очистки: он должен находить осиротевшие каталоги и оставленные Vitest папки старше часа. Добавляю lint-правило, которое запретит прямое создание временных каталогов через <code>mkdtempSync(join(tmpdir(), …))</code> в тестах: для них предусмотрен каталог конкретного запуска. Старые worktree нужно обновлять или удалять, иначе они снова запустят код с утечкой. Поведение Vitest я также планирую описать в issue проекта.</p><p>Все мои обычные индикаторы тогда были зелёными: свободное место и память оставались в норме. Я не считал количество файлов во временной папке. После этого случая для меня у каждого созданного файла должны быть понятны владелец, срок жизни и способ удаления, который можно проверить. Путь из <code>tmpdir()</code> сам по себе ничего из этого не гарантирует.</p><h3>Источники</h3><ul><li><p><a href=\"https://offerstock.net/journal/two-hundred-and-sixty-four-gigabytes-free\" rel=\"noopener nofollow\">Исходная статья на английском — Two hundred and sixty-four gigabytes free</a>. Журнал инцидента, подсчёт файлов, шаги восстановления и разбор двух источников утечки.</p></li><li><p><a href=\"https://nodejs.org/api/os.html#ostmpdir\" rel=\"noopener nofollow\">Документация Node.js — <code>os.tmpdir()</code></a>. Описание системного временного каталога и влияния переменной <code>TMPDIR</code>.</p></li><li><p><a href=\"https://nodejs.org/api/fs.html#fsmkdtempsyncprefix-options\" rel=\"noopener nofollow\">Документация Node.js — <code>fs.mkdtempSync()</code></a>. Поведение функции создания временного каталога.</p></li></ul></div>",
+  "tags": [
+    {
+      "titleHtml": "macOS"
+    },
+    {
+      "titleHtml": "Vitest"
+    },
+    {
+      "titleHtml": "Node.js"
+    },
+    {
+      "titleHtml": "временные файлы"
+    },
+    {
+      "titleHtml": "os.tmpdir"
+    },
+    {
+      "titleHtml": "TMPDIR"
+    },
+    {
+      "titleHtml": "git worktree"
+    },
+    {
+      "titleHtml": "тестирование"
+    },
+    {
+      "titleHtml": "очистка файлов"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105746/082eaeafa975d4f6972092d5d340a31a/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105746/082eaeafa975d4f6972092d5d340a31a/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105746\\/\"},\"headline\":\"Почему мой Mac не загружался, хотя на диске было свободно 264 ГБ?\",\"datePublished\":\"2026-11-10T07:36:45+03:00\",\"dateModified\":\"2026-11-12T13:34:59+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Уже второе утро Mac зависал при загрузке. Индикатор доходил почти до конца и замирал. Я подумал, что закончилось место на диске. В режиме восстановления...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105746\\/#post-content-body\",\"about\":[\"h_devops\",\"h_osx_dev\",\"h_nodejs\",\"h_it_testing\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/20\\/f4\\/13\\/20f4131ecf6300e1178eda8e49f6a243.png\"]}",
+    "metaDescription": "Уже второе утро Mac зависал при загрузке. Индикатор доходил почти до конца и замирал. Я подумал, что закончилось место на диске. В режиме восстановления выяснилось обратное: свободны были 264 ГБ....",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "18",
+    "title": "Тестирование",
+    "alias": "quality_assurance"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

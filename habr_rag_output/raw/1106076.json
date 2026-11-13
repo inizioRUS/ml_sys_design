@@ -1,0 +1,243 @@
+{
+  "id": "1106076",
+  "timePublished": "2026-11-10T11:41:20+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Как посчитать трафик из нейросетей, который уходит в прямые заходы Метрики и GA4",
+  "leadData": {
+    "textHtml": "<p>Переход из ответа ChatGPT в Метрике часто выглядит как визит без источника. У меня в Метрике есть отдельный сегмент AI Traffic для визитов из нейросетей, и стандартный отчёт по источникам видит из них только те, где нейросеть сама передала метку или реферер, то есть адрес страницы, с которой человек пришёл. Остальной трафик из нейросетей оседает в прямых заходах, и там его, похоже, меньше, чем я ожидал: <a href=\"https://tenpointlabs.com/research/ai-direct-traffic\" rel=\"noopener nofollow\">Tenpoint Labs</a> оценила скрытую долю ИИ максимум в 6,3% прямых заходов. Поэтому стандартного отчёта мало: точную часть даёт свой сегмент по рефереру и метке, а скрытую придётся оценивать по признакам визита.</p>",
+    "imageUrl": "https://habrastorage.org/extt/c4/cc/0b/c4cc0b1f05bbc52ad5c33bba6284e007.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/c4/cc/0b/c4cc0b1f05bbc52ad5c33bba6284e007.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5828174",
+    "alias": "ig_novvv",
+    "fullname": "Игорь Новиков",
+    "avatarUrl": null,
+    "speciality": "Сооснователь Звонко, продвижение в нейросетях, GEO",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 3,
+      "votesCount": 23
+    },
+    "rating": 11.2,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Сайт",
+        "url": "https://www.zvonkooo.ru/",
+        "value": "https://www.zvonkooo.ru/",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Сайт",
+        "url": "https://www.zvonkooo.ru/",
+        "value": "https://www.zvonkooo.ru/",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "64K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 3,
+    "readingCount": 150,
+    "score": 3,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 6122,
+    "readers": 110
+  },
+  "hubs": [
+    {
+      "id": "20698",
+      "alias": "weban",
+      "type": "collective",
+      "title": "Веб-аналитика",
+      "titleHtml": "Веб-аналитика",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20748",
+      "alias": "seo",
+      "type": "collective",
+      "title": "Поисковая оптимизация",
+      "titleHtml": "Поисковая оптимизация",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "126",
+      "alias": "search_technologies",
+      "type": "collective",
+      "title": "Поисковые технологии",
+      "titleHtml": "Поисковые технологии",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20710",
+      "alias": "internetmarketing",
+      "type": "collective",
+      "title": "Интернет-маркетинг",
+      "titleHtml": "Интернет-маркетинг",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "4",
+      "alias": "marketing",
+      "title": "Маркетинг",
+      "titleHtml": "Маркетинг"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Переход из ответа ChatGPT в Метрике часто выглядит как визит без источника. У меня в Метрике есть отдельный сегмент AI Traffic для визитов из нейросетей, и стандартный отчёт по источникам видит из них только те, где нейросеть сама передала метку или реферер, то есть адрес страницы, с которой человек пришёл. Остальной трафик из нейросетей оседает в прямых заходах, и там его, похоже, меньше, чем я ожидал: <a href=\"https://tenpointlabs.com/research/ai-direct-traffic\" rel=\"noopener nofollow\">Tenpoint Labs</a> оценила скрытую долю ИИ максимум в 6,3% прямых заходов. Поэтому стандартного отчёта мало: точную часть даёт свой сегмент по рефереру и метке, а скрытую придётся оценивать по признакам визита.</p><h3>Как Метрика решает, откуда пришёл визит</h3><p>Метрика определяет источник по меткам и рефереру: метку она ищет только в первом просмотре визита, а если её там нет, смотрит на реферер (<a href=\"https://yandex.ru/support/metrica/ru/general/sources-tracking\" rel=\"noopener nofollow\">справка Метрики</a>). Реферер браузер передаёт в HTTP-заголовке Referer. Если нет ни метки, ни реферера, визит записывается в прямые заходы. Такой трафик называют тёмным: визит в аналитике есть, а источника у него нет.</p><p>В прямые заходы попадают переходы из мобильных приложений с WebView, то есть с мини-браузером внутри приложения, из мессенджеров без метки, из ChatGPT и из чата Алисы. Это я разбирал <a href=\"https://habr.com/ru/articles/1058796/\" rel=\"noopener nofollow\">в статье про сегмент по домену реферера в Метрике</a>. Реферер может срезать и сама страница, с которой человек уходит: правило referrer-policy задаёт, отдаёт ли браузер её адрес при переходе.</p><h3>Что известно о передаче источника из браузера и приложений нейросетей</h3><p>Подтверждённые данные есть только по ChatGPT и Алисе AI, и ни у одной из них по источнику нельзя посчитать все переходы. По GigaChat, Perplexity и DeepSeek подтверждения нет ни для веба, ни для приложения.</p><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Нейросеть</p></th><th><p align=\"left\">В вебе</p></th><th><p align=\"left\">В приложении</p></th></tr><tr><td><p align=\"left\">ChatGPT</p></td><td><p align=\"left\">метка utm_source=chatgpt.com есть у части ссылок; по Seer Interactive, даже ссылка в блоке источников метку не гарантирует</p></td><td><p align=\"left\">приложения ChatGPT могут терять реферер, допускает Tenpoint Labs; прямого подтверждения нет</p></td></tr><tr><td><p align=\"left\">Алиса AI</p></td><td><p align=\"left\">ответ в поиске приходит с реферером yandex.ru/search, как обычный клик по выдаче</p></td><td><p align=\"left\">подтверждения нет</p></td></tr><tr><td><p align=\"left\">GigaChat</p></td><td><p align=\"left\">подтверждения нет</p></td><td><p align=\"left\">подтверждения нет</p></td></tr><tr><td><p align=\"left\">Perplexity</p></td><td><p align=\"left\">подтверждения нет</p></td><td><p align=\"left\">подтверждения нет</p></td></tr><tr><td><p align=\"left\">DeepSeek</p></td><td><p align=\"left\">есть в списке канала AI Assistant в GA4, который определяется по рефереру; своего теста нет</p></td><td><p align=\"left\">подтверждения нет</p></td></tr></tbody></table></div><h3>Как собрать в Метрике сегмент для трафика из нейросетей по домену источника и utm-метке</h3><p>AI-трафик в Метрике выделяет сегмент с двумя условиями через ИЛИ: домен реферера и значение utm_source, потому что ИИ-визит может принести любое из двух. Регулярки в Метрике пишутся по <a href=\"https://yandex.ru/support/metrica/ru/general/regexp\" rel=\"noopener nofollow\">синтаксису RE2</a>, а значения меток <a href=\"https://yandex.ru/support/metrica/ru/general/source-tags.html\" rel=\"noopener nofollow\">Метрика различает по регистру</a>, поэтому в условии по метке стоит флаг (?i). В Метрике создайте сегмент по визитам и добавьте в него два условия: первое по домену реферера, второе по значению utm_source, и свяжите их через ИЛИ. У каждого условия выберите проверку по регулярному выражению и вставьте в поле значения ниже, каждое в своё условие:</p><pre><code>Условие по домену реферера:\n^(.*\\.)?(chatgpt\\.com|chat\\.openai\\.com|perplexity\\.ai|gemini\\.google\\.com|copilot\\.microsoft\\.com|claude\\.ai|deepseek\\.com|grok\\.com)$\n\nУсловие по utm_source:\n(?i)^(chatgpt(\\.com)?|perplexity(\\.ai)?|gemini|copilot|deepseek|claude|grok)$</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Сервисы в списке взяты из справки GA4 и исследования Tenpoint Labs, домены — адреса этих сервисов. Из значений метки источники подтверждают только chatgpt.com, остальные написания я добавил как вероятные: сверьте их с отчётом по меткам своего счётчика. Домен yandex.ru в список не идёт: у ответа Алисы в поиске реферер тот же, что у органики, и сегмент заберёт всю выдачу. GigaChat тоже не вошёл, пока не подтверждено, какой реферер он отдаёт.</p><h3>Как выделить ИИ-визиты в GA4 собственной группой каналов</h3><p>В GA4 есть <a href=\"https://support.google.com/analytics/answer/9756891\" rel=\"noopener nofollow\">штатный канал AI Assistant</a> для ChatGPT, Gemini, DeepSeek, Copilot и Grok; AI Overviews и AI Mode в него не входят. Google относит визит к этому каналу по рефереру: если реферер совпал со списком ИИ-ассистентов, medium получает значение ai-assistant, а визит без реферера в канал не попадёт. По определению Google, Direct — это заход по сохранённой ссылке или вводу адреса, но ИИ-визиты без реферера оказываются как раз там.</p><p>Своя группа каналов нужна для сервисов вне штатного списка. Условие канала: источник сеанса соответствует регулярке</p><pre><code>^(.*\\.)?(chatgpt\\.com|chat\\.openai\\.com|perplexity\\.ai|gemini\\.google\\.com|copilot\\.microsoft\\.com|claude\\.ai|deepseek\\.com|grok\\.com)$</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Если в отчёте встречаются метки без домена, например utm_source=perplexity, допишите их в ту же скобку через вертикальную черту. В <a href=\"https://support.google.com/analytics/answer/13051316?hl=en\" rel=\"noopener nofollow\">справке по собственным группам каналов</a> Google просит поставить ИИ-канал в списке выше Referrals.</p><h3>Как оценить, какая часть прямых заходов пришла из нейросетей</h3><p>Оценить скрытую долю можно только по признакам визита. Визит с ИИ-меткой GA4 и так относит к ИИ-источнику: Tenpoint Labs проверила 489 920 прямых сессий на 10 сайтах и не нашла ни одной с меткой ChatGPT, Perplexity, Gemini, Copilot или Claude. Остаются визиты без метки и реферера. Tenpoint взяла самое щедрое допущение, что весь вовлечённый прямой заход на глубокие страницы приходит из ИИ, и даже так получила всего 6,3% прямых заходов на 6 сайтах, где ИИ-визитов хватило для расчёта. Для сравнения, Ramp, на которую ссылается Tenpoint, называет 30–40%.</p><p>Сегмент для Метрики ниже строится на том же допущении. Пороги в нём предлагаю я, их стоит оспорить:</p><pre><code>ym:s:lastTrafficSource=='direct'\nAND ym:s:startURL!~'^https?://[^/]+/?(\\?.*)?$'\nAND ym:s:startURL!~'/(blog|promo|landing)/'\nAND ym:s:bounce=='No'\nAND (ym:s:pageViews&gt;=2 OR ym:s:visitDuration&gt;=30)</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><ul><li><p>вторая строка отсекает вход на главную; регулярка в Метрике применяется к полному URL с протоколом и доменом, поэтому она начинается с https?://;</p></li><li><p>третья отсекает разделы, куда вы сами ведёте рекламу и поисковый трафик, список замените на свой;</p></li><li><p>последние две оставляют только вовлечённые визиты: без отказа и с двумя просмотрами или 30 секундами на сайте.</p></li></ul><p>Без порога вовлечённости сегмент наберёт мусора. На 6 из 8 сайтов Tenpoint прямые заходы на глубокие страницы вовлекались заметно реже, чем ИИ-рефералы и органика. По выводу авторов, такие визиты больше похожи на ботов и превью ссылок. Глубокую страницу без SEO и рекламы, но с прямым трафиком я в прошлой статье называл подозрительным паттерном: проверять её стоит, но заход из нейросети она сама по себе не доказывает.</p><p>Доля считается так: визиты сегмента делим на все прямые заходы за тот же период. Вышло заметно выше 6,3% — сначала стоит поискать роботов и превью ссылок.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/98/96/f5/9896f511eee04a07516a4156ac2695bd.png\" alt=\"Точная часть идёт по верхней ветке, оценка получается только после фильтров нижней ветки.\" width=\"780\" height=\"442\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/98/96/f5/9896f511eee04a07516a4156ac2695bd.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/98/96/f5/9896f511eee04a07516a4156ac2695bd.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Точную часть дают реферер и метка, оценка появляется только после фильтров по прямым заходам.</figcaption></div></figure><h3>Где подсчёт трафика из нейросетей врёт и как подать итоговую цифру</h3><p>Подсчёт врёт в четырёх местах, и пороги сегмента их не закрывают.</p><ul><li><p>Алиса AI. Её ответ в поиске приходит с yandex.ru/search и растворяется в органике, а чат Алисы уходит в прямые заходы и может попасть только в оценку.</p></li><li><p>Всплеск прямых заходов после публикации, которую цитируют нейросети. Это корреляция: рост мог дать репост в закрытом чате или рассылка. Исследование Tenpoint не подтвердило, что всплески прямых заходов связаны с переходами из нейросетей. Поэтому всплеска в порогах нет.</p></li><li><p>Устройство. Прямые заходы на глубокие страницы у Tenpoint шли в основном с десктопа, как и ИИ-рефералы, хотя приложения ChatGPT могут терять реферер.</p></li><li><p>Малые числа. Единственный слабый сигнал у Tenpoint, совпадение по неделям вовлечённых прямых заходов на главную с ИИ-рефералами (r = 0,45 на одном сайте), держался примерно на пяти ИИ-визитах в неделю и поправку не прошёл.</p></li></ul><p>Стандартный отчёт по источникам занижает трафик из нейросетей: он учитывает только визиты, где нейросеть сама передала реферер или метку. Подсчёт, которому можно верить, складывается из двух частей: точной, которая видна по рефереру и utm, и оценочной, которую выделяют из прямых заходов по признакам визита. Вторую часть нужно подавать как оценку с ясными допущениями: порог в два просмотра или 30 секунд, исключённые разделы, боты и превью ссылок, которые сегмент не отсекает. В отчёте это две строки: точная часть и оценка: число прямых визитов, подходящих под признаки сегмента.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/de/34/eb/de34ebb2615f077778e1644b2ecc3fcf.png\" alt=\"Показываем не одно число, а вилку: от точной части слева до точной плюс оценка справа.\" width=\"780\" height=\"442\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/de/34/eb/de34ebb2615f077778e1644b2ecc3fcf.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/de/34/eb/de34ebb2615f077778e1644b2ecc3fcf.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Показываем не одно число, а вилку: от точной части слева до точной плюс оценка справа.</figcaption></div></figure><p>Интересно, у кого скрытая доля вышла заметно выше 6,3% и как вы отсеяли ботов и превью ссылок.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "Яндекс Метрика"
+    },
+    {
+      "titleHtml": "GA4"
+    },
+    {
+      "titleHtml": "Google Analytics 4"
+    },
+    {
+      "titleHtml": "AI-трафик"
+    },
+    {
+      "titleHtml": "трафик из нейросетей"
+    },
+    {
+      "titleHtml": "прямые заходы"
+    },
+    {
+      "titleHtml": "сегменты Метрики"
+    },
+    {
+      "titleHtml": "реферер"
+    },
+    {
+      "titleHtml": "utm-метки"
+    },
+    {
+      "titleHtml": "ChatGPT"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106076/8d7f9bd776c9a33623b658fe0bf230b5/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106076/8d7f9bd776c9a33623b658fe0bf230b5/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106076\\/\"},\"headline\":\"Как посчитать трафик из нейросетей, который уходит в прямые заходы Метрики и GA4\",\"datePublished\":\"2026-11-10T14:41:20+03:00\",\"dateModified\":\"2026-11-11T15:50:34+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Переход из ответа ChatGPT в Метрике часто выглядит как визит без источника. У меня в Метрике есть отдельный сегмент AI Traffic для визитов из нейросетей, и...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106076\\/#post-content-body\",\"about\":[\"h_weban\",\"h_seo\",\"h_search_technologies\",\"h_artificial_intelligence\",\"h_internetmarketing\",\"f_develop\",\"f_marketing\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/98\\/96\\/f5\\/9896f511eee04a07516a4156ac2695bd.png\",\"https:\\/\\/habrastorage.org\\/extt\\/de\\/34\\/eb\\/de34ebb2615f077778e1644b2ecc3fcf.png\"]}",
+    "metaDescription": "Переход из ответа ChatGPT в Метрике часто выглядит как визит без источника. У меня в Метрике есть отдельный сегмент AI Traffic для визитов из нейросетей, и стандартный отчёт по источникам видит из них...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "tutorial",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "30",
+    "title": "Маркетинг и контент",
+    "alias": "marketing"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

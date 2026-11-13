@@ -1,0 +1,243 @@
+{
+  "id": "1106204",
+  "timePublished": "2026-11-10T15:38:09+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Как сайту получить клик из ИИ-обзоров Google, если описание страницы пишет нейросеть",
+  "leadData": {
+    "textHtml": "<p>Google тестирует в ИИ-обзорах короткие пересказы страниц прямо в карточках источников. По наблюдению <a href=\"https://www.seroundtable.com/google-ai-overview-citation-ai-summaries-42361.html\" rel=\"noopener nofollow\">Search Engine Roundtable</a>, такие сводки появляются в карточках справа и снизу от ответа AI Overviews: человек читает, что нейросеть сказала о странице, и только потом решает, кликать ли. По сути это новый сниппет (короткое описание страницы в выдаче), который за владельца сайта пишет ИИ-модель. Поэтому проверять теперь стоит первый экран страницы и прямые ответы на ней: если по пересказу непонятно, зачем переходить, клика не будет.</p>",
+    "imageUrl": "https://habrastorage.org/extt/2b/50/5c/2b505c0d3c7435e8321781903b9144e9.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/2b/50/5c/2b505c0d3c7435e8321781903b9144e9.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5828174",
+    "alias": "ig_novvv",
+    "fullname": "Игорь Новиков",
+    "avatarUrl": null,
+    "speciality": "Сооснователь Звонко, продвижение в нейросетях, GEO",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 3,
+      "votesCount": 23
+    },
+    "rating": 11.2,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Сайт",
+        "url": "https://www.zvonkooo.ru/",
+        "value": "https://www.zvonkooo.ru/",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Сайт",
+        "url": "https://www.zvonkooo.ru/",
+        "value": "https://www.zvonkooo.ru/",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "64K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 5,
+    "readingCount": 251,
+    "score": -1,
+    "votesCount": 3,
+    "votesCountPlus": 1,
+    "votesCountMinus": 2,
+    "reach": 7490,
+    "readers": 191
+  },
+  "hubs": [
+    {
+      "id": "20748",
+      "alias": "seo",
+      "type": "collective",
+      "title": "Поисковая оптимизация",
+      "titleHtml": "Поисковая оптимизация",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "126",
+      "alias": "search_technologies",
+      "type": "collective",
+      "title": "Поисковые технологии",
+      "titleHtml": "Поисковые технологии",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20710",
+      "alias": "internetmarketing",
+      "type": "collective",
+      "title": "Интернет-маркетинг",
+      "titleHtml": "Интернет-маркетинг",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20698",
+      "alias": "weban",
+      "type": "collective",
+      "title": "Веб-аналитика",
+      "titleHtml": "Веб-аналитика",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "4",
+      "alias": "marketing",
+      "title": "Маркетинг",
+      "titleHtml": "Маркетинг"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Google тестирует в ИИ-обзорах короткие пересказы страниц прямо в карточках источников. По наблюдению <a href=\"https://www.seroundtable.com/google-ai-overview-citation-ai-summaries-42361.html\" rel=\"noopener nofollow\">Search Engine Roundtable</a>, такие сводки появляются в карточках справа и снизу от ответа AI Overviews: человек читает, что нейросеть сказала о странице, и только потом решает, кликать ли. По сути это новый сниппет (короткое описание страницы в выдаче), который за владельца сайта пишет ИИ-модель. Поэтому проверять теперь стоит первый экран страницы и прямые ответы на ней: если по пересказу непонятно, зачем переходить, клика не будет.</p><h3>Что Google пишет о странице в карточке источника AI Overviews</h3><p>В карточке источника AI Overviews на месте описания страницы теперь может стоять ИИ-сводка, то есть пересказ страницы, который составила нейросеть. Броди Кларк, SEO-специалист, который заметил тест, описал главное отличие от привычного сниппета: текст в карточке не совпадает со страницей дословно. Google пересказывает то, что считает самым релевантным запросу. Раньше таких пересказов в цитатах AI Overviews Кларк, по его словам, не замечал. Раз пересказ подбирается под запрос, на разные вопросы одна страница, скорее всего, получит разные описания.</p><p>Берёт ли Google текст из description, из разметки или только со страницы, точного ответа нет. Зато известно, как Google строит ИИ-ответы вообще. В <a href=\"https://support.google.com/websearch/answer/16011537?co=GENIE.Platform%3DDesktop&amp;hl=en-EN\" rel=\"noopener nofollow\">справке про AI Mode</a>, ИИ-режим поиска Google, компания пишет, что ответы опираются на найденные веб-страницы, чтобы быть достовернее. Такую опору ответа на найденные страницы называют grounding. Там же описан query fan-out: AI Mode делит вопрос на подтемы, ищет по каждой параллельно и собирает результаты в один ответ. В майском руководстве по оптимизации под генеративный ИИ Google, по пересказу <a href=\"https://searchengineland.com/google-ai-overviews-everything-you-need-to-know-449399\" rel=\"noopener nofollow\">Search Engine Land</a>, подтвердил, что может доставать нужные сведения со страниц своего индекса. Какие страницы Google ставит в источники на русских запросах, я разбирал отдельно: <a href=\"https://habr.com/ru/articles/1090034/\" rel=\"noopener nofollow\">он берёт половину источников не из топа</a>.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/cb/8d/a8/cb8da81d299729c0f07f03d34868736c.png\" alt=\"Весь путь решается до клика: на третьем шаге у владельца сайта рычаг один, текст страницы.\" width=\"1500\" height=\"850\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/cb/8d/a8/cb8da81d299729c0f07f03d34868736c.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/cb/8d/a8/cb8da81d299729c0f07f03d34868736c.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Весь путь решается до клика: на третьем шаге у владельца сайта рычаг один, текст страницы.</figcaption></div></figure><h3>ИИ-пересказы в карточках AI Overviews пока тест и видны не на всех запросах</h3><p>Сводки в карточках источников пока тест. Об официальном запуске Google не сообщал, пишет <a href=\"https://journal.topvisor.com/ru/news/23-10-2026-google-ai-overview-citation-ai-summaries/\" rel=\"noopener nofollow\">Топвизор Журнал</a>, и появляется функция не при каждом поиске. Барри Шварц из Search Engine Roundtable тоже увидел сводки лишь на части своих тестовых запросов. Страны, языки и устройства теста в публикациях о нём не названы.</p><p>Ждать официального запуска, чтобы заняться страницей, я бы не стал: сам блок AI Overviews показывается всё чаще. По Comscore, в июне он стоял в 39,4% десктопных поисков Google в США, а в июле 2025 года — в 25,8%. Блок, в котором тестируют пересказы, видят уже в двух поисках из пяти.</p><h3>Каким сайтам важен ИИ-ответ Google в выдаче (AI Overviews) и видно ли его из России</h3><p>Тема важна сайтам, у которых заметная часть трафика идёт из Google: с зарубежной или англоязычной аудиторией и в нишах, где клиенты ищут именно в Google. Если ваши клиенты сидят в поиске Яндекса и в Алисе AI, срочности нет.</p><p>Есть ли AI Overviews у пользователей из России, точного ответа нет. По <a href=\"https://arxiv.org/abs/2602.13415\" rel=\"noopener nofollow\">исследованию Aral, Li и Zuo</a>, охват AI Overviews вырос с 7 стран в 2024 году до 229 в 2025-м. Без него остались Франция, Турция, Китай и Куба, а Россию аннотация исследования не упоминает. Официальных сведений о показе AI Overviews в России нет, поэтому проверьте, появляется ли блок на ваших запросах.</p><p>Посмотреть, что Google пишет о вашей странице, проще всего в самой выдаче: задать свои запросы и открыть карточки источников в блоке AI Overviews. Отключить блок нельзя, <a href=\"https://support.google.com/websearch/answer/14901683\" rel=\"noopener nofollow\">пишет Google</a>. Зато фильтр Web показывает только текстовые ссылки без ИИ-блоков, так что обычную выдачу легко сравнить с ИИ-ответом.</p><h3>Чек-лист: что проверить на своей странице, чтобы ИИ-пересказ в карточке источника звал кликнуть</h3><p>Проверять стоит то, что ИИ-модель вынесет из страницы: первый экран и прямые ответы под подзаголовками. Сводка в карточке источника работает как новый сниппет, который пишет ИИ-модель; из чего она берёт текст, неизвестно, поэтому проверять стоит саму страницу, а не только description. Сайт, у которого суть и выгода перехода сформулированы прямо в начале страницы, получит внятную сводку. Сайт с размытым вводным текстом сводка обесценит ещё до клика: человек прочтёт пустой пересказ и откроет соседний источник.</p><p>Пока неизвестно, можно ли управлять сводкой настройками показа описаний в поиске, поэтому влиять на пересказ остаётся через сам текст страницы. Страницы, которые находятся и по самому вопросу, и по его подтемам, чаще оказываются в источниках. По данным, которые приводит Search Engine Land, по 173 902 URL такие страницы на 161% чаще попадают в цитаты AI Overview, чем страницы только по основному запросу.</p><ol><li><p>Закройте title и description и прочитайте только первый экран страницы. Запишите двумя предложениями, о чём она, для кого и что человек получит, перейдя на неё. Не получилось у вас, не получится и у ИИ-модели.</p></li><li><p>Найдите первую фразу основного текста. Если она про историю компании или общие слова о рынке, а суть начинается в четвёртом абзаце, поднимите суть наверх.</p></li><li><p>Выпишите, что есть на странице сверх того, что влезет в пересказ: цена, таблица, калькулятор, файл, условия. Это и есть причина кликнуть. Если всё важное умещается в две фразы и добавить нечего, сводка заменит клик.</p></li><li><p>В начале каждого раздела под подзаголовком поставьте прямой ответ в первом предложении, обоснование следом. Подзаголовок пусть будет вопросом читателя или тезисом, понятным без соседних разделов.</p></li><li><p>Если цифры, условия и названия сейчас есть только на картинке или в PDF, продублируйте их текстом на странице.</p></li><li><p>Сверьте title, description и первый абзац: они должны говорить об одном. Если обещают разное, пересказ выйдет кашей.</p></li><li><p>Вставьте первый экран в любую ИИ-модель и попросите пересказать его в двух предложениях человеку, который ищет вашу тему. Google делает сводку своей моделью и под конкретный запрос, так что текст будет другим, но станет видно, что из страницы вынесет читатель.</p></li><li><p>Задайте Google свои запросы, откройте AI Overviews и посмотрите карточки справа или снизу. Попробуйте несколько формулировок: сводки видны не на всех запросах.</p></li></ol><p>Чек-лист мой: он собран из того, как Google описывает опору ответа на страницы, замеров на сводках в карточках за ним нет.</p><h3>Станут ли реже кликать на ваш сайт, если он попал в источники AI Overviews</h3><p>По самим сводкам в карточках данных о кликах пока нет, есть данные о блоке в целом. По Seer Interactive в пересказе <a href=\"https://searchengineland.com/google-ai-overviews-everything-you-need-to-know-449399\" rel=\"noopener nofollow\">Search Engine Land</a>, цитата в AI Overview даёт на 120% больше органических кликов на показ, чем присутствие в выдаче с этим блоком без цитаты. Но запросы с цитатой всё равно получают на 38% меньше кликов на показ, чем запросы без AI Overview.</p><p>Если принять клики без AI Overview за 100, у страниц с цитатой выйдет 62, у страниц без неё около 28. Это мой пересчёт из двух цифр Seer, он показывает порядок. Попасть в источники выгодно: кликов больше чем вдвое. Обидно другое: даже с цитатой страница теряет больше трети кликов по сравнению с выдачей без ИИ-блока.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d2/64/18/d2641830f064b318bc35a150f41b8ca9.png\" alt=\"Цитата поднимает страницу с 28 до 62, но до уровня выдачи без ИИ-блока остаётся недобор.\" width=\"1500\" height=\"850\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d2/64/18/d2641830f064b318bc35a150f41b8ca9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d2/64/18/d2641830f064b318bc35a150f41b8ca9.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Цитата поднимает страницу с 28 до 62, но до уровня выдачи без ИИ-блока остаётся недобор.</figcaption></div></figure><p>Сводка в карточке ставит ещё один фильтр после цитаты: страница уже в источниках, но пересказ может не дать причины зайти. Клик получит тот сайт, чей первый экран сразу говорит, что здесь есть и зачем сюда идти. Интересно, совпадают ли такие сводки с первым экраном страницы у тех, кто уже видит их в своей выдаче.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "AI Overviews"
+    },
+    {
+      "titleHtml": "ИИ-обзоры Google"
+    },
+    {
+      "titleHtml": "Google"
+    },
+    {
+      "titleHtml": "сниппет"
+    },
+    {
+      "titleHtml": "ИИ-сводки"
+    },
+    {
+      "titleHtml": "карточка источника"
+    },
+    {
+      "titleHtml": "SEO"
+    },
+    {
+      "titleHtml": "GEO"
+    },
+    {
+      "titleHtml": "AI Mode"
+    },
+    {
+      "titleHtml": "поисковая выдача"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106204/e6ef46eddfd8e15777ec41809eca5c0f/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106204/e6ef46eddfd8e15777ec41809eca5c0f/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106204\\/\"},\"headline\":\"Как сайту получить клик из ИИ-обзоров Google, если описание страницы пишет нейросеть\",\"datePublished\":\"2026-11-10T18:38:09+03:00\",\"dateModified\":\"2026-11-12T15:46:53+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Google тестирует в ИИ-обзорах короткие пересказы страниц прямо в карточках источников. По наблюдению Search Engine Roundtable , такие сводки появляются в...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106204\\/#post-content-body\",\"about\":[\"h_seo\",\"h_search_technologies\",\"h_artificial_intelligence\",\"h_internetmarketing\",\"h_weban\",\"f_develop\",\"f_marketing\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/cb\\/8d\\/a8\\/cb8da81d299729c0f07f03d34868736c.png\",\"https:\\/\\/habrastorage.org\\/extt\\/d2\\/64\\/18\\/d2641830f064b318bc35a150f41b8ca9.png\"]}",
+    "metaDescription": "Google тестирует в ИИ-обзорах короткие пересказы страниц прямо в карточках источников. По наблюдению Search Engine Roundtable , такие сводки появляются в карточках справа и снизу от ответа AI...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "30",
+    "title": "Маркетинг и контент",
+    "alias": "marketing"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,212 @@
+{
+  "id": "1106042",
+  "timePublished": "2026-11-10T11:16:08+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "«Вайб‑кодинг». Как создавать промышленное ПО с помощью ИИ, агентов и команд разработчиков",
+  "leadData": {
+    "textHtml": "<p>В первой польской энциклопедии 18 века статья про лошадь состояла из одной фразы: «Что такое лошадь, знают все». Сегодня то же самое можно сказать про вайб-кодинг (не уверены, можно ли так сейчас утверждать про лошадь).</p><p>Для одних вайб-кодинг звучит как «сядь, расслабься и попроси нейросеть написать код». Для других это единственный перспективный способ разработки инженерных проектов. И каждому работающему с LLM безусловно будет интересно прочитать на русском языке очередной <strong><a href=\"https://bhv.ru/product/vajb-koding/?utm_source=habr&amp;utm_medium=article&amp;utm_campaign=bhv_20261110\">мировой бестселлер Джина Кима и его соавтора-практика Стива Йегги</a></strong>.</p>",
+    "imageUrl": "https://habrastorage.org/extt/e6/7a/d1/e67ad1167041868f092111dd8873a463.jpg",
+    "buttonTextHtml": "Ну что, повайбкодим?",
+    "image": {
+      "url": "https://habrastorage.org/extt/e6/7a/d1/e67ad1167041868f092111dd8873a463.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5235289",
+    "alias": "BHV_publishing",
+    "fullname": "Издательство БХВ (BHV)",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/153/a51/1f6/153a511f65c120c8961e52af8c0b8fdb.jpeg",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 59,
+      "votesCount": 77
+    },
+    "rating": 106,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 59,
+    "favoritesCount": 52,
+    "readingCount": 15273,
+    "score": 21,
+    "votesCount": 16,
+    "votesCountPlus": 13,
+    "votesCountMinus": 3,
+    "reach": 18398,
+    "readers": 11292
+  },
+  "hubs": [
+    {
+      "id": "23758",
+      "alias": "bhv_publishing",
+      "type": "corporative",
+      "title": "Блог компании Издательство БХВ",
+      "titleHtml": "Блог компании Издательство БХВ",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19309",
+      "alias": "lib",
+      "type": "collective",
+      "title": "Профессиональная литература",
+      "titleHtml": "Профессиональная литература",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20742",
+      "alias": "read",
+      "type": "collective",
+      "title": "Читальный зал",
+      "titleHtml": "Читальный зал",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e6/7a/d1/e67ad1167041868f092111dd8873a463.jpg\" width=\"790\" height=\"500\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e6/7a/d1/e67ad1167041868f092111dd8873a463.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/e6/7a/d1/e67ad1167041868f092111dd8873a463.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В первой польской энциклопедии 18 века статья про лошадь состояла из одной фразы: «Что такое лошадь, знают все». Сегодня то же самое можно сказать про вайб‑кодинг (не уверены, можно ли так сейчас утверждать про лошадь).</p><p>Для одних вайб‑кодинг звучит как «сядь, расслабься и попроси нейросеть написать код». Для других это единственный перспективный способ разработки инженерных проектов. И каждому работающему с LLM безусловно будет интересно прочитать на русском языке очередной <a href=\"https://bhv.ru/product/vajb-koding/?utm_source=habr&amp;utm_medium=article&amp;utm_campaign=bhv_20261110\"><strong>мировой бестселлер Джина Кима и его соавтора‑практика Стива Йегги</strong></a>.</p><h2>Джин Ким и Стив Йегги: DevOps‑евангелист и легенда Google</h2><p>За плечами авторов — десятилетия работы в крупнейших технологических компаниях и книги, которые сформировали индустрию. </p><div class=\"floating-image\"><figure class=\"float \"><img src=\"https://habrastorage.org/r/w1560/extt/82/10/06/821006ccbc0cbd85e45b770418f0f846.jpg\" width=\"300\" height=\"300\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/82/10/06/821006ccbc0cbd85e45b770418f0f846.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/82/10/06/821006ccbc0cbd85e45b770418f0f846.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Джин Ким </strong>известен прежде всего как автор бестселлера «Проект „Феникс“» (The Phoenix Project) — бизнес‑романа о внедрении DevOps, который разошёлся тиражом более полумиллиона экземпляров и стал настольной книгой для ИТ‑менеджеров по всему миру. Он также соавтор «Руководства по DevOps» (The DevOps Handbook) и «Ускорения» (Accelerate), лауреат премии Shingo. Он привык измерять эффективность процессов и строить системы, а не просто восхищаться возможностями LLM. </p></div><div class=\"floating-image\"><figure class=\"float \"><img src=\"https://habrastorage.org/r/w1560/extt/1c/5e/39/1c5e3950286245c1a7a484563ff32753.jpg\" width=\"300\" height=\"300\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1c/5e/39/1c5e3950286245c1a7a484563ff32753.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/1c/5e/39/1c5e3950286245c1a7a484563ff32753.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Стив Йегги</strong> проработал почти двадцать лет в Amazon и Google, участвовал в создании внутренней системы поиска кода Google, а затем возглавлял инженерное направление в Sourcegraph, где занимался ИИ‑ассистентом Cody. Его эссе «Тирада Йегги» (Yegge Rant) 2011 года до сих пор цитируется как одно из самых точных описаний платформенного мышления Amazon. В 2024 году он опубликовал провокационный пост «Смерть младшего разработчика», который и стал отправной точкой для книги. Йегги — практик, который сам пишет код каждый день, и его опыт «человека, вернувшегося в программирование спустя годы» делает книгу особенно убедительной.</p></div><p>Вместе они представляют удачное конструктивное сочетание: Ким привносит системное мышление и организационную перспективу, Йегги — важный инженерный опыт и понимание того, как LLM ведут себя «в бою».</p><h3>Эра ручного программирования окончена?</h3><p>Авторы утверждают, что да: с вайб‑кодингом научная фантастика стала реальностью. Программистам больше не нужно кропотливо трудиться над кодом и синтаксисом. Теперь они могут описать то, что хотят, и наблюдать, как это мгновенно материализуется. Нейросети меняют программирование. С ИИ‑помощниками важнее становится сама идея и ход мысли. Такой подход позволяет писать программы в разы быстрее, творить и получать от работы настоящее удовольствие.</p><p><a href=\"https://bhv.ru/product/vajb-koding/?utm_source=habr&amp;utm_medium=article&amp;utm_campaign=bhv_20261110\">Книга</a> полностью меняет взгляд на создание программ. Авторы дают готовые инструкции, как внедрять ИИ в реальную работу. Причем эти советы одинаково хороши как для маленьких домашних проектов, так и для огромных систем в крупных компаниях. Главное — скорость растет, но качество программ остается на высоте.</p><p>Опираясь на свой огромный опыт, авторы объясняют, как вайб‑кодинг помогает разработчикам:</p><ul><li><p>Превращать сложные технические задачи в простой диалог с нейросетью</p></li><li><p>Делать крупные, амбициозные проекты в разы быстрее без потери качества</p></li><li><p>В одиночку создавать продукты, для которых раньше требовалась целая команда</p></li><li><p>Научиться работать на равных со своим ИИ‑помощником</p></li><li><p>Забыть о рутине вроде настройки среды или зазубривания синтаксиса</p></li><li><p>Легко писать код, используя незнакомые языки программирования и технологии</p></li></ul><p>Книга станет отличным путеводителем для всех: опытных программистов, тимлидов, тех, кто возвращается в профессию после перерыва, или абсолютных новичков. Прямо сейчас ИТ‑индустрия переживает самый мощный сдвиг со времен появления Интернета. Книга поможет вам не остаться за бортом, освоить вайб‑кодинг и раскрыть свои возможности на максимум.</p><h3>Главная идея: FAAFO и три цикла разработки</h3><p>Книга строится вокруг концепции FAAFO (Fast, Ambitious, Autonomous, Fun, Optionality). Вайб‑кодинг ценен не только тем, что позволяет писать код <em>быстрее</em>. Он делает вас <em>амбициознее</em> (вы берётесь за проекты, которые раньше казались невыполнимыми), <em>автономнее</em> (вы можете делать в одиночку то, что требовало целой команды), <em>приносит удовольствие</em> (вы перестаёте бороться с синтаксисом и начинаете созидать) и, что весьма важно, даёт <em>опциональность</em> — возможность параллельно пробовать несколько подходов, прежде чем выбрать лучший.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/69/8e/d3/698ed36aabf9df6a9557319adf4dd93d.png\" width=\"1134\" height=\"772\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/69/8e/d3/698ed36aabf9df6a9557319adf4dd93d.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/69/8e/d3/698ed36aabf9df6a9557319adf4dd93d.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>При этом авторы основное внимание уделяют не «пирогам и пышкам», а рискам, синякам и шишкам. Они подробно рассказывают, как их собственные ИИ‑агенты удаляли тесты, «схлопывали» репозитории, игнорировали прямые инструкции и оставляли после себя «код с привидениями» — гигантские функции на тысячи строк без какой‑либо модульности. Именно поэтому центральная часть книги — это практическое руководство по трём циклам разработки: внутреннему (секунды‑минуты), среднему (часы‑дни) и внешнему (недели‑месяцы). Для каждого цикла авторы предлагают стратегии предотвращения, обнаружения и коррекции ошибок.</p><p>В своих отзывах читатели отмечают, что почерпнули из книги полезные для них концепции:</p><ul><li><p>«Подсчёт младенцев» — систематическая проверка того, что каждый запрошенный компонент действительно реализован, а не просто отмечен галочкой в Markdown‑файле.</p></li><li><p>«Картонные маффины» — ситуации, когда ИИ «закрашивает» тесты хардкодом, чтобы они проходили, вместо того чтобы исправить реальную логику.</p></li><li><p>«Трассирующие пули» (tracer bullets) — минимальные сквозные реализации, которые позволяют проверить критический путь до того, как вы вложите время в масштабную генерацию кода.</p></li><li><p>MCP (Model Context Protocol) — протокол, который позволяет ИИ‑агентам напрямую взаимодействовать с браузером, базами данных и другими инструментами, замыкая цикл обратной связи без вашего участия.</p></li></ul><p>И разумеется, в книге и речи нет о том, что «ИИ всё сделает за вас». Напротив, авторы настаивают: ответственность за конечный продукт полностью лежит на человеке, а не на ИИ. Если агент сгенерировал код, который сломал продакшн в два часа ночи, чинить будете вы, а не Anthropic или OpenAI.</p><h3>Специфика для российских разработчиков</h3><p>Польза от чтения несомненна, поскольку это книга о мышлении и процессах: как декомпозировать задачи, как строить циклы обратной связи, как не дать ИИ превратить вашу кодовую базу в руины. Базовые принципы не зависят от того, используете вы Claude Code или GigaCode. Более того, для российского читателя книга может быть даже полезнее, чем для западного: когда локальные инструменты специфичны, а доступ к западным ограничен, дисциплина и инженерная культура значат гораздо больше, чем наличие самой продвинутой модели.</p><p>Авторы заканчивают книгу призывом: «Начинайте с малого и начинайте уже сегодня». Для российского разработчика это может означать начать с бесплатных GigaCode или SourceCraft, собрать первый «трассирующий» прототип, научиться проверять «картонные маффины» и постепенно выстраивать свои собственные «золотые правила» в AGENTS.md. Вайб‑кодинг — это не про то, какая модель у вас в подписке. Это про то, как вы управляете процессом, когда модель ошибается.</p><p>Содержание книги и ознакомительный отрывок можно прочитать <a href=\"https://bhv.ru/pdfview?to=3217_978-601-12-9650-2.pdf\">здесь</a>, а приобрести её — <a href=\"https://bhv.ru/product/vajb-koding/?utm_source=habr&amp;utm_medium=article&amp;utm_campaign=bhv_20261110\">вот тут</a>.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "вайб-кодинг"
+    },
+    {
+      "titleHtml": "вайбкодинг"
+    },
+    {
+      "titleHtml": "вайб-программирование"
+    },
+    {
+      "titleHtml": "llm"
+    },
+    {
+      "titleHtml": "ии"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    },
+    {
+      "titleHtml": "нейросети"
+    },
+    {
+      "titleHtml": "разработка"
+    },
+    {
+      "titleHtml": "devops"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106042/6a627e3e07a182e6437650e611793169/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106042/6a627e3e07a182e6437650e611793169/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/bhv_publishing\\/articles\\/1106042\\/\"},\"headline\":\"«Вайб‑кодинг». Как создавать промышленное ПО с помощью ИИ, агентов и команд разработчиков\",\"datePublished\":\"2026-11-10T14:16:08+03:00\",\"dateModified\":\"2026-11-11T19:27:59+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В&nbsp;первой польской энциклопедии 18&nbsp;века статья про&nbsp;лошадь состояла из&nbsp;одной фразы: «Что такое лошадь, знают все». Сегодня то&nbsp;же самое...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/bhv_publishing\\/articles\\/1106042\\/#post-content-body\",\"about\":[\"c_bhv_publishing\",\"h_lib\",\"h_programming\",\"h_read\",\"f_develop\",\"f_management\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/e6\\/7a\\/d1\\/e67ad1167041868f092111dd8873a463.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/82\\/10\\/06\\/821006ccbc0cbd85e45b770418f0f846.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/1c\\/5e\\/39\\/1c5e3950286245c1a7a484563ff32753.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/69\\/8e\\/d3\\/698ed36aabf9df6a9557319adf4dd93d.png\"]}",
+    "metaDescription": "В&nbsp;первой польской энциклопедии 18&nbsp;века статья про&nbsp;лошадь состояла из&nbsp;одной фразы: «Что такое лошадь, знают все». Сегодня то&nbsp;же самое можно сказать про&nbsp;вайб‑кодинг (не...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

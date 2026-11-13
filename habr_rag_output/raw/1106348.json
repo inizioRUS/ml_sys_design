@@ -1,0 +1,155 @@
+{
+  "id": "1106348",
+  "timePublished": "2026-11-11T20:42:30+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Навайбкодил более 30 Open Source приложений, и вот что я понял",
+  "leadData": {
+    "textHtml": "<p>Изначально к вайб-кодингу относился скептически, и моей целью было экспериментально установить границы этого самого вайб-кодинга. Посмотреть, как быстро LLM-ка упрется в предел возможностей и начнет “водить по кругу”.</p><p>В этой статье хочу поделиться своими впечатлениями, выводами и видением перспектив. Какие проблемы вайб-кодинга вижу неразрешимыми, что в перспективе будет решено, а что решить не получится.</p>",
+    "imageUrl": "https://habrastorage.org/extt/3c/48/88/3c4888e2c9a4fc1e6656b5119e78b8e3.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/3c/48/88/3c4888e2c9a4fc1e6656b5119e78b8e3.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "51068",
+    "alias": "codecity",
+    "fullname": "D.K.",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 61,
+      "votesCount": 333
+    },
+    "rating": 130.6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "64K+"
+  },
+  "statistics": {
+    "commentsCount": 374,
+    "favoritesCount": 111,
+    "readingCount": 29993,
+    "score": 143,
+    "votesCount": 119,
+    "votesCountPlus": 117,
+    "votesCountMinus": 2,
+    "reach": 90772,
+    "readers": 24102
+  },
+  "hubs": [
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Изначально к вайб-кодингу относился скептически, и моей целью было экспериментально установить границы этого самого вайб-кодинга. Посмотреть, как быстро LLM-ка упрется в предел возможностей и начнет “водить по кругу”.</p><p>В этой статье хочу поделиться своими впечатлениями, выводами и видением перспектив. Какие проблемы вайб-кодинга вижу неразрешимыми, что в перспективе будет решено, а что решить не получится.</p><h3>Общее впечатление от вайб-кодинга</h3><p>Эмоционально написание кода в IDE vs применение агентов вернуло меня в первую половину нулевых, когда часть людей сидела на диалапе, а часть уже вкусила прелести широкополосного интернет-подключения.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/3c/48/88/3c4888e2c9a4fc1e6656b5119e78b8e3.png\" alt=\"Как я чувствую вайб-кодинг\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3c/48/88/3c4888e2c9a4fc1e6656b5119e78b8e3.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/3c/48/88/3c4888e2c9a4fc1e6656b5119e78b8e3.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Как я чувствую вайб-кодинг</figcaption></div></figure><p>Вспомнил, как в эпоху диалапа ценили уже скачанные фильмы, делились друг с другом, покупали их, платили за это достаточно немалую цену. Скачать нужно было уметь, знать свои хитрости. Фильм мог качаться неделю, нужно было использовать специальный софт, который сможет докачать после обрыва подключения, сам установить новое подключение через диалап.</p><p>Не все умели это делать, не у всех был качественный диалап. Как сейчас помню разочарование человека, узнавшего, что нужная ему программа весит 5 МБ. И он такой: “Сколько? А, да это невозможно скачать”.</p><p>С появлением широкополосного доступа изначально возникло некое неравенство. Кто-то продолжал сидеть на диалапе, не спешил подключаться (так как непонятно было, зачем это нужно, ведь уже привыкли все передавать на дисках, а почту или новости получить по IMAP/NNTP – не так уж долго).</p><p>Некая аналогия – как сейчас по территориальному признаку не всем открыт доступ к лучшим моделям, так и ранее в отдельных городах интернет был неполноценным. В локальной сети скорость была хорошей (куча софта была доступна именно в локальных файлообменниках), а вот “выход в мир” уже был проблемой.</p><p>Ну и тарификация. Ранее почти всегда был ограничен трафик, и превышение стоило немало денег. И мне <em>казалось, что по-другому и быть не может – ведь если трафик не ограничивать, то я выкачаю весь Интернет и ни один провайдер этого не потянет</em>.</p><p>Когда пришла эпоха отмены тарификации трафика, я сначала не мог поверить, даже в голове не укладывалось, и скачивал все подряд. Прошло немало времени, прежде чем я успокоился, перестал копить данные и просто привык, что все доступно.</p><p><em>Строго говоря, и сегодня трафик не совсем бесплатный – начнете на 100% нагружать свой гигабитный канал – и узнаете об этом. Но большинство людей с данной проблемой не сталкиваются – всем просто хватает.</em></p><p>Сейчас с LLM-ками мы где-то в 2004 году. Т.е. “трафик” еще тарифицируется, поверить, что токены будут бесплатными – невозможно. А “скорость” продолжает удивлять, еще не всем доступен качественный широкополосный интернет (либо территориально, либо еще не все готовы раскошелиться, ибо не знают, зачем это).</p><p>Как ранее я испытывал дискомфорт, если не потратил весь трафик к концу месяца, так и сейчас есть “токен-тревожность” – беспокойство по поводу того, что не потратил все токены, упустил возможности.</p><h3>Что я навайбкодил</h3><p>Дабы не быть голословным, посмотрел свой список за пару месяцев. Большая часть не заняла времени, то есть буквально ввел запрос, пошел выпить кофе, и программа уже готова. С чем-то пришлось повозиться. Все выполнялось на выходных или по вечерам в свободное от работы время.</p><p>По категориям, кому что интересно. Большая часть программ сделана в виде одного HTML-файла, который работает офлайн в песочнице браузера (запросы и пр. запрещены политикой). Еще часть – кроссплатформенные на Rust.</p><p>Берите вайб-кода столько, сколько сможете унести:</p><details class=\"spoiler\"><summary>Приколы и игрушки</summary><div class=\"spoiler__content\"><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Проект</p></th><th><p align=\"left\">Что это</p></th><th><p align=\"left\">Технология</p></th></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/html-color-music\" rel=\"noopener nofollow\">html-color-music</a></p></td><td><p align=\"left\">Бесконечная генеративная музыка и шейдерные картины в такт</p></td><td><p align=\"left\">TypeScript + WebGL 2 + Web Audio · HTML + PWA</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/html-minecraft\" rel=\"noopener nofollow\">html-minecraft</a></p></td><td><p align=\"left\">Blockcraft: воксельная песочница в стиле Minecraft</p></td><td><p align=\"left\">TypeScript + WebGL · HTML + PWA</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/html-morse-decoder\" rel=\"noopener nofollow\">html-morse-decoder</a></p></td><td><p align=\"left\">Декодер и генератор Морзе: спектр, водопад, два декодера, EN/RU</p></td><td><p align=\"left\">TypeScript + Web Audio · HTML + PWA</p></td></tr></tbody></table></div></div></div></details><details class=\"spoiler\"><summary>Графические редакторы</summary><div class=\"spoiler__content\"><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Проект</p></th><th><p align=\"left\">Что это</p></th><th><p align=\"left\">Технология</p></th></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/html-paint\" rel=\"noopener nofollow\">html-paint</a></p></td><td><p align=\"left\">Графический редактор в духе Paint.NET: слои, выделения, эффекты</p></td><td><p align=\"left\">TypeScript · HTML + PWA</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/html-vector-shader-editor\" rel=\"noopener nofollow\">html-vector-shader-editor</a></p></td><td><p align=\"left\">Векторный редактор, экспорт в SVG, GLSL, Shadertoy, WGSL и PNG</p></td><td><p align=\"left\">TypeScript + WebGL 2 / WebGPU · HTML + PWA</p></td></tr></tbody></table></div></div></div></details><details class=\"spoiler\"><summary>Безопасность и криптография</summary><div class=\"spoiler__content\"><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Проект</p></th><th><p align=\"left\">Что это</p></th><th><p align=\"left\">Технология</p></th></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/html-password-manager\" rel=\"noopener nofollow\">html-password-manager</a></p></td><td><p align=\"left\">Менеджер паролей KeePass (.kdbx) в виде одного HTML-файла, детерминистическая генерация паролей</p></td><td><p align=\"left\">TypeScript · HTML + PWA + Chrome</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/html-pgp\" rel=\"noopener nofollow\">html-pgp</a></p></td><td><p align=\"left\">Управление ключами OpenPGP и шифрование в духе Kleopatra</p></td><td><p align=\"left\">TypeScript · HTML + PWA + Chrome</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/html-lite-pgp\" rel=\"noopener nofollow\">html-lite-pgp</a></p></td><td><p align=\"left\">OpenPGP для GnuPG и Kleopatra, вся криптография своя, ничего из npm</p></td><td><p align=\"left\">TypeScript · HTML + PWA</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/bitphrase/bitphrase\" rel=\"noopener nofollow\">bitphrase/bitphrase</a></p></td><td><p align=\"left\">Номера карт, телефоны, пароли и сид-фразы ↔ смешные запоминаемые предложения</p></td><td><p align=\"left\">TypeScript · HTML + PWA</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/orgs/ua-cryptography/repositories\" rel=\"noopener nofollow\">ua-cryptography</a></p></td><td><p align=\"left\">Проект украинской криптографии (DSTU 7564, DSTU 7624, DSTU 4145)</p></td><td><p align=\"left\">Rust, C#, TypeScript</p></td></tr></tbody></table></div></div></div></details><details class=\"spoiler\"><summary>Финансы, бизнес и базы данных</summary><div class=\"spoiler__content\"><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Проект</p></th><th><p align=\"left\">Что это</p></th><th><p align=\"left\">Технология</p></th></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/cashflow\" rel=\"noopener nofollow\">cashflow</a></p></td><td><p align=\"left\">Личные финансы без записи каждой траты: сверки балансов и прогноз</p></td><td><p align=\"left\">TypeScript + SQLite (sql.js) · HTML + PWA</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/html-bap-studio\" rel=\"noopener nofollow\">html-bap-studio</a></p></td><td><p align=\"left\">BAP Studio: конструктор бизнес-приложений (справочники, документы, регистры, отчеты) с плагинами. 1С на минималках.</p></td><td><p align=\"left\">TypeScript · HTML + PWA</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/html-database-editor\" rel=\"noopener nofollow\">html-database-editor</a></p></td><td><p align=\"left\">Редактор схемы и данных БД через плагины-коннекторы</p></td><td><p align=\"left\">TypeScript · HTML + PWA</p></td></tr></tbody></table></div></div></div></details><details class=\"spoiler\"><summary>Файлы, диск и процессы</summary><div class=\"spoiler__content\"><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Проект</p></th><th><p align=\"left\">Что это</p></th><th><p align=\"left\">Технология</p></th></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/html-merge\" rel=\"noopener nofollow\">html-merge</a></p></td><td><p align=\"left\">Сравнение папок и файлов в двух панелях с подсветкой синтаксиса, как WinMerge, только чтение</p></td><td><p align=\"left\">TypeScript · HTML + PWA</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/dir-merge\" rel=\"noopener nofollow\">dir-merge</a></p></td><td><p align=\"left\">DirMerge: сравнение и слияние файлов и папок, как WinMerge, 185 языков подсветки</p></td><td><p align=\"left\">Rust · десктоп</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/uisonlab/uison-commander\" rel=\"noopener nofollow\">uisonlab/uison-commander</a></p></td><td><p align=\"left\">Двухпанельный файловый менеджер, как Total Commander: диск, S3, SFTP, FTP, WebDAV</p></td><td><p align=\"left\">Rust + uison</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/disk-usage\" rel=\"noopener nofollow\">disk-usage</a></p></td><td><p align=\"left\">Диаграмма занятого места в стиле DaisyDisk, один бинарник около 5 МБ</p></td><td><p align=\"left\">Rust · десктоп</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/uisonlab/uison-disk-usage\" rel=\"noopener nofollow\">uisonlab/uison-disk-usage</a></p></td><td><p align=\"left\">Disk Usage, переписанный на uison</p></td><td><p align=\"left\">Rust + uison</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/process-tree\" rel=\"noopener nofollow\">process-tree</a></p></td><td><p align=\"left\">Дерево процессов с возможностью их завершать (пока macOS), README на 10 языках</p></td><td><p align=\"left\">Rust · десктоп</p></td></tr></tbody></table></div></div></div></details><details class=\"spoiler\"><summary>Тексты и заметки</summary><div class=\"spoiler__content\"><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Проект</p></th><th><p align=\"left\">Что это</p></th><th><p align=\"left\">Технология</p></th></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/notepad\" rel=\"noopener nofollow\">notepad</a></p></td><td><p align=\"left\">Минимальный текстовый редактор, открывает файлы больше 1 ГБ (piece table)</p></td><td><p align=\"left\">Rust · десктоп</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/markdown-catalog-editor\" rel=\"noopener nofollow\">markdown-catalog-editor</a></p></td><td><p align=\"left\">Редактор папки Markdown-заметок (Obsidian на минималках); расширение «Send to Markdown» отправляет выделенный текст в заметку</p></td><td><p align=\"left\">TypeScript · HTML + PWA + Chrome</p></td></tr></tbody></table></div></div></div></details><details class=\"spoiler\"><summary>Образование и обучение для детей и взрослых</summary><div class=\"spoiler__content\"><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Проект</p></th><th><p align=\"left\">Что это</p></th><th><p align=\"left\">Технология</p></th></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/timeline\" rel=\"noopener nofollow\">timeline</a></p></td><td><p align=\"left\">Просмотр и редактирование хронологий (файлы <code>.timeline</code>)</p></td><td><p align=\"left\">TypeScript · HTML + PWA</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/school-lessons/primary\" rel=\"noopener nofollow\">school-lessons/primary</a></p></td><td><p align=\"left\">Обучающие игры для младших школьников (чтение, счет)</p></td><td><p align=\"left\">HTML/JS · GitHub Pages</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/hash-lesson\" rel=\"noopener nofollow\">hash-lesson</a></p></td><td><p align=\"left\">Материал для статьи: как из обратимых операций получается необратимый хеш (SHA-256)</p></td><td><p align=\"left\">TypeScript · веб-страница</p></td></tr></tbody></table></div></div></div></details><details class=\"spoiler\"><summary>Дизассемблеры, процессоры, ассемблер</summary><div class=\"spoiler__content\"><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Проект</p></th><th><p align=\"left\">Что это</p></th><th><p align=\"left\">Технология</p></th></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/html-disasm\" rel=\"noopener nofollow\">html-disasm</a></p></td><td><p align=\"left\">Дизассемблер Arm, x86, WebAssembly, .NET и Java (Mach-O, ELF, APK, JAR) с пояснениями инструкций и видом HLA64</p></td><td><p align=\"left\">TypeScript + Rust/WASM · HTML + PWA</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/virtual-cpu\" rel=\"noopener nofollow\">virtual-cpu</a></p></td><td><p align=\"left\">Эмулятор и отладчик ARM64 и x86-64</p></td><td><p align=\"left\">TypeScript · HTML</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/html-hlaa64\" rel=\"noopener nofollow\">html-hlaa64</a></p></td><td><p align=\"left\">HLA64: ассемблер ARM64, x86-64 и wasm с синтаксическим сахаром; транслятор, линкер и эмулятор</p></td><td><p align=\"left\">TypeScript</p></td></tr></tbody></table></div></div></div></details><details class=\"spoiler\"><summary>Библиотеки и фреймворки</summary><div class=\"spoiler__content\"><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Проект</p></th><th><p align=\"left\">Что это</p></th><th><p align=\"left\">Технология</p></th></tr><tr><td><p align=\"left\"><a href=\"https://github.com/uisonlab/uison\" rel=\"noopener nofollow\">uisonlab/uison</a></p></td><td><p align=\"left\">Кроссплатформенный UI-фреймворк</p></td><td><p align=\"left\">Rust</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/uisonlab/uison-ssh-player\" rel=\"noopener nofollow\">uisonlab/uison-ssh-player</a></p></td><td><p align=\"left\">Запускает программу на uison на удаленном сервере по SSH и показывает ее интерфейс в локальном окне</p></td><td><p align=\"left\">Rust + uison</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/uniptr\" rel=\"noopener nofollow\">uniptr</a></p></td><td><p align=\"left\">Умный указатель, сам переключается между <code>Rc&lt;RefCell&gt;</code> и <code>Arc&lt;RwLock&gt;</code></p></td><td><p align=\"left\">Rust · крейт</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/spill-cache\" rel=\"noopener nofollow\">spill-cache</a></p></td><td><p align=\"left\">Кэш короткоживущих файлов в памяти, при переполнении сбрасывает группы на диск</p></td><td><p align=\"left\">Rust · крейт</p></td></tr><tr><td><p align=\"left\"><a href=\"https://github.com/MarketKernel/dotenv-verbatim\" rel=\"noopener nofollow\">dotenv-verbatim</a></p></td><td><p align=\"left\">Загрузчик <code>.env</code>, значения берутся дословно, без подстановок и экранирования</p></td><td><p align=\"left\">Rust · крейт</p></td></tr></tbody></table></div></div></div></details><h3>Теперь о проблемах</h3><p>Ключевой вопрос такой: сможет ли вайб-кодинг сделать труд программистов ненужным. Условно я разделил проблемы на разрешимые и неразрешимые.</p><h3>Разрешимые проблемы</h3><p>Есть тонкости, которые сейчас нужно знать. К примеру, уметь выбрать правильные технологии (знать, что для LLM-ки лучше TypeScript, чем JavaScript, или что Rust проще, чем C++, ведь чем больше проверит детерминированный компилятор, тем качественнее будет результат). Или знать, как правильно выбрать модель – почему Opus 5.5 дешевле Astra. Ведь попытка стоит немало – нужно оплатить каждую и попробовать: все быстро меняется.</p><p>Также скиллы, способность организовать агентов. Уже целые курсы продают по этим навыкам, люди гордятся библиотекой своих скиллов.</p><p>Есть особые навыки, как тратить поменьше токенов, как экономить.</p><p>Но, на мой взгляд, это все временно, эти вещи быстро устаревают (продолжая нашу аналогию – как сейчас устарели download-менеджеры и навыки по их настройке).</p><p>В новых версиях все больше встроено из коробки – LLM-ка и нужные скиллы сама начнет использовать, и технологии подскажет, и токены уже никто считать не будет (хотя сегодня в это невозможно поверить).</p><p>То есть все это временно и ценность данных навыков вряд ли продержится много лет.</p><p>Намного интереснее проблемы неразрешимые – то, что проще не станет.</p><h3>Ценная идея или поиск нужности</h3><p>Софт пишется для людей. LLM-ка может вам нагенерить множество идей – но только зная реальные нужды реальных людей, можно понять, что вообще имеет смысл, а что пустая трата времени.</p><p>То есть вопрос видения общей ситуации, понимания нужд людей, перспектив – неразрешим алгоритмически.</p><p>Все простые идеи уже реализованы, причем многократно с большим запасом. Найти что-то востребованное не так просто.</p><h3>Пользовательский опыт</h3><p>Это связано с предыдущим.</p><p>Мне кажется, это главный вопрос. Сделать качественно можно лишь то, чем ты пользуешься сам, что находится в области твоей компетенции.</p><p>Сейчас бы Балмер кричал со сцены: “Пользовательский опыт! Пользовательский опыт! Пользовательский опыт! Пользовательский опыт! Пользовательский опыт! Пользовательский опыт! Да! Пользовательский опыт!” Он у всех разный. Есть пользователи, которых боятся сами разработчики.</p><p>Для примера. Наверняка вы знаете про Total Commander, может, даже используете или ранее пользовались. Но сколько процентов от его возможностей лично вы используете? Знаете ли все горячие клавиши, знаете ли про плагины?</p><p>Если вы будете делать аналог Total Commander для себя, то реализуете лишь те немногочисленные функции, которые используете сами. Но даже не подумаете, что это лишь верхушка айсберга и у других пользователей – совсем другие потребности.</p><p>Можно сделать клон уже готовой программы, которая вобрала в себя многолетний пользовательский опыт, но как выйти за пределы клона и создать что-то новое?</p><h3>Пользователи сами не знают, чего хотят</h3><p>Казалось бы, проблема разрешима – просто создай голосовалку, и пусть пользователи сами пишут, чего хотят. Можно даже это автоматизировать – сделать типа форума: каждый может писать свои хотелки и каждое утро получать новую (возможно, даже индивидуальную) версию софта.</p><p>Но не все так просто…</p><p>Пользователи сами не знают, чего хотят. Они ждут от вас, что именно вы им покажете что “так можно было”.</p><p>Как разработчики бухгалтерского софта заодно и учат бухгалтеров правильно выполнять свою работу (именно так и есть, работал в этой сфере), как многие узнавали о тонкостях сетевых протоколов из программы Network Monitor.</p><p>То есть пользователи от софта ждут расширения границ своего познания и не могут указать вам путем коллективного голосования, что именно нужно делать.</p><p>Есть особый вид пользователей, которые знают, чего хотят, знают тонкости той или иной области, но их очень мало, скорее даже меньше, чем разработчиков ПО. Возможно, такие люди смогут с помощью нейросетей создавать ценный софт.</p><h3>Ваше время не бесплатно</h3><p>Ну и самый главный вопрос. Допустим, вы нашли идею, у вас есть понимание и пользовательский опыт.</p><p>Но какой смысл вам тратить свое время, свою жизнь на реализацию чужих хотелок?</p><p>Монетизировать не так уж просто – как только вы сделаете программу, вложите силы, так сразу кто-то ее склонирует LLM-кой и начнет раздавать бесплатно с открытым кодом. Какой вам с этого прок?</p><p>Если предыдущие проблемы имели хоть какое-то решение, то решения данного вопроса я пока не вижу.</p><h3>Как привлечь пользователей?</h3><p>Отчасти решением проблемы монетизации может быть захват внимания аудитории, популярность проекта среди пользователей, <em>создания комьюнити</em>. Тогда можно как-то отбить на рекламе даже бесплатный продукт. Но в эпоху простого клонирования это не так просто, если вообще возможно.</p><p>Сейчас привлечь внимание непросто: информационная сфера перегрета. Тематические сайты или ютуберы за рекламу хотят немалых денег – возможно, что вы уйдете в минус.</p><p>Писать в блогах (как Хабр или Reddit) о том, что я навайбкодил то или иное, пока еще можно, но интереса все меньше – <em>а скоро люди вообще плеваться будут</em>.</p><p>То есть вместе с простотой написания кода мы получили и обесценивание спроса на продукты. Часть легко склонировать. А ведь многое и клонировать не нужно – LLM-ка сама решит твою задачу, к примеру, сама почистит диск от ненужных файлов, и это будет безопасно (хотя на переходном этапе еще не все могут в это поверить), LLM-ка подготовит тебе программу обучения и будет обучать тебя. Стало проще написать сервис, который давно планировал написать, но теперь он просто никому не нужен.</p><h3>Выводы</h3><p>Изначально я хотел найти границы вайбкодинга – момент, когда LLM-ка упрется в потолок и начнет “водить по кругу”. Граница нашлась, но не там, где я ее искал. Код LLM-ка пишет, и с каждой новой версией все лучше. Упираешься в другое: что писать, для кого и зачем.</p><p>Вернусь к аналогии с диалапом. Когда трафик стал безлимитным, умение скачать перестало чего-то стоить. Download-менеджеры и хитрости с докачкой забылись, а ценным стало понимание того, что вообще стоит смотреть. С кодом сейчас происходит нечто похожее. Промпты, скиллы, экономия токенов – это те самые download-менеджеры. Через пару лет о них никто и не вспомнит. Идея, понимание нужд людей и пользовательский опыт останутся, и проще с ними не станет.</p><p>Понять, что людям на самом деле нужно и превратить это в точные промпты – все равно работа, и времени она требует немало. И вопрос, есть ли смысл тратить это время бесплатно, никуда не денется. А как на этом зарабатывать, когда любую программу можно будет склонировать за вечер?</p><p>Мы переходим в новую эпоху, и пока никто в точности не знает, чего ждать. Но если аналогия с диалапом верна, то лет через десять сегодняшняя токен-тревожность будет вызывать такую же улыбку, как сейчас лимиты трафика.</p><p><em>А пока пойду потрачу оставшиеся токены – лимит же сгорит.</em></p></div>",
+  "tags": [
+    {
+      "titleHtml": "вайбкодинг"
+    },
+    {
+      "titleHtml": "сезон код будущего"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106348/468d39ee1a4ee1063878a969bfd9fb9a/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106348/468d39ee1a4ee1063878a969bfd9fb9a/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106348\\/\"},\"headline\":\"Навайбкодил более 30 Open Source приложений, и вот что я понял\",\"datePublished\":\"2026-11-11T23:42:30+03:00\",\"dateModified\":\"2026-11-12T00:49:25+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Изначально к вайб-кодингу относился скептически, и моей целью было экспериментально установить границы этого самого вайб-кодинга. Посмотреть, как быстро LLM-ка...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106348\\/#post-content-body\",\"about\":[\"h_artificial_intelligence\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/3c\\/48\\/88\\/3c4888e2c9a4fc1e6656b5119e78b8e3.png\"]}",
+    "metaDescription": "Изначально к вайб-кодингу относился скептически, и моей целью было экспериментально установить границы этого самого вайб-кодинга. Посмотреть, как быстро LLM-ка упрется в предел возможностей и начнет...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 9,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

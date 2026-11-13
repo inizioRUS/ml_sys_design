@@ -1,0 +1,179 @@
+{
+  "id": "1105834",
+  "timePublished": "2026-11-10T08:30:13+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "В Gemini появилась «Сводка памяти» — раздел со всем, что ИИ‑ассистент запомнил о пользователе",
+  "leadData": {
+    "textHtml": "<p>В&nbsp;Google Gemini появилась функция «Сводка памяти» (Memory summary). Она позволяет просматривать, редактировать и удалять информацию о&nbsp;пользователе, которую хранит Gemini.</p><p>В&nbsp;веб‑версии доступ к&nbsp;функции можно получить через Настройки &gt; Персональные данные (или по&nbsp;адресу gemini.google.com/personalization‑settings). Информация о пользователе делится на категории, среди которых The Essentials (краткая сводка о бэкграунде, местонахождении и ключевых связях), Career &amp; Professional Projects, Travel &amp; Daily Gear, Media &amp; Entertainment, а также Fitness &amp; Lifestyle. Каждая категория содержит пункты с конкретными деталями. </p>",
+    "imageUrl": "https://habrastorage.org/extt/35/49/32/354932d816e3cfa754c6eb92807a174c.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/35/49/32/354932d816e3cfa754c6eb92807a174c.jpg",
+      "fit": "cover",
+      "positionY": 1,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2082889",
+    "alias": "AnnieBronson",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/bec/8ce/91c/bec8ce91c2b3aeef404907f97367d517.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 200,
+      "votesCount": 842
+    },
+    "rating": 291.8,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 4,
+    "readingCount": 669,
+    "score": 6,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 5830,
+    "readers": 522
+  },
+  "hubs": [
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/35/49/32/354932d816e3cfa754c6eb92807a174c.jpg\" width=\"1500\" height=\"843\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/35/49/32/354932d816e3cfa754c6eb92807a174c.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/35/49/32/354932d816e3cfa754c6eb92807a174c.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В Google Gemini появилась функция «Сводка памяти» (Memory summary). Она позволяет просматривать, редактировать и удалять информацию о пользователе, которую хранит Gemini.</p><p>В веб‑версии доступ к функции можно получить через Настройки &gt; Персональные данные (или по адресу gemini.google.com/personalization‑settings). </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ee/b3/8b/eeb38bc6171e4b0b3c55e38a4c818695.webp\" width=\"2000\" height=\"1459\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ee/b3/8b/eeb38bc6171e4b0b3c55e38a4c818695.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/ee/b3/8b/eeb38bc6171e4b0b3c55e38a4c818695.webp 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Информация о пользователе делится на категории, среди которых The Essentials (краткая сводка о бэкграунде, местонахождении и ключевых связях), Career &amp; Professional Projects, Travel &amp; Daily Gear, Media &amp; Entertainment, а также Fitness &amp; Lifestyle. Каждая категория содержит пункты с конкретными деталями. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/2a/88/76/2a8876f252e8658051888d5a3fde75c9.jpg\" width=\"1600\" height=\"808\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/2a/88/76/2a8876f252e8658051888d5a3fde75c9.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/2a/88/76/2a8876f252e8658051888d5a3fde75c9.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>С помощью текстового поля в нижней части экрана можно добавлять или удалять сведения. Например, можно написать «Запомни, что я говорю по‑японски», чтобы добавить эту информацию, или «Удали из памяти мой старый номер телефона», чтобы удалить. Значок карандаша в правом верхнем углу позволяет вносить более масштабные правки. В меню (три точки) можно найти раздел Memory history, где отображается, когда была добавлена ​​или изменена та или иная информация.</p><p>На данный момент Memory summary доступна подписчикам Google AI в США при условии, что включены функции Keep Activity и Memory. В приложениях для Android и iOS эта функция пока не появилась, но ожидается, что её реализация будет аналогичной.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "gemini"
+    },
+    {
+      "titleHtml": "google"
+    },
+    {
+      "titleHtml": "ии-ассистенты"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба хабра"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105834/63c667b308d9fd4ef7af39b19c1bbcfc/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105834/63c667b308d9fd4ef7af39b19c1bbcfc/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105834\\/\"},\"headline\":\"В Gemini появилась «Сводка памяти» — раздел со всем, что ИИ‑ассистент запомнил о пользователе\",\"datePublished\":\"2026-11-10T11:30:13+03:00\",\"dateModified\":\"2026-11-10T11:50:04+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В&nbsp;Google Gemini появилась функция «Сводка памяти» (Memory summary). Она позволяет просматривать, редактировать и удалять информацию о&nbsp;пользователе,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105834\\/#post-content-body\",\"about\":[\"h_artificial_intelligence\",\"h_machine_learning\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/35\\/49\\/32\\/354932d816e3cfa754c6eb92807a174c.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/ee\\/b3\\/8b\\/eeb38bc6171e4b0b3c55e38a4c818695.webp\",\"https:\\/\\/habrastorage.org\\/extt\\/2a\\/88\\/76\\/2a8876f252e8658051888d5a3fde75c9.jpg\"]}",
+    "metaDescription": "В&nbsp;Google Gemini появилась функция «Сводка памяти» (Memory summary). Она позволяет просматривать, редактировать и удалять информацию о&nbsp;пользователе, которую хранит Gemini. В&nbsp;веб‑версии...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "6",
+    "title": "Мобильная разработка",
+    "alias": "mobile_development"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

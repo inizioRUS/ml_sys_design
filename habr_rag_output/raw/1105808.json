@@ -1,0 +1,203 @@
+{
+  "id": "1105808",
+  "timePublished": "2026-11-10T07:59:03+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "В приложении Uber появилась возможность забронировать парковочное место",
+  "leadData": {
+    "textHtml": "<p>Uber <a href=\"https://www.neowin.net/news/uber-rolls-out-in-app-parking-reservations-in-select-areas/\" rel=\"noopener nofollow\">добавила </a>в&nbsp;своё приложение функцию бронирования парковочного места. Инструмент работает на&nbsp;базе цифрового сервиса SpotHero, который компания приобрела в&nbsp;феврале 2026&nbsp;года.</p><p>Чтобы забронировать место, нужно нажать на&nbsp;значок «Парковка» (Parking) на&nbsp;главном экране приложения Uber, а&nbsp;затем выбрать подходящий гараж, парковку или&nbsp;сервис, где машину паркует работник (valet parking). После этого нужно указать дату и время и оплатить парковку через приложение. По&nbsp;завершении бронирования пользователь получает парковочный талон.</p>",
+    "imageUrl": "https://habrastorage.org/extt/3d/a8/05/3da805582639cae3be07febabeef2e1f.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/3d/a8/05/3da805582639cae3be07febabeef2e1f.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2082889",
+    "alias": "AnnieBronson",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/bec/8ce/91c/bec8ce91c2b3aeef404907f97367d517.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 200,
+      "votesCount": 842
+    },
+    "rating": 291.8,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 0,
+    "readingCount": 181,
+    "score": 9,
+    "votesCount": 3,
+    "votesCountPlus": 3,
+    "votesCountMinus": 0,
+    "reach": 5843,
+    "readers": 141
+  },
+  "hubs": [
+    {
+      "id": "22024",
+      "alias": "urban",
+      "type": "collective",
+      "title": "Урбанизм",
+      "titleHtml": "Урбанизм",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22004",
+      "alias": "transport",
+      "type": "collective",
+      "title": "Транспорт",
+      "titleHtml": "Транспорт",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21902",
+      "alias": "robot",
+      "type": "collective",
+      "title": "Робототехника",
+      "titleHtml": "Робототехника",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "6345",
+      "alias": "mobile_dev",
+      "type": "collective",
+      "title": "Разработка мобильных приложений",
+      "titleHtml": "Разработка мобильных приложений",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/3d/a8/05/3da805582639cae3be07febabeef2e1f.jpg\" width=\"760\" height=\"506\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3d/a8/05/3da805582639cae3be07febabeef2e1f.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/3d/a8/05/3da805582639cae3be07febabeef2e1f.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Uber <a href=\"https://www.neowin.net/news/uber-rolls-out-in-app-parking-reservations-in-select-areas/\" rel=\"noopener nofollow\">добавила </a>в своё приложение функцию бронирования парковочного места. Инструмент работает на базе цифрового сервиса SpotHero, который компания приобрела в феврале 2026 года.</p><p>Чтобы забронировать место, нужно нажать на значок «Парковка» (Parking) на главном экране приложения Uber, а затем выбрать подходящий гараж, парковку или сервис, где машину паркует работник (valet parking). После этого нужно указать дату и время и оплатить парковку через приложение. По завершении бронирования пользователь получает парковочный талон.</p><p>В зависимости от выбранного места, для въезда потребуется либо отсканировать QR‑код, либо воспользоваться системой распознавания номеров. При необходимости бронирование можно продлить; отмена до начала запланированного времени будет бесплатной.</p><p>На первом этапе функция запускается в 15 городах, включая Нью‑Йорк, Сан‑Франциско, Чикаго, Бостон и Лос‑Анджелес; в будущем список городов будет расширяться. </p><p>По данным Uber, покупка SpotHero дала компании доступ к сети из 13 000 парковочных площадок на территории США. В компании рассчитывают использовать эти площадки в том числе как зоны ожидания для беспилотных такси, что позволит сократить количество холостых пробегов и снизить загруженность дорог.</p><p>«Если вместо того, чтобы отправлять беспилотное такси на базу, направить его на парковку рядом с местом, где есть спрос, Uber сможет работать гораздо эффективнее», — поясняет Самарт Кеджривал, старший директор Uber по направлению автономных транспортных средств.</p><p>В мае Uber заявила, что <a href=\"https://techcrunch.com/2026/05/01/uber-wants-to-turn-its-millions-of-drivers-into-a-sensor-grid-for-self-driving-companies/\" rel=\"noopener nofollow\">планирует оснастить</a> транспорт своих водителей датчиками, чтобы собирать данные для компаний‑разработчиков беспилотных автомобилей и моделей ИИ. Инициатива станет продолжением <a href=\"https://www.uber.com/us/en/newsroom/accelerating-the-worlds-autonomous-future/\" rel=\"noopener nofollow\">анонсированной</a> в начале этого года программы AV Labs, рассказал технический директор Uber Правин Неппалли Нага. </p><p>По его словам, сначала компании предстоит разобраться с комплектами датчиков и принципом их работы. Нага сослался на то, что в каждом американском штате действует собственное законодательство относительно сенсоров, поэтому набор оборудования нужно согласовать с местными правилами. </p></div>",
+  "tags": [
+    {
+      "titleHtml": "мобильные приложения"
+    },
+    {
+      "titleHtml": "парковка"
+    },
+    {
+      "titleHtml": "бронирование"
+    },
+    {
+      "titleHtml": "uber"
+    },
+    {
+      "titleHtml": "беспилотные такси"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба хабра"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105808/a924b5c94558a0377372e087a6a5a02e/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105808/a924b5c94558a0377372e087a6a5a02e/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105808\\/\"},\"headline\":\"В приложении Uber появилась возможность забронировать парковочное место\",\"datePublished\":\"2026-11-10T10:59:03+03:00\",\"dateModified\":\"2026-11-10T11:14:10+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Uber добавила в&nbsp;своё приложение функцию бронирования парковочного места. Инструмент работает на&nbsp;базе цифрового сервиса SpotHero, который компания...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105808\\/#post-content-body\",\"about\":[\"h_urban\",\"h_transport\",\"h_robot\",\"h_mobile_dev\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/3d\\/a8\\/05\\/3da805582639cae3be07febabeef2e1f.jpg\"]}",
+    "metaDescription": "Uber добавила в&nbsp;своё приложение функцию бронирования парковочного места. Инструмент работает на&nbsp;базе цифрового сервиса SpotHero, который компания приобрела в&nbsp;феврале 2026&nbsp;года....",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "6",
+    "title": "Мобильная разработка",
+    "alias": "mobile_development"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

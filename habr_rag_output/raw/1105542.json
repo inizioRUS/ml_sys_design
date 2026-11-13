@@ -1,0 +1,227 @@
+{
+  "id": "1105542",
+  "timePublished": "2026-11-10T05:48:42+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Я больше десяти лет терял заметки и написал свой заметочник. Что получилось к версии 0.24",
+  "leadData": {
+    "textHtml": "<p>Nitinol — бесплатный локальный заметочник, в котором заметки, задачи, логи и схемы и связи между ними лежат вместе и находятся одним поиском.</p><p>• Быстрая запись: хоткей из любого окна, пара строк, готово • Поиск, который находит: понимает русский и код, открывает страницу сразу на нужном месте • Канбан-доска и календарь: задача с датой сама встаёт в календарь • Схемы с готовыми наборами фигур: блок-схемы, BPMN, C4, базы данных, сеть • Синхронизация через ваше облако: OneDrive, Google Диск, Яндекс Диск, Dropbox, iCloud • Шифрование и ИИ-ассистент на вашем ключе</p><p>Всё лежит на вашем компьютере. Windows, macOS, Linux. Под катом рассказываю подробнее.</p>",
+    "imageUrl": "https://habrastorage.org/extt/1f/2b/dd/1f2bddf1c04a019820125f56de693fea.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/1f/2b/dd/1f2bddf1c04a019820125f56de693fea.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5843776",
+    "alias": "gudrymudving",
+    "fullname": "Исайкин Владислав",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/788/573/dcd/788573dcdff496e5d6058e9d8a124576.png",
+    "speciality": "тимлид",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 11,
+      "votesCount": 11
+    },
+    "rating": 6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "4K+"
+  },
+  "statistics": {
+    "commentsCount": 23,
+    "favoritesCount": 14,
+    "readingCount": 1362,
+    "score": 6,
+    "votesCount": 6,
+    "votesCountPlus": 6,
+    "votesCountMinus": 0,
+    "reach": 6649,
+    "readers": 915
+  },
+  "hubs": [
+    {
+      "id": "23882",
+      "alias": "wiki",
+      "type": "collective",
+      "title": "Wiki-проекты",
+      "titleHtml": "Wiki-проекты",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20690",
+      "alias": "gtd",
+      "type": "collective",
+      "title": "GTD",
+      "titleHtml": "GTD",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20682",
+      "alias": "pm",
+      "type": "collective",
+      "title": "Управление проектами",
+      "titleHtml": "Управление проектами",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21982",
+      "alias": "lifehacks",
+      "type": "collective",
+      "title": "Лайфхаки для гиков",
+      "titleHtml": "Лайфхаки для гиков",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Пилю <a href=\"https://nitinol.app/\" rel=\"noopener nofollow\">Nitinol</a>. Это локальный заметочник, где кроме заметок живут задачи, код, логи, схемы и связи между документов. С июля вышло больше десяти версий, последняя, 0.24.0, появилась 3 ноября 2026 года. Дальше расскажу, что приложение сейчас умеет и какие планы развития.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/7e/b0/d6/7eb0d649364de5704a3b5ddb9efacec2.png\" alt=\"Главное окно Nitinol\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/7e/b0/d6/7eb0d649364de5704a3b5ddb9efacec2.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/7e/b0/d6/7eb0d649364de5704a3b5ddb9efacec2.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Главное окно Nitinol</figcaption></div></figure><p>Сайт и установщики: <a href=\"https://nitinol.app\" rel=\"noopener nofollow\">nitinol.app</a>. Есть сборки под Windows, macOS на Apple Silicon и Linux (.deb и AppImage). Приложение бесплатное, и для себя, и для работы. Исходный код закрыт, по крайней мере пока. Это публичная бета, известные проблемы собраны на <a href=\"https://nitinol.app/known-issues.html\" rel=\"noopener nofollow\">отдельной странице</a>.</p><p>Отдельное спасибо всем, кто присылал отзывы и продолжает пользоваться Nitinol. Телеметрии в приложении нет, поэтому знаю я немного: сервер обновлений видит примерно 50 разных адресов в неделю. Значит, столько людей его как минимум запускают, а больше узнать нельзя. Меня безмерно радует, что мой софт кому-то заходит и приносит пользу, это вдохновляет развивать проект.</p><h3>Оглавление</h3><ul><li><p><a href=\"#why\" rel=\"noopener nofollow\">Зачем ещё один заметочник</a></p></li><li><p><a href=\"#spoon\" rel=\"noopener nofollow\">Ложка к обеду: почему всё не показано сразу</a></p></li><li><p><a href=\"#capture\" rel=\"noopener nofollow\">Захват за тридцать секунд</a></p></li><li><p><a href=\"#pages\" rel=\"noopener nofollow\">Страницы</a></p></li><li><p><a href=\"#code\" rel=\"noopener nofollow\">Код, логи и файлы с диска</a></p></li><li><p><a href=\"#search\" rel=\"noopener nofollow\">Поиск</a></p></li><li><p><a href=\"#board\" rel=\"noopener nofollow\">Доска и календарь</a></p></li><li><p><a href=\"#diagrams\" rel=\"noopener nofollow\">Схемы</a></p></li><li><p><a href=\"#links\" rel=\"noopener nofollow\">Связи, встраивание, спейсы, история версий</a></p></li><li><p><a href=\"#assistant\" rel=\"noopener nofollow\">Ассистент и MCP</a></p></li><li><p><a href=\"#data\" rel=\"noopener nofollow\">Шифрование, экспорт, синхронизация</a></p></li><li><p><a href=\"#tech\" rel=\"noopener nofollow\">Техническая часть</a></p></li><li><p><a href=\"#plans\" rel=\"noopener nofollow\">Что дальше</a></p></li><li><p><a href=\"#stable\" rel=\"noopener nofollow\">Стабильная версия</a></p></li><li><p><a href=\"#end\" rel=\"noopener nofollow\">Заключение</a></p></li></ul><a class=\"anchor\" name=\"why\" id=\"why\"></a><h3>Зачем ещё один заметочник</h3><p>Говорят что в аду есть отдельный котел для вайбкодеров которые делают заметочники на Electron, чтож, в нем пополнение)</p><p>Больше десяти лет мои записи расползались по Notepad++, Trello, OneNote и Obsidian. Эту историю я рассказывал <a href=\"https://habr.com/ru/articles/1059322/\" rel=\"noopener nofollow\">в первой части</a>, а <a href=\"https://habr.com/ru/articles/1063600/\" rel=\"noopener nofollow\">во второй</a> объяснял, почему данные лежат в базе и почему поиск обходится без RAG. С тех пор у меня три требования, и они не менялись. Поиск должен находить, в том числе по-русски и по коду. Всё должно работать, даже если я ничего не раскладываю по полочкам: дисциплина за эти годы ко мне так и не пришла. Данные храняться локально, бекапы там где хочу.</p><p>Чем Nitinol отличается от привычных заметочников. Аккаунт не нужен, сервер тоже, всё работает офлайн. Плагинов нет, всё встроено(это осознанный выбор). Данные лежат в SQLite, а не в папке с Markdown (почему так, расскажу ниже). И есть инструменты для логов и кода, которых в заметочниках обычно нет.</p><a class=\"anchor\" name=\"spoon\" id=\"spoon\"></a><h3>Ложка хороша к обеду</h3><p>Пользователей у меня пока немного. Судя по отзывам, некоторым хватает одного спейса, десятка проектов и обычных текстовых заметок. Такому человеку не нужно разбираться с доской, схемами или ассистентом, и мне это нравится. Под такой сценарий приложение и сделано.</p><p>По-умному это называется прогрессивным раскрытием, по-простому «ложка хороша к обеду». Nitinol не вываливает на человека сразу всё, что умеет. Функция появляется тогда, когда она нужна, но найти её можно всегда: кнопкой, через меню или сочетанием клавиш. Стараюсь применять этот принцип везде, где возможно, чтобы когнитивно не перегружать пользователя.</p><p>Заметка не притворяется задачей. Пока страница не на доске, у неё нет статуса, срока и приоритета. Добавил на доску — справа появились эти поля. Страница при этом та же самая, копия не создаётся.</p><p>С командами так же. В <code>Ctrl+K</code> после <code>&gt;</code> открывается список команд. «Форматировать JSON» и «Минифицировать JSON» в нём есть, только когда открыт JSON. В списке покупок они не нужны, и там их нет.</p><p>И с мелочами так же: «Повторять» появляется у задачи только после того, как задан срок.</p><a class=\"anchor\" name=\"capture\" id=\"capture\"></a><h3>Захват за тридцать секунд</h3><p>Этим я пользуюсь достаточно часто.</p><p><code>Ctrl+Shift+Space</code> (на macOS <code>⌘⇧Space</code>, сочетание можно поменять в настройках) открывает маленькую карточку поверх любого окна. Первая строка станет заголовком, <code>Enter</code> сохраняет запись в проект. Проект выбирается тут же: <code>Tab</code> переключает проекты, <code>Alt+↓</code> открывает список с поиском. Если случайно закрыть карточку, черновик не пропадёт.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/d9/32/82/d93282df43f0eb0d5b5544b1de1d2e3c.png\" alt=\"Карточка быстрого захвата: первая строка станет заголовком, проект внизу\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d9/32/82/d93282df43f0eb0d5b5544b1de1d2e3c.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d9/32/82/d93282df43f0eb0d5b5544b1de1d2e3c.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Карточка быстрого захвата: первая строка станет заголовком, проект внизу</figcaption></div></figure><a class=\"anchor\" name=\"pages\" id=\"pages\"></a><h3>Страницы</h3><p>Страницы бывают двух видов: «Документ» (текст с оформлением, внутри ProseMirror) и «Простой текст» (внутри CodeMirror 6). Лежат они в одном дереве проекта вместе со схемами, в любом порядке.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/05/12/c5/0512c56da4c1b19d69e02d3a8b48a4a5.png\" alt=\"Документ: таблица, чек-лист и блок кода\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/05/12/c5/0512c56da4c1b19d69e02d3a8b48a4a5.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/05/12/c5/0512c56da4c1b19d69e02d3a8b48a4a5.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Документ: таблица, чек-лист и блок кода</figcaption></div></figure><p>Что есть в документе:</p><ul><li><p>меню по <code>/</code>, справа в нём подсказаны markdown-сокращения (<code>#</code>, <code>-</code>, <code>1.</code>, <code>[]</code>, <code>&gt;</code>);</p></li><li><p>таблицы: можно закрепить шапку и первый столбец, объединить ячейки, включить разряды в числах. Скопированная таблица вставляется в Excel, Word и почту таблицей. С этим пришлось повозиться: Excel пересчитывает пиксели по DPI экрана, и размеры в итоге заданы в пунктах;</p></li><li><p>картинки вставляются в своём размере, их можно тянуть мышью, есть «Оригинальный размер»;</p></li><li><p>проверка правописания работает без сети, есть свой словарь;</p></li><li><p>тумблер «Типографика при наборе» ставит «ёлочки», тире и многоточия (по умолчанию выключен).</p></li></ul><p>У папки может быть обложка. Это страница или схема, которая открывается по клику на папку (по сути, получаются подчинённые страницы). Имя папки и заголовок обложки совпадают. Так у раздела появляется своя страница, а вложенные лежат прямо под ней.</p><a class=\"anchor\" name=\"code\" id=\"code\"></a><h3>Код, логи и файлы с диска</h3><p>Кусок кода, лог или конфиг здесь обычная страница. Её находит поиск, на неё можно сослаться из задачи. У страниц простого текста есть свои инструменты:</p><ul><li><p>подсветка синтаксиса, в том числе PowerShell и BAT/CMD;</p></li><li><p>фильтр строк, как в grep;</p></li><li><p>форматирование и сжатие JSON и XML;</p></li><li><p>расшифровка выделенного: JWT, Base64, epoch, URL-encoding. Выделил токен в логе, и рядом открылся его JSON с подсветкой и поиском;</p></li><li><p>несколько курсоров, сортировка строк и удаление дублей.</p></li></ul><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/12/c6/9f/12c69f50355b6ff92d92bc40aa0811ba.png\" alt=\"Фильтр логов: уровни и grep по регулярке, остальные строки приглушены\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/12/c6/9f/12c69f50355b6ff92d92bc40aa0811ba.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/12/c6/9f/12c69f50355b6ff92d92bc40aa0811ba.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Фильтр логов: уровни и grep по регулярке, остальные строки приглушены</figcaption></div></figure><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/1c/d4/19/1cd41965ac573e8d6f7770b4ea18f889.png\" alt=\"Выделил токен в логе — «Инструменты → Декодировать» раскрывает JWT\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1c/d4/19/1cd41965ac573e8d6f7770b4ea18f889.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/1c/d4/19/1cd41965ac573e8d6f7770b4ea18f889.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Выделил токен в логе — «Инструменты → Декодировать» раскрывает JWT</figcaption></div></figure><p>Бывают файлы, которые не хочется тащить в заметки. <code>Ctrl+O</code> открывает такой файл вкладкой, копия в базе не создаётся. Обычный текстовый файл в UTF-8 можно править, <code>Ctrl+S</code> сохраняет прямо в него. Несохранённые правки не теряются: после перезапуска вкладка вернётся вместе с ними. Открытые файлы собираются в сайдбаре в проекте «Файлы с диска». Он есть только на этом устройстве, и в него можно бросить целую папку из проводника. Тут я пытаюсь отучиться вести заметки в текстовых редакторах типа Notepad++)</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/00/89/4c/00894c1f9e4c623725e81286a15f03ef.png\" alt=\"Файл с диска открыт вкладкой: правка в 9-й строке ещё не сохранена, внизу путь, кодировка и проверка YAML\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/00/89/4c/00894c1f9e4c623725e81286a15f03ef.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/00/89/4c/00894c1f9e4c623725e81286a15f03ef.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Файл с диска открыт вкладкой: правка в 9-й строке ещё не сохранена, внизу путь, кодировка и проверка YAML</figcaption></div></figure><p>У вкладки файла есть «Сравнить с файлом на диске» и «Версии файла…». В версиях лежит то, что было в файле при прошлых сохранениях, к любой можно откатиться.</p><a class=\"anchor\" name=\"search\" id=\"search\"></a><h3>Поиск</h3><p><code>Ctrl+K</code> ищет по страницам, коду, задачам и схемам. В каждом результате виден кусок текста с совпадением. Клик открывает страницу сразу на найденном месте и подсвечивает его.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/02/36/0d/02360d32834afa4bf0452febff9895a9.png\" alt=\"Ctrl+K: результаты из разных проектов с фрагментом совпадения\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/02/36/0d/02360d32834afa4bf0452febff9895a9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/02/36/0d/02360d32834afa4bf0452febff9895a9.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Ctrl+K: результаты из разных проектов с фрагментом совпадения</figcaption></div></figure><p>Как устроен поиск, я подробно разбирал во <a href=\"https://habr.com/ru/articles/1063600/\" rel=\"noopener nofollow\">второй части</a>, здесь коротко. Это полнотекстовый поиск FTS5 в той же SQLite. Слова приводятся к основе (Snowball для русского, Портер для английского), поэтому «системы» находят «систему». <code>parseConfig</code> находится ещё и по <code>parse</code>, и по <code>config</code>. Чем ближе друг к другу слова запроса в тексте, тем выше результат. Есть фильтры по типу, дате и запертости (<code>type:</code>, <code>before:</code>, <code>after:</code>, <code>is:locked</code>).</p><p>Файлы из «Файлов с диска», кроме «Недавних», ищутся по имени, а файлы UTF-8 до 5 МБ ещё и по содержимому.</p><a class=\"anchor\" name=\"board\" id=\"board\"></a><h3>Доска и календарь</h3><p>Карточка на доске и есть страница задачи. Перетащил в другую колонку, и статус поменялся. Перетащил внутри колонки, и поменялся порядок. У каждого спейса свой набор колонок, лишние в проекте можно спрятать. Готовые задачи по умолчанию через неделю скрываются с доски (срок настраивается).</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/83/1e/d2/831ed2235384ac03d4a1056e400a0c11.png\" alt=\"Доска: карточка — это страница задачи\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/83/1e/d2/831ed2235384ac03d4a1056e400a0c11.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/83/1e/d2/831ed2235384ac03d4a1056e400a0c11.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Доска: карточка — это страница задачи</figcaption></div></figure><p>Задача с датой сама появляется в календаре (есть месяц, неделя и день). Перетащил событие, и срок сразу поменялся, а рядом появилась кнопка «Отменить». У повторяющихся задач есть «Отметить всю серию выполненной», а напоминание можно «Отложить» на 10 минут, на час или до 09:00 завтра.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/13/97/e4/1397e4d1d01653d294e148e08de85976.png\" alt=\"Календарь: задачи с датой встают сами\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/13/97/e4/1397e4d1d01653d294e148e08de85976.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/13/97/e4/1397e4d1d01653d294e148e08de85976.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Календарь: задачи с датой встают сами</figcaption></div></figure><a class=\"anchor\" name=\"diagrams\" id=\"diagrams\"></a><h3>Схемы</h3><p>Схемы рисуются на холсте Excalidraw. Справа панель с наборами фигур: основные, блок-схема, C4, BPMN, базы данных, архитектура, сеть. Фигуры ищутся по названиям и синонимам. У выделенной фигуры есть точки связи: кликнул, и рядом встала копия со стрелкой, протянул к другой фигуре, и они соединились. К элементу схемы можно привязать ссылку на страницу.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/bd/a2/78/bda2783810e417402b2d7a996d6019c9.png\" alt=\"Холст Excalidraw с открытой панелью фигур\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/bd/a2/78/bda2783810e417402b2d7a996d6019c9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/bd/a2/78/bda2783810e417402b2d7a996d6019c9.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Холст Excalidraw с открытой панелью фигур</figcaption></div></figure><p>Схему можно описать и текстом, для этого в заметке есть блок Mermaid.</p><a class=\"anchor\" name=\"links\" id=\"links\"></a><h3>Связи, встраивание, спейсы, история версий</h3><p><strong>Связи.</strong> Страницы, задачи и схемы ссылаются друг на друга. Кнопка связей в шапке страницы показывает их графом или списком. В списке два раздела: «Ссылается на» (куда ведёт эта страница) и «Упоминают» (кто ссылается на неё). Можно отфильтровать схемы, заметки или задачи.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/6d/12/51/6d125162e5b7695312e8c958539d8ebf.png\" alt=\"Граф связей страницы\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/6d/12/51/6d125162e5b7695312e8c958539d8ebf.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/6d/12/51/6d125162e5b7695312e8c958539d8ebf.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Граф связей страницы</figcaption></div></figure><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/97/dd/30/97dd30a7167dbe8811cb5b96bd9b375a.png\" alt=\"Те же связи списком: куда ссылается страница и кто её упоминает\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/97/dd/30/97dd30a7167dbe8811cb5b96bd9b375a.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/97/dd/30/97dd30a7167dbe8811cb5b96bd9b375a.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Те же связи списком: куда ссылается страница и кто её упоминает</figcaption></div></figure><p><strong>Встраивание.</strong> Через «Вставить» в документ можно встроить другую страницу или схему. Встроенная страница показывается в рамке, править её тут нельзя, только там, где она лежит. Поэтому одна страница не бывает открыта в двух редакторах сразу, и правки не затирают друг друга. Схема встраивается картинкой, двойной клик открывает холст.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/1a/3b/37/1a3b37ec562051ab86b9d9993c84e59f.png\" alt=\"В заметку встроены схема с холста и страница docker-compose.yml\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1a/3b/37/1a3b37ec562051ab86b9d9993c84e59f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/1a/3b/37/1a3b37ec562051ab86b9d9993c84e59f.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>В заметку встроены схема с холста и страница docker-compose.yml</figcaption></div></figure><p><strong>Спейсы.</strong> Спейсы нужны, чтобы рабочее не смешивалось с личным. Доска, календарь, поиск и ассистент работают внутри выбранного спейса (поиск при желании можно расширить на все). Переключатель стоит над деревом проектов. Новый проект создаётся в текущем спейсе, набор колонок доски у каждого спейса свой.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/3e/3d/a8/3e3da80fbd10484a5b996c89ac47cc13.png\" alt=\"Переключатель спейсов над деревом проектов\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3e/3d/a8/3e3da80fbd10484a5b996c89ac47cc13.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/3e/3d/a8/3e3da80fbd10484a5b996c89ac47cc13.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Переключатель спейсов над деревом проектов</figcaption></div></figure><p><strong>История версий и корзина.</strong> У каждой страницы есть панель версий, сохранённые версии можно сравнить и вернуть. Правки, сделанные подряд, склеиваются в одну версию, а число автоматических версий ограничено. У очень больших страниц автоматических версий нет, там версию нужно сохранить вручную, с именем. Удалённое попадает в корзину.</p><a class=\"anchor\" name=\"assistant\" id=\"assistant\"></a><h3>Ассистент и MCP</h3><p>Ассистент видит ваши записи, но сам ничего не меняет, только предлагает. Он может создать задачу или заметку, поменять срок, статус или метки, поправить текст страницы простого текста. Каждое действие приходит карточкой и выполняется только после кнопки «Создать» или «Изменить». Схему он создаёт только пустую, рисовать придётся самому. Работает на вашем ключе: OpenAI, Anthropic, DeepSeek, OpenRouter, GigaChat, YandexGPT, любой OpenAI-совместимый сервер (LM Studio, vLLM) или локальная модель через Ollama.</p><p>Второй способ подключить ИИ — встроенный MCP-сервер. Через него Claude Code, Codex и другие агенты читают заметки. С 0.24 они могут и писать, но только если включить тумблер «Разрешить запись». Новые заметки и задачи агент создаёт сам, в разрешённых проектах. А чтобы изменить существующее, он должен спросить: в окне появляется «Агент просит правку», и без подтверждения ничего не поменяется.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/05/df/b6/05dfb604ac5676bcd89b814e126bca5a.png\" alt=\"Карточка MCP-сервера в настройках «Доступ извне»\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/05/df/b6/05dfb604ac5676bcd89b814e126bca5a.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/05/df/b6/05dfb604ac5676bcd89b814e126bca5a.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Карточка MCP-сервера в настройках «Доступ извне»</figcaption></div></figure><a class=\"anchor\" name=\"data\" id=\"data\"></a><h3>Шифрование, экспорт, синхронизация</h3><p><strong>Шифрование</strong> по умолчанию выключено, чтобы первый запуск не начинался с придумывания пароля. Включается в настройках: задаёте пароль и получаете фразу восстановления из 12 слов. Она вернёт доступ, если пароль забудется.</p><p>Шифруются база и вложения. Настройки, логи и то, что вы сами экспортировали, остаются открытыми. Файлы с диска тоже не шифруются и лежат там, где лежали. Можно включить блокировку, когда за компьютером никого нет; замок закроется только после того, как все правки записаны. Отдельную страницу можно запереть, тогда заголовок виден, а текст нет. Текст запертой страницы не доходит ни до интерфейса, ни до поиска, ни до ассистента.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/0c/75/a0/0c75a04028285a6864d840d048082475.png\" alt=\"Настройки → Защита: пароль, автоблокировка, фраза восстановления\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0c/75/a0/0c75a04028285a6864d840d048082475.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0c/75/a0/0c75a04028285a6864d840d048082475.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Настройки → Защита: пароль, автоблокировка, фраза восстановления</figcaption></div></figure><p>Тут возможно спорное решение: <strong>данные хранятся в SQLite, а не в папке с </strong><code><strong>.md</strong></code><strong>-файлами</strong>. Подробно я писал об этом во второй части. Главный довод такой: кучу отдельных файлов зашифровать можно, но тогда теряется смысл файлов, а индекс поиска всё равно придётся прятать. Зато данные можно забрать несколькими способами(если надоел Nitinol и хочется сбежать прихватив все даные):</p><ul><li><p>ZIP-экспорт всего или одного проекта (внутри JSON и вложения), из него же можно восстановиться;</p></li><li><p>экспорт в Markdown, всего или одного проекта, с папками;</p></li><li><p>автономный архив: страницы, вложения и схемы в виде HTML, который открывается в браузере без Nitinol, ссылки работают;</p></li><li><p>автоматический бэкап с восстановлением;</p></li><li><p>в обратную сторону работает импорт папки с заметками (Obsidian, Joplin или просто <code>.md</code> и <code>.txt</code>), Evernote (<code>.enex</code>) и Notion.</p></li></ul><p><strong>Синхронизация</strong> между своими устройствами бесплатна. Она идёт через ваше хранилище, моего сервера там нет:</p><ul><li><p>облачная папка: OneDrive, Google Диск, Яндекс Диск, Dropbox или iCloud; мастер настройки сам найдёт папку облака на компьютере, а если не найдёт, можно указать любую папку, которую облако синхронизирует;</p></li><li><p>WebDAV;</p></li><li><p>S3-совместимое хранилище: AWS S3, Cloudflare R2, Backblaze B2, Wasabi или свой MinIO либо Garage.</p></li></ul><p>В хранилище попадают только зашифрованные данные. Исключение одно: если вы сами включили «Ключ флота в облаке», ключ лежит рядом с данными. Так проще восстановиться, но приватности меньше. Новое устройство можно подключить заявкой (её подтверждают на уже подключённом устройстве, сверив короткий код) или фразой синхронизации из 8 слов (это отдельная фраза, не та, что от шифрования). Если одну страницу по-разному поправили на двух устройствах, остаётся более поздняя правка. Вторая не пропадает, она лежит в «Конфликтах синхронизации», и версии можно сравнить. Если на другом компьютере спешат часы, приложение об этом предупредит: правки с такого устройства могут затереть ваши.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/a3/7d/47/a37d478d3bcb26d0dd3836725b0d6afb.png\" alt=\"Настройки → Синхронизация: первый компьютер или подключение к уже настроенной\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a3/7d/47/a37d478d3bcb26d0dd3836725b0d6afb.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/a3/7d/47/a37d478d3bcb26d0dd3836725b0d6afb.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Настройки → Синхронизация: первый компьютер или подключение к уже настроенной</figcaption></div></figure><a class=\"anchor\" name=\"tech\" id=\"tech\"></a><h3>Техническая часть</h3><ul><li><p>Electron 43, React 18, TypeScript, Tailwind;</p></li><li><p>ProseMirror для документов, CodeMirror 6 для кода и простого текста;</p></li><li><p>Excalidraw для холста, Mermaid в песочнице, FullCalendar, React Flow для графа;</p></li><li><p>SQLite с шифрованием (<code>better-sqlite3-multiple-ciphers</code>) в ней лежат все данные, FTS5 для поиска;</p></li><li><p>интерфейс не имеет доступа к Node и общается с главным процессом только через типизированный IPC, данные каждого канала проверяются Zod;</p></li><li><p>обновления подписаны Ed25519, сборка для macOS подписана и нотаризована;</p></li><li><p>Vitest, Playwright для e2e.</p></li></ul><p>Немного цифр на 10 ноября 2026 года: чуть больше 300 тысяч строк TypeScript без тестов, больше двух тысяч файлов с тестами, пять тысяч с лишним коммитов с 7 июня. Да, заметочник по-прежнему <s>написан</s> навайбкожен. Код пишут Claude и Codex по конвейеру, про который я рассказывал в двух статьях: <a href=\"https://habr.com/ru/articles/1068466/\" rel=\"noopener nofollow\">«Покажи мне свой харнесс»</a> и <a href=\"https://habr.com/ru/articles/1079012/\" rel=\"noopener nofollow\">«Обвязка вокруг модели»</a>.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/e6/c9/fc/e6c9fcd024bd6b3febdbb1fb6437c638.webp\" alt=\"Разработка с LLM стала немного странной, но такова реальность)\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e6/c9/fc/e6c9fcd024bd6b3febdbb1fb6437c638.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/e6/c9/fc/e6c9fcd024bd6b3febdbb1fb6437c638.webp 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Разработка с LLM стала немного странной, но такова реальность)</figcaption></div></figure><p>Установщик для Windows весит 132 МБ. Внутри Chromium и Node, а сверху редакторы, календарь, холст и SQLite с шифрованием.</p><a class=\"anchor\" name=\"plans\" id=\"plans\"></a><h3>Что дальше</h3><p><strong>Android, затем iOS.</strong> На телефоне будет полноценное приложение, а не только «быстро записать на ходу». Доска, календарь, поиск и ассистент работают со всеми данными, поэтому на телефоне будет лежать вся база. Синхронизироваться он будет так же, как второй компьютер. Выпущу в Google Play и в RuStore. Сначала будет закрытый тест в Google Play, и первыми позову тех, кто уже пользуется версией для компьютера. Записаться можно будет на сайте и через форму обратной связи в приложении, когда до теста останется немного.</p><p><strong>Платный синк в дополнение к бесплатному.</strong> Бесплатная синхронизация через облачную папку, WebDAV и S3 остаётся и никуда не денется. Платный «Синк Nitinol» нужен тем, кому лень что-то настраивать и хочется мгновенной синхронизации. Это хранилище, которое будет на серверах Nitinol. На сервер уходят те же зашифрованные данные, что и в любое другое хранилище. Ключей у сервиса нет, прочитать записи он не может, а доступ только у клиентов.</p><a class=\"anchor\" name=\"stable\" id=\"stable\"></a><h3>Стабильная версия</h3><p>Следующая большая цель — версия 1.0. От слова «стабильная» легко ждать чуда: фичи, которая всё изменит, или починки того самого бага. Для меня стабильность значит ответственность перед людьми, которые уже доверили приложению свои записи.</p><p>Главное работает уже сейчас, в бете. На мой взгляд худшее, что может сделать заметочник, это потерять то, что в него записали (Trello и Confluence из первой части я помню хорошо). Поэтому данные пользователя для меня важнее любой фичи и важнее простоты кода. Это правило стоит в самом начале AGENTS.md. Если упрощение схемы, миграции, да вообще любое изменение кода могут потенциально потерять данные, то они не пройдут. А цепочка «записал → сохранилось → открыл заново» проверяется кучей тестов. Отсюда второе правило: если замечен риск для данных, его нельзя молча отложить, он записывается отдельно и разбирается до релиза.</p><p>До 1.0 осталось:</p><ul><li><p><strong>Закрыть мелкие баги.</strong> По отдельности они не мешают работать, а вместе создают ощущение «сыровато».</p></li><li><p><strong>Убрать шероховатости интерфейса.</strong> Неровные отступы, разнобой в подписях, лишние шаги. Эти мелочи влияют на то как воспринимается приложение в целом.</p></li><li><p><strong>Проверить на разном железе и ОС.</strong> Windows, macOS и Linux, слабые и мощные машины, разные экраны. Фразу восстановления и перенос старой базы надо проверить на живых устройствах, одних тестов тут мало.</p></li><li><p><strong>Довести начатое до конца.</strong> Всё, что сейчас в работе (схемы, синхронизация, внутреннее устройство ядра приложения), должно быть доделано.</p></li><li><p><strong>Работа с большими файлами.</strong> Файлы на 100 МБ и больше должны открываться и не подвешивать на вермя приложение.</p></li><li><p><strong>Написать документацию.</strong> Понятную справку по всем возможностям.</p></li></ul><p>Дату 1.0 не называю. Выйдет, когда закрою эти пункты и соберусь с духом)</p><a class=\"anchor\" name=\"end\" id=\"end\"></a><h3>Заключение</h3><p>Скачать можно на <a href=\"https://nitinol.app\" rel=\"noopener nofollow\">nitinol.app</a>. Там же журнал изменений и установщики трёх последних версий, на случай если обновление что-то сломает. Баги и идеи присылайте на hi@nitinol.app или через форму в самом приложении.</p><p>Вопрос читателям: интересно мнение тех, кто уходил из Obsidian или Notion и вернулся обратно: почему уходили и почему вернулись?</p></div>",
+  "tags": [
+    {
+      "titleHtml": "заметки"
+    },
+    {
+      "titleHtml": "local-first"
+    },
+    {
+      "titleHtml": "electron"
+    },
+    {
+      "titleHtml": "канбан"
+    },
+    {
+      "titleHtml": "excalidraw"
+    },
+    {
+      "titleHtml": "mcp"
+    },
+    {
+      "titleHtml": "база знаний"
+    },
+    {
+      "titleHtml": "obsidian"
+    },
+    {
+      "titleHtml": "заметочник"
+    },
+    {
+      "titleHtml": "личная продуктивность"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105542/cc2b2ca9c15da72d3b9eb148e8be567f/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105542/cc2b2ca9c15da72d3b9eb148e8be567f/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105542\\/\"},\"headline\":\"Я больше десяти лет терял заметки и написал свой заметочник. Что получилось к версии 0.24\",\"datePublished\":\"2026-11-10T08:48:42+03:00\",\"dateModified\":\"2026-11-12T13:36:50+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Пилю Nitinol . Это локальный заметочник, где кроме заметок живут задачи, код, логи, схемы и связи между документов. С июля вышло больше десяти версий,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105542\\/#post-content-body\",\"about\":[\"h_wiki\",\"h_programming\",\"h_gtd\",\"h_pm\",\"h_lifehacks\",\"f_develop\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/7e\\/b0\\/d6\\/7eb0d649364de5704a3b5ddb9efacec2.png\",\"https:\\/\\/habrastorage.org\\/extt\\/d9\\/32\\/82\\/d93282df43f0eb0d5b5544b1de1d2e3c.png\",\"https:\\/\\/habrastorage.org\\/extt\\/05\\/12\\/c5\\/0512c56da4c1b19d69e02d3a8b48a4a5.png\",\"https:\\/\\/habrastorage.org\\/extt\\/12\\/c6\\/9f\\/12c69f50355b6ff92d92bc40aa0811ba.png\",\"https:\\/\\/habrastorage.org\\/extt\\/1c\\/d4\\/19\\/1cd41965ac573e8d6f7770b4ea18f889.png\",\"https:\\/\\/habrastorage.org\\/extt\\/00\\/89\\/4c\\/00894c1f9e4c623725e81286a15f03ef.png\",\"https:\\/\\/habrastorage.org\\/extt\\/02\\/36\\/0d\\/02360d32834afa4bf0452febff9895a9.png\",\"https:\\/\\/habrastorage.org\\/extt\\/83\\/1e\\/d2\\/831ed2235384ac03d4a1056e400a0c11.png\",\"https:\\/\\/habrastorage.org\\/extt\\/13\\/97\\/e4\\/1397e4d1d01653d294e148e08de85976.png\",\"https:\\/\\/habrastorage.org\\/extt\\/bd\\/a2\\/78\\/bda2783810e417402b2d7a996d6019c9.png\",\"https:\\/\\/habrastorage.org\\/extt\\/6d\\/12\\/51\\/6d125162e5b7695312e8c958539d8ebf.png\",\"https:\\/\\/habrastorage.org\\/extt\\/97\\/dd\\/30\\/97dd30a7167dbe8811cb5b96bd9b375a.png\",\"https:\\/\\/habrastorage.org\\/extt\\/1a\\/3b\\/37\\/1a3b37ec562051ab86b9d9993c84e59f.png\",\"https:\\/\\/habrastorage.org\\/extt\\/3e\\/3d\\/a8\\/3e3da80fbd10484a5b996c89ac47cc13.png\",\"https:\\/\\/habrastorage.org\\/extt\\/05\\/df\\/b6\\/05dfb604ac5676bcd89b814e126bca5a.png\",\"https:\\/\\/habrastorage.org\\/extt\\/0c\\/75\\/a0\\/0c75a04028285a6864d840d048082475.png\",\"https:\\/\\/habrastorage.org\\/extt\\/a3\\/7d\\/47\\/a37d478d3bcb26d0dd3836725b0d6afb.png\",\"https:\\/\\/habrastorage.org\\/extt\\/e6\\/c9\\/fc\\/e6c9fcd024bd6b3febdbb1fb6437c638.webp\"]}",
+    "metaDescription": "Пилю Nitinol . Это локальный заметочник, где кроме заметок живут задачи, код, логи, схемы и связи между документов. С июля вышло больше десяти версий, последняя, 0.24.0, появилась 3 ноября 2026 года....",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 10,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

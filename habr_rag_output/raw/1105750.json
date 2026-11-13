@@ -1,0 +1,221 @@
+{
+  "id": "1105750",
+  "timePublished": "2026-11-11T07:05:15+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Какие решения были популярны у 1С-ников в октябре?",
+  "leadData": {
+    "textHtml": "<p>Читайте подборку, смотрите, что интересного активно скачивалось 1С-никами из Базы знаний в октябре. Для чего это вам? Там может быть ответ на ваш вопрос. А еще это отличная возможность следить за тенденциями в мире IT.&nbsp;</p>",
+    "imageUrl": "https://habrastorage.org/extt/f3/b8/8c/f3b88cf0e688f82f29c4f408a8763aad.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/f3/b8/8c/f3b88cf0e688f82f29c4f408a8763aad.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5851276",
+    "alias": "Sofya_Sukur",
+    "fullname": "Софья",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/cd1/5aa/71c/cd15aa71c80157a444c433cff0d3654e.jpeg",
+    "speciality": "Менеджер по работе с партнерами, Инфостарт",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 7,
+      "votesCount": 11
+    },
+    "rating": 5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 410,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 5048,
+    "readers": 346
+  },
+  "hubs": [
+    {
+      "id": "18901",
+      "alias": "infostart",
+      "type": "corporative",
+      "title": "Блог компании INFOSTART.RU",
+      "titleHtml": "Блог компании INFOSTART.RU",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22624",
+      "alias": "1C",
+      "type": "collective",
+      "title": "1С",
+      "titleHtml": "1С",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "22026",
+      "alias": "itcompanies",
+      "type": "collective",
+      "title": "IT-компании",
+      "titleHtml": "IT-компании",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f3/b8/8c/f3b88cf0e688f82f29c4f408a8763aad.jpg\" alt=\" \" title=\" \" width=\"1278\" height=\"732\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f3/b8/8c/f3b88cf0e688f82f29c4f408a8763aad.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/f3/b8/8c/f3b88cf0e688f82f29c4f408a8763aad.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption> </figcaption></div></figure><p>Читайте подборку, смотрите, что интересного активно скачивалось 1С-никами из Базы знаний в октябре. Для чего это вам? Там может быть ответ на ваш вопрос. А еще это отличная возможность следить за тенденциями в мире IT. </p><h4>Типовая УТ 10.3 + ТС ПиОТ (ESM): решение для разрешительного режима без перехода на УТ 11</h4><p>Как организовать проверку маркированных товаров, если компания продолжает работать на УТ 10.3 и переходить на новую редакцию не планирует? Автор адаптировал блок ТС ПиОТ для типовой конфигурации и разобрал подключение локального ESM, офлайн-проверку и сохранение работы с CDN. В центре внимания - внедрение механизма без переработки привычных форм розницы и драйверов кассового оборудования.</p><p>Публикация: <a href=\"https://infostart.ru/1c/tools/2763418/?utm_source=chatgpt.com\">Типовая УТ 10.3 + ТС ПиОТ (ESM): решение для разрешительного режима без перехода на УТ 11</a></p><h4>Консоль HTTP-запросов для управляемых форм</h4><p>Как проверить API прямо из 1С, когда под рукой нет Postman? Автор предложил внешнюю обработку для изучения публичных API и тестирования собственных сервисов. В публикации показано, как устроен интерфейс формирования запросов: от адреса и параметров до заголовков и разных вариантов тела. Материал будет интересен тем, кто регулярно отлаживает интеграции и ищет удобный инструмент внутри привычной среды.</p><p>Публикация: <a href=\"https://infostart.ru/1c/tools/2707808/?utm_source=chatgpt.com\">Консоль HTTP-запросов для управляемых форм</a></p><h4>Выгрузка УПД в ЭДО ЛАЙТ Честный знак</h4><p>Покупатель просит отправлять УПД с маркированными товарами через ЭДО Лайт, а вручную переносить десятки позиций неудобно. Автор рассмотрел подготовку файла для загрузки в сервис средствами 1С. В материале - особенности формирования электронного документа, настройки идентификаторов участников обмена и нюансы адаптации выгрузки под «Честный знак».</p><p>Публикация: <a href=\"https://infostart.ru/1c/tools/2650662/?utm_source=chatgpt.com\">Выгрузка УПД в ЭДО ЛАЙТ Честный знак</a></p><h4>Универсальные модули интеграции 1С с DeepSeek, GigaChat и агрегатором ИИ: конструктор выгрузки, анализ, получение таблицы</h4><p>Как передать нейросети данные из 1С и получить ответ, пригодный для дальнейшей обработки, а не только для чтения? Автор разбирает связку запросов, промптов и структурированных результатов на примере модулей интеграции с разными моделями. Отдельный интерес представляет обратный путь: использование полученных таблиц в документах и регистрах. В октябрьском обновлении добавлена работа с локальными нейросетевыми моделями.</p><p>Публикация: <a href=\"https://infostart.ru/1c/tools/2688522/?utm_source=chatgpt.com\">Универсальные модули интеграции 1С с DeepSeek, GigaChat и агрегатором ИИ (ChatGPT, Claude, Qwen и др.): конструктор выгрузки, анализ, получение таблицы</a></p><h4>[Расширение] Несколько касс ККМ в РМК для Розницы 3 и УНФ 3</h4><p>Как работать с несколькими кассами одной организации из одного рабочего места кассира, не распределяя между ними номенклатуру? Автор предложил расширение для «Розницы 3» и УНФ 3 и показал основные этапы работы: настройку доступных касс, открытие смен, продажи и закрытие. Публикация посвящена практической организации такого сценария в привычном интерфейсе РМК.</p><p>Публикация: <a href=\"https://infostart.ru/1c/tools/1791501/?utm_source=chatgpt.com\">«[Расширение] Несколько касс ККМ в РМК для Розницы 3 и УНФ 3»</a></p><h4>Консоль запросов 4K: глубокое автодополнение, сигнатуры методов и интерактивные таблицы</h4><p>Можно ли превратить консоль запросов в более удобное рабочее пространство для разработки и исследования данных? Автор экспериментирует с редактором на CodeMirror, контекстными подсказками и интерактивным представлением результатов. Октябрьские обновления затронули единый интерфейс запросов, кода и HTTP-клиента, сохранение параметров в истории и работу с планом запроса. Материал показывает, какие повседневные неудобства разработчика можно устранить внутри одной обработки.</p><p>Публикация: <a href=\"https://infostart.ru/1c/tools/2781719/?utm_source=chatgpt.com\">Консоль запросов 4K: глубокое автодополнение, Git, IDE, ИИ-напарник, сигнатуры методов и интерактивные таблицы, WEB-запросы и не только</a></p><h4>Выгрузка и загрузка данных XML адаптивная с гибкими отборами 2024</h4><p>Чтобы воспроизвести ошибку пользователя, в тестовую базу нужно перенести свежие документы. Но что делать, если ее конфигурация уже отличается от рабочей и стандартная XML-загрузка останавливается на несовпадении реквизитов? Автор доработал типовую обработку для обмена между не полностью идентичными конфигурациями. В публикации рассматриваются выборочный перенос данных, ускорение загрузки и защита от случайного запуска загрузки в рабочую базу.</p><p>Публикация: <a href=\"https://infostart.ru/1c/tools/1964833/?utm_source=chatgpt.com\">Выгрузка и загрузка данных XML адаптивная с гибкими отборами 2024</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "gigachat"
+    },
+    {
+      "titleHtml": "1с"
+    },
+    {
+      "titleHtml": "1с предприятие"
+    },
+    {
+      "titleHtml": "erp"
+    },
+    {
+      "titleHtml": "дайджест разработчика"
+    },
+    {
+      "titleHtml": "рмк"
+    },
+    {
+      "titleHtml": "кассы"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    },
+    {
+      "titleHtml": "ии"
+    },
+    {
+      "titleHtml": "таблицы"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105750/480292345897237749daa8ba1b675ebb/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105750/480292345897237749daa8ba1b675ebb/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/infostart\\/articles\\/1105750\\/\"},\"headline\":\"Какие решения были популярны у 1С-ников в октябре?\",\"datePublished\":\"2026-11-11T10:05:15+03:00\",\"dateModified\":\"2026-11-11T13:53:50+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Читайте подборку, смотрите, что интересного активно скачивалось 1С-никами из Базы знаний в октябре. Для чего это вам? Там может быть ответ на ваш вопрос. А еще...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/infostart\\/articles\\/1105750\\/#post-content-body\",\"about\":[\"c_infostart\",\"h_1C\",\"h_itcompanies\",\"h_artificial_intelligence\",\"f_develop\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/f3\\/b8\\/8c\\/f3b88cf0e688f82f29c4f408a8763aad.jpg\"]}",
+    "metaDescription": "Читайте подборку, смотрите, что интересного активно скачивалось 1С-никами из Базы знаний в октябре. Для чего это вам? Там может быть ответ на ваш вопрос. А еще это отличная возможность следить за...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "digest",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

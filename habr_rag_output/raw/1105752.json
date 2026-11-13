@@ -1,0 +1,203 @@
+{
+  "id": "1105752",
+  "timePublished": "2026-11-10T06:05:50+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Smart2FA: 100% автономный 2FA-аутентификатор с нулевым разглашением (Zero-Knowledge)",
+  "leadData": {
+    "textHtml": "<p> Разбор Smart2FA (0xid Edition) 2FA-аутентификатора с открытым исходным кодом, локальным шифрованием AES-256, биометрией и поддержкой десктопа и мобильных устройств. </p><p>Безопасность против удобства: дилемма аутентификации</p><p>В современной цифровой инфраструктуре двухфакторная аутентификация (2FA) - один из наиболее эффективных способов предотвращения несанкционированного доступа к аккаунтам. Тем не менее большинство популярных приложений-аутентификаторов заставляют идти на нежелательные компромиссы:</p><p><strong>Риски централизованной облачной синхронизации:</strong> Хранение нешифрованных или управляемых провайдером токенов в проприетарных облаках расширяет поверхность атак, создает единую точку отказа и приводит к привязке к конкретной экосистеме (vendor lock-in).</p><p><strong>Избыточная телеметрия и трекинг:</strong> Многие коммерческие аутентификаторы собирают аналитику, идентификаторы устройств и метрики использования, нарушая приватность.</p><p><strong>Ограничения экспорта и платформенная привязка:</strong> Недостаточные возможности экспорта усложняют миграцию между платформами и увеличивают риск потери данных при смене устройства.</p><p>Чтобы обеспечить полную автономию пользователей, максимальную защиту данных и высокую производительность, мы создали <strong><a href=\"https://github.com/technologiespro/Smart2FA\" rel=\"noopener nofollow\">Smart2FA (0xid Edition)</a></strong> - открытый клиентский аутентификатор с архитектурой Zero-Knowledge, исключающий сбор телеметрии, минимизирующий системные уязвимости и выполненный в стильном индустриальном дизайне.</p><p>Ключевая философия: Zero-Knowledge и принцип Local-First</p><p>Архитектура Smart2FA базируется на трех основополагающих принципах:</p><p><strong>100% Offline по умолчанию:</strong> Никаких бэкенд-сервисов, аналитики и внешних сетевых запросов.</p><p><strong>Криптографическая изоляция на стороне клиента:</strong> Все секреты остаются зашифрованными как на диске, так и в памяти до момента явной авторизации пользователем.</p><p><strong>Портативность и совместимость:</strong> Поддержка стандартных форматов RFC, мгновенный пакетный импорт и удобная кроссплатформенная работа: Web, Desktop (Tauri/Rust) и Mobile (Capacitor).</p><p>Архитектура и функциональные возможности</p><p>1. Надежная криптографическая модель хранилища</p><p>Smart2FA никогда не сохраняет мастер-PIN в открытом виде. Схема хранения и расшифровки обеспечивает надежную защиту от атак перебором и дампов локального хранилища:</p><p><strong>Жизненный цикл PIN в оперативной памяти:</strong> Расшифрованное состояние и рабочие секреты хранятся исключительно в энергозависимой оперативной памяти (RAM) в хранилище Pinia. Блокировка приложения, уход со страницы или ее перезагрузка мгновенно очищают память.</p><p><strong>Биометрическая аутентификация (WebAuthn):</strong> На поддерживаемых у</p>",
+    "imageUrl": "https://habrastorage.org/extt/ad/2d/ac/ad2dacd4e8d21c15b362dfa140874abd.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/ad/2d/ac/ad2dacd4e8d21c15b362dfa140874abd.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "216256",
+    "alias": "lordofbits",
+    "fullname": "TechnoL0g",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/67d/73b/776/67d73b776b4bee882ceea264e2e5bb9e.jpeg",
+    "speciality": "Архитектор распределенных систем/Lead Systems Dev",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 3,
+      "votesCount": 5
+    },
+    "rating": 1,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "4K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 8,
+    "readingCount": 633,
+    "score": 1,
+    "votesCount": 3,
+    "votesCountPlus": 2,
+    "votesCountMinus": 1,
+    "reach": 6112,
+    "readers": 438
+  },
+  "hubs": [
+    {
+      "id": "21296",
+      "alias": "vuejs",
+      "type": "collective",
+      "title": "VueJS",
+      "titleHtml": "VueJS",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "18961",
+      "alias": "rust",
+      "type": "collective",
+      "title": "Rust",
+      "titleHtml": "Rust",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17107",
+      "alias": "android_dev",
+      "type": "collective",
+      "title": "Android",
+      "titleHtml": "Android",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19727",
+      "alias": "linux_dev",
+      "type": "collective",
+      "title": "Linux",
+      "titleHtml": "Linux",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/af/e1/0d/afe10de944fa357ee8662c54a2becc9b.png\" alt=\"Open Source 2FA\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/af/e1/0d/afe10de944fa357ee8662c54a2becc9b.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/af/e1/0d/afe10de944fa357ee8662c54a2becc9b.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Open Source 2FA</figcaption></div></figure><p> Разбор Smart2FA (0xid Edition) 2FA-аутентификатора с открытым исходным кодом, локальным шифрованием AES-256, биометрией и поддержкой десктопа и мобильных устройств. </p><h4>Безопасность против удобства: дилемма аутентификации</h4><p>В современной цифровой инфраструктуре двухфакторная аутентификация (2FA) - один из наиболее эффективных способов предотвращения несанкционированного доступа к аккаунтам. Тем не менее большинство популярных приложений-аутентификаторов заставляют идти на нежелательные компромиссы:</p><ol><li><p><strong>Риски централизованной облачной синхронизации:</strong> Хранение нешифрованных или управляемых провайдером токенов в проприетарных облаках расширяет поверхность атак, создает единую точку отказа и приводит к привязке к конкретной экосистеме (vendor lock-in).</p></li><li><p><strong>Избыточная телеметрия и трекинг:</strong> Многие коммерческие аутентификаторы собирают аналитику, идентификаторы устройств и метрики использования, нарушая приватность.</p></li><li><p><strong>Ограничения экспорта и платформенная привязка:</strong> Недостаточные возможности экспорта усложняют миграцию между платформами и увеличивают риск потери данных при смене устройства.</p></li></ol><p>Чтобы обеспечить полную автономию пользователей, максимальную защиту данных и высокую производительность, мы создали <a href=\"https://github.com/technologiespro/Smart2FA\" rel=\"noopener nofollow\"><strong>Smart2FA (0xid Edition)</strong></a> - открытый клиентский аутентификатор с архитектурой Zero-Knowledge, исключающий сбор телеметрии, минимизирующий системные уязвимости и выполненный в стильном индустриальном дизайне.</p><hr/><h4>Ключевая философия: Zero-Knowledge и принцип Local-First</h4><p>Архитектура Smart2FA базируется на трех основополагающих принципах:</p><ul><li><p><strong>100% Offline по умолчанию:</strong> Никаких бэкенд-сервисов, аналитики и внешних сетевых запросов.</p></li><li><p><strong>Криптографическая изоляция на стороне клиента:</strong> Все секреты остаются зашифрованными как на диске, так и в памяти до момента явной авторизации пользователем.</p></li><li><p><strong>Портативность и совместимость:</strong> Поддержка стандартных форматов RFC, мгновенный пакетный импорт и удобная кроссплатформенная работа: Web, Desktop (Tauri/Rust) и Mobile (Capacitor).</p></li></ul><hr/><h4>Архитектура и функциональные возможности</h4><h3>1. Надежная криптографическая модель хранилища</h3><p>Smart2FA никогда не сохраняет мастер-PIN в открытом виде. Схема хранения и расшифровки обеспечивает надежную защиту от атак перебором и дампов локального хранилища:</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/18/11/ed/1811ed9d96594b960fd5043b1c5316c6.png\" alt=\"2fa схема\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/18/11/ed/1811ed9d96594b960fd5043b1c5316c6.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/18/11/ed/1811ed9d96594b960fd5043b1c5316c6.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>2fa схема</figcaption></div></figure><ul><li><p><strong>Жизненный цикл PIN в оперативной памяти:</strong> Расшифрованное состояние и рабочие секреты хранятся исключительно в энергозависимой оперативной памяти (RAM) в хранилище Pinia. Блокировка приложения, уход со страницы или ее перезагрузка мгновенно очищают память.</p></li><li><p><strong>Биометрическая аутентификация (WebAuthn):</strong> На поддерживаемых устройствах (Touch ID, Face ID, Windows Hello) WebAuthn безопасно оборачивает ключ, обеспечивая мгновенный вход в одно касание без ущерба для криптографической стойкости.</p></li><li><p><strong>Автоматическая блокировка:</strong> Настраиваемый тайм-аут бездействия (от 30 сек до 30 мин) для минимизации рисков при работе за общими устройствами.</p></li><li><p><strong>Необратимый сброс данных (Panic Wipe):</strong> Защитный механизм очистки, требующий явного текстового подтверждения (<code>WIPE</code>), мгновенно удаляет все ключи и локальные данные.</p></li></ul><h3>2. TOTP-движок RFC 6238 и удобство в реальном времени</h3><ul><li><p><strong>Широкая поддержка протоколов:</strong> Работает на базе библиотеки <code>otpauth</code>, поддерживает алгоритмы SHA-1, SHA-256 и SHA-512, коды из 6, 7 или 8 цифр, а также произвольные периоды обновления (30 с / 60 с).</p></li><li><p><strong>Наглядная индикация таймера:</strong> Динамический индикатор оставшегося времени, предупреждающе окрашивающийся в красный цвет за 5 секунд до смены кода.</p></li><li><p><strong>Копирование в один клик:</strong> Мгновенное копирование кода в буфер обмена с информативными всплывающими toast-уведомлениями.</p></li></ul><h3>3. Гибкий ввод, автокатегоризация и импорт из Google Authenticator</h3><ul><li><p><strong>Встроенный сканер QR-кодов:</strong> Быстрое распознавание камерой через <code>html5-qrcode</code> с автоматическим парсингом URI <code>otpauth://</code>.</p></li><li><p><strong>Пакетная миграция из Google Authenticator:</strong> Сканирование стандартного QR-кода экспорта <strong>«Перенос аккаунтов»</strong> (Transfer Accounts) из Google Authenticator и импорт всех учетных записей за одну операцию.</p></li><li><p><strong>Умное определение категорий:</strong> Автоматическое распределение токенов по цветовым категориям (<em>Work, Crypto, Finance, Social, Email, Gaming, Other</em>) на основе имени сервиса (например, GitHub -&gt; Work, Binance -&gt; Crypto) и удобные вкладки фильтрации.</p></li></ul><h3>4. Зашифрованный экспорт и импорт (формат .oxid)</h3><ul><li><p>Экспорт всего хранилища в зашифрованный контейнерный файл <code>.oxid</code> с меткой времени, защищенный ключом AES-256 на основе PIN-кода экспорта.</p></li><li><p>Такие зашифрованные файлы можно безопасно хранить в холодном хранилище или передавать по открытым каналам без риска раскрытия секретов.</p></li></ul><h3>5. Кроссплатформенность: Desktop и Mobile</h3><ul><li><p><strong>Tauri v2 (Rust Backend):</strong> Высокая производительность, минимальный размер бинарного файла, интеграция с системным треем и поддержка сворачивания в трей в фоновом режиме.</p></li><li><p><strong>Мобильная сборка на Capacitor:</strong> Готовность к развертыванию на Android-устройствах.</p></li><li><p><strong>Индустриальный интерфейс:</strong></p></li></ul><hr/><h4>Технологический стек</h4><ul><li><p><strong>Фронтенд:</strong> Vue 3 (Composition API &amp; <code>&lt;script setup&gt;</code>), Pinia 2, Vue Router 4, Tailwind CSS.</p></li><li><p><strong>Десктопная платформа:</strong> Tauri v2 (Rust).</p></li><li><p><strong>Мобильная база:</strong> Capacitor.</p></li><li><p><strong>Безопасность и TOTP:</strong> <code>crypto-js</code>, <code>otpauth</code>, <code>html5-qrcode</code>.</p></li></ul><hr/><h4>Идеи для дальнейшего развития</h4><p>Для постоянного совершенствования безопасности и функционала рассматриваются следующие возможности:</p><ol><li><p><strong>Поддержка аппаратных ключей безопасности (FIDO2 / YubiKey):</strong> Использование физического токена для защиты мастер-ключа хранилища.</p></li><li><p><strong>Зашифрованная P2P-синхронизация по локальной сети:</strong> Безопасная бессерверная синхронизация между десктопом и смартфоном через локальный WebRTC или анимированные QR-коды.</p></li><li><p><strong>CLI-утилита:</strong> Консольный инструмент для разработчиков для получения TOTP-кодов прямо в терминале при работе с SSH или в CI/CD пайплайнах.</p></li></ol><hr/><h4>Открытый исходный код и репозиторий</h4><p>Smart2FA - это проект со 100% открытым исходным кодом под лицензией Apache License 2.0. Вы можете изучить кодовую базу, скачать релизы или принять участие в разработке:</p><blockquote><p><strong>Репозиторий на GitHub:</strong> <a href=\"https://github.com/technologiespro/Smart2FA\" rel=\"noopener nofollow\">https://github.com/technologiespro/Smart2FA</a></p></blockquote><hr/><p>Инструменты наиболее полезны тогда, когда они решают реальные практические задачи пользователей.</p><p><strong>Какие функции или интеграции были бы наиболее ценны для вашей повседневной работы и безопасности?</strong></p><p>Делитесь своими идеями, предложениями и отзывами в комментариях или открывайте issues в <a href=\"https://github.com/technologiespro/Smart2FA\" rel=\"noopener nofollow\">репозитории GitHub</a>!</p><p>P.S. В следующей версии я планирую отказаться от использования crypto-js. Версия 4.2.0 последняя из опубликованных версий этой библиотеки. В текущей кодовой базе Smart2FA она не содержит критических уязвимостей и выполняет свои задачи, однако в контексте современной веб и мобильной разработки сама библиотека считается устаревшей. В будущих мажорных релизах планирую перевести модуль <code>src/lib/crypto.js</code> на использование нативного API <code>window.crypto.subtle</code> (с переходом на алгоритм AES-GCM) это позволит повысить производительность и уменьшить объем зависимостей.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/11/82/34/118234931525b47ea6d3496362810817.jpg\" alt=\"2fa ui\" width=\"380\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/11/82/34/118234931525b47ea6d3496362810817.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/11/82/34/118234931525b47ea6d3496362810817.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>2fa ui</figcaption></div></figure></div>",
+  "tags": [
+    {
+      "titleHtml": "webdev"
+    },
+    {
+      "titleHtml": "opensource"
+    },
+    {
+      "titleHtml": "security"
+    },
+    {
+      "titleHtml": "vue"
+    },
+    {
+      "titleHtml": "2fa-аутентификация"
+    },
+    {
+      "titleHtml": "2fa"
+    },
+    {
+      "titleHtml": "rust"
+    },
+    {
+      "titleHtml": "tauri"
+    },
+    {
+      "titleHtml": "cryptography"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105752/0d0d3089033e8d280fa79995a623816d/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105752/0d0d3089033e8d280fa79995a623816d/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105752\\/\"},\"headline\":\"Smart2FA: 100% автономный 2FA-аутентификатор с нулевым разглашением (Zero-Knowledge)\",\"datePublished\":\"2026-11-10T09:05:50+03:00\",\"dateModified\":\"2026-11-12T13:37:04+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Open Source 2FA Разбор Smart2FA (0xid Edition) 2FA-аутентификатора с открытым исходным кодом, локальным шифрованием AES-256, биометрией и поддержкой десктопа и...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105752\\/#post-content-body\",\"about\":[\"h_vuejs\",\"h_rust\",\"h_android_dev\",\"h_linux_dev\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/af\\/e1\\/0d\\/afe10de944fa357ee8662c54a2becc9b.png\",\"https:\\/\\/habrastorage.org\\/extt\\/18\\/11\\/ed\\/1811ed9d96594b960fd5043b1c5316c6.png\",\"https:\\/\\/habrastorage.org\\/extt\\/11\\/82\\/34\\/118234931525b47ea6d3496362810817.jpg\"]}",
+    "metaDescription": "Open Source 2FA Разбор Smart2FA (0xid Edition) 2FA-аутентификатора с открытым исходным кодом, локальным шифрованием AES-256, биометрией и поддержкой десктопа и мобильных устройств. Безопасность против...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "4",
+    "title": "Фронтенд",
+    "alias": "frontend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,230 @@
+{
+  "id": "1105370",
+  "timePublished": "2026-11-09T12:52:47+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Сервисы без копипасты, нейронки и вечный спор Python с Go",
+  "leadData": {
+    "textHtml": "<p>Кажется, намечается интересный вечерок. 25 ноября на 114-м Moscow Python Meetup обсудим, как перестать плодить одинаковые сервисы и таскать за собой старые костыли, почему нейронка даже после десятого промпта не врубается, чего от неё хотят, и что лучше для ИИ-разработки.</p><p>Будет два доклада с реальными кейсами и цифрами, а под конец — <s>вечный холивар</s> взрослая дискуссия. В общем, приручаем нейронку, отказываемся от копипасты и пытаемся не поссориться из-за Go.</p><p>Подробности под катом.</p>",
+    "imageUrl": "https://habrastorage.org/extt/ee/ae/ca/eeaeca2ae771004490d3c970506fd90f.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/ee/ae/ca/eeaeca2ae771004490d3c970506fd90f.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3247013",
+    "alias": "Rombneromb",
+    "fullname": "Роман Бурак",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/b34/cac/1f3/b34cac1f3d67f3671738c73b1483f053.jpg",
+    "speciality": "редактор",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 28,
+      "votesCount": 58
+    },
+    "rating": 7.3,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 5,
+    "readingCount": 636,
+    "score": 8,
+    "votesCount": 5,
+    "votesCountPlus": 5,
+    "votesCountMinus": 0,
+    "reach": 8320,
+    "readers": 388
+  },
+  "hubs": [
+    {
+      "id": "22144",
+      "alias": "X5Tech",
+      "type": "corporative",
+      "title": "Блог компании X5 Tech",
+      "titleHtml": "Блог компании X5 Tech",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "340",
+      "alias": "python",
+      "type": "collective",
+      "title": "Python",
+      "titleHtml": "Python",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20754",
+      "alias": "tech_events",
+      "type": "collective",
+      "title": "Конференции",
+      "titleHtml": "Конференции",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "17748",
+      "alias": "go",
+      "type": "collective",
+      "title": "Go",
+      "titleHtml": "Go",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "4",
+      "alias": "marketing",
+      "title": "Маркетинг",
+      "titleHtml": "Маркетинг"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Кажется, намечается интересный вечерок. 25 ноября на 114-м <a href=\"https://moscowdjango.timepad.ru/event/4286499/?utm_source=2026&amp;utm_medium=devrel&amp;utm_campaign=nonpaid_mpmeetup_25nov_hb1\">Moscow Python Meetup</a> обсудим, как перестать плодить одинаковые сервисы и таскать за собой старые костыли, почему нейронка даже после десятого промпта не врубается, чего от неё хотят, и что лучше для ИИ-разработки?</p><p>Будет <strong>два доклада с реальными кейсами и цифрами</strong>, а под конец — <s>вечный холивар</s> <strong>взрослая дискуссия</strong>. В общем, приручаем нейронку, отказываемся от копипасты и пытаемся не поссориться из-за Go.</p><h3>🕖 Сначала, в 19:00, у нас «Свой шаблон сервиса. Как перестать копировать прошлый проект и начать масштабироваться» от техлида БФ «Выручаем», X5 Tech Даниила Попкова.</h3><p>История узнаваемая. Нужно создать новый сервис, берём предыдущий проект, удаляем лишнее, правим конфиги — и готово. Получаем чужие решения, ненужные зависимости и техдолг.</p><p>Даниил расскажет, как в X5 Tech сделали свой корпшаблон сервиса, который живёт вместе с проектами. Разберём, через какие этапы прошёл этот шаблон, что в нём не работало и как сервисы получают готовые логи, конфигурации, подключение к брокерам и CI без новой сборки с нуля.</p><hr/><h3>🕢 в 19:40 — В 19:40 архитектор AI-разработки, независимый консультант, основатель AgentPoint Николай Каморник расскажет «Где живёт ваше намерение? Как заставить нейронку строить то, что вы хотите, а не то, что ей показалось».</h3><p>Можно бесконечно переписывать промпты и объяснять нейронке, что она опять сделала не так. Или попробовать изменить сам подход к AI-разработке. Этот подход не привязан к конкретному стеку и подходит в том числе для Python-проектов с Cursor и Claude Code.</p><p>На реальных файлах двух проектов посмотрим, как работать со спецификациями, сохранять контекст между сессиями в живой базе знаний, распределять задачи между агентами и проверять результаты.</p><hr/><h3>🕣 20:20 — и закончим вечер спором о языках программирования, куда же без него, с участием X5 Tech и Ozon Tech.</h3><p>Поговорим, почему для AI-разработки стоит выбирать Python, и стоит ли вообще.</p><p>За Python выступит <strong>Андрей Сотник, техлид X5 Tech</strong>. Вместо аргументов из серии «все так делают» обещает <strong>реальные примеры и метрики</strong>.</p><p>К обсуждению присоединятся <strong>Денис Тормазов, тимлид X5 Tech</strong>, и <strong>Александр Ковалёв, руководитель группы разработки в Ozon Tech</strong>. Модерировать дискуссию будет <strong>Максим Богуславский, генеральный директор ООО «Альфа-функция», резидент Moscow Python Pro</strong>.</p><p>Посмотрим, чьи аргументы убедительнее. И можно ли договориться, когда речь заходит о Python и Go.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/af/84/f0/af84f074b79f160ac9f0652426a43447.png\" alt=\"114-й Moscow Python Meetup\" title=\"114-й Moscow Python Meetup\" width=\"5390\" height=\"2850\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/af/84/f0/af84f074b79f160ac9f0652426a43447.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/af/84/f0/af84f074b79f160ac9f0652426a43447.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>114-й Moscow Python Meetup</figcaption></div></figure><h3>📍 Где и когда встречаемся</h3><p><strong>25 ноября в 19:00</strong> на площадке «Баунс» по адресу 3-я улица Ямского Поля, 2к6.</p><p>Митап проводим вместе с сообществом <strong>Moscow Python</strong>, которое собирает разработчиков ещё с 2012 года.</p><p><a href=\"https://moscowdjango.timepad.ru/event/4286499/?utm_source=2026&amp;utm_medium=devrel&amp;utm_campaign=nonpaid_mpmeetup_25nov_hb1\"><strong>Подробности и регистрация на Moscow Python Meetup №114</strong></a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "python"
+    },
+    {
+      "titleHtml": "golang"
+    },
+    {
+      "titleHtml": "ai-разработка"
+    },
+    {
+      "titleHtml": "ии-агенты"
+    },
+    {
+      "titleHtml": "cursor"
+    },
+    {
+      "titleHtml": "claude code"
+    },
+    {
+      "titleHtml": "микросервисы"
+    },
+    {
+      "titleHtml": "шаблоны сервисов"
+    },
+    {
+      "titleHtml": "moscow python"
+    },
+    {
+      "titleHtml": "python meetup"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105370/56368cfd416e1bf02dbd52a053696a32/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105370/56368cfd416e1bf02dbd52a053696a32/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/X5Tech\\/articles\\/1105370\\/\"},\"headline\":\"Сервисы без копипасты, нейронки и вечный спор Python с Go\",\"datePublished\":\"2026-11-09T15:52:47+03:00\",\"dateModified\":\"2026-11-11T19:27:25+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Кажется, намечается интересный вечерок. 25 ноября на 114-м Moscow Python Meetup обсудим, как перестать плодить одинаковые сервисы и таскать за собой старые...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/X5Tech\\/articles\\/1105370\\/#post-content-body\",\"about\":[\"h_python\",\"h_tech_events\",\"h_artificial_intelligence\",\"h_go\",\"c_X5Tech\",\"f_develop\",\"f_marketing\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/af\\/84\\/f0\\/af84f074b79f160ac9f0652426a43447.png\"]}",
+    "metaDescription": "Кажется, намечается интересный вечерок. 25 ноября на 114-м Moscow Python Meetup обсудим, как перестать плодить одинаковые сервисы и таскать за собой старые костыли, почему нейронка даже после десятого...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

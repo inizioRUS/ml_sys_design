@@ -1,0 +1,224 @@
+{
+  "id": "1105626",
+  "timePublished": "2026-11-09T16:22:10+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Тот самый Winamp на Маке: как я с ИИ-агентами сделал плеер из своего детства на SwiftUI и AppKit",
+  "leadData": {
+    "textHtml": "<p>MacAmp: открытая репродукция Winamp 2.95 для macOS на Swift. Скины WSZ на лету, магнитные окна, 10-полосный эквалайзер и около нуля процентов процессора в простое.</p>",
+    "imageUrl": "https://habrastorage.org/extt/98/2b/8c/982b8c8b8712752ee547a7feb8546b35.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/98/2b/8c/982b8c8b8712752ee547a7feb8546b35.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "sandbox",
+      "typeOf": "system",
+      "title": "Из песочницы",
+      "data": {
+        "url": null
+      }
+    }
+  ],
+  "author": {
+    "id": "5794816",
+    "alias": "alexrel",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/4d4/32c/3c8/4d432c3c8d0042accb16e7304addd85d.png",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 2,
+      "votesCount": 2
+    },
+    "rating": 5.1,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 27,
+    "favoritesCount": 8,
+    "readingCount": 929,
+    "score": 5,
+    "votesCount": 5,
+    "votesCountPlus": 5,
+    "votesCountMinus": 0,
+    "reach": 9399,
+    "readers": 718
+  },
+  "hubs": [
+    {
+      "id": "19253",
+      "alias": "osx_dev",
+      "type": "collective",
+      "title": "macOS",
+      "titleHtml": "macOS",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19039",
+      "alias": "swift",
+      "type": "collective",
+      "title": "Swift",
+      "titleHtml": "Swift",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Я долго искал для Мака простой плеер в духе старого Winamp и не нашёл: современные либо разрослись до комбайнов со стримингами и медиатеками, либо написаны на Electron и грузят процессор впустую. Года три-четыре назад я начал писать такой плеер сам, но дальше первого экрана и базового проигрывания дело не дошло. Проект так и лежал, а когда я натыкался на эту папку, то вспоминал о нём и думал, что когда-нибудь доведу его до конца. С приходом нейросетей мне это наконец удалось.<br/><br/>Получился <strong>MacAmp</strong>: открытая репродукция Winamp 2.95 для macOS на Swift, SwiftUI и AppKit. Электрона и веб-вью в интерфейсе нет, сборка универсальная (Apple Silicon и Intel), нужна macOS 14 или новее.</p><h4>Функционал</h4><p>Окна, меню, настройки, диалоги и горячие клавиши у MacAmp такие же, как в Winamp 2.95. Всё современное спрятано внутрь или вынесено в отдельную группу в конце страницы настроек.</p><ul><li><p>Главное окно, эквалайзер и плейлист магнитно стыкуются друг с другом, есть режим Shade и Double Size (2x).</p></li><li><p>Подходят любые скины Winamp 2.x (<code>.wsz</code> или папка), они читаются на лету. Базовый скин 2.91 встроен.</p></li><li><p>Играет MP3, AAC/M4A, FLAC, WAV/AIFF, Ogg Vorbis/Opus, MP2, AU и MIDI. Есть кроссфейд, а при смене наушников или колонок звук идёт на новое устройство сам.</p></li><li><p>Десятиполосный эквалайзер с предусилителем, пресетами и автозагрузкой по жанру, плюс pitch/tempo и реверберация.</p></li><li><p>Плейлисты M3U, PLS, XSPF и CUE, закладки, Jump to File.</p></li><li><p>Интернет-радио SHOUTcast и Icecast, каталог станций берётся из <a href=\"http://radio-browser.info\" rel=\"noopener nofollow\">radio-browser.info</a>.</p></li><li><p>Аудио-CD можно слушать и копировать в FLAC, ALAC, AAC, WAV или AIFF.</p></li><li><p>Медиатека, Minibrowser, окно видео, Track Info с редактором ID3, спектроанализатор и осциллограф.</p></li><li><p>Хоткеи из 2.95 работают и на русской раскладке (этого пришлось добиваться отдельно).</p></li><li><p>Необязательный FFmpeg-плагин добавляет MKV, WebM, AVI, WMV, WMA, APE и WavPack.</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/7f/40/1a/7f401a8e41431887e5fd3f01a5f9e811.png\" alt=\"Медиатека MacAmp со скином и кириллицей в тегах\" width=\"1600\" height=\"812\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/7f/40/1a/7f401a8e41431887e5fd3f01a5f9e811.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/7f/40/1a/7f401a8e41431887e5fd3f01a5f9e811.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Медиатека MacAmp со скином и кириллицей в тегах</figcaption></div></figure><p>Медиатека в стандартном скине, кириллица в тегах отображается без проблем</p><h4>Снаружи классика, внутри современность</h4><p>Я старался, чтобы всё, что было в Winamp 2.95, выглядело и работало так же, как там. Скриншоты оригинала лежат у меня рядом с кодом, и я сверяюсь с ними. Новое либо незаметно работает внутри, как поддержка современных форматов и смена устройства вывода, либо уходит в отдельную группу настроек. Облачных медиатек и подписок не будет.</p><figure class=\"bordered \"><img src=\"https://habrastorage.org/r/w1560/extt/d4/8c/e0/d48ce0156ff116b8b37c1a363ca26bbc.png\" alt=\"Главное меню MacAmp с пунктами и хоткеями как в Winamp\" width=\"434\" height=\"860\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d4/8c/e0/d48ce0156ff116b8b37c1a363ca26bbc.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d4/8c/e0/d48ce0156ff116b8b37c1a363ca26bbc.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Главное меню MacAmp с пунктами и хоткеями как в Winamp</figcaption></div></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e0/71/ca/e071cafbd8c6393cc989386cc388c6be.png\" alt=\"Окно Track Info с редактором ID3-тегов\" width=\"1424\" height=\"1164\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e0/71/ca/e071cafbd8c6393cc989386cc388c6be.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/e0/71/ca/e071cafbd8c6393cc989386cc388c6be.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Окно Track Info с редактором ID3-тегов</figcaption></div></figure><p>Track Info: редактор ID3v1 и ID3v2, как в оригинале</p><p>Вторая цель в том, чтобы плеер спокойно висел в углу и не садил батарею. На M1 на паузе он берёт около 0,01% процессора, а при игре со спектроанализатором 2–3%. Когда ничего не играет, движок останавливается, а анализатор через две секунды тишины перестаёт присылать кадры. Этих двух секунд хватает, чтобы столбики спектра и пики успели упасть.</p><h4>Пара технических деталей</h4><h3>Окна двигаются как одно целое</h3><p>Главное окно, эквалайзер и плейлист — это три отдельных безрамочных <code>NSWindow</code>, и сгруппировать окна в macOS нечем. Когда тянешь ведущее окно, остальные должны ехать вместе с ним и не разъезжаться. Поэтому позицию каждого окна я считаю заново от того места, где оно стояло в начале перетаскивания, прибавляя к нему общий сдвиг. Если же добавлять к текущей позиции маленькие шажки на каждое движение мыши, ошибки округления накапливаются. Магнитное притяжение к краям экрана и соседним окнам считается один раз по предполагаемым рамкам, и только потом результат применяется ко всей группе:</p><pre><code class=\"swift\">let totalShiftX = roundedDeltaX + bestSnapX\nlet totalShiftY = roundedDeltaY + bestSnapY\n\nfor (gid, startOrigin) in startOrigins {\n    guard let win = windows[gid], win.isVisible else { continue }\n    win.setFrameOrigin(NSPoint(\n        x: round(startOrigin.x + totalShiftX),\n        y: round(startOrigin.y + totalShiftY)\n    ))\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Координаты округляются, потому что в пиксельном интерфейсе стыки окон не должны съезжать даже на полпикселя, особенно в режиме 2x.</p><h3>Пиксели без сглаживания</h3><p>Скины Winamp — это растровые BMP, нарисованные для экранов старой плотности (<code>MAIN.BMP</code>, <code>EQMAIN.BMP</code>, <code>PLEDIT.BMP</code>, <code>TEXT.BMP</code>). Если выводить их стандартным способом, на Retina шрифт и цифры таймера расплываются. Поэтому окна рисуют себя сами и с выключенной интерполяцией:</p><pre><code class=\"swift\">public override func draw(_ dirtyRect: NSRect) {\n    guard let context = NSGraphicsContext.current?.cgContext else { return }\n    context.interpolationQuality = .none\n    // ...\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Спрайты вырезаются точно по пикселям оригинала, координаты хранятся в <code>SpriteCatalog</code>. Сверял я их с исходниками Webamp.</p><h3>Эквалайзер</h3><p>Десять полос с частотами как в Winamp (от 60 Гц до 16 кГц) и предусилитель живут в обычном <code>AVAudioUnitEQ</code>: полосы там параметрические фильтры, а предусилитель — это его <code>globalGain</code>. Звук идёт через <code>AVAudioEngine</code>, поэтому плеер сам следует за системным устройством вывода.</p><h4>Как это писалось с ИИ</h4><p>Большую часть кода написали ИИ-агенты. Я придумывал, ставил задачи, смотрел результат и решал, что выпускать. Такая схема сработала: я понимаю, что должно получиться, и замечаю, когда архитектура уезжает в сторону, а конкретные вызовы AppKit знает агент.</p><p>Мне помогли три вещи. Во-первых, в проекте лежат документы: видение, план по этапам, чек-лист и справочник по размерам и поведению Winamp 2.x, а рядом скриншоты оригинала. Агент читает всё это перед работой, и мне не приходится каждый раз объяснять, что «как в Winamp» значит буквально. Во-вторых, правила в <code>AGENTS.md</code> и несколько скиллов про структуру проекта и про то, как безопасно менять эквалайзер и плейлист: благодаря им агент не ломает то, что уже работает. И наконец, все тесты запускаются одной командой, <code>./</code><a href=\"http://build.sh\" rel=\"noopener nofollow\"><code>build.sh</code></a><code> test</code>.</p><p>Отдать агентам не вышло одно: ощущения. Как ложится в руку перетаскивание, не дрожит ли поле, тот ли цвет, как звучит кроссфейд на живых треках — это можно проверить только руками и ушами. Часть такой проверки у меня до сих пор в списке «не сделано», о ней ниже.</p><h4>Чего пока нет</h4><p>Пока нет визуализаций Milkdrop через projectM, а также MP3- и Ogg-кодировщика для копирования CD (в 2.95 был Ogg Vorbis). Трекерные модули MOD, XM, S3M и IT тоже не играют: для них нужна libopenmpt, и я пока думаю, стоит ли тащить такую зависимость. Скробблера <a href=\"http://Last.fm\" rel=\"noopener nofollow\">Last.fm</a> тоже нет, а если он появится, то отдельной опцией и выключенным по умолчанию.</p><h4>Почему нет подписи Apple Developer ID</h4><p>Я не подписывал приложение намеренно. В Winamp на странице File types можно выбрать, какие форматы открывает плеер, и тут же поменять иконки файлов и плейлистов. Менялись они на лету. На Маке иконки документов Finder берёт из самого приложения, поэтому MacAmp подменяет иконку внутри <a href=\"http://MacAmp.app\" rel=\"noopener nofollow\"><code>MacAmp.app</code></a> и заново подписывает себя локальной (ad-hoc) подписью. С подписью Developer ID это не получилось бы: изменённый бандл сломал бы её, и иконки поменять было бы нельзя.</p><p>Платить за это приходится предупреждением Gatekeeper при первом запуске. Открыть приложение можно через <strong>Системные настройки › Конфиденциальность и безопасность › Всё равно открыть</strong> или так:</p><pre><code class=\"bash\">xattr -dr com.apple.quarantine /Applications/MacAmp.app\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ca/89/77/ca8977e2b74a46419617b2317e07f857.png\" alt=\"Настройки MacAmp, страница File types с выбором иконок\" width=\"1344\" height=\"1160\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ca/89/77/ca8977e2b74a46419617b2317e07f857.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ca/89/77/ca8977e2b74a46419617b2317e07f857.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Настройки MacAmp, страница File types с выбором иконок</figcaption></div></figure><p>Preferences › File types: те же ассоциации и смена иконок, что в Winamp</p><h4>Нужна помощь с проверкой</h4><p>Плеером я пользуюсь каждый день, но на одном компьютере и с одной фонотекой, поэтому многое ещё не проверено вручную, и я буду рад вашим отчётам. Самое интересное для меня: кроссфейд на реальных треках (с паузой и перемоткой в его середине), альбом в одном FLAC с <code>.cue</code>, радиостанции с переподключением после обрыва сети, Bluetooth-наушники во время игры и сон с пробуждением Мака. Ещё не гонял плейлисты на тысячи треков (прокрутка, поиск, сортировка, загрузка процессора с открытыми окнами), старые скины из Winamp Skin Museum с нестандартной графикой и Intel-Маки с macOS 14.</p><h4>Ссылки</h4><ul><li><p>Исходники: <a href=\"https://github.com/alexrel/macamp\" rel=\"noopener nofollow\">github.com/alexrel/macamp</a></p></li><li><p>Готовая сборка (DMG): <a href=\"http://github.com/alexrel/macamp/releases\" rel=\"noopener nofollow\">github.com/alexrel/macamp/releases</a></p></li></ul><p>Приложение бесплатное, лицензия MIT. Если что-то пойдёт не так, пишите в комментариях или заводите issue на GitHub.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "macos"
+    },
+    {
+      "titleHtml": "swift"
+    },
+    {
+      "titleHtml": "swiftui"
+    },
+    {
+      "titleHtml": "open source"
+    },
+    {
+      "titleHtml": "winamp"
+    },
+    {
+      "titleHtml": "ai"
+    },
+    {
+      "titleHtml": "ai-агенты"
+    },
+    {
+      "titleHtml": "claude"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105626/59a8950132a80d985c6559de4b43b0ec/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105626/59a8950132a80d985c6559de4b43b0ec/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105626\\/\"},\"headline\":\"Тот самый Winamp на Маке: как я с ИИ-агентами сделал плеер из своего детства на SwiftUI и AppKit\",\"datePublished\":\"2026-11-09T19:22:10+03:00\",\"dateModified\":\"2026-11-09T19:22:10+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Я долго искал для Мака простой плеер в духе старого Winamp и не нашёл: современные либо разрослись до комбайнов со стримингами и медиатеками, либо написаны на...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105626\\/#post-content-body\",\"about\":[\"h_osx_dev\",\"h_swift\",\"h_open_source\",\"h_programming\",\"h_artificial_intelligence\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/7f\\/40\\/1a\\/7f401a8e41431887e5fd3f01a5f9e811.png\",\"https:\\/\\/habrastorage.org\\/extt\\/d4\\/8c\\/e0\\/d48ce0156ff116b8b37c1a363ca26bbc.png\",\"https:\\/\\/habrastorage.org\\/extt\\/e0\\/71\\/ca\\/e071cafbd8c6393cc989386cc388c6be.png\",\"https:\\/\\/habrastorage.org\\/extt\\/ca\\/89\\/77\\/ca8977e2b74a46419617b2317e07f857.png\"]}",
+    "metaDescription": "Я долго искал для Мака простой плеер в духе старого Winamp и не нашёл: современные либо разрослись до комбайнов со стримингами и медиатеками, либо написаны на Electron и грузят процессор впустую. Года...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "18",
+    "title": "Тестирование",
+    "alias": "quality_assurance"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,212 @@
+{
+  "id": "1105824",
+  "timePublished": "2026-11-10T09:41:23+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "ИИ пишет код за минуты. Почему ваши веб-приложения все еще тормозят? Новинка «Современный Web Performance Engineering»",
+  "leadData": {
+    "textHtml": "<p>Привет, Хаброжители! С помощью ИИ можно собрать интерфейс, сгенерировать компоненты и создать целое веб-приложение за считаные минуты. Но функциональность не означает высокую производительность: приложение медленно загружается, интерфейс реагирует с задержкой, браузер тратит ресурсы на ненужные скрипты, которые замедляют работу сайта.</p><p>И дело не только в ИИ. Даже хорошо написанный вручную код не гарантирует быстрой загрузки страницы сайта. Чтобы разобраться в причинах задержек, нужно понимать, как браузер загружает и отображает страницу, какие метрики влияют на пользовательский опыт и где искать узкие места.</p>",
+    "imageUrl": "https://habrastorage.org/extt/10/31/b9/1031b936c2315818107c2c55e3ac4b24.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/10/31/b9/1031b936c2315818107c2c55e3ac4b24.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "224938",
+    "alias": "ph_piter",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/3be/b11/2b0/3beb112b076924a916b27c845d88dcfa.jpg",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 464,
+      "votesCount": 816
+    },
+    "rating": 44.6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 10,
+    "readingCount": 458,
+    "score": 8,
+    "votesCount": 4,
+    "votesCountPlus": 4,
+    "votesCountMinus": 0,
+    "reach": 6340,
+    "readers": 345
+  },
+  "hubs": [
+    {
+      "id": "17823",
+      "alias": "piter",
+      "type": "corporative",
+      "title": "Блог компании Издательский дом «Питер»",
+      "titleHtml": "Блог компании Издательский дом «Питер»",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19309",
+      "alias": "lib",
+      "type": "collective",
+      "title": "Профессиональная литература",
+      "titleHtml": "Профессиональная литература",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "91",
+      "alias": "webdev",
+      "type": "collective",
+      "title": "Веб-разработка",
+      "titleHtml": "Веб-разработка",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/9d/30/74/9d30745eb6e85fcc68842f49bd6952d8.jpg\" width=\"780\" height=\"440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/9d/30/74/9d30745eb6e85fcc68842f49bd6952d8.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/9d/30/74/9d30745eb6e85fcc68842f49bd6952d8.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Привет, Хаброжители! </p><p>С помощью ИИ можно собрать интерфейс, сгенерировать компоненты и создать целое веб-приложение за считаные минуты. Но функциональность не означает высокую производительность: приложение медленно загружается, интерфейс реагирует с задержкой, браузер тратит ресурсы на ненужные скрипты, которые замедляют работу сайта.</p><p>И дело не только в ИИ. Даже хорошо написанный вручную код не гарантирует быстрой загрузки страницы сайта. Чтобы разобраться в причинах задержек, нужно понимать, как браузер загружает и отображает страницу, какие метрики влияют на пользовательский опыт и где искать узкие места.</p><p>В новой книге <a href=\"https://www.piter.com/collection/new/product/sovremennyy-web-performance-engineering-uluchshaem-skorost-i-kachestvo-prilozheniy-s-ii?utm_source=habr&amp;utm_medium=social&amp;utm_campaign=book_sovremennyy_web_performance&amp;utm_content=feed_101126_post\">«Современный Web Performance Engineering. Улучшаем скорость и качество приложений с ИИ»</a> Эдди Османи разбирает именно эти задачи. Автор объясняет, как оценивать производительность с точки зрения пользователя и оптимизировать веб-приложения в условиях, когда большая часть кода сгенерирована ИИ.</p><p><strong>О чем книга?</strong></p><p>Османи рассматривает производительность не как на набор технических показателей, а как часть пользовательского опыта. Пользователю неважно, как устроен JavaScript-код или какой фреймворк использовала команда. Ему важно, чтобы сайт быстро открывался, не зависал при взаимодействии и не менял расположение элементов прямо во время чтения. </p><p><strong>Три ключевые темы книги.</strong></p><p>1. Как измерять производительность, а не оценивать ее на глаз</p><p>Эдди разбирает Core Web Vitals — LCP, INP и CLS. Это показатели помогают понять, насколько быстро появляется основной контент, как быстро сайт реагирует на действия пользователя и насколько стабильно отображается страница. втор также показывает, как проводить лабораторные тесты и анализировать реальные показатели производительности с помощью Lighthouse, Chrome DevTools и WebPageTest.</p><p>2. Что происходит между запросом страницы и появлением ее на экране</p><p>Для оптимизации сайта необходимо понимать, как браузер загружает ресурсы, обрабатывает HTML, CSS и JavaScript, рассчитывает стили, строит макет и отображает страницу. Османи объясняет, на каких этапах возникают задержки, и показывает, как на производительность влияют выполнение JavaScript, разделение кода и гидратация.</p><p>3. Как контролировать производительность кода, созданного ИИ</p><p>ИИ может быстро написать рабочее решение, но не обязательно оптимальное. В книге рассматриваются типичные узкие места в производительности сгенерированных приложений, способы проверки кода и инструменты, которые помогают находить и исправлять ошибки производительности. В том числе — ИИ-возможности Chrome DevTools и работу через MCP.</p><p><strong>Что можно применить на практике?</strong></p><p>Книга не ограничивается объяснением терминов и принципов. В ней есть конкретные приемы и примеры реальных кейсов, которые можно использовать при работе над собственными проектами:</p><ul><li><p>находить узкие места с помощью Lighthouse, Chrome DevTools и WebPageTest;</p></li><li><p>улучшать показатели LCP, INP и CLS;</p></li><li><p> сокращать объем JavaScript и оптимизировать его выполнение;</p></li><li><p>управлять загрузкой сторонних скриптов: аналитики, рекламы, виджетов и ИИ-чатов;</p></li><li><p>проверять и дорабатывать код, который предлагает ИИ;</p></li><li><p>внедрять контроль производительности на всех этапах разработки и выстраивать процессы в команде.</p></li></ul><p><strong>На что стоит обратить внимание?</strong></p><p>Одна из самых интересных особенностей книги — попытка соединить классическую инженерную дисциплину с новой реальностью разработки, в которой ИИ становится полноценным участником процесса. Османи не предлагает отказываться от ИИ или вручную перепроверять каждую строку из-за недоверия к инструментам. Его подход другой: использовать нейросеть для ускорения работы, но оценивать результат по измеримым показателям и понимать, почему предложенное решение действительно работает.</p><p><strong>Кому будет полезна книга?</strong></p><p>Фронтенд-разработчикам, performance-инженерам и техническим лидерам, которые хотят лучше разбираться в производительности современных веб-приложений и учитывать особенности ИИ-сгенерированного кода.</p><blockquote><p>«К концу этой книги вы будете не только знать, что делать для оптимизации производительности сайта, но и поймете, почему эти методы работают и как уверенно применять их в условиях, где ИИ пишет большую часть кода и управляет инструментами.</p><p>Используя систематический подход, основанный на метриках, вы будете готовы оценить и повысить производительность любого веб-проекта: созданного человеком, сгенерированного ИИ или (что чаще всего и бывает) — смешанного — и гарантировать пользователям быстрый, бесперебойный и надежный опыт, которого они заслуживают.»</p><p><em>— Эдди Османи</em></p></blockquote><p><strong>Об авторе</strong></p><p>Эдди Османи работает в технической команде Anthropic. Бывший руководитель инженерного направления Google Cloud AI, помогающий разработчикам создавать эффективные приложения с помощью Gemini, Vertex AI и других ИИ-платформ. До этого почти 14 лет он занимался производительностью, разработкой и пользовательским опытом в команде Chrome, работая над подходами и метриками, которые помогали сделать браузер быстрее и надежнее для миллиардов пользователей.</p><details class=\"spoiler\"><summary>Ознакомиться с оглавлением</summary><div class=\"spoiler__content\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/21/4f/2d/214f2db31fe96ab6cc6022386cc58cd8.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/21/4f/2d/214f2db31fe96ab6cc6022386cc58cd8.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/21/4f/2d/214f2db31fe96ab6cc6022386cc58cd8.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a3/be/c9/a3bec9e9ab17ea4dfd4b279a5ec8fe57.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a3/be/c9/a3bec9e9ab17ea4dfd4b279a5ec8fe57.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/a3/be/c9/a3bec9e9ab17ea4dfd4b279a5ec8fe57.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/7c/2e/e8/7c2ee8abda2753b4cef9886ae0695980.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/7c/2e/e8/7c2ee8abda2753b4cef9886ae0695980.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/7c/2e/e8/7c2ee8abda2753b4cef9886ae0695980.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a9/51/be/a951be3d8025f9648ff672c9f95d9bc5.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a9/51/be/a951be3d8025f9648ff672c9f95d9bc5.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/a9/51/be/a951be3d8025f9648ff672c9f95d9bc5.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/63/ff/03/63ff039628b48f1b733773da998f3c0c.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/63/ff/03/63ff039628b48f1b733773da998f3c0c.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/63/ff/03/63ff039628b48f1b733773da998f3c0c.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/82/6e/04/826e04a079f9935758de18072cd60698.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/82/6e/04/826e04a079f9935758de18072cd60698.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/82/6e/04/826e04a079f9935758de18072cd60698.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/5a/b8/0b/5ab80beaf054d58dbd88f24e06b30a31.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/5a/b8/0b/5ab80beaf054d58dbd88f24e06b30a31.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/5a/b8/0b/5ab80beaf054d58dbd88f24e06b30a31.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure></div></details><details class=\"spoiler\"><summary>Полистать отрывок</summary><div class=\"spoiler__content\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ef/18/20/ef182025cbcb3eeac07496465acec40c.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ef/18/20/ef182025cbcb3eeac07496465acec40c.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/ef/18/20/ef182025cbcb3eeac07496465acec40c.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e1/b7/4f/e1b74f5dd1c01e3f814a85b8643aed37.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e1/b7/4f/e1b74f5dd1c01e3f814a85b8643aed37.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/e1/b7/4f/e1b74f5dd1c01e3f814a85b8643aed37.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/85/62/c2/8562c2e3d61974135e558cba19a07d5f.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/85/62/c2/8562c2e3d61974135e558cba19a07d5f.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/85/62/c2/8562c2e3d61974135e558cba19a07d5f.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/9d/e6/b0/9de6b0898645da5a89220dec4dcc182b.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/9d/e6/b0/9de6b0898645da5a89220dec4dcc182b.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/9d/e6/b0/9de6b0898645da5a89220dec4dcc182b.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/11/f3/6b/11f36b69a31aca99ed423facc40638b2.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/11/f3/6b/11f36b69a31aca99ed423facc40638b2.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/11/f3/6b/11f36b69a31aca99ed423facc40638b2.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/eb/80/f4/eb80f4fdb2740464e373e93f1c41d25c.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/eb/80/f4/eb80f4fdb2740464e373e93f1c41d25c.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/eb/80/f4/eb80f4fdb2740464e373e93f1c41d25c.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/66/24/9e/66249e789fae7fefcf71c2fb5a5f2758.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/66/24/9e/66249e789fae7fefcf71c2fb5a5f2758.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/66/24/9e/66249e789fae7fefcf71c2fb5a5f2758.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/fe/3c/2d/fe3c2d65cb0faf5ca57947e5f1fe8a53.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/fe/3c/2d/fe3c2d65cb0faf5ca57947e5f1fe8a53.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/fe/3c/2d/fe3c2d65cb0faf5ca57947e5f1fe8a53.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/cf/05/4b/cf054b4e7ac950404ef29e4504ccd857.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/cf/05/4b/cf054b4e7ac950404ef29e4504ccd857.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/cf/05/4b/cf054b4e7ac950404ef29e4504ccd857.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d0/34/89/d034898f541e089123e28233b3a07c57.jpg\" width=\"849\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d0/34/89/d034898f541e089123e28233b3a07c57.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/d0/34/89/d034898f541e089123e28233b3a07c57.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure></div></details><hr/><p>Приобрести книгу «Современный Web Performance Engineering. Улучшаем скорость и качество приложений с ИИ» можно <a href=\"https://www.piter.com/collection/new/product/sovremennyy-web-performance-engineering-uluchshaem-skorost-i-kachestvo-prilozheniy-s-ii?utm_source=habr&amp;utm_medium=social&amp;utm_campaign=book_sovremennyy_web_performance&amp;utm_content=feed_101126_post\">на нашем сайте</a>.</p><p>При покупке бумажного издания на сайте <a href=\"https://www.piter.com/collection/new/product/sovremennyy-web-performance-engineering-uluchshaem-skorost-i-kachestvo-prilozheniy-s-ii?utm_source=habr&amp;utm_medium=social&amp;utm_campaign=book_sovremennyy_web_performance&amp;utm_content=feed_101126_post\">piter.com</a> электронная книга высылается в подарок на ваш e‑mail.</p><p>Для Хаброжителей действует скидка 25% по промокоду —  <strong>AI DRIVEN</strong></p></div>",
+  "tags": [
+    {
+      "titleHtml": "JavaScript"
+    },
+    {
+      "titleHtml": "Frontend"
+    },
+    {
+      "titleHtml": "Производительность веб-сайтов"
+    },
+    {
+      "titleHtml": "Оптимизация веб-сайтов"
+    },
+    {
+      "titleHtml": "React"
+    },
+    {
+      "titleHtml": "книги по программированию"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105824/5254d66fa4df7fca6a5293ac298110b0/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105824/5254d66fa4df7fca6a5293ac298110b0/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/piter\\/articles\\/1105824\\/\"},\"headline\":\"ИИ пишет код за минуты. Почему ваши веб-приложения все еще тормозят? Новинка «Современный Web Performance Engineering»\",\"datePublished\":\"2026-11-10T12:41:23+03:00\",\"dateModified\":\"2026-11-11T19:02:33+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Привет, Хаброжители! С помощью ИИ можно собрать интерфейс, сгенерировать компоненты и создать целое веб-приложение за считаные минуты. Но функциональность не...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/piter\\/articles\\/1105824\\/#post-content-body\",\"about\":[\"c_piter\",\"h_lib\",\"h_artificial_intelligence\",\"h_programming\",\"h_webdev\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/9d\\/30\\/74\\/9d30745eb6e85fcc68842f49bd6952d8.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/21\\/4f\\/2d\\/214f2db31fe96ab6cc6022386cc58cd8.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/a3\\/be\\/c9\\/a3bec9e9ab17ea4dfd4b279a5ec8fe57.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/7c\\/2e\\/e8\\/7c2ee8abda2753b4cef9886ae0695980.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/a9\\/51\\/be\\/a951be3d8025f9648ff672c9f95d9bc5.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/63\\/ff\\/03\\/63ff039628b48f1b733773da998f3c0c.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/82\\/6e\\/04\\/826e04a079f9935758de18072cd60698.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/5a\\/b8\\/0b\\/5ab80beaf054d58dbd88f24e06b30a31.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/ef\\/18\\/20\\/ef182025cbcb3eeac07496465acec40c.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/e1\\/b7\\/4f\\/e1b74f5dd1c01e3f814a85b8643aed37.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/85\\/62\\/c2\\/8562c2e3d61974135e558cba19a07d5f.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/9d\\/e6\\/b0\\/9de6b0898645da5a89220dec4dcc182b.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/11\\/f3\\/6b\\/11f36b69a31aca99ed423facc40638b2.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/eb\\/80\\/f4\\/eb80f4fdb2740464e373e93f1c41d25c.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/66\\/24\\/9e\\/66249e789fae7fefcf71c2fb5a5f2758.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/fe\\/3c\\/2d\\/fe3c2d65cb0faf5ca57947e5f1fe8a53.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/cf\\/05\\/4b\\/cf054b4e7ac950404ef29e4504ccd857.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/d0\\/34\\/89\\/d034898f541e089123e28233b3a07c57.jpg\"]}",
+    "metaDescription": "Привет, Хаброжители! С помощью ИИ можно собрать интерфейс, сгенерировать компоненты и создать целое веб-приложение за считаные минуты. Но функциональность не означает высокую производительность:...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

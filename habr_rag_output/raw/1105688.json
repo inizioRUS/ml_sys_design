@@ -1,0 +1,200 @@
+{
+  "id": "1105688",
+  "timePublished": "2026-11-09T19:57:04+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Концепт приложения «Телефон» для Android",
+  "leadData": {
+    "textHtml": "<p>Изначально я&nbsp;хотел помочь своему бывшему коллеге с&nbsp;дизайном его звонилки. Но&nbsp;в&nbsp;процессе существенно изменился функционал приложения, и&nbsp;в&nbsp;итоге получилось просто рассуждение на&nbsp;тему удобной звонилки для Андроида. Оригинал статьи опубликован у меня <a href=\"https://dyranov.ru/projects/zvonilka.html\" rel=\"noopener nofollow\">в портфолио</a>, и там есть видео (если смотреть с компа).</p><p>Я&nbsp;хотел, чтобы приложение выглядело нативно и&nbsp;не&nbsp;выбивалось среди приложений от&nbsp;Гугла, поэтому использовал стандартные для Андроида компоненты Material Design: кнопки, поля ввода и&nbsp;прочее. Цветовая тема в&nbsp;Android настраивается и&nbsp;может зависеть от&nbsp;цвета обоев на&nbsp;главном экране.  </p>",
+    "imageUrl": "https://habrastorage.org/extt/c7/d0/71/c7d07139599c306f7c40dc0c0aff04cd.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/c7/d0/71/c7d07139599c306f7c40dc0c0aff04cd.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "7191",
+    "alias": "neonoviy",
+    "fullname": "neonoviy",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/cc7/593/17b/cc759317bd26745eca0faff3b296d409.jpg",
+    "speciality": "Дизайнер",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 14,
+      "votesCount": 40
+    },
+    "rating": 9,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": {
+      "careerProfileLink": "https://career.habr.com/neonoviy1?utm_source=habr&utm_medium=profile_header&utm_campaign=button_habr_career",
+      "expertProfileLink": null
+    },
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 25,
+    "favoritesCount": 6,
+    "readingCount": 1924,
+    "score": 9,
+    "votesCount": 7,
+    "votesCountPlus": 7,
+    "votesCountMinus": 0,
+    "reach": 11958,
+    "readers": 1538
+  },
+  "hubs": [
+    {
+      "id": "17107",
+      "alias": "android_dev",
+      "type": "collective",
+      "title": "Android",
+      "titleHtml": "Android",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "9188",
+      "alias": "ui",
+      "type": "collective",
+      "title": "Интерфейсы",
+      "titleHtml": "Интерфейсы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21892",
+      "alias": "design",
+      "type": "collective",
+      "title": "Дизайн",
+      "titleHtml": "Дизайн",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "2",
+      "alias": "design",
+      "title": "Дизайн",
+      "titleHtml": "Дизайн"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Изначально я хотел помочь своему бывшему коллеге с дизайном его звонилки. Но в процессе существенно изменился функционал приложения, и в итоге получилось просто рассуждение на тему удобной звонилки для Андроида. Оригинал статьи опубликован у меня <a href=\"https://dyranov.ru/projects/zvonilka.html\" rel=\"noopener nofollow\">в портфолио</a>, и там есть видео (если смотреть с компа).</p><p>Я хотел, чтобы приложение выглядело нативно и не выбивалось среди приложений от Гугла, поэтому использовал стандартные для Андроида компоненты Material Design: кнопки, поля ввода и прочее. Цветовая тема в Android настраивается и может зависеть от цвета обоев на главном экране. </p><h2>Звонки</h2><div class=\"floating-image\"><figure class=\"float full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/65/43/0c/65430cc64b6f6d0344f2f891676e837a.png\" width=\"632\" height=\"1250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/65/43/0c/65430cc64b6f6d0344f2f891676e837a.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/65/43/0c/65430cc64b6f6d0344f2f891676e837a.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Статистика по продолжительности разговоров помогает контролировать расходы на связь. </p><p>Форма аватарок у входящих и исходящих звонков отличается — это позволяет быстрее ориентироваться в списке.</p><p>Незнакомые номера определяются и подписываются. Случайно пропущенный звонок курьера не потеряется среди спама. </p></div><div class=\"floating-image\"><figure class=\"float full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/03/63/f1/0363f182824d50386168e7694f5713a7.png\" width=\"632\" height=\"1250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/03/63/f1/0363f182824d50386168e7694f5713a7.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/03/63/f1/0363f182824d50386168e7694f5713a7.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Любой звонок можно записать. Полный список записей доступен в соответствующем разделе. Распознавание речи даёт возможность искать по содержимому записанных разговоров. </p></div><h3>Контакты</h3><div class=\"floating-image\"><figure class=\"float full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/33/c0/a5/33c0a55f43814b6cd76f0a2074e5bed8.png\" width=\"632\" height=\"1250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/33/c0/a5/33c0a55f43814b6cd76f0a2074e5bed8.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/33/c0/a5/33c0a55f43814b6cd76f0a2074e5bed8.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Над списком контактов отображаются напоминания о предстоящих событиях (дни рождения, годовщины и так далее) информация о которых указана в данных контакта. Здесь же отображается контакт владельца телефона, чтобы им было легко поделиться. </p></div><div class=\"floating-image\"><figure class=\"float full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/17/4d/9c/174d9cf0c57f31bcdd2b70daf0025c0f.png\" width=\"632\" height=\"1250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/17/4d/9c/174d9cf0c57f31bcdd2b70daf0025c0f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/17/4d/9c/174d9cf0c57f31bcdd2b70daf0025c0f.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Раздел «организации» группирует контакты по названию компании, отдела и должности, указанных в данных контакта.</p></div><h3>Добавление контакта</h3><p>Данные можно импортировать из файла, отсканировав QR‑код или визитку.</p><p>При создании контакта можно указать имя — тогда это карточка человека. Или название организации — тогда это карточка компании.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f5/9c/1b/f59c1bdee778eecd22640dab797c416c.png\" width=\"1215\" height=\"1250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f5/9c/1b/f59c1bdee778eecd22640dab797c416c.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/f5/9c/1b/f59c1bdee778eecd22640dab797c416c.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Дополнительные поля раскрываются при необходимости. Если мы не хотим видеть в списке контактов отчество или псевдоним, их можно скрыть, не удаляя совсем, потому что они могут потребоваться, если мы захотим поделиться контактом. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/fb/14/c2/fb14c2ee4d3213032ed24bc3f0076a79.png\" width=\"1790\" height=\"1250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/fb/14/c2/fb14c2ee4d3213032ed24bc3f0076a79.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/fb/14/c2/fb14c2ee4d3213032ed24bc3f0076a79.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В качестве аватарки можно поставить эмодзи. Можно поискать фото в соцсетях. </p><div class=\"floating-image\"><figure class=\"float full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e8/25/d3/e825d31c85badfc2ad8a26f961bfbd67.png\" width=\"632\" height=\"1250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e8/25/d3/e825d31c85badfc2ad8a26f961bfbd67.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/e8/25/d3/e825d31c85badfc2ad8a26f961bfbd67.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Тип номера телефона или адреса электронной почты можно указать любой. </p></div><div class=\"floating-image\"><figure class=\"float full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e6/7b/cd/e67bcd03de28015bee4cc87176997559.png\" width=\"632\" height=\"1250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e6/7b/cd/e67bcd03de28015bee4cc87176997559.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/e6/7b/cd/e67bcd03de28015bee4cc87176997559.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В разделе «Дополнительные поля» можно создать любое поле с текстом.</p><p>В блоке «Связи» можно связать контакт с любыми другими и указать любой тип связи: супруг, ребёнок, друг, коллега и так далее. Соответствующая связь создастся и у указанного контакта.</p></div><h3>Контакт</h3><div class=\"floating-image\"><figure class=\"float full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/7f/de/b9/7fdeb996d3a620a578891657750504d9.png\" width=\"632\" height=\"1250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/7f/de/b9/7fdeb996d3a620a578891657750504d9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/7f/de/b9/7fdeb996d3a620a578891657750504d9.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Нажатие на строку контакта в списке всегда открывает полную карточку контакта. Нет такого, что в «Контактах» открывается контакт, а в «Звонках» сразу идёт вызов. Это унификация, и дополнительная защита от случайных звонков для тех, кто не привык каждый раз блокировать экран телефона. </p><p>Основные действия (позвонить, отправить сообщение и так далее) всегда под рукой. Сразу видно, через какой именно мессенджер или приложение будет отправлено сообщение (SMS, Телеграм и так далее). </p><p>Прямо под номерами телефонов отображается краткий журнал вызовов — сразу понятно, какой из 54 номеров телефона контакта сейчас актуален. </p><p>При нажатии на краткий журнал вызовов открывается его полная версия. </p></div><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/1e/a2/bd/1ea2bdab9beb75a772bda64fb0d0da58.png\" width=\"1215\" height=\"1250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1e/a2/bd/1ea2bdab9beb75a772bda64fb0d0da58.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/1e/a2/bd/1ea2bdab9beb75a772bda64fb0d0da58.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/45/59/54/45595472b32209ff6b0f589689ab350d.png\" width=\"1284\" height=\"1250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/45/59/54/45595472b32209ff6b0f589689ab350d.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/45/59/54/45595472b32209ff6b0f589689ab350d.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В блоке приложений можно быстро открыть чат в мессенджере, перейти к отправке перевода в приложении банка, узнать местоположение контакта, если он предоставляет такую информацию. </p><div class=\"floating-image\"><figure class=\"float full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a9/60/76/a96076b605e8585f1bc23cdd6b4281b9.png\" width=\"632\" height=\"1250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a9/60/76/a96076b605e8585f1bc23cdd6b4281b9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/a9/60/76/a96076b605e8585f1bc23cdd6b4281b9.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Под контактными данными находятся настройки: действия по умолчанию, блокировка и удаление контакта. При экспорте можно выбрать, какие именно данные передать. </p></div><h3>Набор номера и звонок</h3><div class=\"floating-image\"><figure class=\"float full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/2c/14/75/2c14751f4aeeafb19333eae02a1cf2a0.png\" width=\"632\" height=\"1250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/2c/14/75/2c14751f4aeeafb19333eae02a1cf2a0.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/2c/14/75/2c14751f4aeeafb19333eae02a1cf2a0.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Можно набирать номер, а можно искать контакты как в старые добрые — с помощью Т9. </p></div><div class=\"floating-image\"><figure class=\"float full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/de/6e/4f/de6e4fa0b13667528943270bb7af9bf5.png\" width=\"632\" height=\"1250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/de/6e/4f/de6e4fa0b13667528943270bb7af9bf5.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/de/6e/4f/de6e4fa0b13667528943270bb7af9bf5.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Звонок всегда принимается или сбрасывается свайпом вправо/влево. Нет такого, что в какой‑то ситуации нужно свайпать, а в какой‑то просто нажать соответствующую копку. Унификация позволяет не задумываться в довольно стрессовой ситуации входящего звонка. </p></div><div class=\"floating-image\"><figure class=\"float full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/af/b8/7b/afb87bf78a3a93b933579c68b09817df.png\" width=\"632\" height=\"1250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/af/b8/7b/afb87bf78a3a93b933579c68b09817df.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/af/b8/7b/afb87bf78a3a93b933579c68b09817df.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Во время разговора все возможные опции находятся прямо перед глазами. Не нужно заходить куда‑то в меню или пункт «дополнительно», чтоб отключить блутуз‑наушники или добавить к звонку ещё одного абонента. Никто не хочет бороться с интерфейсом, когда на другой стороне ждёт человек. </p></div><p>Примерно так я увидел удобную звонилку для Андроида. Конечно, есть ещё куча нюансов. Например, у меня практически не учитывается работа с двумя симками. Раздел «Избранное» можно опционально вынести отдельной вкладкой. Не проработаны настройки и так далее. Но интересно было бы узнать ваше мнение и соображения на тему. Может быть у кого‑то возникнет желание создать такое приложение, тогда свяжитесь со мной — помогу чем смогу.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/26/10/39/2610396e5eea2a1697027e128ff24030.jpg\" width=\"3000\" height=\"4050\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/26/10/39/2610396e5eea2a1697027e128ff24030.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/26/10/39/2610396e5eea2a1697027e128ff24030.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure></div>",
+  "tags": [
+    {
+      "titleHtml": "дизайн"
+    },
+    {
+      "titleHtml": "интерфейс"
+    },
+    {
+      "titleHtml": "android"
+    },
+    {
+      "titleHtml": "dialer"
+    },
+    {
+      "titleHtml": "звонилки"
+    },
+    {
+      "titleHtml": "концепт"
+    },
+    {
+      "titleHtml": "ux"
+    },
+    {
+      "titleHtml": "ui"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105688/e00a1381766a5ec51209755d9d1a281c/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105688/e00a1381766a5ec51209755d9d1a281c/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105688\\/\"},\"headline\":\"Концепт приложения «Телефон» для Android\",\"datePublished\":\"2026-11-09T22:57:04+03:00\",\"dateModified\":\"2026-11-10T02:14:56+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Изначально я&nbsp;хотел помочь своему бывшему коллеге с&nbsp;дизайном его звонилки. Но&nbsp;в&nbsp;процессе существенно изменился функционал приложения,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105688\\/#post-content-body\",\"about\":[\"h_android_dev\",\"h_ui\",\"h_design\",\"f_develop\",\"f_design\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/65\\/43\\/0c\\/65430cc64b6f6d0344f2f891676e837a.png\",\"https:\\/\\/habrastorage.org\\/extt\\/03\\/63\\/f1\\/0363f182824d50386168e7694f5713a7.png\",\"https:\\/\\/habrastorage.org\\/extt\\/33\\/c0\\/a5\\/33c0a55f43814b6cd76f0a2074e5bed8.png\",\"https:\\/\\/habrastorage.org\\/extt\\/17\\/4d\\/9c\\/174d9cf0c57f31bcdd2b70daf0025c0f.png\",\"https:\\/\\/habrastorage.org\\/extt\\/f5\\/9c\\/1b\\/f59c1bdee778eecd22640dab797c416c.png\",\"https:\\/\\/habrastorage.org\\/extt\\/fb\\/14\\/c2\\/fb14c2ee4d3213032ed24bc3f0076a79.png\",\"https:\\/\\/habrastorage.org\\/extt\\/e8\\/25\\/d3\\/e825d31c85badfc2ad8a26f961bfbd67.png\",\"https:\\/\\/habrastorage.org\\/extt\\/e6\\/7b\\/cd\\/e67bcd03de28015bee4cc87176997559.png\",\"https:\\/\\/habrastorage.org\\/extt\\/7f\\/de\\/b9\\/7fdeb996d3a620a578891657750504d9.png\",\"https:\\/\\/habrastorage.org\\/extt\\/1e\\/a2\\/bd\\/1ea2bdab9beb75a772bda64fb0d0da58.png\",\"https:\\/\\/habrastorage.org\\/extt\\/45\\/59\\/54\\/45595472b32209ff6b0f589689ab350d.png\",\"https:\\/\\/habrastorage.org\\/extt\\/a9\\/60\\/76\\/a96076b605e8585f1bc23cdd6b4281b9.png\",\"https:\\/\\/habrastorage.org\\/extt\\/2c\\/14\\/75\\/2c14751f4aeeafb19333eae02a1cf2a0.png\",\"https:\\/\\/habrastorage.org\\/extt\\/de\\/6e\\/4f\\/de6e4fa0b13667528943270bb7af9bf5.png\",\"https:\\/\\/habrastorage.org\\/extt\\/af\\/b8\\/7b\\/afb87bf78a3a93b933579c68b09817df.png\",\"https:\\/\\/habrastorage.org\\/extt\\/26\\/10\\/39\\/2610396e5eea2a1697027e128ff24030.jpg\"]}",
+    "metaDescription": "Изначально я&nbsp;хотел помочь своему бывшему коллеге с&nbsp;дизайном его звонилки. Но&nbsp;в&nbsp;процессе существенно изменился функционал приложения, и&nbsp;в&nbsp;итоге получилось просто...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "24",
+    "title": "Дизайн",
+    "alias": "design"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

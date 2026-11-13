@@ -1,0 +1,210 @@
+{
+  "id": "1106234",
+  "timePublished": "2026-11-11T02:38:16+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Обновление открытого музыкального плеера fooyin 0.15.0 под Windows и Linux",
+  "leadData": {
+    "textHtml": "<p>Разработчик открытого проекта музыкального плеера <a href=\"https://github.com/fooyin/fooyin\" rel=\"noopener nofollow\">fooyin</a> <a href=\"https://github.com/fooyin/fooyin/releases/tag/v0.12.2\" rel=\"noopener nofollow\">представил</a> обновление с версией для Windows. Ранее решение было доступно только для Linux, а вариант для macOS находится в разработке. fooyin - это настраиваемый плеер, который предлагает гибкое воспроизведение без пауз, расширенные плейлисты, управление библиотекой, поддержку FooScript, плагины и обширную интеграцию. Исходный код решения написан на С++ и опубликован на GitHub под лицензией GNU General Public License v3.0.</p>",
+    "imageUrl": "https://habrastorage.org/extt/79/cf/c0/79cfc018bd33692fac458af5e457e077.webp",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/79/cf/c0/79cfc018bd33692fac458af5e457e077.webp",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "780987",
+    "alias": "denis-19",
+    "fullname": "Денис",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/6a0/f31/235/6a0f31235bb26134f3c7a741c03e4efb.jpg",
+    "speciality": "Информационная служба Хабра, без использования ИИ",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1069,
+      "votesCount": 2027
+    },
+    "rating": 881.5,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "1024K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 4,
+    "readingCount": 458,
+    "score": 3,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 8909,
+    "readers": 335
+  },
+  "hubs": [
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "559",
+      "alias": "cpp",
+      "type": "collective",
+      "title": "C++",
+      "titleHtml": "C++",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21456",
+      "alias": "win_dev",
+      "type": "collective",
+      "title": "Windows",
+      "titleHtml": "Windows",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19727",
+      "alias": "linux_dev",
+      "type": "collective",
+      "title": "Linux",
+      "titleHtml": "Linux",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21918",
+      "alias": "soft",
+      "type": "collective",
+      "title": "Софт",
+      "titleHtml": "Софт",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/79/cf/c0/79cfc018bd33692fac458af5e457e077.webp\" width=\"1418\" height=\"879\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/79/cf/c0/79cfc018bd33692fac458af5e457e077.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/79/cf/c0/79cfc018bd33692fac458af5e457e077.webp 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Разработчик открытого проекта музыкального плеера <a href=\"https://github.com/fooyin/fooyin\" rel=\"noopener nofollow\">fooyin</a> <a href=\"https://github.com/fooyin/fooyin/releases/tag/v0.12.2\" rel=\"noopener nofollow\">представил</a> обновление с версией для Windows. Ранее решение было доступно только для Linux, а вариант для macOS находится в разработке. fooyin — это настраиваемый плеер, который предлагает гибкое воспроизведение без пауз, расширенные плейлисты, управление библиотекой, поддержку FooScript, плагины и обширную интеграцию. Исходный код решения написан на С++ и опубликован на GitHub под лицензией GNU General Public License v3.0.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/getpro/habr/upload_files/1fd/25d/2e3/1fd25d2e3e10001a30077d765973082d.webp\" width=\"1560\" height=\"963\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/getpro/habr/upload_files/1fd/25d/2e3/1fd25d2e3e10001a30077d765973082d.webp 780w,&#10;       https://habrastorage.org/r/w1560/getpro/habr/upload_files/1fd/25d/2e3/1fd25d2e3e10001a30077d765973082d.webp 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>«Это ещё один релиз с исправлениями ошибок, но он также знаменует собой первый официальный релиз fooyin для Windows. Поддержка Windows всё ещё находится в стадии разработки и ещё не прошла такое же масштабное тестирование, как Linux. Она будет получать такой же уровень постоянной поддержки, и отзывы и сообщения об ошибках от пользователей Windows особенно приветствуются. Этот релиз включает вывод WASAPI, встроенный тёмный режим и несколько улучшений интерфейса, специфичных для Windows», — пояснил автор проекта.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/getpro/habr/upload_files/8a7/5e7/f4a/8a75e7f4ac7970b5b361069e162eaa8e.webp\" width=\"1560\" height=\"995\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/getpro/habr/upload_files/8a7/5e7/f4a/8a75e7f4ac7970b5b361069e162eaa8e.webp 780w,&#10;       https://habrastorage.org/r/w1560/getpro/habr/upload_files/8a7/5e7/f4a/8a75e7f4ac7970b5b361069e162eaa8e.webp 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Построенный с учётом расширяемости, fooyin поддерживает плагины для виджетов, декодеров, считывателей тегов, DSP и интеграций. Он также включает FooScript для расширенного форматирования отображения, запросов, автоплейлистов и настройки поведения виджетов.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c0/aa/0e/c0aa0eea91b7727c56204265ac9b0305.webp\" width=\"1130\" height=\"830\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c0/aa/0e/c0aa0eea91b7727c56204265ac9b0305.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/c0/aa/0e/c0aa0eea91b7727c56204265ac9b0305.webp 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Основные возможности fooyin:</p><ul><li><p>воспроизведение всех основных форматов, включая FLAC, MP3, MP4, Vorbis, Opus, WavPack, WAV, AIFF, MKA, Musepack и Monkey’s Audio. Встроенная поддержка форматов VGM и трекеров/модулей через дополнительные плагины. Воспроизведение без пауз и с точностью по битам. Воспроизведение непосредственно из архивов. Полная поддержка CUE-таблиц, включая встроенные метки. Поиск интернет-радио и удалённое воспроизведение аудиопотоков. Поддержка ReplayGain. Настраиваемые затухания и кроссфейды для переходов воспроизведения. Цепочки DSP со встроенными и предоставляемыми плагинами. Ползунок прокрутки волновой формы, спектр и другие визуализации. Гибкая настройка аудиовыхода и устройств;</p></li><li><p>библиотека, плейлисты и метаданные. Расширенная фильтрация и поиск по данным библиотеки и плейлистов. Стандартные плейлисты, динамические автоплейлисты и очередь воспроизведения. Импорт и экспорт плейлистов в форматах M3U и M3U8. Древовидное представление библиотеки и просмотр каталогов. Встроенный редактор тегов и управление метаданными. Инструменты встраивания, загрузка, просмотр, экспорт и извлечение обложек;</p></li><li><p>виджеты, скрипты и настройка. Полностью настраиваемый интерфейс с нуля или с использованием предустановленных макетов. Поиск, редактирование, синхронизация и отображение текстов песен. FooScript для расширенного форматирования, логики отображения, запросов и автоплейлистов. Форматирование текста и скриптов в большинстве виджетов и представлений. Персонализированные сочетания клавиш. Расширяемая система плагинов;</p></li><li><p>интеграция: поддержка MPRIS для элементов управления рабочего стола и мультимедийных клавиш. Скробблинг с Last.fm, Libre.fm, ListenBrainz и пользовательскими сервисами. Расширенное отображение статуса Discord.</p></li></ul><p>Список изменений fooyin 0.15.0:</p><ul><li><p>добавлено настраиваемое расширение треков и отображение обложек в фильтре библиотеки, а также анимированные переходы макета и именованные предустановки виджетов;</p></li><li><p>расширена настройка сочетаний клавиш с настраиваемыми целями для сфокусированного виджета и воспроизводимого трека, включая элементы управления рейтингом;</p></li><li><p>добавлены настройки для автоматического воспроизведения и кроссфейдинга для каждого трека;</p></li><li><p>улучшена обработка звука с параллельным преобразованием, расширены элементы управления воспроизведением из командной строки, возможность поиска по ограниченному количеству HTTP-файлов и опция отключения программного управления громкостью;</p></li><li><p>добавлены настраиваемые фоны, стили строк воспроизведения и параметры масштабирования обложек для поддерживаемых виджетов;</p></li><li><p>улучшена группировка дерева библиотеки и редактирование предустановок, с поддержкой встроенных редакторов рейтинга и «лайков», пользовательских символов и индикаторов ошибок скриптов;</p></li><li><p>расширена настройка фильтра с подгонкой обложек, скриптами группировки столбцов, регулируемыми полями, наложенными подписями и счётчиками треков в скриптах столбцов;</p></li><li><p>улучшено редактирование автоплейлистов с предварительным просмотром треков в реальном времени, сопоставлением количества треков и пользовательскими скриптами сортировки;</p></li><li><p>добавлен lyrics.ovh в качестве онлайн-источника текстов песен и введены тайм-ауты передачи для всех онлайн-провайдеров;</p></li><li><p>улучшена отзывчивость Radio Browser, фильтрация, отображение обложек и настройка макета;</p></li><li><p>улучшена обработка библиотеки и метаданных с более быстрым поиском повторяющихся треков, настраиваемыми рейтингами MP3, хранящимися в полях POPM, и дополнительными переменными источника треков для скриптов;</p></li><li><p>повышена надёжность воспроизведения благодаря исправлениям ошибок инициализации аудио, смены треков, HTTP-потоков, воспроизведения без пауз, вывода ALSA и границ CUE/глав;</p></li><li><p>исправлены многочисленные проблемы интерфейса, связанные с сочетаниями клавиш, выделением, кэшированием обложек, редактированием макета, поисковыми соединениями, свойствами и сбоями редактора тегов;</p></li><li><p>устранены проблемы плейлистов, влияющие на перетаскивание, групповое выделение, встроенное редактирование, обновление метаданных и асинхронный импорт;</p></li><li><p>исправлены ошибки скриптов, связанные с уровнями каталогов, числовым счётчиком треков, расширением тегов, регистром символов и сбоями $swapprefix;</p></li><li><p>улучшена обработка метаданных потоков Discord и всплывающие подсказки для обложек;</p></li><li><p>обновлены сборки для Windows, упаковка плагинов, файлы среды выполнения и переводы; сборки для X11 теперь требуют компонентов XCB, используемых Global Shortcuts.</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/09/e7/74/09e7740315bc5c6bf323c001fc6a7f4d.png\" width=\"833\" height=\"510\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/09/e7/74/09e7740315bc5c6bf323c001fc6a7f4d.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/09/e7/74/09e7740315bc5c6bf323c001fc6a7f4d.png 781w\" loading=\"lazy\" decode=\"async\"/></figure></div>",
+  "tags": [
+    {
+      "titleHtml": "fooyin"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106234/f4599aacaae2a8192e452d6d47e2c9e9/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106234/f4599aacaae2a8192e452d6d47e2c9e9/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106234\\/\"},\"headline\":\"Обновление открытого музыкального плеера fooyin 0.15.0 под Windows и Linux\",\"datePublished\":\"2026-11-11T05:38:16+03:00\",\"dateModified\":\"2026-11-11T10:08:55+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Разработчик открытого проекта музыкального плеера fooyin представил обновление с версией для Windows. Ранее решение было доступно только для Linux, а вариант...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106234\\/#post-content-body\",\"about\":[\"h_open_source\",\"h_cpp\",\"h_win_dev\",\"h_linux_dev\",\"h_soft\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/79\\/cf\\/c0\\/79cfc018bd33692fac458af5e457e077.webp\",\"https:\\/\\/habrastorage.org\\/r\\/w1560\\/getpro\\/habr\\/upload_files\\/1fd\\/25d\\/2e3\\/1fd25d2e3e10001a30077d765973082d.webp\",\"https:\\/\\/habrastorage.org\\/r\\/w1560\\/getpro\\/habr\\/upload_files\\/8a7\\/5e7\\/f4a\\/8a75e7f4ac7970b5b361069e162eaa8e.webp\",\"https:\\/\\/habrastorage.org\\/extt\\/c0\\/aa\\/0e\\/c0aa0eea91b7727c56204265ac9b0305.webp\",\"https:\\/\\/habrastorage.org\\/extt\\/09\\/e7\\/74\\/09e7740315bc5c6bf323c001fc6a7f4d.png\"]}",
+    "metaDescription": "Разработчик открытого проекта музыкального плеера fooyin представил обновление с версией для Windows. Ранее решение было доступно только для Linux, а вариант для macOS находится в разработке....",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

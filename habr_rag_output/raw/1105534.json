@@ -1,0 +1,200 @@
+{
+  "id": "1105534",
+  "timePublished": "2026-11-09T14:19:48+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Новогодняя елочка? Нет, это подсветка для сплит-клавиатуры Lily58 и кастомный прозрачный корпус",
+  "leadData": {
+    "textHtml": "<p>Привет, Хабр! Ну что, снова я со своей клавиатурой – думаю, это уже финальный вариант. В предыдущей статье я рассказывал, как переделывал свою беспроводную Lily58 Pro: менял контроллеры, устанавливал аккумуляторы большой ёмкости и печатал новый корпус. В целом, все хорошо, но корпус получился немного колхозным, там паяльником приходилось делать канавки в пластике.&nbsp;&nbsp;</p><p>Мне это не очень нравилось, поэтому решил сделать иначе, более аккуратно. Ну и в этой статье описываю свой опыт. На этот раз переделал 3D-модель, добавил съемные крышки аккумуляторных отсеков, подготовил каналы для проводов и увеличил количество светодиодов до 45. Заодно пришлось разбираться с GitHub и настройками ZMK, поскольку после монтажа работала только часть подсветки. Поехали!</p>",
+    "imageUrl": "https://habrastorage.org/extt/47/ca/b9/47cab9724b9e235f633eaf765271469e.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/47/ca/b9/47cab9724b9e235f633eaf765271469e.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2621483",
+    "alias": "DRoman0v",
+    "fullname": "Denis",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/126/32f/feb/12632ffebec0f851ba0ec665f3ed6c55.jpg",
+    "speciality": "Инженер",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 222,
+      "votesCount": 382
+    },
+    "rating": 107.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 7,
+    "readingCount": 1295,
+    "score": 42,
+    "votesCount": 25,
+    "votesCountPlus": 25,
+    "votesCountMinus": 0,
+    "reach": 11583,
+    "readers": 1040
+  },
+  "hubs": [
+    {
+      "id": "14740",
+      "alias": "selectel",
+      "type": "corporative",
+      "title": "Блог компании Selectel",
+      "titleHtml": "Блог компании Selectel",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21976",
+      "alias": "DIY",
+      "type": "collective",
+      "title": "DIY или Сделай сам",
+      "titleHtml": "DIY или Сделай сам",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21898",
+      "alias": "hardware",
+      "type": "collective",
+      "title": "Компьютерное железо",
+      "titleHtml": "Компьютерное железо",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21894",
+      "alias": "gadgets",
+      "type": "collective",
+      "title": "Гаджеты",
+      "titleHtml": "Гаджеты",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22016",
+      "alias": "easyelectronics",
+      "type": "collective",
+      "title": "Электроника для начинающих",
+      "titleHtml": "Электроника для начинающих",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/98/5f/54/985f54ed949ed4c4c60e9ffe8cc224e2.png\" alt=\"Не хватает только подарков и Деда Мороза посередине.\" title=\"Не хватает только подарков и Деда Мороза посередине.\" width=\"1280\" height=\"612\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/98/5f/54/985f54ed949ed4c4c60e9ffe8cc224e2.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/98/5f/54/985f54ed949ed4c4c60e9ffe8cc224e2.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Не хватает только подарков и Деда Мороза посередине.</em></figcaption></div></figure><p>Привет, Хабр! Ну что, снова я со своей клавиатурой – думаю, это уже финальный вариант. В<a href=\"https://habr.com/ru/companies/selectel/articles/1102820/\"> предыдущей статье</a> я рассказывал, как переделывал свою беспроводную Lily58 Pro: менял контроллеры, устанавливал аккумуляторы большой ёмкости и печатал новый корпус. В целом, все хорошо, но корпус получился немного колхозным, там паяльником приходилось делать канавки в пластике.  </p><p>Мне это не очень нравилось, поэтому решил сделать иначе, более аккуратно. Ну и в этой статье описываю свой опыт. На этот раз переделал 3D-модель, добавил съемные крышки аккумуляторных отсеков, подготовил каналы для проводов и увеличил количество светодиодов до 45. Заодно пришлось разбираться с GitHub и настройками ZMK, поскольку после монтажа работала только часть подсветки. Поехали!</p><h2>Что решил изменить</h2><p>После последней переделки клавиатура работала нормально, особых претензий к ней не было. Контроллеры nice!nano v2, OLED-дисплеи, энкодер и Bluetooth — все было штатно,  аккумуляторы тоже проблем не доставляли. Но устраивало расположение подсветки, ее яркость и то, что для доступа к батареям приходилось разбирать корпус. Крайне неудобно. Да еще и провода проложены лишь бы как. Короче, главная переделка — это корпус: решил сначала изменить 3D-модель, а уже потом заниматься электроникой.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0d/b8/0f/0db80f45bb1f544a482decaa80c1b797.png\" alt=\"Вот так выглядела правая половинка клавиатуры после последних изменений.\" title=\"Вот так выглядела правая половинка клавиатуры после последних изменений.\" width=\"767\" height=\"580\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0d/b8/0f/0db80f45bb1f544a482decaa80c1b797.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0d/b8/0f/0db80f45bb1f544a482decaa80c1b797.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Вот так выглядела правая половинка клавиатуры после последних изменений.</em></figcaption></div></figure><p>В прошлый раз канавки под RGB я делал паяльником, проплавляя пластик в нужных местах. Способ рабочий, но аккуратными такие углубления не получаются, да и глубину выдержать сложно. Теперь решил предусмотреть <s>все</s> почти все в модели, чтобы после печати оставалось только уложить светодиоды и соединить их проводами. Заодно захотелось еще и увеличить количество RGB, чтобы все блестело и сверкало в процессе работы.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d4/d5/a3/d4d5a339418aad8345071ae8fc012a2f.png\" alt=\"Это бледненькая подсветка в прошлой модификации.\" title=\"Это бледненькая подсветка в прошлой модификации.\" width=\"1560\" height=\"764\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d4/d5/a3/d4d5a339418aad8345071ae8fc012a2f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d4/d5/a3/d4d5a339418aad8345071ae8fc012a2f.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Это бледненькая подсветка в прошлой модификации.</em></figcaption></div></figure><p>Конечно, при желании яркость можно приглушить или вообще отключить подсветку - эти варианты тоже предусмотрены. В итоге остановился на 24 светодиодах для левой половинки и 21 для правой.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/64/c2/1c/64c21c6ff9ed257c5d6efc26ee1093cf.png\" alt=\"Вот так она выглядела с аккумулятором на 3000 мА*ч.\" title=\"Вот так она выглядела с аккумулятором на 3000 мА*ч.\" width=\"1560\" height=\"1170\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/64/c2/1c/64c21c6ff9ed257c5d6efc26ee1093cf.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/64/c2/1c/64c21c6ff9ed257c5d6efc26ee1093cf.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Вот так она выглядела с аккумулятором на 3000 мА*ч.</em></figcaption></div></figure><p>Ещё одна задача — сделать нормальный доступ к аккумуляторам. Раньше для этого нужно было снимать плату, а вместе с ней рисковать повредить проводку и другие соединения. Поэтому подготовил два варианта корпуса: под батареи ёмкостью 1 350 и 3 000 мА·ч, причем в обоих предусмотрел съемные лючки снизу. То есть аккумулятор теперь можно вынуть, не разбирая всю клавиатуру, что очень удобно. Заодно немного изменил расположение внутренних элементов и убрал несколько ненужных отверстий.</p><h2>Переделка корпуса</h2><p>Для светодиодов добавил канавки шириной 13 мм и глубиной 2 мм. Под провода сделал отдельные каналы глубиной около 2 мм, чтобы они не выступали над внутренней поверхностью корпуса. Пришлось учитывать расположение креплений, разъёмов и аккумуляторов, поскольку свободного места там немного. Некоторые участки модели переделывал несколько раз, проверяя, не мешают ли новые углубления уже существующим элементам. В результате получилось разместить подсветку по нужным участкам, не увеличивая размеры корпуса.</p><p>С лючками пришлось повозиться отдельно. Нужно было оставить достаточно места для батареи, но при этом сохранить крепления и сделать крышку, которую можно снять без разборки половинки. Для варианта под аккумулятор на 1350 мА·ч изменил размеры посадочного места, расширив его преимущественно в длину. В версии под 3000 мА·ч отсек получился больше, но принцип тот же. В обоих случаях крышки устанавливаются снизу, поэтому доступ к батарее теперь гораздо проще.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/18/81/29/188129b8f2a0092358d7fc2e57a0c5d6.png\" alt=\"Это версия на 3 000 мА*ч.\" title=\"Это версия на 3 000 мА*ч.\" width=\"747\" height=\"447\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/18/81/29/188129b8f2a0092358d7fc2e57a0c5d6.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/18/81/29/188129b8f2a0092358d7fc2e57a0c5d6.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Это версия на 3 000 мА*ч.</em></figcaption></div></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/11/3c/04/113c041006dddfe8e4552481ad96b166.png\" alt=\"И лючок к ней.\" title=\"И лючок к ней.\" width=\"569\" height=\"310\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/11/3c/04/113c041006dddfe8e4552481ad96b166.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/11/3c/04/113c041006dddfe8e4552481ad96b166.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>И лючок к ней.</em></figcaption></div></figure><p>После печати проверил, как всё собирается. Аккумуляторы помещаются в свои отсеки, крышки закрываются, а провода можно уложить в подготовленные каналы. Сами светодиоды теперь находятся в специальных углублениях, поэтому ничего дополнительно проплавлять не пришлось. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/35/99/39/359939209bbc0e92b4df01d0989181ac.png\" alt=\"А это версия для батареи на 1350 мА*ч.\" title=\"А это версия для батареи на 1350 мА*ч.\" width=\"670\" height=\"394\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/35/99/39/359939209bbc0e92b4df01d0989181ac.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/35/99/39/359939209bbc0e92b4df01d0989181ac.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>А это версия для батареи на 1350 мА*ч.</em></figcaption></div></figure><p>По сравнению с предыдущим вариантом конструкция стала аккуратнее, а главное — удобнее в обслуживании.</p><h2>Установка светодиодов</h2><p>Для подсветки использовал адресные RGB-светодиоды семейства WS2812. У каждого есть встроенный контроллер, поэтому цвет и яркость можно задавать программно. Соединяются они последовательно: выход данных предыдущего светодиода подключается ко входу следующего, а питание подводится к цепочке отдельно. Благодаря этому для управления всеми элементами достаточно одного сигнального вывода микроконтроллера. Но есть и недостаток: если где-нибудь пропадет контакт, все последующие светодиоды могут перестать работать.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/cf/40/63/cf4063e3029df9e427807ad5717fc111.png\" alt=\"Вот такие вот светодиоды WS2812. Взял ленту на 1 м, 144 элемента.\" title=\"Вот такие вот светодиоды WS2812. Взял ленту на 1 м, 144 элемента.\" width=\"1774\" height=\"887\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/cf/40/63/cf4063e3029df9e427807ad5717fc111.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/cf/40/63/cf4063e3029df9e427807ad5717fc111.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Вот такие вот светодиоды WS2812. Взял ленту на 1 м, 144 элемента.</em></figcaption></div></figure><p>Обычные монтажные провода для такой конструкции оказались слишком толстыми. Поэтому взял многожильный кабель, разобрал его и использовал отдельные медные жилы (изолированные). Они тонкие, легко гнутся и почти не занимают места, что для моей клавиатуры особенно важно. Для защиты соединений дополнительно использовал каптоновую пленку.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f6/fa/7d/f6fa7d711b0ff0ed06fab6de426dec45.png\" alt=\"Половинка с уложенными светодиодами и лючком для батареи. Никаких проплавленных канавок.\" title=\"Половинка с уложенными светодиодами и лючком для батареи. Никаких проплавленных канавок.\" width=\"1536\" height=\"2048\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f6/fa/7d/f6fa7d711b0ff0ed06fab6de426dec45.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/f6/fa/7d/f6fa7d711b0ff0ed06fab6de426dec45.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Половинка с уложенными светодиодами и лючком для батареи. Никаких проплавленных канавок.</em></figcaption></div></figure><p>Паял все под микроскопом, поскольку контакты у светодиодов небольшие, а свободного места вокруг них почти нет. Сама пайка особых проблем не доставила, гораздо больше времени ушло на укладку проводов. Нужно было обойти крепления, разъёмы и аккумуляторные отсеки, при этом не допустить замыкания соседних соединений. В некоторых местах медные жилы проходят очень близко к контактным площадкам платы, поэтому пришлось дополнительно изолировать подозрительные участки. В итоге внутри получилась довольно внушительная паутина, которую теперь лишний раз трогать не хочется.</p><p>После монтажа подключил питание и включил подсветку. Светодиоды заработали, но только первые десять, остальные никак не реагировали на изменение цвета и режимов. Сначала подумал, что где-то ошибся с пайкой, поскольку при последовательном подключении достаточно одного плохого контакта, чтобы все последующие элементы перестали получать данные. Проверил соединения, но явной проблемы не нашёл. Тогда решил посмотреть настройки ZMK, поскольку десять работающих светодиодов выглядели подозрительно похожими на программное ограничение.</p><h3>Настройка ZMK через GitHub</h3><p>Конфигурация моей Lily58 хранится в репозитории GitHub, а прошивка собирается через GitHub Actions. На выходе получаются прошивки в формате UF2, которые можно записать на nice!nano v2 через стандартный загрузчик. В моем случае для левой и правой половинок используются отдельные конфигурации.</p><p>Сначала нужно открыть каталог config/boards/shields/lily58/. Там находятся два файла:</p><pre><code>lily58_left.overlay\nlily58_right.overlay</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>В первом хранятся дополнительные настройки левой половинки, во втором — правой. У меня они уже существовали, поэтому создавать новые не понадобилось. Для левой половинки требовалось добавить следующие строки:</p><pre><code>&amp;led_strip {\n    chain-length = &lt;24&gt;;\n};</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Здесь led_strip — существующий узел Devicetree, отвечающий за адресную подсветку. Запись &amp;led_strip позволяет изменить его свойства, не создавая новый узел. Значение 24 — количество установленных светодиодов на левой половинке. Если подключено другое число элементов, его нужно заменить на своё. Иначе система будет думать, что их больше или меньше, соответственно, работать все это будет с глюками. Остальные настройки подсветки в моём случае уже были заданы ранее, поэтому менять их не пришлось.</p><p>С правой половинкой немного сложнее, поскольку в ее overlay уже находились настройки энкодера. Их я оставил без изменений, добавив только параметр длины цепочки. В результате файл lily58_right.overlay выглядит так:</p><pre><code>/ {\n    right_encoder: encoder_right {\n        compatible = \"alps,ec11\";\n        a-gpios = &lt;&amp;pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)&gt;;\n        b-gpios = &lt;&amp;pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)&gt;;\n        steps = &lt;80&gt;;\n    };\n\n    sensors {\n        compatible = \"zmk,keymap-sensors\";\n        sensors = &lt;&amp;right_encoder&gt;;\n        triggers-per-rotation = &lt;20&gt;;\n    };\n};\n\n&amp;led_strip {\n    chain-length = &lt;21&gt;;\n};</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Верхняя часть файла отвечает за энкодер, нижняя — за подсветку. Параметры steps и triggers-per-rotation относятся к конкретной модели энкодера и моим настройкам, поэтому копировать их в другую конфигурацию необязательно. Для управления громкостью используется привязка sensor-bindings в файле lily58.keymap, которую я тоже не менял. Короче, вся новая настройка здесь сводится к последним трем строкам. Но чтобы они действительно попали в прошивку, понадобилось ещё изменить build.yaml.</p><h3>Изменение build.yaml</h3><p>Этот файл находится в корне репозитория и содержит параметры сборки для обеих половинок. В нём указываются контроллер, шилд, дополнительные настройки CMake и названия готовых файлов. Сначала я попробовал подключить overlay через ZMK_EXTRA_DTC_OVERLAY_FILE, но после сборки и перепрошивки количество работающих светодиодов осталось прежним. Как выяснилось, в моей конфигурации нужно использовать EXTRA_DTC_OVERLAY_FILE. Этот параметр передаётся через CMake и позволяет указать дополнительный файл Devicetree.</p><p>Рабочий вариант build.yaml получился следующим:</p><pre><code>---\n\ninclude:\n  - board: nice_nano_v2\n    shield: lily58_left nice_oled\n    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\\\"lily58_Oled\\\" -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000 -DEXTRA_DTC_OVERLAY_FILE=/tmp/zmk-config/config/boards/shields/lily58/lily58_left.overlay\n    artifact-name: nice_lily58_left_oled\n    snippet: studio-rpc-usb-uart\n\n  - board: nice_nano_v2\n    shield: lily58_right nice_oled\n    cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000 -DEXTRA_DTC_OVERLAY_FILE=/tmp/zmk-config/config/boards/shields/lily58/lily58_right.overlay\n    artifact-name: nice_lily58_right_oled</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Здесь nice_nano_v2 — используемый контроллер, а lily58_left nice_oled и lily58_right nice_oled — варианты шилдов для обеих половинок с OLED-дисплеями. Для левой дополнительно включён ZMK Studio, который позволяет менять некоторые настройки клавиатуры без перепрошивки. Параметры сна и времени простоя оставил прежними, поскольку они уже использовались в моей конфигурации. Путь /tmp/zmk-config/... относится к окружению сборки GitHub Actions, поэтому в другом репозитории он может отличаться. Главное, чтобы EXTRA_DTC_OVERLAY_FILE указывал на реально существующий файл.</p><p>После изменения build.yaml требуется сохранить его вместе с обоими overlay в репозитории. Если GitHub Actions настроен на автоматическую сборку, процесс запустится после коммита.  </p><p>У меня все запустилось, но изменения не применились. GitHub Actions может показать зелёную отметку, но это ещё не означает, что нужный overlay действительно использовался. Поэтому решил проверить итоговый Devicetree-файл zephyr.dts, который создаётся после объединения всех настроек платы, шилдов и дополнительных конфигураций. В локальной сборке он находится в каталоге zephyr внутри папки сборки, а в GitHub Actions его содержимое можно вывести в журнале соответствующего этапа. В этом файле нужно найти узел светодиодной цепочки и посмотреть значение chain-length.</p><p>Для левой половинки должно быть указано 24, для правой — 21. Если там осталось десять, значит изменения не попали в итоговую конфигурацию, даже если исходный overlay содержит правильные строки. В таком случае нужно проверить путь в build.yaml и журнал CMake, где отображаются используемые файлы Devicetree. Ну и проверяем этап в West Build, поскольку там можно обнаружить неправильный путь или другие ошибки подключения. В моём случае после замены параметра на EXTRA_DTC_OVERLAY_FILE нужные значения наконец появились в итоговом файле.</p><p>После перепрошивки заработали все 45 светодиодов: 24 слева и 21 справа. Режимы RGB теперь применяются ко всей цепочке, а OLED-дисплеи, раскладка и остальные функции клавиатуры сохранились.</p><h2>Что получилось</h2><p>Подсветка работает на обеих половинках, причём светодиоды расположены внутри корпуса, а не непосредственно под клавишами. Благодаря прозрачному пластику свечение распространяется по стенкам и хорошо заметно в темноте. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/67/42/78/674278675cbd9a19b8dac7c144adc0c5.png\" width=\"927\" height=\"2048\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/67/42/78/674278675cbd9a19b8dac7c144adc0c5.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/67/42/78/674278675cbd9a19b8dac7c144adc0c5.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Цвета и режимы можно менять средствами ZMK, поэтому для дальнейших экспериментов ничего перепаивать не потребуется. Сами канавки теперь предусмотрены в 3D-модели, а аккумуляторы доступны через отдельные лючки снизу.  </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/dc/28/4e/dc284ed5a005f399815845c8142aeadb.png\" width=\"1067\" height=\"2048\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/dc/28/4e/dc284ed5a005f399815845c8142aeadb.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/dc/28/4e/dc284ed5a005f399815845c8142aeadb.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В автономном режиме на полной яркости все это работает около полутора дней (понятно, я не сижу 36 часов подряд за клавиатурой). Плюс в том, что при простое свыше 10 минут клавиатура отключает сначала экранчики, а потом и подсветку. Потом нажимаешь на любую кнопку — все возвращается к жизни. Экономия должна быть экономной. </p><h3>Что дальше</h3><p>В ближайших планах — установка аппаратных выключателей питания для обеих половинок. Сейчас аккумуляторы подключены постоянно, поэтому для полного отключения приходится отсоединять их вручную. При обслуживании это неудобно, особенно если нужно проверить пайку или поправить проводку. Небольшие фиксируемые переключатели можно установить в разрыв положительного провода батареи, чтобы отключать питание независимо от состояния прошивки.  </p><p>Еще, наверное, сделаю ножки для наклона обеих половинок на 5-10 градусов. Говорят, так печатать еще удобнее. Тут можно обойтись без изменений корпуса - впаять в стенки шайбы от петель ноутбука и смоделировать ножки. </p><blockquote><p>Ну так — я всем доволен. <strong>Пишите в комментариях о своих вариантах клавиатур и их переделки, это крайне интересно. </strong></p></blockquote></div>",
+  "tags": [
+    {
+      "titleHtml": "selecte"
+    },
+    {
+      "titleHtml": "diy"
+    },
+    {
+      "titleHtml": "железо"
+    },
+    {
+      "titleHtml": "клавиатуры"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105534/93c035645c423e10288a8ddc5bd39c4e/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105534/93c035645c423e10288a8ddc5bd39c4e/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/selectel\\/articles\\/1105534\\/\"},\"headline\":\"Новогодняя елочка? Нет, это подсветка для сплит-клавиатуры Lily58 и кастомный прозрачный корпус\",\"datePublished\":\"2026-11-09T17:19:48+03:00\",\"dateModified\":\"2026-11-11T14:57:07+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Не хватает только подарков и Деда Мороза посередине. Привет, Хабр! Ну что, снова я со своей клавиатурой – думаю, это уже финальный вариант. В предыдущей статье...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/selectel\\/articles\\/1105534\\/#post-content-body\",\"about\":[\"c_selectel\",\"h_DIY\",\"h_hardware\",\"h_gadgets\",\"h_easyelectronics\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/98\\/5f\\/54\\/985f54ed949ed4c4c60e9ffe8cc224e2.png\",\"https:\\/\\/habrastorage.org\\/extt\\/0d\\/b8\\/0f\\/0db80f45bb1f544a482decaa80c1b797.png\",\"https:\\/\\/habrastorage.org\\/extt\\/d4\\/d5\\/a3\\/d4d5a339418aad8345071ae8fc012a2f.png\",\"https:\\/\\/habrastorage.org\\/extt\\/64\\/c2\\/1c\\/64c21c6ff9ed257c5d6efc26ee1093cf.png\",\"https:\\/\\/habrastorage.org\\/extt\\/18\\/81\\/29\\/188129b8f2a0092358d7fc2e57a0c5d6.png\",\"https:\\/\\/habrastorage.org\\/extt\\/11\\/3c\\/04\\/113c041006dddfe8e4552481ad96b166.png\",\"https:\\/\\/habrastorage.org\\/extt\\/35\\/99\\/39\\/359939209bbc0e92b4df01d0989181ac.png\",\"https:\\/\\/habrastorage.org\\/extt\\/cf\\/40\\/63\\/cf4063e3029df9e427807ad5717fc111.png\",\"https:\\/\\/habrastorage.org\\/extt\\/f6\\/fa\\/7d\\/f6fa7d711b0ff0ed06fab6de426dec45.png\",\"https:\\/\\/habrastorage.org\\/extt\\/67\\/42\\/78\\/674278675cbd9a19b8dac7c144adc0c5.png\",\"https:\\/\\/habrastorage.org\\/extt\\/dc\\/28\\/4e\\/dc284ed5a005f399815845c8142aeadb.png\"]}",
+    "metaDescription": "Не хватает только подарков и Деда Мороза посередине. Привет, Хабр! Ну что, снова я со своей клавиатурой – думаю, это уже финальный вариант. В предыдущей статье я рассказывал, как переделывал свою...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 8,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "42",
+    "title": "Железо и гаджеты",
+    "alias": "hardware_and_gadgets"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

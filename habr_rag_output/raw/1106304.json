@@ -1,0 +1,218 @@
+{
+  "id": "1106304",
+  "timePublished": "2026-11-11T06:50:13+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Команда занята, задачи движутся. Почему управлять всё сложнее?",
+  "leadData": {
+    "textHtml": "<p>Команда загружена, задачи выполняются, но&nbsp;руководителю всё равно приходится контролировать каждый шаг? Собрали открытые уроки OTUS о&nbsp;том, как&nbsp;повысить самостоятельность сотрудников, автоматизировать управленческую рутину и выстроить процессы без&nbsp;постоянного ручного контроля.</p>",
+    "imageUrl": "https://habrastorage.org/extt/73/ba/a6/73baa6fa55dc4480caf3a12473270e66.png",
+    "buttonTextHtml": "Выбрать урок",
+    "image": {
+      "url": "https://habrastorage.org/extt/73/ba/a6/73baa6fa55dc4480caf3a12473270e66.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "1547287",
+    "alias": "MaxRokatansky",
+    "fullname": "OTUS",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/b9f/baf/5f9/b9fbaf5f96ae52973706a0716bd9216e.jpg",
+    "speciality": "Редактор",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 149,
+      "votesCount": 1103
+    },
+    "rating": 39.8,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "64K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 196,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 4420,
+    "readers": 133
+  },
+  "hubs": [
+    {
+      "id": "21052",
+      "alias": "otus",
+      "type": "corporative",
+      "title": "Блог компании OTUS",
+      "titleHtml": "Блог компании OTUS",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20682",
+      "alias": "pm",
+      "type": "collective",
+      "title": "Управление проектами",
+      "titleHtml": "Управление проектами",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20736",
+      "alias": "hr_management",
+      "type": "collective",
+      "title": "Управление персоналом",
+      "titleHtml": "Управление персоналом",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20740",
+      "alias": "career",
+      "type": "collective",
+      "title": "Карьера в IT-индустрии",
+      "titleHtml": "Карьера в IT-индустрии",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20726",
+      "alias": "productpm",
+      "type": "collective",
+      "title": "Управление продуктом",
+      "titleHtml": "Управление продуктом",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Чем больше команда и масштабнее проекты, тем сложнее держать процессы под контролем: оценивать компетенции, делегировать задачи, внедрять изменения и сохранять качество решений. </p><p><em>Как выстроить систему управления, в которой сотрудники становятся самостоятельнее, процессы прозрачнее, а у руководителя появляется время на стратегию?</em></p><p>Собрали бесплатные открытые уроки, которые помогут разобраться в этих задачах.</p><p><strong>Управление командой и развитие сотрудников</strong></p><ul><li><p>11 ноября, 20:00. «Как оценить зрелость DevSecOps‑команды и составить карту развития». <a href=\"https://otus.pw/vjoz/\">Записаться.</a></p></li><li><p>11 ноября, 20:00. «Матрица компетенций QA‑команды: как оценивать навыки и выстраивать грейды». <a href=\"https://otus.pw/PEEZ/\">Записаться.</a></p></li><li><p>19 ноября, 20:00. «Компетенции и личные навыки CTO». <a href=\"https://otus.pw/XKYh/\">Записаться.</a></p></li><li><p>19 ноября, 20:00. «Харды или софты? Что прокачивать, если ты IT HR BP». <a href=\"https://otus.pw/hUhp/\">Записаться.</a></p></li><li><p>2 декабря, 20:00. «Хороший разработчик ≠ хороший тимлид: какие навыки придется перестроить». <a href=\"https://otus.pw/Qdr3k/\">Записаться.</a></p></li><li><p>16 декабря, 20:00. «Почему команда не становится самостоятельной: ошибки тимлида в делегировании». <a href=\"https://otus.pw/vUN2/\">Записаться.</a></p></li></ul><p><strong>Управление проектами и процессами</strong></p><ul><li><p>16 ноября, 20:00. «AI для Delivery Manager: какие управленческие задачи уже можно автоматизировать». <a href=\"https://otus.pw/ZnDX/\">Записаться.</a></p></li><li><p>25 ноября, 19:00. «Организация команды разработки с использованием инструментов Битрикс24». <a href=\"https://otus.pw/H1Iw/\">Записаться.</a></p></li><li><p>3 декабря, 20:00. «Управление изменениями в IT‑системах: как оценивать влияние новых требований на архитектуру». <a href=\"https://otus.pw/mfu1/\">Записаться.</a></p></li><li><p>15 декабря, 20:00. «Архитектурные решения в команде системных аналитиков: как обеспечить качество и единый подход». <a href=\"https://otus.pw/ViPB/\">Записаться.</a></p></li></ul><p><strong>Стратегическое управление и бизнес‑архитектура</strong></p><ul><li><p>18 ноября, 19:00. «Цикл зрелости Gartner для корпоративной архитектуры 2026: Навигация в эпоху ИИ‑трансформации и бизнес‑гибкости». <a href=\"https://otus.pw/edTq/\">Записаться.</a></p></li><li><p>3 декабря, 20:00. «Требования в ТОГАФ. Разбираемся с хотелками». <a href=\"https://otus.pw/tTKm/\">Записаться.</a></p></li><li><p>14 декабря, 19:00. «Анализ показателей бизнеса с помощью инструментов Битрикс24». <a href=\"https://otus.pw/xiJy/\">Записаться.</a></p></li><li><p>17 декабря, 19:00. «Проектируем бизнес‑архитектуру с помощью AI: от бизнес‑драйверов до архитектуры данных». <a href=\"https://otus.pw/7dnP/\">Записаться.</a></p></li></ul><p><strong>Управление клиентским сервисом</strong></p><ul><li><p>17 ноября, 20:00. «Customer Support vs. Customer Success: где заканчивается поддержка и начинается работа с успехом клиента». <a href=\"https://otus.pw/53Ye/\">Записаться.</a></p></li></ul><p><strong>Сильное управление начинается с понятных процессов и решений, которые работают без постоянного ручного контроля.</strong></p><p><strong>ЧТО ПОЧИТАТЬ ПО ТЕМЕ:</strong></p><ul><li><p><a href=\"https://habr.com/ru/companies/otus/articles/1055524/\">10 типовых ошибок при внедрении управления корпоративной архитектурой (Enterprise Architecture) и как их исправить</a></p></li><li><p><a href=\"https://habr.com/ru/companies/otus/articles/1059842/\">Кто платит за ИИ‑продуктивность: почему выгорают middle‑инженеры</a></p></li><li><p><a href=\"https://habr.com/ru/companies/otus/articles/1045114/\">Когда сотрудник тормозит команду: как говорить с ним прямо, но без давления</a></p></li><li><p><a href=\"https://habr.com/ru/companies/otus/articles/1022178/\">User Story: полный гайд по написанию без ошибок </a></p></li><li><p><a href=\"https://habr.com/ru/companies/otus/articles/1027428/\">Путь до CTO: как пройти его самому и помочь пройти другому</a></p></li></ul><p><em>Выбирайте актуальные для себя темы и находите инструменты, которые помогут команде расти, а вам — сосредоточиться на главном.</em></p><blockquote><p>Больше практических разборов и встреч с экспертами — в <a href=\"https://otus.pw/Vk19/?utm_source=chatgpt.com\">дайджесте ноября</a>  </p></blockquote></div>",
+  "tags": [
+    {
+      "titleHtml": "управление командой"
+    },
+    {
+      "titleHtml": "IT-менеджмент"
+    },
+    {
+      "titleHtml": "тимлид"
+    },
+    {
+      "titleHtml": "развитие сотрудников"
+    },
+    {
+      "titleHtml": "делегирование"
+    },
+    {
+      "titleHtml": "управление проектами"
+    },
+    {
+      "titleHtml": "автоматизация процессов"
+    },
+    {
+      "titleHtml": "лидерство"
+    },
+    {
+      "titleHtml": "компетенции руководителя"
+    },
+    {
+      "titleHtml": "бизнес-процессы"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106304/4d9f4f44b89b9ca0b67e85ef0b3c6abb/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106304/4d9f4f44b89b9ca0b67e85ef0b3c6abb/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/otus\\/articles\\/1106304\\/\"},\"headline\":\"Команда занята, задачи движутся. Почему управлять всё сложнее?\",\"datePublished\":\"2026-11-11T09:50:13+03:00\",\"dateModified\":\"2026-11-12T20:00:05+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Чем больше команда и масштабнее проекты, тем сложнее держать процессы под&nbsp;контролем: оценивать компетенции, делегировать задачи, внедрять изменения и...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/otus\\/articles\\/1106304\\/#post-content-body\",\"about\":[\"c_otus\",\"h_pm\",\"h_hr_management\",\"h_career\",\"h_productpm\",\"f_management\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1106304\\/4d9f4f44b89b9ca0b67e85ef0b3c6abb\\/\"]}",
+    "metaDescription": "Чем больше команда и масштабнее проекты, тем сложнее держать процессы под&nbsp;контролем: оценивать компетенции, делегировать задачи, внедрять изменения и сохранять качество решений....",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "26",
+    "title": "Менеджмент",
+    "alias": "management"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

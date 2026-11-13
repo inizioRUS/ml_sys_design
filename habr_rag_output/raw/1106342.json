@@ -1,0 +1,212 @@
+{
+  "id": "1106342",
+  "timePublished": "2026-11-11T05:31:19+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Нейронка плохо понимает анатомию, поэтому форму для рации я леплю из пластилина",
+  "leadData": {
+    "textHtml": "<p>Уже месяц собираю карманную рацию к своему второму мозгу. Смысл простой, зажал курок, сказал мысль, отпустил, и она улетела в систему к агентам. Корпус под первую версию я проектировал вместе с агентом кодом, и все равно в руке выходило неуклюже. Расскажу, как я ушел в пластилин, болванки и фотограмметрию и что для этого пришлось напечатать.</p>",
+    "imageUrl": "https://habrastorage.org/extt/8e/d9/0d/8ed90d8dc05ff8c13a4a53a7bb71959e.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/8e/d9/0d/8ed90d8dc05ff8c13a4a53a7bb71959e.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "6011100",
+    "alias": "user230620",
+    "fullname": "Алексей Евдокимов",
+    "avatarUrl": null,
+    "speciality": "Продюсирую AI-продукты",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 5
+    },
+    "rating": 4,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 7,
+    "readingCount": 826,
+    "score": 2,
+    "votesCount": 4,
+    "votesCountPlus": 3,
+    "votesCountMinus": 1,
+    "reach": 7600,
+    "readers": 673
+  },
+  "hubs": [
+    {
+      "id": "21976",
+      "alias": "DIY",
+      "type": "collective",
+      "title": "DIY или Сделай сам",
+      "titleHtml": "DIY или Сделай сам",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21964",
+      "alias": "3d-printers",
+      "type": "collective",
+      "title": "3D-принтеры",
+      "titleHtml": "3D-принтеры",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21972",
+      "alias": "wearable_electronics",
+      "type": "collective",
+      "title": "Носимая электроника",
+      "titleHtml": "Носимая электроника",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21894",
+      "alias": "gadgets",
+      "type": "collective",
+      "title": "Гаджеты",
+      "titleHtml": "Гаджеты",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Уже месяц собираю карманную рацию к своему второму мозгу. Смысл простой, зажал курок, сказал мысль, отпустил, и она улетела в систему к агентам. Корпус под первую версию я проектировал вместе с агентом кодом, и все равно в руке выходило неуклюже. Расскажу, как я ушел в пластилин, болванки и фотограмметрию и что для этого пришлось напечатать.</p><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af3fc6892db2fdae94dcc63\" data-style=\"\" id=\"6af3fc6892db2fdae94dcc63\" width=\"\" data-habr-games=\"\"></div><h3>Зачем вообще рация</h3><p>Ты просто берешь в руку и сразу диктуешь. Ничего тебя не смущает, не надо в телеграме какие то кнопки нажимать и открывать приложения. Зажал, сказал, и мысль или задание сразу улетает в систему. Рация по блютусу цепляется к телефону, телефон при этом можно даже не доставать из кармана, а дальше запись разбирают агенты в Бюро, моем втором мозге.</p><p>На экране я убрал все тексты, осталась только анимация. Зажал и говоришь, отпустил и запись летит, вспышка и галочка, когда система ее приняла, и на каждое событие свой звук.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/d0/10/e4/d010e446e266a2dc36e87a7f4cb6ea0d.jpg\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d0/10/e4/d010e446e266a2dc36e87a7f4cb6ea0d.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/d0/10/e4/d010e446e266a2dc36e87a7f4cb6ea0d.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Два устройства</h3><p>Первую версию собираю на M5Stack Cardputer-Adv, это ESP32-S3 с экраном 1,14 дюйма, микрофоном и батареей на 1500 мА·ч. Корпус надевается сверху, большой курок сбоку давит штатную кнопку.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/2c/e7/a0/2ce7a001efddf5c6c8dda73a9d594760.jpg\" width=\"0\" height=\"0\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/2c/e7/a0/2ce7a001efddf5c6c8dda73a9d594760.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/2c/e7/a0/2ce7a001efddf5c6c8dda73a9d594760.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Потом взял попроще девайс, M5StickS3. Начинка та же, только без клавиатуры, пара кнопок, экранчик и маленькая батарейка на 250 мА·ч. Он такой обрезанный, но для этой задачи прям идеально подходит, по моим прикидкам неделю будет жить на одном заряде.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/ea/5f/4f/ea5f4f2cdc26f8d36a903927d6d5af6f.jpg\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ea/5f/4f/ea5f4f2cdc26f8d36a903927d6d5af6f.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/ea/5f/4f/ea5f4f2cdc26f8d36a903927d6d5af6f.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Почему не обычный CAD</h3><p>Корпус под первую версию мы с агентом делали кодом, формы через SDF и булевы операции, печатная пружина курка, рендеры. Механику нейронка считает отлично, а в руке все равно получалось неуклюже. Нейронка пока что плохо понимает анатомию, и тут уже никакой расчет не помогает.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/36/f6/b8/36f6b8b424fac86923931f45f7ba7acf.jpg\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/36/f6/b8/36f6b8b424fac86923931f45f7ba7acf.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/36/f6/b8/36f6b8b424fac86923931f45f7ba7acf.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Поэтому я решил пойти по моему любимому пути синергии человека с компьютером. Форму задает рука, а все вокруг руки делает агент.</p><h3>Что пришлось напечатать</h3><p>Болван. Само устройство плюс 2 мм по бокам и спине, на поверхности ямки по 0,8 мм, чтобы к нему лучше лип пластилин, а на месте каждой кнопки и разъема отверстие под метку. Метки я сделал из черных штифтов, втыкаешь их в болван, и после лепки видно, где под пластилином кнопка. Снизу гнездо под штырь стенда. Под Cardputer и под StickS3 свои болваны, а стенд общий.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/2a/ff/07/2aff071b637bc2c15de09b1008363b92.jpg\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/2a/ff/07/2aff071b637bc2c15de09b1008363b92.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/2a/ff/07/2aff071b637bc2c15de09b1008363b92.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Стенд для съемки. Колонна со штырем на ключе, чтобы болван каждый раз вставал одинаково, и три полусферы по углам. По ним скан потом встает в координаты и масштаб устройства.</p><p>Стеки. Готовых печатных стеков под такую лепку мы не нашли, поэтому напечатали свои: двое двусторонних грабель с зубьями, два гладких скребка и два лекала-«почки».</p><p>Весь комплект для лепки печатался 3,1 часа и съел 98 г PLA, болван под StickS3 еще 28 минут.</p><h3>Лепка</h3><p>Дальше уже руками. Разминаешь архитектурный пластилин, облепляешь болван так, чтобы метки торчали наружу, срезаешь лишнее лекалом и все время примеряешь в кулаке. Получилась такая вот объемная штука под конкретно мою руку, хват очень эргономичный. Дальше буду дорабатывать в более универсальную сторону.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/b8/52/d4/b852d4293f582ee0de75222cef9f2c17.jpg\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b8/52/d4/b852d4293f582ee0de75222cef9f2c17.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/b8/52/d4/b852d4293f582ee0de75222cef9f2c17.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Скан и что дальше</h3><p>Форму сажаю на стенд и считываю фотограмметрией в RealityScan, он как раз досчитывается. Дальше нейронка по скану сделает сглаженную модель, мягкую и красивую по форме, а агент посадит в нее механику по меткам. Ее уже и напечатаю.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/78/97/79/7897799fffb018b444f2c05b621bb445.jpg\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/78/97/79/7897799fffb018b444f2c05b621bb445.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/78/97/79/7897799fffb018b444f2c05b621bb445.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Покажу, что получится из этого комка пластилина. А как вы решаете эргономику своих корпусов, лепите руками или доверяете модели?</p></div>",
+  "tags": [
+    {
+      "titleHtml": "ESP32"
+    },
+    {
+      "titleHtml": "M5Stack"
+    },
+    {
+      "titleHtml": "StickS3"
+    },
+    {
+      "titleHtml": "Cardputer"
+    },
+    {
+      "titleHtml": "фотограмметрия"
+    },
+    {
+      "titleHtml": "RealityScan"
+    },
+    {
+      "titleHtml": "3D-печать"
+    },
+    {
+      "titleHtml": "push-to-talk"
+    },
+    {
+      "titleHtml": "второй мозг"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106342/b5e5b4daa24f5aaa519d0a9cc4244dca/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106342/b5e5b4daa24f5aaa519d0a9cc4244dca/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106342\\/\"},\"headline\":\"Нейронка плохо понимает анатомию, поэтому форму для рации я леплю из пластилина\",\"datePublished\":\"2026-11-11T08:31:19+03:00\",\"dateModified\":\"2026-11-11T18:34:29+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Уже месяц собираю карманную рацию к своему второму мозгу. Смысл простой, зажал курок, сказал мысль, отпустил, и она улетела в систему к агентам. Корпус под...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106342\\/#post-content-body\",\"about\":[\"h_DIY\",\"h_3d-printers\",\"h_wearable_electronics\",\"h_gadgets\",\"h_artificial_intelligence\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/d0\\/10\\/e4\\/d010e446e266a2dc36e87a7f4cb6ea0d.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/2c\\/e7\\/a0\\/2ce7a001efddf5c6c8dda73a9d594760.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/ea\\/5f\\/4f\\/ea5f4f2cdc26f8d36a903927d6d5af6f.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/36\\/f6\\/b8\\/36f6b8b424fac86923931f45f7ba7acf.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/2a\\/ff\\/07\\/2aff071b637bc2c15de09b1008363b92.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/b8\\/52\\/d4\\/b852d4293f582ee0de75222cef9f2c17.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/78\\/97\\/79\\/7897799fffb018b444f2c05b621bb445.jpg\"]}",
+    "metaDescription": "Уже месяц собираю карманную рацию к своему второму мозгу. Смысл простой, зажал курок, сказал мысль, отпустил, и она улетела в систему к агентам. Корпус под первую версию я проектировал вместе с...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "44",
+    "title": "DIY",
+    "alias": "diy"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

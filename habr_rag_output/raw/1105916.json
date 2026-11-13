@@ -1,0 +1,159 @@
+{
+  "id": "1105916",
+  "timePublished": "2026-11-10T09:57:31+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Сервер пропустил три запуска. Как бот разбирает просроченные подписки",
+  "leadData": {
+    "textHtml": "<p>Пока сервер был выключен, у трёх участников Telegram-канала закончилась подписка. Один успел продлить её, а при отзыве доступа у другого Telegram вернул ошибку. Разберём, как настроить таймер systemd и что должен проверить бот после простоя, чтобы сохранить доступ продлившим и повторить незавершённые операции.</p>",
+    "imageUrl": null,
+    "buttonTextHtml": "Читать далее",
+    "image": null
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "706843",
+    "alias": "nightweb",
+    "fullname": "Иван Белозёров",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 3,
+      "votesCount": 9
+    },
+    "rating": 9.6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 109,
+    "score": 2,
+    "votesCount": 6,
+    "votesCountPlus": 4,
+    "votesCountMinus": 2,
+    "reach": 5452,
+    "readers": 77
+  },
+  "hubs": [
+    {
+      "id": "36",
+      "alias": "linux",
+      "type": "collective",
+      "title": "Настройка Linux",
+      "titleHtml": "Настройка Linux",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Сервер с Telegram-ботом выключился в 12:00 и поднялся в 12:17. По расписанию бот должен был проверить подписки в 12:05, 12:10 и 12:15. Если после старта он ищет подписки, истёкшие за последние пять минут, запись со сроком 12:03 останется за бортом. К следующему запуску она станет ещё старше и в выборку так и не попадёт.</p><p>У календарного таймера systemd есть Persistent=true. При активации таймера systemd запустит сервис, если за время простоя пропущено хотя бы одно срабатывание. В нашем примере будет один догоняющий запуск. Разобрать всё накопившееся за три пропущенных интервала должен сам обработчик. <a href=\"https://manpages.debian.org/trixie/systemd/systemd.timer.5.en.html#Persistent=\" rel=\"noopener nofollow\">Документация systemd.timer</a></p><h4>Пара юнитов для обработчика</h4><p>access-expiry.timer</p><p>``ini [Timer] OnCalendar=<em>-</em>-* :00/5:00 UTC Persistent=true</p><p>[Install] WantedBy=timers.target `</p><p>access-expiry.service</p><p><code>ini  [Service]  Type=oneshot  User=access-bot  TimeoutStartSec=90s  ExecStart=/usr/bin/python3 /opt/access-bot/revoke_expired.py  </code></p><p>Если обработчик уже развёрнут под системным пользователем access-bot, положите оба юнита в /etc/systemd/system, выполните sudo systemctl daemon-reload и включите таймер командой sudo systemctl enable --now access-expiry.timer. Расписание можно проверить через systemd-analyze calendar ‘-<em>-</em> *:00/5:00 UTC’. Лимит в 90 секунд здесь для примера. Если процесс зависнет на запросе к Telegram, следующие срабатывания таймера не запустят параллельные копии сервиса. Поэтому обработчику нужен собственный сетевой тайм-аут, а юниту — предел времени на весь прогон. <a href=\"https://manpages.debian.org/trixie/systemd/systemd.service.5.en.html#TimeoutStartSec=\" rel=\"noopener nofollow\">Документация systemd.service</a></p><h4>Что проверить после простоя</h4><p>Допустим, к 12:17 у бота есть три записи.</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Что произошло</p></th><th><p align=\"left\">Действие обработчика</p></th></tr><tr><td><p align=\"left\">Подписка закончилась в 12:03, продления нет</p></td><td><p align=\"left\">Отозвать доступ, хотя с момента истечения прошло 14 минут</p></td></tr><tr><td><p align=\"left\">Подписка закончилась в 12:08, пользователь продлил её в 12:10</p></td><td><p align=\"left\">Пропустить участника, у него снова есть действующий доступ</p></td></tr><tr><td><p align=\"left\">Подписка закончилась в 12:14, Telegram вернул временную ошибку при отзыве</p></td><td><p align=\"left\">Оставить действие незавершённым, чтобы следующий прогон его подобрал</p></td></tr></tbody></table></div></div><p>На практике выборку строят по текущему праву доступа участника к каналу. Результат лучше сохранять после обработки каждого участника. Тогда при остановке процесса посередине следующий прогон подхватит то, что осталось. Если Telegram успел удалить участника, но ответ потерялся, бот с правами администратора может сверить его статус через getChatMember. <a href=\"https://core.telegram.org/bots/api#getchatmember\" rel=\"noopener nofollow\">Документация Telegram Bot API</a></p><p>Есть ещё гонка между оплатой и отзывом. Повторная проверка срока перед запросом уменьшает окно, но оплата всё равно может прийти сразу после проверки. Если продление и отзыв обрабатывают разные воркеры, изменения доступа одного участника нужно выполнять последовательно. Если отзыв успел сработать, обработчик продления должен восстановить возможность входа. Например, снять блокировку через unbanChatMember с only_if_banned=true` и выдать приглашение. Пользователь входит по ссылке сам.</p><p>На стенде я бы дал таймеру сработать один раз, затем остановил его, пропустил несколько отметок расписания и включил между ними. В журнале должны быть видны один догоняющий запуск и три разных решения из таблицы. На следующем прогоне стоит проверить, что бот вернулся к записи со временной ошибкой.</p><p>Суть в том, что после перезапуска бот должен разобраться с накопившейся работой. Таймер запускает обработчик, а тот проверяет актуальный доступ каждого участника. У одного подписка истекла, второй уже продлил её, у третьего отзыв доступа нужно повторить после ошибки.</p><p>Поделитесь, пожалуйста, как у вас бот обрабатывает продление, если запрос на отзыв доступа уже отправлен в Telegram?</p></div>",
+  "tags": [
+    {
+      "titleHtml": "Настройка Linux"
+    },
+    {
+      "titleHtml": "Системное администрирование"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105916/df2b854d37f76e8ca2b77de48e6c6f70/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105916/df2b854d37f76e8ca2b77de48e6c6f70/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105916\\/\"},\"headline\":\"Сервер пропустил три запуска. Как бот разбирает просроченные подписки\",\"datePublished\":\"2026-11-10T12:57:31+03:00\",\"dateModified\":\"2026-11-11T13:43:26+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Сервер с Telegram-ботом выключился в 12:00 и поднялся в 12:17. По расписанию бот должен был проверить подписки в 12:05, 12:10 и 12:15. Если после старта он ищет...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105916\\/#post-content-body\",\"about\":[\"h_linux\",\"h_sys_admin\",\"f_admin\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105916\\/df2b854d37f76e8ca2b77de48e6c6f70\\/\"]}",
+    "metaDescription": "Сервер с Telegram-ботом выключился в 12:00 и поднялся в 12:17. По расписанию бот должен был проверить подписки в 12:05, 12:10 и 12:15. Если после старта он ищет подписки, истёкшие за последние пять...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,206 @@
+{
+  "id": "1106070",
+  "timePublished": "2026-11-10T11:35:19+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Чем лучше маркетинг — тем хуже сервис",
+  "leadData": {
+    "textHtml": "<p>Я уже за свою жизнь много раз встречался с ситуацией, когда у какой-либо компании / сервиса / платформы прекрасно выстроен маркетинг и при этом отвратительный сервис (если сервис связан с участием людей).<br>Раньше я относил это к случайным совпадениям, а потом понял, что в этом есть система — и вот как это работает...</p>",
+    "imageUrl": "https://habrastorage.org/extt/c3/92/58/c392581350964b35653433fbfe8e090d.png",
+    "buttonTextHtml": "Не будьте такими, как описано ниже",
+    "image": {
+      "url": "https://habrastorage.org/extt/c3/92/58/c392581350964b35653433fbfe8e090d.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "40976",
+    "alias": "xtrueman",
+    "fullname": "Валерий Студенников",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/f94/f07/099/f94f0709981775abe6c121c3477c3b6d.jpeg",
+    "speciality": "REG.RU / LLM technology. TG: @trueman_thoughts",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 86,
+      "votesCount": 188
+    },
+    "rating": 1.3,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "4K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 410,
+    "score": 1,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 5219,
+    "readers": 310
+  },
+  "hubs": [
+    {
+      "id": "20712",
+      "alias": "display_adv",
+      "type": "collective",
+      "title": "Медийная реклама",
+      "titleHtml": "Медийная реклама",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20714",
+      "alias": "context",
+      "type": "collective",
+      "title": "Контекстная реклама",
+      "titleHtml": "Контекстная реклама",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20726",
+      "alias": "productpm",
+      "type": "collective",
+      "title": "Управление продуктом",
+      "titleHtml": "Управление продуктом",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20752",
+      "alias": "business_models",
+      "type": "collective",
+      "title": "Бизнес-модели",
+      "titleHtml": "Бизнес-модели",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "4",
+      "alias": "marketing",
+      "title": "Маркетинг",
+      "titleHtml": "Маркетинг"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Я уже за свою жизнь много раз встречался с ситуацией, когда у какой-либо компании / сервиса / платформы прекрасно выстроен маркетинг и при этом отвратительный сервис (если сервис связан с участием людей).<br/>Раньше я относил это к случайным совпадениям, а потом понял, что в этом есть система — и вот как это работает...<br/>Когда у компании мало клиентов и мало лидов — они стараются «вцепиться зубами» (в хорошем смысле) в каждого (потенциального) клиента и обслужить его максимально хорошо, чтобы не потерять / не отпугнуть.<br/>И готовы выкладываться и делать всё возможное, чтобы клиент остался лояльным / довольным.</p><p>Напротив, если у компании замечательно выстроен маркетинг и от лидов нет отбоя — нет смысла стараться.</p><p>Приснопамятный Beetreex, реклама которого давным давно буквально «из каждого утюга» и который светиться везде где только возможно и невозможно — про него я как-то писал даже отдельную <a href=\"https://habr.com/ru/articles/955618/\" rel=\"noopener nofollow\">статью</a>. При этом сколько бы не было негативных отзывов и жалоб от текущих клиентов — их поток негатива тонет в океане рекламы: шанс для потенциальных клиентов наткнуться на рекламу гораздо выше, чем шанс наткнуться на негативный отзыв.</p><hr/><p>Особая моя нелюбовь — это различные компании, агрессивно предлагающие услуги рекламы / маркетинга / outreach.</p><p>Они <strong>прекрасно умеют сами рекламировать себя (поскольку это основная их компетенция) — при этом после получения денег от клиента на него полностью забивают</strong>: раз за разом продалбывают сроки и договорённости, даже не пытаются делать вид, что они стараются и вчитываются / вдумываются в твои потребности. (EV agency, если вы читаете эти строки — к Вам это не относится, вы — адекватные одни из немногих ;).</p><p>Срывают только самые «низковисящие фрукты», не обеспечивают какой-либо прозрачности своей работы, и вообще не заботятся об удовлетворении потребностей клиента.</p><p>Действительно, <strong>стараться «можно, а зачем?»</strong>.</p><p>Если у тебя уже 100 лидов оплативших стоят в очереди, ещё 100 лидов оплатят завтра, а 100 послезавтра.</p><p>Какой смысл выполнять договорённости, расширять команду, выстраивать процессы и прозрачность?</p><p>Ведь вряд ли кто-то из клиентов, на которых забили болт, будет судиться с ними из за 100k рублей, полгода бегать по арбитражным судам и доказывать, что его как-то плохо обслужили (а ты поди ещё это докажи, когда тебе надо делом / бизнесом заниматься, а не вот этим всем).</p><p>А если ты даже где-то напишешь негативный отзыв — вряд ли его кто-то увидит.</p><p>А шанс предпринимателям увидеть СПАМ от outreach-компаний, напротив, очень высокий, близкий к 146%.</p><p>Чем агрессивнее реклама и чем длиннее очередь из потенциальных клиентов — тем меньше многие компании дорожат этими самыми клиентами. Ведь новые достаются по щелчку пальцев. А от качества обслуживания вообще ничего не зависит. И «институт репутации» тут, к сожалению, не работает.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "менеджмент"
+    },
+    {
+      "titleHtml": "реклама"
+    },
+    {
+      "titleHtml": "продвижение"
+    },
+    {
+      "titleHtml": "сервисы"
+    },
+    {
+      "titleHtml": "бизнес"
+    },
+    {
+      "titleHtml": "предпринимательство"
+    },
+    {
+      "titleHtml": "outreach"
+    },
+    {
+      "titleHtml": "качество продукта"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106070/f5ea4d9dfbae6893f70196bafb38588f/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106070/f5ea4d9dfbae6893f70196bafb38588f/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106070\\/\"},\"headline\":\"Чем лучше маркетинг — тем хуже сервис\",\"datePublished\":\"2026-11-10T14:35:19+03:00\",\"dateModified\":\"2026-11-11T13:49:54+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Я уже за свою жизнь много раз встречался с ситуацией, когда у какой-либо компании \\/ сервиса \\/ платформы прекрасно выстроен маркетинг и при этом отвратительный...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106070\\/#post-content-body\",\"about\":[\"h_display_adv\",\"h_context\",\"h_productpm\",\"h_business_models\",\"f_management\",\"f_marketing\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1106070\\/f5ea4d9dfbae6893f70196bafb38588f\\/\"]}",
+    "metaDescription": "Я уже за свою жизнь много раз встречался с ситуацией, когда у какой-либо компании / сервиса / платформы прекрасно выстроен маркетинг и при этом отвратительный сервис (если сервис связан с участием...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "26",
+    "title": "Менеджмент",
+    "alias": "management"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

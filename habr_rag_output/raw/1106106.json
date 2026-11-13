@@ -1,0 +1,200 @@
+{
+  "id": "1106106",
+  "timePublished": "2026-11-10T12:45:36+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Как меняется работа системного аналитика с развитием ИИ: записи докладов «Кода аналитика»",
+  "leadData": {
+    "textHtml": "<p>Как выстраивать требования, находить противоречия ещё до начала разработки и внедрять ИИ-агентов в рабочие процессы? Эти и другие вопросы обсудили на митапе «Код аналитика» от ЮMoney.</p><p>На встрече выступили спикеры из ЮMoney, Сбера и «Бындюсофт». Они поделились практическим опытом системного анализа: от работы с требованиями и стейкхолдерами до автоматизации задач с помощью ИИ. Мы собрали основные темы докладов, а ниже оставили ссылки на полные записи.</p>",
+    "imageUrl": "https://habrastorage.org/extt/e1/72/cb/e172cb7647dbc0e2cb96c743661ced9a.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/e1/72/cb/e172cb7647dbc0e2cb96c743661ced9a.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2592149",
+    "alias": "yooteam",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/b01/fae/9b7/b01fae9b7e00ae246b3f0e0e0517e241.png",
+    "speciality": "Редактор",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 4,
+      "votesCount": 34
+    },
+    "rating": 3,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 2,
+    "readingCount": 268,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 6343,
+    "readers": 181
+  },
+  "hubs": [
+    {
+      "id": "20942",
+      "alias": "yoomoney",
+      "type": "corporative",
+      "title": "Блог компании ЮMoney",
+      "titleHtml": "Блог компании ЮMoney",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20754",
+      "alias": "tech_events",
+      "type": "collective",
+      "title": "Конференции",
+      "titleHtml": "Конференции",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "4",
+      "alias": "marketing",
+      "title": "Маркетинг",
+      "titleHtml": "Маркетинг"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Как выстраивать требования, находить противоречия ещё до начала разработки и внедрять ИИ-агентов в рабочие процессы? Эти и другие вопросы обсудили на митапе «Код аналитика» от ЮMoney.</p><p>На встрече выступили спикеры из ЮMoney, Сбера и «Бындюсофт». Они поделились практическим опытом системного анализа: от работы с требованиями и стейкхолдерами до автоматизации задач с помощью ИИ. Мы собрали основные темы докладов, а ниже оставили ссылки на полные записи.</p><p><strong>О чём говорили на митапе</strong></p><ul><li><p>Практики для написания технических решений: создание глоссария и единого пространства требований, выявление конфликтов до разработки, хранение контекста принятых решений.</p></li><li><p>Чтобы довести AI-агента от прототипа до прода, аналитик превращает идею в проверяемую спецификацию: какую работу агент должен делать, какие действия ему разрешены, чем подтверждается результат и когда нужно передать его человеку.</p></li><li><p>Если архитектура описана кодом, её проблемы — это проблемы кода. А на проблемы в коде пишут тесты.</p></li><li><p>ИИ-агент помогает аналитику на всём пути от требований до сопровождения разработки. Чтобы эта помощь стала устойчивой практикой, нужны понятные и полные правила работы, точки ручной проверки выводов человеком и передача удачных сценариев команде для общего пользования.</p></li></ul><p><strong>Где посмотреть записи докладов</strong></p><p>Если не получилось присоединиться к митапу или хочется подробнее разобрать отдельные темы, записи доступны на нескольких площадках: <a href=\"https://vk.cc/d3CwXE\">ВКонтакте</a>, <a href=\"https://rutube.ru/plst/1891905/\">Rutube</a>, <a href=\"http://youtube.com/playlist?list=PLC0uVu2PrPhg\">YouTube</a>. Фотографии с митапа собрали <a href=\"https://vk.cc/d3Cx6v\">в альбоме</a>. </p><p>Приятного просмотра!</p></div>",
+  "tags": [
+    {
+      "titleHtml": "митап"
+    },
+    {
+      "titleHtml": "системный анализ"
+    },
+    {
+      "titleHtml": "системный аналитик"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    },
+    {
+      "titleHtml": "ии-агент"
+    },
+    {
+      "titleHtml": "автоматизация"
+    },
+    {
+      "titleHtml": "ai-агенты"
+    },
+    {
+      "titleHtml": "конференция"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106106/68b4c9e766cbe8a6efb4dc2eae465eea/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106106/68b4c9e766cbe8a6efb4dc2eae465eea/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/yoomoney\\/articles\\/1106106\\/\"},\"headline\":\"Как меняется работа системного аналитика с развитием ИИ: записи докладов «Кода аналитика»\",\"datePublished\":\"2026-11-10T15:45:36+03:00\",\"dateModified\":\"2026-11-11T23:37:22+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Как выстраивать требования, находить противоречия ещё до начала разработки и внедрять ИИ-агентов в рабочие процессы? Эти и другие вопросы обсудили на митапе...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/yoomoney\\/articles\\/1106106\\/#post-content-body\",\"about\":[\"c_yoomoney\",\"h_artificial_intelligence\",\"h_tech_events\",\"f_marketing\",\"f_popsci\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1106106\\/68b4c9e766cbe8a6efb4dc2eae465eea\\/\"]}",
+    "metaDescription": "Как выстраивать требования, находить противоречия ещё до начала разработки и внедрять ИИ-агентов в рабочие процессы? Эти и другие вопросы обсудили на митапе «Код аналитика» от ЮMoney. На встрече...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "22",
+    "title": "Системный и бизнес-анализ",
+    "alias": "analytics"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

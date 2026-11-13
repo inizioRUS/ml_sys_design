@@ -1,0 +1,271 @@
+{
+  "id": "1105600",
+  "timePublished": "2026-11-09T15:33:15+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "robots.txt не запрещает обучение ИИ: каких роботов закрывать, чтобы сайт остался в ответах нейросетей",
+  "leadData": {
+    "textHtml": "<p>Многие владельцы сайтов ставят в robots.txt Disallow для GPTBot и считают, что закрыли свои тексты от ChatGPT. <a href=\"https://www.searchenginejournal.com/google-illyes-robots-txt-crawling-ai-training/593957/\" rel=\"noopener nofollow\">Гари Ильес из Google напомнил</a>: файл решает только, может ли краулер (робот, который обходит сайт) скачать страницу, а что потом делают с контентом, он не решает. Значит, robots.txt для нейросетей работает как просьба к конкретному роботу, а не как запрет на обучение. Строка про GPTBot не убирает сайт из ответов ChatGPT и ничего не говорит о страницах, которые уже скачаны. Поэтому сначала стоит решить, от чего закрываться, от обучения ИИ-моделей или от появления в их ответах, и закрывать это отдельными правилами для отдельных роботов.</p>",
+    "imageUrl": "https://habrastorage.org/extt/c5/ad/c8/c5adc8fcd1db4147527ed7ebaa80265c.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/c5/ad/c8/c5adc8fcd1db4147527ed7ebaa80265c.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5805910",
+    "alias": "sburyi",
+    "fullname": "Сергей Бурый",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 9
+    },
+    "rating": 7,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Сайт",
+        "url": "https://sburyi.ru/",
+        "value": "https://sburyi.ru/",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Сайт",
+        "url": "https://www.zvonkooo.ru/",
+        "value": "https://www.zvonkooo.ru/",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/sburyi",
+        "value": "sburyi",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Сайт",
+        "url": "https://sburyi.ru/",
+        "value": "https://sburyi.ru/",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Сайт",
+        "url": "https://www.zvonkooo.ru/",
+        "value": "https://www.zvonkooo.ru/",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/sburyi",
+        "value": "sburyi",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 7,
+    "favoritesCount": 8,
+    "readingCount": 415,
+    "score": 3,
+    "votesCount": 5,
+    "votesCountPlus": 4,
+    "votesCountMinus": 1,
+    "reach": 8103,
+    "readers": 311
+  },
+  "hubs": [
+    {
+      "id": "20748",
+      "alias": "seo",
+      "type": "collective",
+      "title": "Поисковая оптимизация",
+      "titleHtml": "Поисковая оптимизация",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "126",
+      "alias": "search_technologies",
+      "type": "collective",
+      "title": "Поисковые технологии",
+      "titleHtml": "Поисковые технологии",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "340",
+      "alias": "python",
+      "type": "collective",
+      "title": "Python",
+      "titleHtml": "Python",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "8000",
+      "alias": "algorithms",
+      "type": "collective",
+      "title": "Алгоритмы",
+      "titleHtml": "Алгоритмы",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "4",
+      "alias": "marketing",
+      "title": "Маркетинг",
+      "titleHtml": "Маркетинг"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c5/ad/c8/c5adc8fcd1db4147527ed7ebaa80265c.jpg\" width=\"780\" height=\"440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c5/ad/c8/c5adc8fcd1db4147527ed7ebaa80265c.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/c5/ad/c8/c5adc8fcd1db4147527ed7ebaa80265c.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Многие владельцы сайтов ставят в robots.txt Disallow для GPTBot и считают, что закрыли свои тексты от ChatGPT. <a href=\"https://www.searchenginejournal.com/google-illyes-robots-txt-crawling-ai-training/593957/\" rel=\"noopener nofollow\">Гари Ильес из Google напомнил</a>: файл решает только, может ли краулер (робот, который обходит сайт) скачать страницу, а что потом делают с контентом, он не решает. Значит, robots.txt для нейросетей работает как просьба к конкретному роботу, а не как запрет на обучение. Строка про GPTBot не убирает сайт из ответов ChatGPT и ничего не говорит о страницах, которые уже скачаны. Поэтому сначала стоит решить, от чего закрываться, от обучения ИИ-моделей или от появления в их ответах, и закрывать это отдельными правилами для отдельных роботов.</p><h3>Disallow для GPTBot в robots.txt действует только на следующие обходы сайта</h3><p>Disallow просит робота не запрашивать страницы, и больше ничего. В видео Search Central 21 октября 2026 года Ильес сослался на стандарт RFC 9309: robots.txt задаёт предпочтения по доступу и не определяет, что система делает с данными после обхода. Файл работает как табличка с просьбой не входить: воспитанный робот за дверь не зайдёт, но что делать с уже увиденным, табличка не говорит.</p><p>Поэтому новая строка касается только будущих обходов. Судьбу страниц, скачанных до неё, robots.txt не решает. Стандартного способа запретить обучение, но разрешить обход пока нет: он существует только в черновике.</p><p>Строки, которая закрыла бы весь ИИ разом, в стандарте тоже нет. Google поддерживает в файле только User-Agent, Allow, Disallow и Sitemap и пропускает остальное, так что выдуманная директива вроде No-AI-Chicken-Training ничего не даст. Конкретный ИИ-краулер закрывается, только если явно назвать его токен, то есть имя в строке User-agent. Об этом Ильес тоже сказал в видео (<a href=\"https://www.seroundtable.com/google-video-robots-txt-rules-42355.html\" rel=\"noopener nofollow\">расшифровка на Search Engine Roundtable</a>).</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/3c/1e/c3/3c1ec300dfe933f9b8cac3e4fda8a464.png\" alt=\"Файл влияет только на первую развилку, дальше судьбу текста он не определяет.  \" title=\"Файл влияет только на первую развилку, дальше судьбу текста он не определяет.  \" width=\"1500\" height=\"850\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3c/1e/c3/3c1ec300dfe933f9b8cac3e4fda8a464.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/3c/1e/c3/3c1ec300dfe933f9b8cac3e4fda8a464.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Файл влияет только на первую развилку, дальше судьбу текста он не определяет.</em>  </figcaption></div></figure><h3>У ChatGPT, Claude и Gemini обучение и ответы обслуживают разные роботы</h3><p>У OpenAI и Anthropic по три робота. Первый собирает тексты для обучения, второй ищет страницы для поиска сервиса, третий заходит на страницу, когда об этом попросил пользователь.</p><div><div class=\"table\"><table><tbody><tr><td><p align=\"left\"><strong>Что делает робот</strong></p></td><td><p align=\"left\"><strong>OpenAI</strong></p></td><td><p align=\"left\"><strong>Anthropic</strong></p></td></tr><tr><td><p align=\"left\">Собирает тексты для обучения</p></td><td><p align=\"left\">GPTBot</p></td><td><p align=\"left\">ClaudeBot</p></td></tr><tr><td><p align=\"left\">Ищет страницы для поиска сервиса</p></td><td><p align=\"left\">OAI-SearchBot</p></td><td><p align=\"left\">Claude-SearchBot</p></td></tr><tr><td><p align=\"left\">Заходит по запросу пользователя</p></td><td><p align=\"left\">ChatGPT-User</p></td><td><p align=\"left\">Claude-User</p></td></tr></tbody></table></div></div><p><a href=\"https://developers.openai.com/api/docs/bots\" rel=\"noopener nofollow\">OpenAI пишет</a>, что эти настройки независимы. Можно разрешить OAI-SearchBot и остаться в поиске ChatGPT, но запретить GPTBot, чтобы тексты не шли в обучение. ChatGPT-User приходит по действию пользователя, и правила robots.txt к нему, по словам OpenAI, могут не применяться. Из поиска ChatGPT сайт убирают через OAI-SearchBot. <a href=\"https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler\" rel=\"noopener nofollow\">Anthropic предупреждает</a>: если отключить Claude-User, Claude не сможет взять вашу страницу в ответ на запрос пользователя, и видимость сайта может снизиться.</p><p>Google отделил обучение от Поиска токеном Google-Extended. Своего робота у токена нет. Он решает, пойдут ли страницы, которые обошёл Google, в обучение будущих моделей Gemini и в grounding, то есть в подачу страницы ИИ-модели во время ответа. На включение в Поиск Google-Extended не влияет (<a href=\"https://developers.google.cn/crawling/docs/crawlers-fetchers/google-common-crawlers?hl=en\" rel=\"noopener nofollow\">документация Google</a>). Похоже устроен Applebot-Extended: страниц он не обходит и только решает, можно ли учить ИИ-модели на данных Applebot. Сайт с его запретом остаётся в поиске (<a href=\"https://support.apple.com/en-sg/119829\" rel=\"noopener nofollow\">Apple Support</a>). Common Crawl, открытый архив скачанных страниц, обходит сайты ботом CCBot и перестаёт, если закрыть этот токен (<a href=\"https://www.commoncrawl.org/faq\" rel=\"noopener nofollow\">FAQ Common Crawl</a>).</p><p>В России выбор беднее. Чтобы страницы не попадали в быстрые ответы Алисы AI в поиске, <a href=\"https://yandex.ru/support/webmaster/ru/search-appearance/fast\" rel=\"noopener nofollow\">Яндекс Вебмастер</a> советует запретить YandexAdditional или YandexAdditionalBot. Изменение учитывается за 2–14 дней. Отдельного токена только для обучения у Яндекса, по <a href=\"https://seodb.tech/blog/robots-txt-ai-crawlers\" rel=\"noopener nofollow\">справочнику seodb</a>, нет: ИИ-ответы берут страницы из основного индекса, поэтому закрытый YandexBot убирает сайт и из поиска, и из них. Сбер, <a href=\"https://flowstat.ru/blog/gigachat-seo\" rel=\"noopener nofollow\">по наблюдению Флоустата</a> на октябрь 2026 года, не публикует ни имени поискового робота GigaChat, ни правил для robots.txt. Назвать этого робота в файле пока нельзя.</p><h3>Какие строки robots.txt закрывают обучение ИИ, а какие убирают сайт из ответов</h3><p>Закрыть сайт от ИИ целиком через robots.txt нельзя. Если пытаться, вы скорее всего потеряете место в ответах нейросетей, а уже скачанный контент так и останется в обучающих данных, то есть в наборе текстов, на которых учат ИИ-модель. Обучение и ответы надо разделять: роботов для обучения можно закрывать, если это важно бизнесу, а поисковые роботы ИИ-сервисов и роботов, которые приходят по запросу пользователя, стоит оставлять открытыми.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/09/7c/5f/097c5f2a4eeb415a9341ea69cdb4ea57.png\" alt=\"Сравните строки: каждая цель требует своего набора токенов, общего запрета нет.  \" title=\"Сравните строки: каждая цель требует своего набора токенов, общего запрета нет.  \" width=\"1500\" height=\"850\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/09/7c/5f/097c5f2a4eeb415a9341ea69cdb4ea57.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/09/7c/5f/097c5f2a4eeb415a9341ea69cdb4ea57.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Сравните строки: каждая цель требует своего набора токенов, общего запрета нет.</em>  </figcaption></div></figure><p><strong>Не попадать в обучение и остаться в ответах:</strong></p><p>``` User-agent: GPTBot User-agent: ClaudeBot User-agent: CCBot User-agent: Applebot-Extended Disallow: /</p><p>User-agent: OAI-SearchBot User-agent: ChatGPT-User User-agent: Claude-SearchBot User-agent: Claude-User Allow: / ```</p><p>Первая группа просит не скачивать страницы для обучения роботов OpenAI, Anthropic, Common Crawl и Apple. Вторая нужна для наглядности: без запрета эти роботы и так допущены. Поиск Google такой файл не трогает и из поиска ChatGPT и Claude сайт не убирает. Страниц, которые эти роботы забрали раньше, он не касается, и роботов, которые robots.txt не читают, не остановит.</p><p>Google-Extended в этот список я не включил. Он закрывает не только обучение Gemini, но и grounding, поэтому запрет может стоить сайту места в ответах Gemini. Ставить его стоит, только если запрет обучения для бизнеса важнее этих ответов.</p><p><strong>Не появляться в ответах:</strong></p><p>``<code> User-agent: OAI-SearchBot User-agent: ChatGPT-User User-agent: Claude-SearchBot User-agent: Claude-User User-agent: YandexAdditional User-agent: YandexAdditionalBot Disallow: / </code>``</p><p>Цена такого файла в том, что сайт перестанет появляться в ответах этих сервисов. С ChatGPT-User результат не гарантирован: OpenAI оговаривает, что правила к нему могут не применяться.</p><h3>Какие ИИ-боты обходят robots.txt и как проверить это по логам сервера</h3><p>Слушаются файл не все. В августе 2025 года Cloudflare <a href=\"https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/\" rel=\"noopener nofollow\">показал</a>, что Perplexity при блокировке меняет user agent и ASN (номер сети, из которой идёт трафик) и порой даже не запрашивает robots.txt. Тест шёл на новых доменах с полным запретом в robots.txt и правилами против PerplexityBot и Perplexity-User. Perplexity всё равно получал контент, представляясь браузером Chrome на macOS. По подсчёту Cloudflare, такой скрытый обход шёл на десятках тысяч доменов, миллионы запросов в день. Perplexity исключили из списка проверенных ботов Cloudflare. Забавно, что самым послушным в том же тесте оказался ChatGPT-User: он запросил robots.txt и прекратил обход, хотя OpenAI сама предупреждает, что правила к нему могут не применяться.</p><p>Проверить своих роботов можно по access-логу. Отберите строки с токенами и посмотрите, какие страницы они запрашивали после появления Disallow:</p><p>``<code> grep -E \"GPTBot|ClaudeBot|CCBot|OAI-SearchBot|ChatGPT-User\" access.log </code>``</p><p>Каждая строка содержит время запроса, путь, код ответа сервера и user-agent. Успешный ответ на запрос закрытого раздела после появления Disallow значит, что робот скачал страницу, а отказ или ошибка — что содержимого он не получил. Смотрите, запросил ли робот /robots.txt и продолжил ли ходить в закрытые разделы. Подделку по токену не найти, поэтому ищите запросы с user-agent обычного браузера, которые в том же ритме идут на те же страницы. Как выглядят в логах GPTBot, ClaudeBot и остальные, разобрано в статье о том, <a href=\"https://habr.com/ru/articles/1072256/\" rel=\"noopener nofollow\">какие ИИ-боты реально ходят по сайту и что они запрашивают</a>.</p><h3>Что, кроме robots.txt, закрывает контент от нейросетей: блокировка на сервере, метатеги и TDMRep</h3><p>Против робота, который назвался браузером, не помогают ни robots.txt, ни блок по user-agent. Нужно поручить разработчику проверить защиту от автоматических запросов на сервере или в сервисе доставки сайта (CDN, например Cloudflare): она отличает робота от покупателя с обычным браузером по признакам трафика, таким как сеть, из которой идёт запрос, и ритм обращений. В тесте Cloudflare она сработала: когда закрыли и скрытый краулер, ответы Perplexity стали менее конкретными, без деталей исходной страницы. Блокировка по IP вместо файла с Anthropic может подвести: она мешает роботу прочитать robots.txt, и отказ может не сработать.</p><p>• <strong>Метатег nosnippet.</strong> Apple предлагает его, чтобы конкретный контент не попадал в ответы Siri и поиска Apple на общие вопросы.</p><p>• <strong>TDMRep.</strong> Протокол группы сообщества W3C (стандартом W3C он не является) выражает оговорку прав на TDM, автоматический анализ текстов и данных: отказ задаётся параметром tdm-reservation со значением 1 (<a href=\"https://www.w3.org/community/reports/tdmrep/CG-FINAL-tdmrep-20240510/\" rel=\"noopener nofollow\">описание протокола</a>). Юридический вес у него в ЕС: статья 4 директивы 2019/790 разрешает TDM в коммерческих целях, пока правообладатель не зарезервировал права, в том числе машиночитаемым способом. Вне ЕС это исключение не действует.</p><p>• <strong>Плата за обход.</strong> С июля 2025 года у Cloudflare в закрытой бете есть Pay Per Crawl: сайт может брать плату с ИИ-краулеров за каждый доступ к контенту.</p><h3>Общий запрет обучения ИИ в robots.txt Anthropic уже учитывает, а Google обещает с 2027 года</h3><p>С 30 октября 2026 года Anthropic распознаёт машиночитаемый сигнал запрета обучения. Общий запрет выглядит так:</p><p>``<code> User-agent: __usage_ai-training Disallow: / </code>``</p><p>Google планирует поддержать тот же сигнал AIPREF в начале 2027 года. По прочтению <a href=\"https://lab-leaders.com/guides/zapret-obucheniya-ii-robots-txt\" rel=\"noopener nofollow\">Lab Leaders</a>, Google может считать такой запрет запретом Google-Extended, и тогда общая строка тоже может стоить сайту ответов Gemini. Стандарт готовит IETF: черновик, соавтор которого Ильес, добавит в robots.txt правило Content-Usage и одноимённый HTTP-заголовок, но о словаре там ещё не договорились. Пока стандарт не принят, обучение и ответы приходится закрывать по отдельности и называть каждого робота по имени.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "robots.txt"
+    },
+    {
+      "titleHtml": "ChatGPT"
+    },
+    {
+      "titleHtml": "GPTBot"
+    },
+    {
+      "titleHtml": "поисковые роботы"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    },
+    {
+      "titleHtml": "GEO"
+    },
+    {
+      "titleHtml": "SEO"
+    },
+    {
+      "titleHtml": "AI Search"
+    },
+    {
+      "titleHtml": "индексация сайта"
+    },
+    {
+      "titleHtml": "обучение ИИ"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105600/cf0142dd67de9bc46c13271c109ae2eb/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105600/cf0142dd67de9bc46c13271c109ae2eb/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105600\\/\"},\"headline\":\"robots.txt не запрещает обучение ИИ: каких роботов закрывать, чтобы сайт остался в ответах нейросетей\",\"datePublished\":\"2026-11-09T18:33:15+03:00\",\"dateModified\":\"2026-11-10T18:37:20+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Многие владельцы сайтов ставят в robots.txt Disallow для GPTBot и считают, что закрыли свои тексты от ChatGPT. Гари Ильес из Google напомнил : файл решает...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105600\\/#post-content-body\",\"about\":[\"h_seo\",\"h_search_technologies\",\"h_python\",\"h_artificial_intelligence\",\"h_algorithms\",\"f_develop\",\"f_marketing\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/c5\\/ad\\/c8\\/c5adc8fcd1db4147527ed7ebaa80265c.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/3c\\/1e\\/c3\\/3c1ec300dfe933f9b8cac3e4fda8a464.png\",\"https:\\/\\/habrastorage.org\\/extt\\/09\\/7c\\/5f\\/097c5f2a4eeb415a9341ea69cdb4ea57.png\"]}",
+    "metaDescription": "Многие владельцы сайтов ставят в robots.txt Disallow для GPTBot и считают, что закрыли свои тексты от ChatGPT. Гари Ильес из Google напомнил : файл решает только, может ли краулер (робот, который...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "analytics",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 6,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

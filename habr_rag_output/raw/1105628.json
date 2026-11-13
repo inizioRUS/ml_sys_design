@@ -1,0 +1,228 @@
+{
+  "id": "1105628",
+  "timePublished": "2026-11-09T16:41:53+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Обнаружена критическая уязвимость Terminal2Shell, присутствующая во всех операционных системах, начиная с 1971 года",
+  "leadData": {
+    "textHtml": "<p>Раскрыта информация о критической уязвимости <a href=\"https://terminal2shell.com/\" rel=\"noopener nofollow\">Terminal2Shell</a>, которая присутствует во всех операционных системах начиная с 1971 года. Баг позволяет любому, кто открывает терминал, получить полноценную интерактивную командную оболочку (shell). Мгновенно, без какой-либо дополнительной аутентификации, помимо той, что уже была пройдена. Исправление от производителей проектов терминалов в некоторых версиях отсутствуют. До их выпусков рекомендуется задействовать компенсирующие меры.</p>",
+    "imageUrl": "https://habrastorage.org/extt/63/ef/6e/63ef6ea407afc2911415776560ace2e2.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/63/ef/6e/63ef6ea407afc2911415776560ace2e2.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "780987",
+    "alias": "denis-19",
+    "fullname": "Денис",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/6a0/f31/235/6a0f31235bb26134f3c7a741c03e4efb.jpg",
+    "speciality": "Информационная служба Хабра, без использования ИИ",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1069,
+      "votesCount": 2027
+    },
+    "rating": 881.5,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "1024K+"
+  },
+  "statistics": {
+    "commentsCount": 46,
+    "favoritesCount": 11,
+    "readingCount": 10787,
+    "score": 21,
+    "votesCount": 68,
+    "votesCountPlus": 40,
+    "votesCountMinus": 28,
+    "reach": 17239,
+    "readers": 8620
+  },
+  "hubs": [
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "23270",
+      "alias": "os",
+      "type": "collective",
+      "title": "Операционные системы",
+      "titleHtml": "Операционные системы",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21906",
+      "alias": "history",
+      "type": "collective",
+      "title": "История IT",
+      "titleHtml": "История IT",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19583",
+      "alias": "dev_management",
+      "type": "collective",
+      "title": "Управление разработкой",
+      "titleHtml": "Управление разработкой",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/63/ef/6e/63ef6ea407afc2911415776560ace2e2.png\" width=\"881\" height=\"632\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/63/ef/6e/63ef6ea407afc2911415776560ace2e2.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/63/ef/6e/63ef6ea407afc2911415776560ace2e2.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Раскрыта информация о критической уязвимости <a href=\"https://terminal2shell.com/\" rel=\"noopener nofollow\">Terminal2Shell</a>, которая присутствует во всех операционных системах начиная с 1971 года. Баг позволяет любому, кто открывает терминал, получить полноценную интерактивную командную оболочку (shell). Мгновенно, без какой‑либо дополнительной аутентификации, помимо той, что уже была пройдена. Исправление от производителей проектов терминалов в некоторых версиях отсутствуют. До их выпусков рекомендуется задействовать компенсирующие меры.</p><p>Terminal2Shell — это уязвимость на уровне проектирования (design‑level vulnerability), затрагивающая эмуляторы терминала. При запуске терминала автоматически создаётся процесс командной оболочки (shell), который напрямую подключается к клавиатуре пользователя. После этого злоумышленник может выполнять произвольные команды, обладая всеми правами текущего пользователя системы. Проблема затрагивает некоторые версии популярных эмуляторов терминала. Их разработчики выпускали патчи, закрывающие уязвимость, но даже на момент 2024 года она всё ещё встречалась в отдельных проектах.</p><p>Исследователи подтвердили, что командная оболочка выполняет любые введённые в неё команды — в том числе те, которые удаляют файлы, устанавливают программное обеспечение или изменяют конфигурацию системы. В ряде случаев было зафиксировано выполнение команд, которые вводил сам пользователь.</p><p>Этапы эксплуатации: откройте терминал. Этапа 2 не существует. Для эксплуатации необходим локальный доступ, исправная клавиатура и возможность найти приложение «Терминал». </p><p>На сайте об уязвимости представлен работающий прототип, подтверждающий концепцию. Он полностью готов к рабочему применению. Кликните внутри области и начните вводить текст. Попробуйте ввести команду help.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d9/78/35/d97835b5d274574991dbc4da42873782.png\" width=\"867\" height=\"505\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d9/78/35/d97835b5d274574991dbc4da42873782.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d9/78/35/d97835b5d274574991dbc4da42873782.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f2/ce/f0/f2cef05735dfb76ae7a4c9c5b72d37cd.png\" width=\"870\" height=\"488\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f2/ce/f0/f2cef05735dfb76ae7a4c9c5b72d37cd.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/f2/ce/f0/f2cef05735dfb76ae7a4c9c5b72d37cd.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Подверженные проблеме ОС:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/7c/c3/93/7cc393a54aa25f416c9203d61ee1471d.png\" width=\"873\" height=\"792\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/7c/c3/93/7cc393a54aa25f416c9203d61ee1471d.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/7c/c3/93/7cc393a54aa25f416c9203d61ee1471d.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Признаки компрометации: </p><ul><li><p>если вы видите любой из следующих символов, за которым следует мигающий курсор, значит, ваша система скомпрометирована: $%&gt;❯# </p></li><li><p>Символ # означает, что злоумышленник получил права суперпользователя (root). Отключитесь от сети, а затем — и от общества.</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c2/95/69/c29569c843279b9b7659f414f1306a96.png\" width=\"797\" height=\"212\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c2/95/69/c29569c843279b9b7659f414f1306a96.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c2/95/69/c29569c843279b9b7659f414f1306a96.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Меры по снижению рисков: </p><ul><li><p>исправление от производителя отсутствует. До его выхода рекомендуются следующие компенсирующие меры: Не открывайте терминалы. Это наиболее эффективная мера. </p></li><li><p>Стоит отметить, что многие разработчики открывают терминалы «для работы» — специалистам по безопасности следует расценивать это как тревожный сигнал. </p></li><li><p>Закрывайте терминалы сразу после их открытия. </p></li><li><p>Частичная мера: при повторном открытии терминала уязвимость снова становится актуальной. Печатайте медленнее. Это снижает количество вводимых команд в минуту и, следовательно, интенсивность атаки. </p></li><li><p>Отключите клавиатуру. Эффективно, однако использование экранной клавиатуры позволяет обойти это ограничение. </p></li><li><p>Установите значение SHELL=/bin/false. Полностью устраняет уязвимость. А заодно — и возможность пользоваться компьютером.</p></li></ul><p>Хронология раскрытия информации по этой проблеме:</p><ul><li><p>1971 год — В состав Unix v1 входит уязвимый код: командная оболочка Thompson shell. </p></li><li><p>1979 год — Выпущена командная оболочка Bourne shell. Уязвимость сохранена в целях обеспечения полной обратной совместимости. </p></li><li><p>1989 год — Выпущена оболочка Bash. Само название подтверждает, что атака является намеренной. </p></li><li><p>2009 год — Растет популярность оболочки zsh. Теперь она еще и выглядит привлекательно — по мнению исследователей, это заманивает больше жертв. </p></li><li><p>2026 год — Исследователи одновременно уведомляют всех разработчиков программного обеспечения. </p></li><li><p>2026 год — Разработчики отвечают: «Так ведь это и есть терминал». </p></li><li><p>2026 год — Исследователи регистрируют домен, создают логотип и связываются с прессой. Процесс скоординированного раскрытия информации считается завершённым.</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/1b/a4/79/1ba4798e834023c6373001181dbed729.png\" width=\"888\" height=\"388\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1b/a4/79/1ba4798e834023c6373001181dbed729.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/1b/a4/79/1ba4798e834023c6373001181dbed729.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Часто задаваемые вопросы: </p><ul><li><p>затронуло ли это меня? Если у вас есть компьютер — да. Если у вас есть телефон — тоже затронуло, просто вы ещё не обнаружили терминал.</p></li><li><p>Используется ли это в реальных условиях? Да. Телеметрия показывает, что миллионы разработчиков ежедневно используют Terminal2Shell — зачастую десятки раз в час. Некоторые даже настроили его так, чтобы он открывался автоматически при входе в систему.</p></li><li><p>Может ли злоумышленник получить права суперпользователя (root)? Только в том случае, если он знает пароль пользователя. К сожалению, в наиболее распространённом сценарии атаки злоумышленником выступает сам пользователь.</p></li><li><p>Почему у неё есть логотип? У каждой серьёзной уязвимости должны быть логотип, доменное имя и название, состоящее из числа, за которым следует существительное. Здесь есть всё три компонента — значит, уязвимость наверняка серьёзная.</p></li><li><p>Связано ли это с другими уязвимостями семейства 2Shell? Напрямую. Разработчики проанализировали общедоступные концепты эксплойтов (PoC) для всех уязвимостей 2Shell, которые удалось найти, и почти все они начинаются одинаково: исследователь открывает терминал и вводит команду. Каждый из этих эксплойтов опирается на Terminal2Shell. Это «уязвимость в основе уязвимостей» — единственная, которая предоставляет готовый командный интерпретатор (shell) ещё до начала самой атаки. Устранение Terminal2Shell позволило бы в одночасье нейтрализовать большую часть семейства *2Shell. Но это также лишило бы исследователей возможности написать очередную статью в блог — именно поэтому ни один вендор не хочет браться за исправление этой проблемы.</p></li><li><p>Стоит ли паниковать? Да. Паника — это рекомендуемая реакция на любую уязвимость веб‑сайта. Пожалуйста, поделитесь этой страницей со своим директором по информационной безопасности (CISO), своей мамой и как минимум тремя новостными изданиями.</p></li></ul></div>",
+  "tags": [
+    {
+      "titleHtml": "Terminal2Shell"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105628/73b39958f50d2fe3ea9ba7ca21d2e34d/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105628/73b39958f50d2fe3ea9ba7ca21d2e34d/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105628\\/\"},\"headline\":\"Обнаружена критическая уязвимость Terminal2Shell, присутствующая во всех операционных системах, начиная с 1971 года\",\"datePublished\":\"2026-11-09T19:41:53+03:00\",\"dateModified\":\"2026-11-10T09:24:14+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Раскрыта информация о&nbsp;критической уязвимости Terminal2Shell , которая присутствует во&nbsp;всех операционных системах начиная с 1971&nbsp;года. Баг...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105628\\/#post-content-body\",\"about\":[\"h_sys_admin\",\"h_infosecurity\",\"h_os\",\"h_history\",\"h_dev_management\",\"f_develop\",\"f_admin\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/63\\/ef\\/6e\\/63ef6ea407afc2911415776560ace2e2.png\",\"https:\\/\\/habrastorage.org\\/extt\\/d9\\/78\\/35\\/d97835b5d274574991dbc4da42873782.png\",\"https:\\/\\/habrastorage.org\\/extt\\/f2\\/ce\\/f0\\/f2cef05735dfb76ae7a4c9c5b72d37cd.png\",\"https:\\/\\/habrastorage.org\\/extt\\/7c\\/c3\\/93\\/7cc393a54aa25f416c9203d61ee1471d.png\",\"https:\\/\\/habrastorage.org\\/extt\\/c2\\/95\\/69\\/c29569c843279b9b7659f414f1306a96.png\",\"https:\\/\\/habrastorage.org\\/extt\\/1b\\/a4\\/79\\/1ba4798e834023c6373001181dbed729.png\"]}",
+    "metaDescription": "Раскрыта информация о&nbsp;критической уязвимости Terminal2Shell , которая присутствует во&nbsp;всех операционных системах начиная с 1971&nbsp;года. Баг позволяет любому, кто открывает терминал,...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,219 @@
+{
+  "id": "1106052",
+  "timePublished": "2026-11-10T11:21:39+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Представлен FakeDOS 2.0 — скринсейвер для macOS",
+  "leadData": {
+    "textHtml": "<p>В&nbsp;открытом доступе опубликован проект <a href=\"https://fakedos.com/\" rel=\"noopener nofollow\">FakeDOS 2.0</a>. Это скринсейвер для&nbsp;macOS, который с&nbsp;пиксельной точностью имитирует работу компьютера с&nbsp;DOS.</p>",
+    "imageUrl": "https://habrastorage.org/extt/47/26/d0/4726d0a22771a74853a8f1836fa69e7e.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/47/26/d0/4726d0a22771a74853a8f1836fa69e7e.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "780987",
+    "alias": "denis-19",
+    "fullname": "Денис",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/6a0/f31/235/6a0f31235bb26134f3c7a741c03e4efb.jpg",
+    "speciality": "Информационная служба Хабра, без использования ИИ",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1069,
+      "votesCount": 2027
+    },
+    "rating": 881.5,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "1024K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 8,
+    "readingCount": 770,
+    "score": 7,
+    "votesCount": 5,
+    "votesCountPlus": 5,
+    "votesCountMinus": 0,
+    "reach": 6712,
+    "readers": 589
+  },
+  "hubs": [
+    {
+      "id": "19253",
+      "alias": "osx_dev",
+      "type": "collective",
+      "title": "macOS",
+      "titleHtml": "macOS",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19039",
+      "alias": "swift",
+      "type": "collective",
+      "title": "Swift",
+      "titleHtml": "Swift",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21906",
+      "alias": "history",
+      "type": "collective",
+      "title": "История IT",
+      "titleHtml": "История IT",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21918",
+      "alias": "soft",
+      "type": "collective",
+      "title": "Софт",
+      "titleHtml": "Софт",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/47/26/d0/4726d0a22771a74853a8f1836fa69e7e.png\" width=\"1539\" height=\"962\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/47/26/d0/4726d0a22771a74853a8f1836fa69e7e.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/47/26/d0/4726d0a22771a74853a8f1836fa69e7e.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В открытом доступе опубликован проект <a href=\"https://fakedos.com/\" rel=\"noopener nofollow\">FakeDOS 2.0</a>. Это скринсейвер для macOS, который с пиксельной точностью имитирует работу компьютера с DOS.</p><p>FakeDOS появился в 1991 году как первоапрельская шутка на языке Turbo Pascal в сети FidoNet, а позже стал использоваться в качестве экранной заставки для Microsoft Windows. Спустя три десятилетия программа была перенесена на Swift/macOS, чтобы теперь пугать современных офисных работников, которые даже не слышали о файле AUTOEXEC.BAT. Авторы: Клаус Рёсслер и Роджер Кирххофф Copyright (c) 1991–2026</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/b5/54/4c/b5544c9ca87c799bf9b6f6740c56b1ae.png\" width=\"640\" height=\"400\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b5/54/4c/b5544c9ca87c799bf9b6f6740c56b1ae.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/b5/54/4c/b5544c9ca87c799bf9b6f6740c56b1ae.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f7/62/2d/f7622d4024bc0cea685b5ded1b1f921e.png\" width=\"640\" height=\"400\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f7/62/2d/f7622d4024bc0cea685b5ded1b1f921e.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/f7/62/2d/f7622d4024bc0cea685b5ded1b1f921e.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Оставьте свой Mac в покое на несколько минут — и произойдёт кое-что прекрасное: экран заполнится тёплым свечением текстового режима VGA (80×25), запустится процесс самотестирования (POST) BIOS от AWARD, а затем появится привычное мигающее приглашение командной строки: C:\\&gt;. </p><p>Здесь не происходит ровным счётом ничего полезного. FakeDOS — это чистой воды симуляция. Каждая введённая вами команда порождает тщательно проработанный, но фальшивый результат. </p><p>Файлы не считываются, не записываются, не перемещаются и не удаляются. Сетевые соединения не устанавливаются. Процессы не запускаются. Диски не форматируются. Если вы введёте команду FORMAT C:, FakeDOS покажет пугающе реалистичный процесс форматирования — со счётчиком процентов и индикацией головок/цилиндров, — однако ваш реальный диск останется совершенно нетронутым. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/17/1d/e2/171de250da86a98711727c033a22fd80.png\" width=\"950\" height=\"508\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/17/1d/e2/171de250da86a98711727c033a22fd80.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/17/1d/e2/171de250da86a98711727c033a22fd80.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Если вы введёте DEL <em>.</em>, ничего не удалится. Никогда. Программа имитирует, притворяется, убедительно лжёт. Но она никогда, ни при каких обстоятельствах не затрагивает вашу реальную систему. Это не терминал. Не эмулятор. И (вероятно) никакой связи с Пентагоном.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ea/ac/18/eaac18f781b52c0b287d8b7454676617.png\" width=\"960\" height=\"884\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ea/ac/18/eaac18f781b52c0b287d8b7454676617.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ea/ac/18/eaac18f781b52c0b287d8b7454676617.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Оставьте свой Mac в покое на несколько минут — и он превращается в ПК из 1990-х: BIOS от AWARD отсчитывает 32 МБ оперативной памяти, начинает мигать курсор в режиме VGA, а затем — словно призрак — кто-то начинает набирать текст. Система загружается. Зависает. Пытается дозвониться куда-то. И при этом очень убедительно выдаёт знакомые ошибки.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/34/f9/40/34f940fab98b20039d9b6ea25a261c16.png\" width=\"640\" height=\"400\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/34/f9/40/34f940fab98b20039d9b6ea25a261c16.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/34/f9/40/34f940fab98b20039d9b6ea25a261c16.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Идеально подходит для: </p><ul><li><p>конференц-зала, где совсем не нужны всплывающие уведомления из Slack;</p></li><li><p>создания образа 12-летнего подростка, запускающего тест производительности Landmark;</p></li><li><p>розыгрыша коллеги — пусть думает, что у вас «поехала крыша»;</p></li><li><p>того, чтобы окружающие наконец оставили вас в покое.</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/45/d0/7b/45d07b61578ed84be3abf14b4b2e84c7.png\" width=\"965\" height=\"909\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/45/d0/7b/45d07b61578ed84be3abf14b4b2e84c7.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/45/d0/7b/45d07b61578ed84be3abf14b4b2e84c7.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><a href=\"https://www.virustotal.com/gui/file/173aff59ed3b2956836f9d410d2ad6944b771b0b665719f2a46c91a4dca899de?nocache=1\" rel=\"noopener nofollow\">Проверка</a> файла FakeDOS.dmg на VirusTotal:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ed/a1/68/eda1683a0760ac9856a6463dbe3d363a.png\" width=\"1916\" height=\"756\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ed/a1/68/eda1683a0760ac9856a6463dbe3d363a.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ed/a1/68/eda1683a0760ac9856a6463dbe3d363a.png 781w\" loading=\"lazy\" decode=\"async\"/></figure></div>",
+  "tags": [
+    {
+      "titleHtml": "FakeDOS"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106052/1521b05c686446ff91baa4e916799d69/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106052/1521b05c686446ff91baa4e916799d69/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106052\\/\"},\"headline\":\"Представлен FakeDOS 2.0 — скринсейвер для macOS\",\"datePublished\":\"2026-11-10T14:21:39+03:00\",\"dateModified\":\"2026-11-10T14:49:12+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В&nbsp;открытом доступе опубликован проект FakeDOS 2.0 . Это скринсейвер для&nbsp;macOS, который с&nbsp;пиксельной точностью имитирует работу компьютера...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106052\\/#post-content-body\",\"about\":[\"h_osx_dev\",\"h_swift\",\"h_history\",\"h_sys_admin\",\"h_soft\",\"f_develop\",\"f_admin\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/47\\/26\\/d0\\/4726d0a22771a74853a8f1836fa69e7e.png\",\"https:\\/\\/habrastorage.org\\/extt\\/b5\\/54\\/4c\\/b5544c9ca87c799bf9b6f6740c56b1ae.png\",\"https:\\/\\/habrastorage.org\\/extt\\/f7\\/62\\/2d\\/f7622d4024bc0cea685b5ded1b1f921e.png\",\"https:\\/\\/habrastorage.org\\/extt\\/17\\/1d\\/e2\\/171de250da86a98711727c033a22fd80.png\",\"https:\\/\\/habrastorage.org\\/extt\\/ea\\/ac\\/18\\/eaac18f781b52c0b287d8b7454676617.png\",\"https:\\/\\/habrastorage.org\\/extt\\/34\\/f9\\/40\\/34f940fab98b20039d9b6ea25a261c16.png\",\"https:\\/\\/habrastorage.org\\/extt\\/45\\/d0\\/7b\\/45d07b61578ed84be3abf14b4b2e84c7.png\",\"https:\\/\\/habrastorage.org\\/extt\\/ed\\/a1\\/68\\/eda1683a0760ac9856a6463dbe3d363a.png\"]}",
+    "metaDescription": "В&nbsp;открытом доступе опубликован проект FakeDOS 2.0 . Это скринсейвер для&nbsp;macOS, который с&nbsp;пиксельной точностью имитирует работу компьютера с&nbsp;DOS. FakeDOS появился в 1991 году как...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

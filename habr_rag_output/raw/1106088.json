@@ -1,0 +1,219 @@
+{
+  "id": "1106088",
+  "timePublished": "2026-11-10T12:17:12+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "В «Яндексе» восстановили доступ к 97,16% данных клиентов Yandex Cloud и включили резервное копирование по умолчанию",
+  "leadData": {
+    "textHtml": "<p>В «Яндексе» <a href=\"https://yandex.ru/company/news/10-11-2026-01\" rel=\"noopener nofollow\">сообщили</a>, что инженеры компании восстановили доступ более чем к 97% данных клиентов <a href=\"https://yandex.cloud/ru\" rel=\"noopener nofollow\">Yandex Cloud</a> и включили резервное копирование по умолчанию. Доступ к 2,8% клиентских данных в Yandex Cloud после атак оказалось восстановить невозможно из-за критических повреждений оборудования и отсутствия у клиентов бэкапов на платформе.</p>",
+    "imageUrl": "https://habrastorage.org/extt/2e/59/49/2e59497e4c08b97120412ceb454d3f32.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/2e/59/49/2e59497e4c08b97120412ceb454d3f32.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "780987",
+    "alias": "denis-19",
+    "fullname": "Денис",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/6a0/f31/235/6a0f31235bb26134f3c7a741c03e4efb.jpg",
+    "speciality": "Информационная служба Хабра, без использования ИИ",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1069,
+      "votesCount": 2027
+    },
+    "rating": 881.5,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "1024K+"
+  },
+  "statistics": {
+    "commentsCount": 4,
+    "favoritesCount": 5,
+    "readingCount": 1423,
+    "score": 13,
+    "votesCount": 9,
+    "votesCountPlus": 8,
+    "votesCountMinus": 1,
+    "reach": 9083,
+    "readers": 1061
+  },
+  "hubs": [
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21470",
+      "alias": "cloud_services",
+      "type": "collective",
+      "title": "Облачные сервисы",
+      "titleHtml": "Облачные сервисы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "6398",
+      "alias": "it-infrastructure",
+      "type": "collective",
+      "title": "IT-инфраструктура",
+      "titleHtml": "IT-инфраструктура",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21906",
+      "alias": "history",
+      "type": "collective",
+      "title": "История IT",
+      "titleHtml": "История IT",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/2e/59/49/2e59497e4c08b97120412ceb454d3f32.png\" width=\"1305\" height=\"668\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/2e/59/49/2e59497e4c08b97120412ceb454d3f32.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/2e/59/49/2e59497e4c08b97120412ceb454d3f32.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В «Яндексе» <a href=\"https://yandex.ru/company/news/10-11-2026-01\" rel=\"noopener nofollow\">сообщили</a>, что инженеры компании восстановили доступ более чем к 97% данных клиентов <a href=\"https://yandex.cloud/ru\" rel=\"noopener nofollow\">Yandex Cloud</a> и включили резервное копирование по умолчанию. Доступ к 2,8% клиентских данных в Yandex Cloud после атак оказалось восстановить невозможно из-за критических повреждений оборудования и отсутствия у клиентов бэкапов на платформе.</p><blockquote><p>Инженеры Яндекса после атак на дата-центры смогли вернуть доступ к 97,16% клиентских данных в Yandex Cloud. Оставшиеся 2,84% восстановить невозможно из-за критических повреждений оборудования и отсутствия у клиентов бэкапов на платформе.</p><p>У клиентов, которые использовали инструменты резервного копирования Yandex Cloud, потерь данных не произошло — сохранены все 100%.</p><p>После атак Yandex Cloud поменяла подход к бэкапам. Раньше резервное копирование нужно было активировать самостоятельно. Теперь при создании новых виртуальных машин оно включено по умолчанию. Услуга доступна на прежних условиях. От резервного копирования можно отказаться, но оно остаётся базовым способом снизить риски при непредвиденных обстоятельствах.</p><p>Инженеры продолжают распределять вычислительные ресурсы Yandex Cloud по новым независимым локациям в разных регионах РФ. Количество локаций продолжит увеличиваться.</p></blockquote><p>Ранее в «Яндексе» часть данных и связанных сервисов клиентов Yandex Cloud перенесли в новую локацию, заработавшую 23 октября. Пользовательский доступ к ним начал открываться поэтапно. Клиентам стали доступны основные возможности платформы: создание виртуальных машин и баз данных, сервисы защиты от киберугроз и ИИ-инструменты.</p><p>Также в «Яндексе» <a href=\"https://habr.com/ru/articles/1099510/\" rel=\"noopener nofollow\">заявили</a>, что суперкомпьютеры «Ляпунов», «Галушкин» и «Червоненкис» не пострадали в результате атак на дата‑центры компании. Все три суперкомпьютера «Яндекса» вывезены из ранее расположенных локаций и разворачиваются в качестве самостоятельных вычислительных кластеров на новых разных площадках. После запуска оборудование снова войдёт в инфраструктуру сервисов «Яндекса». Кроме того, на нём продолжат обучать фундаментальные языковые модели.</p><p>20 октября в «Яндексе» <a href=\"https://t.me/yandex360blog/3763\" rel=\"noopener nofollow\">сообщили</a>, что продолжают восстанавливать полную функциональность «Яндекс 360», а основные возможности сервиса продолжают штатно работать: можно вести переписку в «Почте», встречаться онлайн в «Телемосте», работать с «Документами», планировать дела в «Календаре» и многое другое. </p><p>Ранее часть файлов на «Яндекс Диске» у пользователей стала <a href=\"https://habr.com/ru/articles/1092652/\" rel=\"noopener nofollow\">недоступна</a> (они отображаются в интерфейсе, но не скачиваются, у некоторых также пропали превью). В «Яндексе» намеренно <a href=\"https://habr.com/ru/news/1092992/\" rel=\"noopener nofollow\">ограничили</a> часть возможностей сервисов «Яндекс 360», включая «Диск», чтобы снизить нагрузку на инфраструктуру и сохранить работоспособность основных функций.</p><p>Глава Минцифры РФ Максут Шадаев <a href=\"https://habr.com/ru/news/1094422/\" rel=\"noopener nofollow\">сообщил</a> СМИ, что ведомство помогло «Яндексу» найти дополнительные площадки для переноса ключевых систем после атаки на дата‑центры. Компания оперативно перевела свои IT‑системы на заранее подготовленные резервные площадки, чтобы сохранить доступность сервисов. Оставшиеся системы также переносят на сторонние мощности.</p><p>В октябре директор по стратегическому маркетингу «Яндекса» Андрей Себрант <a href=\"https://habr.com/ru/news/1093056/\" rel=\"noopener nofollow\">заявил</a>, что нынешний инфраструктурный сбой оказался серьёзнее сценария потери одного дата‑центра, который компания регулярно отрабатывала на учениях. По его словам, сервисы восстанавливают поэтапно, а в ликвидации последствий «Яндексу» помогают другие компании отрасли.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "яндекс"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106088/6459bd73bff71718e88cbb2b09304b3f/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106088/6459bd73bff71718e88cbb2b09304b3f/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106088\\/\"},\"headline\":\"В «Яндексе» восстановили доступ к 97,16% данных клиентов Yandex Cloud и включили резервное копирование по умолчанию\",\"datePublished\":\"2026-11-10T15:17:12+03:00\",\"dateModified\":\"2026-11-10T15:27:52+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В «Яндексе» сообщили , что инженеры компании восстановили доступ более чем к 97% данных клиентов Yandex Cloud и включили резервное копирование по умолчанию....\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106088\\/#post-content-body\",\"about\":[\"h_sys_admin\",\"h_infosecurity\",\"h_cloud_services\",\"h_it-infrastructure\",\"h_history\",\"f_develop\",\"f_admin\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/2e\\/59\\/49\\/2e59497e4c08b97120412ceb454d3f32.png\"]}",
+    "metaDescription": "В «Яндексе» сообщили , что инженеры компании восстановили доступ более чем к 97% данных клиентов Yandex Cloud и включили резервное копирование по умолчанию. Доступ к 2,8% клиентских данных в Yandex...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

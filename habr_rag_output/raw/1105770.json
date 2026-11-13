@@ -1,0 +1,206 @@
+{
+  "id": "1105770",
+  "timePublished": "2026-11-10T07:02:19+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Сотрудник облачного провайдера Railway попытался взломать инфраструктуру конкурента с помощью ИИ",
+  "leadData": {
+    "textHtml": "<p>Основатель облачной хостинг‑платформы Primcloud Джош Мандерс обвинил работника конкурирующей компании Railway в&nbsp;попытке взлома. По&nbsp;данным Мандерса, Джейк Разнер, сотрудник Railway, попытался проникнуть в&nbsp;инфраструктуру Primcloud.</p><p>На&nbsp;заявление Мандерса отреагировал и генеральный директор Railway Джейк Купер, и сам сотрудник, который <a href=\"https://x.com/jakerunzer/status/2117474337682780643\" rel=\"noopener nofollow\">признал </a>свою причастность к&nbsp;инциденту, однако отрицал злой умысел. По&nbsp;его словам, он тестировал автономные алгоритмы для&nbsp;создания аккаунтов на&nbsp;сторонних платформах, однако ИИ‑агент «зашёл слишком далеко».</p>",
+    "imageUrl": "https://habrastorage.org/extt/e5/e7/69/e5e7690eaeab66b18ab8d1ad5a3f4c9b.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/e5/e7/69/e5e7690eaeab66b18ab8d1ad5a3f4c9b.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2082889",
+    "alias": "AnnieBronson",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/bec/8ce/91c/bec8ce91c2b3aeef404907f97367d517.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 200,
+      "votesCount": 842
+    },
+    "rating": 291.8,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 389,
+    "score": 6,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 6446,
+    "readers": 303
+  },
+  "hubs": [
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21470",
+      "alias": "cloud_services",
+      "type": "collective",
+      "title": "Облачные сервисы",
+      "titleHtml": "Облачные сервисы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "6398",
+      "alias": "it-infrastructure",
+      "type": "collective",
+      "title": "IT-инфраструктура",
+      "titleHtml": "IT-инфраструктура",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e5/e7/69/e5e7690eaeab66b18ab8d1ad5a3f4c9b.jpg\" width=\"644\" height=\"476\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e5/e7/69/e5e7690eaeab66b18ab8d1ad5a3f4c9b.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/e5/e7/69/e5e7690eaeab66b18ab8d1ad5a3f4c9b.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Основатель облачной хостинг‑платформы Primcloud Джош Мандерс обвинил работника конкурирующей компании Railway в попытке взлома. По данным Мандерса, Джейк Разнер, сотрудник Railway, попытался проникнуть в инфраструктуру Primcloud.</p><p>«Эй, @Railway, вы зачем пытаетесь взломать мою инфраструктуру? Ваш сотрудник Джейк Ранзер только что попробовал это сделать», — <a href=\"https://x.com/joshmanders/status/2117458724407415295\" rel=\"noopener nofollow\">написал </a>он в X. </p><p>На заявление Мандерса отреагировал и генеральный директор Railway Джейк Купер, и сам сотрудник, который <a href=\"https://x.com/jakerunzer/status/2117474337682780643\" rel=\"noopener nofollow\">признал </a>свою причастность к инциденту, однако отрицал злой умысел. По его словам, он тестировал автономные алгоритмы для создания аккаунтов на сторонних платформах, однако ИИ‑агент «зашёл слишком далеко».</p><p>Как <a href=\"https://x.com/JustJake/status/2117746864745578719\" rel=\"noopener nofollow\">объяснил </a>позже Джейк Купер, Разнер в свободное от работы время создал инструмент для «проактивного поиска и сообщения об уязвимостях» при помощи сервиса на базе DeepSeek. Как утверждает глава компании, инструмент запустили один раз, и Разнер остановил его работу «уже через 15 минут после запуска». </p><p>«Railway не одобряет подобные действия. Мы обсудили этот инцидент непосредственно с сотрудником и приняли соответствующие меры», — написал Купер, добавив, что отныне в Railway вводится запрет на автоматическое тестирование моделей на внешних ресурсах.</p><p>Как отмечают юристы, способность ИИ‑агентов действовать самостоятельно мешает точно определить, кто именно несёт ответственность в подобных случаях. Как объясняет главный юрисконсульт компании Unit 221B Марк Раш, чтобы наказать кого‑то за подобный взлом, нужно доказать, что ИИ‑агент действительно предпринял попытку несанкционированного доступа к чужим системам, а также что пользователь намеренно дал ему такое указание. Вторую часть — доказательство умысла на незаконное проникновение — доказать особенно сложно. </p><p>Элиму Каджунджу, юрист в сфере кибербезопасности из фирмы Rimon Law, отмечает, что ответчики могут попытаться переложить вину на разработчиков ИИ‑агентов. Однако, по его словам, такие доводы становится всё труднее защищать.</p><p>«Подобные случаи происходили неоднократно. Уже нельзя делать вид, что [подобная атака] стала сюрпризом», — считает он.</p><p>В июле 2026 года исследователи Sysdig <a href=\"https://habr.com/ru/articles/1024436/\" rel=\"noopener nofollow\">описали </a>первую в истории полностью автономную атаку программы‑вымогателя, выполненную ИИ‑агентом без участия человека. В этом же месяце ИИ‑агент OpenAI во время тестирования вышел из песочницы через уязвимости в ПО JFrog и <a href=\"https://habr.com/ru/articles/1060606/\" rel=\"noopener nofollow\">получил доступ </a>к инфраструктуре Hugging Face.</p><p>На прошлой неделе хакеры с помощью ИИ‑агентов <a href=\"https://www.gitbook.com/status/security-incident-2026-11-03?ref=explainx\" rel=\"noopener nofollow\">взломали</a> GitBook — ключи доступа к GitHub и другим сервисам пользователей платформы оказались под угрозой. В GitBook экстренно <a href=\"https://explainx.ai/blog/gitbook-security-incident-ai-agents-attacker-api-tokens-revoked-rotate-secrets-2026\" rel=\"noopener nofollow\">аннулировали</a> API‑токены всех пользователей.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "ии-агенты"
+    },
+    {
+      "titleHtml": "взлом"
+    },
+    {
+      "titleHtml": "облачные сервисы"
+    },
+    {
+      "titleHtml": "deepseek"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105770/8eee6b1d82437315915b343c34361e5a/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105770/8eee6b1d82437315915b343c34361e5a/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105770\\/\"},\"headline\":\"Сотрудник облачного провайдера Railway попытался взломать инфраструктуру конкурента с помощью ИИ\",\"datePublished\":\"2026-11-10T10:02:19+03:00\",\"dateModified\":\"2026-11-10T10:26:26+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Основатель облачной хостинг‑платформы Primcloud Джош Мандерс обвинил работника конкурирующей компании Railway в&nbsp;попытке взлома. По&nbsp;данным Мандерса,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105770\\/#post-content-body\",\"about\":[\"h_artificial_intelligence\",\"h_cloud_services\",\"h_infosecurity\",\"h_it-infrastructure\",\"f_develop\",\"f_admin\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/e5\\/e7\\/69\\/e5e7690eaeab66b18ab8d1ad5a3f4c9b.jpg\"]}",
+    "metaDescription": "Основатель облачной хостинг‑платформы Primcloud Джош Мандерс обвинил работника конкурирующей компании Railway в&nbsp;попытке взлома. По&nbsp;данным Мандерса, Джейк Разнер, сотрудник Railway, попытался...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,230 @@
+{
+  "id": "1106016",
+  "timePublished": "2026-11-10T11:05:54+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Октябрьский дайджест — видео и логи запросов в AI Gateway, PR-стенды и серверы с GPU",
+  "leadData": {
+    "textHtml": "<p>За окном то дождь, то первый снег — лучшее время остаться дома и разобраться с обновлениями. Тем более что новинок в октябре столько, что одной памяти на всех недостаточно. Поэтому мы выдали ее еще и AI-агентам.</p><p>Релизов хватит на пару вечеров: видео в AI Gateway, дашборд расходов, стенды для pull request и серверы с видеокартами. А в Амстердаме тем временем закончился переезд. И это только первая половина всего, что было.&nbsp;</p>",
+    "imageUrl": "https://habrastorage.org/extt/88/06/90/88069017430c051725a0f31f8f252106.jpg",
+    "buttonTextHtml": "Смотрим все по порядку &darr;",
+    "image": {
+      "url": "https://habrastorage.org/extt/88/06/90/88069017430c051725a0f31f8f252106.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2411459",
+    "alias": "Timeweb_Cloud",
+    "fullname": "Timeweb Cloud",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/487/0c5/8e2/4870c58e2fe614b68e7d1c3f8af40d5a.png",
+    "speciality": "Редактор блога Timeweb",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 106,
+      "votesCount": 302
+    },
+    "rating": 28.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 7,
+    "readingCount": 154,
+    "score": 12,
+    "votesCount": 8,
+    "votesCountPlus": 8,
+    "votesCountMinus": 0,
+    "reach": 6142,
+    "readers": 103
+  },
+  "hubs": [
+    {
+      "id": "17357",
+      "alias": "timeweb",
+      "type": "corporative",
+      "title": "Блог компании Timeweb Cloud",
+      "titleHtml": "Блог компании Timeweb Cloud",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21470",
+      "alias": "cloud_services",
+      "type": "collective",
+      "title": "Облачные сервисы",
+      "titleHtml": "Облачные сервисы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "6398",
+      "alias": "it-infrastructure",
+      "type": "collective",
+      "title": "IT-инфраструктура",
+      "titleHtml": "IT-инфраструктура",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>За окном то дождь, то первый снег — лучшее время остаться дома и разобраться с обновлениями. Тем более что новинок в октябре столько, что одной памяти на всех недостаточно. Поэтому мы выдали ее еще и AI-агентам.</p><p>Релизов хватит на пару вечеров: видео в AI Gateway, дашборд расходов, стенды для pull request и серверы с видеокартами. А в Амстердаме тем временем закончился переезд. И это только первая половина всего, что было. </p><p>Смотрим все по порядку ↓</p><h2>❯ Переезд в Амстердаме завершен</h2><p>Зона AMS-1 полностью переехала в дата-центр NorthC. Инфраструктуру перенесли один в один, с теми же конфигурациями и архитектурой.</p><p>За неполные три месяца перевезли 300 физических серверов, 65 000 виртуальных машин и оборудование примерно из 30 стоек. Десятки тысяч проектов всё это время продолжали работать. Вышло чуть дольше, чем мы рассчитывали, но быстрее, чем прошлый переезд в этой локации.</p><p>До конца года обновим магистраль и агрегацию, а в начале следующего повысим отказоустойчивость на уровне стоек. Параллельно ждем от площадки решения по расширению и смотрим дополнительные варианты размещения.</p><p><a href=\"https://t.me/timewebru/2219?roistat_visit=15506141\"><strong>Все подробности в канале →</strong></a></p><h2>❯ Сам себе режиссер</h2><p>Рекламный ролик, анимация товара, вертикальное видео для соцсетей теперь делаются через AI Gateway, по тому же API и ключу, что и текст — подключили модели для видео.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/6c/fa/7e/6cfa7e7106b4cb1fe834f58b888e5004.png\" alt=\"ИИ-модели для видео\" title=\"\" width=\"1440\" height=\"924\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/6c/fa/7e/6cfa7e7106b4cb1fe834f58b888e5004.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/6c/fa/7e/6cfa7e7106b4cb1fe834f58b888e5004.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><ul><li><p><strong>Veo 3.1</strong> от Google — ролик сразу со звуком</p></li><li><p><strong>Kling 3.0</strong> и <strong>O3</strong> от Kuaishou — сцена из нескольких планов с одним героем</p></li><li><p><strong>Seedance 2.0</strong> и <strong>2.5</strong> от ByteDance — динамичная реклама с движением камеры</p></li><li><p><strong>Gen-4.5</strong> и <strong>Gen-4 Turbo</strong> от Runway — анимация фото товара</p></li><li><p><strong>Hailuo 3</strong> и <strong>H3 Max</strong> от MiniMax — вертикальный ролик для соцсетей</p></li><li><p><strong>Wan 3</strong> и <strong>Wan 3 Prime</strong> от Alibaba — длинный ролик за один проход</p></li></ul><p>А для картинок добавились <strong>Seedream 5</strong> от ByteDance и <strong>Gen-4 Image</strong> от Runway. </p><p>Отправляете через API промпт и, если нужно, картинку, а через несколько минут забираете ролик. Картинки приходят сразу, до четырех за запрос. Чтобы сменить модель, достаточно поменять ее название в запросе. Готовое видео оплачивается за секунды ролика. </p><p><a href=\"https://timeweb.cloud/my/cloud-ai/gateway\"><strong>Снять первый ролик →</strong></a></p><h2>❯ Агент вас запомнит</h2><p>Новый чат — больше не знакомство с нуля. У AI-агентов появилась долговременная память: важное из переписки они сохраняют и учитывают в следующих диалогах.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f8/ce/d2/f8ced20d959b9c792bf92b6b292edcfa.png\" alt=\"2\" title=\"\" width=\"1440\" height=\"924\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f8/ce/d2/f8ced20d959b9c792bf92b6b292edcfa.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/f8/ce/d2/f8ced20d959b9c792bf92b6b292edcfa.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Агент сам находит факты или запоминает то, о чем попросите: «Запомни, что я пишу на TypeScript». В новом чате он вспомнит это без подсказок, а устаревшие факты исправит. </p><p>Всё, что агент знает, видно во вкладке «Память». Там факты можно поправить вручную или удалить, если у вас есть права на управление агентом.</p><p><a href=\"https://timeweb.cloud/my/cloud-ai/agents\"><strong>Рассказать агенту о себе →</strong></a></p><h2>❯ Расходы на виду, запросы под страховкой</h2><p>Почему вырос счет за AI и как сделать, чтобы он не рос дальше? Ответы искать долго не придется — вот что появилось в ИИ-сервисах:</p><p><strong>Дашборд «Активность»</strong> — расходы, запросы и токены по всем ключам AI Gateway и агентам на одной вкладке. Видно, кто тратит больше всех и какие запросы можно перевести на модель подешевле, а в «Трендах» — что растет быстрее всего.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/7c/15/01/7c150193cc4a1bd5c276ec5b5e9b8ff0.png\" alt=\"3\" title=\"\" width=\"1440\" height=\"924\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/7c/15/01/7c150193cc4a1bd5c276ec5b5e9b8ff0.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/7c/15/01/7c150193cc4a1bd5c276ec5b5e9b8ff0.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Логи запросов</strong> — если в общей картине что-то настораживает, в логах AI Gateway по каждому запросу видны модель, токены, стоимость и статус. </p><p><strong>Лимиты в рублях</strong> — чтобы оптимизировать траты, ключам и агентам можно задать суточный лимит в рублях. У ключа также есть отдельные лимиты по моделям. При 80% расхода придет уведомление, а при достижении лимита новые запросы перестанут проходить.</p><p><strong>Batch API </strong>— на задачах, где ответ не нужен сразу, тоже получится сэкономить. Запросы уходят пакетом, до 50 000 за раз, а ответы возвращаются файлом в течение 24 часов. Токены при этом обходятся вдвое дешевле.<a href=\"https://timeweb.cloud/docs/ai-agents/api-usage/batch-api\"> Как отправить пакет →</a></p><p><strong>Резервные модели</strong> — чтобы работа не останавливалась, к ключу можно привязать до двух запасных моделей. Если основная не ответит, запрос сам уйдет на резервную. Оплата только за модель, которая ответила.</p><p><a href=\"https://timeweb.cloud/my/cloud-ai/activity\"><strong>Разобрать свои расходы →</strong></a></p><blockquote><p><strong>Еще плюс 20 моделей</strong></p><p>Кроме моделей для видео, в каталоге появились еще 20 новых моделей.</p><p><strong>Для текста и кода</strong>: GPT-6.1 Sol и Terra, Claude Sonnet 5.5 и Haiku 5.5, Gemini 4 Argon и Gemini 3.5 Flash Lite, Qwen 3.8 Flash, Kimi K3.1 Pro и K3.1 Pro Highspeed, а также три модели Xiaomi — MiMo V2.6 Flash, V2.6 Pro и V2.6 Pro UltraSpeed.</p><p><strong>Локальные модели</strong>:</p><ul><li><p>эмбеддинги BGE M3 и BGE Multilingual Gemma2, реранкеры BGE Reranker v2 M3 и v2 Gemma для поиска по базам знаний</p></li><li><p>распознавание речи GigaAM v3, Whisper Large v3 и Qwen3 ASR</p></li><li><p>синтез речи Qwen3 TTS</p></li></ul><p>А также выбирать из каталога стало проще — по клику на модель в AI Gateway открывается ее карточка с подробностями:</p><ul><li><p>цена и калькулятор «Сколько это будет стоить»</p></li><li><p>контекст, режим рассуждений и вызов функций</p></li><li><p>индексы Artificial Analysis, скорость ответа и доступность за сутки</p></li><li><p>где и кем обрабатываются данные</p></li><li><p>готовый код для подключения по API</p></li></ul><p><a href=\"https://timeweb.cloud/my/cloud-ai/gateway\"><strong>Сравнить новинки →</strong></a></p></blockquote><h2>❯ Открыли Pull Request — получили стенд</h2><p>Ревью проще, когда изменения можно не только прочитать, но и потрогать. Теперь App Platform поднимает отдельную копию приложения с кодом из ветки на каждый pull request.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/fa/99/1c/fa991c43ac4b781af0d4d53f4e19d538.png\" alt=\"5\" title=\"\" width=\"1440\" height=\"924\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/fa/99/1c/fa991c43ac4b781af0d4d53f4e19d538.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/fa/99/1c/fa991c43ac4b781af0d4d53f4e19d538.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Всё просто</strong>: открываете PR в GitHub → App Platform поднимает для ветки стенд → бот Timeweb Cloud Apps оставляет в PR ссылку на него и статус деплоя. Новые коммиты обновляют стенд по тому же адресу, а после закрытия PR он удаляется сам. <a href=\"https://timeweb.cloud/docs/apps/pull-request-stands\">Подробнее о PR-стендах →</a></p><p>Если в новой версии что-то пошло не так, разобраться можно прямо на стенде. Там появился селектор деплоев — видны все деплои со статусами, текущий можно остановить, а к любому прошлому коммиту откатиться.</p><p><a href=\"https://timeweb.cloud/my/apps\"><strong>Проверить ветку на стенде →</strong></a></p><blockquote><p><strong>Пополнение (зоо)парка стека</strong></p><p>В App Platform 12 новых фреймворков. Выбирали те, которые автоопределение находит в репозиториях чаще всего.</p><p><strong>Бэкенд</strong>: Echo и Fiber на Go, aiohttp и Tornado на Python, Quarkus и Micronaut на Java.</p><p><strong>Фронтенд</strong>: Astro, Remix, SvelteKit, TanStack Start, Solid и SolidStart. Все, кроме Solid, поддерживают серверный рендеринг (SSR).</p><p><strong>Версии языков</strong>: Go 1.26 и 1.27, Node.js 26, Python 3.15, Java 27, Elixir 1.20, Bun 1.4 и Rust 1.99.</p><p>А для приложений из Dockerfile или Docker Compose теперь можно указать имя файла и путь к нему. Удобно, если в одном репозитории несколько сервисов.</p><p><a href=\"https://timeweb.cloud/my/apps/create\"><strong>Задеплоить на любимом фреймворке →</strong></a></p></blockquote><h2>❯ Умный, гибкий и приватный — Kubernetes</h2><p>В Kubernetes три обновления: кластер можно спрятать от интернета, подключить к AI Gateway одной настройкой и развести по разным роутерам в одной сети.</p><p><strong>Во-первых, приватный кластер</strong>. При создании кластера у мастер-нод теперь можно отключить публичный адрес. Тогда к API получится обратиться только из приватной сети, а приложения для пользователей работают как обычно. Пригодится, если этого требует политика компании. Подключаться к такому кластеру извне можно через бастион-хост.<a href=\"https://timeweb.cloud/docs/unix-guides/configuring-bastion-host\"> <strong>Как настроить →</strong></a></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/2f/40/ec/2f40ecdce2e56ec597e4bdc2d12365d0.png\" alt=\"Кластер без публичного IP\" title=\"\" width=\"1440\" height=\"924\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/2f/40/ec/2f40ecdce2e56ec597e4bdc2d12365d0.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/2f/40/ec/2f40ecdce2e56ec597e4bdc2d12365d0.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Во-вторых, ИИ-коннектор</strong>. Ключ к AI Gateway для приложений в кластере больше не нужно выпускать вручную. Выбираете в настройках кластера проект, срок действия и namespaces, а коннектор создает ключ и хранит его как секрет. При перевыпуске секреты обновятся сами, без правки манифестов.</p><p><strong>И наконец, роутеры без DHCP</strong>. Роутеру для кластера больше не нужен DHCP. Поэтому у кластеров в одной сети теперь могут быть разные роутеры, например если кластеры в разных проектах.</p><p><a href=\"https://timeweb.cloud/my/kubernetes/create-cluster\"><strong>Спрятать API от посторонних →</strong></a></p><h2>❯ Глаз да глаз за сервисами</h2><p>Чтобы узнать о проблеме с сервером или базой, больше не нужно заходить в панель. В мониторинге появились бесплатные алерты: вы задаете правило, а уведомление приходит на почту, в Телеграм или Макс.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e4/ef/90/e4ef9028e523898b0de296f32bf2767b.png\" alt=\"Бесплатные алерты о состоянии сервисов\" title=\"\" width=\"1440\" height=\"924\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e4/ef/90/e4ef9028e523898b0de296f32bf2767b.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/e4/ef/90/e4ef9028e523898b0de296f32bf2767b.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Правило настраивается в разделе «Мониторинг» → «Алерты»: выбираете сервисы, метрику, порог и то, сколько условие должно держаться. Например, на диске меньше 5 ГБ уже 5 минут или CPU загружен больше чем на 90% уже 10 минут.<a href=\"https://timeweb.cloud/docs/monitoring/alerts\"> <strong>Подробнее об алертах →</strong></a></p><p>Для баз данных работают те же метрики, что и для серверов, плюс свои: доля занятых подключений в PostgreSQL и MySQL и отставание реплики в PostgreSQL. Метрики считаются по каждой ноде кластера, и уведомление придет, если порог превысит любая из них.</p><p>А когда вы все-таки в панели, нагрузку видно прямо в списках серверов, баз и бакетов. В колонке «Суточная нагрузка» — графики за последние 24 часа, а если сервер загружен больше чем на 90%, график краснеет.</p><p><a href=\"https://timeweb.cloud/my/monitoring/alerts\"><strong>Задать первый порог →</strong></a></p><blockquote><p><strong>Выделенные серверы с видеокартами и загранпаспортом</strong></p><p>В октябре выделенные серверы прибавили и в мощности, и в географии.</p><p><strong>47 конфигураций с GPU</strong> в Москве и Петербурге: от RTX A2000 и RTX 4090 до RTX PRO 6000, H100 и H200, в том числе с несколькими видеокартами в одном сервере. Подойдут для AI- и ML-задач, рендеринга и всего, что считается на GPU.</p><p><strong>Конфигуратор</strong>. Если среди готовых сборок нет подходящей, сервер можно собрать самому из железа, которое есть в Москве или Петербурге, в том числе с видеокартой. Оставляете заявку, менеджер рассчитывает стоимость, и мы готовим сервер.</p><p><strong>Варшава, Мадрид и Милан</strong> — три новые локации. Сервер с каналом 1 Гбит/с и 50 ТБ трафика в тарифе будет готов к работе не дольше чем за 30 минут.</p><p><strong>Сборки на Core</strong>. А для задач попроще в Москве и Петербурге появились 4 сборки на Intel Core i3 и i5.</p><p><a href=\"https://timeweb.cloud/my/dedicated/create?os=569&amp;location=ru-3&amp;preset=6511&amp;bandwidth=1008\"><strong>Подобрать сервер с GPU →</strong></a></p></blockquote><h2>❯ Бэкапы добрались до выделенных серверов</h2><p>У выделенных серверов появились бэкапы, и размещаются они там, откуда с сервера их не удалить, — в вашем S3.</p><p>Чтобы бэкапы заработали, скопируйте команду из панели и выполните ее на сервере, она установит агент. Дальше копии делаются по расписанию или вручную: первая полная, потом только изменения. Восстановить данные можно из панели, на место или в отдельный каталог.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/79/37/fc/7937fcb148610733b2279d8051c502cd.png\" alt=\"Бэкапы выделенных серверов\" title=\"\" width=\"1440\" height=\"924\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/79/37/fc/7937fcb148610733b2279d8051c502cd.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/79/37/fc/7937fcb148610733b2279d8051c502cd.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Попадают копии</strong> в холодный бакет в вашем S3 с плашкой «БЭКАПЫ СЕРВЕРА». Копии в нем шифруются. Агент может только добавлять новые копии, удалить их не получится даже его ключом. Лишние копии и те, что вы удалили в панели, стирает наш сервис.</p><p><strong>6 ₽ за ГБ в месяц</strong> — копии стоят столько же, сколько бэкапы облачных серверов. За сам бакет платить не нужно.</p><p><a href=\"https://timeweb.cloud/my/dedicated\"><strong>Подключить бэкапы к серверу →</strong></a></p><h2>❯ Домены по срокам и с заметками</h2><p>Раздел «Домены» теперь сам подсказывает, что продлевать первым, и помнит, зачем вы покупали каждый домен.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/75/50/9e/75509e054a066128b17f3eb7cc11992e.png\" alt=\"Обновления в Доменах\" title=\"\" width=\"1440\" height=\"924\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/75/50/9e/75509e054a066128b17f3eb7cc11992e.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/75/50/9e/75509e054a066128b17f3eb7cc11992e.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Список по умолчанию отсортирован по дате окончания: сверху — домены, уже удаленные регистратором, за ними — те, что истекают раньше всех. Обратный порядок включается кликом по заголовку «Автопродление». Сроки видны и у доменов, зарегистрированных у других регистраторов. Дата окончания стоит под названием, а за 60 дней до нее появится и в колонке «Автопродление», только без кнопки продления.</p><p>А чтобы через полгода не гадать, для какого проекта брали домен, к нему можно оставить <strong>комментарий</strong> в шапке. В общем списке он виден в подсказке у названия.</p><p>Для DNS тоже есть обновления. Все записи домена теперь скачиваются файлом <code>.zone</code> через кнопку «Импорт и экспорт». А если NS-сервер находится на самом домене, вроде <a href=\"http://ns1.example.ru\"><code>ns1.example.ru</code></a> для <a href=\"http://example.ru\"><code>example.ru</code></a>, IP-адрес для glue-записи можно указать прямо в форме настройки NS.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/77/02/de/7702de0d004fa19e06b68e8687a6fba3.png\" alt=\"Импорт и экспорт DNS-записей\" title=\"\" width=\"1440\" height=\"924\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/77/02/de/7702de0d004fa19e06b68e8687a6fba3.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/77/02/de/7702de0d004fa19e06b68e8687a6fba3.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><a href=\"https://timeweb.cloud/my/domains\"><strong>Разобрать свои домены →</strong></a></p><h2>❯ Что где теперь в панели</h2><p>Панель меняется вместе с вашими отзывами: в этот раз пересобрали навигацию и страницы сервисов. Коротко, что где теперь:</p><ul><li><p>меню аккаунта снова в правом верхнем углу</p></li><li><p>поиск свернут в иконку в шапке</p></li><li><p>кнопка виджета с агентом — внизу меню</p></li><li><p>избранное — в основном меню, его можно свернуть</p></li><li><p>«Сообщить о баге» — в меню «Поддержка»</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/96/35/6a/96356a97f364dce44ba1f686065bf60b.png\" alt=\"Обновление интерфейса\" title=\"\" width=\"1440\" height=\"924\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/96/35/6a/96356a97f364dce44ba1f686065bf60b.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/96/35/6a/96356a97f364dce44ba1f686065bf60b.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Свернутое меню</strong> при наведении теперь не выезжает поверх страницы, а рядом с иконками появляются подписи пунктов. </p><p><strong>Поиск стал точнее</strong> и находит не только сервисы и документацию, но и разделы с вкладками. Например, по запросу «ssh» в выдаче появится вкладка «SSH-ключи» из «Облачных серверов», и по клику откроется сразу она.</p><p><strong>Страницы сервисов</strong> тоже стали аккуратнее: название, кнопки и вкладки собраны в одну карточку вверху, а настройки разложены по отдельным плашкам.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/99/4c/fd/994cfda406e08ecdfda3826c9e25f0a4.png\" width=\"1440\" height=\"924\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/99/4c/fd/994cfda406e08ecdfda3826c9e25f0a4.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/99/4c/fd/994cfda406e08ecdfda3826c9e25f0a4.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>А если вы работаете в нескольких аккаунтах, перелогиниваться больше не нужно. Привяжите доп. пользователя, в том числе из другого аккаунта, через «Добавить аккаунт» в меню и переключайтесь между ними прямо оттуда.</p><p><a href=\"https://timeweb.cloud/my/projects\"><strong>Заглянуть в обновленную панель →</strong></a></p><h2>❯ Terraform: больше настроек баз в коде</h2><p>Для тех, кто управляет инфраструктурой через Terraform, вышла версия провайдера 1.8.3. Главное в ней касается баз данных.</p><ul><li><p>Окно обслуживания, автоувеличение диска и защита от удаления теперь задаются в конфигурации. Число реплик меняется без пересоздания кластера.</p></li><li><p>Расширения ставятся в PostgreSQL и RabbitMQ, а параметры топиков Kafka настраиваются из кода.</p></li><li><p>У ресурсов баз данных и Kubernetes появился блок <code>timeouts</code>. Если время вышло, в ошибке виден последний статус ресурса.</p></li></ul><p><a href=\"https://github.com/timeweb-cloud/terraform-provider-timeweb-cloud/releases/tag/v1.8.3?roistat_visit=15506141\"><strong>Все изменения в релизе →</strong></a></p><blockquote><p><strong>Всё, что о нас говорят</strong></p><p>Начнем с главного: мы вошли в топ-10 крупнейших поставщиков IaaS в России по версии TAdviser. Рейтинг оценивает масштаб, а масштаб — это ваши проекты. Спасибо, что вы с нами. </p><p>А куда этот рынок движется дальше, рассказал наш руководитель разработки Михаил Шпаков. Если коротко: десятилетиями облака зарабатывали не только на аренде мощностей, но и на помощи с ними: настроить, обслужить, объяснить. Теперь все чаще помогает ИИ — недаром спрос на агентов в Timeweb Cloud за полгода вырос вчетверо. А вот ответственность за результат ИИ на себя не возьмет. Именно на ней, считает Михаил, рынок и будет зарабатывать дальше. Подробности —<a href=\"https://blogs.forbes.ru/2026/09/30/posle-arendy-na-chem-budut-zarabatyvat-oblachnye-provajdery/?roistat_visit=15506141\"> <strong>в его колонке для Forbes</strong></a><strong>.</strong></p></blockquote><h2>❯ Что читали и лайкали</h2><p>Монады, паяльник, Quake и Луна — коротко о том, что выходило в блогах в октябре.</p><p><a href=\"https://habr.com/ru/companies/timeweb/articles/1090404/?roistat_visit=15506141\"><strong>Перевели разговорник для общения с функциональщиками</strong></a>: монады, функторы, каррирование и еще 60 терминов с примерами на JavaScript. Весь читать необязательно, гораздо удобнее держать под рукой — поэтому сохраняйте в закладки.</p><p><a href=\"https://habr.com/ru/companies/timeweb/articles/1098760/?roistat_visit=15506141\"><strong>Купили тонкий клиент с мертвой памятью</strong></a>, взяли паяльник — и получили домашний сервер на 2 Вт, который еще и тянет OpenArena. Пришлось, правда, перепаять чип и загружать Debian обходным путем.</p><p><a href=\"https://habr.com/ru/companies/timeweb/articles/1095348/?roistat_visit=15506141\"><strong>На каких трюках держалась 3D в играх 90-х</strong></a>: свет в Quake считали заранее, машины в NFS отражались в асфальте, а один чип чуть не обанкротил Nvidia.</p><p><a href=\"https://pikabu.ru/story/ot_mednoy_shakhtyi_do_lunyi_put_margaret_gamilton_14438843?roistat_visit=15506141\"><strong>Путь из шахты до Луны</strong></a>: как Маргарет Гамильтон придумала «программную инженерию», написала код, который не растерялся при посадке «Аполлона-11», а работу в MIT получила броском монеты.</p><hr/><p>Впереди ноябрь, а за ним итоги года, и мы соберем в них всё, что вам понравилось. Агенты запомнят ваши факты, а мы — ваши лайки и комментарии.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "timeweb_дайджест"
+    },
+    {
+      "titleHtml": "gpu"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    },
+    {
+      "titleHtml": "ai gateway"
+    },
+    {
+      "titleHtml": "дашборд"
+    },
+    {
+      "titleHtml": "pull request"
+    },
+    {
+      "titleHtml": "серверы"
+    },
+    {
+      "titleHtml": "видеокарты"
+    },
+    {
+      "titleHtml": "амстердам"
+    },
+    {
+      "titleHtml": "облако"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106016/d610c1da76cee943599280c3b47f14b0/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106016/d610c1da76cee943599280c3b47f14b0/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/timeweb\\/articles\\/1106016\\/\"},\"headline\":\"Октябрьский дайджест — видео и логи запросов в AI Gateway, PR-стенды и серверы с GPU\",\"datePublished\":\"2026-11-10T14:05:54+03:00\",\"dateModified\":\"2026-11-11T19:27:04+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"За окном то дождь, то первый снег — лучшее время остаться дома и разобраться с обновлениями. Тем более что новинок в октябре столько, что одной памяти на всех...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/timeweb\\/articles\\/1106016\\/#post-content-body\",\"about\":[\"c_timeweb\",\"h_artificial_intelligence\",\"h_machine_learning\",\"h_cloud_services\",\"h_it-infrastructure\",\"f_develop\",\"f_admin\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/6c\\/fa\\/7e\\/6cfa7e7106b4cb1fe834f58b888e5004.png\",\"https:\\/\\/habrastorage.org\\/extt\\/f8\\/ce\\/d2\\/f8ced20d959b9c792bf92b6b292edcfa.png\",\"https:\\/\\/habrastorage.org\\/extt\\/7c\\/15\\/01\\/7c150193cc4a1bd5c276ec5b5e9b8ff0.png\",\"https:\\/\\/habrastorage.org\\/extt\\/fa\\/99\\/1c\\/fa991c43ac4b781af0d4d53f4e19d538.png\",\"https:\\/\\/habrastorage.org\\/extt\\/2f\\/40\\/ec\\/2f40ecdce2e56ec597e4bdc2d12365d0.png\",\"https:\\/\\/habrastorage.org\\/extt\\/e4\\/ef\\/90\\/e4ef9028e523898b0de296f32bf2767b.png\",\"https:\\/\\/habrastorage.org\\/extt\\/79\\/37\\/fc\\/7937fcb148610733b2279d8051c502cd.png\",\"https:\\/\\/habrastorage.org\\/extt\\/75\\/50\\/9e\\/75509e054a066128b17f3eb7cc11992e.png\",\"https:\\/\\/habrastorage.org\\/extt\\/77\\/02\\/de\\/7702de0d004fa19e06b68e8687a6fba3.png\",\"https:\\/\\/habrastorage.org\\/extt\\/96\\/35\\/6a\\/96356a97f364dce44ba1f686065bf60b.png\",\"https:\\/\\/habrastorage.org\\/extt\\/99\\/4c\\/fd\\/994cfda406e08ecdfda3826c9e25f0a4.png\"]}",
+    "metaDescription": "За окном то дождь, то первый снег — лучшее время остаться дома и разобраться с обновлениями. Тем более что новинок в октябре столько, что одной памяти на всех недостаточно. Поэтому мы выдали ее еще и...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "digest",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 8,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

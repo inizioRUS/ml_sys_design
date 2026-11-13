@@ -1,0 +1,245 @@
+{
+  "id": "1105674",
+  "timePublished": "2026-11-09T18:54:00+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Не нашёл удобные цепочки прокси на Android. В итоге написал свой VPN-клиент",
+  "leadData": {
+    "textHtml": "<p>Пост о том, как я не нашёл одну функцию в VPN-клиентах и вместо того, чтобы забить, написал собственный. Теперь у меня есть цепочки прокси, редактор тем и вопросы к самому себе.</p>",
+    "imageUrl": "https://habrastorage.org/extt/fa/e9/bf/fae9bfb9058112344e6dbbe230a9b86a.png",
+    "buttonTextHtml": "Как одна функция превратилась в VPN-клиент",
+    "image": {
+      "url": "https://habrastorage.org/extt/fa/e9/bf/fae9bfb9058112344e6dbbe230a9b86a.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "4665877",
+    "alias": "Kaleert",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/extt/98/1f/4a/981f4af025d4ca181e23152a648e81b1.jpg",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 3,
+      "votesCount": 5
+    },
+    "rating": -0.1,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/Kaleert/",
+        "value": "Kaleert",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/wuzeru",
+        "value": "wuzeru",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/Kaleert/",
+        "value": "Kaleert",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/wuzeru",
+        "value": "wuzeru",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 17,
+    "favoritesCount": 19,
+    "readingCount": 1154,
+    "score": 0,
+    "votesCount": 4,
+    "votesCountPlus": 2,
+    "votesCountMinus": 2,
+    "reach": 8960,
+    "readers": 862
+  },
+  "hubs": [
+    {
+      "id": "17107",
+      "alias": "android_dev",
+      "type": "collective",
+      "title": "Android",
+      "titleHtml": "Android",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "22176",
+      "alias": "flutter",
+      "type": "collective",
+      "title": "Flutter",
+      "titleHtml": "Flutter",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "375",
+      "alias": "java",
+      "type": "collective",
+      "title": "Java",
+      "titleHtml": "Java",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "617",
+      "alias": "code_wtf",
+      "type": "collective",
+      "title": "Говнокод",
+      "titleHtml": "Говнокод",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Привет, Хабр!</p><p>Некоторые, возможно, помнят меня по <a href=\"https://habr.com/ru/articles/991414/\" rel=\"noopener nofollow\">статье о Nyagram</a> — моей Java-библиотеке для Telegram-ботов. С тех пор я немного сменил направление. Видимо, одной собственной библиотеки мне оказалось недостаточно, поэтому теперь я взялся за VPN-клиенты.</p><p>На этот раз всё началось с довольно простой проблемы: <strong>мне понадобились цепочки прокси на Android</strong>.</p><p>Я перепробовал несколько клиентов, но так и не нашёл удобного способа собирать цепочки прямо через интерфейс приложения. Возможно, просто плохо искал — не исключаю.</p><p>В основном я пользовался Happ, но на моём устройстве он периодически подлагивал. В какой-то момент мне надоело искать компромиссы, и я решил попробовать написать собственный клиент.</p><p>Так появился <strong>Nextlink</strong>.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/27/4d/66/274d664a16adbe6b6bdb8618a4b91b3c.jpg\" alt=\"Главный экран Nextlink\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/27/4d/66/274d664a16adbe6b6bdb8618a4b91b3c.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/27/4d/66/274d664a16adbe6b6bdb8618a4b91b3c.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Главный экран Nextlink</figcaption></div></figure><h3>Всё началось с цепочек</h3><p>Для меня это была главная причина разработки.</p><p>Хотелось самостоятельно составлять маршруты из нескольких серверов, менять их порядок и комбинировать разные протоколы без постоянного редактирования JSON.</p><p>Например:</p><p><code>Телефон → Германия → Нидерланды → Интернет</code></p><p>В Nextlink я реализовал редактор, позволяющий собирать подобные маршруты непосредственно через интерфейс.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/e3/4f/5f/e34f5f72264117de5e540a709d947abe.jpg\" alt=\"Редактор цепочек Nextlink\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e3/4f/5f/e34f5f72264117de5e540a709d947abe.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/e3/4f/5f/e34f5f72264117de5e540a709d947abe.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Редактор цепочек Nextlink</figcaption></div></figure><p>При этом можно использовать совместимые комбинации разных протоколов, например XHTTP и Hysteria2.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/85/d7/64/85d7648319f9cb62a4bd04a74ec56d4b.jpg\" alt=\"Настройка цепочки прокси\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/85/d7/64/85d7648319f9cb62a4bd04a74ec56d4b.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/85/d7/64/85d7648319f9cb62a4bd04a74ec56d4b.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Настройка цепочки прокси</figcaption></div></figure><p>Конечно, каждый дополнительный узел увеличивает задержку и создаёт ещё одну потенциальную точку отказа.</p><p>Я экспериментировал и с длинными маршрутами. Например, при использовании четырёх узлов сталкивался с забавной проблемой: текстовые сообщения в Telegram отправлялись, а изображения — уже нет.</p><p>С одним или двумя узлами всё работало нормально. Причину поведения длинной цепочки ещё нужно выяснить.</p><p>Впрочем, для моих повседневных задач обычно достаточно двух серверов.</p><h3>А потом захотелось сделать красиво</h3><p>Изначально я не планировал ничего необычного в плане дизайна.</p><p>Но однажды подумал: если уж я пишу собственный клиент, почему бы не дать пользователю возможность настроить его внешний вид?</p><p>Так появилась система пользовательских тем.</p><p>И нет, речь не только о переключении между светлым и тёмным режимом.</p><p>В Nextlink можно изменять оформление приложения, а готовые темы импортировать и экспортировать в формате <code>.nlt</code>.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/90/f5/52/90f552262b2e8602d305cea33c878d50.jpg\" alt=\"Темы оформления Nextlink\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/90/f5/52/90f552262b2e8602d305cea33c878d50.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/90/f5/52/90f552262b2e8602d305cea33c878d50.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Темы оформления Nextlink</figcaption></div></figure><p>Для тех, кому недостаточно готовых вариантов, есть редактор тем.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/98/ce/3c/98ce3c84a004b07da586a60d2783c248.jpg\" alt=\"Редактор тем Nextlink\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/98/ce/3c/98ce3c84a004b07da586a60d2783c248.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/98/ce/3c/98ce3c84a004b07da586a60d2783c248.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Редактор тем Nextlink</figcaption></div></figure><p>Никакой глубокой технической необходимости в этой функции не было. Просто захотелось сделать.</p><p>В результате приложение стало выглядеть совсем не так, как я представлял его в начале разработки.</p><h3>Что получилось в итоге</h3><p>Постепенно Nextlink перестал быть приложением исключительно для цепочек.</p><p>Сейчас он поддерживает Xray, sing-box и AmneziaWG, импорт конфигураций и подписок, маршрутизацию для отдельных приложений, настройки DNS и IPv6, журналы работы и статистику соединений.</p><p>В приложении можно просматривать информацию о выбранном сервере и управлять подключениями.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/25/3c/d4/253cd4e9b1f9eca9eae604d8298dcca9.jpg\" alt=\"Информация о сервере\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/25/3c/d4/253cd4e9b1f9eca9eae604d8298dcca9.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/25/3c/d4/253cd4e9b1f9eca9eae604d8298dcca9.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Информация о сервере</figcaption></div></figure><p>Есть и функция, которую я называю <em>graceful switch</em>.</p><p>При переключении серверов клиент старается сохранить старое рабочее соединение до тех пор, пока новое не будет готово. Если подключение к новому серверу не удалось, не хочется оставаться вообще без VPN.</p><p>Это не гарантирует, что все активные соединения переживут смену маршрута, но позволяет избежать преждевременного отключения.</p><p>Отдельное внимание я уделил настройкам.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/fe/39/16/fe39163193d58a60d99a406e79a6d5c0.jpg\" alt=\"Настройки Nextlink\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/fe/39/16/fe39163193d58a60d99a406e79a6d5c0.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/fe/39/16/fe39163193d58a60d99a406e79a6d5c0.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Настройки Nextlink</figcaption></div></figure><p>При этом я не пытался сделать универсальный интерфейс, в котором абсолютно все функции одинаково работают с любым движком. У Xray, sing-box и AmneziaWG есть собственные особенности и ограничения.</p><h3>Original и Shadow</h3><p>Для распространения приложения я сделал две редакции.</p><p><strong>Original</strong> — более лёгкая сборка, которая загружает необходимые сетевые компоненты и ресурсы отдельно.</p><p><strong>Shadow</strong> — сборка, в которой основные компоненты уже находятся внутри APK.</p><p>В остальном это один и тот же Nextlink с одинаковыми возможностями.</p><p>В первой публичной бете размеры APK составляют приблизительно 21 и 67 МиБ соответственно. Пока готовые релизные сборки ориентированы на Android ARM64.</p><p>Обе редакции доступны на <a href=\"https://github.com/Kaleert/nextlink/releases/tag/v1.0.0-beta%2B4\" rel=\"noopener nofollow\">странице релизов GitHub</a>.</p><h3>Насколько всё стабильно?</h3><p>Сразу скажу: <strong>пока это бета</strong>.</p><p>Я пользуюсь Nextlink сам, но это не означает, что приложение идеально работает на каждом устройстве и с каждой конфигурацией.</p><p>Особенно много нюансов возникает при работе с нативными сетевыми компонентами, различными прошивками Android и нестандартными сочетаниями протоколов.</p><p>Некоторые ошибки проявляются только в определённых условиях, поэтому тестирование на других устройствах сейчас особенно полезно.</p><p>Я продолжаю дорабатывать интерфейс, обработку ошибок и совместимость конфигураций.</p><p>В общем, если что-то сломается — не удивляйтесь. Но желательно расскажите мне об этом, чтобы я мог исправить. :)</p><h3>Открытый исходный код</h3><p>Я решил сделать Nextlink открытым проектом под лицензией <strong>MIT</strong>.</p><p>Исходный код доступен на GitHub. Там же находятся документация, инструкции по сборке и готовые APK.</p><p>Сам Nextlink не предоставляет VPN-серверы и не продаёт подписки. Это клиент, который можно использовать со своими конфигурациями или совместимыми сервисами.</p><p>Открытый код, конечно, не означает автоматического отсутствия ошибок и уязвимостей. Зато позволяет самостоятельно изучить устройство приложения и при желании поучаствовать в разработке.</p><h3>Что дальше?</h3><p>Пока главная задача — довести до ума то, что уже реализовано.</p><p>Хочется улучшить стабильность, проверить больше устройств, разобраться с проблемами нестандартных конфигураций и продолжить работу над интерфейсом.</p><p>Какие-то новые возможности наверняка тоже появятся, хотя специально обещать их заранее не хочу.</p><p>Первые сохранившиеся у меня скриншоты Nextlink датированы 10 сентября 2026 года. Точную дату начала разработки я уже не помню.</p><p>Забавно, что изначально я хотел решить одну конкретную проблему, а в итоге получил целое приложение с несколькими сетевыми движками, цепочками прокси и системой тем.</p><p>И нет, я не считаю, что Nextlink должен заменить все существующие VPN-клиенты.</p><p>Мне просто захотелось сделать инструмент, которым самому будет удобно пользоваться.</p><p>А теперь интересно узнать, окажется ли он полезным кому-то ещё.</p><p><strong>GitHub:</strong> <a href=\"https://github.com/Kaleert/nextlink\" rel=\"noopener nofollow\">https://github.com/Kaleert/nextlink</a></p><p><strong>Скачать первую бету:</strong> <a href=\"https://github.com/Kaleert/nextlink/releases/tag/v1.0.0-beta%2B4\" rel=\"noopener nofollow\">https://github.com/Kaleert/nextlink/releases/tag/v1.0.0-beta%2B4</a></p><p>Буду рад отзывам, сообщениям об ошибках и предложениям.</p><p>И отдельно интересно узнать: <strong>какими VPN-клиентами вы пользуетесь на Android и встречали ли удобную реализацию цепочек прокси?</strong></p><p>Вполне возможно, что нужное приложение всё это время существовало, а я просто умудрился его не найти.</p><p>Хотя теперь уже поздно. :)</p></div>",
+  "tags": [
+    {
+      "titleHtml": "android"
+    },
+    {
+      "titleHtml": "vpn"
+    },
+    {
+      "titleHtml": "proxy"
+    },
+    {
+      "titleHtml": "client"
+    },
+    {
+      "titleHtml": "NextLink"
+    },
+    {
+      "titleHtml": "flutter"
+    },
+    {
+      "titleHtml": "java"
+    },
+    {
+      "titleHtml": "xray"
+    },
+    {
+      "titleHtml": "sing-box"
+    },
+    {
+      "titleHtml": "happ"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105674/c613cbc01fc9ab72dc5848309f4d8c26/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105674/c613cbc01fc9ab72dc5848309f4d8c26/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105674\\/\"},\"headline\":\"Не нашёл удобные цепочки прокси на Android. В итоге написал свой VPN-клиент\",\"datePublished\":\"2026-11-09T21:54:00+03:00\",\"dateModified\":\"2026-11-10T02:24:33+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Привет, Хабр! Некоторые, возможно, помнят меня по статье о Nyagram — моей Java-библиотеке для Telegram-ботов. С тех пор я немного сменил направление. Видимо,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105674\\/#post-content-body\",\"about\":[\"h_android_dev\",\"h_flutter\",\"h_java\",\"h_code_wtf\",\"h_programming\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/27\\/4d\\/66\\/274d664a16adbe6b6bdb8618a4b91b3c.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/e3\\/4f\\/5f\\/e34f5f72264117de5e540a709d947abe.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/85\\/d7\\/64\\/85d7648319f9cb62a4bd04a74ec56d4b.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/90\\/f5\\/52\\/90f552262b2e8602d305cea33c878d50.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/98\\/ce\\/3c\\/98ce3c84a004b07da586a60d2783c248.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/25\\/3c\\/d4\\/253cd4e9b1f9eca9eae604d8298dcca9.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/fe\\/39\\/16\\/fe39163193d58a60d99a406e79a6d5c0.jpg\"]}",
+    "metaDescription": "Привет, Хабр! Некоторые, возможно, помнят меня по статье о Nyagram — моей Java-библиотеке для Telegram-ботов. С тех пор я немного сменил направление. Видимо, одной собственной библиотеки мне оказалось...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "6",
+    "title": "Мобильная разработка",
+    "alias": "mobile_development"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

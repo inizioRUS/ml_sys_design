@@ -1,0 +1,230 @@
+{
+  "id": "1105740",
+  "timePublished": "2026-11-10T03:57:32+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Исследование: во сколько обходится AI‑разработка сайта в зависимости от используемых JavaScript‑фреймворков",
+  "leadData": {
+    "textHtml": "<p>Разработчик Нолан Лоусон (Nolan Lawson) <a href=\"https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/\" rel=\"noopener nofollow\">сравнил</a>, сколько денег и времени требуется нейросетям для&nbsp;разработки одного веб‑приложения на&nbsp;разных JavaScript‑фреймворках. В&nbsp;тестах самым дорогим вариантом оказался Angular, а&nbsp;самым дешёвым&nbsp;— связка Hono и htmx. Разница в&nbsp;медианной стоимости составила почти два раза.</p>",
+    "imageUrl": "https://habrastorage.org/extt/0b/ec/fe/0becfee418c0932b2050550ab45adeae.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/0b/ec/fe/0becfee418c0932b2050550ab45adeae.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2320593",
+    "alias": "daniilshat",
+    "fullname": "Даниил Шатухин",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/165/6b8/929/1656b8929300fbfdbb3bbb0b1721ec87.png",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 300,
+      "votesCount": 580
+    },
+    "rating": 280.7,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/daniilshat/",
+        "value": "daniilshat",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/mrshatukhin",
+        "value": "mrshatukhin",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/daniilshat/",
+        "value": "daniilshat",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/mrshatukhin",
+        "value": "mrshatukhin",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": "423039146555"
+    },
+    "donationsMethod": "wallets",
+    "isInBlacklist": null,
+    "careerProfile": {
+      "careerProfileLink": "https://career.habr.com/daniilshat?utm_source=habr&utm_medium=profile_header&utm_campaign=button_habr_career",
+      "expertProfileLink": null
+    },
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 3,
+    "favoritesCount": 10,
+    "readingCount": 2988,
+    "score": 15,
+    "votesCount": 6,
+    "votesCountPlus": 6,
+    "votesCountMinus": 0,
+    "reach": 10794,
+    "readers": 2445
+  },
+  "hubs": [
+    {
+      "id": "91",
+      "alias": "webdev",
+      "type": "collective",
+      "title": "Веб-разработка",
+      "titleHtml": "Веб-разработка",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "357",
+      "alias": "javascript",
+      "type": "collective",
+      "title": "JavaScript",
+      "titleHtml": "JavaScript",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Разработчик Нолан Лоусон (Nolan Lawson) <a href=\"https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/\" rel=\"noopener nofollow\">сравнил</a>, сколько денег и времени требуется нейросетям для разработки одного веб‑приложения на разных JavaScript‑фреймворках. В тестах самым дорогим вариантом оказался Angular, а самым дешёвым — связка Hono и htmx. Разница в медианной стоимости составила почти два раза.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0b/ec/fe/0becfee418c0932b2050550ab45adeae.jpg\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0b/ec/fe/0becfee418c0932b2050550ab45adeae.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/0b/ec/fe/0becfee418c0932b2050550ab45adeae.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В эксперименте Лоусон поручил Claude Code с моделью Opus 5.5 и высоким уровнем рассуждения разработать каталог покемонов с поиском, фильтрами и реальными данными из PokéAPI. Разработчик проверил 12 вариантов, включая JavaScript без UI‑фреймворков, и запустил каждый вариант по пять раз. У каждого агента было одинаковое задание и функциональные тесты.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/aa/9f/a3/aa9fa3e56b9c3158e0189719ccf94204.jpg\" width=\"1024\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/aa/9f/a3/aa9fa3e56b9c3158e0189719ccf94204.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/aa/9f/a3/aa9fa3e56b9c3158e0189719ccf94204.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>По медианным результатам пяти запусков быстрее всего агент справился с Astro — за 8,2 минуты. Самой дешёвой связкой оказалась Hono с htmx: 2,67 доллара за приложение при времени 8,6 минуты. Худшим вариантом одновременно по двум показателям оказался Angular: 17,2 минуты и 4,97 доллара. Это примерно в два раза дольше и дороже самого быстрого и самого дешёвого вариантов.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/41/42/bb/4142bbb55588ff5d04713175d4069623.jpg\" width=\"1024\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/41/42/bb/4142bbb55588ff5d04713175d4069623.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/41/42/bb/4142bbb55588ff5d04713175d4069623.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ce/77/d4/ce77d4cf049b361599a269e9a8c55cd3.jpg\" width=\"1024\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ce/77/d4/ce77d4cf049b361599a269e9a8c55cd3.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/ce/77/d4/ce77d4cf049b361599a269e9a8c55cd3.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Версия на чистом JavaScript без UI‑фреймворков не стала самой быстрой или экономичной. Агент потратил на разработку 2,98 доллара, а заняло это 10,1 минуту. Вариант с Astro или связкой Hono и htmx опередить не удалось.</p><p>Меньше всего токенов потребовалось Nuxt — 3,85 млн, больше всего Angular — 9,76 млн, примерно в 2,5 раза больше. Основную часть потребления составило повторное чтение кешированного контекста.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/07/6c/72/076c729da2e2bd530adba02ad6c2e742.jpg\" width=\"1024\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/07/6c/72/076c729da2e2bd530adba02ad6c2e742.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/07/6c/72/076c729da2e2bd530adba02ad6c2e742.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Разница в оценках полученных веб‑приложений оказалась небольшой. Медианные показатели производительности Lighthouse составили 97–100 баллов, а доступности — 100.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ad/02/21/ad02218cd93edfb585cdfc5c9fd7dd60.jpg\" width=\"1024\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ad/02/21/ad02218cd93edfb585cdfc5c9fd7dd60.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/ad/02/21/ad02218cd93edfb585cdfc5c9fd7dd60.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure></div>",
+  "tags": [
+    {
+      "titleHtml": "JavaScript"
+    },
+    {
+      "titleHtml": "веб-разработка"
+    },
+    {
+      "titleHtml": "веб-фреймворки"
+    },
+    {
+      "titleHtml": "фронтенд"
+    },
+    {
+      "titleHtml": "разработка"
+    },
+    {
+      "titleHtml": "нейросети"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105740/a179897eb4defcf608915d5b93d0257b/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105740/a179897eb4defcf608915d5b93d0257b/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105740\\/\"},\"headline\":\"Исследование: во сколько обходится AI‑разработка сайта в зависимости от используемых JavaScript‑фреймворков\",\"datePublished\":\"2026-11-10T06:57:32+03:00\",\"dateModified\":\"2026-11-10T09:48:00+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Разработчик Нолан Лоусон (Nolan Lawson) сравнил , сколько денег и времени требуется нейросетям для&nbsp;разработки одного веб‑приложения на&nbsp;разных...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105740\\/#post-content-body\",\"about\":[\"h_webdev\",\"h_artificial_intelligence\",\"h_javascript\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/0b\\/ec\\/fe\\/0becfee418c0932b2050550ab45adeae.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/aa\\/9f\\/a3\\/aa9fa3e56b9c3158e0189719ccf94204.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/41\\/42\\/bb\\/4142bbb55588ff5d04713175d4069623.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/ce\\/77\\/d4\\/ce77d4cf049b361599a269e9a8c55cd3.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/07\\/6c\\/72\\/076c729da2e2bd530adba02ad6c2e742.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/ad\\/02\\/21\\/ad02218cd93edfb585cdfc5c9fd7dd60.jpg\"]}",
+    "metaDescription": "Разработчик Нолан Лоусон (Nolan Lawson) сравнил , сколько денег и времени требуется нейросетям для&nbsp;разработки одного веб‑приложения на&nbsp;разных JavaScript‑фреймворках. В&nbsp;тестах самым...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "4",
+    "title": "Фронтенд",
+    "alias": "frontend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

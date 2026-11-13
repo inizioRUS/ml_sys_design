@@ -1,0 +1,246 @@
+{
+  "id": "1105970",
+  "timePublished": "2026-11-10T10:34:26+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Моё обретение вдумчивого и толкового помощника",
+  "leadData": {
+    "textHtml": "<p>Всё началось с приглашения от <a href=\"https://habr.com/ru/users/little_italy/\" rel=\"noopener nofollow\">@little_italy</a>.</p><p>Я понял, что пора попробовать, тем более редактор ждёт практических историй.</p><p>Для начала я вспомнил весь свой небольшой, но всё же, опыт общения с ИИ. </p><p>Самым курьезным случай произошёл <a href=\"https://habr.com/ru/news/902518/\" rel=\"noopener nofollow\">при издании книги</a>. В издательстве, где я печатал книгу, просто настаивали на проверки ими текста рукописи, хотя у меня была уже готова и верстка книги. При этом они делали упор на то, что текст будет проверен ИИ. Мне стало интересно, тем более, что текст проверялся и перепроверялся, а сам я программист и понимаю цену ИИ (не надо забывать, что всё это происходило более двух лет назад). Вот далеко неполный перечень присланных мне ошибок</p>",
+    "imageUrl": "https://habrastorage.org/extt/53/09/c1/5309c175ea11685b7027acbf72e1c4ab.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/53/09/c1/5309c175ea11685b7027acbf72e1c4ab.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "1306906",
+    "alias": "saipr",
+    "fullname": "Орлов Владимир Николаевич",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/b19/feb/c47/b19febc47487507d1964b241d187427c.png",
+    "speciality": "Программист",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 270,
+      "votesCount": 948
+    },
+    "rating": 4.4,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Сайт",
+        "url": "http://museum.lissi-crypto.ru/",
+        "value": "http://museum.lissi-crypto.ru/",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Сайт",
+        "url": "http://museum.lissi-crypto.ru/",
+        "value": "http://museum.lissi-crypto.ru/",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 4,
+    "favoritesCount": 6,
+    "readingCount": 827,
+    "score": 4,
+    "votesCount": 9,
+    "votesCountPlus": 5,
+    "votesCountMinus": 4,
+    "reach": 6042,
+    "readers": 500
+  },
+  "hubs": [
+    {
+      "id": "19727",
+      "alias": "linux_dev",
+      "type": "collective",
+      "title": "Linux",
+      "titleHtml": "Linux",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "449",
+      "alias": "vector_graphics",
+      "type": "collective",
+      "title": "Векторная графика",
+      "titleHtml": "Векторная графика",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20696",
+      "alias": "study",
+      "type": "collective",
+      "title": "Учебный процесс в IT",
+      "titleHtml": "Учебный процесс в IT",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "2",
+      "alias": "design",
+      "title": "Дизайн",
+      "titleHtml": "Дизайн"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Всё началось с приглашения от <a href=\"https://habr.com/ru/users/little_italy/\" rel=\"noopener nofollow\">@little_italy</a>:</p><blockquote><p><strong>Привет! Меня зовут Катя Равальдини, я редактор из команды Хабра.</strong></p><p><strong>Мы приглашаем авторов хаба Искусственный интеллект поучаствовать в сезоне «Код будущего» — конкурсе статей о том, как ИИ меняет разработку ПО, open source и подходы к информационной безопасности.</strong></p><p><strong>В этом сезоне особенно ждём практические истории: что вы уже попробовали, что сработало, где ИИ действительно ускоряет работу, а где создаёт иллюзию продуктивности.</strong></p></blockquote><p>Я понял, что пора попробовать, тем более редактор ждёт практических историй.</p><p>Для начала я вспомнил весь свой небольшой, но всё же, опыт общения с ИИ. </p><p>Самым курьезным случай произошёл <a href=\"https://habr.com/ru/news/902518/\" rel=\"noopener nofollow\">при издании книги</a>. В издательстве, где я печатал книгу, просто настаивали на проверки ими текста рукописи, хотя у меня была уже готова и верстка книги. При этом они делали упор на то, что текст будет проверен ИИ. Мне стало интересно, тем более, что текст проверялся и перепроверялся, а сам я программист и понимаю цену ИИ (не надо забывать, что всё это происходило более двух лет назад). Вот далеко неполный перечень присланных мне ошибок:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/64/4d/32/644d32da6859dd3fd6be19fa6c7df096.png\" alt=\"&quot;Ошибки&quot; в тексте, найденные ИИ\" title=\"&quot;Ошибки&quot; в тексте, найденные ИИ\" width=\"1280\" height=\"536\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/64/4d/32/644d32da6859dd3fd6be19fa6c7df096.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/64/4d/32/644d32da6859dd3fd6be19fa6c7df096.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>\"Ошибки\" в тексте, найденные ИИ</figcaption></div></figure><p>В первое мгновение мне стало не по себе, количество ошибок зашкаливало. Но успокоившись, я внимательно всё изучил и пришел к выводу, что искусственный и естественный интеллект недалеко ушли друг от друга. Результатом этого анализа стало письмо, которое я отправил своему товарищу: </p><blockquote><p><strong>Понедельник, 20 января 2025, 14:50 -05:00 от </strong><a href=\"mailto:vorlov@xxxx.ru\" rel=\"noopener nofollow\"><strong>vorlov@xxxx.ru</strong></a><strong>:</strong></p><p><strong>На ночь глядя, посмеялся от души!</strong></p><p><strong>Анализ текста проводила какая-то плохенькая программ (ИИ - искусственный интеллект).</strong></p><p><strong>Просто бред.</strong></p><p><strong>Первое не знает буквы Ё, 90% так называемых ошибок.</strong></p><p><strong>Второе, не понимает переноса слов.</strong></p><p><strong>Третье, не знает слов, таких как гусарик, спецпроверки, импортозамещение и тд и тп.</strong></p><p><strong>Так, что можно посмеяться и забыть!</strong></p><p><strong>В. Орлов</strong></p></blockquote><p>И, конечно, был серьёзный разговор с издательством. Все проблемы мы решили.</p><p>Но дискуссию на Хабре, разгоревшуюся после одного моего комментария на эту тему, <a href=\"https://habr.com/ru/news/876778/comments/#comment%5C_27836300\" rel=\"noopener nofollow\">стоит посмотреть</a>:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a1/c9/d5/a1c9d5d0aec229803f2db6b8df7b3bff.png\" alt=\"Обсуждение ИИ на Хабре\" title=\"Обсуждение ИИ на Хабре\" width=\"954\" height=\"476\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a1/c9/d5/a1c9d5d0aec229803f2db6b8df7b3bff.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/a1/c9/d5/a1c9d5d0aec229803f2db6b8df7b3bff.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Обсуждение ИИ на Хабре</figcaption></div></figure><p>Другое общение с ИИ было более приятным для меня. Однажды ИИ социальной сети ВКонтакте вышел ко мне с предложением отметить себя <a href=\"https://habr.com/ru/articles/950592/\" rel=\"noopener nofollow\">на фотографии</a>:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/55/85/ef/5585efae1d031b8e2aa029ed5f9af682.png\" alt=\"Н.С. Михалков и К.Г. Шахназаров\" title=\"Н.С. Михалков и К.Г. Шахназаров\" width=\"647\" height=\"580\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/55/85/ef/5585efae1d031b8e2aa029ed5f9af682.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/55/85/ef/5585efae1d031b8e2aa029ed5f9af682.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Н.С. Михалков и К.Г. Шахназаров</figcaption></div></figure><p>Без ложной скромности скажу, что за свою продолжительную жизнь, особенно в поездках по стране не раз приходилось сталкиваться с тем фактом, что меня часто путали с Никитой Сергеевичем Михалковым, а моя мама просто меня называла «наш Михалков». А люди не просто путали, но и просили автограф. Бывало, что я оставлял автограф, но подписывался своей подписью. Это бывало и в Москве на Пятницкой, и в Минске на железнодорожном вокзале, и в Екатеринбурге в гостинице... Про Чебоксары я просто умалчиваю. Так что в этом случае ИИ можно и понять и простить. А с Н.С. Михалковым мне всё же довелось встретиться и даже обменяться книгами:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/2d/0c/4b/2d0c4bc22a2351ecae7e3435dfd6c4ba.png\" alt=\"Книги\" title=\"Книги\" width=\"1151\" height=\"822\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/2d/0c/4b/2d0c4bc22a2351ecae7e3435dfd6c4ba.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/2d/0c/4b/2d0c4bc22a2351ecae7e3435dfd6c4ba.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Книги</figcaption></div></figure><p>Оставил он мне автограф и на введение к моей книге. А когда я ему рассказал про то, как меня путают с ним, и что я иногда даже даю автограф, он рассмеялся и сказал: «Давай и дальше». А еще на память о той встречи у меня осталась бейсболка. Бейсболка нет, не Трампа, а бейсболка Михалкова:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f6/03/16/f60316dc1808c51cf036218d2bdb8b02.png\" alt=\"Бейсболка от Н.С. Михалкова\" title=\"Бейсболка от Н.С. Михалкова\" width=\"1144\" height=\"556\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f6/03/16/f60316dc1808c51cf036218d2bdb8b02.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/f6/03/16/f60316dc1808c51cf036218d2bdb8b02.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Бейсболка от Н.С. Михалкова</figcaption></div></figure><p>Был еще один опыт общения с ИИ. Оно состоялось ровно год назад в ноябре 2025 года, когда вышла новая модель генерации и редактирования изображений <a href=\"https://habr.com/ru/articles/970220/\" rel=\"noopener nofollow\">Nano Banana Pro</a>. Именно с этого момента я стал  с уважением относиться к ИИ: </p><blockquote><p><strong><em>Я никогда не думал, что фотографии из латвийской тайги из </em></strong><a href=\"https://habr.com/ru/post/585558/\" rel=\"noopener nofollow\"><strong><em>Вентспилс-8</em></strong></a><strong><em> </em></strong> <strong><em>когда-нибудь увижу в цвете, но пришла Nana Babano Pro, и на тебе</em></strong></p></blockquote><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/30/0c/4e/300c4ef4a802edf9be1ceca1fbcaa4b8.png\" alt=\"Вентспилс-8. Работа Nana Babano Pro\" title=\"Вентспилс-8. Работа Nana Babano Pro\" width=\"624\" height=\"232\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/30/0c/4e/300c4ef4a802edf9be1ceca1fbcaa4b8.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/30/0c/4e/300c4ef4a802edf9be1ceca1fbcaa4b8.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Вентспилс-8. Работа <strong><em>Nana Babano Pro</em></strong></figcaption></div></figure><p>К этому времени я уже познакомился с <a href=\"https://habr.com/ru/articles/986070/\" rel=\"noopener nofollow\"><strong><em>Jeff Smith</em></strong></a>, более того он разместил на своём ресурсе демонстрацию моего пэт-проекта <a href=\"https://habr.com/ru/articles/1022016/\" rel=\"noopener nofollow\"><strong><em>svgwidgets</em></strong></a>. Толчком для нашего знакомства послужила его разработка облачной технологии <a href=\"https://wiki.tcl-lang.org/page/CloudTk\" rel=\"noopener nofollow\"><strong><em>CloudTk</em></strong></a> на базе <strong><em>tcl/tk</em></strong>. В тот момент проект <strong><em>CloudTk</em></strong> был заточен под <strong><em>tcl/tk</em></strong> ветки 8.6. </p><p>Пару месяцев назад мне удалось добиться того, чтобы <strong><em>CloudTk</em></strong> заработал и на <strong><em>tcl/tk-9.0</em></strong>, и я написал об этом <strong><em>Jeff Smith</em></strong>:</p><blockquote><p><strong><em>Привет, Джефф, </em></strong></p><p><strong><em>Я отправляю вам сборку CloudTk_8_9.kit. </em></strong></p><p><strong><em>Эта сборка запускает ваш пример TkPool как на Tcl/Tk 8.6, так и на Tcl/Tk 9. </em></strong></p><p><strong><em>Мне пришлось внести несколько незначительных изменений в Xdisplay.tcl и в сам пример tkpool.tcl. </em></strong></p><p><strong><em>Кроме того, мне удалось собрать пакет bgexec для tcl/tk-9.0 через BAWT. </em></strong></p><p><strong><em>С уважением, Владимир</em></strong></p></blockquote><p>И тут мне на глаза попалась <a href=\"https://wiki.tcl-lang.org/page/Enhanced+Standalone+Bgexec+for+Unix+and+Windows\" rel=\"noopener nofollow\">небольшая заметка Jeff Smith</a>. Прочитав ее, я срочно написал письмо <strong><em>Jeff</em></strong> с просьбой прислать мне протоколы его общения с ИИ. <strong><em>Jeff</em></strong>  любезно прислал  протоколы его общения с <strong><em>Claude AI Sonnet 4.6</em></strong>: </p><blockquote><p><a href=\"https://claude-exports-20260916-230548.zip\" rel=\"noopener nofollow\"><strong>claude-exports-20260916-230548.zip</strong></a></p><p>Привет, Владимир! </p><p>Я действительно не понимал, что делаю, и после того, как Клод внес изменения, проводил много тестов самостоятельно, что шло медленно. Позже я попросил Клода провести тестирование, и все стало намного быстрее. </p><p>С уважением Джефф </p><p>&gt;В среду, 16 сентября 2026 г., в 22:26:19 по австралийскому восточному времени, vorlov@xxxxxx.xx написал: </p><p>&gt;Привет, Джефф! В своей статье вы написали: </p><p><strong><em>&gt;Я ничего не знаю о программировании на C, но, учитывая весь ажиотаж вокруг ИИ, мне стало интересно, сможет ли ИИ создать для &gt;меня обертку для Critcl на Tcl 9.0. Последняя версия Critcl 3.3.1 может создавать обертки, работающие как с Tcl 8.6, так и с Tcl 9.0. Мне &gt;же нужна была работа только на Unix, как в Standalone Bgexec, но я подумал, что если ИИ занимается этим, то стоит добавить &gt;поддержку и Windows, так как это может быть полезно и для других операционных систем. </em></strong></p><p>&gt;Извините за беспокойство, но не могли бы вы поделиться своим опытом и показать, как вы это делали (какие подсказки вы использовали для ИИ, его ответы и т. д.)? </p><p>&gt;Возможно, вы могли бы прислать вам журнал переписки? </p><p>&gt;С уважением, Владимир </p></blockquote><p>Чтение присланных протоколов мне доставило искреннее удовольствие. И тут, особенно когда пришло письмо от <strong>Кати Равальдини </strong>(смотри начало статьи), я понял, что время пришло и мне пообщаться с ИИ на тему программирования. Тем более, что с момента начала разработки проекта svgwidgets у меня в голове всё время сидит мысль кое-что доработать в проекте <a href=\"https://github.com/tcltk-depot/tkpath/\" rel=\"noopener nofollow\"><strong><em>tkpath</em></strong></a>. Это кое-что уже частично выполнено, в него уже включена функция <strong><em>tkp::loupe</em></strong> для получения скриншота с экрана. А второе, это использование градиентной заливки для объектов векторной графики (в терминах пакета <strong><em>tkpath</em></strong> это объекты <strong><em>prect, circle, ellipse, path, pline</em></strong> и т.д), включая текст (<strong><em>ptext</em></strong>) и линию (<strong><em>pline</em></strong>), а также распространить действие опции <strong><em>-filloverstrok</em></strong>e на объекты <strong><em>prect, circle, ellipse, path</em></strong>.</p><p>Моё общение с ИИ началось не совсем удачно. Мои попытки зарегистрироваться на каких-то сервисах кончались неудачей: по телефону до меня не могли дозвониться, а на электронную почту ссылка для регистрации приходила спустя несколько часов. На некоторых сервисах дело доходило до оплаты, ни сама оплата не проходила. Я не стал заморачиваться ни на регистрации, ни на оплате. Мне пришла по-своему гениальная мысль: «А что я мучаюсь, может стоит воспользоваться просто поисковиком <strong><em>dzen/yandex</em></strong> или того же <strong><em>google</em></strong>?». И получилось, и без всякой регистрации и платежей.</p><p>Начал я с простого вопроса на <a href=\"http://yandex.ru\" rel=\"noopener nofollow\"><strong><em>yandex.ru</em></strong></a>:  </p><blockquote><p>доработать код пакета tkpath для градиентной заливки обводки графических объектов </p></blockquote><p>На этот вопрос получил обнадеживающий ответ: </p><blockquote><p><strong><em><u>Быстрый ответ Алисы AI</u></em></strong></p><p><strong><em>Содержимое ответа</em></strong></p><p>Доработка пакета </p><p>tkpath</p><p><strong><em>для градиентной заливки и обводки — задача интересная, но требует понимания внутренней архитектуры пакета и аккуратной работы с низкоуровневыми командами. Я подобрала для вас пошаговый план, который поможет избежать типичных ошибок.</em></strong></p><p><strong><em>. . .</em></strong></p></blockquote><p>Уже неплохо. Дальше - больше. Следующим вопросом стал такой:</p><blockquote><p>рабочий пример на языке Си градиентной обводки в cairo 0.99.20 для прямоугольника с другой градиентной заливкой. Изображение сохранить в файле.</p></blockquote><p>И снова Алиса впечатляет меня:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d1/71/f2/d171f25f8b9e6c5c22934d421ac9b92d.png\" alt=\"Код от Алисы\" title=\"Код от Алисы\" width=\"1233\" height=\"552\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d1/71/f2/d171f25f8b9e6c5c22934d421ac9b92d.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d1/71/f2/d171f25f8b9e6c5c22934d421ac9b92d.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Код от Алисы</figcaption></div></figure><p>Но на этом мой восторг от Алисы и закончился. Попытка получить бинарник проваливается, ну не знает  компилятор, что за функция «<strong><em>cairo_gradient_create</em></strong>». Но надо отдать должное Алисе. На мой изумленный вопрос, а где же найти эту функцию, она, не смущаясь, ответила: </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c3/f8/22/c3f8225428820d7af5dc82e6dd8613f2.png\" alt=\"Ответ от Алисы\" title=\"Ответ от Алисы\" width=\"996\" height=\"429\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c3/f8/22/c3f8225428820d7af5dc82e6dd8613f2.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c3/f8/22/c3f8225428820d7af5dc82e6dd8613f2.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Ответ от Алисы</figcaption></div></figure><p>Тут я понял, что yandex/dzen мне не помощники. Но я не терял надежду и решил обратиться к google:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ae/ff/9a/aeff9a5faa677a485a53e0e65362dda7.png\" alt=\"Код от ИИ\" title=\"Код от ИИ\" width=\"1152\" height=\"387\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ae/ff/9a/aeff9a5faa677a485a53e0e65362dda7.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ae/ff/9a/aeff9a5faa677a485a53e0e65362dda7.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Код от ИИ</figcaption></div></figure><pre><code class=\"cpp\">#include &lt;cairo.h&gt;\nint main() {\n    // 1. Создаем поверхность для рисования (изображение 400x300) и контекст cairo\n    cairo_surface_t *surface = cairo_image_surface_create(CAIRO_FORMAT_ARGB32, 400, 300);\n    cairo_t *cr = cairo_create(surface);\n    // Заливаем фон белым цветом\n    cairo_set_source_rgb(cr, 1.0, 1.0, 1.0);\n    cairo_paint(cr);\n    // Параметры нашего прямоугольника\n    double x = 50.0, y = 50.0;\n    double width = 300.0, height = 200.0;\n    // --- ЭТАП 1: ЗАЛИВКА ПРЯМОУГОЛЬНИКА ---\n    // Создаем горизонтальный линейный градиент для заливки (слева направо)\n    cairo_pattern_t *fill_pattern = cairo_pattern_create_linear(x, y, x + width, y);\n    cairo_pattern_add_color_stop_rgb(fill_pattern, 0.0, 0.1, 0.4, 0.8); // Синий\n    cairo_pattern_add_color_stop_rgb(fill_pattern, 1.0, 0.8, 0.1, 0.1); // Красный\n    // Добавляем прямоугольник в текущий векторный контур\n    cairo_rectangle(cr, x, y, width, height);\n    // Устанавливаем паттерн заливки как источник и заполняем контур\n    // (cairo_fill сохраняет контур пустым после выполнения, поэтому для обводки зададим его заново)\n    cairo_set_source(cr, fill_pattern);\n    cairo_fill(cr);\n    // Освобождаем память паттерна заливки\n    cairo_pattern_destroy(fill_pattern);\n    // --- ЭТАП 2: ГРАДИЕНТНАЯ ОБВОДКА ---\n    // Создаем вертикальный линейный градиент для обводки (сверху вниз)\n    cairo_pattern_t *stroke_pattern = cairo_pattern_create_linear(x, y, x, y + height);\n    cairo_pattern_add_color_stop_rgb(stroke_pattern, 0.0, 1.0, 0.8, 0.0); // Желтый\n    cairo_pattern_add_color_stop_rgb(stroke_pattern, 0.5, 0.0, 0.8, 0.2); // Зеленый\n    cairo_pattern_add_color_stop_rgb(stroke_pattern, 1.0, 0.5, 0.0, 0.8); // Фиолетовый\n    // Снова добавляем прямоугольник в контур для выполнения обводки\n    cairo_rectangle(cr, x, y, width, height);\n    // Настраиваем толщину линии обводки\n    cairo_set_line_width(cr, 12.0);\n    // Устанавливаем паттерн обводки как источник и рисуем границы\n    cairo_set_source(cr, stroke_pattern);\n    cairo_stroke(cr);\n    // Освобождаем память паттерна обводки\n    cairo_pattern_destroy(stroke_pattern);\n    // 2. Сохраняем полученный результат в PNG-файл\n    cairo_surface_write_to_png(surface, \"gradient_rect.png\");\n    // 3. Очищаем основные ресурсы cairo\n    cairo_destroy(cr);\n    cairo_surface_destroy(surface);\n    return 0;\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>И совсем вишенкой на торте была инструкция по компиляции кода: </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/71/2c/48/712c48ad742f438bd66d4bfcb8ce7595.png\" alt=\"Инструкция по компиляции от ИИ\" title=\"Инструкция по компиляции от ИИ\" width=\"825\" height=\"237\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/71/2c/48/712c48ad742f438bd66d4bfcb8ce7595.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/71/2c/48/712c48ad742f438bd66d4bfcb8ce7595.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Инструкция по компиляции от ИИ</figcaption></div></figure><p>Я просто выполнил предлагаемую команду и получил бинарник. Но поскольку я хотел получить реализацию опции <strong><em>-filloverstroke</em></strong> для всех графических объектов, поддерживаемых пакетом <strong><em>tkpath</em></strong>, немного пошаманил над этим кодом и в итоге получил прямоугольник, у которого обводка находится на заднем плане:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c4/04/7a/c4047a202dc69fb7d83d2a7686ac7aab.png\" alt=\"Работа кода от ИИ (слева)\" title=\"Работа кода от ИИ (слева)\" width=\"600\" height=\"200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c4/04/7a/c4047a202dc69fb7d83d2a7686ac7aab.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c4/04/7a/c4047a202dc69fb7d83d2a7686ac7aab.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Работа кода от ИИ (слева)</figcaption></div></figure><p>Да, если кто не в курсе или забыл, то напомню, что в svg-графике обводка всегда располагается поверх самого графического объекта. При этом середина обводки совпадает с внешней границей объекта, которому она принадлежит. Это хорошо видно на скриншоте. И именно из-за того, что часть обводки закрывает сам объект, часто бывает полезным (чтобы не закрывала, например, текст) обводку убирать на задний план (-filloverstroke 1). После этого маленького успеха я забыл про чары Алисы.</p><p>И тут мне удалось получить <a href=\"https://chadgpt.ru/claude?utm_source=yadirect&amp;utm_medium=cpc&amp;utm_campaign=%D0%9F%D0%9E%D0%98%D0%A1%D0%9A%7C%7CClaude&amp;utm_content=none_1917633530722804995&amp;utm_term=---autotargeting&amp;etext=2202.vVP2E540wG526sj3tU98UKb0zQDBM85CSY0ZDeLOOYZxc2tja3p3dGNkcndoeWx5.d5cc321b4b9fde6a6481012f0370e4b6eff39e42&amp;yclid=10666835125115289599\" rel=\"noopener nofollow\">доступ к Claude AI Sonnet 4.6</a>:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c6/b0/fa/c6b0faa16a3efb5475756795067ed5e8.png\" alt=\"Доступ к ИИ\" title=\"Доступ к ИИ\" width=\"1607\" height=\"1008\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c6/b0/fa/c6b0faa16a3efb5475756795067ed5e8.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c6/b0/fa/c6b0faa16a3efb5475756795067ed5e8.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Доступ к ИИ</figcaption></div></figure><p>И я повторил свой вопрос: </p><blockquote><p>в проект <a href=\"https://github.com/tcltk-depot/tkpath/\" rel=\"noopener nofollow\">https://github.com/tcltk-depot/tkpath/</a> добавить поддержку градиентной заливки для обводки (опция <strong><em>-stroke</em></strong>)</p></blockquote><p> Ответ вселил в меня надежду, что мы с ИИ справимся с поставленной задачей:</p><blockquote><p><strong><em>Запрос сложный — включил рассуждения</em></strong></p><p><strong><em>Готово!</em></strong></p><p><strong><em>Нужно расширить -stroke, чтобы он принимал цвет или имя градиента, как -fill:</em></strong></p><p><code><strong><em>set g $t[.c gradient create linear \\</em></strong></code></p><p><code><strong><em>    -stops {{0 red} {1 blue}}]</em></strong></code></p><p><code><strong><em>$t.c create prect 20 20 240 140 \\</em></strong></code></p><p><code><strong><em>    -fill {} \\</em></strong></code></p><p><code><strong><em>    -stroke $g \\</em></strong></code></p><p><code><strong><em>    -strokewidth 12</em></strong></code></p><p><strong><em>Это целевой синтаксис после доработки, а не утверждение, что он уже работает.</em></strong></p><p><strong><em>В README проекта указаны три бэкенда: Cairo, CoreGraphics и GDI+. Поэтому одной замены обработчика опции недостаточно: градиент нужно поддержать в модели стиля и при рисовании на каждой платформе.</em></strong></p><p><strong><em>Я посмотрел README и состав generic, но не прочитал реализации файлов. Поэтому не буду выдавать непроверенный diff за готовый патч. Ниже — необходимая схема изменения и самостоятельная реализация для Cairo.</em></strong></p><p><strong><em>Изменения в общей части</em></strong></p><p><strong><em>&lt;дальше шли рекомендации от ИИ&gt;</em></strong></p></blockquote><p>Я не буду здесь описывать весь процесс, но что укрепило мою веру в ИИ. Прежде всего то, что он понял, что придется работать на трех платформах, с разными библиотеками и средами разработки. Скажу, что мне удалось довести доработку проекта почти до конца (не сделал пока для <strong><em>macOS</em></strong>). Когда я показал ИИ доработанный мною код, то он вежливо указал на допущенные мною ошибки и очень толково разъяснил почему и как их исправить. Одна из ошибок была тяжелая в смысле её обнаружения, я переставил местам и параметры в функции создания радиального градиента:</p><blockquote><p><strong><em>5. Исправить radial gradient в старой Cairo-реализации</em></strong></p><p><strong><em>В текущем TkPathPrepareForStroke() radial pattern создаётся так:</em></strong></p><p><code><strong><em>pattern = cairo_pattern_create_radial(</em></strong></code></p><p><code><strong><em>    gradientPtr-&gt;radialFill.radialPtr-&gt;centerX,</em></strong></code></p><p><code><strong><em>    gradientPtr-&gt;radialFill.radialPtr-&gt;centerY, </em></strong></code></p><p><code><strong><em>    0,</em></strong></code></p><p><code><strong><em>    gradientPtr-&gt;radialFill.radialPtr-&gt;focalX,</em></strong></code></p><p><code><strong><em>    gradientPtr-&gt;radialFill.radialPtr-&gt;focalY,</em></strong></code></p><p><code><strong><em>    gradientPtr-&gt;radialFill.radialPtr-&gt;radius);</em></strong></code></p><p><strong><em>Порядок параметров Cairo должен быть:</em></strong></p><p><strong><em> </em></strong><code><strong><em> pattern = cairo_pattern_create_radial(</em></strong></code></p><p><code><strong><em>    gradientPtr-&gt;radialFill.radialPtr-&gt;focalX,</em></strong></code></p><p><code><strong><em>    gradientPtr-&gt;radialFill.radialPtr-&gt;focalY,</em></strong></code></p><p><code><strong><em>    0.0,</em></strong></code></p><p><code><strong><em>    gradientPtr-&gt;radialFill.radialPtr-&gt;centerX,</em></strong></code></p><p><code><strong><em>    gradientPtr-&gt;radialFill.radialPtr-&gt;centerY,</em></strong></code></p><p><code><strong><em>    gradientPtr-&gt;radialFill.radialPtr-&gt;radius);  </em></strong></code></p></blockquote><p>Эти параметры имеют один тип и находятся в одной области значений. Увидел ИИ и то, что я не обрабатываю опцию <strong><em>-units</em></strong> и подсказал как это сделать. </p><p>ИИ обнаружил ошибку в моём <strong><em>C</em></strong>-коде и для <strong><em>Windows</em></strong>:</p><blockquote><p><strong><em>6. GDI+: исправить тип opacity</em></strong></p><p><strong><em>В tkWinGDIPlusPath.cpp сейчас есть ошибки:</em></strong></p><p><code><strong><em>int strokeOpacity = style-&gt;strokeOpacity;</em></strong></code></p><p><strong><em>и:</em></strong></p><p><code><strong><em>int fillOpacity = style-&gt;fillOpacity;</em></strong></code></p><p><strong><em>Они отбрасывают дробную часть. Например, 0.5 превращается в 0.</em></strong></p><p><strong><em>Замените на:</em></strong></p><p><code><strong><em>double strokeOpacity = style-&gt;strokeOpacity;</em></strong></code></p><p><strong><em>и:</em></strong></p><p><code><strong><em>double fillOpacity = style-&gt;fillOpacity;</em></strong></code></p><p><strong><em>Это нужно сделать в:</em></strong></p><p><strong><em>PathC::StrokeGradient()</em></strong></p><p><strong><em>PathC::FillGradient()</em></strong></p></blockquote><p>Я исправил все свои ошибки  и провёл тестирование. </p><p>Кстати, сегодня утром <strong><em>Jeff Smith</em></strong> обновил по моей просьбе демонстрацию на своем сервере. Обновление заключалось в установке новой версии пакета <strong><em>tkpath</em></strong>:</p><blockquote><p><strong><em>Re:CloudTk. Update 2026-11-09. Update tkpath.</em></strong></p><p><strong><em>сегодня в 4:29</em></strong></p><p><strong><em>Привет Владимир,</em></strong></p><p><strong><em>Демонстрационная версия была обновлена с помощью DEMOSVG-Alpine-Tcl9_Update_2026_11_09.kit. Пожалуйста, проверьте.</em></strong></p><p><strong><em>С уважением</em></strong></p><p><strong><em>Джефф</em></strong></p></blockquote><p>Теперь каждый желающий может протестировать результат, запустив <a href=\"https://cloudtk-app.tcl-lang.org/cloudtk/VNC?session=new&amp;Tk=SVG-widgets-Part-I\" rel=\"noopener nofollow\">на облачной демонстрации</a> следующий пример: </p><pre><code>package require tkpath\nset t \".c_over\"\ntoplevel $t\nwm geometry $t 900x550\ntkp::canvas $t.c -bg yellow\npack $t.c -fill both -expand 1 -padx 1m -pady 1m\nset unit \"userspace\"\n$t.c gradient create linear -units $unit -lineartransition [list 900 0 0 90] -stops {{0 red 1} {1 gray80 1}}\n$t.c gradient create linear -units $unit -lineartransition [list 90 0 0 90] -stops {{0 cyan 1} {1 chocolate 1}}\n\n$t.c gradient create linear -units $unit -lineartransition [list 40 40 300 300] -stops {{0 red 1} {0.5 gray80 1} {1 cyan 1}}\nset myGradient [$t.c gradient create linear -units $unit -stops {{0 \"gray80\"} {1 \"blue\"}}]\nset rgr [$t.c gradient create radial -units bbox -stops {{0 cyan 1} {0.5 gray80 1} {0.75 red 1} {1 snow 1}}]\n$t.c create prect 80 240 280 340 -fill $rgr -stroke gradient1 -strokewidth 10 -rx 6\n\n$t.c create pline 20 40 280 300 -strokewidth 20 -stroke gradient2\n$t.c create ptext 100 80 -text \"Stroke and Fill gradient\" -fontsize 70 -fontweight bold -stroke gradient0 -strokewidth 15 -fill gradient1 -filloverstroke 1\n$t.c create ptext 160 140 -text \"filloverstroke=0\" -fontsize 70 -fontweight bold -stroke red -strokewidth 8 -fill black -filloverstroke 0\n$t.c create ptext 220 200 -text \"filloverstroke=1\" -fontsize 70 -fontweight bold -stroke red -strokewidth 8 -fill black -filloverstroke 1\n\nlassign \"40 200 40 200\" x0 x1 xs xe\nfor {set i 1} {$i &lt; 5} {incr i}  {\n    set obj$i [$t.c create prect $xs 400 $xe 520 -stroke {} -strokewidth 20 -fill cyan -stroke red]\n    $t.c create ptext $xs 400 -textanchor nw -text \"-fill over stroke\" -fontsize 20 -stroke black\n    incr xs $x1\n    incr xe $x1\n}\n$t.c itemconfigure $obj1 -stroke {}\n$t.c itemconfigure [expr {$obj1 + 1}] -text \"-stroke {}\"\n$t.c itemconfigure $obj2 -filloverstroke 0\n$t.c itemconfigure [expr {$obj2 + 1}] -text \"-filloverstroke 0\\n-strokewidth 20\"\n$t.c itemconfigure $obj3 -filloverstroke 1\n$t.c itemconfigure [expr {$obj3 + 1}] -text \"-filloverstroke 1\\n-strokewidth 20\"\n$t.c itemconfigure $obj4 -fillopacity 0.8 -strokeopacity 0.5\n$t.c itemconfigure [expr {$obj4 + 1}] -text \"-filloverstroke 0\\n-strokewidth 20\\n-fillopacity 0.8\\n-strokeopacity 0.5\"\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>После запуска примера на экране появится следующее изображение: </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e4/86/63/e48663ce8d8ff2a1840a6cb23cf73048.png\" alt=\"Демонстрация новых врзможностей пакета tkpath\" title=\"Демонстрация новых врзможностей пакета tkpath\" width=\"942\" height=\"590\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e4/86/63/e48663ce8d8ff2a1840a6cb23cf73048.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/e4/86/63/e48663ce8d8ff2a1840a6cb23cf73048.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Демонстрация новых врзможностей пакета tkpath</figcaption></div></figure><p>Если демонстрация в облаке не запускается, то <a href=\"https://habr.com/ru/articles/986070/\" rel=\"noopener nofollow\">это не наша вина, а наша беда</a> … </p><p>После всех исправлений, я написал письмо <a href=\"https://wiki.tcl-lang.org/page/Ashok+P.+Nadkarni?R=0&amp;O=APN&amp;W=\" rel=\"noopener nofollow\"><strong><em>Ashok P. Nadkarni</em></strong></a>  руководителю <strong><em>opensource</em></strong>-ого проекта <a href=\"https://bawt.tcl3d.org/\" rel=\"noopener nofollow\"><strong><em>BAWT</em></strong></a>, что мною подготовлены патчи для пакета <strong><em>tkpath</em></strong>. Мне очень понравился его ответ, а вернее его вопрос про ИИ:</p><blockquote><p>Re:TkPath and SVGwidgets </p><p>4 ноября в 9:00</p><p>Привет Владимир,</p><p>Всегда рад новым возможностям! </p><p>Для меня всегда проще всего принимать код через pull-request на Github, а не патчи или zip-архивы, поэтому, пожалуйста, сделайте это.</p><p><strong>Кроме того, пожалуйста, уточните, был ли какой-либо код непосредственно сгенерирован искусственным интеллектом.</strong></p><p>Спасибо</p><p>/Ашок</p></blockquote><p>Естественно, я ему ответил, что <strong><em>pull-request</em></strong> сделаю и рассказал как было дело с ИИ.</p><p>Кстати, оконные интерпретаторы <strong><em>tcl/tk</em></strong> с новым tkpath (<strong><em>tclexecomp</em></strong>) можно найти в <strong><em>github</em></strong> в проекте <a href=\"https://github.com/a513/TkSVGwidgets\" rel=\"noopener nofollow\"><strong><em>svgwidgets</em></strong></a>. </p><p>Пока я не воспользовался рекомендациями ИИ по оптимизации кода, а они все по делу. Так что мы с ним будем теперь дружить. </p><p>И буквально на днях на Хабре вышла статья «<a href=\"https://habr.com/ru/companies/hexlet/articles/1103584/\" rel=\"noopener nofollow\">Торвальдс: «Не доверяете ИИ — пишите на ассемблере</a>». Мне очень импонирует постулат Торвальдса из этой статьи:  </p><blockquote><p><em>Люди, которые понимают, что делают и которые разбираются в системах, смогут правильно формулировать запросы для инструментов и получать хороший код. А тот, кто не понимает сложности систем, тоже будет писать промпты и создавать процессы — но эти процессы будут давать сбои. Поэтому, я думаю, вам всё‑таки нужно понимать, как всё работает.</em> </p></blockquote><p>Прочитав это высказывание, я вспомнил, как готовили программистов тогда в 60-70-80-х годах прошлого столетия. Тогда было четкое разделение на алгоритмистов и кодировщиков, то бишь  программистов. Алгоритмисты выдавали блок-схемы будущих программ, по которым программисты писали код, практически не задумываясь о процессах, которые они автоматизируют:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/dd/df/0c/dddf0c61b5cd64498ef06397bae8a181.png\" alt=\"Образец блок-схемы\" title=\"Образец блок-схемы\" width=\"932\" height=\"592\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/dd/df/0c/dddf0c61b5cd64498ef06397bae8a181.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/dd/df/0c/dddf0c61b5cd64498ef06397bae8a181.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Образец блок-схемы</figcaption></div></figure><p>Тут я подумал, если бы тем алгоритмистам да современный ИИ, но это прожектёрство. А вот подготовить для работы с ИИ специалистов на уровне тех алгоритмистов, мне кажется, возможно и тогда …</p><p>И в заключении я хотел сказать несколько слов о том, почему <a href=\"https://cgicoffee.com/blog/2026/04/tcl-tk-develop-cross-platform-cli-gui-tools-tutorial-guide\" rel=\"noopener nofollow\">всё же <strong><em>tcl/tk</em></strong></a>:</p><blockquote><p><strong>Tcl/Tk — это не пережиток прошлого; это проверенная в боях модель для будущего.</strong> Пока современная программная инженерия продолжает гнаться за трендами на тяжелые слои абстракции, раздутые среды выполнения и ограничительные модели лицензирования, этот 35-летний инструментарий выделяется тем, что делает ровно противоположное. Он предлагает механическую определенность, крошечный размер, истинную кроссплатформенность и элегантную философию «всё есть строка», которая превращает код в текучие, легко управляемые данные.</p><p><strong>В ландшафте, где доминируют мимолетные фреймворки, инвестиции в Tcl/Tk — это инвестиции в долговечность.</strong> Выпуск Tcl 9.0 доказывает, что экосистема активно модернизируется, яростно защищая обратную совместимость. Он остается ультимативным прагматичным выбором для инженеров, которые ценят стабильность, контроль и эффективность выше индустриального хайпа. Если вы еще не смотрели на него серьезно, определенно стоит потратить время: скачайте tclsh и постройте свой следующий инструмент на фундаменте, который создавался на века.</p></blockquote><p>Кстати, про «скачайте <strong><em>tclsh</em></strong>» я уже сказал выше. </p><p>Спасибо за внимание.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "сезон Код будущего"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    },
+    {
+      "titleHtml": "векторная графика"
+    },
+    {
+      "titleHtml": "c++"
+    },
+    {
+      "titleHtml": "tcl"
+    },
+    {
+      "titleHtml": "tkpath"
+    },
+    {
+      "titleHtml": "svg"
+    },
+    {
+      "titleHtml": "claude"
+    },
+    {
+      "titleHtml": "cloudtk"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105970/5b0b045827195782db3c6a820df09a9e/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105970/5b0b045827195782db3c6a820df09a9e/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105970\\/\"},\"headline\":\"Моё обретение вдумчивого и толкового помощника\",\"datePublished\":\"2026-11-10T13:34:26+03:00\",\"dateModified\":\"2026-11-11T18:13:49+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Всё началось с приглашения от @little_italy : Привет! Меня зовут Катя Равальдини, я редактор из команды Хабра. Мы приглашаем авторов хаба Искусственный...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105970\\/#post-content-body\",\"about\":[\"h_linux_dev\",\"h_vector_graphics\",\"h_artificial_intelligence\",\"h_programming\",\"h_study\",\"f_develop\",\"f_design\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/64\\/4d\\/32\\/644d32da6859dd3fd6be19fa6c7df096.png\",\"https:\\/\\/habrastorage.org\\/extt\\/a1\\/c9\\/d5\\/a1c9d5d0aec229803f2db6b8df7b3bff.png\",\"https:\\/\\/habrastorage.org\\/extt\\/55\\/85\\/ef\\/5585efae1d031b8e2aa029ed5f9af682.png\",\"https:\\/\\/habrastorage.org\\/extt\\/2d\\/0c\\/4b\\/2d0c4bc22a2351ecae7e3435dfd6c4ba.png\",\"https:\\/\\/habrastorage.org\\/extt\\/f6\\/03\\/16\\/f60316dc1808c51cf036218d2bdb8b02.png\",\"https:\\/\\/habrastorage.org\\/extt\\/30\\/0c\\/4e\\/300c4ef4a802edf9be1ceca1fbcaa4b8.png\",\"https:\\/\\/habrastorage.org\\/extt\\/d1\\/71\\/f2\\/d171f25f8b9e6c5c22934d421ac9b92d.png\",\"https:\\/\\/habrastorage.org\\/extt\\/c3\\/f8\\/22\\/c3f8225428820d7af5dc82e6dd8613f2.png\",\"https:\\/\\/habrastorage.org\\/extt\\/ae\\/ff\\/9a\\/aeff9a5faa677a485a53e0e65362dda7.png\",\"https:\\/\\/habrastorage.org\\/extt\\/71\\/2c\\/48\\/712c48ad742f438bd66d4bfcb8ce7595.png\",\"https:\\/\\/habrastorage.org\\/extt\\/c4\\/04\\/7a\\/c4047a202dc69fb7d83d2a7686ac7aab.png\",\"https:\\/\\/habrastorage.org\\/extt\\/c6\\/b0\\/fa\\/c6b0faa16a3efb5475756795067ed5e8.png\",\"https:\\/\\/habrastorage.org\\/extt\\/e4\\/86\\/63\\/e48663ce8d8ff2a1840a6cb23cf73048.png\",\"https:\\/\\/habrastorage.org\\/extt\\/dd\\/df\\/0c\\/dddf0c61b5cd64498ef06397bae8a181.png\"]}",
+    "metaDescription": "Всё началось с приглашения от @little_italy : Привет! Меня зовут Катя Равальдини, я редактор из команды Хабра. Мы приглашаем авторов хаба Искусственный интеллект поучаствовать в сезоне «Код будущего»...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 12,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

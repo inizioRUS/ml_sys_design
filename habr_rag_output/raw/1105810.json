@@ -1,0 +1,167 @@
+{
+  "id": "1105810",
+  "timePublished": "2026-11-10T08:01:44+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Пеликан крутит педали: сравнение анимации GPT-6 Astra через официальный API и пять роутеров",
+  "leadData": {
+    "textHtml": "<p>Пеликан на велосипеде, четыре секунды анимации, три серии запросов. Сравниваю HTML/SVG от официального API OpenAI и пяти роутеров: движение лап и педалей, вращение колёс и целостность сцены. Показываю все три серии, включая тайм-аут, и свожу результаты вместе с числом запросов и выходных токенов.</p>",
+    "imageUrl": "https://habrastorage.org/extt/e9/dc/51/e9dc5138403cddd5416ec407813acf8f.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/e9/dc/51/e9dc5138403cddd5416ec407813acf8f.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5951632",
+    "alias": "Corkyz0011",
+    "fullname": "Ailllle",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 0,
+      "votesCount": 2
+    },
+    "rating": 16,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 0,
+    "readingCount": 332,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 4540,
+    "readers": 253
+  },
+  "hubs": [
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/06/ca/47/06ca47e3752ce21791a6542463ba0e3a.jpg\" alt=\"GPT-6 Astra: три серии сравнения анимации пеликана на велосипеде\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/06/ca/47/06ca47e3752ce21791a6542463ba0e3a.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/06/ca/47/06ca47e3752ce21791a6542463ba0e3a.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>GPT-6 Astra: три серии сравнения анимации пеликана на велосипеде</figcaption></div></figure><p>Если модель умеет рисовать велосипед в SVG, это ещё не значит, что в анимации лапы птицы останутся на педалях. В продолжение <a href=\"https://habr.com/ru/articles/1099304/\" rel=\"noopener nofollow\">сравнения двух SVG-сцен</a> я предложил официальному API и пяти платформам новую задачу: пеликан на велосипеде в четырёхсекундном цикле.</p><p>Модель возвращала HTML со встроенным SVG и кодом анимации. Все GIF созданы из этих ответов одним и тем же скриптом.</p><h3>Методика</h3><p>Эксперимент состоял из трёх серий, всего 21 запрос. В каждой серии сначала вызывался официальный API, затем пять платформ в случайном порядке и снова официальный API. Все пять ответов сравнивались с одной парой официальных ответов, полученных в той же серии. Результаты всех трёх серий сохранены.</p><p>В английском промпте требовалось показать пеликана и велосипед целиком, сбоку. Птица сидит на седле, держит руль крыльями, обе лапы движутся вместе с педалями. Два одинаковых колеса со спицами вращаются по часовой стрелке с одинаковой скоростью. Велосипед остаётся в центре кадра, земля движется влево. Анимация должна зацикливаться через четыре секунды, работать с частотой 24 fps и не использовать внешние ресурсы.</p><p>Лимит каждого ответа составлял 12 000 токенов. Параметры temperature и reasoning_effort явно не задавались. Запросы отправлялись без истории переписки, автоматические повторы были отключены. Три серии выполнялись параллельно, но порядок запросов внутри каждой сохранялся, поэтому задержки в статье не сравниваются. Для ожидания данных и проверки общей длительности потока был установлен предел 300 секунд.</p><p>До начала запросов были выбраны семь критериев: строение птицы и велосипеда; сохранение контакта с седлом, рулём и педалями; движение ног при педалировании; вращение колёс; перемещение и устойчивость сцены; переход через границу четырёхсекундного цикла; самостоятельный запуск. Размер окна при отрисовке — 960×640. Для каждого полного ответа сохранялись 96 кадров и отдельный кадр в момент 4 с, затем создавался GIF. Длительности кадров в GIF составляют 40 или 50 мс, в сумме — 4 000 мс.</p><h3>Насколько различаются официальные ответы</h3><p>В шести официальных ответах различаются форма тела и клюва, детали рамы и фон. На проверенных кадрах велосипед остаётся собранным, ноги следуют за педалями, а вращение колёс согласовано с движением земли. Поэтому различия в оформлении сами по себе не считаются расхождением: сравниваются видимая структура сцены и движение её частей.</p><p>GIF каждой платформы состоит из трёх строк. Слева указан номер серии, а изображения в строке расположены в порядке «официальный ответ до → ответ платформы → официальный ответ после». В каждой строке используются официальные ответы именно этой серии. Для второй серии OrcaRouter вместо анимации указано, что чтение завершилось по тайм-ауту и полного GIF нет.</p><h3>Результаты по платформам</h3><h4>OrcaRouter</h4><p>В первой и третьей сериях видимая структура и движение согласуются с официальными ответами. Во второй сервер вернул HTTP 200, но примерно через 400,5 секунды чтение завершилось по тайм-ауту. Этот запрос отмечен как ошибка API и не учитывается как совпадение.</p><figure class=\"\"><img src=\"https://habrastorage.org/extt/86/b4/10/86b410d343de7d8c27713004ad6a9dd2.gif\" alt=\"OrcaRouter: три серии с официальными ответами до и после\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/extt/86/b4/10/86b410d343de7d8c27713004ad6a9dd2.gif 780w,&#10;       https://habrastorage.org/extt/86/b4/10/86b410d343de7d8c27713004ad6a9dd2.gif 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>OrcaRouter: три серии с официальными ответами до и после</figcaption></div></figure><h4>TeamoRouter</h4><p>Во всех трёх сериях велосипед сохраняет целостность, ноги движутся вместе с педалями, колёса вращаются. Форма птицы и оформление меняются; на проверенных кадрах явных структурных расхождений с официальными ответами не обнаружено.</p><figure class=\"\"><img src=\"https://habrastorage.org/extt/ee/96/1b/ee961b46662aac142ab367ea6a2078a1.gif\" alt=\"TeamoRouter: три серии с официальными ответами до и после\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/extt/ee/96/1b/ee961b46662aac142ab367ea6a2078a1.gif 780w,&#10;       https://habrastorage.org/extt/ee/96/1b/ee961b46662aac142ab367ea6a2078a1.gif 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>TeamoRouter: три серии с официальными ответами до и после</figcaption></div></figure><h4>OpenRouter</h4><p>Все три ответа получены полностью. На проверенных кадрах посадка птицы, движение педалей и вращение колёс согласуются с официальными образцами. Основные различия относятся к оформлению сцены.</p><figure class=\"\"><img src=\"https://habrastorage.org/extt/6c/44/7a/6c447aa2df1d676c3db2031684f3b77c.gif\" alt=\"OpenRouter: три серии с официальными ответами до и после\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/extt/6c/44/7a/6c447aa2df1d676c3db2031684f3b77c.gif 780w,&#10;       https://habrastorage.org/extt/6c/44/7a/6c447aa2df1d676c3db2031684f3b77c.gif 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>OpenRouter: три серии с официальными ответами до и после</figcaption></div></figure><h4>Token Harbor</h4><p>Во всех трёх сериях получена работающая анимация. Фон и пропорции различаются, но на проверенных кадрах не видно отделившихся частей велосипеда или явного отрыва лап от педалей.</p><figure class=\"\"><img src=\"https://habrastorage.org/extt/a1/f0/a5/a1f0a54c806e22d162eacace92dc4498.gif\" alt=\"Token Harbor: три серии с официальными ответами до и после\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/extt/a1/f0/a5/a1f0a54c806e22d162eacace92dc4498.gif 780w,&#10;       https://habrastorage.org/extt/a1/f0/a5/a1f0a54c806e22d162eacace92dc4498.gif 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Token Harbor: три серии с официальными ответами до и после</figcaption></div></figure><h4>NaraRouter</h4><p>Все три ответа получены полностью, но в каждом есть структурные ошибки. В первой серии тело птицы не касается седла, а шатуны не остаются соединёнными с движущимися педалями. Во второй спицы выходят за обод, положение лап не совпадает с положением педалей. В третьей переднее колесо отделено от рамы и смещено в левый верхний угол. Эти различия относятся к устройству сцены, а не к предпочтениям в стиле рисунка.</p><figure class=\"\"><img src=\"https://habrastorage.org/extt/46/85/00/468500e96817cb2ced960b40952b1fec.gif\" alt=\"NaraRouter: три серии с официальными ответами до и после\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/extt/46/85/00/468500e96817cb2ced960b40952b1fec.gif 780w,&#10;       https://habrastorage.org/extt/46/85/00/468500e96817cb2ced960b40952b1fec.gif 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>NaraRouter: три серии с официальными ответами до и после</figcaption></div></figure><h3>Итоги трёх серий</h3><p>«Согласуется» относится только к структуре и движению, которые удалось проверить по выбранным кадрам. Это не означает тождества кода или пикселей и не подтверждает, что на сервере используется та же модель. Контакт в местах, закрытых другими деталями, нельзя считать достоверно проверенным.</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Платформа</p></th><th><p align=\"left\">Число запросов</p></th><th><p align=\"left\">Выходные токены</p></th><th><p align=\"left\">Серия 1</p></th><th><p align=\"left\">Серия 2</p></th><th><p align=\"left\">Серия 3</p></th></tr><tr><td><p align=\"left\">OrcaRouter</p></td><td><p align=\"left\">3</p></td><td><p align=\"left\">10 450*</p></td><td><p align=\"left\">Согласуется</p></td><td><p align=\"left\">Ошибка API</p></td><td><p align=\"left\">Согласуется</p></td></tr><tr><td><p align=\"left\">TeamoRouter</p></td><td><p align=\"left\">3</p></td><td><p align=\"left\">12 936</p></td><td><p align=\"left\">Согласуется</p></td><td><p align=\"left\">Согласуется</p></td><td><p align=\"left\">Согласуется</p></td></tr><tr><td><p align=\"left\">OpenRouter</p></td><td><p align=\"left\">3</p></td><td><p align=\"left\">15 576</p></td><td><p align=\"left\">Согласуется</p></td><td><p align=\"left\">Согласуется</p></td><td><p align=\"left\">Согласуется</p></td></tr><tr><td><p align=\"left\">Token Harbor</p></td><td><p align=\"left\">3</p></td><td><p align=\"left\">15 225</p></td><td><p align=\"left\">Согласуется</p></td><td><p align=\"left\">Согласуется</p></td><td><p align=\"left\">Согласуется</p></td></tr><tr><td><p align=\"left\">NaraRouter</p></td><td><p align=\"left\">3</p></td><td><p align=\"left\">9 174</p></td><td><p align=\"left\">Есть различия</p></td><td><p align=\"left\">Есть различия</p></td><td><p align=\"left\">Есть различия</p></td></tr></tbody></table></div></div><p><em>Число запросов включает неудачную попытку. Выходные токены — сумма значений completion_tokens, возвращённых API, а не оценка по длине HTML. Для OrcaRouter учтены только два полных ответа: для запроса с тайм-аутом данных об использовании токенов нет, что не означает нулевого расхода. Официальный API: 6 запросов, 31 374 выходных токена.</em></p><p>Всего отправлен 21 запрос: получено 20 полных ответов, каждый удалось отрисовать; в одном случае чтение завершилось по тайм-ауту. У NaraRouter во всех трёх сериях обнаружены явные структурные различия. Три ответа TeamoRouter, OpenRouter и Token Harbor, а также два полных ответа OrcaRouter согласуются с официальными образцами в пределах проверенной видимой структуры и движения. Рейтинг платформ по этим результатам не составлялся.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "GPT-6 Astra"
+    },
+    {
+      "titleHtml": "SVG"
+    },
+    {
+      "titleHtml": "GIF"
+    },
+    {
+      "titleHtml": "анимация"
+    },
+    {
+      "titleHtml": "API"
+    },
+    {
+      "titleHtml": "тестирование"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105810/47ef8c6fcef1929e360e2d3adfda7f89/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105810/47ef8c6fcef1929e360e2d3adfda7f89/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105810\\/\"},\"headline\":\"Пеликан крутит педали: сравнение анимации GPT-6 Astra через официальный API и пять роутеров\",\"datePublished\":\"2026-11-10T11:01:44+03:00\",\"dateModified\":\"2026-11-11T13:18:14+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"GPT-6 Astra: три серии сравнения анимации пеликана на велосипеде Если модель умеет рисовать велосипед в SVG, это ещё не значит, что в анимации лапы птицы...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105810\\/#post-content-body\",\"about\":[\"h_machine_learning\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/06\\/ca\\/47\\/06ca47e3752ce21791a6542463ba0e3a.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/86\\/b4\\/10\\/86b410d343de7d8c27713004ad6a9dd2.gif\",\"https:\\/\\/habrastorage.org\\/extt\\/ee\\/96\\/1b\\/ee961b46662aac142ab367ea6a2078a1.gif\",\"https:\\/\\/habrastorage.org\\/extt\\/6c\\/44\\/7a\\/6c447aa2df1d676c3db2031684f3b77c.gif\",\"https:\\/\\/habrastorage.org\\/extt\\/a1\\/f0\\/a5\\/a1f0a54c806e22d162eacace92dc4498.gif\",\"https:\\/\\/habrastorage.org\\/extt\\/46\\/85\\/00\\/468500e96817cb2ced960b40952b1fec.gif\"]}",
+    "metaDescription": "GPT-6 Astra: три серии сравнения анимации пеликана на велосипеде Если модель умеет рисовать велосипед в SVG, это ещё не значит, что в анимации лапы птицы останутся на педалях. В продолжение сравнения...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "analytics",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

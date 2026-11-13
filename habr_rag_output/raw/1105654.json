@@ -1,0 +1,237 @@
+{
+  "id": "1105654",
+  "timePublished": "2026-11-10T08:42:34+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Галлюцинации недели: HackerTube, GPT Images 2.6 и школьники, которые не смогут гуглить, если школа запретит AI",
+  "leadData": {
+    "textHtml": "<p>У русскоязычных пользователей Claude новый уровень сложности: Persona просит фото паспорта и лица. С российским паспортом, судя по жалобам с 29 октября, уровень заканчивается баном. Мы начали игру заново, с нового аккаунта.</p>",
+    "imageUrl": "https://habrastorage.org/extt/63/31/99/6331990a886128484a6ffd2d3a715165.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/63/31/99/6331990a886128484a6ffd2d3a715165.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "648409",
+    "alias": "controlled_hallucinations",
+    "fullname": "Контролируемые галлюцинации",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/21e/d7c/97f/21ed7c97fe24d56b19da90cacb14f981.png",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 46,
+      "votesCount": 66
+    },
+    "rating": 2.9,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/controlled_hallucinations",
+        "value": "controlled_hallucinations",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/controlled_hallucinations",
+        "value": "controlled_hallucinations",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 1,
+    "readingCount": 647,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 6083,
+    "readers": 507
+  },
+  "hubs": [
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "340",
+      "alias": "python",
+      "type": "collective",
+      "title": "Python",
+      "titleHtml": "Python",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/63/31/99/6331990a886128484a6ffd2d3a715165.jpg\" width=\"1672\" height=\"941\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/63/31/99/6331990a886128484a6ffd2d3a715165.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/63/31/99/6331990a886128484a6ffd2d3a715165.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>У русскоязычных пользователей Claude новый уровень сложности: Persona просит фото паспорта и лица. С российским паспортом, судя по жалобам с 29 октября, уровень заканчивается баном. Мы начали игру заново, с нового аккаунта.</p><p>Исследователи <strong>MIT CSAIL</strong> вместе с Омаром Хаттабом, автором DSPy, описали подход, который назвали <a href=\"https://rikiyat.github.io/blog/weight-space-programming/\" rel=\"noopener nofollow\">weight‑space programming</a>. Модели <strong>GPT-6 Astra</strong> дают не код и не промпт, а веса другой модели. Она их читает, находит, что сломано, и меняет веса напрямую, без дообучения. Главный опыт поставили на <strong>Qwen3.5–0.8B</strong>. Astra изменила 131 072 веса, это 0.016% модели, и результат на MATH-500 (500 олимпиадных задач по математике) вырос с 7.9% до 48.1%. На поиск правки ей дали 50 прогонов маленькой модели. Диагноз оказался приземлённым: Qwen <strong>зацикливался</strong>, направление «повторяй ещё раз» записывали MLP‑блоки (полносвязные части слоя) 15-го и 19-го слоёв, и Astra вычла его из 64 выходных столбцов в каждом из них. GSM8K (школьные текстовые задачи) поднялся с 13.8% до 67.1%, IFEval (проверка, следует ли модель инструкциям) с 21.0% до 62.3%, а доля ответов, упиравшихся в лимит 32 768 токенов, упала с 93.0% до 33.1%.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/01/60/db/0160dbd454d04847297177d68b384892.png\" alt=\"image.png\" title=\"\" width=\"1544\" height=\"1204\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/01/60/db/0160dbd454d04847297177d68b384892.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/01/60/db/0160dbd454d04847297177d68b384892.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Стратегию действий в Breakout Astra написала <strong>с нулевых весов</strong>, и та набрала 517.4 очка, тогда как PPO (стандартный алгоритм обучения с подкреплением) после 100 млн шагов набирал 15.8, а после 500 млн 25.3. В стратегии управления машинкой, которая заезжает на горку, она поправила 3.5% весов, и успех вырос с 0 из 256 попыток до 1024/1024. По 17 253 весам четырёх сетей, обученных через PPO, она определила, в какую игру каждая играет. <strong>Провалы там тоже есть</strong>: на <strong>Gemma 3 270M</strong> результат сдвинулся только с 6.8% до 7.7%, потому что одного компонента, который можно выключить, не нашлось.</p><p>Шон Гёдеке, инженер и автор блога о LLM, <a href=\"https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/\" rel=\"noopener nofollow\">ответил разбором</a> с говорящим названием: LLM не сверхчеловечески читают и пишут веса. Игру по весам, пишет он, выдаёт тепловая карта первого слоя, которую строят несколькими строчками на Python. А починка зацикливания это <strong>обычный steering</strong>, то есть сдвиг активаций вдоль найденного направления, по сути тот же приём, которым утилита <strong>Heretic</strong> снимает с моделей отказы. По его словам, это «ровно то, что сделал бы толковый исследователь‑человек». <strong>Zhihu Frontier</strong> <a href=\"https://x.com/ZhihuFrontier/status/2117541464158921136\" rel=\"noopener nofollow\">пересказал</a> разбор одного из её авторов. Тот восстановил процедуру по логам и посчитал, что 576 из 579 исправленных ответов раньше просто обрывались по лимиту токенов. То есть прирост на MATH-500 почти целиком пришёл от того, что модель <strong>перестала зацикливаться</strong>.</p><p>Нильс Рогге из <strong>Hugging Face</strong> показал воспроизведение с их <a href=\"https://x.com/NielsRogge/status/2117541532827848972\" rel=\"noopener nofollow\">агентом ML Intern</a>, а Саймон Уиллисон запустил на ноутбуке <a href=\"https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/\" rel=\"noopener nofollow\">Qwen 3.8 27B</a> через <strong>LM Studio</strong>, без инструментов. По весам модель узнала Pac‑Man за 46 минут, Pong за 1 час 5 минут и Breakout за 52 минуты, а на Freeway сдалась. <strong>Kimi K3.1 Pro</strong> через агрегатор API <strong>OpenRouter</strong> узнала Breakout за 9 минут 41 секунду. Саймон признаёт, что опытный человек с карандашом справился бы тоже, и объявлять конец эпохи исходного кода <strong>пока не готов</strong>.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/40/35/dc/4035dc99df885578f07ce363eed660c5.png\" alt=\"image.png\" title=\"\" width=\"2048\" height=\"773\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/40/35/dc/4035dc99df885578f07ce363eed660c5.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/40/35/dc/4035dc99df885578f07ce363eed660c5.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Андрей Карпаты собрал за выходные <a href=\"https://x.com/karpathy/status/2116957135661945283\" rel=\"noopener nofollow\">HackerTube</a>. За 20 лет на <strong>Hacker News</strong> накопилось 43 млн комментариев, и в них люди постоянно советуют друг другу видео с YouTube. В <a href=\"https://karpathy.bearblog.dev/hacker-tube/\" rel=\"noopener nofollow\">заметке в блоге</a> он описывает конвейер: <strong>Opus</strong> скачал комментарии из датасета на Hugging Face, Sonnet в <strong>Claude Code</strong> отсеял спам, осталось около 40 тысяч рекомендаций за 2007–2026 годы. На сайте 6454 видео по 150 темам, без логинов, всё состояние хранится в браузере. Ушло около двух часов в десктопном Claude Code с Opus 5.5 на среднем reasoning effort. Руками сенсей Карпаты сделал только ключ Google Cloud API, VPS и домен, а потом попросил Claude обновить и защитить сервер. Данные он выложил одним архивом, чтобы любой мог натравить на них Claude и собрать свою версию. Цитата из заметки: «ничего похожего на <strong>традиционную инженерию</strong> я больше не делаю». Клоны посыпались сразу, от HackerBooks до Wikihack, а на HN появился <a href=\"https://news.ycombinator.com/item?id=50336496\" rel=\"noopener nofollow\">тред Ask HN</a> с вопросом, неужели никого не беспокоит поток приложений «как HackerTube, только для X».</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a9/24/8a/a9248ac83bb9626908ee2e966b3e94c2.png\" alt=\"image.png\" title=\"\" width=\"1858\" height=\"376\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a9/24/8a/a9248ac83bb9626908ee2e966b3e94c2.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/a9/24/8a/a9248ac83bb9626908ee2e966b3e94c2.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Сам Claude Code <a href=\"https://github.com/anthropics/claude-code/issues/107757\" rel=\"noopener nofollow\">поймали</a> на том, что он <strong>отправляет email пользователя сайтам</strong>. Автор issue от 5 ноября заметил свой адрес в заголовке User‑Agent (строка, которой программа представляется серверу) при веб‑поиске и связывает с этим поток мошеннических писем. Под issue уже больше 730 лайков, и один из комментаторов посчитал, что по реакциям оно четвёртое среди 16 тысяч открытых. В <a href=\"https://news.ycombinator.com/item?id=50385272\" rel=\"noopener nofollow\">треде на HN</a> Лидия Халли из команды Claude Code объяснила механику и извинилась: пользователи жаловались, что Claude выдумывает имена в тегах @author, поэтому email аккаунта добавили в контекст модели. Когда модель писала команды вроде curl, она иногда подставляла этот адрес в User‑Agent. В том же треде заметили, что многие ловили это на API Комиссии по ценным бумагам США (SEC). Её документация просит автоматических клиентов представляться в User‑Agent, и в образце там указан email. С версии 2.1.317 запросы блокирует встроенный мод <strong>cc‑plugin‑privacy</strong>, он включён по умолчанию, а из контекста модели email уберут в следующем релизе. <strong>Жалоба не новая</strong>, ещё в мае открывали <a href=\"https://github.com/anthropics/claude-code/issues/55743\" rel=\"noopener nofollow\">issue #55743</a> про email в контексте модели без возможности отключить.</p><p>На <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1xozfcv/open_question_to_anthropic_if_youre_making_30000/\" rel=\"noopener nofollow\">Reddit</a> посчитали, что в трекере Claude Code 16 060 открытых issues и 15 766 из них <strong>ни на кого не назначены</strong>, это больше 98%. Автор поста напоминает, что сама <strong>Anthropic</strong> <a href=\"https://www.anthropic.com/research/redesigning-source-control\" rel=\"noopener nofollow\">пишет</a> о 30 тысячах с лишним изменений кода в день.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d4/e3/99/d4e399b23fe97087c3f3af137168de3f.png\" alt=\"image.png\" title=\"\" width=\"1244\" height=\"608\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d4/e3/99/d4e399b23fe97087c3f3af137168de3f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d4/e3/99/d4e399b23fe97087c3f3af137168de3f.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>С 29 октября русскоязычные пользователи <strong>Claude</strong> жалуются на одну и ту же историю: сервис просит пройти проверку личности через <strong>Persona</strong>, внешний сервис для KYC: нужно сфотографировать документ и лицо. Сразу после загрузки российского паспорта <strong>аккаунт блокируется</strong>. Самый известный пример <a href=\"https://www.reddit.com/r/Anthropic/comments/1xi6vsk/claude_account_suspended_right_after_verifying/\" rel=\"noopener nofollow\">описан на Reddit</a>. Там речь о платном подписчике, который пользовался в основном Claude Code, живёт в Новой Зеландии по четырёхлетней визе и за два дня до блокировки заплатил за следующий месяц. Похожие случаи были у пользователей в Грузии и Армении, а один из них получил письмо о «большом количестве сигналов» нарушения правил использования. Россия в <a href=\"https://support.claude.com/en/articles/8461763\" rel=\"noopener nofollow\">списке поддерживаемых стран</a> отсутствует, а Новая Зеландия, Грузия и Армения в нём есть, и сами правила привязаны к месту, откуда человек пользуется сервисом, а не к гражданству. Мы тоже попали под раздачу, пришлось регать новый аккаунт. <strong>Публичных объяснений</strong> от Anthropic мы не нашли.</p><p>На Хабре 5 ноября <a href=\"https://habr.com/ru/articles/1104162/\" rel=\"noopener nofollow\">вышел рассказ</a> с <strong>обратным исходом</strong>: автор пользуется Claude из России через VPN, после верификации по загранпаспорту получил бан, подал апелляцию через стандартную форму и примерно через три часа получил доступ обратно. Подписку Max ему при этом отменили с частичным возвратом $78.97, и оформлять её пришлось заново. <a href=\"https://www.anti-malware.ru/news/2026-11-06-111332/51960\" rel=\"noopener nofollow\">Anti‑Malware</a> отдельно оговаривается, что автор <strong>не утверждает</strong>, будто причина в паспорте, и свою роль могли сыграть регион, VPN и смена IP. Форма апелляции открывается <a href=\"https://support.claude.com/en/articles/8241253\" rel=\"noopener nofollow\">только из заблокированного аккаунта</a> на <a href=\"http://claude.ai/restricted\" rel=\"noopener nofollow\">claude.ai/restricted</a>, сама Anthropic предупреждает, что ответа придётся ждать дольше обычного, а данные из аккаунта можно выгрузить до решения.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/48/3e/cf/483ecfa876f63b464691ccb16377aca3.png\" alt=\"image.png\" title=\"\" width=\"1440\" height=\"772\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/48/3e/cf/483ecfa876f63b464691ccb16377aca3.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/48/3e/cf/483ecfa876f63b464691ccb16377aca3.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>OpenAI <a href=\"https://openai.com/index/a-thousand-fewer-paths-to-root/\" rel=\"noopener nofollow\">показала</a>, что умеет её ещё <strong>не вышедшая кибермодель</strong>. В середине октября конвейер на ней разобрал 2308 потенциальных уязвимостей в ядре Linux, 1724 воспроизвёл на живой системе и написал под один из популярных дистрибутивов 948 рабочих эксплойтов LPE (повышение прав обычного пользователя до root) и 291 PoC (демонстрацию уязвимости) на утечку данных. Всё вместе обошлось в $1 213 430 API‑кредитов, это $1279 за один эксплойт. По расценкам хакерских соревнований <strong>Pwn2Own</strong> и TyphoonPWN, где за такие баги платят $20–70 тысяч, тот же улов стоил бы $18.9–66.3 млн, в 16–55 раз дороже. Для сравнения OpenAI взяла <strong>kernelCTF</strong>, программу Google с наградами за эксплойты ядра: под её правила модель сделала 21 эксплойт LPE примерно за $32 936, тогда как с начала 2026 года kernelCTF приняла 26 таких zero‑day. Новых LPE модель нашла в 5 с лишним раз больше, чем прогон на GPT-5.6 Sol в июле. Чинить начали с критичных багов по совету сообщества ядра, вместе с партнёрами программы Patch the Planet.</p><p>Эрик Уоллес из OpenAI <a href=\"https://x.com/Eric_Wallace_/status/2118123944251453949\" rel=\"noopener nofollow\">сравнил</a>: до AI исследователи находили около 20 Linux LPE за обычный год, а тут около 1000 за неделю, потратив на токены примерно $1 млн. За десять дней работы больше 100 найденных LPE успели исправить другие люди, а около 300 уже обсуждались публично. Аккаунт с минимальными правами на непропатченной системе для хорошо обеспеченного атакующего <strong>почти равен root</strong>, поэтому недоверенный код советуют запускать в изоляции вроде <strong>Firecracker</strong> или <strong>gVisor</strong>.</p><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af20373382d141339f64a1d\" data-style=\"\" id=\"6af20373382d141339f64a1d\" width=\"\" data-habr-games=\"\"></div><p>У OpenAI вышла <a href=\"https://openai.com/index/introducing-images-2-6/\" rel=\"noopener nofollow\">Images 2.6</a> в <strong>ChatGPT</strong>, <strong>Codex</strong> и API. Генерация на 50% быстрее, появились GIF, экспорт в SVG и разметка изображений в API, а новый параметр complexity управляет тем, сколько модель планирует перед рисованием. В API две версии: <strong>GPT‑Image-2.6 Flare</strong> отдаёт картинку на низком качестве за 6 секунд, Sunburst рисует качественнее и лучше сохраняет детали при редактировании. По словам OpenAI, пользователи генерируют 4 млрд изображений в неделю. На лидерборде <a href=\"https://x.com/arena/status/2118139063345787124\" rel=\"noopener nofollow\">Arena</a>, где модели сравнивают вслепую голосами людей, Sunburst второй в генерации по тексту с 1409 очками, а Flare четвёртый, и <strong>вся пятёрка лидеров</strong> теперь принадлежит OpenAI. В редактировании Sunburst третий, Flare пятый.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/47/b2/0c/47b20c61e0614ebc1cda0d1b2d8b3b33.jpg\" alt=\"HVVMjBoaIAAZncD (1).jpeg\" title=\"\" width=\"1507\" height=\"2048\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/47/b2/0c/47b20c61e0614ebc1cda0d1b2d8b3b33.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/47/b2/0c/47b20c61e0614ebc1cda0d1b2d8b3b33.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Moonshot</strong> выложила веса <a href=\"https://huggingface.co/moonshotai/Kimi-K3.1-Pro\" rel=\"noopener nofollow\">Kimi K3.1 Pro</a>, как <a href=\"https://gotacat.dev/blog/weekly-ai-hallucinations-wordpress-gitlab-black-october-litellm\" rel=\"noopener nofollow\">и обещала</a> к 4 ноября. Это MoE (модель, где на каждый токен работает только часть экспертов) на 2.8 трлн параметров, из них активны 104 млрд. Экспертов 896, по 16 на токен плюс 2 общих. Из 93 слоёв 69 построены на линейном внимании KDA и 24 на разреженном Gated DSA. Это механизмы внимания, которыми модель связывает текущий токен с предыдущим текстом. Контекст 1 048 576 токенов, на входе текст и картинки. Веса хранятся в MXFP4, компактном формате с 4-битными числами; модель сразу учили под этот формат. По собственной таблице Moonshot, Kimi заметно <strong>отстаёт от закрытых флагманов</strong> на HLE‑Diamond (самая сложная часть Humanity's Last Exam, набора экспертных вопросов), 39.4 против 55.1–65.8. В агентном рейтинге Arena она <a href=\"https://x.com/arena/status/2118088183594541527\" rel=\"noopener nofollow\">стала</a> первой среди open weight моделей и 13-й в общем зачёте.</p><p>Лицензия на базе MIT с <strong>двумя оговорками</strong>: продукты больше чем со 100 млн активных пользователей в месяц или $20 млн выручки в месяц должны показывать в интерфейсе «Kimi K3.1-Pro», а сервисам, которые продают доступ к модели как услугу с выручкой больше $20 млн за 12 месяцев, нужен отдельный договор с Moonshot.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/11/2a/3f/112a3f5690876c0b3017decb9f7a9f26.jpg\" alt=\"main0106.jpg\" title=\"\" width=\"1672\" height=\"941\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/11/2a/3f/112a3f5690876c0b3017decb9f7a9f26.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/11/2a/3f/112a3f5690876c0b3017decb9f7a9f26.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В <a href=\"https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop\" rel=\"noopener nofollow\">блоге MindStudio</a> разобрали, почему ноутбук <strong>MSI Prestige N16 Flip AI Plus</strong> на <strong>Nvidia RTX Spark</strong> под Linux работает <strong>в разы медленнее</strong>, чем под Windows. Распределением питания между CPU и GPU управляет компонент Nvidia Platform Controllers and Framework, а таблицу питания расшифровывает только драйвер для Windows. В итоге под Linux от сети GPU держится около 780 МГц против примерно 2.2 ГГц под Windows. <strong>GPT‑OSS-120B</strong> выдаёт 65.4 токена в секунду под Windows, 65.1 в WSL (Linux внутри Windows) и всего 13.9 под нативным Linux, около 21% от скорости в Windows. Смешнее всего, что от батареи Linux выдаёт 61–67 токенов в секунду. Из 128 ГБ общей памяти Linux поначалу видел только 28 ГБ, пока не уменьшили резерв памяти через Windows. Исправить это может <strong>только сама Nvidia</strong>, если перенесёт управление питанием в свой драйвер для Linux.</p><p><strong>Google</strong> <a href=\"https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/\" rel=\"noopener nofollow\">разрешит школам</a> отключать свои AI‑инструменты, но <strong>с подвохом</strong>. Со следующего года <strong>Gemini</strong>, NotebookLM и Gemini в Classroom для школьников будут выключены по умолчанию, и школа должна сама их включить. Но если школа запретит AI полностью, ученики <strong>потеряют и Google Search</strong>. Крис Филлипс, отвечающий в Google за образование, объяснил New York Times, что такие ученики «не получат доступа к поиску и увидят сообщение от школы о том, что он недоступен», потому что поиск и AI теперь «глубоко интегрированы». Объявление вышло вместе с запуском <a href=\"https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/\" rel=\"noopener nofollow\">режима Guided Learning</a>.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/03/d7/ad/03d7ad44b46fac1df9fa19046ca44fd5.webp\" alt=\"979c48c4a511a88aca935f3bef3c0975ed97df05-2236x2492.webp\" title=\"\" width=\"1480\" height=\"1649\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/03/d7/ad/03d7ad44b46fac1df9fa19046ca44fd5.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/03/d7/ad/03d7ad44b46fac1df9fa19046ca44fd5.webp 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Дата‑центры добрались до бюллетеней</strong> американских выборов 3 ноября. Журналист Джей Ди Капелото <a href=\"https://x.com/jdcapelouto/status/2117786709173645427\" rel=\"noopener nofollow\">насчитал</a> около 40 населённых пунктов в 13 штатах, где голосовали за запреты, конкретные проекты и отзыв чиновников, поддержавших стройки. По <a href=\"https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures\" rel=\"noopener nofollow\">подсчёту Semafor</a>, жители больше 30 населённых пунктов в девяти штатах проголосовали за мораторий, запрет или другие ограничения. Эджуотер во Флориде записал запрет в устав города, а Перри в Огайо ограничил гиперскейлеров (крупнейших облачных операторов), которые просят налоговых льгот. Демократы больше чем в 130 гонках крутили рекламу против техкомпаний и дата‑центров. Адам Ковачевич, глава техлобби <strong>Chamber of Progress</strong>, <a href=\"https://x.com/adamkovac/status/2117796802200277309\" rel=\"noopener nofollow\">привёл</a> экзитполы NBC, по которым для 23% избирателей тема AI и дата‑центров была решающей. Член Палаты представителей от Аризоны Ясамин Ансари <a href=\"https://x.com/RepYassAnsari/status/2118054336077127797\" rel=\"noopener nofollow\">предложила</a> повестку демократов на первый день: пауза в разработке продвинутого AI, регулирование отрасли и запрет искусственного сверхинтеллекта. Если вам интересно, что там в этой Омэрике, почитайте, очень интересные треды получились.</p><p>Semafor отмечает, что банки уже считают местное сопротивление кредитным риском, и это хорошо рифмуется с новостями про Anthropic. В октябре я <a href=\"https://gotacat.dev/blog/weekly-ai-hallucinations-muse-wonder-gemini-4-argon-anthropic-git\" rel=\"noopener nofollow\">писал</a> о её прибыльности по скорректированной метрике, а теперь, по данным WSJ, годовая выручка в пересчёте с текущего темпа превысила в октябре $80 млрд. Но инвесторы <strong>сомневаются в оценке</strong> $1.5 трлн на IPO, и один из них считает, что справедливая ближе к $1 трлн. Ещё раньше FT сообщила, что <strong>Blackstone</strong>, якорный инвестор сделки на $63 млрд по финансированию чипов, теперь <a href=\"https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/\" rel=\"noopener nofollow\">ожидает</a> для Anthropic кредитный рейтинг уровня BB, то есть <strong>верхнюю ступень мусорного</strong>, хотя прежде рассчитывала на инвестиционный уровень до 2027 года.</p><p>Ну и напоследок:</p><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af20365beb0cddb1d37d01f\" data-style=\"\" id=\"6af20365beb0cddb1d37d01f\" width=\"\" data-habr-games=\"\"></div><p>Оставайтесь любопытными.</p><blockquote><p>Пишу об искусственном интеллекте, языковых моделях и инструментах для разработчиков. Тестирую модели и сервисы на реальных задачах, а выводами делюсь в <a href=\"https://t.me/controlled_hallucinations\" rel=\"noopener nofollow\">телеграм‑канале</a>.</p></blockquote></div>",
+  "tags": [
+    {
+      "titleHtml": "галлюцинации недели"
+    },
+    {
+      "titleHtml": "HackerTube"
+    },
+    {
+      "titleHtml": "GPT Images 2.6"
+    },
+    {
+      "titleHtml": "Google"
+    },
+    {
+      "titleHtml": "Claude"
+    },
+    {
+      "titleHtml": "Persona"
+    },
+    {
+      "titleHtml": "Claude Code"
+    },
+    {
+      "titleHtml": "GPT-6 Astra"
+    },
+    {
+      "titleHtml": "Kimi K3.1 Pro"
+    },
+    {
+      "titleHtml": "Андрей Карпаты"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105654/c544060f60ea2f7363c58e0b50d083cf/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105654/c544060f60ea2f7363c58e0b50d083cf/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105654\\/\"},\"headline\":\"Галлюцинации недели: HackerTube, GPT Images 2.6 и школьники, которые не смогут гуглить, если школа запретит AI\",\"datePublished\":\"2026-11-10T11:42:34+03:00\",\"dateModified\":\"2026-11-11T13:36:55+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"У&nbsp;русскоязычных пользователей Claude новый уровень сложности: Persona просит фото паспорта и лица. С&nbsp;российским паспортом, судя по&nbsp;жалобам с...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105654\\/#post-content-body\",\"about\":[\"h_artificial_intelligence\",\"h_machine_learning\",\"h_programming\",\"h_open_source\",\"h_python\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/63\\/31\\/99\\/6331990a886128484a6ffd2d3a715165.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/01\\/60\\/db\\/0160dbd454d04847297177d68b384892.png\",\"https:\\/\\/habrastorage.org\\/extt\\/40\\/35\\/dc\\/4035dc99df885578f07ce363eed660c5.png\",\"https:\\/\\/habrastorage.org\\/extt\\/a9\\/24\\/8a\\/a9248ac83bb9626908ee2e966b3e94c2.png\",\"https:\\/\\/habrastorage.org\\/extt\\/d4\\/e3\\/99\\/d4e399b23fe97087c3f3af137168de3f.png\",\"https:\\/\\/habrastorage.org\\/extt\\/48\\/3e\\/cf\\/483ecfa876f63b464691ccb16377aca3.png\",\"https:\\/\\/habrastorage.org\\/extt\\/47\\/b2\\/0c\\/47b20c61e0614ebc1cda0d1b2d8b3b33.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/11\\/2a\\/3f\\/112a3f5690876c0b3017decb9f7a9f26.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/03\\/d7\\/ad\\/03d7ad44b46fac1df9fa19046ca44fd5.webp\"]}",
+    "metaDescription": "У&nbsp;русскоязычных пользователей Claude новый уровень сложности: Persona просит фото паспорта и лица. С&nbsp;российским паспортом, судя по&nbsp;жалобам с 29&nbsp;октября, уровень заканчивается...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "digest",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 10,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

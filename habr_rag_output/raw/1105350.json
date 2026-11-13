@@ -1,0 +1,224 @@
+{
+  "id": "1105350",
+  "timePublished": "2026-11-12T09:35:13+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Postgres ProGate 1.5.0: поддержка Postgres Pro AXE 2.0, серверное сопоставление таблиц и расширенные сценарии репликации",
+  "leadData": {
+    "textHtml": "<p>Postgres Professional выпускает Postgres ProGate 1.5.0 — обновление решения для миграции и репликации данных. Главными новшествами версии стали поддержка аналитической СУБД Postgres Pro AXE 2.0, перенос табличного маппинга на сторону сервера, пятикратное ускорение подготовки трансферов и существенное расширение сценариев работы с Oracle и PostgreSQL.</p>",
+    "imageUrl": "https://habrastorage.org/extt/48/95/5d/48955d27ce31a32972331a6846f37e2d.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/48/95/5d/48955d27ce31a32972331a6846f37e2d.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5073235",
+    "alias": "slonik_pg",
+    "fullname": "Дмитрий",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/a29/8de/c7a/a298dec7a688bb94b644f729841b1e59.png",
+    "speciality": "Редактор в Postgres Professional",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 38,
+      "votesCount": 58
+    },
+    "rating": 68.2,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 1,
+    "readingCount": 62,
+    "score": 3,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 3852,
+    "readers": 53
+  },
+  "hubs": [
+    {
+      "id": "19663",
+      "alias": "postgrespro",
+      "type": "corporative",
+      "title": "Блог компании Postgres Professional",
+      "titleHtml": "Блог компании Postgres Professional",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "358",
+      "alias": "postgresql",
+      "type": "collective",
+      "title": "PostgreSQL",
+      "titleHtml": "PostgreSQL",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17681",
+      "alias": "db_admins",
+      "type": "collective",
+      "title": "Базы данных",
+      "titleHtml": "Базы данных",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "312",
+      "alias": "oracle",
+      "type": "collective",
+      "title": "Oracle",
+      "titleHtml": "Oracle",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "306",
+      "alias": "mysql",
+      "type": "collective",
+      "title": "MySQL",
+      "titleHtml": "MySQL",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Postgres Professional выпускает Postgres ProGate 1.5.0 — обновление решения для миграции и репликации данных. Главными новшествами версии стали поддержка аналитической СУБД Postgres Pro AXE 2.0, перенос табличного маппинга на сторону сервера, пятикратное ускорение подготовки трансферов и существенное расширение сценариев работы с Oracle и PostgreSQL.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/48/95/5d/48955d27ce31a32972331a6846f37e2d.jpg\" width=\"1625\" height=\"917\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/48/95/5d/48955d27ce31a32972331a6846f37e2d.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/48/95/5d/48955d27ce31a32972331a6846f37e2d.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>ProGate — решение для бесшовного гетерогенного переноса данных между различными СУБД (Oracle, PostgreSQL, Postgres Pro, Shardman, AXE), состоящее из трёх ключевых компонентов: procopy (высокоскоростная первичная загрузка), prosync (CDC-репликация изменений) и procheck (верификация консистентности данных). Управление всеми компонентами доступно через CLI и веб-интерфейс.</p><h3>Новые возможности procopy</h3><p>Утилита первичной загрузки данных получила поддержку новых целевых систем и более гибкое управление отказоустойчивостью:</p><ul><li><p>добавлена поддержка СУБД Oracle в качестве приёмника данных в procopy, теперь Oracle можно использовать целевой системой не только при репликации изменений в prosync, но и при первичной загрузке (включая символьные, числовые, временные типы, а также BLOB, CLOB, NCLOB, LONG и LONG RAW);</p></li><li><p>реализована поддержка аналитической СУБД Postgres Pro AXE 2.0 в качестве приёмника;</p></li><li><p>добавлен параметр <code>--stop-on-error</code> команды <code>procopy load</code> для принудительной остановки процесса загрузки при первой ошибке вместо пропуска проблемных строк;</p></li><li><p>реализован механизм контролируемых повторных попыток отправки пакетов при потере соединения с приёмником (<code>procopy_options.load_max_retries</code>), исключающий зависание утилиты при сетевых сбоях;</p></li><li><p>появилась возможность отключать таймаут запросов к базе данных при установке значения <code>0</code> для параметра <code>procopy_options.inprogress_timeout</code>.</p></li></ul><h3>Развитие CDC-репликации в prosync</h3><p>Компонент непрерывной репликации получил поддержку новых архитектурных топологий, расширенную диагностику и оптимизацию работы с высоконагруженными кластерами:</p><ul><li><p>реализовано чтение изменений из физических резервных БД (physical standby) и нижестоящих баз данных Oracle, открытых в режиме «только чтение» (<code>prosync_</code><a href=\"http://options.oracle\"><code>options.oracle</code></a><code>_logminer_downstream</code>);</p></li><li><p>добавлена поддержка двунаправленной репликации (multi-master) между двумя главными узлами PostgreSQL / Postgres Pro (версии 16 и выше) с использованием <code>replication origins</code> для предотвращения зацикливания изменений;</p></li><li><p>появился параметр <code>--start-lsn</code> команды <code>prosync init</code>, позволяющий создавать слот логической репликации «в прошлом» (с указанного LSN) для одноузловых инсталляций, BiHA-кластеров и Postgres Pro Shardman при наличии расширения <code>pgpro_logical_slot</code>;</p></li><li><p>расширено управление слотами и публикациями: добавлена возможность задавать пользовательские имена слотов и публикаций, а также создавать только публикацию без слота флагом <code>--publication-only</code>;</p></li><li><p>оптимизирована работа с Oracle RAC и чтением распределённых транзакций: фоновые транзакции (PMON, DBW, ARCH и др.) теперь пропускаются в LogMiner по умолчанию, добавлен флаг <code>--from-time</code> для старта репликации по времени вместо SCN и параметр <code>--skip-missing-archive-logs</code> для обхода отсутствующих архивных журналов;</p></li><li><p>добавлена группа параметров <code>prosync_options.ha_cluster</code> для тонкой настройки отказоустойчивого режима работы (контроль состояния, таймауты, переподключения к БД и перезапуск потоков);</p></li><li><p>реализована встроенная ротация журналов (секция <code>logging</code>), служебный режим запуска (<code>--service</code>) с периодической записью статистики в лог;</p></li><li><p>расширена статистика в TUI-интерфейсе: добавлены метрики <code>Bytes lag</code> и <code>Time lag</code> для экспорта из Oracle, счётчики операций для источников PostgreSQL и индикация состояний <code>Active</code>, <code>Write</code>, <code>Wait</code>.</p></li></ul><h3>Серверная часть и пятикратное ускорение интроспекции</h3><p>В бэкенде ProGate 1.5.0 переработана архитектура подготовки задач и управления метаданными:</p><ul><li><p>реализовано серверное сопоставление (mapping) таблиц: автоматическое сопоставление, интеграция в службу трансферов и миграция существующих задач на новую модель;</p></li><li><p>за счёт оптимизации асинхронной интроспекции баз данных время подготовки трансферов сократилось в 5 раз;</p></li><li><p>добавлена поддержка интроспекции и валидации для Postgres Pro AXE 2.0, а также предварительная проверка доступности подключений к базам источника и приёмника.</p></li></ul><h3>Обновления интерфейса</h3><p>Работа с масштабными схемами данных в GUI стала нагляднее и быстрее:</p><ul><li><p>процесс создания и редактирования задачи разделён на два логических шага: настройку формы задачи и работу с таблицей сопоставления;</p></li><li><p>страница маппинга переведена на серверную пагинацию с предзагрузкой соседних страниц: добавлены кнопка «Автосопоставление», черновик ручного маппинга, поиск по подстроке, серверные фильтры по статусу и счётчики («Выделено», «Ошибки», «Готово к переносу»);</p></li><li><p>появилась возможность задавать параметры трансфера на уровне отдельных таблиц и скрывать или отображать системные схемы;</p></li><li><p>в SQL-редакторе улучшено автодополнение имён таблиц после <code>FROM</code> и <code>JOIN</code>, а также автоматическое экранирование кавычками имён с точками;</p></li><li><p>на странице детализации трансфера разделены вкладки «Задачи» и «Журнал событий», а подключения, не удовлетворяющие требованиям <code>procopy</code>/<code>prosync</code>, автоматически блокируются для выбора.</p></li></ul><h3>Усиление безопасности</h3><p>В новой версии ограничена частота запросов с одного IP-адреса к конечным точкам аутентификации и обновления токена. Для cookie сеанса добавлены атрибуты <code>Partitioned</code>, <code>Secure</code> и <code>SameSite</code>, реализована отправка заголовков HSTS.</p><p>Из конфигурации исключено значение по умолчанию для секрета подписи токенов доступа <code>PROGATE_AUTH_ACCESS_TOKEN_SECRET</code>. Обновлены Go и сторонние библиотеки, устранены уязвимости зависимостей.</p><h3>Особенности обновления</h3><p><strong>Важно:</strong> при обновлении трансферы с устаревшими группами табличных задач без идентификатора схемы возвращаются в статус «Черновик». Их активные группы задач и задачи, включая задачи типа «SQL-запрос», удаляются. После обновления для таких трансферов необходимо заново создать группы задач и выполнить сопоставление таблиц. Трансферы, содержащие только задачи типа «SQL-запрос», сохраняются.</p><p>Документация по установке, настройке и использованию Postgres ProGate 1.5.0 доступна по ссылке: </p><p><a href=\"https://postgrespro.ru/docs/progate/current\">https://postgrespro.ru/docs/progate/current</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "Postgres ProGate"
+    },
+    {
+      "titleHtml": "ProGate"
+    },
+    {
+      "titleHtml": "миграция данных"
+    },
+    {
+      "titleHtml": "миграция бд"
+    },
+    {
+      "titleHtml": "миграция базы данных"
+    },
+    {
+      "titleHtml": "oracle"
+    },
+    {
+      "titleHtml": "mysql"
+    },
+    {
+      "titleHtml": "postgresql"
+    },
+    {
+      "titleHtml": "postgres"
+    },
+    {
+      "titleHtml": "mssql"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105350/2a6881070f0cdc50b86820aa0938d11a/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105350/2a6881070f0cdc50b86820aa0938d11a/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/postgrespro\\/articles\\/1105350\\/\"},\"headline\":\"Postgres ProGate 1.5.0: поддержка Postgres Pro AXE 2.0, серверное сопоставление таблиц и расширенные сценарии репликации\",\"datePublished\":\"2026-11-12T12:35:13+03:00\",\"dateModified\":\"2026-11-12T15:26:04+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Postgres Professional выпускает Postgres ProGate 1.5.0 — обновление решения для миграции и репликации данных. Главными новшествами версии стали поддержка...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/postgrespro\\/articles\\/1105350\\/#post-content-body\",\"about\":[\"c_postgrespro\",\"h_postgresql\",\"h_db_admins\",\"h_oracle\",\"h_mysql\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/48\\/95\\/5d\\/48955d27ce31a32972331a6846f37e2d.jpg\"]}",
+    "metaDescription": "Postgres Professional выпускает Postgres ProGate 1.5.0 — обновление решения для миграции и репликации данных. Главными новшествами версии стали поддержка аналитической СУБД Postgres Pro AXE 2.0,...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

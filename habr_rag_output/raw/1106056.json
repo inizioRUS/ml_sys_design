@@ -1,0 +1,151 @@
+{
+  "id": "1106056",
+  "timePublished": "2026-11-10T11:22:11+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Обновление линейки InfoWatch расширяет границы защиты данных",
+  "leadData": {
+    "textHtml": "<p>Рассказываем, что нового в линейке продуктов для защиты данных: Traffic Monitor 7.16 получил базу контентной фильтрации «Искусственный интеллект» и улучшенную «мягкую блокировку» почты, Activity Monitor 3.6 — расширенный анализ активности в публичных ИИ-сервисах и видеофиксацию с нескольких мониторов, вышел Data Protector для контроля данных и прав доступа. Под катом — подробности по каждому продукту.</p>",
+    "imageUrl": "https://habrastorage.org/extt/9c/2e/5e/9c2e5e34e681a68508e444b6962034b4.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/9c/2e/5e/9c2e5e34e681a68508e444b6962034b4.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "1301052",
+    "alias": "InfoWatch",
+    "fullname": "ИнфоВотч",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/b34/6f9/f60/b346f9f6068f622eaa6e159d0d7ce313.png",
+    "speciality": "Пользователь",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 16,
+      "votesCount": 90
+    },
+    "rating": 37.4,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 95,
+    "score": 6,
+    "votesCount": 3,
+    "votesCountPlus": 3,
+    "votesCountMinus": 0,
+    "reach": 4977,
+    "readers": 75
+  },
+  "hubs": [
+    {
+      "id": "20872",
+      "alias": "infowatch",
+      "type": "corporative",
+      "title": "Блог компании InfoWatch",
+      "titleHtml": "Блог компании InfoWatch",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>В рамках нового цикла обновлений актуализированы продукты InfoWatch для защиты данных — InfoWatch Traffic Monitor, Activity Monitor, Vision, Prediction и Device Control.  Также вышел коммерческий релиз InfoWatch Data Protector — нового продукта для защиты данных в покое и контроля прав доступа.</strong> </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/69/52/8d/69528de1b6bf937c8dcaddec7586b41c.jpeg\" width=\"2624\" height=\"1632\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/69/52/8d/69528de1b6bf937c8dcaddec7586b41c.jpeg 780w,&#10;       https://habrastorage.org/r/w1560/extt/69/52/8d/69528de1b6bf937c8dcaddec7586b41c.jpeg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>ГК InfoWatch провела большое обновление продуктов по защите данных с фокусом на повышение автоматизации за счет внедрения нового и развития существующего ML-функционала, расширение возможностей по предотвращению рисков утечек данных при работе пользователей с генеративными ИИ-моделями, в мессенджерах, файлообменных сервисах и в сценариях кросс-продуктового взаимодействия. Нововведения также позволяют усилить контроль за данными внутри ИТ-периметра организации и за исходящими потоками информации.</p><p><a href=\"https://www.infowatch.ru/zaschita-dannykh-ot-utechek/dlp-sistema-traffic-monitor\"><strong>InfoWatch Traffic Monitor</strong></a> — это интеллектуальная DLP-система для предотвращения утечек конфиденциальной информации и обнаружения внутренних угроз с применением собственных технологий для защиты и анализа больших объемов данных. В версии<strong> </strong>7.16 с Единым агентом 7.21 она получила ряд функциональных улучшений. Среди них — улучшенный алгоритм «мягкой блокировки» электронной почты: при срабатывании политики безопасности перехватчик почты на шлюзе может заблокировать отправку письма, после чего сотруднику предлагается или подтвердить намерение отправки, или отменить передачу сообщения. Улучшен перехват сообщений в мессенджерах и веб-трафике, внедрена автоматическая блокировка «устаревших» событий в карантине по прошествии определенного времени. Усовершенствована система анализа зашифрованных данных и добавлена новая база контентной фильтрации — «Искусственный интеллект». В ней содержатся специализированные словари, характерные для взаимодействия с генеративными ИИ-моделями — это повышает контроль доступа пользователей к публичным ИИ-сервисам.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d3/f3/7c/d3f37c17cd44d18c373ffde7b8effb48.png\" width=\"1080\" height=\"1350\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d3/f3/7c/d3f37c17cd44d18c373ffde7b8effb48.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d3/f3/7c/d3f37c17cd44d18c373ffde7b8effb48.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Наибольшую эффективность DLP-система показывает при работе с системой мониторинга действий сотрудников <a href=\"https://www.infowatch.ru/zaschita-dannykh-ot-utechek/sistema-kontrolya-deystviy-sotrudnikov\"><strong>InfoWatch Activity Monitor</strong></a>, обновленной до версии 3.6. В ней расширены возможности анализа активности пользователей — например, при работе в публичных ИИ-сервисах. Улучшена технология оптического распознавания символов (OCR) для анализа скриншотов и работа с аудио- и видеозаписями — в том числе стала доступна видеофиксация действий сразу на нескольких мониторах. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/15/db/04/15db0454ff9f6d5c85342c33e9ae5188.png\" width=\"1080\" height=\"1350\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/15/db/04/15db0454ff9f6d5c85342c33e9ae5188.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/15/db/04/15db0454ff9f6d5c85342c33e9ae5188.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В рамках текущего обновления <a href=\"https://habr.com/ru/companies/infowatch/articles/1088984/\">вышла</a> коммерческая версия нового продукта — <a href=\"https://www.infowatch.ru/zaschita-dannykh-ot-utechek/data-protector\"><strong>InfoWatch Data Protector</strong></a>, который объединяет функциональные возможности модулей Data Discovery 2.3 и Data Access Tracker 2.5. Разработка предназначена для контроля учетных записей пользователей и администраторов, прав доступа и изменений в инфраструктуре, а также данных, хранящихся «в покое» на рабочих станциях пользователей и серверах компании. InfoWatch Data Protector контролирует и данные, и доступ к ним, что исключает «слепые зоны». Решение входит в состав единой платформы защиты данных InfoWatch — это позволяет сформировать моновендорный контур безопасности и избежать использования разрозненных СЗИ.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/14/5a/60/145a60c76de0bd4877a788e8b15bbddc.png\" width=\"1080\" height=\"1350\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/14/5a/60/145a60c76de0bd4877a788e8b15bbddc.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/14/5a/60/145a60c76de0bd4877a788e8b15bbddc.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Обновление получил модуль визуальной аналитики<strong> </strong><a href=\"https://www.infowatch.ru/zaschita-dannykh-ot-utechek/vision\"><strong>InfoWatch Vision 3.8</strong></a>. В нем расширены возможности визуального анализа жизненного цикла документа и улучшена автоматизация сценариев работы с инцидентами в интерфейсе Центра расследований. В обновлении <a href=\"https://www.infowatch.ru/zaschita-dannykh-ot-utechek/uba-sistema-prediction\"><strong>InfoWatch Prediction 3.6</strong></a> группа риска «Подготовка к увольнению» переименована в «Поиск работы». В нее включен новый паттерн «Анализ рынка труда», позволяющий выявлять признаки поиска новой работы на основе данных из InfoWatch Activity Monitor. Появилась возможность исключать отдельных сотрудников из расчета риск-рейтингов. В <a href=\"https://www.infowatch.ru/zaschita-dannykh-ot-utechek/device-control\"><strong>InfoWatch Device Control 1.5</strong></a> стала доступна настройка правил и приоритетов для контроля приложений на ПК с ОС MS Windows — она аналогична процессу настройки политик контроля внешних устройств. Благодаря этому можно создавать группы правил и изменять приоритеты правил в рамках группы. Также добавлена поддержка ОС Astra Linux SE 1.8.5 и МОС 12.0.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/b2/1a/5f/b21a5f92dd111976cca0d1c4a489983b.png\" width=\"1080\" height=\"1350\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b2/1a/5f/b21a5f92dd111976cca0d1c4a489983b.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/b2/1a/5f/b21a5f92dd111976cca0d1c4a489983b.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><blockquote><p>«Наши заказчики и ИТ-интеграторы высоко оценили практику цикличного и синхронизированного обновления продуктов по защите данных InfoWatch. Новый цикл обновления продуктов позволяет закрыть сразу несколько запросов рынка. Во-первых, это рост сложности и количества киберугроз и, вместе с этим, появление новых векторов угроз. Во-вторых — необходимость повышения уровня автоматизации продуктов по защите данных для снижения нагрузки на офицеров безопасности. И в-третьих — развитие российского стека технологий и, как следствие, потребность в совместимости наших решений с передовыми версиями отечественных ИТ-продуктов», — рассказал <strong>директор по инновациям и продуктовому развитию ГК InfoWatch Андрей Арефьев</strong>.</p></blockquote><p>В предстоящих новостях ГК InfoWatch подробно расскажет про обновление каждого из продуктов.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "InfoWatch"
+    },
+    {
+      "titleHtml": "защита данных"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106056/9cd402a6e8ae2d4a23600d1f71caa85c/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106056/9cd402a6e8ae2d4a23600d1f71caa85c/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/infowatch\\/articles\\/1106056\\/\"},\"headline\":\"Обновление линейки InfoWatch расширяет границы защиты данных\",\"datePublished\":\"2026-11-10T14:22:11+03:00\",\"dateModified\":\"2026-11-11T20:31:56+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В рамках нового цикла обновлений актуализированы продукты InfoWatch для защиты данных —&nbsp;InfoWatch Traffic Monitor, Activity Monitor, Vision, Prediction и...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/infowatch\\/articles\\/1106056\\/#post-content-body\",\"about\":[\"c_infowatch\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/69\\/52\\/8d\\/69528de1b6bf937c8dcaddec7586b41c.jpeg\",\"https:\\/\\/habrastorage.org\\/extt\\/d3\\/f3\\/7c\\/d3f37c17cd44d18c373ffde7b8effb48.png\",\"https:\\/\\/habrastorage.org\\/extt\\/15\\/db\\/04\\/15db0454ff9f6d5c85342c33e9ae5188.png\",\"https:\\/\\/habrastorage.org\\/extt\\/14\\/5a\\/60\\/145a60c76de0bd4877a788e8b15bbddc.png\",\"https:\\/\\/habrastorage.org\\/extt\\/b2\\/1a\\/5f\\/b21a5f92dd111976cca0d1c4a489983b.png\"]}",
+    "metaDescription": "В рамках нового цикла обновлений актуализированы продукты InfoWatch для защиты данных —&nbsp;InfoWatch Traffic Monitor, Activity Monitor, Vision, Prediction и Device Control. &nbsp;Также вышел...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

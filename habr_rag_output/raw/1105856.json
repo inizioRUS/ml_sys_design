@@ -1,0 +1,230 @@
+{
+  "id": "1105856",
+  "timePublished": "2026-11-10T09:07:43+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Valve добавила в Steam статистику частоты кадров при игре на Steam Deck",
+  "leadData": {
+    "textHtml": "<p>Valve <a href=\"https://steamcommunity.com/games/593110/announcements/detail/685269801333948420\" rel=\"noopener nofollow\">выпустила</a> обновление, которое позволит просматривать данные о&nbsp;средней частоте кадров при&nbsp;игре на&nbsp;Steam Deck. Значение рассчитывается на&nbsp;основе информации от&nbsp;пользователей, согласившихся предоставлять эти данные, и доступно для&nbsp;игр, проверенных на&nbsp;совместимость со Steam Deck.&nbsp;</p>",
+    "imageUrl": "https://habrastorage.org/extt/06/52/7b/06527b72db44414523c399d101addbf6.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/06/52/7b/06527b72db44414523c399d101addbf6.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2176401",
+    "alias": "maybe_elf",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/592/11d/4bc/59211d4bcd7f9afdadaef515b2b0706d.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 345,
+      "votesCount": 1085
+    },
+    "rating": 467.6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 180,
+    "score": 3,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 5202,
+    "readers": 145
+  },
+  "hubs": [
+    {
+      "id": "21980",
+      "alias": "games",
+      "type": "collective",
+      "title": "Игры и игровые консоли",
+      "titleHtml": "Игры и игровые консоли",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "7773",
+      "alias": "gamedev",
+      "type": "collective",
+      "title": "Разработка игр",
+      "titleHtml": "Разработка игр",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20844",
+      "alias": "game_promotion",
+      "type": "collective",
+      "title": "Продвижение игр",
+      "titleHtml": "Продвижение игр",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19289",
+      "alias": "game_testing",
+      "type": "collective",
+      "title": "Тестирование игр",
+      "titleHtml": "Тестирование игр",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21470",
+      "alias": "cloud_services",
+      "type": "collective",
+      "title": "Облачные сервисы",
+      "titleHtml": "Облачные сервисы",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "4",
+      "alias": "marketing",
+      "title": "Маркетинг",
+      "titleHtml": "Маркетинг"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Valve <a href=\"https://steamcommunity.com/games/593110/announcements/detail/685269801333948420\" rel=\"noopener nofollow\">выпустила</a> обновление, которое позволит просматривать данные о средней частоте кадров при игре на Steam Deck. Значение рассчитывается на основе информации от пользователей, согласившихся предоставлять эти данные, и доступно для игр, проверенных на совместимость со Steam Deck. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/06/52/7b/06527b72db44414523c399d101addbf6.png\" width=\"1103\" height=\"703\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/06/52/7b/06527b72db44414523c399d101addbf6.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/06/52/7b/06527b72db44414523c399d101addbf6.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Как отмечается, у компании уже есть данные о частоте кадров для тысяч игр, и со временем это число будет расти. Данные о средней частоте кадров можно найти на странице каждой игры в магазине Steam в разделе «Совместимость со Steam Deck» &gt; «Подробнее». Также они доступны в библиотеке Steam в бета‑версии клиента Steam.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/5a/7a/db/5a7adbfc4c219bec0fab4a9c9815679f.png\" width=\"1103\" height=\"643\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/5a/7a/db/5a7adbfc4c219bec0fab4a9c9815679f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/5a/7a/db/5a7adbfc4c219bec0fab4a9c9815679f.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Дополнительно пользователям доступно раскрывающееся подробное представление с гистограммой, где видно процентное распределение объёма данных для каждого значения частоты кадров. Оно помогает понять, как формируется среднее значение, и как часто игроки сталкиваются со сбоями или подвисаниями.</p><p>В Valve объяснили внедрение опции тем, что текущие категории совместимости игр со Steam Deck основаны на стандартизированных критериях тестирования, но они могут отличаться от того, что тот или иной игрок считает приемлемым. Так, игра с низкой производительностью и категорией «Не поддерживается» кому‑то может показаться играбельной, а тайтл с категорией «Полностью совместима» может не достигать значения частоты кадров, которую хотели бы видеть игроки. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/96/49/f7/9649f72c6837af5b1afcd1e1d4a7d153.png\" width=\"1496\" height=\"666\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/96/49/f7/9649f72c6837af5b1afcd1e1d4a7d153.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/96/49/f7/9649f72c6837af5b1afcd1e1d4a7d153.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В компании планируют предоставлять данные о частоте кадров не только для Steam Deck, но и для других устройств. Пользователям предлагается согласиться на отправку анонимных данных о частоте кадров в настольном клиенте Steam. Пока что эта функция есть только в бета‑версии клиента Steam, но в будущем она станет доступна всем.</p><p>Ранее Valve <a href=\"https://habr.com/ru/articles/1103500/\" rel=\"noopener nofollow\">начала увеличивать</a> сроки проверки игр до нескольких недель. Независимые разработчики связывают это с увеличением числа проектов, созданных с использованием искусственного интеллекта.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "valve"
+    },
+    {
+      "titleHtml": "steam"
+    },
+    {
+      "titleHtml": "steam deck"
+    },
+    {
+      "titleHtml": "игры"
+    },
+    {
+      "titleHtml": "частота кадров"
+    },
+    {
+      "titleHtml": "статистика"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    },
+    {
+      "titleHtml": "инфослужба хабра"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105856/100aa61212496b61e9625ccf39fe7e61/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105856/100aa61212496b61e9625ccf39fe7e61/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105856\\/\"},\"headline\":\"Valve добавила в Steam статистику частоты кадров при игре на Steam Deck\",\"datePublished\":\"2026-11-10T12:07:43+03:00\",\"dateModified\":\"2026-11-10T12:23:14+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Valve выпустила обновление, которое позволит просматривать данные о&nbsp;средней частоте кадров при&nbsp;игре на&nbsp;Steam Deck. Значение рассчитывается...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105856\\/#post-content-body\",\"about\":[\"h_games\",\"h_gamedev\",\"h_game_promotion\",\"h_game_testing\",\"h_cloud_services\",\"f_develop\",\"f_admin\",\"f_marketing\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/06\\/52\\/7b\\/06527b72db44414523c399d101addbf6.png\",\"https:\\/\\/habrastorage.org\\/extt\\/5a\\/7a\\/db\\/5a7adbfc4c219bec0fab4a9c9815679f.png\",\"https:\\/\\/habrastorage.org\\/extt\\/96\\/49\\/f7\\/9649f72c6837af5b1afcd1e1d4a7d153.png\"]}",
+    "metaDescription": "Valve выпустила обновление, которое позволит просматривать данные о&nbsp;средней частоте кадров при&nbsp;игре на&nbsp;Steam Deck. Значение рассчитывается на&nbsp;основе информации...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "16",
+    "title": "Геймдев",
+    "alias": "gamedev"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

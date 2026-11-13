@@ -1,0 +1,210 @@
+{
+  "id": "1106222",
+  "timePublished": "2026-11-11T03:20:37+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Релиз Sigil 2.8.6 — открытого мультиплатформенного редактора электронных книг в формате ePub",
+  "leadData": {
+    "textHtml": "<p>В первой половине ноября 2026 года <a href=\"https://github.com/Sigil-Ebook/Sigil/releases/tag/2.8.6\" rel=\"noopener nofollow\">состоялся</a> релиз бесплатного с&nbsp;открытым исходным кодом мультиплатформенного редактора электронных книг <a href=\"https://sigil-ebook.com/\" rel=\"noopener nofollow\">Sigil 2.8.6</a>, использующего Qt6&nbsp;(и QtWebEngine). Проект предназначен для&nbsp;редактирования книг в&nbsp;формате ePub (как ePub 2, так и ePub 3). Выпуск Sigil 2.8.0 <a href=\"https://habr.com/ru/articles/1045428/\" rel=\"noopener nofollow\">случился</a> в июне 2026 года.</p>",
+    "imageUrl": "https://habrastorage.org/extt/5b/6c/bf/5b6cbf0cba0c0bb7cf71380262c0b65e.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/5b/6c/bf/5b6cbf0cba0c0bb7cf71380262c0b65e.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "780987",
+    "alias": "denis-19",
+    "fullname": "Денис",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/6a0/f31/235/6a0f31235bb26134f3c7a741c03e4efb.jpg",
+    "speciality": "Информационная служба Хабра, без использования ИИ",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1069,
+      "votesCount": 2027
+    },
+    "rating": 881.5,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "1024K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 9,
+    "readingCount": 356,
+    "score": 4,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 8489,
+    "readers": 251
+  },
+  "hubs": [
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21456",
+      "alias": "win_dev",
+      "type": "collective",
+      "title": "Windows",
+      "titleHtml": "Windows",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19727",
+      "alias": "linux_dev",
+      "type": "collective",
+      "title": "Linux",
+      "titleHtml": "Linux",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19253",
+      "alias": "osx_dev",
+      "type": "collective",
+      "title": "macOS",
+      "titleHtml": "macOS",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21918",
+      "alias": "soft",
+      "type": "collective",
+      "title": "Софт",
+      "titleHtml": "Софт",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/5b/6c/bf/5b6cbf0cba0c0bb7cf71380262c0b65e.png\" width=\"1000\" height=\"605\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/5b/6c/bf/5b6cbf0cba0c0bb7cf71380262c0b65e.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/5b/6c/bf/5b6cbf0cba0c0bb7cf71380262c0b65e.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В первой половине ноября 2026 года <a href=\"https://github.com/Sigil-Ebook/Sigil/releases/tag/2.8.6\" rel=\"noopener nofollow\">состоялся</a> релиз бесплатного с открытым исходным кодом мультиплатформенного редактора электронных книг <a href=\"https://sigil-ebook.com/\" rel=\"noopener nofollow\">Sigil 2.8.6</a>, использующего Qt6 (и QtWebEngine). Проект предназначен для редактирования книг в формате ePub (как ePub 2, так и ePub 3). Выпуск Sigil 2.8.0 <a href=\"https://habr.com/ru/articles/1045428/\" rel=\"noopener nofollow\">случился</a> в июне 2026 года.</p><p>Исходный код Sigil написан на С++ и Python и <a href=\"https://github.com/Sigil-Ebook/Sigil\" rel=\"noopener nofollow\">опубликован</a> на GitHub под лицензией GNU General Public License v3.0. Сборки решения <a href=\"https://sigil-ebook.com/sigil/download/\" rel=\"noopener nofollow\">доступны</a> для Windows (Windows 10 (1809) и новее), macOS (macOS 11 Big Sur и новее) и Linux, включая <a href=\"https://flathub.org/apps/com.sigil_ebook.Sigil\" rel=\"noopener nofollow\">Flatpak</a>.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/getpro/habr/upload_files/af8/79a/fd5/af879afd514caac2f8e6b8fc41ff62a7.png\" width=\"1296\" height=\"628\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/getpro/habr/upload_files/af8/79a/fd5/af879afd514caac2f8e6b8fc41ff62a7.png 780w,&#10;       https://habrastorage.org/r/w1560/getpro/habr/upload_files/af8/79a/fd5/af879afd514caac2f8e6b8fc41ff62a7.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В Sigil версии 2.8.6 исправлены ранее найденные ошибки и баги после выпуска <a href=\"https://github.com/Sigil-Ebook/Sigil/releases/tag/2.8.5\" rel=\"noopener nofollow\">предыдущей</a> версии, улучшена производительность. </p><p>Основные <a href=\"https://www.neowin.net/software/sigil-286\" rel=\"noopener nofollow\">изменения</a> в Sigil 2.8.6:</p><ul><li><p>исправлен некорректный значок Aria Clips в теме оформления Fluent; </p></li><li><p>исправлена ​​ошибка в файле wrapper.py (оболочка для плагинов на Python), из‑за которой файлы типов application/javascript и application/pls+xml возвращались в виде байтовых последовательностей (UTF-8) вместо обычных строк Python; </p></li><li><p>исправлена ​​ошибка в PluginRunner и wrapper.py, возникавшая при обработке файлов типов oebps‑page‑map+xml и application/vnd.adobe‑page‑map.xml; </p></li><li><p>удалена дублирующаяся запись «Recording Engineer» (звукорежиссёр) в списке MarcRelators; </p></li><li><p>исправлена ​​обратная ссылка для концевых сносок в Aria Clips, а также удалено использование устаревшего атрибута epub:type для концевых сносок; </p></li><li><p>исправлена ​​ошибка в формате EPUB 3, возникавшая при обновлении или замене изображения обложки и приводившая к повреждению записей в манифесте OPF.</p></li></ul></div>",
+  "tags": [
+    {
+      "titleHtml": "sigil"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106222/06d3a11e8ea3ecfd6ffe6aa5c2f502cb/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106222/06d3a11e8ea3ecfd6ffe6aa5c2f502cb/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106222\\/\"},\"headline\":\"Релиз Sigil 2.8.6 — открытого мультиплатформенного редактора электронных книг в формате ePub\",\"datePublished\":\"2026-11-11T06:20:37+03:00\",\"dateModified\":\"2026-11-11T10:15:14+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В первой половине ноября 2026 года состоялся релиз бесплатного с&nbsp;открытым исходным кодом мультиплатформенного редактора электронных книг Sigil 2.8.6 ,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106222\\/#post-content-body\",\"about\":[\"h_open_source\",\"h_win_dev\",\"h_linux_dev\",\"h_osx_dev\",\"h_soft\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/5b\\/6c\\/bf\\/5b6cbf0cba0c0bb7cf71380262c0b65e.png\",\"https:\\/\\/habrastorage.org\\/r\\/w1560\\/getpro\\/habr\\/upload_files\\/af8\\/79a\\/fd5\\/af879afd514caac2f8e6b8fc41ff62a7.png\"]}",
+    "metaDescription": "В первой половине ноября 2026 года состоялся релиз бесплатного с&nbsp;открытым исходным кодом мультиплатформенного редактора электронных книг Sigil 2.8.6 , использующего Qt6&nbsp;(и QtWebEngine)....",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,230 @@
+{
+  "id": "1105384",
+  "timePublished": "2026-11-09T09:08:05+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Сопротивление сотрудников стало самым частым барьером при внедрении UC‑решений",
+  "leadData": {
+    "textHtml": "<p>К2Тех опросил более 250 представителей российских компаний о барьерах внедрения и использования решений для корпоративных коммуникаций (UC). Чаще всего респонденты отмечали сопротивление пользователей непривычным интерфейсам — его назвали 48,8% ответивших, указавших хотя бы одну сложность.</p>",
+    "imageUrl": "https://habrastorage.org/extt/a9/42/3a/a9423aca22a8afc3841e55f383d2f820.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/a9/42/3a/a9423aca22a8afc3841e55f383d2f820.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2856239",
+    "alias": "K2Tech",
+    "fullname": "Редакция Хабра К2Тех",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/ed4/b99/4e1/ed4b994e1aaff4848493983f02489d64.jpg",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 0,
+      "votesCount": 86
+    },
+    "rating": 2.8,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 1,
+    "readingCount": 764,
+    "score": 3,
+    "votesCount": 5,
+    "votesCountPlus": 4,
+    "votesCountMinus": 1,
+    "reach": 6186,
+    "readers": 618
+  },
+  "hubs": [
+    {
+      "id": "23140",
+      "alias": "k2tech",
+      "type": "corporative",
+      "title": "Блог компании К2Тех",
+      "titleHtml": "Блог компании К2Тех",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "6398",
+      "alias": "it-infrastructure",
+      "type": "collective",
+      "title": "IT-инфраструктура",
+      "titleHtml": "IT-инфраструктура",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "92",
+      "alias": "instant_messaging",
+      "type": "collective",
+      "title": "Мессенджеры",
+      "titleHtml": "Мессенджеры",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20682",
+      "alias": "pm",
+      "type": "collective",
+      "title": "Управление проектами",
+      "titleHtml": "Управление проектами",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>К2Тех опросил более 250 представителей российских компаний о барьерах внедрения и использования решений для корпоративных коммуникаций (UC). Чаще всего респонденты отмечали сопротивление пользователей непривычным интерфейсам — его назвали 48,8% ответивших, указавших хотя бы одну сложность.</strong></p><p>Переход на новую платформу меняет повседневные сценарии работы: поиск коллег, организацию встреч, обмен сообщениями и документами. В обзоре российского рынка UC, опубликованном TAdviser в 2025 году, пользовательский опыт назван критически важным фактором: интерфейсы должны быть интуитивно понятными и привычными для сотрудников. Компаниям предстоит организовать обучение на типовых рабочих задачах и поддержку пользователей в период перехода.</p><p>Уход рабочего общения в неконтролируемые каналы отметили 41,5% респондентов. За пределами корпоративной среды компаниям сложнее контролировать доступ к рабочей переписке и документам, их хранение и передачу.</p><p>Отсутствие единого окна для почты, видеоконференций, мессенджера и пространств совместной работы отметили 36,6% респондентов. Такая же доля указала на необходимость модернизации инфраструктуры и связанные с ней риски миграции. При переходе на новые решения для корпоративных коммуникаций задача не ограничивается заменой отдельных продуктов: компаниям необходимо сохранить связи между сервисами и действующие рабочие процессы.</p><p>Часть респондентов использует от двух до четырех продуктов разных поставщиков. Вопрос интеграции сервисов поднимался и в исследовании К2Тех и VK Tech, опубликованном в мае 2026 года: 31% из более чем 800 участников назвали проблемой разрозненность инструментов и их несовместимость.</p><blockquote><p><em>«Переход на новую коммуникационную среду затрагивает данные, интеграции и привычные способы работы сотрудников. Если компания использует продукты нескольких поставщиков, необходимо заранее согласовать изменения в связанных системах и подготовить пользователей к переходу. Роль интегратора — не просто заменить отдельное решение, а выстроить миграцию так, чтобы сохранить непрерывность и качество средств рабочих коммуникаций»</em>, — отмечает <strong>руководитель практики UC и ПО для совместной работы К2Тех Максим Гвоздиков</strong>.</p></blockquote><p><strong>Методология</strong></p><p>В опросе участвовали более 250 представителей российских компаний из сфер ИТ и телекома, банков и финансовых организаций, государственных и бюджетных структур, ритейла и других отраслей.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "корпоративные коммуникации"
+    },
+    {
+      "titleHtml": "uc"
+    },
+    {
+      "titleHtml": "унифицированные коммуникации"
+    },
+    {
+      "titleHtml": "корпоративные мессенджеры"
+    },
+    {
+      "titleHtml": "совместная работа"
+    },
+    {
+      "titleHtml": "исследование"
+    },
+    {
+      "titleHtml": "пользовательский опыт"
+    },
+    {
+      "titleHtml": "сопротивление изменениям"
+    },
+    {
+      "titleHtml": "внедрение по"
+    },
+    {
+      "titleHtml": "миграция"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105384/9d294182c14b05dd6cac5a649eeb17bc/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105384/9d294182c14b05dd6cac5a649eeb17bc/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/k2tech\\/articles\\/1105384\\/\"},\"headline\":\"Сопротивление сотрудников стало самым частым барьером при внедрении UC‑решений\",\"datePublished\":\"2026-11-09T12:08:05+03:00\",\"dateModified\":\"2026-11-09T14:14:24+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"К2Тех опросил более 250&nbsp;представителей российских компаний о&nbsp;барьерах внедрения и использования решений для&nbsp;корпоративных коммуникаций (UC). Чаще...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/k2tech\\/articles\\/1105384\\/#post-content-body\",\"about\":[\"c_k2tech\",\"h_it-infrastructure\",\"h_instant_messaging\",\"h_pm\",\"h_infosecurity\",\"f_develop\",\"f_admin\",\"f_management\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105384\\/9d294182c14b05dd6cac5a649eeb17bc\\/\"]}",
+    "metaDescription": "К2Тех опросил более 250&nbsp;представителей российских компаний о&nbsp;барьерах внедрения и использования решений для&nbsp;корпоративных коммуникаций (UC). Чаще всего респонденты отмечали...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

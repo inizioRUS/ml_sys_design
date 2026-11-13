@@ -1,0 +1,194 @@
+{
+  "id": "1105470",
+  "timePublished": "2026-11-09T12:03:24+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Рабочее место с анцензорной Qwen3.8-Flash-Next (125 млрд параметров) за 43 тысячи рублей: GTX 1070 8ГБ, 128 озу и Xeon",
+  "leadData": {
+    "textHtml": "<p>Есть у меня отдельная машина: материнка под Xeon E5-2696 v4 (22 ядра, 44 потока), 128 ГБ DDR3-1600 и видеокарта GTX 1070 на 8 ГБ. Плата с процессором и памятью обошлась примерно в 35 тысяч рублей, карта — ещё 8 тысяч с рук. Итого — тысяч 43 за всё, железо уровня “давно списано из майнинг-фермы и дата-центра”.</p><p>На этой штуке я запустил Qwen3.8-Flash-Next — MoE-модель на 125 миллиардов параметров (~6 млрд активных на токен) — и она реально работает. Не “теоретически запускается с квантованием до состояния овоща”, а выдаёт 14-15 токенов в секунду генерации на контексте 24,5К. Честно, не ожидал.</p>",
+    "imageUrl": "https://habrastorage.org/extt/a4/93/65/a49365fb36149529be4fa11844cfbf31.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/a4/93/65/a49365fb36149529be4fa11844cfbf31.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2782617",
+    "alias": "DmNep",
+    "fullname": "Дмитрий",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/1a0/c5d/04b/1a0c5d04baa491657ce61c356012f3d1.png",
+    "speciality": "Сети чиню снаружи стека",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 14,
+      "votesCount": 28
+    },
+    "rating": 105.4,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 136,
+    "favoritesCount": 175,
+    "readingCount": 25880,
+    "score": 53,
+    "votesCount": 65,
+    "votesCountPlus": 52,
+    "votesCountMinus": 13,
+    "reach": 105751,
+    "readers": 18390
+  },
+  "hubs": [
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21944",
+      "alias": "videocards",
+      "type": "collective",
+      "title": "Видеокарты",
+      "titleHtml": "Видеокарты",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21976",
+      "alias": "DIY",
+      "type": "collective",
+      "title": "DIY или Сделай сам",
+      "titleHtml": "DIY или Сделай сам",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Есть у меня отдельная машина: материнка под Xeon E5-2696 v4 (22 ядра, 44 потока), 128 ГБ DDR3-1600 и видеокарта GTX 1070 на 8 ГБ. Плата с процессором и памятью обошлась примерно в 35 тысяч рублей, карта — ещё 8 тысяч с рук. Итого — тысяч 43 за всё, железо уровня “давно списано из майнинг-фермы и дата-центра”.</p><p>На этой штуке я запустил Qwen3.8-Flash-Next — MoE-модель на 125 миллиардов параметров (~6 млрд активных на токен) — и она реально работает. Не “теоретически запускается с квантованием до состояния овоща”, а выдаёт 14-15 токенов в секунду генерации на контексте 24,5К. Честно, не ожидал.</p><p>Под катом — как это возможно, какие движки я сравнивал, и что из тюнинга реально дало прирост.</p><h3>Почему 125B параметров — это не то же самое, что 125B параметров</h3><p>Если бы это была плотная (dense) модель на 125 миллиардов параметров, разговор был бы коротким: даже в 4-битном кванте это ~65 ГБ только под веса, и при каждом токене нужно пройти через <strong>все</strong> эти веса. На GTX 1070 с её 8 ГБ VRAM и ~180 ГБ/с пропускной способности это были бы единицы токенов в минуту, не в секунду.</p><p>Qwen3.8-Flash-Next — Mixture-of-Experts: 48 слоёв, 512 маршрутизируемых экспертов на слой, но на каждый токен реально активируется лишь малая часть — порядка 6 млрд параметров-эквивалент вычислений. Это меняет всё: основную массу весов (экспертов, которые сейчас не нужны) можно держать в обычной оперативной памяти или вовсе на диске, и подгружать/считать на CPU только то, что реально потребовалось. GPU в этой схеме обслуживает “горячую” часть — attention, несколько всегда-активных слоёв, и кэш самых часто используемых экспертов.</p><p>Поэтому ключевой ресурс здесь — не VRAM, а <strong>суммарная память</strong> (VRAM + RAM) и количество ядер CPU, которые считают офлоаженных экспертов. 128 ГБ DDR3 — медленной, 1600 МГц, без изысков — но её <em>много</em>, и 22 физических ядра есть кому эту арифметику считать параллельно.</p><h3>Железо и файлы модели</h3><ul><li><p><strong>GPU</strong>: NVIDIA GeForce GTX 1070, 8 ГБ VRAM — ~8 000 ₽</p></li><li><p><strong>CPU</strong>: Intel Xeon E5-2696 v4, 22 ядра / 44 потока, 2.2 ГГц</p></li><li><p><strong>RAM</strong>: 128 ГБ DDR3-1600 (материнка + CPU + память — ~35 000 ₽ одним комплектом)</p></li><li><p><strong>Накопители</strong>: модель переехала с 4ТБ HDD на системный NVMe — об этом ниже, разница ощутимая</p></li></ul><p>Квантованные файлы модели — порядка <strong>95-98 ГБ</strong> на диске (три шарда GGUF в IQ4_XS/UD-IQ4_XS). В 8 ГБ VRAM из этого влезает меньше десятой части — всё остальное читается с диска при старте и живёт в RAM.</p><h3>Два движка: llama.cpp и Strata</h3><p>Гонял одну и ту же задачу (MoE-офлоад экспертов на CPU) на двух инференс-движках.</p><p><strong>llama.cpp</strong> — классика, <code>--n-cpu-moe</code> держит часть слоёв экспертов на CPU, <code>--override-tensor</code> позволяет точечно докинуть на GPU конкретные тензоры сверх этого.</p><p><strong>Strata</strong> — движок с явным упором на MoE: адаптивный кэш экспертов в VRAM (<code>--expert-cache auto</code>, сам решает, какие эксперты держать на карте по частоте обращения), и спекулятивное декодирование через MTP-драфтер (Multi-Token Prediction) — лёгкий слой предсказывает несколько токенов вперёд, основная модель их пачкой проверяет, из-за чего при удачном совпадении генерация идёт быстрее, чем токен-за-токеном.</p><h3>Методика</h3><p>Для каждого размера запроса (1К / 4К / 16К / 24,5К токенов “уже в контексте”) — 3 прогона со случайным текстом-заполнителем и случайным ID в начале (чтобы не словить кэш промпта), генерация 128 токенов, температура 0. Результат — медиана трёх повторов. Контекст — 32768 токенов (упирается в VRAM на этой карте даже с квантованным int8 KV-кэшем). Скрипты и сырые данные — в репозитории, см. ссылку в конце.</p><h3>Результаты: llama.cpp, подбор офлоада</h3><p>Сначала — что получилось выжать из llama.cpp. Три шага: все эксперты на CPU → добавить один слой экспертов целиком на GPU (<code>-ncmoe</code>) → докинуть ещё одну матрицу тензора точечно (<code>-ot</code>).</p><p><strong>Генерация, ток/с (медиана):</strong></p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Запрос</p></th><th><p align=\"left\">все эксперты на CPU</p></th><th><p align=\"left\">+1 слой на GPU</p></th><th><p align=\"left\">+ точечный тензор</p></th></tr><tr><td><p align=\"left\">1K</p></td><td><p align=\"left\">5,1</p></td><td><p align=\"left\">5,6</p></td><td><p align=\"left\"><strong>6,2</strong></p></td></tr><tr><td><p align=\"left\">4K</p></td><td><p align=\"left\">5,4</p></td><td><p align=\"left\">6,1</p></td><td><p align=\"left\"><strong>6,1</strong></p></td></tr><tr><td><p align=\"left\">16K</p></td><td><p align=\"left\">4,6</p></td><td><p align=\"left\">5,1</p></td><td><p align=\"left\"><strong>5,5</strong></p></td></tr><tr><td><p align=\"left\">24,5K</p></td><td><p align=\"left\">4,3</p></td><td><p align=\"left\">5,0</p></td><td><p align=\"left\"><strong>5,4</strong></p></td></tr></tbody></table></div></div><p>Итог — <strong>+20-26%</strong> к генерации от простейшей раскладки до финальной, бесплатно, просто перераспределением слоёв между GPU и CPU. VRAM в финале — 7666 из 8192 МиБ, то есть упёрлись в карту почти впритык: следующая матрица экспертов (ещё ~425-450 МиБ) уже не влезает без урезания контекста.</p><p>Любопытная деталь: лог llama.cpp сам советовал добавить <code>--load-mode none</code> при использовании <code>--override-tensor</code> (типа “так быстрее”). Проверил — это оказалось явной регрессией: prefill упал с 82-99 до 10-29 ток/с. Без mmap операционная система не держит страницы CPU-резидентных весов в файловом кэше, и они перечитываются с диска на каждый токен. Совет из лога, судя по всему, относится к другому сценарию — не доверяйте слепо.</p><h3>Результаты: Strata — и тут начинается интересное</h3><p>Та же модель (вариант unsloth UD-IQ4_XS), движок Strata с адаптивным кэшем экспертов и MTP-спекуляцией:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Запрос</p></th><th><p align=\"left\">llama.cpp, ген. ток/с</p></th><th><p align=\"left\">Strata, ген. ток/с</p></th><th><p align=\"left\">Strata, prefill ток/с</p></th></tr><tr><td><p align=\"left\">1K</p></td><td><p align=\"left\">6,2</p></td><td><p align=\"left\"><strong>15,3</strong></p></td><td><p align=\"left\">237,6</p></td></tr><tr><td><p align=\"left\">4K</p></td><td><p align=\"left\">6,1</p></td><td><p align=\"left\"><strong>15,3</strong></p></td><td><p align=\"left\">224,9</p></td></tr><tr><td><p align=\"left\">16K</p></td><td><p align=\"left\">5,5</p></td><td><p align=\"left\"><strong>15,2</strong></p></td><td><p align=\"left\">236,5</p></td></tr><tr><td><p align=\"left\">24,5K</p></td><td><p align=\"left\">5,4</p></td><td><p align=\"left\"><strong>15,1</strong></p></td><td><p align=\"left\">237,6</p></td></tr></tbody></table></div></div><p>Эта первая таблица сравнивает <strong>разные файлы модели</strong> (Uncensored-вариант на llama.cpp, официальный unsloth-квант на Strata) — честно предупреждаю сразу, чтобы не выглядело как жульничество. Дальше разобрался, насколько чистая эта разница на самом деле.</p><h3>Пересобрал llama.cpp и прогнал на том же файле — и тут выяснилось интересное</h3><p>Чтобы сравнить движки по-честному, нужен был llama-server, который грузит ровно тот же GGUF, что и Strata. Апстрим llama.cpp эту архитектуру (Qwen3.8 Flash Next) не понимает — но в исходниках Strata есть собственный патченный форк llama.cpp именно под такие модели. Собрал из него <code>llama-server</code> под CUDA 12.6 (ушло на пересборку минут 15; по пути всплыла мелочь — в этом чекауте не хватало каталога веб-морды чата, слепил пустую заглушку, раз нужен был только API) и прогнал на тех же файлах, что грузила Strata.</p><p><strong>Тактика с Uncensored-кванта не перенеслась.</strong> На нём точечный перенос матрицы <code>blk.46.ffn_down_exps</code> весил ~450 МБ и укладывался в свободные 424-613 МиБ VRAM. На официальном unsloth UD-IQ4_XS та же матрица весит <strong>891 МБ</strong> — почти вдвое больше: Unsloth Dynamic Quant держит часть тензоров в повышенной точности ради качества, жертвуя компактностью. Свободных 348 МиБ на такое уже не хватает.</p><p>Хуже: даже без точечного переноса, один <code>-ncmoe 47</code> на этом файле оказался на самой грани VRAM и <strong>деградировал с ростом запроса</strong> — без перегрева (53°C), без видимого троттлинга, но стабильно медленнее на каждом следующем прогоне:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Запрос</p></th><th><p align=\"left\">prefill, ток/с</p></th><th><p align=\"left\">генерация, ток/с</p></th></tr><tr><td><p align=\"left\">1K</p></td><td><p align=\"left\">64,0</p></td><td><p align=\"left\">4,9</p></td></tr><tr><td><p align=\"left\">4K</p></td><td><p align=\"left\">79,1</p></td><td><p align=\"left\">4,6</p></td></tr><tr><td><p align=\"left\">16K</p></td><td><p align=\"left\">18,1</p></td><td><p align=\"left\">1,6</p></td></tr><tr><td><p align=\"left\">24,5K</p></td><td><p align=\"left\">13,0</p></td><td><p align=\"left\">1,5</p></td></tr></tbody></table></div></div><p>На 24,5К один повтор занимал около 33 минут (на Uncensored-кванте такой же запрос обрабатывался за секунды) — бенчмарк на этом размере пришлось остановить после 2 повторов вместо 3, дальше деградация уже ничего нового не показывала.</p><p><strong>Вот теперь сравнение действительно чистое</strong> — один и тот же файл модели на обоих движках:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Запрос</p></th><th><p align=\"left\">llama.cpp ген., ток/с</p></th><th><p align=\"left\">Strata ген., ток/с</p></th><th><p align=\"left\">ускорение</p></th><th><p align=\"left\">llama.cpp prefill</p></th><th><p align=\"left\">Strata prefill</p></th><th><p align=\"left\">ускорение</p></th></tr><tr><td><p align=\"left\">1K</p></td><td><p align=\"left\">4,9</p></td><td><p align=\"left\"><strong>15,3</strong></p></td><td><p align=\"left\">×3,1</p></td><td><p align=\"left\">64,0</p></td><td><p align=\"left\"><strong>237,6</strong></p></td><td><p align=\"left\">×3,7</p></td></tr><tr><td><p align=\"left\">4K</p></td><td><p align=\"left\">4,6</p></td><td><p align=\"left\"><strong>15,3</strong></p></td><td><p align=\"left\">×3,3</p></td><td><p align=\"left\">79,1</p></td><td><p align=\"left\"><strong>224,9</strong></p></td><td><p align=\"left\">×2,8</p></td></tr><tr><td><p align=\"left\">16K</p></td><td><p align=\"left\">1,6</p></td><td><p align=\"left\"><strong>15,2</strong></p></td><td><p align=\"left\">×9,5</p></td><td><p align=\"left\">18,1</p></td><td><p align=\"left\"><strong>236,5</strong></p></td><td><p align=\"left\">×13,1</p></td></tr><tr><td><p align=\"left\">24,5K</p></td><td><p align=\"left\">1,5</p></td><td><p align=\"left\"><strong>15,1</strong></p></td><td><p align=\"left\">×10,1</p></td><td><p align=\"left\">13,0</p></td><td><p align=\"left\"><strong>237,6</strong></p></td><td><p align=\"left\">×18,3</p></td></tr></tbody></table></div></div><p>Разрыв оказался даже больше, чем в первой таблице — но смысл у него другой. Это не “Strata как движок в 3-18 раз быстрее llama.cpp”. Это конкретная находка: <strong>выбор кванта решает, останется ли у 8-гигабайтной карты запас VRAM для ручной подгонки llama.cpp вообще</strong>. На Uncensored-кванте запас был, и тюнинг дал честные 5,4-6,2 ток/с стабильно на всех размерах. На официальном unsloth-кванте запаса не осталось — и без переподбора конфигурации под конкретный файл llama.cpp на этой карте просто расползается на длинном контексте.</p><p>Strata в этом смысле выигрывает не только спекулятивным декодированием (о нём — ниже), а тем, что <code>--expert-cache auto</code> сам считает, сколько экспертов влезет в оставшуюся VRAM, под любой файл, без пересчёта тензоров руками под каждый новый квант. Для человека, который не хочет гонять <code>gguf.GGUFReader</code> каждый раз, когда меняет модель, — это не просто цифры в таблице, а реальная экономия вечера.</p><p>Часть разрыва по генерации всё ещё приходится на спекулятивное декодирование: accept rate у MTP-драфтера Strata гулял от 0% до 100% по разным прогонам (медиана 50-65%), llama.cpp в этом тесте спекуляцию не использовал вообще. На малопредсказуемом тексте разрыв по генерации будет меньше, чем в таблице.</p><h3>Тюнинг на бесплатных флагах</h3><p>Полез в <code>strata --help</code> в поисках того, что можно включить без риска регрессии — и нашёл два флага чисто про расстановку потоков и памяти, не трогающих арифметику:</p><ul><li><p><code><strong>--host-core sibling</strong></code> — по умолчанию поток, спинящийся в ожидании GPU-прерываний, занимает отдельное физическое ядро. На HT-процессоре его можно пересадить на второй логический поток той же пары — и отдать освободившееся физическое ядро CPU-пулу экспертов. На 22-ядерном Xeon это 22 воркера вместо 21.</p></li><li><p><code><strong>--expert-cache-per-layer</strong></code> — по умолчанию слоты VRAM-кэша экспертов раздаются из общего счётчика в порядке появления, из-за чего часть слоёв получает все слоты, часть — почти ничего. Флаг даёт каждому слою свой персональный бюджет.</p></li></ul><p>Результат — стабильный прирост без каких-либо компромиссов:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Запрос</p></th><th><p align=\"left\">генерация: база → тюнинг</p></th><th><p align=\"left\">prefill: база → тюнинг</p></th></tr><tr><td><p align=\"left\">1K</p></td><td><p align=\"left\">14,0 → <strong>15,3</strong> (+9%)</p></td><td><p align=\"left\">151,4 → <strong>237,6</strong> (+57%)</p></td></tr><tr><td><p align=\"left\">4K</p></td><td><p align=\"left\">14,1 → <strong>15,3</strong> (+9%)</p></td><td><p align=\"left\">214,2 → <strong>224,9</strong> (+5%)</p></td></tr><tr><td><p align=\"left\">16K</p></td><td><p align=\"left\">14,3 → <strong>15,2</strong> (+6%)</p></td><td><p align=\"left\">225,8 → <strong>236,5</strong> (+5%)</p></td></tr><tr><td><p align=\"left\">24,5K</p></td><td><p align=\"left\">13,9 → <strong>15,1</strong> (+9%)</p></td><td><p align=\"left\">228,0 → <strong>237,6</strong> (+4%)</p></td></tr></tbody></table></div></div><p>На коротких запросах эффект на prefill особенно заметный (+57% на 1К) — похоже, там выше доля времени, которое съедает “холодный” проход через CPU-пул, и лишнее ядро там решает больше.</p><h3>NVMe вместо HDD — не опция, а необходимость</h3><p>Отдельно стоит сказать про хранение файлов модели. Изначально 95 ГБ лежали на старом 4ТБ HDD — холодная загрузка модели зависла больше чем на 10 минут, пришлось перезагружать машину, не дождавшись. Перенос тех же файлов на системный NVMe — и загрузка укладывается в ~150 секунд (из которых 55 ГБ весов экспертов читаются в RAM со скоростью ~1,2 ГБ/с). Для MoE-моделей с офлоадом в 90+ ГБ это не “было бы неплохо”, а разница между “работает” и “не дождался”.</p><h3>Что в итоге</h3><p>Бюджетная связка видеокарта-за-8к + списанный серверный Xeon с кучей медленной DDR3 — рабочий вариант для MoE-моделей таких размеров, если понимать принцип: платите не за то, чтобы весь 125-миллиардный монстр влез в VRAM, а за то, чтобы было, где держать офлоаженных экспертов (много RAM) и кому их считать (много ядер). GPU в этой схеме — ускоритель горячей части, а не обязательное условие “влезет/не влезет”.</p><p>Понятно, что 14-15 ток/с — это не скорость топового железа, но для локальной модели на 125B параметров на столе за 43 тысячи рублей — более чем рабочий результат.</p><p>Полные данные, сырые JSON/CSV замеров и скрипты, которыми всё это измерялось — в репозитории: <a href=\"https://github.com/DmNep/llm-bench-1070\" rel=\"noopener nofollow\">github.com/DmNep/llm-bench-1070</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "qwen3.8-flash-next"
+    },
+    {
+      "titleHtml": "moe"
+    },
+    {
+      "titleHtml": "llama.cpp"
+    },
+    {
+      "titleHtml": "strata"
+    },
+    {
+      "titleHtml": "gtx1070"
+    },
+    {
+      "titleHtml": "бенчмарк"
+    },
+    {
+      "titleHtml": "квантование"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105470/c3191ed5a68321b4cdbb240ccc542560/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105470/c3191ed5a68321b4cdbb240ccc542560/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105470\\/\"},\"headline\":\"Рабочее место с анцензорной Qwen3.8-Flash-Next (125 млрд параметров) за 43 тысячи рублей: GTX 1070 8ГБ, 128 озу и Xeon\",\"datePublished\":\"2026-11-09T15:03:24+03:00\",\"dateModified\":\"2026-11-10T11:11:19+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Есть у меня отдельная машина: материнка под Xeon E5-2696 v4 (22 ядра, 44 потока), 128 ГБ DDR3-1600 и видеокарта GTX 1070 на 8 ГБ. Плата с процессором и памятью...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105470\\/#post-content-body\",\"about\":[\"h_machine_learning\",\"h_videocards\",\"h_DIY\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105470\\/c3191ed5a68321b4cdbb240ccc542560\\/\"]}",
+    "metaDescription": "Есть у меня отдельная машина: материнка под Xeon E5-2696 v4 (22 ядра, 44 потока), 128 ГБ DDR3-1600 и видеокарта GTX 1070 на 8 ГБ. Плата с процессором и памятью обошлась примерно в 35 тысяч рублей,...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 6,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

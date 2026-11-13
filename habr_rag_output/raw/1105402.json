@@ -1,0 +1,182 @@
+{
+  "id": "1105402",
+  "timePublished": "2026-11-09T09:39:58+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "«Яндекс Маркет» запустил продажи в прямых эфирах мобильного приложения",
+  "leadData": {
+    "textHtml": "<p>«Яндекс Маркет» <a href=\"https://www.kommersant.ru/doc/9092493\" rel=\"noopener nofollow\">запускает</a> круглосуточные прямые эфиры в&nbsp;своём приложении. Новая функция будет доступна для&nbsp;блогеров, которые смогут монетизировать контент на&nbsp;площадке, и в&nbsp;будущем&nbsp;— для&nbsp;продавцов.</p>",
+    "imageUrl": "https://habrastorage.org/extt/08/28/28/0828280eb56828a6f9a04b92fdf924f3.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/08/28/28/0828280eb56828a6f9a04b92fdf924f3.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3000027",
+    "alias": "LizzieSimpson",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/87d/321/950/87d321950490400be5d296976a5747d0.png",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 97,
+      "votesCount": 429
+    },
+    "rating": 320.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 7,
+    "favoritesCount": 2,
+    "readingCount": 988,
+    "score": 2,
+    "votesCount": 2,
+    "votesCountPlus": 1,
+    "votesCountMinus": 1,
+    "reach": 6508,
+    "readers": 802
+  },
+  "hubs": [
+    {
+      "id": "20716",
+      "alias": "ecommerce",
+      "type": "collective",
+      "title": "Управление e-commerce",
+      "titleHtml": "Управление e-commerce",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "22026",
+      "alias": "itcompanies",
+      "type": "collective",
+      "title": "IT-компании",
+      "titleHtml": "IT-компании",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20728",
+      "alias": "sales",
+      "type": "collective",
+      "title": "Управление продажами",
+      "titleHtml": "Управление продажами",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/08/28/28/0828280eb56828a6f9a04b92fdf924f3.jpg\" width=\"1600\" height=\"900\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/08/28/28/0828280eb56828a6f9a04b92fdf924f3.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/08/28/28/0828280eb56828a6f9a04b92fdf924f3.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>«Яндекс Маркет» <a href=\"https://www.kommersant.ru/doc/9092493\" rel=\"noopener nofollow\">запускает</a> круглосуточные прямые эфиры в своём приложении. Новая функция будет доступна для блогеров, которые смогут монетизировать контент на площадке, и в будущем — для продавцов.</p><p>«Трансляции доступны в отдельной ленте с входом на главном экране приложения. Зритель может выбрать интересующий эфир и в чате попросить ведущего показать детали крупным планом или объяснить, как работает устройство. Ссылка на подборку товаров позволяет перейти от демонстрации к выбору и заказу в приложении», — рассказал представитель сервиса.</p><p>Ведущие получают вознаграждение за подготовку и проведение трансляций, даже если зрители не совершают покупок. По данным площадки, средний заработок составляет 5–6 тыс. рублей за один час эфира. На старте доступ получили несколько сотен блогеров из реферальной программы «Маркета». Продавцы также смогут показывать товары в действии, рассказывать о бренде, знакомить зрителей с акциями и отвечать на вопросы потенциальных покупателей.</p><p>Оборот розничной торговли России в январе‑августе 2026 года, по данным Росстата, составил 6,06 трлн рублей. В целом показатели рынка e‑commerce замедляются из года в год. По данным Data Insight, в 2023 году рынок рос на 44%, в 2024 году — на 39%, а по итогам 2025 года — на 19%, до 13,4 трлн рублей.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "яндекс маркет"
+    },
+    {
+      "titleHtml": "маркетплейсы"
+    },
+    {
+      "titleHtml": "продажи"
+    },
+    {
+      "titleHtml": "продажи через интернет"
+    },
+    {
+      "titleHtml": "продажи на маркетплейсах"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105402/fce1cdec5c19f6515a8d5716659b57b7/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105402/fce1cdec5c19f6515a8d5716659b57b7/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105402\\/\"},\"headline\":\"«Яндекс Маркет» запустил продажи в прямых эфирах мобильного приложения\",\"datePublished\":\"2026-11-09T12:39:58+03:00\",\"dateModified\":\"2026-11-09T13:29:20+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"«Яндекс Маркет» запускает круглосуточные прямые эфиры в&nbsp;своём приложении. Новая функция будет доступна для&nbsp;блогеров, которые смогут монетизировать...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105402\\/#post-content-body\",\"about\":[\"h_ecommerce\",\"h_itcompanies\",\"h_sales\",\"f_management\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/08\\/28\\/28\\/0828280eb56828a6f9a04b92fdf924f3.jpg\"]}",
+    "metaDescription": "«Яндекс Маркет» запускает круглосуточные прямые эфиры в&nbsp;своём приложении. Новая функция будет доступна для&nbsp;блогеров, которые смогут монетизировать контент на&nbsp;площадке, и...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false
+}

@@ -1,0 +1,209 @@
+{
+  "id": "1106290",
+  "timePublished": "2026-11-10T19:49:33+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Opsgenie закрывается в апреле 2027. Я сделал дежурства с эскалациями в Telegram для команд в РФ",
+  "leadData": {
+    "textHtml": "<p>Atlassian закрыл новые регистрации в Opsgenie в первом квартале 2026 года и назначил 5 апреля 2027 года датой окончания поддержки. Функции дежурств переезжают в Jira Service Management, а для многих команд в России переезд туда закрыт. PagerDuty, <a href=\"http://incident.io\" rel=\"noopener nofollow\">incident.io</a> и Rootly либо недоступны, либо заточены под Slack, которым у нас почти никто не пользуется.</p><p>Что остаётся? Обычно одно из трёх: бот Zabbix, который шлёт всё подряд в общий чат; Karma поверх Alertmanager, на которую кто-то должен смотреть; или договорённость «если ночью упало — звоните Васе». Все три варианта показывают алерт, но ни один не отвечает на главный вопрос: <strong>кто сейчас отвечает за инцидент и что будет, если он не проснулся</strong>.</p><p>Я сделал «Дежурку» — небольшой сервис, который встаёт поверх уже имеющегося мониторинга и закрывает именно эту дыру. В статье расскажу, как он устроен, какие решения пришлось принять и как его попробовать.</p>",
+    "imageUrl": "https://habrastorage.org/extt/0a/86/c7/0a86c773bf048f2571cc72b5e2230fa7.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/0a/86/c7/0a86c773bf048f2571cc72b5e2230fa7.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "sandbox",
+      "typeOf": "system",
+      "title": "Из песочницы",
+      "data": {
+        "url": null
+      }
+    }
+  ],
+  "author": {
+    "id": "6066184",
+    "alias": "wonbix1409",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 1
+    },
+    "rating": 0,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 1,
+    "readingCount": 392,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 9582,
+    "readers": 314
+  },
+  "hubs": [
+    {
+      "id": "20788",
+      "alias": "devops",
+      "type": "collective",
+      "title": "DevOps",
+      "titleHtml": "DevOps",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "340",
+      "alias": "python",
+      "type": "collective",
+      "title": "Python",
+      "titleHtml": "Python",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Почему это важно именно сейчас</h3><p>Atlassian закрыл новые регистрации в Opsgenie в первом квартале 2026 года и назначил 5 апреля 2027 года датой окончания поддержки. Функции дежурств переезжают в Jira Service Management, а для многих команд в России переезд туда закрыт. PagerDuty, <a href=\"http://incident.io\" rel=\"noopener nofollow\">incident.io</a> и Rootly либо недоступны, либо заточены под Slack, которым у нас почти никто не пользуется.</p><p>Что остаётся? Обычно одно из трёх: бот Zabbix, который шлёт всё подряд в общий чат; Karma поверх Alertmanager, на которую кто-то должен смотреть; или договорённость «если ночью упало — звоните Васе». Все три варианта показывают алерт, но ни один не отвечает на главный вопрос: <strong>кто сейчас отвечает за инцидент и что будет, если он не проснулся</strong>.</p><p>Я сделал «Дежурку» — небольшой сервис, который встаёт поверх уже имеющегося мониторинга и закрывает именно эту дыру. В статье расскажу, как он устроен, какие решения пришлось принять и как его попробовать.</p><h3>Что должна уметь система дежурств</h3><p>Прежде чем писать код, я сформулировал требования, исходя из того, что у типичной команды уже стоит Prometheus с Alertmanager или Zabbix, а общаются все в Telegram.</p><ol><li><p><strong>Не заменять мониторинг, а встать после него.</strong> Алерты уже есть, их не надо собирать заново — нужно решить, кого будить.</p></li><li><p><strong>Знать график.</strong> Ротация на неделю или на сутки, разные часовые пояса, подмены «Петя заболел, сегодня дежурит Маша» без правки конфигов.</p></li><li><p><strong>Эскалировать.</strong> Если дежурный не отреагировал за 5 минут — звать следующего, потом тимлида, и так по кругу.</p></li><li><p><strong>Фиксировать ответственного.</strong> Кнопка «Беру» в Telegram: нажал — эскалация остановилась, а все видят, кто разбирается.</p></li><li><p><strong>Не спамить.</strong> Один и тот же алерт, пришедший 20 раз, — это один инцидент, а не 20 сообщений.</p></li><li><p><strong>Ставиться в закрытый контур.</strong> Без публичного HTTPS, без внешних SaaS, данные остаются у компании.</p></li><li><p><strong>Конфиг как код.</strong> Люди, графики и политики — в YAML рядом с остальной инфраструктурой.</p></li></ol><h3>Как устроена «Дежурка»</h3><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0a/86/c7/0a86c773bf048f2571cc72b5e2230fa7.png\" width=\"1344\" height=\"1448\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0a/86/c7/0a86c773bf048f2571cc72b5e2230fa7.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0a/86/c7/0a86c773bf048f2571cc72b5e2230fa7.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Алерт проходит две развилки. Сначала проверяется, нет ли уже открытого инцидента с тем же ключом: если есть, людей не будят повторно. Затем после уведомления «Дежурка» ждёт «Беру». Нет нажатия за отведённые минуты — переходит к следующему шагу политики и снова смотрит, кто сейчас в смене.</p><p>Под капотом это Python 3.12, FastAPI и SQLAlchemy, хранилище — SQLite или Postgres. Весь сервис — около 2000 строк кода и 24 теста, ставится одним Docker-контейнером.</p><h3>Подключение за 5 минут</h3><p>У каждого сервиса в конфиге есть секретный <code>integration_key</code>. Он входит в URL вебхука, а последний сегмент URL говорит, в каком формате пришёл алерт.</p><p><strong>Prometheus Alertmanager</strong> — достаточно добавить ресивер:</p><pre><code class=\"yaml\">receivers:\n  - name: dezhurka\n    webhook_configs:\n      - url: https://dezhurka.example.ru/api/v1/ingest/&lt;integration_key&gt;/alertmanager\n        send_resolved: true\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>С <code>send_resolved: true</code> инцидент закрывается сам, когда алерт уходит. Grafana Alerting шлёт совместимый формат — для неё тот же URL с окончанием <code>/grafana</code>.</p><p><strong>Zabbix</strong> — медиа-тип Webhook с готовым JS-скриптом из репозитория. Если в действии включить Recovery operations, восстановление тоже закроет инцидент: «Дежурка» склеивает проблему и восстановление по <code>{</code><a href=\"http://EVENT.ID\" rel=\"noopener nofollow\"><code>EVENT.ID</code></a><code>}</code>.</p><p><strong>Свои скрипты и cron</strong> — обычный JSON:</p><pre><code class=\"bash\">curl -X POST https://dezhurka.example.ru/api/v1/ingest/&lt;integration_key&gt;/generic \\\n  -H 'Content-Type: application/json' \\\n  -d '{\"title\": \"Ночной бэкап не прошёл\", \"dedup_key\": \"backup-db1\", \"details\": \"exit code 2\"}'\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Это удобно для бэкапов, проверок сертификатов и всего, что не живёт в Prometheus.</p><h3>Графики и эскалации</h3><p>Всё статичное описано в одном <code>config.yaml</code>, его удобно держать в git и ревьюить как обычный код:</p><pre><code class=\"yaml\">schedules:\n  - id: sre-primary\n    timezone: Europe/Moscow\n    rotation:\n      start: 2026-11-02T10:00:00   # первая смена — понедельник, 10:00\n      shift_hours: 168             # неделя; 24 — посуточно, 12 — день/ночь\n      users: [ivan, maria, oleg]\n\nescalation_policies:\n  - id: sre\n    repeat: 2                      # если никто не взял — ещё два круга\n    steps:\n      - targets: [{schedule: sre-primary}]\n        escalate_after_min: 5\n      - targets: [{user: lead}]\n        escalate_after_min: 10\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Когда приходит новый алерт, «Дежурка» смотрит, кто сейчас в смене по графику <code>sre-primary</code>, и зовёт его в личку Telegram и на почту. Параллельно инцидент дублируется в общий чат команды. Если за 5 минут никто не нажал «Беру», зовут тимлида, через 10 минут цикл начинается заново. После двух кругов в хронологии появляется запись, что эскалация исчерпана, — это сигнал пересмотреть график.</p><p>Подмены живут отдельно, в базе: их добавляют в панели, не трогая конфиг. Подмена всегда сильнее ротации, а из двух пересекающихся побеждает последняя.</p><p>Секреты (токен бота, пароль панели, ключи интеграций) в конфиге не хранятся: они подставляются из переменных окружения через <code>${VAR}</code>.</p><h3>Инженерные решения, которые пришлось продумать</h3><p><strong>Дедупликация по ключу, а не по тексту.</strong> У Alertmanager у каждого алерта есть <code>fingerprint</code> — хэш меток. Пока инцидент с таким ключом открыт, повторные алерты только увеличивают счётчик. Для Zabbix ключом служит <code>{</code><a href=\"http://EVENT.ID\" rel=\"noopener nofollow\"><code>EVENT.ID</code></a><code>}</code>: Zabbix передаёт один и тот же ID и в проблеме, и в восстановлении, поэтому пара склеивается без эвристик. Если ключа нет, берётся хэш меток.</p><p><strong>Long polling вместо вебхука Telegram.</strong> Чтобы принимать нажатия кнопок через вебхук, серверу нужен публичный HTTPS-адрес. В закрытом контуре банка его нет и не будет. Поэтому бот сам опрашивает Telegram через <code>getUpdates</code>: наружу нужен только исходящий доступ к <a href=\"http://api.telegram.org\" rel=\"noopener nofollow\"><code>api.telegram.org</code></a>.</p><p><strong>Один процесс — осознанно.</strong> Цикл эскалаций, бот и HTTP API живут в одном процессе uvicorn, а все изменения состояния инцидентов идут через один <code>asyncio.Lock</code>. Для системы, через которую проходят десятки инцидентов в день, это проще и надёжнее распределённых блокировок: нельзя случайно разбудить человека дважды или потерять «Беру» в гонке. По умолчанию данные лежат в SQLite, для продакшна можно подключить Postgres.</p><p><strong>Обновление уже отправленных сообщений.</strong> Каждое сообщение об инциденте сохраняется с <code>chat_id</code> и <code>message_id</code>. Когда кто-то нажимает «Беру», все копии — в личках и в общем чате — редактируются: статус меняется на «В работе: Иван», кнопка «Беру» исчезает. В чате не остаётся «висящих» алертов, по которым непонятно, взял ли их кто-то.</p><p><strong>Кнопки нажимают только свои.</strong> Человек привязывает Telegram по личной ссылке вида <a href=\"http://t.me/&lt;%D0%B1%D0%BE%D1%82&gt;?start=&lt;%D0%BA%D0%BE%D0%B4&gt;\" rel=\"noopener nofollow\"><code>t.me/&lt;бот&gt;?start=&lt;код&gt;</code></a>, где код — HMAC от его id с секретом сервера. Таблица кодов не нужна, подделать код нельзя. Нажатия от непривязанных аккаунтов и команды <code>/open</code> и <code>/oncall</code> от посторонних бот отклоняет — даже если его добавили в чужой чат.</p><p><strong>Защита панели.</strong> Панель закрыта Basic-авторизацией. Так как браузер сам подставляет Basic-заголовок в любые запросы, POST-формы дополнительно проверяют <code>Origin</code>, иначе любая чужая страница могла бы закрыть ваш инцидент от вашего имени.</p><h3>Как попробовать</h3><p>Исходники лежат на GitHub: <a href=\"http://github.com/wonbix1409/dezhurka\" rel=\"noopener nofollow\">github.com/wonbix1409/dezhurka</a>. В репозитории есть установщик демо-стенда: на чистой Ubuntu он одной командой поднимает «Дежурку», Prometheus, Alertmanager, Grafana и, по желанию, Zabbix, уже связанные между собой.</p><pre><code class=\"bash\">sudo bash deploy/setup.sh            # 1 vCPU, 2 ГБ RAM\nsudo bash deploy/setup.sh --zabbix   # 2 vCPU, 4 ГБ RAM\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Скрипт сам сгенерирует пароли, спросит токен бота от @BotFather и в конце напечатает адреса. Через пару минут можно отправить тестовый алерт и нажать «Беру» в Telegram.</p><p><strong>Код открыт для ознакомления, условия использования описаны в LICENSE репозитория.</strong></p><h3>Что дальше</h3><ul><li><p>Звонки и SMS через российских провайдеров — без этого ночное дежурство неполноценно.</p></li><li><p>Мессенджер MAX как второй канал.</p></li><li><p>Статус-страница для клиентов и отчёты по нагрузке дежурных.</p></li><li><p>Для корпоративной установки — SSO через LDAP/Keycloak, роли, аудит и Helm-чарт.</p></li></ul><p>Если вы сейчас сидите на Opsgenie и думаете, куда переезжать до апреля, расскажите в комментариях, как у вас устроены дежурства и чего не хватает. Приоритеты дорожной карты я буду расставлять по вашим ответам.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "дежурства"
+    },
+    {
+      "titleHtml": "on-call"
+    },
+    {
+      "titleHtml": "эскалации"
+    },
+    {
+      "titleHtml": "Opsgenie"
+    },
+    {
+      "titleHtml": "Alertmanager"
+    },
+    {
+      "titleHtml": "Zabbix"
+    },
+    {
+      "titleHtml": "Telegram-бот"
+    },
+    {
+      "titleHtml": "инциденты"
+    },
+    {
+      "titleHtml": "SRE"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106290/82288bc986352715b995ff4de94e8574/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106290/82288bc986352715b995ff4de94e8574/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106290\\/\"},\"headline\":\"Opsgenie закрывается в апреле 2027. Я сделал дежурства с эскалациями в Telegram для команд в РФ\",\"datePublished\":\"2026-11-10T22:49:33+03:00\",\"dateModified\":\"2026-11-10T22:49:33+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Почему это важно именно сейчас Atlassian закрыл новые регистрации в Opsgenie в первом квартале 2026 года и назначил 5 апреля 2027 года датой окончания...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106290\\/#post-content-body\",\"about\":[\"h_devops\",\"h_sys_admin\",\"h_python\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/0a\\/86\\/c7\\/0a86c773bf048f2571cc72b5e2230fa7.png\"]}",
+    "metaDescription": "Почему это важно именно сейчас Atlassian закрыл новые регистрации в Opsgenie в первом квартале 2026 года и назначил 5 апреля 2027 года датой окончания поддержки. Функции дежурств переезжают в Jira...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

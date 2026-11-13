@@ -1,0 +1,212 @@
+{
+  "id": "1105800",
+  "timePublished": "2026-11-10T08:07:37+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Goldman Sachs закрыл трейдерам доступ к Claude Code из‑за рисков вайб‑кодинга",
+  "leadData": {
+    "textHtml": "<p>Компания Goldman Sachs Group <a href=\"https://sg.finance.yahoo.com/news/goldman-restricts-traders-bankers-using-063339234.html\" rel=\"noopener nofollow\">запретила</a> большинству трейдеров использовать передовые инструменты искусственного интеллекта для&nbsp;вайб‑кодинга. Решение было принято после анализа вопросов, связанных с&nbsp;производительностью и рисками.</p>",
+    "imageUrl": "https://habrastorage.org/extt/15/33/b2/1533b29effcfabfe803391d72eb77c2c.jfif",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/15/33/b2/1533b29effcfabfe803391d72eb77c2c.jfif",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2176401",
+    "alias": "maybe_elf",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/592/11d/4bc/59211d4bcd7f9afdadaef515b2b0706d.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 345,
+      "votesCount": 1085
+    },
+    "rating": 467.6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 2,
+    "readingCount": 1451,
+    "score": 6,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 6266,
+    "readers": 1142
+  },
+  "hubs": [
+    {
+      "id": "20736",
+      "alias": "hr_management",
+      "type": "collective",
+      "title": "Управление персоналом",
+      "titleHtml": "Управление персоналом",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21928",
+      "alias": "finance",
+      "type": "collective",
+      "title": "Финансы в IT",
+      "titleHtml": "Финансы в IT",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20682",
+      "alias": "pm",
+      "type": "collective",
+      "title": "Управление проектами",
+      "titleHtml": "Управление проектами",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Компания Goldman Sachs Group <a href=\"https://sg.finance.yahoo.com/news/goldman-restricts-traders-bankers-using-063339234.html\" rel=\"noopener nofollow\">запретила</a> большинству трейдеров использовать передовые инструменты искусственного интеллекта для вайб‑кодинга. Решение было принято после анализа вопросов, связанных с производительностью и рисками.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/15/33/b2/1533b29effcfabfe803391d72eb77c2c.jfif\" width=\"596\" height=\"335\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/15/33/b2/1533b29effcfabfe803391d72eb77c2c.jfif 780w,&#10;       https://habrastorage.org/r/w1560/extt/15/33/b2/1533b29effcfabfe803391d72eb77c2c.jfif 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В течение нескольких месяцев Goldman Sachs разрешала своим сотрудникам использовать в работе инструменты Claude Code и GitHub. Однако, согласно обновлённым в октябре внутренним правилам, теперь банк разрешает доступ к ним только инженерам.</p><p>Такой запрет разочаровал некоторых трейдеров. Они использовали эти инструменты для ускорения рабочих процессов: например, для отслеживания торговых потоков клиентов, моделирования рыночных изменений и позиций, а также для создания текстовых и графических материалов.</p><p>Ещё в июле директор по информационным технологиям Goldman Sachs Марко Ардженти с одобрением отзывался о практике вайб‑кодинга среди сотрудников, не являющихся техническими специалистами — например, трейдеров и банкиров. В одном из интервью он рассказал, что такие сотрудники разрабатывали решения с помощью ИИ, а затем передавали свои наработки кому‑то из 12 000 инженеров компании для дальнейшего совершенствования.</p><p>«Мы предоставляем нашим сотрудникам доступ к определённым ИИ‑инструментам, чтобы понять, как их лучше всего использовать в различных подразделениях компании, — сообщил представитель Goldman Ник Каркатерра. — После периода экспериментов, в ходе которого мы оцениваем целый ряд факторов — включая производительность и управление рисками, — мы передаём эти инструменты тем, кто лучше всего подходит для их долгосрочного и эффективного применения».</p><p>Это уже не первый случай, когда банк ограничивает использование сотрудниками определённых инструментов ИИ. Ранее в этом году Goldman Sachs ввёл запрет на использование чат‑бота Claude для своих сотрудников в Гонконге.</p><p>По словам источника, последнее распоряжение банка не распространяется на так называемых «стратов» (strats) — сотрудников, работающих на стыке трейдинга, количественных исследований и разработки программного обеспечения.</p><p>Ранее исследование Goldman Sachs <a href=\"https://habr.com/ru/articles/1072674/\" rel=\"noopener nofollow\">показало</a>, что искусственный интеллект приводит к потере нескольких тысяч рабочих мест в месяц, и вакансии, которые появляются благодаря ИИ, не могут заполнить этот разрыв. Больше всего сокращения коснулись сфер IT, консалтинга, дизайна и обслуживания, а особенно пострадали молодые офисные сотрудники начального уровня.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "goldman sachs"
+    },
+    {
+      "titleHtml": "вайб-кодинг"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    },
+    {
+      "titleHtml": "запреты"
+    },
+    {
+      "titleHtml": "трейдинг"
+    },
+    {
+      "titleHtml": "банки"
+    },
+    {
+      "titleHtml": "claude code"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    },
+    {
+      "titleHtml": "инфослужба хабра"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105800/4377d6ccdcdd1c9515c39b7aa9437221/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105800/4377d6ccdcdd1c9515c39b7aa9437221/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105800\\/\"},\"headline\":\"Goldman Sachs закрыл трейдерам доступ к Claude Code из‑за рисков вайб‑кодинга\",\"datePublished\":\"2026-11-10T11:07:37+03:00\",\"dateModified\":\"2026-11-10T11:19:40+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Компания Goldman Sachs Group запретила большинству трейдеров использовать передовые инструменты искусственного интеллекта для&nbsp;вайб‑кодинга. Решение было...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105800\\/#post-content-body\",\"about\":[\"h_hr_management\",\"h_artificial_intelligence\",\"h_finance\",\"h_pm\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/15\\/33\\/b2\\/1533b29effcfabfe803391d72eb77c2c.jfif\"]}",
+    "metaDescription": "Компания Goldman Sachs Group запретила большинству трейдеров использовать передовые инструменты искусственного интеллекта для&nbsp;вайб‑кодинга. Решение было принято после анализа вопросов, связанных...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

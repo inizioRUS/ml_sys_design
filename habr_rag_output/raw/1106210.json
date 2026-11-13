@@ -1,0 +1,224 @@
+{
+  "id": "1106210",
+  "timePublished": "2026-11-11T13:34:32+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Как считать просмотры, если контент меняется прямо на экране",
+  "leadData": {
+    "textHtml": "<p>Привет, Хабр! Я Самсон Авакян, фронтенд-разработчик команды <a href=\"https://t-travel.ru/travel\">Т-Путешествий</a> в Т-Банке. Расскажу, как мы собираем просмотры офферов для обучения ML-модели ценообразования, когда цена и условия в карточках меняются прямо на экране.</p><p>Делюсь решением на React и TypeScript с использованием Intersection Observer.</p><p>А еще моя статья — часть проекта «20 в 20», в котором мы рассказываем о жизни наших ИТ-хабов. Из моего выпуска вы узнаете о южных, ростовских традициях.&nbsp;</p>",
+    "imageUrl": "https://habrastorage.org/extt/cd/95/c2/cd95c257a34fb0a3e0a3d7c56a3715ce.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/cd/95/c2/cd95c257a34fb0a3e0a3d7c56a3715ce.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2276360",
+    "alias": "samsonavakyan",
+    "fullname": "Samson Avakyan",
+    "avatarUrl": "//habrastorage.org/extt/3e/8f/ed/3e8fed68f1f92b3a09573018acb95915.jpg",
+    "speciality": "Software Engineer",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 2,
+      "votesCount": 2
+    },
+    "rating": 7,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "4K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 5,
+    "readingCount": 557,
+    "score": 7,
+    "votesCount": 5,
+    "votesCountPlus": 5,
+    "votesCountMinus": 0,
+    "reach": 7100,
+    "readers": 199
+  },
+  "hubs": [
+    {
+      "id": "17420",
+      "alias": "tbank",
+      "type": "corporative",
+      "title": "Блог компании Т-Банк",
+      "titleHtml": "Блог компании Т-Банк",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "357",
+      "alias": "javascript",
+      "type": "collective",
+      "title": "JavaScript",
+      "titleHtml": "JavaScript",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19327",
+      "alias": "reactjs",
+      "type": "collective",
+      "title": "ReactJS",
+      "titleHtml": "ReactJS",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20698",
+      "alias": "weban",
+      "type": "collective",
+      "title": "Веб-аналитика",
+      "titleHtml": "Веб-аналитика",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "91",
+      "alias": "webdev",
+      "type": "collective",
+      "title": "Веб-разработка",
+      "titleHtml": "Веб-разработка",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "4",
+      "alias": "marketing",
+      "title": "Маркетинг",
+      "titleHtml": "Маркетинг"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/7a/e0/a6/7ae0a65ed92975b01686640ef4fcf316.png\" width=\"780\" height=\"440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/7a/e0/a6/7ae0a65ed92975b01686640ef4fcf316.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/7a/e0/a6/7ae0a65ed92975b01686640ef4fcf316.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Привет, Хабр! Я Самсон Авакян, фронтенд‑разработчик команды Т‑Путешествий в Т‑Банке. Расскажу, как мы собираем просмотры офферов для обучения ML‑модели ценообразования, когда цена и условия в карточках меняются прямо на экране.</p><p>Делюсь решением на React и TypeScript с использованием Intersection Observer.</p><p>А еще моя статья — часть проекта «20 в 20», в котором мы рассказываем о жизни наших ИТ‑хабов. Из моего выпуска вы узнаете о южных, ростовских традициях. </p><h3>Какие данные нужно было собрать</h3><p>Выдача отелей состоит из списка карточек и карты. Пока пользователь сравнивает предложения, результаты поиска продолжают загружаться и обновляться.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e0/06/ee/e006eec832db3f90e711e8d70179a997.png\" alt=\"Скриншот выдачи: картинка с картой и список карточек\" title=\"Скриншот выдачи: картинка с картой и список карточек\" width=\"5090\" height=\"2638\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e0/06/ee/e006eec832db3f90e711e8d70179a997.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/e0/06/ee/e006eec832db3f90e711e8d70179a997.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Скриншот выдачи: картинка с картой и список карточек</figcaption></div></figure><p>Оффер в этой задаче — предложение отеля с конкретной ценой, кэшбэком, способом оплаты, условиями отмены и питанием. Если цена или условия меняются, это новый оффер.</p><p>Для обучения модели нужны данные о просмотренных офферах, в том числе тех, которые пользователь не выбрал. По кликам мы знаем только о выбранных отелях, а в ответе поиска есть и карточки, до которых пользователь не долистал.</p><p>Поиск работает через <abbr class=\"habraabbr\" title=\"Поллинг — клиент повторяет запрос к серверу, пока не получит полный ответ. В поиске отелей каждый промежуточный ответ сразу обновляет выдачу.\" data-title=\"&lt;p&gt;Поллинг — клиент повторяет запрос к серверу, пока не получит полный ответ. В поиске отелей каждый промежуточный ответ сразу обновляет выдачу.&lt;/p&gt;\" data-abbr=\"поллинг:\">поллинг:</abbr> приложение повторно запрашивает результаты, пока поиск не завершится. Пользователь уже видит выдачу, а новые ответы обновляют предложения в карточках.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/extt/87/55/6d/87556d515ab4ddbdb2ed59964bb1ec3d.gif\" alt=\"Карточки отелей на выдаче. Поллинг\" title=\"Карточки отелей на выдаче. Поллинг\" width=\"1504\" height=\"1984\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/extt/87/55/6d/87556d515ab4ddbdb2ed59964bb1ec3d.gif 780w,&#10;       https://habrastorage.org/extt/87/55/6d/87556d515ab4ddbdb2ed59964bb1ec3d.gif 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Карточки отелей на выдаче. Поллинг</figcaption></div></figure><p>Например, в карточке показана цена 7 000 ₽, а после следующего ответа поиска она меняется на 6 500 ₽, так как нашлось более выгодное предложение. Пользователь остается на странице выдачи без перезагрузки и перехода на страницу отеля.</p><p>Трекинг начинаем с появления офферов: пользователь может увидеть предложение и выбрать отель еще до завершения поиска.</p><p>Нужно было:</p><ul><li><p>определять, какие офферы пользователь успел увидеть;</p></li><li><p>учитывать обновления оффера в уже видимой карточке;</p></li><li><p>сохранять цену и условия на момент просмотра;</p></li><li><p>убирать повторы в накопленных просмотрах;</p></li><li><p>собирать просмотры офферов и отправлять их вместе при открытии отеля, смене поиска или скрытии вкладки;</p></li><li><p>регистрировать просмотры перед событием выбора отеля, чтобы сохранить порядок действий пользователя.</p></li></ul><h2>Что считаем просмотром</h2><p>Мы отслеживаем блок цены: это ключевая часть оффера, а рядом с ней обычно видна и часть карточки. Просмотр засчитываем, если блок хотя бы частично виден в течение секунды по данным Intersection Observer. Так мы отсеиваем карточки, которые пользователь быстро пролистал.</p><p>Отсчет начинается заново, когда Intersection Observer сообщает об исчезновении блока с экрана, меняются цена или условия оффера либо вызывается <code><abbr class=\"habraabbr\" title=\"flush — метод трекера, который отправляет накопленные просмотры одной порцией. Перед отправкой он завершает открытые интервалы и засчитывает те, что длились не меньше секунды. После отправки накопитель очищается.\" data-title=\"&lt;p&gt;flush — метод трекера, который отправляет накопленные просмотры одной порцией. Перед отправкой он завершает открытые интервалы и засчитывает те, что длились не меньше секунды. После отправки накопитель очищается.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;\" data-abbr=\"flush\">flush</abbr></code>. Два интервала по 600 миллисекунд не складываются в просмотр. Клик по отелю тоже не отменяет секундный порог.</p><p>Длительность проверяем при завершении интервала. Например, пользователь видел цену 7 000 ₽ в течение 1,2 секунды. Затем она сменилась на 6 500 ₽, а еще через 1,2 секунды пользователь скрыл вкладку. Оба оффера прошли секундный порог и отправятся одной порцией.</p><p>Время в скрытой вкладке не учитываем. После возвращения отсчет начинается заново и новые просмотры попадут в следующую порцию.</p><h2>Как устроен трекер</h2><p>Я выбрал <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API\">Intersection Observer</a> для отслеживания блока цены. Он асинхронно сообщает о пересечении элемента с viewport. Один observer может наблюдать за несколькими карточками, поэтому нам не нужен собственный обработчик прокрутки с измерением координат каждого блока.</p><p>Под видимостью здесь мы понимаем геометрическое пересечение с viewport с учетом обрезки родительскими контейнерами. При такой проверке observer не учитывает перекрытие другими элементами и прозрачность блока. Если React обновил цену в существующем блоке, его положение могло вообще не измениться и уведомления от observer не будет. Поэтому приложение отдельно сообщает трекеру об обновлении оффера. Оба источника изменений управляют одним интервалом. Я вынес сбор в объект трекера, который хранит состояние и принимает эти сообщения, а React отвечает за связь между DOM‑элементом и данными карточки.</p><p>Для списка и карты используется один трекер на страницу. У него две коллекции: наблюдаемые элементы с текущими интервалами и снимки офферов, которые прошли критерий просмотра и ждут отправки. Колбэк observer открывает или завершает интервал, а действия страницы вызывают общий <code>flush</code>.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/05/50/32/055032dd96e90dd1f51b6aab6df3d548.png\" width=\"1400\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/05/50/32/055032dd96e90dd1f51b6aab6df3d548.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/05/50/32/055032dd96e90dd1f51b6aab6df3d548.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Перед отправкой <code>flush</code> завершает еще открытые интервалы — это показывает пунктирная стрелка. В приложении сбор находится в хуке, а отправка выполняется через слой действий. Между ними нужен небольшой интерфейс: завершить интервалы, забрать накопитель, очистить отправленную порцию. Так сбор не зависит от конкретного сценария перехода, а действия не хранят ссылки на DOM. В примерах я объединил этот интерфейс в объект с методами <code>updateTarget</code>, <code>removeTarget</code>, <code>flush</code>, <code>suspend</code> и <code>resume</code>, чтобы разобрать механику без деталей нашего фреймворка.</p><p>Начнем с того, что сохраняем при регистрации блока:</p><pre><code class=\"typescript\">type OfferSnapshot = Readonly&lt;{\n  searchId: string;\n  source: 'list' | 'map';\n  objectId: string;\n  price: number;\n  cashback: number;\n  payment: 'now' | 'onArrival';\n  freeCancellationUntil: string | null;\n  meal: string | null;\n  position: number; // для аналитики, в ключ не входит\n}&gt;;</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p><code>objectId</code> идентифицирует отель, <code>searchId</code> связывает оффер с поиском, а source различает показы в списке и на карте. Функция <code>getOfferKey</code> формирует ключ через JSON.stringify из этих полей и условий оффера: цены, кэшбэка, способа оплаты, отмены и питания. Поля для аналитики в ключ не входят.</p><p>Если цена или другие значимые условия изменились, оффер учитываем отдельно.</p><p>Сохраненные условия нельзя перезаписывать при обновлении карточки. Например, можно сохранить старую цену, а кэшбэк позже прочитать из текущего состояния приложения. В событии получится сочетание, которое пользователь никогда не видел. Поэтому трекер хранит снимок, полученный при регистрации, и не читает поля из состояния приложения позже. Копия в updateTarget защищает и от изменения исходного объекта на месте.</p><h2>Как собираем просмотры</h2><p>Для каждого DOM‑элемента храним текущий оффер и начало его просмотра:</p><pre><code class=\"typescript\">type ActiveView = {\n  key: string;\n  snapshot: OfferSnapshot;\n  startedAt: number | null;\n  isIntersecting: boolean;\n};\n\nconst targets = new Map&lt;Element, ActiveView&gt;();\nconst viewed = new Map&lt;string, OfferSnapshot&gt;();\n\nconst MIN_VIEW_MS = 1000;</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><code>targets</code> отвечает за наблюдаемые элементы. <code>viewed</code> одновременно служит накопителем и убирает повторы по ключу. В этом варианте не нужен таймер на каждую карточку. Мы запоминаем начало, а при завершении интервала проверяем разницу:</p><pre><code class=\"typescript\">function finishView(view: ActiveView, endedAt: number): void {\n  if (view.startedAt === null) return;\n\n  if (\n    endedAt - view.startedAt &gt;= MIN_VIEW_MS &amp;&amp; !viewed.has(view.key)\n  ) {\n    viewed.set(view.key, view.snapshot);\n  }\n\n  view.startedAt = null;\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Просмотр может быть сохранен позже, чем прошла секунда. Например, пользователь оставил карточку на экране на пять секунд. Запись попадет в накопитель, когда закончится интервал или сработает <code>flush</code>. Для пакетной отправки это подходит: нам не требуется событие ровно на тысячной миллисекунде. Дальше в коде встречаются observer, общий IntersectionObserver трекера, <code>getObserver()</code>, который создает его при первом вызове, и флаг приостановки suspended. <code>canTrack()</code> разрешает открывать интервалы, только когда трекер не приостановлен и вкладка видима. Теперь обработчик видимости:</p><pre><code class=\"typescript\">function onIntersection(\n  entries: IntersectionObserverEntry[],\n): void {\n  for (const entry of entries) {\n    const view = targets.get(entry.target);\n\n    if (!view) continue;\n\n    const { isIntersecting } = entry;\n\n    if (!isIntersecting) {\n      finishView(view, entry.time);\n    } else if (canTrack()) {\n      view.startedAt ??= entry.time;\n    }\n\n    view.isIntersecting = isIntersecting;\n  }\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Как и в приложении, observer создается с <code>threshold: 1</code>, а колбэк проверяет только <code>isIntersecting</code>. Поэтому отсчет может начаться уже при частичном пересечении, например если при подключении observer на экране видна лишь узкая полоска блока. threshold задает порог уведомлений, а не условие зачета просмотра. При таком пороге уведомление о полном выходе блока может прийти не сразу, поэтому измеренный интервал не гарантирует непрерывного пересечения с экраном.</p><p>Для времени я использую entry.time и performance.now(). Они позволяют считать интервалы по одной шкале времени. При уходе блока из viewport берем время записи observer, а при изменении данных оффера — текущий момент. Есть еще очередь записей, которые observer уже сформировал, но колбэк пока не получил. Перед обновлением оффера и перед <code>flush</code> я обрабатываю ее:</p><pre><code class=\"typescript\">function consumeObserverRecords(): void {\n  if (observer) onIntersection(observer.takeRecords());\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Без обработки очереди можно завершить интервал по устаревшему состоянию видимости. Например, блок уже ушел с экрана, запись об этом ждет обработки, а действие страницы прямо сейчас вызывает отправку. <code>takeRecords()</code> забирает готовые записи. Он не заставляет браузер немедленно измерить геометрию заново, поэтому точность остается в пределах механизма Intersection Observer. </p><p>При смене значимых условий сначала обрабатываем накопленные записи observer, а затем завершаем старый интервал. Новый открываем, если по последним обработанным записям observer блок цены пересекается с viewport и вкладка видима. Уведомление observer для этого не требуется. Эту логику выполняет <code>updateTarget</code>:</p><pre><code class=\"typescript\">function updateTarget(\n  element: Element,\n  snapshot: OfferSnapshot,\n): void {\n  consumeObserverRecords();\n\n  const previous = targets.get(element);\n  const key = getOfferKey(snapshot);\n\n  if (previous?.key === key) return;\n\n  const now = performance.now();\n\n  if (previous) finishView(previous, now);\n\n  const isIntersecting = previous?.isIntersecting ?? false;\n\n  targets.set(element, {\n    key,\n    snapshot: { ...snapshot },\n    isIntersecting,\n    startedAt: canTrack() &amp;&amp; isIntersecting ? now : null,\n  });\n\n  if (!previous &amp;&amp; canTrack()) {\n    getObserver().observe(element);\n  }\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Если ключ остался прежним, повторный рендер карточки ничего не меняет. Это важно: React может создать новый объект с теми же значениями, но пользователь продолжает видеть тот же оффер. Если ключ изменился, <code>finishView</code> проверяет старую версию. В нашем сценарии она была видна 1,2 секунды и попадает в viewed. Для новой версии начало становится равным текущему моменту. Если бы обновление пришло через 400 миллисекунд, первый оффер был бы отброшен. Нельзя приписать новой версии время, в течение которого пользователь видел старую.</p><p>На скрытой вкладке данные поиска могут продолжать обновляться, но считать это просмотром мы не будем. Карточка использует хук, который регистрирует DOM‑элемент и сообщает об обновлениях снимка:</p><pre><code class=\"typescript\">function OfferCard({\n  title,\n  offer,\n}: {\n  title: string;\n  offer: OfferSnapshot;\n}) {\n  const priceRef = useTrackedPriceRef(offer);\n\n  return (\n    &lt;article&gt;\n      &lt;h3&gt;{title}&lt;/h3&gt;\n      &lt;div ref={priceRef}&gt;{offer.price} ₽&lt;/div&gt;\n    &lt;/article&gt;\n  );\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>В списке мы регистрируем блок цены каждой карточки, на карте — тот же блок в раскрытой карточке отеля. Ценовые маркеры карты в этот трекинг не входят. Карточка на карте может исчезнуть при выборе другого отеля даже без прокрутки страницы. Внутри <code>useTrackedPriceRef</code> передаем обновление снимка после изменения DOM до следующей отрисовки браузером. Для этого в клиентском коде используем useLayoutEffect:</p><pre><code class=\"typescript\">useLayoutEffect(() =&gt; {\n  snapshotRef.current = snapshot;\n\n  if (nodeRef.current) {\n    tracker.updateTarget(nodeRef.current, snapshot);\n  }\n}, [snapshot, tracker]);</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Ref‑колбэк мемоизирован через useCallback с зависимостью от экземпляра трекера. Пока эта зависимость не меняется, обновление оффера не требует переподключать ref. Колбэк регистрирует новый элемент с актуальным снимком из <code>snapshotRef</code> и снимает наблюдение со старого. При удалении элемента removeTarget завершает его интервал, вызывает unobserve и убирает запись из targets. Один экземпляр трекера живет в provider страницы, а карточки получают его через контекст. Изменение интервалов и накопителя не требует обновления React state и перерисовки карточек.</p><h2>Когда отправлять просмотры</h2><p>Отправку нельзя связать только с кликом по карточке. Пользователь может изменить поиск, уйти по другой ссылке или просто закрыть вкладку. При разборе страницы я проверял, в каких местах меняется контекст выбора или заканчивается возможность отправить накопленные данные.</p><div><div class=\"table\"><table><tbody><tr><td><p align=\"left\"><strong>Ситуация</strong></p></td><td><p align=\"left\"><strong>Что нужно сделать</strong></p></td></tr><tr><td><p align=\"left\">Пользователь открывает отель из списка или с карты</p></td><td><p align=\"left\">Отправить просмотры в аналитику до события выбора</p></td></tr><tr><td><p align=\"left\">Начинается новый поиск</p></td><td><p align=\"left\">Завершить просмотры старого поиска до замены его контекста</p></td></tr><tr><td><p align=\"left\">Пользователь переходит в избранное</p></td><td><p align=\"left\">Вызвать <code>flush</code> перед переходом</p></td></tr><tr><td><p align=\"left\">SPA переходит на другую страницу</p></td><td><p align=\"left\">Вызвать <code>flush</code> в сценарии перехода</p></td></tr><tr><td><p align=\"left\">Документ становится скрытым</p></td><td><p align=\"left\">Остановить интервалы и отправить накопитель</p></td></tr><tr><td><p align=\"left\">Происходит <code>pagehide</code></p></td><td><p align=\"left\">Повторить остановку и попытку отправки</p></td></tr></tbody></table></div></div><p>Для перехода порядок вызовов остается простым:</p><pre><code class=\"typescript\">tracker.flush();\nopenHotelPage();</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Порядок вызовов задает порядок, в котором события уходят в аналитику. Ждать сетевого ответа перед открытием страницы не нужно. Действия страницы обращаются к одному методу отправки. Когда появляется новый сценарий, например еще один способ открыть отель, в нем достаточно вызвать тот же <code>flush</code>. Логику проверки секунды и ключа оффера копировать не приходится.</p><p>К этому моменту трекер умеет завершать интервал при потере видимости и обновлении оффера. Но в момент отправки блок цены может оставаться в viewport, поэтому уведомления о его исчезновении не будет. Перед чтением накопителя <code>flush</code> завершает и эти интервалы. Если трекер не приостановлен и вкладка видима, он сразу начинает новые:</p><pre><code class=\"typescript\">function completeVisibleViews(now: number): void {\n  for (const view of targets.values()) {\n    finishView(view, now);\n\n    if (canTrack() &amp;&amp; view.isIntersecting) {\n      view.startedAt = now;\n    }\n  }\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>При скрытии вкладки трекер перед <code>flush</code> приостанавливается методом <code>suspend()</code> — его разберем в следующем разделе. Тогда <code>canTrack()</code> вернет false и новые интервалы не откроются. Сам <code>flush</code> выглядит так:</p><pre><code class=\"typescript\">function flush(): void {\n  consumeObserverRecords();\n  completeVisibleViews(performance.now());\n\n  const batches = new Map&lt;string, OfferSnapshot[]&gt;();\n\n  for (const offer of viewed.values()) {\n    const batch = batches.get(offer.searchId) ?? [];\n    batch.push(offer);\n    batches.set(offer.searchId, batch);\n  }\n\n  for (const [searchId, offers] of batches) {\n    enqueue({ type: 'offersViewed', searchId, offers });\n  }\n  \n  viewed.clear();\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><code>enqueue</code> в этом примере синхронно ставит событие в очередь отправки в аналитику и не бросает исключений. Сетевые запросы и повторные попытки остаются за этой очередью. Мы используем <code>searchId</code> из сохраненного снимка. Если к моменту отправки приложение уже переключилось на другой поиск, старые просмотры не должны получить его идентификатор. При скрытии вкладки завершается и интервал оффера A за 6 500 ₽, который был виден еще 1,2 секунды. Поэтому первая порция в нашем сценарии содержит обе версии оффера:</p><pre><code class=\"typescript\">{\n  type: 'offersViewed',\n  searchId: 'search-1',\n  offers: [\n    { objectId: 'A', price: 7000, cashback: 350, /* ... */ },\n    { objectId: 'A', price: 6500, cashback: 325, /* ... */ },\n  ],\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Длительности нужны трекеру для принятия решения, а в событии мы передаем данные просмотренных офферов. До очередной отправки один и тот же оффер хранится в viewed один раз, даже если пользователь возвращался к нему несколько раз. После <code>flush</code> накопитель очищается и новый просмотр этого оффера может попасть в следующее событие. Мы не храним отдельный набор просмотренных ключей на всю сессию.</p><h2>Уход со страницы и возвращение</h2><p>При скрытии вкладки нужно завершить интервалы и отправить накопленное, а после возвращения продолжить наблюдение. Флаг вида <code>hasFlushed = true</code> здесь не подходит. Он защитит от повторного события ухода, но заблокирует и новую порцию после возвращения. Поэтому я останавливаю наблюдение отдельным методом:</p><pre><code class=\"typescript\">function suspend(): void {\n  consumeObserverRecords();\n  suspended = true;\n\n  const now = performance.now();\n\n  for (const view of targets.values()) {\n    finishView(view, now);\n    view.isIntersecting = false;\n  }\n\n  observer?.disconnect();\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Метод <code>suspend()</code> закрывает интервалы и сбрасывает прежние сведения о пересечении с видимой областью. После возвращения observer должен заново сообщить положение элементов:</p><pre><code class=\"typescript\">function resume(): void {\n  if (!suspended || document.visibilityState !== 'visible') {\n    return;\n  }\n\n  suspended = false;\n\n  for (const [element, view] of targets) {\n    view.startedAt = null;\n    view.isIntersecting = false;\n    getObserver().observe(element);\n  }\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Подписываемся на <code>visibilitychange</code>, <code>pagehide</code> и <code>pageshow</code>:</p><pre><code class=\"typescript\">useEffect(() =&gt; {\n  const stopAndFlush = () =&gt; {\n    tracker.suspend();\n    tracker.flush();\n  };\n\n  const onVisibilityChange = () =&gt; {\n    if (document.visibilityState === 'hidden') {\n      stopAndFlush();\n    } else {\n      tracker.resume();\n    }\n  };\n\n  document.addEventListener('visibilitychange', onVisibilityChange);\n  window.addEventListener('pagehide', stopAndFlush);\n  window.addEventListener('pageshow', tracker.resume);\n\n  onVisibilityChange();\n\n  return () =&gt; {\n    document.removeEventListener('visibilitychange', onVisibilityChange);\n    window.removeEventListener('pagehide', stopAndFlush);\n    window.removeEventListener('pageshow', tracker.resume);\n    tracker.suspend();\n  };\n}, [tracker]);</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Состояние <code>hidden</code> покрывает переключение вкладок и сворачивание браузера. Событие <code>pagehide</code> срабатывает при уходе из документа и совместимо с bfcache, а <code>pageshow</code> возобновляет наблюдение, когда страница восстанавливается из него. Если оба события ухода сработают подряд, второй <code>flush</code> увидит пустой накопитель. Трекер уже приостановлен, и новые интервалы между ними не откроются.</p><p>На <code>beforeunload</code> полагаться не стоит. На мобильных он может не сработать, а в Firefox постоянная подписка на него мешает bfcache.</p><p>При закрытии документа обычный запрос может не успеть завершиться, поэтому для аналитики есть <code>navigator.sendBeacon()</code>. В примере payload это событие <code>offersViewed</code> из flush:</p><pre><code class=\"typescript\">const body = new Blob(\n  [JSON.stringify(payload)],\n  { type: 'application/json' },\n);\n\nconst accepted = navigator.sendBeacon('/analytics', body);</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><code>accepted === true</code> значит только то, что браузер поставил данные в очередь. Обработал ли их сервер, отсюда не узнать. В приложении этот вызов спрятан за той же очередью отправки, трекер его не делает. Ни один обработчик не гарантирует отправку при любом завершении браузера, процесс могут убить без событий. Поэтому мы пробуем отправить данные во всех доступных точках жизненного цикла страницы.</p><h2>Ростовский ИТ‑хаб</h2><p>Расскажу о том, где я занимался описанной задачей. У Т‑Банка есть офис в Ростове‑на‑Дону с видом на Музыкальный театр и Ростов Арену. На мой взгляд, одна из лучших локаций в городе.</p><p>Ростов — один из крупнейших городов юга России с развитой системой подготовки ИТ‑специалистов. Мы активно сотрудничаем с вузами региона: Институтом математики, механики и компьютерных наук Южного федерального университета и Донским государственным техническим университетом. Особенно тесная связь сложилась с мехматом ЮФУ: многие его студенты приходят в хаб на стажировку, а затем продолжают работу уже в роли джунов.</p><p>Ростовский ИТ‑хаб открылся в 2017 году и стал первым хабом Т‑Банка в Южном регионе. Сегодня у нас работает более 200 сотрудников, а сам хаб объединяет команды и специалистов разных технологических направлений. Раньше Ростов был прежде всего точкой притяжения для дата‑инженеров, но сейчас экспертный охват хаба стал шире: здесь работают Java‑ и JavaScript‑разработчики, SRE‑инженеры, аналитики и представители других направлений. </p><p>Мы южный ИТ‑хаб, и нам нравится сочетать тепло, открытость и гостеприимство. Одной из локальных традиций стал день шаурмы. Специально для него мы создали шаурма‑бота. Каждый четверг он помогает коллегам собрать общий заказ — небольшой внутренний проект, который хорошо передает атмосферу хаба: технологии у нас используются не только для решения серьезных рабочих задач, но и для того, чтобы делать жизнь команды удобнее и веселее.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/79/ea/55/79ea55dba691a3aebd49d89b33736e24.jpg\" alt=\"Так мы встречаем Масленицу \" title=\"Так мы встречаем Масленицу \" width=\"1170\" height=\"1560\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/79/ea/55/79ea55dba691a3aebd49d89b33736e24.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/79/ea/55/79ea55dba691a3aebd49d89b33736e24.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Так мы встречаем Масленицу </figcaption></div></figure><h2>Заключение</h2><p>Я показал, как мы решили задачу трекинга просмотров в условиях динамической выдачи. Ключевая идея — разделить DOM‑элемент и оффер: первый задает место наблюдения, второй определяет условия, которые мы учитываем. Intersection Observer сообщает о видимости, а приложение — о смене оффера. Это позволило обрабатывать случаи, когда карточка остается на месте, но ее содержимое обновляется.<br/><br/>При смене оффера или получении уведомления о выходе блока из видимой области трекер завершает текущий интервал и проверяет его длительность. Общий <code>flush</code> одинаково обрабатывает переходы, новый поиск и скрытие вкладки, а после возвращения отсчет начинается заново. Точность такого сбора можно проверить по конкретным переходам состояния: старая цена не смешивается с новым кэшбэком, время одного оффера не достается другому, два коротких появления не складываются в секундный просмотр. Сам секундный порог остается эвристикой: он означает, что у человека была возможность рассмотреть оффер, но не измеряет его внимание. Именно с таким смыслом событие и должно попадать в данные, на которых учится модель.</p><p>Если вы сталкивались с похожими задачами трекинга в динамическом контенте, поделитесь опытом в комментариях. Как вы определяете момент просмотра? Используете Intersection Observer или свой механизм? Какие эвристики применяете для отсечения случайных показов?</p><p>Буду рад обсудить нюансы реализации и узнать о ваших подходах к сбору аналитики в реактивных интерфейсах.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "intersection observer"
+    },
+    {
+      "titleHtml": "трекинг просмотров"
+    },
+    {
+      "titleHtml": "impression tracking"
+    },
+    {
+      "titleHtml": "react"
+    },
+    {
+      "titleHtml": "аналитика"
+    },
+    {
+      "titleHtml": "динамический контент"
+    },
+    {
+      "titleHtml": "viewport"
+    },
+    {
+      "titleHtml": "react hooks"
+    },
+    {
+      "titleHtml": "page lifecycle api"
+    },
+    {
+      "titleHtml": "typescript"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106210/ab500cc153ccdd5fd305a85db48c2edc/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106210/ab500cc153ccdd5fd305a85db48c2edc/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/tbank\\/articles\\/1106210\\/\"},\"headline\":\"Как считать просмотры, если контент меняется прямо на экране\",\"datePublished\":\"2026-11-11T16:34:32+03:00\",\"dateModified\":\"2026-11-12T15:18:10+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Привет, Хабр! Я Самсон Авакян, фронтенд‑разработчик команды Т‑Путешествий в&nbsp;Т‑Банке. Расскажу, как&nbsp;мы собираем просмотры офферов для&nbsp;обучения...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/tbank\\/articles\\/1106210\\/#post-content-body\",\"about\":[\"c_tbank\",\"h_javascript\",\"h_reactjs\",\"h_weban\",\"h_webdev\",\"f_develop\",\"f_marketing\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/7a\\/e0\\/a6\\/7ae0a65ed92975b01686640ef4fcf316.png\",\"https:\\/\\/habrastorage.org\\/extt\\/e0\\/06\\/ee\\/e006eec832db3f90e711e8d70179a997.png\",\"https:\\/\\/habrastorage.org\\/extt\\/87\\/55\\/6d\\/87556d515ab4ddbdb2ed59964bb1ec3d.gif\",\"https:\\/\\/habrastorage.org\\/extt\\/05\\/50\\/32\\/055032dd96e90dd1f51b6aab6df3d548.png\",\"https:\\/\\/habrastorage.org\\/extt\\/79\\/ea\\/55\\/79ea55dba691a3aebd49d89b33736e24.jpg\"]}",
+    "metaDescription": "Привет, Хабр! Я Самсон Авакян, фронтенд‑разработчик команды Т‑Путешествий в&nbsp;Т‑Банке. Расскажу, как&nbsp;мы собираем просмотры офферов для&nbsp;обучения ML‑модели ценообразования, когда цена и...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "tutorial",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 16,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "4",
+    "title": "Фронтенд",
+    "alias": "frontend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

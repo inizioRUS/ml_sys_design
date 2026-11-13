@@ -1,0 +1,197 @@
+{
+  "id": "1106176",
+  "timePublished": "2026-11-10T14:03:10+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Google представила Gemini Omni 1.2 Flash: видео до 15 секунд и снижение цены на 30%",
+  "leadData": {
+    "textHtml": "<p>Обновлённая видеомодель Google Gemini Omni 1.2 Flash стала дешевле, научилась держать детали персонажей и товаров между кадрами и позволяет править ролик репликами, не генерируя его заново.</p>",
+    "imageUrl": "https://habrastorage.org/extt/dd/a7/5e/dda75e1fb337d35f5fe2f4fd20d834b5.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/dd/a7/5e/dda75e1fb337d35f5fe2f4fd20d834b5.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "6076950",
+    "alias": "molniya_ai",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 0,
+      "votesCount": 2
+    },
+    "rating": -1,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 336,
+    "score": -1,
+    "votesCount": 3,
+    "votesCountPlus": 1,
+    "votesCountMinus": 2,
+    "reach": 7492,
+    "readers": 243
+  },
+  "hubs": [
+    {
+      "id": "24016",
+      "alias": "speshu_ai",
+      "type": "corporative",
+      "title": "Блог компании SpeShu.AI",
+      "titleHtml": "Блог компании SpeShu.AI",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Обновлённая видеомодель <a href=\"https://speshu.ai/?utm_source=media&amp;utm_medium=habrcorp&amp;utm_campaign=Google-predstavila-Gemini-Omni-1.2-Flash-video-do-15-sekund-i-snizheniye-tsen-na-30%\">Google Gemini Omni 1.2 Flash </a>стала дешевле, научилась держать детали персонажей и товаров между кадрами и позволяет править ролик репликами, не генерируя его заново.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/dd/a7/5e/dda75e1fb337d35f5fe2f4fd20d834b5.jpg\" width=\"780\" height=\"440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/dd/a7/5e/dda75e1fb337d35f5fe2f4fd20d834b5.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/dd/a7/5e/dda75e1fb337d35f5fe2f4fd20d834b5.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><h4>Длиннее ролики, точнее детали</h4><p>Модель создаёт видео продолжительностью от 3 до 15 секунд с шагом в одну секунду. У предыдущей версии предел составлял 10 секунд.</p><p>По заявлению Google, улучшено сохранение внешности персонажей, одежды, надписей и объектов при движении камеры. В качестве референсов можно сочетать изображения, короткие видеоролики и аудио. Компания также заявляет о более естественной речи и точной синхронизации губ.<a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/?utm_source=chatgpt.com\"> <strong><br/></strong></a><br/><strong>Правки через диалог</strong><br/><br/>Готовый ролик можно последовательно изменять текстовыми командами: заменить фон или товар, скорректировать освещение, погоду и соотношение сторон. Это позволяет дорабатывать сцену без полной генерации с нуля.</p><p>Черновики доступны в 360 p и 720 p, выбранный результат можно повысить до 1080 p или 4K.</p><p><strong>Что нового</strong></p><p><strong>Длина.</strong> Максимальная длина клипа выросла с 10 до 15 секунд. Длительность задаётся с шагом в секунду, от 3 до 15.</p><p><strong>Цена.</strong> Генерация в 720 p стоит $0,07 за секунду, на 30% меньше, чем у Omni 1.1. Полный 15-секундный ролик обойдётся примерно в $1,05.</p><p><strong>Стабильность кадра.</strong> По словам Google, лица, одежда, шрифты на упаковке и фирменные цвета остаются неизменными от первого кадра до последнего, в том числе при смене ракурса. Реже появляются искажения объектов при движении. Для этого модель принимает референсы: изображения персонажа, товара или стиля, фрагменты движения до трёх секунд и звуковые подсказки.</p><p><strong>Звук.</strong> Речь стала естественнее, губы совпадают со словами точнее, голоса нескольких говорящих различаются лучше.</p><p><strong>Камера.</strong> Улучшено управление непрерывными движениями: облёт от первого лица, отъезд, вращение вокруг объекта. Лишних склеек стало меньше.</p><p><strong>Правка в диалоге.</strong> Ролик можно редактировать за несколько реплик: заменить товар или фон, изменить освещение и погоду, сменить соотношение сторон. Генерировать клип заново не нужно, функция работает на полных 15 секундах.<br/><br/><strong>Какие ограничения?</strong><br/><br/>Быстрые спортивные сцены, резкая смена сценария и сложная физика у модели получаются хуже. Все ролики получают незаметный водяной знак SynthID. Независимых тестов в анонсе нет, заявления о качестве принадлежат самой компании.</p><h4>Цена и доступ</h4><p>Генерация в 720 p стоит <strong>$0,07 за секунду — на 30% дешевле прежней версии</strong>. Соответственно, 15-секундный ролик обойдётся в $1,05.</p><p>Модель стала общедоступной через Gemini API и Google Cloud. В приложении Gemini доступ разворачивается для подписчиков Google AI Ultra.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "google"
+    },
+    {
+      "titleHtml": "gemini omni"
+    },
+    {
+      "titleHtml": "gemini omni 1.2 flash"
+    },
+    {
+      "titleHtml": "генерация видео"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    },
+    {
+      "titleHtml": "ии-модели"
+    },
+    {
+      "titleHtml": "нейросети"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106176/510b42f21e83da698c0f64cd51db05ad/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106176/510b42f21e83da698c0f64cd51db05ad/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/speshu_ai\\/articles\\/1106176\\/\"},\"headline\":\"Google представила Gemini Omni 1.2 Flash: видео до 15 секунд и снижение цены на 30%\",\"datePublished\":\"2026-11-10T17:03:10+03:00\",\"dateModified\":\"2026-11-12T16:59:16+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Обновлённая видеомодель Google Gemini Omni 1.2&nbsp;Flash стала дешевле, научилась держать детали персонажей и товаров между кадрами и позволяет править ролик...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/speshu_ai\\/articles\\/1106176\\/#post-content-body\",\"about\":[\"c_speshu_ai\",\"h_artificial_intelligence\",\"h_machine_learning\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/dd\\/a7\\/5e\\/dda75e1fb337d35f5fe2f4fd20d834b5.jpg\"]}",
+    "metaDescription": "Обновлённая видеомодель Google Gemini Omni 1.2&nbsp;Flash стала дешевле, научилась держать детали персонажей и товаров между кадрами и позволяет править ролик репликами, не&nbsp;генерируя его заново....",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

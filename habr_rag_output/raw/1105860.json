@@ -1,0 +1,203 @@
+{
+  "id": "1105860",
+  "timePublished": "2026-11-10T09:27:45+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "OpenAI внедрит систему контроля для остановки рисковых ИИ‑задач за 35 секунд",
+  "leadData": {
+    "textHtml": "<p>OpenAI <a href=\"https://openai.com/index/introducing-control-room/\" rel=\"noopener nofollow\">внедрила</a> централизованную систему управления под&nbsp;названием Control Room, предназначенную для&nbsp;остановки потенциально рискованных процессов, связанных с&nbsp;использованием моделей ИИ в&nbsp;рамках исследовательской инфраструктуры. Система позволяет прекратить генерацию ответов моделью в&nbsp;течение 35&nbsp;секунд после принятия решения о&nbsp;вмешательстве.&nbsp;</p>",
+    "imageUrl": "https://habrastorage.org/extt/0d/78/4e/0d784ed8f77a729fa3678f522895f528.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/0d/78/4e/0d784ed8f77a729fa3678f522895f528.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2176401",
+    "alias": "maybe_elf",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/592/11d/4bc/59211d4bcd7f9afdadaef515b2b0706d.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 345,
+      "votesCount": 1085
+    },
+    "rating": 467.6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 2,
+    "readingCount": 267,
+    "score": 3,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 5898,
+    "readers": 197
+  },
+  "hubs": [
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>OpenAI <a href=\"https://openai.com/index/introducing-control-room/\" rel=\"noopener nofollow\">внедрила</a> централизованную систему управления под названием Control Room, предназначенную для остановки потенциально рискованных процессов, связанных с использованием моделей ИИ в рамках исследовательской инфраструктуры. Система позволяет прекратить генерацию ответов моделью в течение 35 секунд после принятия решения о вмешательстве. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0d/78/4e/0d784ed8f77a729fa3678f522895f528.png\" width=\"680\" height=\"383\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0d/78/4e/0d784ed8f77a729fa3678f522895f528.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0d/78/4e/0d784ed8f77a729fa3678f522895f528.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Система объединяет различные исследовательские задачи — включая обучение агентных моделей, их оценку и обработку данных — с центральным сервисом, который контролирует возможность дальнейшей генерации контента.</p><p>В отличие от традиционных систем мониторинга, которые в основном лишь фиксируют подозрительное поведение, Control Room способна активно блокировать получение моделью новых данных или ответов в ходе выполнения исследовательской задачи. Она работает параллельно с уже существующими в OpenAI инструментами для отслеживания моделей, чьё поведение может отклоняться от заданных целей.</p><p>По заявлению компании, Control Room уже развёрнута в исследовательской инфраструктуре. Она связывает три ключевых компонента: исследовательскую задачу, механизм вывода (inference engine) и центральный сервис Control Room.</p><p>Исследовательская задача — это рабочий процесс, например, эксперимент с обучением с подкреплением, оценка модели или масштабная обработка данных. Каждая такая задача, предполагающая использование агентных моделей, должна быть подкреплена утверждённым обоснованием безопасности.</p><p>Когда исследователь запускает задачу, её программный код запрашивает у Control Room уникальный идентификатор. Этот идентификатор затем прикрепляется к запросам, направляемым к механизмам вывода — системам, которые запускают модели непосредственно на графических процессорах и генерируют результаты. Перед выполнением запроса механизм вывода обращается к Control Room, чтобы подтвердить, что данная задача по‑прежнему имеет разрешение на выполнение. Если исследователь или система мониторинга дали команду остановить задачу, сервис отклоняет очередной запрос, и механизм вывода прекращает генерацию ответов для этого процесса.</p><p>Важно отметить, что сам исследовательский процесс при этом не обязательно завершается полностью. Его программный код может продолжать выполняться, однако он больше не сможет получать новые результаты от моделей через авторизованные механизмы вывода.</p><p>Такой подход позволяет не полагаться на то, что исследователи корректно реализуют проверки безопасности в коде своих задач. Благодаря механизму «автоматической блокировки» (fail‑closed) выполнение запросов на вывод становится невозможным, если сам сервис Control Room оказывается недоступным.</p><p>По заявлению OpenAI, максимальная задержка между получением команды на остановку и фактическим прекращением процесса составляет 35 секунд. Эта задержка обусловлена ​​использованием уровня кэширования, необходимого для обработки большого потока запросов на авторизацию операций вывода. В настоящее время компания работает над тем, чтобы сократить этот интервал до нуля.</p><p>Система также интегрирована с инструментами автоматизированного мониторинга. В OpenAI сообщили, что все процессы обучения передовых моделей с подкреплением сопровождаются работой отдельного монитора на базе нейросети. Этот монитор анализирует поведение модели и может подавать сигнал тревоги при обнаружении потенциальных проблем.</p><p>Если сигнал требует вмешательства, система мониторинга может дать указание Control Room завершить соответствующий процесс. После этого сервис блокирует любые последующие запросы на вывод для всех моделей или механизмов, задействованных в данной задаче.</p><p>В качестве примера того, почему такие меры защиты важны, компания привела недавний инцидент, связанный с DNS: система мониторинга зафиксировала попытку агента связаться с внешним чат‑ботом.</p><p>Ранее OpenAI <a href=\"https://habr.com/ru/articles/1098862/\" rel=\"noopener nofollow\">заявила</a>, что будет обучать свои модели, используя кэшированные копии и симулированные версии интернета, а не доступ к реальной сети. Это решение принято в связи с тем, что поведение моделей зачастую оказывается слишком непредсказуемым, чтобы предоставлять им прямой выход в интернет.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "openai"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    },
+    {
+      "titleHtml": "машинное обучение"
+    },
+    {
+      "titleHtml": "кибербезопасность"
+    },
+    {
+      "titleHtml": "ии-агенты"
+    },
+    {
+      "titleHtml": "прекращение работы"
+    },
+    {
+      "titleHtml": "генерация ответов"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    },
+    {
+      "titleHtml": "инфослужба хабра"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105860/229e6e6766f78b5097a2eaceacbec6ee/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105860/229e6e6766f78b5097a2eaceacbec6ee/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105860\\/\"},\"headline\":\"OpenAI внедрит систему контроля для остановки рисковых ИИ‑задач за 35 секунд\",\"datePublished\":\"2026-11-10T12:27:45+03:00\",\"dateModified\":\"2026-11-10T12:43:51+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"OpenAI внедрила централизованную систему управления под&nbsp;названием Control Room, предназначенную для&nbsp;остановки потенциально рискованных процессов,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105860\\/#post-content-body\",\"about\":[\"h_artificial_intelligence\",\"h_machine_learning\",\"h_infosecurity\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/0d\\/78\\/4e\\/0d784ed8f77a729fa3678f522895f528.png\"]}",
+    "metaDescription": "OpenAI внедрила централизованную систему управления под&nbsp;названием Control Room, предназначенную для&nbsp;остановки потенциально рискованных процессов, связанных с&nbsp;использованием моделей ИИ...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,230 @@
+{
+  "id": "1105440",
+  "timePublished": "2026-11-09T10:35:28+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Как Siemens вошла в XXI век",
+  "leadData": {
+    "textHtml": "<p>Мы продолжаем рассказывать об истории компании Siemens. В предыдущей части речь шла о бизнесе после Второй мировой войны. В этой поговорим о конце прошлого и начале нынешнего века. </p>",
+    "imageUrl": "https://habrastorage.org/extt/9c/e3/35/9ce3354f50e4e4de5ed1cd9da882b549.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/9c/e3/35/9ce3354f50e4e4de5ed1cd9da882b549.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3168027",
+    "alias": "Oksana_Nedvigina",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 23,
+      "votesCount": 145
+    },
+    "rating": 23,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 4,
+    "readingCount": 1000,
+    "score": 5,
+    "votesCount": 6,
+    "votesCountPlus": 5,
+    "votesCountMinus": 1,
+    "reach": 9505,
+    "readers": 755
+  },
+  "hubs": [
+    {
+      "id": "22970",
+      "alias": "onlinepatent",
+      "type": "corporative",
+      "title": "Блог компании Online patent",
+      "titleHtml": "Блог компании Online patent",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20746",
+      "alias": "patents",
+      "type": "collective",
+      "title": "Патентование",
+      "titleHtml": "Патентование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20752",
+      "alias": "business_models",
+      "type": "collective",
+      "title": "Бизнес-модели",
+      "titleHtml": "Бизнес-модели",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21484",
+      "alias": "electronics",
+      "type": "collective",
+      "title": "Производство и разработка электроники",
+      "titleHtml": "Производство и разработка электроники",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21906",
+      "alias": "history",
+      "type": "collective",
+      "title": "История IT",
+      "titleHtml": "История IT",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/9c/e3/35/9ce3354f50e4e4de5ed1cd9da882b549.jpg\" alt=\"Источник фото: https://www.flickr.com/photos/moonhouse/3148481552/\" title=\"Источник фото: https://www.flickr.com/photos/moonhouse/3148481552/\" width=\"799\" height=\"533\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/9c/e3/35/9ce3354f50e4e4de5ed1cd9da882b549.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/9c/e3/35/9ce3354f50e4e4de5ed1cd9da882b549.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Источник фото: https://www.flickr.com/photos/moonhouse/3148481552/</figcaption></div></figure><p>Мы продолжаем рассказывать об истории компании Siemens. В предыдущей части речь <a href=\"https://habr.com/ru/companies/onlinepatent/articles/1103086/\">шла</a> о бизнесе после Второй мировой войны. В этой поговорим о конце прошлого и начале нынешнего века. </p><p>Возможно, на будущее Siemens наибольшее влияние оказало решение вливать инвестиции в область микроэлектроники, чтобы догнать конкурентов. В декабре 1987 года в Регенсбурге началось серийное производство 1-мегабитного чипа. Производство было остановлено в 1996 году, но до этого времени завод выпустил 278 миллионов чипов. Однако в конце 1989 года Siemens стал производить 4-мегабитный чип. В 1993 году компания выпустила 16-мегабитный чип, разработанный совместно с американским конкурентом IBM, а в следующем году последовал 64-мегабитный чип. В 1995 году партнеры Siemens, IBM и Toshiba представили 256-мегабитный чип, который намного превосходил конкурирующие продукты как по размеру, так и по скорости. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ce/6d/e8/ce6de853d78e568c465cc62764cd93c4.png\" alt=\"Один из патентов корпорации начала нынешнего века\" title=\"Один из патентов корпорации начала нынешнего века\" width=\"757\" height=\"534\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ce/6d/e8/ce6de853d78e568c465cc62764cd93c4.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ce/6d/e8/ce6de853d78e568c465cc62764cd93c4.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Один из патентов корпорации начала нынешнего века</figcaption></div></figure><p>Самый динамичный бизнес для компании оказался в Китае, так как в течение нескольких десятилетий страна бурно развивалась. Только к 2001 году число совместных предприятий, основанных Siemens в Китае в области связи, энергетики и автоматизации, а также приводного, коммутационного и монтажного оборудования, превысило 50. Фирма укрепила свои позиции на китайском рынке тем, что в течение двух десятилетий участвовала в строительстве новой системы метро Шанхая.</p><p>Но не все в компании было так хорошо: в конце 2006 года дело о коррупции погрузило Siemens в кризис. Обыски, проведенные прокуратурой Мюнхена на многих объектах корпорации, стали отправной точкой для расследований. Siemens привлек к себе пристальное внимание властей, обвинения появились и в Вашингтоне. В США, ввиду действовавших там жестких правил, существование компании оказалось под угрозой. Должностных лиц обвиняли в подкупе, растратах, взятках и уклонении от уплаты налогов. Когда в декабре 2008 года судебные разбирательства в Мюнхене и Вашингтоне завершились, Siemens удалось предотвратить крах компании, хотя общая сумма штрафов, задолженностей по налогам и гонораров адвокатов составила 2,5 миллиарда евро. Siemens пришлось уволить 130 сотрудников, включая почти все высшее руководство.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f5/54/76/f55476c23590ec4ab16f4e75fd01b5d8.jpg\" alt=\"Один из поездов компании. Источник: https://www.flickr.com/photos/kecko/52830697718/\" title=\"Один из поездов компании. Источник: https://www.flickr.com/photos/kecko/52830697718/\" width=\"800\" height=\"450\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f5/54/76/f55476c23590ec4ab16f4e75fd01b5d8.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/f5/54/76/f55476c23590ec4ab16f4e75fd01b5d8.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Один из поездов компании. Источник: https://www.flickr.com/photos/kecko/52830697718/</figcaption></div></figure><p>Несмотря на скандал в 2010 году компания запустила многосистемный локомотив Vectron, способный развивать скорость до 200 километров в час. Он стал одним из самых успешных локомотивов, поскольку транспортное средство можно адаптировать к потребностям операторов и использовать в железнодорожных системах разных стран. Было продано более 1400 штук локомотивов.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d6/ce/95/d6ce957226599fad79d7d3ff2fba1e3d.png\" alt=\"Российские патенты Siemens и его дочерних предприятий. Источник: Онлайн Патент\" title=\"Российские патенты Siemens и его дочерних предприятий. Источник: Онлайн Патент\" width=\"1229\" height=\"729\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d6/ce/95/d6ce957226599fad79d7d3ff2fba1e3d.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d6/ce/95/d6ce957226599fad79d7d3ff2fba1e3d.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Российские патенты Siemens и его дочерних предприятий. Источник: Онлайн Патент</figcaption></div></figure><p>Компания уделяла особое внимание совместным предприятиям в Советском Союзе и его государстве-преемнике, где Siemens &amp; Halske закрепилась более 140 лет назад. Самый крупный заказ для компании последовал в 2011 году, когда Siemens и российская группа «Синара» произвели 1200 региональных поездов на сумму около 2 миллиардов евро. Siemens до недавних пор регулярно регистрировал товарные знаки и патенты в России. Сейчас заявок стало меньше, но они есть. Одна из них приведена ниже. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/87/38/39/87383947240aa65f25b9a6d6d61bffa5.png\" alt=\"Источник: Онлайн Патент\" title=\"Источник: Онлайн Патент\" width=\"1250\" height=\"423\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/87/38/39/87383947240aa65f25b9a6d6d61bffa5.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/87/38/39/87383947240aa65f25b9a6d6d61bffa5.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Источник: Онлайн Патент</figcaption></div></figure><p>В 2015 году компания Dresser-Rand из Техаса, один из ведущих мировых поставщиков оборудования для нефтегазовой отрасли, была приобретена Siemens за 7,8 млрд долларов, что стало одним из крупнейших приобретений в истории компании. Siemens стал лидером рынка в секторе мобильности, разработав проекты городских поездов и трамваев для ряда американских городов.</p><p>Siemens уже разработала высокоавтоматизированные беспилотные трамваи, метро и пригородные поезда. Наиболее успешные примеры — метро в Лилле (Франция), в аэропорту Руасси-Шарль-де-Голль в Париже, а также система беспилотного метро в Нюрнберге. Первый в мире полностью автономный цифровой пригородный поезд был представлен в Гамбурге в 2021 году.</p><p>Кроме того, Siemens имеет хорошие возможности для формирования промышленной метавселенной: компания предлагает множество основных технологий, которые будут определять промышленную метавселенную, включая 5G, искусственный интеллект, граничные вычисления, а также самый полный в отрасли цифровой двойник, основанный на физике.</p><p>В заключение хотелось бы отметить, что несмотря на кризисы компания всегда двигалась вперед, стараясь если не обогнать, то хотя бы догнать конкурентов, и это Siemens делал с явным успехом. </p><details class=\"spoiler\"><summary>О сервисе Онлайн Патент: </summary><div class=\"spoiler__content\"><p>Онлайн Патент — цифровая система № 1 в рейтинге Роспатента. С 2 013 года мы создаем уникальные LegalTech‑решения для защиты и управления интеллектуальной собственностью. Зарегистрируйтесь в <a href=\"https://my.onlinepatent.ru/client/registration?context=Claim&amp;type=TradeMark&amp;utm_medium=smm&amp;utm_campaign=habr_postpodval261109\">сервисе</a> Онлайн Патент и получите доступ к следующим услугам: </p><ul><li><p>Онлайн‑регистрация программ, патентов на изобретение, товарных знаков, промышленного дизайна;</p></li><li><p><a href=\"https://my.onlinepatent.ru/client/registration?context=Claim&amp;type=TradeMark&amp;utm_medium=smm&amp;utm_campaign=habr_postpodval261109\">Подача заявки на внесение в реестр отечественного ПО</a>;</p></li><li><p><a href=\"https://my.onlinepatent.ru/client/registration?context=Claim&amp;type=TradeMark&amp;utm_medium=smm&amp;utm_campaign=habr_postpodval261109\">Поиск по программам</a>;</p></li><li><p><a href=\"https://my.onlinepatent.ru/client/registration?context=Claim&amp;type=TradeMark&amp;utm_medium=smm&amp;utm_campaign=habr_postpodval261109\">Регистрация программы в Роспатенте</a>;</p></li><li><p><a href=\"https://my.onlinepatent.ru/client/registration?context=Claim&amp;type=TradeMark&amp;utm_medium=smm&amp;utm_campaign=habr_postpodval261109\">Регистрация товарных знаков</a>;</p></li><li><p>Опции ускоренного оформления услуг;</p></li><li><p>Бесплатный поиск по базам патентов, программ, товарных знаков;</p></li><li><p>Мониторинги новых заявок по критериям;</p></li><li><p>Онлайн‑поддержку специалистов.</p></li></ul></div></details></div>",
+  "tags": [
+    {
+      "titleHtml": "siemens"
+    },
+    {
+      "titleHtml": "история it"
+    },
+    {
+      "titleHtml": "история успеха"
+    },
+    {
+      "titleHtml": "история создания"
+    },
+    {
+      "titleHtml": "поезда"
+    },
+    {
+      "titleHtml": "поезда железные дороги"
+    },
+    {
+      "titleHtml": "бизнес-модель"
+    },
+    {
+      "titleHtml": "бизнес-процессы"
+    },
+    {
+      "titleHtml": "германия"
+    },
+    {
+      "titleHtml": "немецкая электроника"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105440/4d3d652a286e125930e0762b89768930/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105440/4d3d652a286e125930e0762b89768930/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/onlinepatent\\/articles\\/1105440\\/\"},\"headline\":\"Как Siemens вошла в XXI век\",\"datePublished\":\"2026-11-09T13:35:28+03:00\",\"dateModified\":\"2026-11-11T14:43:06+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Источник фото: https:\\/\\/www.flickr.com\\/photos\\/moonhouse\\/3148481552\\/ Мы продолжаем рассказывать об истории компании Siemens. В предыдущей части речь шла о бизнесе...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/onlinepatent\\/articles\\/1105440\\/#post-content-body\",\"about\":[\"c_onlinepatent\",\"h_patents\",\"h_business_models\",\"h_electronics\",\"h_history\",\"f_develop\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/9c\\/e3\\/35\\/9ce3354f50e4e4de5ed1cd9da882b549.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/ce\\/6d\\/e8\\/ce6de853d78e568c465cc62764cd93c4.png\",\"https:\\/\\/habrastorage.org\\/extt\\/f5\\/54\\/76\\/f55476c23590ec4ab16f4e75fd01b5d8.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/d6\\/ce\\/95\\/d6ce957226599fad79d7d3ff2fba1e3d.png\",\"https:\\/\\/habrastorage.org\\/extt\\/87\\/38\\/39\\/87383947240aa65f25b9a6d6d61bffa5.png\"]}",
+    "metaDescription": "Источник фото: https://www.flickr.com/photos/moonhouse/3148481552/ Мы продолжаем рассказывать об истории компании Siemens. В предыдущей части речь шла о бизнесе после Второй мировой войны. В этой...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "retrospective",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "48",
+    "title": "Научпоп",
+    "alias": "popsci"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

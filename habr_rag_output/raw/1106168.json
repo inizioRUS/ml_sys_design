@@ -1,0 +1,221 @@
+{
+  "id": "1106168",
+  "timePublished": "2026-11-10T13:54:15+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Франция обвинила Иран в атаках на холодильники супермаркетов и службы крови",
+  "leadData": {
+    "textHtml": "<p>Французское правительство обвинило Иран в&nbsp;кибератаках, направленных против тысяч подключённых к&nbsp;интернету промышленных холодильников и морозильных установок в&nbsp;супермаркетах и на&nbsp;объектах службы крови, <a href=\"https://www.reuters.com/world/french-officials-suspect-iran-is-behind-refrigerator-hacks-sources-say-2026-11-09/\" rel=\"noopener nofollow\">пишет</a> Reuters.</p>",
+    "imageUrl": "https://habrastorage.org/extt/e9/4e/49/e94e49663d07f67e9809e811c43da00b.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/e9/4e/49/e94e49663d07f67e9809e811c43da00b.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "1782611",
+    "alias": "Travis_Macrif",
+    "fullname": "Руслан",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/9af/987/8b0/9af9878b02f82d2e0864184d83479017.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 175,
+      "votesCount": 607
+    },
+    "rating": 377.2,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 9,
+    "favoritesCount": 4,
+    "readingCount": 950,
+    "score": 2,
+    "votesCount": 2,
+    "votesCountPlus": 1,
+    "votesCountMinus": 1,
+    "reach": 9839,
+    "readers": 756
+  },
+  "hubs": [
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20738",
+      "alias": "business-laws",
+      "type": "collective",
+      "title": "Законодательство в IT",
+      "titleHtml": "Законодательство в IT",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21966",
+      "alias": "home_automation",
+      "type": "collective",
+      "title": "Умный дом",
+      "titleHtml": "Умный дом",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21470",
+      "alias": "cloud_services",
+      "type": "collective",
+      "title": "Облачные сервисы",
+      "titleHtml": "Облачные сервисы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21900",
+      "alias": "cyberpunk",
+      "type": "collective",
+      "title": "Киберпанк",
+      "titleHtml": "Киберпанк",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Французское правительство обвинило Иран в кибератаках, направленных против тысяч подключённых к интернету промышленных холодильников и морозильных установок в супермаркетах и на объектах службы крови, <a href=\"https://www.reuters.com/world/french-officials-suspect-iran-is-behind-refrigerator-hacks-sources-say-2026-11-09/\" rel=\"noopener nofollow\">пишет</a> Reuters.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e9/4e/49/e94e49663d07f67e9809e811c43da00b.jpg\" width=\"1200\" height=\"674\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e9/4e/49/e94e49663d07f67e9809e811c43da00b.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/e9/4e/49/e94e49663d07f67e9809e811c43da00b.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В первой половине октября злоумышленники <a href=\"https://habr.com/ru/articles/1093656/\" rel=\"noopener nofollow\">испортили</a> продукты в сотнях супермаркетов Франции, взлома системы управления холодильным оборудованием и удалённо изменив настройки температуры до 50 C°. Кибератака была направлена на контроллеры холодильного оборудования датской компании Danfoss. Исследователи в области информационной безопасности <a href=\"https://habr.com/ru/articles/1096676/\" rel=\"noopener nofollow\">отметили</a>, что холодильники в супермаркетах оставались уязвимыми в течение нескольких месяцев.</p><p>Спустя две недели хакерская атака <a href=\"https://habr.com/ru/articles/1102824/\" rel=\"noopener nofollow\">затронула</a> супермаркеты в Швеции, Бельгии, Нидерландах, Эстонии, Люксембурге и Ирландии, что привело к повышению температуры в морозильных камерах. Затем хакеры <a href=\"https://habr.com/ru/articles/1103724/\" rel=\"noopener nofollow\">атаковали</a> холодильное оборудование трёх объектов Французской службы крови и повысили температуру до 110 C°.</p><p>Это последняя из серии приписываемых Ирану кибератак, также направленных против американских поставщиков воды, производителя медицинского оборудования Stryker и других компаний. Правительство США связало эти атаки с проиранскими активистами.</p><p>Министр иностранных дел Франции Жан‑Ноэль Барро возложил ответственность за атаки на холодильное оборудование в Европе на Корпус стражей исламской революции, имея в виду иранских военных и хакеров. Глава МИД назвал атаку крупномасштабным актом саботажа на территории Франции. По его словам, действия хакеров — это посягательство на интересы и безопасность французского народа. Барро заверил, что хакерские атаки «не останутся без последствий».</p><p>Французское правительство вызвало посла Ирана. Власти Франции сообщили, что введут общеевропейские санкции против тех, кто стоит за хакерскими атаками. Барро рассказал, что теперь дело находится в руках французской судебной системы.</p><p>Правительство США <a href=\"https://www.nextgov.com/cybersecurity/2026/10/officials-suspect-iran-series-cyberattacks-military-base-freezers/416934/\" rel=\"noopener nofollow\">расследует</a> возможность взлома холодильных установок на военных базах после <a href=\"https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary\" rel=\"noopener nofollow\">сообщений</a> об аналогичных сбоях и неполадках в начале этого года. Американские чиновники также связали кибератаку на холодильные установки с Ираном, но разведывательное сообщество пока не сделало официального заявления об этом.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "кибератаки"
+    },
+    {
+      "titleHtml": "кибербезопасность"
+    },
+    {
+      "titleHtml": "иб"
+    },
+    {
+      "titleHtml": "холодильники"
+    },
+    {
+      "titleHtml": "франция"
+    },
+    {
+      "titleHtml": "иран"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106168/7f7c473e7c041157f834ce0365cefb08/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106168/7f7c473e7c041157f834ce0365cefb08/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106168\\/\"},\"headline\":\"Франция обвинила Иран в атаках на холодильники супермаркетов и службы крови\",\"datePublished\":\"2026-11-10T16:54:15+03:00\",\"dateModified\":\"2026-11-10T17:01:08+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Французское правительство обвинило Иран в&nbsp;кибератаках, направленных против тысяч подключённых к&nbsp;интернету промышленных холодильников и морозильных...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106168\\/#post-content-body\",\"about\":[\"h_infosecurity\",\"h_business-laws\",\"h_home_automation\",\"h_cloud_services\",\"h_cyberpunk\",\"f_develop\",\"f_admin\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/e9\\/4e\\/49\\/e94e49663d07f67e9809e811c43da00b.jpg\"]}",
+    "metaDescription": "Французское правительство обвинило Иран в&nbsp;кибератаках, направленных против тысяч подключённых к&nbsp;интернету промышленных холодильников и морозильных установок в&nbsp;супермаркетах и...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,239 @@
+{
+  "id": "1105774",
+  "timePublished": "2026-11-10T07:15:12+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Lighthouse CI: автоматизируем проверку производительности сайта",
+  "leadData": {
+    "textHtml": "<p>Проверить производительность веб-приложения через Lighthouse несложно. Но после очередного изменения в коде показатели могут ухудшиться, и если запускать аудит только вручную, такие изменения легко пропустить.</p><p>В своём проекте я решил автоматизировать проверки с помощью Lighthouse CI и GitHub Actions, чтобы регулярно отслеживать метрики производительности и замечать регрессии.</p><p>В статье покажу, как настроить такие проверки, какие метрики стоит контролировать и как анализировать результаты. Также поделюсь практическим примером из своего проекта, где после оптимизации удалось снизить LCP с 12,3 до 3,0 секунды.</p>",
+    "imageUrl": "https://habrastorage.org/extt/69/46/f7/6946f73217bba8b4446f872aad6a882b.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/69/46/f7/6946f73217bba8b4446f872aad6a882b.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3290491",
+    "alias": "Sergo_34",
+    "fullname": "Sergey Usachev",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/7a0/090/329/7a00903296b1ff6499e4daf1d1c02281.png",
+    "speciality": "Разработчик, техлид, автор статей",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 5
+    },
+    "rating": 6,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/usach87/",
+        "value": "usach87",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/usachev_s",
+        "value": "usachev_s",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/usach87/",
+        "value": "usach87",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/usachev_s",
+        "value": "usachev_s",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 4,
+    "readingCount": 405,
+    "score": 2,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 5774,
+    "readers": 266
+  },
+  "hubs": [
+    {
+      "id": "91",
+      "alias": "webdev",
+      "type": "collective",
+      "title": "Веб-разработка",
+      "titleHtml": "Веб-разработка",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "357",
+      "alias": "javascript",
+      "type": "collective",
+      "title": "JavaScript",
+      "titleHtml": "JavaScript",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20788",
+      "alias": "devops",
+      "type": "collective",
+      "title": "DevOps",
+      "titleHtml": "DevOps",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "18790",
+      "alias": "github",
+      "type": "collective",
+      "title": "GitHub",
+      "titleHtml": "GitHub",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/5c/a5/22/5ca522fc68b9ce968f2601f72d35f165.png\" width=\"1672\" height=\"941\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/5c/a5/22/5ca522fc68b9ce968f2601f72d35f165.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/5c/a5/22/5ca522fc68b9ce968f2601f72d35f165.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Проверить производительность веб-приложения через Lighthouse несложно. Но после очередного изменения в коде показатели могут ухудшиться, и если запускать аудит только вручную, такие изменения легко пропустить.</p><p>При этом производительность влияет не только на скорость загрузки страниц, но и на пользовательский опыт, вовлечённость и конверсию. Она имеет значение и для SEO, например <a href=\"https://developers.google.com/search/docs/appearance/page-experience\" rel=\"noopener nofollow\">Google использует Core Web Vitals в своих системах ранжирования</a>, хотя хорошие показатели сами по себе не гарантируют высоких позиций в поиске.</p><p>При работе над одним из своих проектов я столкнулся с необходимостью регулярно проверять производительность приложения. Lighthouse в Chrome DevTools позволял проводить отдельные замеры, но мне хотелось автоматизировать этот процесс, чтобы отслеживать изменения показателей и вовремя замечать регрессии.</p><p>Для этого я решил использовать Lighthouse CI - инструмент, позволяющий запускать Lighthouse из командной строки, проверять метрики по заданным порогам и сохранять отчёты. Его можно интегрировать в GitHub Actions или практически любую другую CI/CD-систему.</p><p>В статье разберём, как работает Lighthouse CI, какие метрики он позволяет контролировать и как автоматизировать проверки производительности на примере GitHub Actions. Также покажу, как использовал этот инструмент для анализа производительности реального веб-приложения.</p><h3>Что измеряет Lighthouse</h3><p><a href=\"https://developer.chrome.com/docs/lighthouse/overview/\" rel=\"noopener nofollow\">Lighthouse</a> - инструмент для автоматизированного аудита веб-страниц. Он анализирует производительность, доступность, соблюдение лучших практик и другие аспекты качества сайта.</p><p>В контексте производительности нас прежде всего интересуют метрики загрузки и отображения страницы.</p><p>Google выделяет три основные метрики <a href=\"https://web.dev/articles/vitals\" rel=\"noopener nofollow\">Core Web Vitals</a>:</p><ul><li><p><strong>LCP</strong> - время до отображения крупнейшего видимого элемента страницы. Хорошим считается значение не более 2,5 секунды.</p></li><li><p><strong>INP</strong> - отзывчивость интерфейса при взаимодействии пользователя со страницей. Хорошее значение не более 200 мс.</p></li><li><p><strong>CLS</strong> - визуальная стабильность страницы. Хорошее значение не более 0,1.</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/fe/e5/fa/fee5fa80f4299b9d9e2220021ccee858.png\" alt=\"Рекомендуемые пороговые значения Core Web Vitals\" title=\"Рекомендуемые пороговые значения Core Web Vitals\" width=\"1436\" height=\"502\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/fe/e5/fa/fee5fa80f4299b9d9e2220021ccee858.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/fe/e5/fa/fee5fa80f4299b9d9e2220021ccee858.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Рекомендуемые пороговые значения Core Web Vitals</figcaption></div></figure><p>При оценке Core Web Vitals по данным реальных пользователей обычно используется 75-й процентиль измерений. В отчёте можно увидеть LCP, CLS и другие показатели, например FCP (First Contentful Paint), Speed Index и TBT (Total Blocking Time).</p><p>Здесь есть нюанс, что стандартный Lighthouse-аудит не измеряет INP так, как это происходит при реальном взаимодействии пользователей. Вместо этого для оценки потенциальных проблем с отзывчивостью используется в том числе TBT.</p><p>Подробно разбирать каждую метрику не будем, это отдельная большая тема. Для понимания дальнейшей настройки достаточно знать, что Lighthouse позволяет оценивать производительность страницы и обнаруживать потенциальные проблемы.</p><h4>В каких условиях запускается Lighthouse</h4><p>Lighthouse может выполнять аудит в режимах Mobile и Desktop.</p><p>В мобильном режиме он эмулирует характеристики смартфона, включая размер экрана. Это важно, поскольку страница, которая быстро загружается на мощном компьютере с хорошим интернетом, может вести себя иначе на мобильном устройстве.</p><p>Помимо выбора типа устройства, инструмент позволяет моделировать ограничения сети и процессора. По умолчанию Lighthouse использует режим simulated throttling, он анализирует фактическую загрузку страницы и выполнение JavaScript, а затем рассчитывает, как изменились бы показатели при более медленном интернет-соединении и менее производительном процессоре.</p><p>Поддерживаются и другие режимы throttling, подробнее о них можно прочитать в <a href=\"https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md\" rel=\"noopener nofollow\">документации по throttling</a>.</p><p>Результаты такого тестирования следует воспринимать как лабораторные измерения, а не как данные о производительности у реальных пользователей. Они полезны для диагностики и отслеживания изменений, но не заменяют Real User Monitoring.</p><h3>Что такое Lighthouse CI</h3><p>Lighthouse CI (LHCI) - набор инструментов, позволяющий автоматизировать запуск Lighthouse и проверку результатов. Вместо того чтобы открывать Chrome DevTools, вводить адрес страницы и запускать аудит вручную, можно поручить это CI/CD.</p><p>В общем случае процесс выглядит следующим образом:</p><ol><li><p>CI запускает браузер и открывает указанный URL.</p></li><li><p>Lighthouse собирает метрики производительности.</p></li><li><p>Lighthouse CI сравнивает результаты с заданными порогами.</p></li><li><p>Отчёты сохраняются, а проверка может завершиться ошибкой, если показатели не соответствуют требованиям.</p></li></ol><p>Важная возможность Lighthouse CI - запускать несколько измерений и агрегировать результаты. Это помогает уменьшить влияние случайных колебаний, хотя полностью их не устраняет. Например, можно установить минимальный Performance Score или максимально допустимое значение LCP. При нарушении порога CI сообщит о несоответствии заданным требованиям.</p><p><a href=\"https://github.com/GoogleChrome/lighthouse-ci\" rel=\"noopener nofollow\">Официальный репозиторий Lighthouse CI</a> содержит документацию, примеры конфигурации и описание доступных команд.</p><h3>Настраиваем Lighthouse CI в GitHub Actions</h3><p>Рассмотрим настройку Lighthouse CI на упрощённом примере из моего проекта. Для наглядности оставим только основные параметры, без авторизации и дополнительных скриптов.</p><p>Наша задача запускать мобильный аудит опубликованного приложения, проверять LCP и Performance Score, а затем сохранять отчёты в GitHub Actions. Для этого понадобятся конфигурационный файл Lighthouse CI и небольшой workflow.</p><h4>Конфигурация Lighthouse CI</h4><p>В корне проекта создадим файл <code>lighthouserc.json</code>:</p><pre><code class=\"scala\">{\n  \"ci\": {\n    \"collect\": {\n      \"url\": [\"https://example.com/\"],\n      \"numberOfRuns\": 3,\n      \"settings\": {\n        \"formFactor\": \"mobile\"\n      }\n    },\n    \"assert\": {\n      \"assertions\": {\n        \"categories:performance\": [\n          \"warn\",\n          { \"minScore\": 0.8, \"aggregationMethod\": \"median\" }\n        ],\n        \"largest-contentful-paint\": [\n          \"error\",\n          { \"maxNumericValue\": 4000, \"aggregationMethod\": \"median\" }\n        ]\n      }\n    },\n    \"upload\": {\n      \"target\": \"filesystem\",\n      \"outputDir\": \"./lhci-results\"\n    }\n  }\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Разберём основные параметры.</p><p><code>collect.url</code> определяет адрес страницы, которую нужно проверить. Можно указать несколько URL.<br/><br/><code>numberOfRuns</code> задаёт количество прогонов. В нашем примере Lighthouse выполнит три измерения.<br/><br/><code>assert</code> описывает пороговые значения. Для Performance Score мы указали минимум 80 баллов, а для LCP максимум 4000 мс. При <code>warn</code> Lighthouse CI сообщает о нарушении порога, но не завершает проверку с ошибкой, а при <code>error</code> приводит к падению CI.<br/><br/><code>aggregationMethod: \"median\"</code> указывает, что при проверке используется медианное значение результатов.</p><p><a href=\"http://upload.target\" rel=\"noopener nofollow\"><code>upload.target</code></a><code>: \"filesystem\"</code> позволяет сохранить отчёты локально, без публикации на внешнем сервере Lighthouse CI.</p><p>Приведённые пороги это только пример конфигурации, а не универсальные рекомендации. Для конкретного приложения их нужно выбирать с учётом измерений и целей проекта.</p><p>В примере используются только две проверки: Performance Score и LCP. Lighthouse CI позволяет задавать пороги и для других метрик, например FCP, TBT и CLS, а также контролировать оценки доступности и соблюдения лучших практик.</p><p>Полный перечень доступных проверок и параметры их настройки приведены в <a href=\"https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md#assert\" rel=\"noopener nofollow\">официальной документации Lighthouse CI - Assertions</a>.</p><h4>Создаём GitHub Actions workflow</h4><p>Добавим файл <code>.github/workflows/lighthouse.yml</code>:</p><pre><code class=\"yaml\">name: Lighthouse\n\non:\n  workflow_dispatch:\n\njobs:\n  lighthouse:\n    runs-on: ubuntu-latest\n\n    steps:\n      - uses: actions/checkout@v4\n      - uses: actions/setup-node@v4\n        with:\n          node-version: '22'\n\n      - name: Run Lighthouse CI\n        run: |\n          npm install --global @lhci/cli@0.16.0\n          lhci autorun --config=lighthouserc.json\n\n      - name: Save reports\n        if: always()\n        uses: actions/upload-artifact@v4\n        with:\n          name: lighthouse-report\n          path: lhci-results/\n          if-no-files-found: ignore</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Это упрощённый пример для GitHub-hosted runner с доступным Chrome. В собственном окружении может потребоваться отдельно установить браузер и указать путь к нему. Здесь используется <code>workflow_dispatch</code>, поэтому проверку можно запустить вручную через вкладку Actions в GitHub.</p><p>После запуска Lighthouse CI выполнит аудит, проверит заданные пороги и сохранит отчёты в артефактах workflow.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/96/cc/c4/96ccc494a12e95b431713e343bfca660.png\" alt=\"Lighthouse можно запускать непосредственно из GitHub Actions, не открывая Chrome DevTools\" title=\"Lighthouse можно запускать непосредственно из GitHub Actions, не открывая Chrome DevTools\" width=\"2082\" height=\"786\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/96/cc/c4/96ccc494a12e95b431713e343bfca660.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/96/cc/c4/96ccc494a12e95b431713e343bfca660.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Lighthouse можно запускать непосредственно из GitHub Actions, не открывая Chrome DevTools</em></figcaption></div></figure><h4>Как сделать запуск автоматическим</h4><p>Ручной запуск удобен на этапе настройки и диагностики. Но Lighthouse CI можно запускать и автоматически. Например, для ежедневной проверки достаточно изменить триггер:</p><pre><code class=\"yaml\">on:\n  workflow_dispatch:\n  schedule:\n    - cron: \"0 6 * * *\"</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Теперь workflow можно запускать вручную, а GitHub Actions также будет пытаться выполнять его ежедневно по расписанию. </p><p>Можно запускать при создании или обновлении Pull Request:</p><pre><code class=\"yaml\">on:\n  pull_request:</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Однако здесь есть важный нюанс. Если Lighthouse проверяет Production URL, то запуск при создании PR не означает, что он измеряет изменения этого PR. Для проверки новой версии приложения нужно предварительно развернуть её, например на Preview Deployment, и передать соответствующий адрес Lighthouse CI.</p><p>Таким образом, Lighthouse CI не привязан к конкретному способу запуска. Можно проверять опубликованное приложение, Preview Deployment или локально поднятый сервер.</p><h3>Практический пример: проверка производительности веб-приложения</h3><p>В своём проекте я использовал Lighthouse CI для проверки производительности главной страницы веб-приложения, развёрнутого на Vercel.</p><p>Главная страница доступна только после авторизации. Для проверки таких страниц Lighthouse CI позволяет предварительно подготовить сессию браузера, например с помощью Puppeteer. После этого аудит выполняется так же, как для публичной страницы.</p><p>Для главной страницы я настроил три независимых мобильных прогона. Результаты собираются и отображаются в GitHub Actions, а для оценки показателей используются медианные значения. В текущей реализации проверки запускаются вручную отдельным workflow и не блокируют основной CI.</p><p>Для главной страницы установлены рекомендательные пороги: Performance Score не ниже 70 баллов, LCP не более 4 секунд, TBT не более 600 мс и CLS не более 0,1.</p><h4>Что показали проверки</h4><p>Одной из проблем, на которую я обратил внимание при анализе производительности главной страницы, оказался высокий LCP.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/9c/08/78/9c0878ff362bf5f42a20b2846eb67aca.png\" alt=\"Результаты проверки главной страницы в Lighthouse CI\" title=\"Результаты проверки главной страницы в Lighthouse CI\" width=\"2070\" height=\"1042\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/9c/08/78/9c0878ff362bf5f42a20b2846eb67aca.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/9c/08/78/9c0878ff362bf5f42a20b2846eb67aca.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Результаты проверки главной страницы в Lighthouse CI</em></figcaption></div></figure><p>Как видно из отчёта, LCP составил 12 327 мс. Это означает, что крупнейший видимый элемент страницы отображался более чем через 12 секунд после начала загрузки, значительно превышая рекомендуемые 2,5 секунды.</p><p>Чтобы разобраться в причинах, я исследовал загрузку фонового изображения, шрифтов и JavaScript-модулей, которые могли задерживать отображение интерфейса.</p><p>В процессе оптимизации внёс несколько изменений. Изображения карточек были уменьшены: исходные файлы общим размером около 1,34 МБ заменены оптимизированными JPEG общим размером около 0,5 МБ. Также я изменил порядок загрузки изображений на главной странице, добавил предварительную загрузку фонового изображения при повторном посещении и пересмотрел загрузку шрифтов и JavaScript-модулей.</p><p>После этих изменений я повторно запустил Lighthouse CI, чтобы оценить результат.</p><h4>Результаты повторных проверок</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/2d/60/bb/2d60bb8da72242640f5f3a89bb4f663c.png\" alt=\"Результаты проверки в Lighthouse CI после улучшений\" title=\"Результаты проверки в Lighthouse CI после улучшений\" width=\"2074\" height=\"882\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/2d/60/bb/2d60bb8da72242640f5f3a89bb4f663c.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/2d/60/bb/2d60bb8da72242640f5f3a89bb4f663c.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Результаты проверки в Lighthouse CI после улучшений</em></figcaption></div></figure><p>В повторном отчёте Lighthouse CI значение LCP снизилось с 12 327 до 3 022 мс, примерно на 75%. Теперь показатель укладывается в установленный для проекта порог 4 секунды, хотя всё ещё превышает рекомендуемые Google 2,5 секунды.</p><p>Lighthouse CI позволяет организовать повторяемые проверки и сделать показатели частью инженерного процесса. Можно анализировать конкретные метрики и отслеживать, как они меняются после обновлений приложения.</p><h3>Что нужно учитывать при автоматизированных проверках</h3><p>Lighthouse CI удобен для контроля производительности, но его результаты требуют правильной интерпретации. Прежде всего измерения могут колебаться между запусками. На них влияют ресурсы CI runner, сетевые условия, внешние сервисы и конфигурация браузера. Поэтому один неудачный прогон не всегда означает реальную регрессию. Несколько запусков и использование медианы помогают уменьшить влияние случайных отклонений.</p><p>Также важно выбирать подходящие пороги. Если установить слишком строгие ограничения без предварительных измерений, проверки могут часто завершаться ошибкой по причинам, не связанным с изменениями кода. Если пороги слишком мягкие, они перестанут помогать обнаруживать ухудшения. Можно сначала собрать базовые результаты, посмотреть на разброс значений, а затем устанавливать блокирующие ограничения.</p><p>И Lighthouse CI не заменяет данные реальных пользователей. CI проверки позволяют воспроизводить определённые условия и диагностировать проблемы, но не показывают всё разнообразие устройств, сетей и пользовательских сценариев. Для оценки реального пользовательского опыта стоит дополнительно использовать <a href=\"https://web.dev/articles/user-centric-performance-metrics\" rel=\"noopener nofollow\">Real User Monitoring</a>.</p><h3>Заключение</h3><p>Lighthouse полезен не только как инструмент для разового аудита страницы в Chrome DevTools.</p><p>С помощью Lighthouse CI проверки производительности можно встроить в процесс разработки: запускать их по расписанию, после деплоя или при обновлении Pull Request и сохранять отчёты. Для этого не требуется сложная инфраструктура. Достаточно небольшого конфигурационного файла и workflow в GitHub Actions.</p><p>При этом Lighthouse CI помогает вовремя замечать проблемы, оценивать изменения и принимать технические решения на основе измерений.</p><h3>Источники и документация</h3><ol><li><p><a href=\"https://developer.chrome.com/docs/lighthouse/overview/\" rel=\"noopener nofollow\">Google Chrome - Lighthouse overview</a> - назначение Lighthouse и возможности аудита.</p></li><li><p><a href=\"https://web.dev/articles/vitals\" rel=\"noopener nofollow\">web.dev - Web Vitals</a> - Core Web Vitals и рекомендуемые пороги.</p></li><li><p><a href=\"https://github.com/GoogleChrome/lighthouse/blob/main/docs/throttling.md\" rel=\"noopener nofollow\">Lighthouse - Throttling</a> - моделирование сетевых и вычислительных ограничений.</p></li><li><p><a href=\"https://github.com/GoogleChrome/lighthouse-ci\" rel=\"noopener nofollow\">Lighthouse CI - GitHub</a> - исходный код, конфигурация и интеграция с CI/CD.</p></li><li><p><a href=\"https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax\" rel=\"noopener nofollow\">GitHub Docs - Workflow syntax</a> - настройка GitHub Actions.</p></li><li><p><a href=\"https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts\" rel=\"noopener nofollow\">GitHub Docs - Workflow artifacts</a> - сохранение результатов проверок.</p></li></ol></div>",
+  "tags": [
+    {
+      "titleHtml": "lighthouse"
+    },
+    {
+      "titleHtml": "web performance"
+    },
+    {
+      "titleHtml": "core web vitals"
+    },
+    {
+      "titleHtml": "lcp"
+    },
+    {
+      "titleHtml": "github actions"
+    },
+    {
+      "titleHtml": "cicd"
+    },
+    {
+      "titleHtml": "оптимизация производительности"
+    },
+    {
+      "titleHtml": "веб-разработка"
+    },
+    {
+      "titleHtml": "автоматизация тестирования"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105774/0361499ec5d5168fcd612d7ab902ca72/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105774/0361499ec5d5168fcd612d7ab902ca72/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105774\\/\"},\"headline\":\"Lighthouse CI: автоматизируем проверку производительности сайта\",\"datePublished\":\"2026-11-10T10:15:12+03:00\",\"dateModified\":\"2026-11-11T12:51:29+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Проверить производительность веб-приложения через Lighthouse несложно. Но после очередного изменения в коде показатели могут ухудшиться, и если запускать аудит...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105774\\/#post-content-body\",\"about\":[\"h_webdev\",\"h_javascript\",\"h_devops\",\"h_github\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/5c\\/a5\\/22\\/5ca522fc68b9ce968f2601f72d35f165.png\",\"https:\\/\\/habrastorage.org\\/extt\\/fe\\/e5\\/fa\\/fee5fa80f4299b9d9e2220021ccee858.png\",\"https:\\/\\/habrastorage.org\\/extt\\/96\\/cc\\/c4\\/96ccc494a12e95b431713e343bfca660.png\",\"https:\\/\\/habrastorage.org\\/extt\\/9c\\/08\\/78\\/9c0878ff362bf5f42a20b2846eb67aca.png\",\"https:\\/\\/habrastorage.org\\/extt\\/2d\\/60\\/bb\\/2d60bb8da72242640f5f3a89bb4f663c.png\"]}",
+    "metaDescription": "Проверить производительность веб-приложения через Lighthouse несложно. Но после очередного изменения в коде показатели могут ухудшиться, и если запускать аудит только вручную, такие изменения легко...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 8,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "4",
+    "title": "Фронтенд",
+    "alias": "frontend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

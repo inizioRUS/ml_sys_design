@@ -1,0 +1,182 @@
+{
+  "id": "1105764",
+  "timePublished": "2026-11-10T06:33:30+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "МВД закрепит механизм подачи заявлений о преступлениях онлайн",
+  "leadData": {
+    "textHtml": "<p>МВД опубликовало для&nbsp;общественного обсуждения проект ведомственного приказа, позволяющего отделениям внутренних дел принимать заявления о&nbsp;преступлениях полностью в&nbsp;электронном виде. Об&nbsp;этом <a href=\"https://www.kommersant.ru/doc/9093093\" rel=\"noopener nofollow\">пишет</a> «Ъ».</p>",
+    "imageUrl": "https://habrastorage.org/extt/e2/8f/e6/e28fe6633880b3a024bed07af9f0c1ca.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/e2/8f/e6/e28fe6633880b3a024bed07af9f0c1ca.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3000027",
+    "alias": "LizzieSimpson",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/87d/321/950/87d321950490400be5d296976a5747d0.png",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 97,
+      "votesCount": 429
+    },
+    "rating": 320.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 4,
+    "favoritesCount": 1,
+    "readingCount": 519,
+    "score": 6,
+    "votesCount": 4,
+    "votesCountPlus": 3,
+    "votesCountMinus": 1,
+    "reach": 6121,
+    "readers": 395
+  },
+  "hubs": [
+    {
+      "id": "21470",
+      "alias": "cloud_services",
+      "type": "collective",
+      "title": "Облачные сервисы",
+      "titleHtml": "Облачные сервисы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20738",
+      "alias": "business-laws",
+      "type": "collective",
+      "title": "Законодательство в IT",
+      "titleHtml": "Законодательство в IT",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e2/8f/e6/e28fe6633880b3a024bed07af9f0c1ca.jpg\" width=\"1199\" height=\"742\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e2/8f/e6/e28fe6633880b3a024bed07af9f0c1ca.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/e2/8f/e6/e28fe6633880b3a024bed07af9f0c1ca.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>МВД опубликовало для общественного обсуждения проект ведомственного приказа, позволяющего отделениям внутренних дел принимать заявления о преступлениях полностью в электронном виде. Об этом <a href=\"https://www.kommersant.ru/doc/9093093\" rel=\"noopener nofollow\">пишет</a> «Ъ».</p><p>У граждан и сейчас есть возможность подать заявление онлайн — через приёмную на официальном сайте МВД или через «Госуслуги». Сотрудник МВД обязан распечатать поступившее через сайт электронное обращение и зарегистрировать его в книге учёта сообщений о преступлениях. На этапе рассмотрения заявления сотрудник полиции связывается с заявителем по телефону или электронной почте и уточняет детали. Если обращение требует возбуждения уголовного дела, полиция приглашает заявителя лично.</p><p>Проект приказа предполагает, что сведения, зафиксированные в электронном виде, будут обладать «той же юридической силой и значимостью, что и регистрируемые на бумажных носителях информации», сообщили в МВД. Там отметили, что нововведения в приказ вносят «в рамках цифровизации». Новый способ регистрации заявлений реализуют «при технической возможности» конкретного территориального органа МВД.</p><p>«С учётом многочисленных случаев обмана граждан мошенниками в последние годы возможность подать заявление в электронном виде может привести к значительному росту обращений в МВД», — предположил юрист «Инфралекс» Михаил Гусев. Он отметил, что зачастую граждане в правоохранительные органы не обращаются «из‑за нежелания лично проходить формальные процедуры в МВД». </p><p>В электронной системе сотрудникам МВД будет сложнее утратить заявление, изменить дату его регистрации задним числом либо вовсе уклониться от регистрации сообщения, добавил юрист Criminal Defense Firm Владислав Безушкевич. Но, отмечает эксперт, на сейчас неясно, как будет обеспечиваться сохранность сведений в случае кибератак.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "мвд"
+    },
+    {
+      "titleHtml": "мвд рф"
+    },
+    {
+      "titleHtml": "онлайн"
+    },
+    {
+      "titleHtml": "онлайн-сервисы"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105764/80423a01e0f715191d06fde7378179ff/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105764/80423a01e0f715191d06fde7378179ff/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105764\\/\"},\"headline\":\"МВД закрепит механизм подачи заявлений о преступлениях онлайн\",\"datePublished\":\"2026-11-10T09:33:30+03:00\",\"dateModified\":\"2026-11-10T10:16:12+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"МВД опубликовало для&nbsp;общественного обсуждения проект ведомственного приказа, позволяющего отделениям внутренних дел принимать заявления...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105764\\/#post-content-body\",\"about\":[\"h_cloud_services\",\"h_business-laws\",\"f_admin\",\"f_management\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/e2\\/8f\\/e6\\/e28fe6633880b3a024bed07af9f0c1ca.jpg\"]}",
+    "metaDescription": "МВД опубликовало для&nbsp;общественного обсуждения проект ведомственного приказа, позволяющего отделениям внутренних дел принимать заявления о&nbsp;преступлениях полностью в&nbsp;электронном виде....",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,251 @@
+{
+  "id": "1105940",
+  "timePublished": "2026-11-10T10:16:06+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Полные восемь лекций по фундаментальной NLP из аудитории ТГУ: Attention, Трансформер, GPT и чуточку про harness",
+  "leadData": {
+    "textHtml": "<p>Привет, хабряне!</p><p>Меня зовут Михаил Пожидаев. Я работаю доцентом на&nbsp;кафедре теоретических основ информатики Томского государственного университета. Читаю лекции по&nbsp;UNIX, программной инженерии, анализу сетей и обработке естественного языка, о&nbsp;которой хочу сегодня рассказать.</p><p>На&nbsp;протяжении пяти лет в&nbsp;центре курса по&nbsp;обработке языка, конечно&nbsp;же, находится трансформер&nbsp;— двигатель современных языковых моделей. С&nbsp;каждым годом моё понимание этого непостижимого механизма чуточку улучшалось и пополнялось новыми деталями. В&nbsp;этом году я решил на&nbsp;основе живых лекций сделать серию записей, чтобы результаты многолетних постижений и анализа стали доступны самой широкой аудитории. Получилось восемь роликов по&nbsp;восьми лекциям суммарной длительностью около десяти часов.</p>",
+    "imageUrl": null,
+    "buttonTextHtml": "Читать далее",
+    "image": null
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5386859",
+    "alias": "Marigostra",
+    "fullname": "Михаил Пожидаев",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/3d9/905/1ca/3d99051ca49f1114df6fcf11eb86082f.jpeg",
+    "speciality": "Теоретическая информатика, NLP и ОС UNIX",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 11,
+      "votesCount": 11
+    },
+    "rating": 6,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Сайт",
+        "url": "https://marigostra.ru/",
+        "value": "https://marigostra.ru/",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Сайт",
+        "url": "https://t.me/MarigostraRu",
+        "value": "https://t.me/MarigostraRu",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "GitHub",
+        "url": "https://github.com/marigostra/",
+        "value": "marigostra",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Сайт",
+        "url": "https://marigostra.ru/",
+        "value": "https://marigostra.ru/",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Сайт",
+        "url": "https://t.me/MarigostraRu",
+        "value": "https://t.me/MarigostraRu",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "GitHub",
+        "url": "https://github.com/marigostra/",
+        "value": "marigostra",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "4K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 13,
+    "readingCount": 404,
+    "score": 6,
+    "votesCount": 6,
+    "votesCountPlus": 6,
+    "votesCountMinus": 0,
+    "reach": 5891,
+    "readers": 256
+  },
+  "hubs": [
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21936",
+      "alias": "presentation",
+      "type": "collective",
+      "title": "Презентации",
+      "titleHtml": "Презентации",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20696",
+      "alias": "study",
+      "type": "collective",
+      "title": "Учебный процесс в IT",
+      "titleHtml": "Учебный процесс в IT",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Привет, хабряне!</p><p>Меня зовут Михаил Пожидаев. Я работаю доцентом на кафедре теоретических основ информатики Томского государственного университета. Читаю лекции по UNIX, программной инженерии, анализу сетей и обработке естественного языка, о которой хочу сегодня рассказать.</p><p>На протяжении пяти лет в центре курса по обработке языка, конечно же, находится трансформер — двигатель современных языковых моделей. С каждым годом моё понимание этого непостижимого механизма чуточку улучшалось и пополнялось новыми деталями. В этом году я решил на основе живых лекций сделать серию записей, чтобы результаты многолетних постижений и анализа стали доступны самой широкой аудитории. Получилось восемь роликов по восьми лекциям суммарной длительностью около десяти часов.</p><p>Курс ориентирован на фундаментальные основы вычислительных процессов, Harness рассмотрен только на одном занятии — про него и так сейчас говорится фантастически много. План лекций такой:</p><ol><li><p><strong>Классические основы.</strong> Кратко о токенизации и сегментации, стемминге и лемматизации, TF‑IDF и алгоритме Витерби.</p></li><li><p><strong>Векторное представление слов.</strong> Кратко про перцептрон, линейную ячейку и функции активации, one‑hot vector, embedding sparse‑dense и другие, HNSW и фактические модели получения embedding, такие как Word2vec, FastText, ELMo и GloVe.</p></li><li><p><strong>Рекуррентные сети.</strong> Сеть Элмана и варианты её использования, Seq2Seq, кодер‑декодер, LSTM, GRU и некоторые предпосылки появления подходов к языковому моделированию на основе LSTM.</p></li><li><p><strong>Механизм внимания. </strong>Общая идея внимания, варианты Богданова и Луонга, переход к внутреннему вниманию (самая изящная фишка в курсе!), multi‑head attention, позиционное кодирование в разных видах.</p></li><li><p><strong>Трансформер.</strong> Блоки кодера и декодера, процесс обучения трансформера, residual connection, MOE и некоторые разновидности: Switch Transformer, BERT и T5.</p></li><li><p><strong>GPT. Отличия от трансформера.</strong> BPE и RoPE, механизмы выбора следующего токена, LogitsProcessor, промпты и навыки, tool calling и LoRA.</p></li><li><p><strong>Harness.</strong> Агенты на workflow и с открытым оркестратором, MCP, память, RAG и PRM.</p></li><li><p><strong>Анализ качества.</strong> Тест Тьюринга, перплексия, проблема галлюцинаций, классические вычислимые метрики и бенчмарки, Humanity's Last Exam.</p></li></ol><p>Все восемь лекций абсолютно свободно доступны для всех желающих на странице курса на моём сайте <a href=\"https://marigostra.ru/materials/nlp.html\" rel=\"noopener nofollow\">marigostra.ru</a>. Можно слушать прямо на сайте, можно скачивать, правила простые — CC BY‑NC 4.0. Записи выложены с разрешения директора Института прикладной математики и компьютерных наук ТГУ Дианы Дамировны Даммер и нашего проректора по науке, по совместительству заведующего кафедрой теоретических основ информатики Александра Владимировича Замятина.</p><p>Сразу отвечу на вопрос, почему выложил эти ролики. Очень просто: я хочу сделать курс ещё лучше. С каждым годом я понимал, что что‑нибудь можно было бы рассказать ещё правильнее. Поэтому, если кто‑нибудь захочет сделать предложения или замечания по курсу, пожалуйста, обязательно напишите мне! На финальном слайде есть вся моя контактная информация.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "векторное представление слов"
+    },
+    {
+      "titleHtml": "рекуррентные сети"
+    },
+    {
+      "titleHtml": "механизм внимания"
+    },
+    {
+      "titleHtml": "трансформер"
+    },
+    {
+      "titleHtml": "gpt"
+    },
+    {
+      "titleHtml": "harness"
+    },
+    {
+      "titleHtml": "агенты ии"
+    },
+    {
+      "titleHtml": "тест тьюринга"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105940/3f4fe48d3347428b4d1ae7aa8441e042/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105940/3f4fe48d3347428b4d1ae7aa8441e042/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105940\\/\"},\"headline\":\"Полные восемь лекций по фундаментальной NLP из аудитории ТГУ: Attention, Трансформер, GPT и чуточку про harness\",\"datePublished\":\"2026-11-10T13:16:06+03:00\",\"dateModified\":\"2026-11-11T13:45:55+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Привет, хабряне! Меня зовут Михаил Пожидаев. Я работаю доцентом на&nbsp;кафедре теоретических основ информатики Томского государственного университета. Читаю...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105940\\/#post-content-body\",\"about\":[\"h_artificial_intelligence\",\"h_presentation\",\"h_programming\",\"h_study\",\"f_develop\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105940\\/3f4fe48d3347428b4d1ae7aa8441e042\\/\"]}",
+    "metaDescription": "Привет, хабряне! Меня зовут Михаил Пожидаев. Я работаю доцентом на&nbsp;кафедре теоретических основ информатики Томского государственного университета. Читаю лекции по&nbsp;UNIX, программной...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

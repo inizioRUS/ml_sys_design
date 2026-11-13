@@ -1,0 +1,194 @@
+{
+  "id": "1105598",
+  "timePublished": "2026-11-09T15:31:57+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "gpu-unlock: как снять программный потолок FP16/BF16 на RTX 20/30/40 без перепрошивки",
+  "leadData": {
+    "textHtml": "<p>У вас в компьютере может стоять видеокарта, которая считает вдвое медленнее, чем могла бы — просто потому, что производитель так решил в прошивке. Проект <a href=\"https://github.com/zagitta/gpu-unlock\" rel=\"noopener nofollow\">gpu-unlock</a> от разработчика с ником Zagitta снимает этот лимит программно, на уровне ядра Linux, без патченого драйвера и без перепрошивки VBIOS.</p><p>Дисклеймер сразу: сам я этот модуль не тестировал (в отличие от предыдущей статьи про Qwen3.8 на 1070, где все цифры — мои собственные замеры). Всё ниже — разбор репозитория и README проекта, с указанием, где цифры — заявления автора и коммьюнити, а не независимо проверенный бенчмарк.</p><p>В чём суть ограничения</p><p>NVIDIA разделяет линейку на гейминговые GeForce RTX и профессиональные/дата-центровые карты (Tesla, A100, H100 и т.д.) не только по цене, но и по пропускной способности тензорных ядер на FP16/BF16/TF32 с накоплением в FP32. Железо физически одно и то же (или очень близкое), но на потребительских картах эта математика искусственно урезана — чаще всего вдвое от паспортной пиковой скорости тензорных ядер.</p><p>Для игр это не имеет значения — там этот режим почти не используется. А вот для локальных LLM, файнтюнинга, генерации изображений и видео — это именно то, что считает большую часть времени при обучении и на этапе prefill (обработка входного промпта).</p>",
+    "imageUrl": "https://habrastorage.org/extt/d2/47/9f/d2479f63054ed5359eb98075e355e367.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/d2/47/9f/d2479f63054ed5359eb98075e355e367.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2782617",
+    "alias": "DmNep",
+    "fullname": "Дмитрий",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/1a0/c5d/04b/1a0c5d04baa491657ce61c356012f3d1.png",
+    "speciality": "Сети чиню снаружи стека",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 14,
+      "votesCount": 28
+    },
+    "rating": 105.4,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 10,
+    "favoritesCount": 23,
+    "readingCount": 2494,
+    "score": 6,
+    "votesCount": 6,
+    "votesCountPlus": 6,
+    "votesCountMinus": 0,
+    "reach": 8627,
+    "readers": 1894
+  },
+  "hubs": [
+    {
+      "id": "21944",
+      "alias": "videocards",
+      "type": "collective",
+      "title": "Видеокарты",
+      "titleHtml": "Видеокарты",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>У вас в компьютере может стоять видеокарта, которая считает вдвое медленнее, чем могла бы — просто потому, что производитель так решил в прошивке. Проект <a href=\"https://github.com/zagitta/gpu-unlock\" rel=\"noopener nofollow\">gpu-unlock</a> от разработчика с ником Zagitta снимает этот лимит программно, на уровне ядра Linux, без патченого драйвера и без перепрошивки VBIOS.</p><p>Дисклеймер сразу: сам я этот модуль не тестировал (в отличие от предыдущей статьи про Qwen3.8 на 1070, где все цифры — мои собственные замеры). Всё ниже — разбор репозитория и README проекта, с указанием, где цифры — заявления автора и коммьюнити, а не независимо проверенный бенчмарк.</p><h3>В чём суть ограничения</h3><p>NVIDIA разделяет линейку на гейминговые GeForce RTX и профессиональные/дата-центровые карты (Tesla, A100, H100 и т.д.) не только по цене, но и по пропускной способности тензорных ядер на FP16/BF16/TF32 с накоплением в FP32. Железо физически одно и то же (или очень близкое), но на потребительских картах эта математика искусственно урезана — чаще всего вдвое от паспортной пиковой скорости тензорных ядер.</p><p>Для игр это не имеет значения — там этот режим почти не используется. А вот для локальных LLM, файнтюнинга, генерации изображений и видео — это именно то, что считает большую часть времени при обучении и на этапе prefill (обработка входного промпта).</p><h3>Что делает gpu-unlock технически</h3><p>Это модуль ядра Linux, который:</p><ol><li><p>Встраивается в initramfs (mkinitcpio/initramfs-tools/dracut) и загружается <strong>до</strong> того, как в систему привяжется штатный драйвер <code>nvidia</code>.</p></li><li><p>Записывает в карту регистры-селекторы скорости: <code>SS0 = 0x88888888</code> (полная скорость BF16) и 4-битный <code>SS1 = 0x8</code> (режим IMLA4).</p></li><li><p>Выполняет FLR (Function-Level Reset) карты, после чего отпускает её — и уже немодифицированный оригинальный драйвер NVIDIA цепляется к карте как ни в чём не бывало.</p></li></ol><p>Подход комбинирует технику из более старого проекта cmpunlocker (работа с V67/PLM-регистрами) с идеей перехвата на этапе до загрузки драйвера через UEFI. Драйвер NVIDIA модуль не патчит и не подменяет — архив драйвера скачивается только для того, чтобы вытащить из него прошивку, от которой зависит разблокировка. По заявлению автора, привязки к конкретной версии драйвера нет.</p><p>Важно: это не хак и не читерство с точностью вычислений — автор заявляет, что результаты вычислений побитово идентичны до и после, меняется только скорость.</p><h3>Какие карты поддерживаются</h3><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Поколение</p></th><th><p align=\"left\">Карты</p></th><th><p align=\"left\">Статус</p></th></tr><tr><td><p align=\"left\">Ampere (RTX 30)</p></td><td><p align=\"left\">RTX 3050 — 3090 Ti, включая мобильные 3070/3080</p></td><td><p align=\"left\">Стабильно</p></td></tr><tr><td><p align=\"left\">Ada Lovelace (RTX 40)</p></td><td><p align=\"left\">RTX 4060 — 4090 (включая 4090 D), мобильные 4050/4060</p></td><td><p align=\"left\">Экспериментально</p></td></tr><tr><td><p align=\"left\">Turing (RTX 20)</p></td><td><p align=\"left\">RTX 2060 — 2080 Ti, Titan RTX</p></td><td><p align=\"left\">Экспериментально</p></td></tr><tr><td><p align=\"left\">Blackwell (RTX 50)</p></td><td><p align=\"left\">—</p></td><td><p align=\"left\">Не поддерживается, по словам автора — “скорее всего, и не будет”</p></td></tr></tbody></table></div></div><p>Точные PCI device ID — в файле <code>kernel/gpu_unlock/recipes.c</code> репозитория.</p><p>Как видно, Pascal (10-серия, та самая GTX 1070 из моей предыдущей статьи) в списке нет вообще — у этих карт изначально нет отдельного урезанного режима tensor-core BF16, который можно было бы разблокировать (у Pascal просто нет тензорных ядер в нужном для этого виде). Так что для 1070 этот проект не актуален, а вот владельцам 20/30/40 серий — самое то.</p><h3>Цифры производительности (по данным README)</h3><p><strong>Чистый BF16 matmul на стоковых лимитах мощности:</strong></p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Карта</p></th><th><p align=\"left\">До</p></th><th><p align=\"left\">После</p></th><th><p align=\"left\">Прирост</p></th></tr><tr><td><p align=\"left\">RTX 3060 12 ГБ</p></td><td><p align=\"left\">27 TFLOPS</p></td><td><p align=\"left\">51 TFLOPS</p></td><td><p align=\"left\">+87%</p></td></tr><tr><td><p align=\"left\">RTX 3080 10 ГБ</p></td><td><p align=\"left\">65 TFLOPS</p></td><td><p align=\"left\">113 TFLOPS</p></td><td><p align=\"left\">+73%</p></td></tr><tr><td><p align=\"left\">RTX 3090</p></td><td><p align=\"left\">75 TFLOPS</p></td><td><p align=\"left\">125 TFLOPS</p></td><td><p align=\"left\">+65%</p></td></tr><tr><td><p align=\"left\">RTX 4080</p></td><td><p align=\"left\">104 TFLOPS</p></td><td><p align=\"left\">193 TFLOPS</p></td><td><p align=\"left\">+87%</p></td></tr><tr><td><p align=\"left\">RTX 4090</p></td><td><p align=\"left\">165 TFLOPS</p></td><td><p align=\"left\">329 TFLOPS</p></td><td><p align=\"left\">+100% (пиковая скорость)</p></td></tr></tbody></table></div></div><p>Для RTX 4090 автор отдельно отмечает: карта раньше упирается в лимит мощности, чем в потолок тензорных ядер, поэтому на больших GEMM прирост будет меньше, чем пиковая цифра в таблице.</p><p><strong>Реальные нагрузки (типичные приросты, по отчётам сообщества, не независимый бенчмарк):</strong></p><ul><li><p>Prefill LLM (FP16/BF16, AWQ/GPTQ): +25–55%, время до первого токена ниже на 25–30%</p></li><li><p>LoRA и full-finetuning (BF16): +25–50%</p></li><li><p>Генерация изображений (FP16/BF16): +30–55%</p></li><li><p>Генерация видео (Wan 2.2, BF16): +15–20%</p></li><li><p>FlashAttention/SDPA: +50–60%</p></li><li><p>llama.cpp/Ollama с GGUF: 0–15%, заметнее на длинном контексте</p></li><li><p>Без изменений: decode LLM (упирается в память, а не в вычисления), INT8/FP8/INT4-модели, игры, FP32 CUDA</p></li></ul><p>Обратите внимание на последний пункт — это ключевое ограничение для локальных LLM. Если вы гоняете модель в INT8/INT4-квантах (как большинство локальных setup’ов на домашнем железе) и вас интересует скорость генерации (decode), а не только prefill — буст может быть нулевым. Выигрыш максимален именно на BF16/FP16 весах и именно на этапе обработки промпта или на обучении.</p><h3>Установка</h3><pre><code class=\"bash\">git clone https://github.com/zagitta/gpu-unlock\ncd gpu-unlock\nmake install\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Скрипт сам определяет дистрибутив и ставит зависимости. Есть отдельные таргеты под конкретные пакетные менеджеры: <code>make install-arch</code>, <code>make install-deb</code> (Debian/Ubuntu), <code>make install-rpm</code> (Fedora/RHEL, нужен DNF).</p><p>Дальше нужно добавить параметр ядра (не затирая существующие опции):</p><pre><code>gpu_unlock.targets=all\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Способ прописать это зависит от загрузчика: GRUB, <code>grubby</code> на Fedora, systemd-boot, либо <code>/etc/kernel/cmdline</code> для UKI-сборок. Можно указать и конкретные карты по PCI-адресу вместо <code>all</code>:</p><pre><code>gpu_unlock.targets=0000:21:00.0,0000:22:00.0\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Карты, уже привязанные к драйверу или выключенные, при загрузке пропускаются без ошибок.</p><p>Проверить, что разблокировка сработала:</p><pre><code class=\"bash\">journalctl -k -b | grep gpu_unlock\nlspci -nnk -s 0000:XX:00.0\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Откатить — убрать <code>gpu_unlock.targets=</code> из параметров ядра или удалить пакет.</p><h3>Риски и нюансы</h3><ul><li><p><strong>Ноутбуки.</strong> Разблокировка теряется при полном отключении питания дискретной GPU. Частично помогает отключение runtime power management (<code>NVreg_DynamicPowerManagement=0x00</code>), но результат непостоянный.</p></li><li><p><strong>Suspend/resume.</strong> Сон в ОЗУ сбрасывает регистры-селекторы скорости, модуль разблокирует карту повторно при пробуждении (~1 секунда задержки). Отключается параметром <code>gpu_unlock.resume=0</code>. Гибернация не поддерживается.</p></li><li><p><strong>Если прошивка “зависла”.</strong> Модуль логирует это и держит DMA-буферы выделенными до полного обесточивания карты — перед повтором нужно именно выключить питание, не просто перезагрузиться.</p></li><li><p><strong>Нагрев.</strong> Карта будет работать теплее из-за возросшей вычислительной нагрузки, но штатный троттлинг и управление питанием продолжают работать как обычно.</p></li><li><p><strong>Windows.</strong> Автором не поддерживается. Существует сторонний порт, но в FAQ отдельное предупреждение: к любым “установщикам под Windows”, гуляющим по сети, относиться с крайней осторожностью — это не официальный продукт проекта.</p></li><li><p><strong>Скам.</strong> В FAQ отдельно написано: проект не имеет никакой официальной криптовалюты, сайтов или установщиков, кроме самого GitHub-репозитория.</p></li></ul><h3>Лицензия</h3><p>Сам модуль ядра и локальная упаковка — GPL-2.0-only. Сгенерированный буфер прошивки собран на основе референса CMP; прошивка NVIDIA внутри остаётся под её собственной лицензией (подробности — <code>firmware/NOTICE.md</code> и <code>licenses/</code> в репозитории).</p><h3>Итого</h3><p>Если у вас RTX 20/30/40-серии и вы гоняете локальные LLM, файнтюните модели или генерируете картинки/видео в FP16/BF16 — это бесплатный и, судя по описанию, довольно безопасный способ получить +25-90% на самых дорогих по вычислениям этапах, без доплаты за новую карту. Главное — честно сверить профиль своей нагрузки со списком “где не работает”: decode локальных LLM в кванте INT8/INT4 прироста не даст вообще, и это как раз самый частый домашний сценарий. Прежде чем тащить это в прод или на единственную рабочую машину — почитайте репозиторий сами и проверьте на тестовом стенде, цифры в статье — это пересказ README проекта, а не мой собственный замер.</p><p>Ссылка на репозиторий: <a href=\"https://github.com/zagitta/gpu-unlock\" rel=\"noopener nofollow\">github.com/zagitta/gpu-unlock</a></p><h3>UPD: рабочий GUI-анлок под Windows</h3><p>В комментариях подсказали: пользователь MindAllik собрал кроссплатформенный инструмент с GUI на основе наработок Zagitta, JustARearcher, TOTORONG и KohakuBlueleaf — <a href=\"https://github.com/MindAllik/GPU-Tensor-Unlock-Universal\" rel=\"noopener nofollow\">GPU-Tensor-Unlock-Universal</a>. Поддерживает Windows 10/11 (через загрузочную UEFI-флешку, с пробным прогоном патча в ОЗУ перед реальным применением — защита от чёрного экрана) и Linux (DKMS), карты RTX 20/30/40.</p><p>Его собственные замеры на RTX 4070 Ti (Windows 11, лимит мощности уравнен через NVML на 300 Вт) прямо подтверждают цифры из README Zagitta: FP16→FP32 87.36→175.43 TFLOP/s (2.01x), BF16→FP32 и TF32→FP32 — та же картина, INT8→INT32 без изменений (1.00x), как и ожидалось для этого типа лимита.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "gpu-unlock"
+    },
+    {
+      "titleHtml": "rtx 3090"
+    },
+    {
+      "titleHtml": "tensor cores"
+    },
+    {
+      "titleHtml": "fp16"
+    },
+    {
+      "titleHtml": "bf16"
+    },
+    {
+      "titleHtml": "linux kernel module"
+    },
+    {
+      "titleHtml": "nvidia"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105598/9826328ad82b49d3da99f091a2614568/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105598/9826328ad82b49d3da99f091a2614568/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105598\\/\"},\"headline\":\"gpu-unlock: как снять программный потолок FP16\\/BF16 на RTX 20\\/30\\/40 без перепрошивки\",\"datePublished\":\"2026-11-09T18:31:57+03:00\",\"dateModified\":\"2026-11-10T13:34:29+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"У вас в компьютере может стоять видеокарта, которая считает вдвое медленнее, чем могла бы — просто потому, что производитель так решил в прошивке. Проект...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105598\\/#post-content-body\",\"about\":[\"h_videocards\",\"h_open_source\",\"h_artificial_intelligence\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105598\\/9826328ad82b49d3da99f091a2614568\\/\"]}",
+    "metaDescription": "У вас в компьютере может стоять видеокарта, которая считает вдвое медленнее, чем могла бы — просто потому, что производитель так решил в прошивке. Проект gpu-unlock от разработчика с ником Zagitta...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

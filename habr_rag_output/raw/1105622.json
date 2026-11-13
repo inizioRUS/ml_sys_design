@@ -1,0 +1,212 @@
+{
+  "id": "1105622",
+  "timePublished": "2026-11-11T07:39:02+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Доверяй, но проверяй: подробный разбор отчета VirusTotal на примере Lagoscope",
+  "leadData": {
+    "textHtml": "<p>Привет, Хабр! </p><p>С недавних пор в качестве пет-проекта я разрабатываю <a href=\"https://lagoscope.app/\" rel=\"noopener nofollow\">Lagoscope</a> — программу, которая помогает заметить и определить причину лагов во время игры. </p><p>Сегодня мы прогоним его клиент через анализ VirusTotal и подробно и честно разберем отчет.</p>",
+    "imageUrl": "https://habrastorage.org/extt/b9/69/59/b969593d6b0becb7f627de6c0d894d7e.png",
+    "buttonTextHtml": "Посмотрим, что там внутри",
+    "image": {
+      "url": "https://habrastorage.org/extt/b9/69/59/b969593d6b0becb7f627de6c0d894d7e.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2690381",
+    "alias": "AndBoh",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 21,
+      "votesCount": 21
+    },
+    "rating": 0,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "4K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 269,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 4827,
+    "readers": 186
+  },
+  "hubs": [
+    {
+      "id": "21456",
+      "alias": "win_dev",
+      "type": "collective",
+      "title": "Windows",
+      "titleHtml": "Windows",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "332",
+      "alias": "virus",
+      "type": "collective",
+      "title": "Антивирусная защита",
+      "titleHtml": "Антивирусная защита",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21980",
+      "alias": "games",
+      "type": "collective",
+      "title": "Игры и игровые консоли",
+      "titleHtml": "Игры и игровые консоли",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20742",
+      "alias": "read",
+      "type": "collective",
+      "title": "Читальный зал",
+      "titleHtml": "Читальный зал",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/b9/69/59/b969593d6b0becb7f627de6c0d894d7e.png\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b9/69/59/b969593d6b0becb7f627de6c0d894d7e.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/b9/69/59/b969593d6b0becb7f627de6c0d894d7e.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Привет, Хабр! </p><p>С недавних пор в качестве пет-проекта я разрабатываю <a href=\"https://lagoscope.app/\" rel=\"noopener nofollow\">Lagoscope</a> — программу, которая помогает заметить и определить причину лагов во время игры. Идея простая: собрать телеметрию за игровую сессию с минимальным оверхедом по ресурсам, обнаружить проблемные места и связать с тем, что происходило с системой рядом по времени. Для реализации этой схемы проект разделен на 2 части:  </p><ol><li><p><strong>Клиент </strong>— тонкое Windows-приложение, запускается на компьютере пользователя, собирает телеметрию из различных источников (тут стоит добавить, что информацию берем только из того, что открыто предоставляет нам система, не лезем в процесс игры и тем самым не вызываем подозрений у различного рода античитов) и отправляет анонимные данные на сервер, создавая минимум фоновой нагрузки.</p></li><li><p><strong>Сервер </strong>— крутится где-то на удаленном компьютере и выполняет «тяжелую» часть работы: получает сырые данные от клиента, анализирует их, ищет проблемные моменты, сопоставляет их с потенциальными причинами и формирует подробный отчет.</p></li></ol><p><em>Небольшая ремарка для понимания некоторых решений: так как клиент скачивается из интернета и не имеет подписи издателя (это стоит денег, а проект, вероятно, никому, кроме меня, не будет нужен), то хотелось при выпуске каждой новой версии не начинать копить репутацию Windows SmartScreen с нуля. А если подписи нет, репутация копится, по сути, на хеше запускаемого файла, поэтому было решено использовать широко распространенную схему, которой пользуются, например, Chrome или Steam: пользователь качает с сайта некий «загрузчик» — его хеш стараемся держать постоянным, — а он, в свою очередь, скачивает и устанавливает актуальную версию клиента.  </em></p><p>Понимая, что пользователь не должен слепо доверять рандомному <code>.exe</code> из интернета без подписи и репутации, я сразу решил встроить в пайплайн сборки клиента автоматическую проверку на VirusTotal: каждая новая версия билдилась, упаковывалась в установщик с помощью Inno Setup и отправлялась в VT. ПО требует прав администратора, работает в фоне и что-то отправляет в интернет — срабатывания были неизбежны, поэтому я установил порог в 5 детектов из ~70 доступных проверок: если он не превышен, то новая версия клиента публикуется для скачивания, уже работающие клиенты получают ее с автообновлением, а на сайте появляется ссылка на отчет сканирования.  </p><p>В общем, я все это собрал, опубликовал и <a href=\"https://dtf.ru/id3560728/5392604-prichiny-lagov-v-igrah-i-reshenie-problemy-s-lagoscope\" rel=\"noopener nofollow\">рассказал о проекте на DTF</a> как на наиболее подходящем по тематике ресурсе. Конечно же, в комментариях возникли сомнения в безопасности установки клиента, поэтому я написал <a href=\"https://dtf.ru/software/5393385-bezopasnost-lagoscope-analiz-i-proverka-programmy\" rel=\"noopener nofollow\">вторую статью</a>. В ней кратко изложил то же, что описано выше, расписал устройство клиента и пообещал сделать разбор отчета VirusTotal, чтобы снять как можно больше сомнений.  </p><p><em>Еще одна ремарка по поводу устройства клиента: про историю с загрузчиком я вам уже рассказал, далее он скачивает установщик актуальной версии, а тот, в свою очередь, распаковывает все необходимые компоненты, их 4:</em></p><ul><li><p><em>Непосредственно клиент, который выполняет большую часть работы.</em></p></li><li><p><em>PresentMon — утилита от Intel, </em><a href=\"https://github.com/GameTechDev/PresentMon\" rel=\"noopener nofollow\"><em>распространяемая через GitHub</em></a><em>. Нужна для получения счетчика кадров, оттуда frame time и FPS, а оттуда уже детект лагов в игре. Версия фиксирована, хеш проверяемый.</em></p></li><li><p><em>Два хелпера — DPC sidecar и ADLX helper — нужны для работы с драйверами и задержками.</em></p></li></ul><p><em>Подробнее можно прочитать в оригинальной статье </em><a href=\"https://dtf.ru/software/5393385-bezopasnost-lagoscope-analiz-i-proverka-programmy\" rel=\"noopener nofollow\"><em>Поговорим о безопасности Lagoscope</em></a><em>.</em></p><h3>Поворот не туда</h3><p>В общем, я сел писать обещанный разбор <a href=\"https://www.virustotal.com/gui/file/568f14f50edeac6e5e8443f257dbb881cb007fa76fcacb71d767f91265e92ba3/detection\" rel=\"noopener nofollow\">отчета</a> и обнаружил два неприятных момента:  </p><ol><li><p>Следите за руками: пользователь качает с сайта загрузчик, а на проверку уходит установщик — это 2 разных приложения с разными хешами. И получается, что и по загрузчику нет репорта, и хеш установщика заранее не проверить.</p></li><li><p>Как я уже сказал ранее, установщик собирался с помощью Inno Setup с флагом компрессии, и получилось, что проверяемая часть — стандартный стартовый модуль Inno Setup: 10 секций из 11 совпадают с официальным <code>SetupLdr.e32</code>. А оставшиеся 74,2% файла — собственно оверлей, полезная нагрузка клиента, но она сжата, энтропия 7,99992, и там может быть вообще что угодно.</p></li></ol><p>Посмотрел я на это и принял решение переделать релизный флоу. Сказано — сделано, и теперь в VT на проверку отправляются по отдельности:  </p><ul><li><p>Загрузчик — то, что пользователь качает с сайта и может сравнить хеш.</p></li><li><p>Установщик — то, что качает загрузчик. Установщик также доступен по прямой ссылке (вроде <a href=\"http://lagoscope.app/releases/0.0.12/Lagoscope-Setup-0.0.12.exe\" rel=\"noopener nofollow\"><code>lagoscope.app/releases/0.0.12/Lagoscope-Setup-0.0.12.exe</code></a>), так что при желании его можно скачать без загрузчика и сверить хеш с отчетом до запуска. Кроме того, теперь он собирается без компрессии, а значит, заплатив объемом, мы получили открытость, и теперь можно заглянуть внутрь.</p></li><li><p>Сам клиент Lagoscope — то, что запускает пользователь.</p></li><li><p>Два хелпера, которые поставляются в комплекте и запускаются в фоне при необходимости.</p></li></ul><p><em>PresentMon я сканировать не стал — это сторонняя утилита от известной компании из открытого источника. </em></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/49/c3/75/49c375b8b062343a4bbd63af8b8041d4.png\" alt=\"Компоненты Lagoscope\" title=\"Компоненты Lagoscope\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/49/c3/75/49c375b8b062343a4bbd63af8b8041d4.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/49/c3/75/49c375b8b062343a4bbd63af8b8041d4.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Компоненты Lagoscope</figcaption></div></figure><p>И по каждому из этих компонентов публикуется отчет.  </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/85/6f/1e/856f1e9414a4d8c39bed4aaf6ae9b9a9.png\" alt=\"Отчет VirusTotal по каждому компоненту на сайте\" title=\"Отчет VirusTotal по каждому компоненту на сайте\" width=\"589\" height=\"437\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/85/6f/1e/856f1e9414a4d8c39bed4aaf6ae9b9a9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/85/6f/1e/856f1e9414a4d8c39bed4aaf6ae9b9a9.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Отчет VirusTotal по каждому компоненту на сайте</figcaption></div></figure><p>Теперь вводная часть, наконец, заканчивается, и мы можем перейти к тому, ради чего писалась эта статья: разберем один из отчетов VT максимально подробно, чтобы понять, что мы там можем увидеть и на что обратить внимание. В качестве препарируемого я выбрал исполняемый файл клиента Lagoscope — он является главным героем всего приключения, ходит в сеть, собирает метрики и не содержит в себе сторонних программ, как, например, установщик и Inno Setup, но в целом то, что описано в статье, применимо к любому отчету. Разбор получился достаточно длинным и с большим количеством технических деталей, именно поэтому я принес его на Хабр, а не на DTF. Теперь давайте посмотрим, что там у нас в <a href=\"https://www.virustotal.com/gui/file/662c4135c48df8440b1e4ed9227330f06e366825299fa5ea723698b68179392d/detection\" rel=\"noopener nofollow\">отчете</a>.  </p><h3>Кто ты такой?</h3><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ee/ab/69/eeab69eb067f5a80925d7bfaeec64411.png\" alt=\"Хедер отчета VirusTotal\" title=\"Хедер отчета VirusTotal\" width=\"1391\" height=\"250\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ee/ab/69/eeab69eb067f5a80925d7bfaeec64411.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ee/ab/69/eeab69eb067f5a80925d7bfaeec64411.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Хедер отчета VirusTotal</figcaption></div></figure><p>Первое, что нужно проверить, — что мы смотрим отчет именно о том, о чем хотели. Предположим, что клиент уже скачан и установлен, и в папке программы у вас уже есть <code>lagoscope-client.exe</code> версии 0.0.12. В таком случае нам нужно выполнить команду:  </p><pre><code class=\"powershell\">&gt; Get-FileHash lagoscope-client.exe</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Она выведет нам SHA-256 хеш файла, и он должен совпасть с тем, что мы видим в отчете. В случае с данной версией это <code>662c4135c48df8440b1e4ed9227330f06e366825299fa5ea723698b68179392d</code>. После сверки мы уже точно уверены, что отчет принадлежит проверяемому файлу и мы можем ему доверять.  </p><p><em>Еще в шапке отчета есть поле </em><code><em>Last Analysis Date</em></code><em> с датой последней проверки. VT периодически может перепроверять файлы, отчего результат проверки может меняться. В данной статье описаны результаты, актуальные на момент написания статьи. </em></p><h3>Detection — срабатывания антивирусов</h3><p>Вкладка Detection — результат проверки файла различными антивирусами. Список может меняться от файла к файлу, во-первых, потому что не все антивирусы могут быть предназначены для проверки данного типа файлов, а во-вторых, проверка может не пройти по техническим причинам, например, таймаут. В любом случае нас это не касается, работаем с тем, что есть. В нашем случае мы видим 2 срабатывания. Для начала смотрим, что за антивирусы нас заподозрили. Сейчас это:</p><ul><li><p><strong>Gridinsoft (GridinSoft LLC)</strong> — украинская компания из Киева, делает антивирус Gridinsoft Anti-Malware. На VirusTotal она с октября 2020 года.</p></li><li><p><strong>Trapmine </strong>— эстонская компания из Таллина. Продукт — защита рабочих станций (EDR/EPP), по описанию построенная на машинном обучении.</p></li></ul><p>В списке есть крупные игроки с огромным кредитом доверия, но они посчитали наш файл безопасным. Сработали 2 продукта небольших компаний. Мы, конечно же, не списываем их со счетов, но это позволяет относиться к результатам с некоторой долей скепсиса.</p><p>Далее мы смотрим, в чем нас подозревают:</p><ul><li><p><code>Trojan.Heur!.02016023</code></p></li><li><p><code>Malicious.moderate.ml.score</code></p></li></ul><p>Ни одна метка не называет конкретный вирус: обе — эвристика, то есть догадка по признакам файла, а не совпадение с базой известных угроз. В первом случае нам прямо написали <code>Heur</code> и номер, который наверняка обозначает правило, по которому произошел детект. Во втором случае в метке мы имеем <code>ml.score</code>, что означает, что какая-то ML-модель насчитала достаточно попугаев, чтобы посчитать файл опасным.</p><p>Мы знаем, что наша программа что-то в фоне собирает на компьютере и отправляет куда-то в интернет. Похоже на поведение трояна? Похоже. Так что срабатывания можем считать справедливыми, но ложными.</p><h3>Details — что внутри</h3><p>Эта вкладка подробно описывает, что у нашего исполняемого файла под капотом. Здесь очень много информации, разберем самые интересные и самые полезные для нас моменты.  </p><h4>Basic properties</h4><p>Набор свойств, хешей и фактов о нашем exe. Из интересного разве что:  </p><blockquote><p>TrID: Rust Windows 64bit Executable (97%)  Win64 Executable (generic) (1%)  Win16 NE executable (generic) ...</p><p>DetectItEasy: PE64  Compiler: Rust (x86_64-pc-windows-msvc)  Compiler: Microsoft Visual C/C++ (19.36.36260) [C]  Linker: Microsoft Linker (14.36.36260)...</p></blockquote><p>В основном Rust, немного приправленный линкером Microsoft. Все верно.  </p><h4>History</h4><p>Тут глаз цепляется за тот факт, что наш файл, оказывается, был создан в далеком будущем.  </p><blockquote><p>Creation Time 2102-08-07 19:41:41 UTC</p></blockquote><p>Но на самом деле, тут тоже нет ничего странного. Если бы при компиляции использовалось реальное время создания файла, то хеш менялся бы при каждой пересборке. Чтобы этого избежать, существует специальный флаг линкера <code>/Brepro</code>. При его использовании в поле времени создания кладется стабильное значение, основанное на содержимом файла, а не на времени. </p><h4>Sections</h4><p>Exe-файл делится на секции — блоки с разным содержимым: в <code>.text</code> лежит код, в <code>.rdata</code> и <code>.data</code> — данные, в <code>.rsrc</code> — значки и прочие ресурсы. Windows оперирует каждой секцией по-разному, например, код можно выполнять, данные — только читать или записывать. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/45/45/e4/4545e4c012e7d1a802cfafbc31465332.png\" alt=\"Секции внутри exe клиента\" title=\"Секции внутри exe клиента\" width=\"870\" height=\"371\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/45/45/e4/4545e4c012e7d1a802cfafbc31465332.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/45/45/e4/4545e4c012e7d1a802cfafbc31465332.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Секции внутри exe клиента</figcaption></div></figure><p>Здесь можно обратить внимание на колонку <code>Entropy</code>. Энтропия — мера «случайности» байтов от 0 до 8: чем ближе к 8, тем больше блок похож на архив или шифр. У обычного исполняемого кода она держится в районе 6. Помните значение из начала статьи — 7,99992? Оно означало, что данные выглядят как абсолютно случайный набор, а это подозрительно.</p><p>Тут же мы видим, что в целом они не превышают значение 6,44, что вполне себе естественно. Есть одно исключение — <code>.rsrc</code> — 7,4, но это секция с ресурсами, там лежат иконки в PNG, а это формат со сжатием, так что это нормально.</p><p>В остальном ничего подозрительного: странных имен, пустых или, наоборот, неестественно огромных секций нет.</p><h4>Imports</h4><p>Здесь можно увидеть, какие функции и из каких библиотек импортирует клиент. По ним можно сделать вывод о логике того, что происходит у него под капотом. Перечислять все смысла нет, в целом там все нужное для нормальной работы клиента:  </p><div><div class=\"table\"><table><tbody><tr><td data-colwidth=\"275\" width=\"275\"><p align=\"left\"><code>OpenProcess</code>, <code>CreateToolhelp32Snapshot</code>, <code>GetProcessTimes</code>, <code>GetProcessIoCounters</code>  </p></td><td><p align=\"left\">Список процессов и нагрузка от них. <code>OpenProcess</code> вызывается с минимальными правами <code>PROCESS_QUERY_LIMITED_INFORMATION</code>  </p></td></tr><tr><td data-colwidth=\"275\" width=\"275\"><p align=\"left\"><code>EnumWindows</code>, <code>GetWindowTextW</code>  </p></td><td><p align=\"left\">Список окон в панели задач для ручного выбора игры. Читаются только владелец окна и заголовок</p></td></tr><tr><td data-colwidth=\"275\" width=\"275\"><p align=\"left\"><code>CryptProtectData</code>  </p></td><td><p align=\"left\">Шифрование для токена устройства</p></td></tr><tr><td data-colwidth=\"275\" width=\"275\"><p align=\"left\"><code>winhttp</code>, <code>secur32</code>, <code>Cert*</code>  </p></td><td><p align=\"left\">Сеть и TLS для отправки данных</p></td></tr><tr><td data-colwidth=\"275\" width=\"275\"><p align=\"left\"><code>Icmp*</code>, <code>wlanapi</code>, <code>CM_Register_Notification</code>, <code>pdh</code>  </p></td><td><p align=\"left\">пинг, Wi-Fi, USB, счётчики  </p></td></tr></tbody></table></div></div><p>Также тут хочется заметить, чего в импортах нет: <code>WriteProcessMemory</code>, <code>ReadProcessMemory</code>, <code>CreateRemoteThread</code>, <code>VirtualAllocEx</code>, <code>SetWindowsHookEx</code>, <code>GetAsyncKeyState</code> — клиент не лезет внутрь ваших процессов, не следит за клавиатурой и в целом ведет себя хорошо. </p><h4>Contained Resources by Type</h4><p>Ресурсы: 10 иконок, 2 группы и манифест. Все. Больше в файле ничего не спрятано.  </p><h3>Relations</h3><p>Здесь находятся связи проверяемого клиента Lagoscope с другими объектами в базе VirusTotal — какие адреса, домены и IP он открывал при запуске в песочнице, из каких частей состоит, какие файлы создал. </p><h4>Contacted URLs, Contacted Domains, Contacted IP addresses</h4><p>Все 3 эндпоинта, которые вызывал клиент, принадлежат домену <code>lagoscope.app</code>. По ним клиент запрашивает с сервера текущую конфигурацию (сведения об обновлении и актуальной версии, доступные фичи и т. д.), регистрирует устройство по токену и передает данные. У всех трех адресов 0 срабатываний из 93 — в сомнительных делах они замечены не были. Могут вызвать сомнения коды ответов 401 и 404, но это объясняется тем, что клиент работает на вебсокетах, а сканер проверял их обычным HTTPS-запросом. Для <code>/ingest</code> еще и нужен токен, так что он отдает 401.</p><p>В секции про Domains мы видим домен и сабдомен <code>lagoscope.app</code> и <code>atm.teams.mira.tm.svc.cloud.microsoft</code> — он не имеет отношения к клиенту, скорее всего, какой-то фон самой песочницы.</p><p>Ниже список конкретных IP-адресов. Аналогично: один IP относится к серверу Lagoscope, все остальное — подсеть Microsoft.</p><h4>Bundled Files, PE Resource Children</h4><p>По сути все то же самое, что мы видели на предыдущей вкладке в разделе Sections, — части самого exe, код, данные, манифест. Из интересного: секцию <code>.fptable</code> VirusTotal определил как ISO-образ, хотя она весит 512 байт и целиком состоит из нулей.  </p><h3>Behavior</h3><p>VirusTotal запускает проверяемый файл в нескольких изолированных песочницах и смотрит, как он себя ведет. На этой вкладке собраны отчеты о поведении программы, подозрительные паттерны и прочее.</p><p>В данном случае мы видим, что программу запускали в 4 песочницах, и при этом мы имеем по 0 в Detections, IDS Rules (правила сетевого трафика), Sigma rules (правила системных событий). Зато у нас есть Mitre Signatures. MITRE — это американская некоммерческая организация, которая ведёт известные базы по кибербезопасности. В отчёте идет речь о её базе — MITRE ATT&amp;CK: открытом каталоге приёмов, которыми пользуются злоумышленники. Список довольно большой, я хотел разобрать из него только Medium, но тут у меня возникли вопросы, на которые я не смог ответить.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/97/d9/99/97d9996a47d3269e18a9fee64b4507fe.png\" alt=\"Сводка по запуску в песочницах\" title=\"Сводка по запуску в песочницах\" width=\"1383\" height=\"384\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/97/d9/99/97d9996a47d3269e18a9fee64b4507fe.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/97/d9/99/97d9996a47d3269e18a9fee64b4507fe.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Сводка по запуску в песочницах</figcaption></div></figure><p>Дело в том, что из 4 medium signatures, о которых написано в саммари, в детальной таблице с фильтром по Medium есть только 2 техники, при этом одна является подмножеством другой. Итак, нас обвиняют в Timestomp (Indicator Removal). Timestomp — подмена дат файла (создания, изменения). Злодеи так прячут свои файлы среди системных, чтобы по дате было сложнее отличить. Но в коде клиента нет ни одного места, где менялись бы даты файлов. Зато есть импорт <code>SetFileTime</code>, и приехал он из стандартной библиотеки Rust. </p><details class=\"spoiler\"><summary>Скрытый текст</summary><div class=\"spoiler__content\"><p>В Rust 1.99 функция открытия файла <code>File::open</code> после <code>CreateFileW</code> вызывает <code>SetFileTime</code>, но только если при открытии задан флаг «не обновлять дату последнего доступа или записи». Эти флаги экспериментальные, а клиент собирается стабильным Rust 1.99 и включить их не может. В коде клиента их тоже нет. Но параметры открытия файла хранятся в обычных полях структуры, поэтому компилятор не может доказать, что флаги всегда выключены. Ветка с <code>SetFileTime</code> остаётся в файле, а функция — в импортах.</p></div></details><p>В блоке про сеть ничего нового нет, все это мы уже видели ранее. А вот в разделе Memory Pattern Domains есть пара моментов. Здесь перечислены домены, которые сканер обнаружил в памяти процесса, а не те, которые он вызывал. Кроме уже привычного <code>lagoscope.app</code> мы можем видеть: </p><ul><li><p><code>*.lencr.org</code> — служебные адреса из сертификата Let's Encrypt. Они попадают в память клиента при установке TLS-соединения.</p></li><li><p><code>basement.studio</code> — тут я сначала очень удивился, а потом понял. В клиенте используется шрифт <code>Geist</code>, а в его лицензии написано «Vercel, in collaboration with <a href=\"http://basement.studio\" rel=\"noopener nofollow\">basement.studio</a>», в общем, это метаданные шрифта.</p></li><li><p><code>http://127.0.0.1</code> — в клиенте есть небольшой сервер для работы с GSI — это когда игра сама сообщает о том, что происходит внутри нее. Например, такой функционал есть в Dota 2 и включается флагом <code>-gamestateintegration</code>. Для Lagoscope эта информация полезна тем, что можно сопоставить просадки FPS с какими-то внутриигровыми событиями, например ожесточенными сражениями с кучей эффектов или внутриигровой стадией и точным временем. На мой взгляд это очень крутой функционал, планирую развивать клиент в эту сторону и расширять список поддерживаемых игр.</p></li></ul><p>В разделе действий с файлами видно, что клиент читал и куда писал. А читал он только файлы из своей собственной папки и файлы библиотек. Писал только в свою папку. Никаких подозрительных или опасных файлов клиент на диск не пишет — только токен устройства, конфигурацию с сервера и буферы перед отправкой на сервер. В списке удаленных файлов можно заметить файлы <code>.tmp</code> — это обычная безопасная запись: сначала пишем во временный файл, затем переименовываем. Также есть интересный раздел Files Dropped — это то, что программа оставила в системе после себя. Так можно определить загрузчики всякого вредоноса, которые скачивают и оставляют в системе исполняемые файлы. В нашем же случае мы здесь видим только данные приложения.  </p><p>В реестре открыто 204 ключа, а записано — ни одного. Но из них по коду клиент читает только <code>HKCU\\Software\\Valve\\Steam</code>, чтобы найти игру в библиотеке Steam. Все остальное читает сама Windows для запуска клиента: кодеки для изображений, сеть, отрисовка, проверки совместимости и т. д.   </p><p>Дочерних процессов подопытный не создавал. Справедливости ради стоит отметить, что в реальности дочерний процесс был бы запущен — та самая утилита PresentMon для подсчета кадров. Но так как в песочнице ее рядом не было, запускать было нечего. Кроме того, есть связанные запуски <code>wmiprvse.exe</code> и <code>wmiadap.exe</code> — это системные процессы Windows Management Instrumentation, технологии, которая поставляет клиенту большую часть информации о состоянии операционной системы. Еще есть <code>%TEMP%\\ACQ65R5UXFHBE896.exe</code> — честно говоря, без понятия, что это, ставлю на временное имя самого клиента, которое ему дала одна из песочниц.  </p><p>Ну и остались мелочи вроде мьютекса <code>Local\\Lagoscope-client</code> для защиты от запуска второго экземпляра клиента и Highlighted actions: <code>RtlWow64GetCurrentMachine</code> и <code>RtlWow64IsWowGuestMachineSupported</code> — проверки архитектуры процессора. В импортах клиента их нет, их вызывает сама Windows при запуске.  </p><h3>Итоги</h3><p>Итак, отчёт по клиенту Lagoscope мы прошли целиком: опасного в нём не нашли, а всё странное нашло объяснение. Но главное, на мой взгляд, не это. Теперь у вас есть короткий план, как читать любой отчёт VirusTotal: в шапке сверить хеш и дату проверки, в Detection посмотреть не только число срабатываний, но и кто и что написал, в Details — энтропию и импорты, в Relations — куда программа ходила, а в Behavior — что она делала в песочнице.  </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/69/1b/10/691b10037b2eb22ea321babe495c9b17.png\" alt=\"Как читать отчет VirusTotal\" title=\"Как читать отчет VirusTotal\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/69/1b/10/691b10037b2eb22ea321babe495c9b17.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/69/1b/10/691b10037b2eb22ea321babe495c9b17.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Как читать отчет VirusTotal</figcaption></div></figure><p>И последнее: ни один отчёт не доказывает, что программа безопасна. Он показывает, что о ней можно узнать, не запуская её у себя. А дальше решать вам — теперь уже не вслепую.  </p><hr/><p>Спасибо за внимание к этому лонгриду. Если остались вопросы — пишите в комментариях, постараюсь ответить на все. Если хотите присоединиться к тестированию Lagoscope или у вас есть идеи и предложения по его развитию — тоже пишите, или присоединяйтесь к обсуждениям в <a href=\"https://t.me/lagoscope\" rel=\"noopener nofollow\">телеграм-канале</a>, там я планирую публиковать новости разработки и получать обратную связь.  </p></div>",
+  "tags": [
+    {
+      "titleHtml": "мониторинг системы"
+    },
+    {
+      "titleHtml": "игры"
+    },
+    {
+      "titleHtml": "вирусы и антивирусы"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105622/f406aa26f105a569c6bd405dbce5cf07/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105622/f406aa26f105a569c6bd405dbce5cf07/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105622\\/\"},\"headline\":\"Доверяй, но проверяй: подробный разбор отчета VirusTotal на примере Lagoscope\",\"datePublished\":\"2026-11-11T10:39:02+03:00\",\"dateModified\":\"2026-11-12T13:18:54+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Привет, Хабр! С недавних пор в качестве пет-проекта я разрабатываю Lagoscope — программу, которая помогает заметить и определить причину лагов во время игры....\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105622\\/#post-content-body\",\"about\":[\"h_win_dev\",\"h_virus\",\"h_games\",\"h_infosecurity\",\"h_read\",\"f_develop\",\"f_admin\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/b9\\/69\\/59\\/b969593d6b0becb7f627de6c0d894d7e.png\",\"https:\\/\\/habrastorage.org\\/extt\\/49\\/c3\\/75\\/49c375b8b062343a4bbd63af8b8041d4.png\",\"https:\\/\\/habrastorage.org\\/extt\\/85\\/6f\\/1e\\/856f1e9414a4d8c39bed4aaf6ae9b9a9.png\",\"https:\\/\\/habrastorage.org\\/extt\\/ee\\/ab\\/69\\/eeab69eb067f5a80925d7bfaeec64411.png\",\"https:\\/\\/habrastorage.org\\/extt\\/45\\/45\\/e4\\/4545e4c012e7d1a802cfafbc31465332.png\",\"https:\\/\\/habrastorage.org\\/extt\\/97\\/d9\\/99\\/97d9996a47d3269e18a9fee64b4507fe.png\",\"https:\\/\\/habrastorage.org\\/extt\\/69\\/1b\\/10\\/691b10037b2eb22ea321babe495c9b17.png\"]}",
+    "metaDescription": "Привет, Хабр! С недавних пор в качестве пет-проекта я разрабатываю Lagoscope — программу, которая помогает заметить и определить причину лагов во время игры. Идея простая: собрать телеметрию за...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "tutorial",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 11,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

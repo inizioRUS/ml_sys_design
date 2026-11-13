@@ -1,0 +1,213 @@
+{
+  "id": "1106326",
+  "timePublished": "2026-11-11T04:08:19+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Почему клоны USB Blaster под Linux зависают на 30 секунд: две находки в jtagd из Quartus",
+  "leadData": {
+    "textHtml": "<p>Под Linux программатор USB Blaster иногда молчит 30 секунд и выдаёт «JTAG chain broken», а Wireshark показывает испорченный исходящий USB-трафик ещё до самого устройства. Doug Brown пару лет назад бросил разбираться с этими плавающими сбоями, а теперь вернулся к ним вместе с Claude, который разобрал закрытый jtagd. Причин оказалось две. Первая: забытая переменная в конструкторе, из-за которой в поток для старого USB Blaster могут попасть данные протокола USB-Blaster II; по наблюдениям автора, это случается, если переподключить программатор, не останавливая jtagd. Вторая: порядок команд инициализации FT245, после которого, судя по всему, часть клонов около 250 мс не принимает данные; автор признаётся, что не уверен, баг ли это jtagd или особенность чипов в клонах. Обе проблемы есть как минимум с Quartus 18.1 и до сих пор в Quartus 25.1; автор выложил патчер.</p>",
+    "imageUrl": "https://habrastorage.org/extt/3c/0b/59/3c0b5990a420f0268a61ded347b79380.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/3c/0b/59/3c0b5990a420f0268a61ded347b79380.jpg",
+      "fit": null,
+      "positionY": null,
+      "positionX": null
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "translation",
+      "typeOf": "system",
+      "title": "Перевод",
+      "data": {
+        "originalAuthorName": "Doug Brown",
+        "originalUrl": "https://www.downtowndougbrown.com/2026/10/altera-quartus-linux-jtagd-bug-fixes/"
+      }
+    }
+  ],
+  "author": {
+    "id": "57486",
+    "alias": "opium",
+    "fullname": "Puma",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/d81/2c5/86d/d812c586d5d94b955a3d091cd8d8de86.jpg",
+    "speciality": "Проверка автоматизации и системные эксперименты",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 45,
+      "votesCount": 141
+    },
+    "rating": 280.7,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 4,
+    "readingCount": 433,
+    "score": 4,
+    "votesCount": 4,
+    "votesCountPlus": 4,
+    "votesCountMinus": 0,
+    "reach": 7628,
+    "readers": 325
+  },
+  "hubs": [
+    {
+      "id": "19733",
+      "alias": "fpga",
+      "type": "collective",
+      "title": "FPGA",
+      "titleHtml": "FPGA",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19011",
+      "alias": "reverse-engineering",
+      "type": "collective",
+      "title": "Реверс-инжиниринг",
+      "titleHtml": "Реверс-инжиниринг",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "36",
+      "alias": "linux",
+      "type": "collective",
+      "title": "Настройка Linux",
+      "titleHtml": "Настройка Linux",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Автор оригинала: Doug Brown</p><p>Пару лет назад я слишком увлёкся <a href=\"https://www.downtowndougbrown.com/2024/07/fixing-more-cheap-altera-usb-blaster-clones-cpld-adventures/\" rel=\"noopener nofollow\">разбором проблем с клонами Altera USB Blaster</a>. Пока писал тот пост, я наткнулся на несколько очень раздражающих плавающих проблем с jtagd под Linux, и разобраться в них так и не смог. Вот что я тогда писал:</p><blockquote><p>Ещё на одном из компьютеров я столкнулся с очень странной проблемой в Quartus Programmer 18.1 под Linux, никак не связанной с остальными. В захвате Wireshark было видно, что исходящий USB-трафик приходит уже испорченным, ещё до того, как в дело вступают FT245 или CPLD. Это касалось всех моих программаторов, а не только тех, что собраны на CPLD и FT245.</p></blockquote><blockquote><p>Иногда я всё ещё вижу долгую задержку (около 30 секунд) при первой JTAG-операции под Linux после подключения любого из моих USB Blaster на CPLD. Случается это не каждый раз, но когда случается, похоже, что jtagd зависает в ожидании байта, который так и не приходит. Он отваливается по таймауту и пробует снова, после чего всё работает нормально.</p></blockquote><p>Я тогда и так вымотался со всеми остальными бедами USB Blaster, так что копать дальше эти мелкие, но назойливые проблемы мне совсем расхотелось, и я их бросил. До сих пор. С ИИ такие маленькие загадки можно закрывать, не тратя на расследование кучу времени. Поверьте, отладка бывает захватывающей задачей, но диагностировать плавающие проблемы совсем не весело.</p><p>Я скормил обе проблемы Claude Opus 5.5. Он охотно взялся за реверс-инжиниринг jtagd и без особого труда нашёл обе причины. В какой-то момент, пока он исследовал и проверял первый баг, он начал упираться в защитные ограничения по кибербезопасности. Но я заметил, что Opus 5.5 чуть лучше прежних версий справляется с такими ситуациями: пробует слегка другой подход, когда срабатывает ограничение, и даже даёт мне шанс переформулировать запрос. Раньше меня в таких случаях сразу понижало до Opus 4.8, а тот потом мог и вовсе завершить сессию, наткнувшись на похожее ограничение. Это очень приятное улучшение.</p><p>В общем, я решил коротко поделиться тем, что в итоге нашлось, и заодно дать ссылку на инструмент, которым можно пропатчить свой jtagd, если эти баги вас тоже сводили с ума. Сначала ссылка на патчер: <a href=\"https://github.com/dougg3/altera-jtagd-linux-fixes\" rel=\"noopener nofollow\">https://github.com/dougg3/altera-jtagd-linux-fixes</a></p><h3>Баг первый: забытая переменная в конструкторе</h3><p>Первый баг, который портит USB-трафик, оказался неинициализированной переменной в конструкторе <code>JTAG_SERVER_USB_BLASTER</code>. Конструктор обнуляет целую пачку соседних переменных, а эту, видимо, случайно забыли. Если в ней случайно оказывается значение больше 0, в исходящие USB-данные вставляются дополнительные данные, предназначенные только для более нового USB-Blaster II от Altera, и это сбивает с толку старые USB Blaster. Это прекрасно объясняет порчу данных, о которой я писал в прошлом посте. В отличие от языковой модели, у меня в голове не было достаточно контекста, чтобы связать «испорченные данные» с протоколом нового USB Blaster. Все клоны, которые я видел, говорят на протоколе оригинального USB Blaster, так что затронуты они все. В итоге они зависают на 30 секунд, после чего выдают ошибку <code>Unable to read device chain - JTAG chain broken</code>.</p><p>Похоже, это происходит, только если отключить и снова подключить программатор, не останавливая jtagd: первая выделенная область памяти, как правило, оказывается обнулённой. При каждом горячем подключении создаётся новый объект <code>JTAG_SERVER_USB_BLASTER</code>, а куски кучи используются повторно. В 2024 году я много работал через виртуальную машину с Windows, так что, скорее всего, действительно часто переподключал устройство. Может, мало кто с этим сталкивается, но меня это бесило страшно.</p><h3>Баг второй: порядок команд для FT245</h3><p>Второй баг, с задержкой в 30 секунд, хитрее. Похоже, он зависит от того, какой чип серии FTDI FT245 стоит в вашем программаторе, а может, даже от того, как он подключён к компьютеру. Суть в том, что при первом открытии чипа jtagd отправляет FT245 такие команды, именно в этом порядке:</p><ul><li><p>Reset</p></li><li><p>Purge TX</p></li><li><p>Purge RX</p></li><li><p>Set Latency Timer</p></li></ul><p>Похоже, эта последовательность заставляет некоторые клоны примерно на 250 мс перестать принимать входящие данные. Обычно в этом не было бы большой беды, но jtagd сразу же начинает опрашивать устройство, чтобы выяснить, что подключено к JTAG-цепочке, и застревает на 30 секунд в ожидании ответа. Разные мои клоны реагируют на эту последовательность каждый по-своему (одних она задевает, других нет), хотя это всего лишь команды FT245. Может, у разных клонов разные ревизии чипа? Знаю одно: если переставить команды так, чтобы Set Latency Timer шла первой, проблема полностью исчезает.</p><h3>Что в итоге</h3><p>Обе проблемы живут в jtagd как минимум с Quartus 18.1 и никуда не делись в Quartus 25.1. Altera, если вы читаете этот пост, пожалуйста, подумайте о том, чтобы исправить хотя бы первый баг! Насчёт второго я, честно говоря, не уверен, баг ли это вообще или просто в некоторых клонах стоят чипы, которые ведут себя не совсем так, как в официальном устройстве. Но задержка в 300 мс после Set Latency Timer, вероятно, тоже решила бы проблему.</p><p>С исправлениями обеих проблем все клоны USB Blaster, до которых я могу дотянуться, теперь работают отлично (конечно, после моих прежних исправлений прошивки и CPLD). Я даже взял USB-хаб, совместимый с <a href=\"https://github.com/mvp/uhubctl\" rel=\"noopener nofollow\">uhubctl</a>, чтобы автоматически передёргивать питание всех моих клонов. Так у меня получился цикл обратной связи для серии стресс-тестов, которыми я как следует проверил, что исправление действительно работает.</p><p>Оглядываясь назад, первый баг я вполне мог (и должен был) найти сам. Похоже, valgrind просто преподнёс бы мне его на блюдечке. Немного досадно, что я не догадался его попробовать. Тогда я по уши ушёл в расследование с <a href=\"https://github.com/rr-debugger/rr\" rel=\"noopener nofollow\">rr</a>, пытаясь воспроизвести баг, но rr не работал на моей основной машине для разработки. А когда я поставил Quartus на старый компьютер, с которым rr <em>был</em> совместим, воспроизвести проблему уже не получалось. К тому моменту мне всё это осточертело, и я сдался. В своё оправдание скажу: этот баг сидит в jtagd как минимум 8 лет и почти никем не был замечен, если не считать <a href=\"https://community.altera.com/discussions/quartus-prime/quartus-jtagd-fails-and-unable-to-program-max10-under-linux-18-1-0-625/320842/replies/320850\" rel=\"noopener nofollow\">одного короткого сообщения на форуме Altera</a>, где человек понял, что происходит что-то странное, и его в общем-то проигнорировали.</p><p>Мой блог не превращается целиком в витрину «смотрите, что ИИ для меня сделал». Я хочу поделиться с сообществом полезным обходным решением и, надеюсь, привлечь внимание Altera, чтобы она наконец исправила давний баг. А ещё, может, я просто чокнутый, но чинить надоедливые баги в закрытом софте с помощью ИИ довольно весело. Особенно когда это старый хвост из прошлого, который я считал непрактичным закрывать. Кстати, у этого поста будет продолжение: в нём я отвечу на последний оставшийся без ответа вопрос из моих прошлых раскопок с USB Blaster.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "USB Blaster"
+    },
+    {
+      "titleHtml": "jtagd"
+    },
+    {
+      "titleHtml": "Quartus"
+    },
+    {
+      "titleHtml": "Altera"
+    },
+    {
+      "titleHtml": "JTAG"
+    },
+    {
+      "titleHtml": "FT245"
+    },
+    {
+      "titleHtml": "FTDI"
+    },
+    {
+      "titleHtml": "FPGA"
+    },
+    {
+      "titleHtml": "Linux"
+    },
+    {
+      "titleHtml": "реверс-инжиниринг"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106326/ae2ef74291e01da640aaedaf943bfef6/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106326/ae2ef74291e01da640aaedaf943bfef6/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106326\\/\"},\"headline\":\"Почему клоны USB Blaster под Linux зависают на 30 секунд: две находки в jtagd из Quartus\",\"datePublished\":\"2026-11-11T07:08:19+03:00\",\"dateModified\":\"2026-11-11T18:27:39+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Автор оригинала: Doug Brown Пару лет назад я слишком увлёкся разбором проблем с клонами Altera USB Blaster . Пока писал тот пост, я наткнулся на несколько очень...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106326\\/#post-content-body\",\"about\":[\"h_fpga\",\"h_reverse-engineering\",\"h_linux\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1106326\\/ae2ef74291e01da640aaedaf943bfef6\\/\"]}",
+    "metaDescription": "Автор оригинала: Doug Brown Пару лет назад я слишком увлёкся разбором проблем с клонами Altera USB Blaster . Пока писал тот пост, я наткнулся на несколько очень раздражающих плавающих проблем с jtagd...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "44",
+    "title": "DIY",
+    "alias": "diy"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

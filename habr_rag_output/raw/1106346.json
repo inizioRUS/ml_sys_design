@@ -1,0 +1,230 @@
+{
+  "id": "1106346",
+  "timePublished": "2026-11-11T05:51:56+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "В Японии напечатали ноги робота с гибкими «мышцами» и связками из TPU",
+  "leadData": {
+    "textHtml": "<p>Исследователи Токийского университета <a href=\"https://ssk-yoshimura.github.io/muscle-leg/\" rel=\"noopener nofollow\">представили</a> проект 3D‑печатных мышц для&nbsp;роботов из&nbsp;TPU. Метод испытали на&nbsp;ногах робота.</p>",
+    "imageUrl": "https://habrastorage.org/extt/89/7f/08/897f08faaaa3a92ddc2a68eb9495e1ed.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/89/7f/08/897f08faaaa3a92ddc2a68eb9495e1ed.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2320593",
+    "alias": "daniilshat",
+    "fullname": "Даниил Шатухин",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/165/6b8/929/1656b8929300fbfdbb3bbb0b1721ec87.png",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 300,
+      "votesCount": 580
+    },
+    "rating": 280.7,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/daniilshat/",
+        "value": "daniilshat",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/mrshatukhin",
+        "value": "mrshatukhin",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/daniilshat/",
+        "value": "daniilshat",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/mrshatukhin",
+        "value": "mrshatukhin",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": "423039146555"
+    },
+    "donationsMethod": "wallets",
+    "isInBlacklist": null,
+    "careerProfile": {
+      "careerProfileLink": "https://career.habr.com/daniilshat?utm_source=habr&utm_medium=profile_header&utm_campaign=button_habr_career",
+      "expertProfileLink": null
+    },
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 4,
+    "readingCount": 655,
+    "score": 4,
+    "votesCount": 4,
+    "votesCountPlus": 3,
+    "votesCountMinus": 1,
+    "reach": 6586,
+    "readers": 529
+  },
+  "hubs": [
+    {
+      "id": "21902",
+      "alias": "robot",
+      "type": "collective",
+      "title": "Робототехника",
+      "titleHtml": "Робототехника",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21964",
+      "alias": "3d-printers",
+      "type": "collective",
+      "title": "3D-принтеры",
+      "titleHtml": "3D-принтеры",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21910",
+      "alias": "popular_science",
+      "type": "collective",
+      "title": "Научно-популярное",
+      "titleHtml": "Научно-популярное",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Исследователи Токийского университета <a href=\"https://ssk-yoshimura.github.io/muscle-leg/\" rel=\"noopener nofollow\">представили</a> проект 3D‑печатных мышц для роботов из TPU. Метод испытали на ногах робота.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/89/7f/08/897f08faaaa3a92ddc2a68eb9495e1ed.jpg\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/89/7f/08/897f08faaaa3a92ddc2a68eb9495e1ed.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/89/7f/08/897f08faaaa3a92ddc2a68eb9495e1ed.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Все гибкие элементы роботизированных ног изготовили из термопластичного полиуретана TPU 95A на 3D‑принтере Prusa XL, а каркас — из PLA. Свойства мягких деталей регулировали за счёт внутренней конструкции. Например, с помощью увеличения толщины перемычек решётки с 1,5 до 3 мм повысили жёсткость в 28 раз. Благодаря этому также можно печатать мягкую мышцу и более жёсткое сухожилие одной деталью.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d7/c3/5b/d7c35bd679afb33548d6c470d2d0563a.jpg\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d7/c3/5b/d7c35bd679afb33548d6c470d2d0563a.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/d7/c3/5b/d7c35bd679afb33548d6c470d2d0563a.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В каждой ноге робота предусмотрено шесть крупных искусственных мышц. Часть из них действует сразу на два сустава. Например, можно одновременно разгибать бедро и сгибать колено. Чтобы двигать только одним суставом, система использует другие мышцы, компенсирующие нежелательное движение.</p><p>Напечатанные мышцы при сокращении почти не расширяются в сторону. Вместо этого решётка деталей складывается внутрь и не мешает соседним деталям. На печать одной полноразмерной мышцы уходит 20–40 часов. Каналы для тросов тоже закладываются в конструкцию при печати. Метод полностью обходится без литья и сокращает ручную работу.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/4f/9a/1c/4f9a1cb2dd57126319167c3447152b88.jpg\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/4f/9a/1c/4f9a1cb2dd57126319167c3447152b88.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/4f/9a/1c/4f9a1cb2dd57126319167c3447152b88.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>За движение отвечают моторы в области таза. Они с помощью тросов тянут искусственные мышцы. Связки при этом удерживают суставы и ограничивают свободу движения без подшипников.</p><p>В тестах робот выполнял движения с длиной шага 0,4 и 0,8 м. Подвес в эксперименте удерживал конструкцию, принимая часть веса на себя. Образцы выдержали 999 циклов нагрузки без разрыва. При этом жёсткость деталей со временем менялась.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/extt/80/4e/1d/804e1d6e7a1b01d15749ad45bbbe2176.gif\" width=\"600\" height=\"338\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/extt/80/4e/1d/804e1d6e7a1b01d15749ad45bbbe2176.gif 780w,&#10;       https://habrastorage.org/extt/80/4e/1d/804e1d6e7a1b01d15749ad45bbbe2176.gif 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>На следующем этапе исследователи планируют применить подход к полноразмерным человекоподобным роботам с полноценным телом и встроенными датчиками.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/extt/c2/c2/08/c2c208ac7d5f528786a7abdafbf11b8b.gif\" width=\"600\" height=\"338\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/extt/c2/c2/08/c2c208ac7d5f528786a7abdafbf11b8b.gif 780w,&#10;       https://habrastorage.org/extt/c2/c2/08/c2c208ac7d5f528786a7abdafbf11b8b.gif 781w\" loading=\"lazy\" decode=\"async\"/></figure></div>",
+  "tags": [
+    {
+      "titleHtml": "робототехника"
+    },
+    {
+      "titleHtml": "роботы"
+    },
+    {
+      "titleHtml": "искусственные мышцы"
+    },
+    {
+      "titleHtml": "мышцы"
+    },
+    {
+      "titleHtml": "3d-печать"
+    },
+    {
+      "titleHtml": "tpu"
+    },
+    {
+      "titleHtml": "наука"
+    },
+    {
+      "titleHtml": "япония"
+    },
+    {
+      "titleHtml": "исследование"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106346/92b643840ec5e5f39ce428c1072b9140/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106346/92b643840ec5e5f39ce428c1072b9140/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106346\\/\"},\"headline\":\"В Японии напечатали ноги робота с гибкими «мышцами» и связками из TPU\",\"datePublished\":\"2026-11-11T08:51:56+03:00\",\"dateModified\":\"2026-11-11T10:34:07+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Исследователи Токийского университета представили проект 3D‑печатных мышц для&nbsp;роботов из&nbsp;TPU. Метод испытали на&nbsp;ногах робота. Все гибкие элементы...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106346\\/#post-content-body\",\"about\":[\"h_robot\",\"h_3d-printers\",\"h_popular_science\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/89\\/7f\\/08\\/897f08faaaa3a92ddc2a68eb9495e1ed.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/d7\\/c3\\/5b\\/d7c35bd679afb33548d6c470d2d0563a.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/4f\\/9a\\/1c\\/4f9a1cb2dd57126319167c3447152b88.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/80\\/4e\\/1d\\/804e1d6e7a1b01d15749ad45bbbe2176.gif\",\"https:\\/\\/habrastorage.org\\/extt\\/c2\\/c2\\/08\\/c2c208ac7d5f528786a7abdafbf11b8b.gif\"]}",
+    "metaDescription": "Исследователи Токийского университета представили проект 3D‑печатных мышц для&nbsp;роботов из&nbsp;TPU. Метод испытали на&nbsp;ногах робота. Все гибкие элементы роботизированных ног изготовили...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

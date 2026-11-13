@@ -1,0 +1,203 @@
+{
+  "id": "1105368",
+  "timePublished": "2026-11-09T08:44:03+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Сертификат обновили, а браузер всё ещё ругается: ищем старый TLS в Nginx",
+  "leadData": {
+    "textHtml": "<p>При подготовке одного из учебных инцидентов для <a href=\"https://prodisdown.ru\" rel=\"noopener nofollow\">Linux-тренажёра</a> я задумался над довольно неприятной ситуацией: сертификат на сервере уже обновлён, но пользователи по-прежнему получают ошибку о его истечении.</p><p>На первый взгляд кажется, что проблема в Certbot. Но сертификат может быть совершенно нормальным. Вопрос в другом:&nbsp;какой именно сертификат сервер отдаёт клиенту?</p><p>Разберём такую ситуацию на примере Nginx.</p>",
+    "imageUrl": "https://habrastorage.org/extt/a7/c4/af/a7c4af9df7fe094ef64deea73637b4df.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/a7/c4/af/a7c4af9df7fe094ef64deea73637b4df.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "6041974",
+    "alias": "verin_is",
+    "fullname": "Верин Игорь",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 11
+    },
+    "rating": 55,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 10,
+    "readingCount": 458,
+    "score": 6,
+    "votesCount": 3,
+    "votesCountPlus": 3,
+    "votesCountMinus": 0,
+    "reach": 6361,
+    "readers": 319
+  },
+  "hubs": [
+    {
+      "id": "20788",
+      "alias": "devops",
+      "type": "collective",
+      "title": "DevOps",
+      "titleHtml": "DevOps",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19727",
+      "alias": "linux_dev",
+      "type": "collective",
+      "title": "Linux",
+      "titleHtml": "Linux",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "6659",
+      "alias": "nginx",
+      "type": "collective",
+      "title": "Nginx",
+      "titleHtml": "Nginx",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>При подготовке одного из учебных инцидентов для Linux-тренажёра я задумался над довольно неприятной ситуацией: сертификат на сервере уже обновлён, но пользователи по-прежнему получают ошибку о его истечении.</p><p>На первый взгляд кажется, что проблема в Certbot. Но сертификат может быть совершенно нормальным. Вопрос в другом: какой именно сертификат сервер отдаёт клиенту?</p><p>Разберём такую ситуацию на примере Nginx.</p><h3>Сертификат на диске и сертификат в браузере</h3><p>Предположим, сертификат обновили через Certbot. Проверяем его:</p><pre><code class=\"bash\">openssl x509 \\\n  -in /etc/letsencrypt/live/example.com/fullchain.pem \\\n  -noout -dates -serial</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Срок действия нормальный, сертификат новый.</p><p>Но браузер всё равно показывает предупреждение.</p><p>В этот момент полезно проверить сертификат не на диске, а непосредственно через TLS-соединение:</p><pre><code class=\"bash\">openssl s_client \\\n  -connect example.com:443 \\\n  -servername example.com \\\n  &lt;/dev/null 2&gt;/dev/null |\nopenssl x509 -noout -dates -serial</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Здесь мы получаем сертификат, который реально предъявляется сервером при подключении к <code>example.com:443</code>.</p><p>Если серийные номера отличаются, значит сервер отдаёт не тот сертификат, который мы проверяли на диске.</p><p>И вот здесь начинается диагностика.</p><h3>Причина №1. Nginx не перечитал сертификат</h3><p>Одна из возможных причин — сертификат обновился, а Nginx продолжает использовать ранее загруженный.</p><p>Сначала проверяем конфигурацию:</p><pre><code class=\"bash\">sudo nginx -t</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Если ошибок нет, перечитываем её:</p><pre><code class=\"bash\">sudo systemctl reload nginx</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Затем снова выполняем <code>openssl s_client</code> и сравниваем сертификаты.</p><p>Почему это важно?</p><p>Обновление файла на диске не означает, что работающий Nginx автоматически начнёт использовать его новую версию. Обычно для этого требуется перезагрузка конфигурации.</p><p>При штатном <code>reload</code> Nginx создаёт новые рабочие процессы с обновлённой конфигурацией, а старые постепенно завершают обслуживание существующих соединений.</p><h3>Причина №2. Nginx смотрит не на тот файл</h3><p>Другая ситуация: сертификат обновился, Nginx перезагрузили, но ничего не изменилось.</p><p>Проверяем активную конфигурацию:</p><pre><code class=\"bash\">sudo nginx -T 2&gt;&amp;1 |\ngrep -nE 'server_name|ssl_certificate'</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Например, можно обнаружить, что Nginx использует:</p><pre><code class=\"nginx\">ssl_certificate /etc/nginx/ssl/old-cert.pem;</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>А Certbot обновляет совсем другой файл:</p><pre><code>/etc/letsencrypt/live/example.com/fullchain.pem</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Всё работает как настроено. Просто обновляется не тот сертификат, который используется для HTTPS.</p><p>После исправления путей нужно снова проверить конфигурацию и выполнить <code>reload</code>.</p><h3>Причина №3. Сертификат вообще отдаёт не этот Nginx</h3><p>Это моя любимая часть подобных задач.</p><p>Предположим, локально сертификат правильный, конфигурация корректная, Nginx перезагружен.</p><p>Но браузер всё равно видит старый.</p><p>Возможно, TLS завершается вообще на другом узле.</p><p>Перед приложением может находиться балансировщик, CDN или ещё один reverse proxy.</p><p>В таком случае сертификат на сервере приложения никак не влияет на то, что получает браузер.</p><p>Полезно сравнить сертификаты на разных точках подключения, явно указывая IP и SNI:</p><pre><code class=\"bash\">openssl s_client \\\n  -connect 203.0.113.10:443 \\\n  -servername example.com \\\n  &lt;/dev/null 2&gt;/dev/null |\nopenssl x509 -noout -serial -dates</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Здесь <code>203.0.113.10</code> — пример адреса проверяемого узла.</p><p>Если разные узлы предъявляют разные сертификаты, причина может быть в конфигурации балансировщика или в том, что сертификат обновили не везде.</p><p>Отдельно стоит проверить и DNS: домен может указывать на несколько серверов.</p><h3>Что в итоге?</h3><p>У этой проблемы довольно простой вывод.</p><p>Проверять сертификат на диске и проверять HTTPS-соединение — не одно и то же.</p><p>Файл может быть актуальным, но Nginx использует старую версию. Конфигурация может указывать на другой файл. А иногда запрос вообще проходит через промежуточный сервер, о котором в начале расследования забыли.</p><p>Поэтому при подобных ошибках я бы начинал не с повторного запуска Certbot, а со сравнения сертификата на диске с тем, что действительно видит клиент.</p><p>И только после этого менял конфигурацию.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "nginx"
+    },
+    {
+      "titleHtml": "ssl"
+    },
+    {
+      "titleHtml": "tls"
+    },
+    {
+      "titleHtml": "certbot"
+    },
+    {
+      "titleHtml": "letsencrypt"
+    },
+    {
+      "titleHtml": "openssl"
+    },
+    {
+      "titleHtml": "linux."
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105368/4d02140601bf12076ef90a8fdfe71353/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105368/4d02140601bf12076ef90a8fdfe71353/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105368\\/\"},\"headline\":\"Сертификат обновили, а браузер всё ещё ругается: ищем старый TLS в Nginx\",\"datePublished\":\"2026-11-09T11:44:03+03:00\",\"dateModified\":\"2026-11-10T16:26:15+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"При подготовке одного из учебных инцидентов для Linux-тренажёра я задумался над довольно неприятной ситуацией: сертификат на сервере уже обновлён, но...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105368\\/#post-content-body\",\"about\":[\"h_devops\",\"h_linux_dev\",\"h_nginx\",\"h_sys_admin\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105368\\/4d02140601bf12076ef90a8fdfe71353\\/\"]}",
+    "metaDescription": "При подготовке одного из учебных инцидентов для Linux-тренажёра я задумался над довольно неприятной ситуацией: сертификат на сервере уже обновлён, но пользователи по-прежнему получают ошибку о его...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

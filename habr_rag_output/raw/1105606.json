@@ -1,0 +1,213 @@
+{
+  "id": "1105606",
+  "timePublished": "2026-11-09T15:47:03+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "На ресурсе foldableflight опубликованы 109 бумажных самолётиков с инструкциями и видео по сборке",
+  "leadData": {
+    "textHtml": "<p>Представлен сайт <a href=\"https://www.foldableflight.com/\" rel=\"noopener nofollow\">foldableflight</a>, где собраны 109 бумажных самолётиков с инструкциями и видео — у каждой модели есть рейтинг по скорости, дальности планирования и точности. У моделей есть уровень сложности: от «очень просто» до «эксперта». Можно собрать настоящие истребители: Unite, который продержался в воздухе 31,2 секунды, и Firefly 5: он пролетел больше 90 метров. А некоторые самолётики можно оснастить моторчиком и превратить в радиоуправляемую модель.</p>",
+    "imageUrl": "https://habrastorage.org/extt/d8/0e/84/d80e84fc76e3bd2c0f1d9cf2e41f1722.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/d8/0e/84/d80e84fc76e3bd2c0f1d9cf2e41f1722.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "780987",
+    "alias": "denis-19",
+    "fullname": "Денис",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/6a0/f31/235/6a0f31235bb26134f3c7a741c03e4efb.jpg",
+    "speciality": "Информационная служба Хабра, без использования ИИ",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1069,
+      "votesCount": 2027
+    },
+    "rating": 880.5,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "1024K+"
+  },
+  "statistics": {
+    "commentsCount": 5,
+    "favoritesCount": 67,
+    "readingCount": 4408,
+    "score": 26,
+    "votesCount": 21,
+    "votesCountPlus": 21,
+    "votesCountMinus": 0,
+    "reach": 12034,
+    "readers": 3235
+  },
+  "hubs": [
+    {
+      "id": "20696",
+      "alias": "study",
+      "type": "collective",
+      "title": "Учебный процесс в IT",
+      "titleHtml": "Учебный процесс в IT",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21470",
+      "alias": "cloud_services",
+      "type": "collective",
+      "title": "Облачные сервисы",
+      "titleHtml": "Облачные сервисы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21910",
+      "alias": "popular_science",
+      "type": "collective",
+      "title": "Научно-популярное",
+      "titleHtml": "Научно-популярное",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22004",
+      "alias": "transport",
+      "type": "collective",
+      "title": "Транспорт",
+      "titleHtml": "Транспорт",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/3a/b7/54/3ab75460d18f44043f6a8d9520298328.png\" width=\"866\" height=\"778\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3a/b7/54/3ab75460d18f44043f6a8d9520298328.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/3a/b7/54/3ab75460d18f44043f6a8d9520298328.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Представлен сайт <a href=\"https://www.foldableflight.com/\" rel=\"noopener nofollow\">foldableflight</a>, где собраны 109 бумажных самолётиков с инструкциями и видео — у каждой модели есть рейтинг по скорости, дальности планирования и точности. У моделей есть уровень сложности: от «очень просто» до «эксперта». Можно собрать настоящие истребители: Unite, который продержался в воздухе 31,2 секунды, и Firefly 5: он пролетел больше 90 метров. А некоторые самолётики можно оснастить моторчиком и превратить в радиоуправляемую модель.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/06/d5/ec/06d5ec590e05057b66b74b35b22780a0.jpg\" width=\"1280\" height=\"1055\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/06/d5/ec/06d5ec590e05057b66b74b35b22780a0.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/06/d5/ec/06d5ec590e05057b66b74b35b22780a0.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure></div>",
+  "tags": [
+    {
+      "titleHtml": "foldableflight"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105606/d85474c3dcd245366650b9a3f51391ed/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105606/d85474c3dcd245366650b9a3f51391ed/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105606\\/\"},\"headline\":\"На ресурсе foldableflight опубликованы 109 бумажных самолётиков с инструкциями и видео по сборке\",\"datePublished\":\"2026-11-09T18:47:03+03:00\",\"dateModified\":\"2026-11-10T09:07:46+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Представлен сайт foldableflight , где собраны 109 бумажных самолётиков с инструкциями и видео — у каждой модели есть рейтинг по скорости, дальности планирования...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105606\\/#post-content-body\",\"about\":[\"h_study\",\"h_cloud_services\",\"h_popular_science\",\"h_transport\",\"f_admin\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/3a\\/b7\\/54\\/3ab75460d18f44043f6a8d9520298328.png\",\"https:\\/\\/habrastorage.org\\/extt\\/06\\/d5\\/ec\\/06d5ec590e05057b66b74b35b22780a0.jpg\"]}",
+    "metaDescription": "Представлен сайт foldableflight , где собраны 109 бумажных самолётиков с инструкциями и видео — у каждой модели есть рейтинг по скорости, дальности планирования и точности. У моделей есть уровень...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

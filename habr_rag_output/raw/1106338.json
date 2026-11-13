@@ -1,0 +1,399 @@
+{
+  "id": "1106338",
+  "timePublished": "2026-11-11T05:13:45+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Make Habr Great Again? Мнение и опрос о новых фич которые я бы хотел видеть на Хабре",
+  "leadData": {
+    "textHtml": "<p>Недавно Хабр обновился: статьи, новости и посты теперь объединены в один тип публикации, а именно в статью. Отдельных лент, к сожалению, больше нет. Мнения людей об этом изменении можно почитать в комментариях под новостью: <a href=\"https://habr.com/ru/companies/habr/articles/1105376/\" rel=\"noopener nofollow\">https://habr.com/ru/companies/habr/articles/1105376/</a></p><p>В основном они негативные, скажем так. Моё мнение такое же: не нужно было убирать хотя бы раздел новостей. Я понимаю, что Хабр хочет сделать платформу как можно лучше, но в данном случае стало только хуже. Поэтому я написал эту статью, где предлагаю свои варианты улучшения Хабра. Здесь самые нужные, по моему мнению, функции, которые должны быть у современных агрегаторов статей и подобных площадок.</p>",
+    "imageUrl": "https://habrastorage.org/extt/e1/1f/d1/e11fd1702c195079b391d2bd8ac7f743.png",
+    "buttonTextHtml": "Пройти опрос",
+    "image": {
+      "url": "https://habrastorage.org/extt/e1/1f/d1/e11fd1702c195079b391d2bd8ac7f743.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5480333",
+    "alias": "opensophy",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/5a5/c15/960/5a5c1596074bd51679a27b1a1e404769.png",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 34,
+      "votesCount": 52
+    },
+    "rating": 100,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 24,
+    "favoritesCount": 2,
+    "readingCount": 657,
+    "score": 7,
+    "votesCount": 7,
+    "votesCountPlus": 7,
+    "votesCountMinus": 0,
+    "reach": 6587,
+    "readers": 433
+  },
+  "hubs": [
+    {
+      "id": "20688",
+      "alias": "research",
+      "type": "collective",
+      "title": "Исследования и прогнозы в IT",
+      "titleHtml": "Исследования и прогнозы в IT",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20704",
+      "alias": "web_monetization",
+      "type": "collective",
+      "title": "Монетизация веб-сервисов",
+      "titleHtml": "Монетизация веб-сервисов",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20748",
+      "alias": "seo",
+      "type": "collective",
+      "title": "Поисковая оптимизация",
+      "titleHtml": "Поисковая оптимизация",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20744",
+      "alias": "media_management",
+      "type": "collective",
+      "title": "Управление медиа",
+      "titleHtml": "Управление медиа",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "4",
+      "alias": "marketing",
+      "title": "Маркетинг",
+      "titleHtml": "Маркетинг"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Введение</h3><p>Недавно Хабр обновился: статьи, новости и посты теперь объединены в один тип публикации, а именно в статью. Отдельных лент, к сожалению, больше нет. Мнения людей об этом изменении можно почитать в комментариях под новостью: <a href=\"https://habr.com/ru/companies/habr/articles/1105376/\" rel=\"noopener nofollow\">https://habr.com/ru/companies/habr/articles/1105376/</a></p><p>В основном они негативные, скажем так. Моё мнение такое же: не нужно было убирать хотя бы раздел новостей. Я понимаю, что Хабр хочет сделать платформу как можно лучше, но в данном случае стало только хуже. Поэтому я написал эту статью, где предлагаю свои варианты улучшения Хабра. Здесь самые нужные, по моему мнению, функции, которые должны быть у современных агрегаторов статей и подобных площадок.</p><h4>1. Навигация «На этой странице»</h4><p>Хабру очень не хватает навигации «На этой странице», особенно для больших статей. Её называют по-разному, но суть одна: пользователь может быстро пройтись по статье, найти нужный раздел или оглавление. Это экономит время и помогает лучше понять материал. Чаще всего такой функционал реализован в документациях. У меня на сайте он есть и для документации, и для чтения статей.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/b6/27/ea/b627ea7949c35497c8c04506ed9570a8.png\" alt=\"Справа на странице находится та самая навигация\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/b6/27/ea/b627ea7949c35497c8c04506ed9570a8.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/b6/27/ea/b627ea7949c35497c8c04506ed9570a8.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Справа на странице находится та самая навигация</figcaption></div></figure><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/5b/5d/4e/5b5d4e8485eb61cac2ce1cb209c3297c.png\" alt=\"В мобильной версии это реализовано кнопкой в виде круга, который заполняется по мере чтения и прокрутки статьи\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/5b/5d/4e/5b5d4e8485eb61cac2ce1cb209c3297c.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/5b/5d/4e/5b5d4e8485eb61cac2ce1cb209c3297c.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>В мобильной версии это реализовано кнопкой в виде круга, который заполняется по мере чтения и прокрутки статьи</figcaption></div></figure><p>На Хабре эту навигацию можно поставить, например, слева, где сейчас как раз пустое место. В мобильной версии её можно разместить рядом с голосами.</p><h4>2. Вернуть «Новости»</h4><p>Я был бы согласен <strong>на удаление постов</strong>, ими очень редко пользуются, и их можно было бы объединить с чем-то ещё. <strong>Но новости, по-моему, стоило сохранить.</strong></p><p><strong>Причина:</strong> у новостей и статей разный сценарий чтения. Новости читают быстро, пока пьёшь кофе или есть пять свободных минут, а для статьи нужно время и настрой. Сейчас всё в одной куче, и первый вариант фактически пропал. К тому же новости быстро теряют актуальность, и если они тонут в общем потоке, их просто не успевают найти вовремя. Лента теперь улетает гораздо быстрее, а с ограничением в 50 страниц за неделю можно не добраться до половины интересного.</p><p>Говорят, что есть теги и можно фильтровать по ним. Но теги ставят кто как хочет, а теперь у автора вообще может и нет повода правильно помечать, что он выпустил, новость или что-то другое. Отдельный раздел решал это сам собой. Ещё вместе с лентой сломалось и всё вокруг неё: в RSS появились дубли, из почтовой рассылки пропали новости, а sitemap для новостей оказался пустым.</p><p>И ещё одно: многие приходили на Хабр именно за новостями и за обсуждением в комментариях. Там собирались люди из IT, а не случайная аудитория, и такого места найти непросто. Плюс новости полезны для SEO и GEO. Хабр считается авторитетным источником, на который ссылаются нейросети, и терять эту часть не стоило.</p><h4>3. Всегда спрашивайте пользователей перед изменениями</h4><p>Чтобы подобных казусов с обновлениями больше не было, я бы рекомендовал проводить голосование перед каждым значимым изменением. Это в идеале. User experience здесь особенно важен, а пользоваться платформой будут в первую очередь читатели и авторы.</p><h4>4. Доработать кнопку «Поделиться»</h4><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/e3/d5/ab/e3d5ab1eb20e3115a2e838d9cf7fa915.png\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/e3/d5/ab/e3d5ab1eb20e3115a2e838d9cf7fa915.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/e3/d5/ab/e3d5ab1eb20e3115a2e838d9cf7fa915.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Эти счётчики, по сути, я бы назвал мёртвыми, потому что они практически ничего не ловят. Они считают только две сети, Facebook и ВК, причём по их данным. А делятся в основном например в Telegram, в мессенджерах или просто копируют ссылку, и всё это в счётчик не попадает. Я видел статьи, которыми реально делятся, а там всё равно стоит единица. Из-за этого счётчикам просто перестаёшь доверять.</p><p>Я бы сделал так, чтобы ссылка при шеринге получала метку или короткий параметр, а переходы по ней считались отдельно. Тогда будет видно, что шер реально привёл читателей. Заодно можно считать сами клики по кнопкам и копирование ссылки, чтобы был один общий счётчик вместо двух почти нулевых.</p><p>Facebook для аудитории Хабра почти не нужен, лучше добавить единый шеринг какой-нибудь(да хоть Телеграм либо патриотично Макс), а на телефонах стандартное меню «Поделиться». Нули тоже лучше не показывать, потому что под каждой статьёй «FB: 0, VK: 0» выглядит так, будто ею никто никогда не делился. Пусть счётчик появляется, когда есть хотя бы пара шеров. Ну и автору было бы интересно видеть в статистике, куда именно поделились и сколько человек пришло по этим ссылкам.</p><h4>5. Реестр форматирования и демонстрации</h4><p>Листая очень старые статьи, за 2020, 2021 и 2023 годы, я заметил, что там встречаются красивые варианты форматирования, например цветной текст и подобное. Но в текущем редакторе, Markdown или WYSIWYG, не особо понятно, как это написать или отформатировать. Поэтому идеально было бы сделать страницу, которая демонстрирует все виды форматирования и показывает, как их писать. У меня на проекте есть такая страница с примерами форматирования на Markdown, и на многих других документационных проектах тоже. Считаю, что на Хабре она тоже не помешает: <a href=\"https://opensophy.com/docs/formatting\" rel=\"noopener nofollow\">https://opensophy.com/docs/formatting</a></p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/b9/b7/36/b9b736e9f45f7c24c43167fb52e34608.png\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/b9/b7/36/b9b736e9f45f7c24c43167fb52e34608.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/b9/b7/36/b9b736e9f45f7c24c43167fb52e34608.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h4>6. «Скопировать как Markdown»</h4><p>Было бы здорово, если бы читатель мог сохранить понравившуюся статью или другой материал не только во вкладках браузера, но и, например, в Obsidian если он хочет, нажав на скопировать в формате [html/md итд]. Конечно, многие умеют просто выделить страницу и скопировать успешно, но получается это не у всех, и результат не всегда аккуратный. Гораздо проще и удобнее сделать это одной кнопкой.</p><h4>7. Расширить форматирование</h4><p>Помимо текущих возможностей, я бы добавил построение графиков и что-то вроде опросов и мини-тестов, то есть полноценный интерактив. Материалы на Хабре часто образовательные, а нынешние опросы довольно примитивные, хотя и бывают полезны. Это может повысить вовлечённость в обучающих материалах.</p><p>Также можно добавить диаграммы, например в формате UML.</p><h3>Заключение</h3><p>Это исключительно моё мнение о функциях, которые я как автор и читатель хотел бы видеть на Хабре. Буду очень признателен, если вы пройдёте опрос ниже: так вы дадите Хабру понять, стоит ли делать эти функции и будут ли они вообще полезны.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "опрос"
+    },
+    {
+      "titleHtml": "хабр"
+    },
+    {
+      "titleHtml": "хабр торт"
+    },
+    {
+      "titleHtml": "оптимизация сайта"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106338/467d7142bc8bd9eaaf54b3465589093f/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106338/467d7142bc8bd9eaaf54b3465589093f/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106338\\/\"},\"headline\":\"Make Habr Great Again? Мнение и опрос о новых фич которые я бы хотел видеть на Хабре\",\"datePublished\":\"2026-11-11T08:13:45+03:00\",\"dateModified\":\"2026-11-11T16:53:42+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Введение Недавно Хабр обновился: статьи, новости и посты теперь объединены в один тип публикации, а именно в статью. Отдельных лент, к сожалению, больше нет....\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106338\\/#post-content-body\",\"about\":[\"h_research\",\"h_web_monetization\",\"h_seo\",\"h_media_management\",\"f_management\",\"f_marketing\"],\"image\":[\"https:\\/\\/habrastorage.org\\/webt\\/b6\\/27\\/ea\\/b627ea7949c35497c8c04506ed9570a8.png\",\"https:\\/\\/habrastorage.org\\/webt\\/5b\\/5d\\/4e\\/5b5d4e8485eb61cac2ce1cb209c3297c.png\",\"https:\\/\\/habrastorage.org\\/webt\\/e3\\/d5\\/ab\\/e3d5ab1eb20e3115a2e838d9cf7fa915.png\",\"https:\\/\\/habrastorage.org\\/webt\\/b9\\/b7\\/36\\/b9b736e9f45f7c24c43167fb52e34608.png\"]}",
+    "metaDescription": "Введение Недавно Хабр обновился: статьи, новости и посты теперь объединены в один тип публикации, а именно в статью. Отдельных лент, к сожалению, больше нет. Мнения людей об этом изменении можно...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [
+    {
+      "id": "53726",
+      "timeElapsed": null,
+      "answersType": "radio",
+      "votesCount": 30,
+      "passCount": 16,
+      "textHtml": "Считаете ли вы правильным добавить навигацию «На этой странице»?",
+      "relatedData": {
+        "canVote": false
+      },
+      "variants": [
+        {
+          "id": "243018",
+          "textHtml": "Да",
+          "votesCount": 20,
+          "percent": 66.67,
+          "selected": false
+        },
+        {
+          "id": "243020",
+          "textHtml": "Нет",
+          "votesCount": 10,
+          "percent": 33.33,
+          "selected": false
+        },
+        {
+          "id": "243022",
+          "textHtml": "Отвечу в комментариях",
+          "votesCount": 0,
+          "percent": 0,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "id": "53728",
+      "timeElapsed": null,
+      "answersType": "radio",
+      "votesCount": 61,
+      "passCount": 3,
+      "textHtml": "Считаете ли вы правильным вернуть раздел «Новости»?",
+      "relatedData": {
+        "canVote": false
+      },
+      "variants": [
+        {
+          "id": "243024",
+          "textHtml": "Да",
+          "votesCount": 54,
+          "percent": 88.52,
+          "selected": false
+        },
+        {
+          "id": "243026",
+          "textHtml": "Нет",
+          "votesCount": 7,
+          "percent": 11.48,
+          "selected": false
+        },
+        {
+          "id": "243028",
+          "textHtml": "Отвечу в комментариях",
+          "votesCount": 0,
+          "percent": 0,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "id": "53730",
+      "timeElapsed": null,
+      "answersType": "radio",
+      "votesCount": 32,
+      "passCount": 17,
+      "textHtml": "Считаете ли вы правильным доработать кнопку «Поделиться»?",
+      "relatedData": {
+        "canVote": false
+      },
+      "variants": [
+        {
+          "id": "243030",
+          "textHtml": "Да",
+          "votesCount": 20,
+          "percent": 62.5,
+          "selected": false
+        },
+        {
+          "id": "243032",
+          "textHtml": "Нет",
+          "votesCount": 12,
+          "percent": 37.5,
+          "selected": false
+        },
+        {
+          "id": "243034",
+          "textHtml": "Отвечу в комментариях",
+          "votesCount": 0,
+          "percent": 0,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "id": "53732",
+      "timeElapsed": null,
+      "answersType": "radio",
+      "votesCount": 18,
+      "passCount": 18,
+      "textHtml": "Как автор, вам нужен реестр форматирования и демонстрации?",
+      "relatedData": {
+        "canVote": false
+      },
+      "variants": [
+        {
+          "id": "243036",
+          "textHtml": "Да",
+          "votesCount": 10,
+          "percent": 55.56,
+          "selected": false
+        },
+        {
+          "id": "243038",
+          "textHtml": "Нет",
+          "votesCount": 8,
+          "percent": 44.44,
+          "selected": false
+        },
+        {
+          "id": "243040",
+          "textHtml": "Отвечу в комментариях",
+          "votesCount": 0,
+          "percent": 0,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "id": "53734",
+      "timeElapsed": null,
+      "answersType": "radio",
+      "votesCount": 34,
+      "passCount": 12,
+      "textHtml": "Нужна ли функция «Скопировать как Markdown»?",
+      "relatedData": {
+        "canVote": false
+      },
+      "variants": [
+        {
+          "id": "243042",
+          "textHtml": "Да",
+          "votesCount": 21,
+          "percent": 61.76,
+          "selected": false
+        },
+        {
+          "id": "243044",
+          "textHtml": "Нет",
+          "votesCount": 13,
+          "percent": 38.24,
+          "selected": false
+        },
+        {
+          "id": "243046",
+          "textHtml": "Отвечу в комментариях",
+          "votesCount": 0,
+          "percent": 0,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "id": "53736",
+      "timeElapsed": null,
+      "answersType": "radio",
+      "votesCount": 25,
+      "passCount": 16,
+      "textHtml": "Нужно ли расширить форматирование на Хабре, добавив например графики и диаграммы?",
+      "relatedData": {
+        "canVote": false
+      },
+      "variants": [
+        {
+          "id": "243048",
+          "textHtml": "Да",
+          "votesCount": 16,
+          "percent": 64,
+          "selected": false
+        },
+        {
+          "id": "243050",
+          "textHtml": "Нет",
+          "votesCount": 9,
+          "percent": 36,
+          "selected": false
+        },
+        {
+          "id": "243052",
+          "textHtml": "Отвечу в комментариях",
+          "votesCount": 0,
+          "percent": 0,
+          "selected": false
+        }
+      ]
+    }
+  ],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "opinion",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "4",
+    "title": "Фронтенд",
+    "alias": "frontend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

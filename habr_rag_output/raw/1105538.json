@@ -1,0 +1,206 @@
+{
+  "id": "1105538",
+  "timePublished": "2026-11-09T14:24:07+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Волки, гоблины и драконы: турнир по обороне техподдержки",
+  "leadData": {
+    "textHtml": "<p><strong>Начался онлайн-турнир <a href=\"https://digitcat.ru/strazhdedlaina/\">«Страж дедлайна»</a> — фэнтезийная игра о работе первой линии поддержки. Вместо обращений пользователей на башню наступают монстры, а игроку нужно удерживать оборону и не дать им разрушить ограждение «Дедлайн». Итоги турнира подведем 14 ноября в 16:00 МСК.</strong></p>",
+    "imageUrl": "https://habrastorage.org/extt/13/41/d8/1341d8382a85f56c916fd4daa280c997.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/13/41/d8/1341d8382a85f56c916fd4daa280c997.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5713553",
+    "alias": "infostart-press",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/05d/928/63b/05d92863b535b098e667103c23124df0.jpeg",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 4,
+      "votesCount": 26
+    },
+    "rating": 93.3,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "64K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 180,
+    "score": 6,
+    "votesCount": 6,
+    "votesCountPlus": 6,
+    "votesCountMinus": 0,
+    "reach": 6411,
+    "readers": 128
+  },
+  "hubs": [
+    {
+      "id": "18901",
+      "alias": "infostart",
+      "type": "corporative",
+      "title": "Блог компании INFOSTART.RU",
+      "titleHtml": "Блог компании INFOSTART.RU",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19369",
+      "alias": "service_desk",
+      "type": "collective",
+      "title": "Service Desk",
+      "titleHtml": "Service Desk",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21980",
+      "alias": "games",
+      "type": "collective",
+      "title": "Игры и игровые консоли",
+      "titleHtml": "Игры и игровые консоли",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Начался онлайн-турнир </strong><a href=\"https://digitcat.ru/strazhdedlaina/\"><strong>«Страж дедлайна»</strong></a><strong> — фэнтезийная игра о работе первой линии поддержки. Вместо обращений пользователей на башню наступают монстры, а игроку нужно удерживать оборону и не дать им разрушить ограждение «Дедлайн». Итоги турнира подведем 14 ноября в 16:00 МСК.</strong></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/13/41/d8/1341d8382a85f56c916fd4daa280c997.jpg\" alt=\" \" title=\" \" width=\"2738\" height=\"1800\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/13/41/d8/1341d8382a85f56c916fd4daa280c997.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/13/41/d8/1341d8382a85f56c916fd4daa280c997.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption> </figcaption></div></figure><p>Противники обозначают задачи разной сложности: волки — простые, гоблины — средней сложности, драконы — сложные проблемы. Срочность отмечена цветом: синий — несрочные обращения, желтый — обычные, красный — срочные. По ходу игры появляются массовые инциденты, повторные обращения и дубли задач.</p><p>Для усиления защиты можно подключать дополнительные модули: нейросети, программные сценарии и веб-интерфейс исполнителя.</p><p>В турнире два режима с отдельными рейтингами:</p><ul><li><p><strong>«15 смен»</strong> — продержаться 15 рабочих смен, справляясь с обращениями и неожиданными инцидентами.</p></li><li><p><strong>«Бесконечный»</strong> — удерживать оборону как можно дольше.</p></li></ul><p>В каждом рейтинге определят одного победителя. Каждый получит брендированную футболку компании «Цифровой КоТ» и скидку 20% на Service Desk Online.</p><p>Чтобы участвовать, <a href=\"https://digitcat.ru/strazhdedlaina/\">откройте игру</a> и выберите режим. При регистрации результата укажите свой логин на Инфостарте или ник в Telegram, чтобы с вами могли связаться в случае победы. Итоги опубликуют в каналах Инфостарт Enterprise в <a href=\"https://t.me/+T8rrMw_0F8gwZWNi\">Telegram</a> и <a href=\"https://max.ru/channel_infostart_enterprise\">MAX</a>.</p><p>«Страж дедлайна» создан компанией «Цифровой КоТ», партнером Инфостарта по продукту Service Desk Online. Подробности — в <a href=\"https://digitcat.ru/strazhdedlaina/rules/\">описании и правилах игры</a>.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "Страж дедлайна"
+    },
+    {
+      "titleHtml": "техподдержка"
+    },
+    {
+      "titleHtml": "онлайн-турнир"
+    },
+    {
+      "titleHtml": "Service Desk Online"
+    },
+    {
+      "titleHtml": "обращения пользователей"
+    },
+    {
+      "titleHtml": "приоритеты задач"
+    },
+    {
+      "titleHtml": "массовые инциденты"
+    },
+    {
+      "titleHtml": "автоматизация"
+    },
+    {
+      "titleHtml": "фэнтези"
+    },
+    {
+      "titleHtml": "Цифровой КоТ"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105538/a06842cda0ff5a19337f9f3eaf0eefd6/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105538/a06842cda0ff5a19337f9f3eaf0eefd6/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/infostart\\/articles\\/1105538\\/\"},\"headline\":\"Волки, гоблины и драконы: турнир по обороне техподдержки\",\"datePublished\":\"2026-11-09T17:24:07+03:00\",\"dateModified\":\"2026-11-11T18:47:11+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Начался онлайн-турнир «Страж дедлайна» — фэнтезийная игра о работе первой линии поддержки. Вместо обращений пользователей на башню наступают монстры, а игроку...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/infostart\\/articles\\/1105538\\/#post-content-body\",\"about\":[\"c_infostart\",\"h_service_desk\",\"h_games\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/13\\/41\\/d8\\/1341d8382a85f56c916fd4daa280c997.jpg\"]}",
+    "metaDescription": "Начался онлайн-турнир «Страж дедлайна» — фэнтезийная игра о работе первой линии поддержки. Вместо обращений пользователей на башню наступают монстры, а игроку нужно удерживать оборону и не дать им...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "20",
+    "title": "Техническая поддержка",
+    "alias": "support"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

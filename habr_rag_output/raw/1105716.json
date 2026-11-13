@@ -1,0 +1,221 @@
+{
+  "id": "1105716",
+  "timePublished": "2026-11-09T20:58:43+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Почему Gmail опаздывает по IMAP IDLE и как я сократил задержку с 44 до 8 секунд",
+  "leadData": {
+    "textHtml": "<p>Я делаю Telegram‑бота, который пересылает новые письма из&nbsp;почты в&nbsp;чат. Главное требование&nbsp;— скорость: если письмо приходит через минуту, проще открыть почту самому. С&nbsp;Mail.ru и Яндексом все заработало сразу, а&nbsp;Gmail присылал уведомления о&nbsp;новых письмах с&nbsp;опозданием до 44&nbsp;секунд.</p><p>В&nbsp;статье расскажу, как&nbsp;я искал причину, почему первое рабочее решение оказалось опасным (240&nbsp;входов в&nbsp;почту в&nbsp;час на&nbsp;каждый ящик) и чем все закончилось: одно постоянное соединение и около 8&nbsp;секунд от&nbsp;отправки письма до&nbsp;уведомления в&nbsp;Telegram. В&nbsp;конце&nbsp;— еще несколько грабель IMAP, которые не&nbsp;описаны в&nbsp;туториалах.</p><p>Стек: Kotlin, корутины, Jakarta Mail (реализация Eclipse Angus), Ktor, SQLite, Docker Compose. Все замеры&nbsp;— на&nbsp;сервере с 1&nbsp;ГБ памяти, по&nbsp;логам бота: это наблюдения на&nbsp;нескольких ящиках, а&nbsp;не&nbsp;строгий бенчмарк.</p>",
+    "imageUrl": "https://habrastorage.org/extt/57/c3/bc/57c3bc4ed530d676eb3ed7958023a7bf.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/57/c3/bc/57c3bc4ed530d676eb3ed7958023a7bf.png",
+      "fit": "cover",
+      "positionY": 3,
+      "positionX": 4
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "sandbox",
+      "typeOf": "system",
+      "title": "Из песочницы",
+      "data": {
+        "url": null
+      }
+    }
+  ],
+  "author": {
+    "id": "6069240",
+    "alias": "Broxxer",
+    "fullname": "Rodionov Matvey",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 3,
+      "votesCount": 3
+    },
+    "rating": 2,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 3,
+    "favoritesCount": 3,
+    "readingCount": 802,
+    "score": 2,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 11347,
+    "readers": 581
+  },
+  "hubs": [
+    {
+      "id": "19441",
+      "alias": "kotlin",
+      "type": "collective",
+      "title": "Kotlin",
+      "titleHtml": "Kotlin",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "375",
+      "alias": "java",
+      "type": "collective",
+      "title": "Java",
+      "titleHtml": "Java",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17123",
+      "alias": "network_technologies",
+      "type": "collective",
+      "title": "Сетевые технологии",
+      "titleHtml": "Сетевые технологии",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "92",
+      "alias": "instant_messaging",
+      "type": "collective",
+      "title": "Мессенджеры",
+      "titleHtml": "Мессенджеры",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Я делаю Telegram‑бота, который пересылает новые письма из почты в чат. Главное требование — скорость: если письмо приходит через минуту, проще открыть почту самому. С Mail.ru и Яндексом все заработало сразу, а Gmail присылал уведомления о новых письмах с опозданием до 44 секунд.</p><p>В статье расскажу, как я искал причину, почему первое рабочее решение оказалось опасным (240 входов в почту в час на каждый ящик) и чем все закончилось: одно постоянное соединение и около 8 секунд от отправки письма до уведомления в Telegram. В конце — еще несколько грабель IMAP, которые не описаны в туториалах.</p><p>Стек: Kotlin, корутины, Jakarta Mail (реализация Eclipse Angus), Ktor, SQLite, Docker Compose. Все замеры — на сервере с 1 ГБ памяти, по логам бота: это наблюдения на нескольких ящиках, а не строгий бенчмарк.</p><h3>Как работает IMAP IDLE</h3><p>У IMAP есть два способа узнать о новом письме. Можно раз в N секунд спрашивать сервер «что нового?» (polling), а можно отправить команду <code>IDLE</code> (<a href=\"https://datatracker.ietf.org/doc/html/rfc2177\" rel=\"noopener nofollow\">RFC 2177</a>): клиент держит соединение открытым, а сервер сам присылает <code>* 15 EXISTS</code>, когда в папке появилось письмо. Это и есть push для почты.</p><p>В Jakarta Mail IDLE выглядит как блокирующий вызов <code>IMAPFolder.idle()</code>, который возвращает управление, когда сервер что‑то сообщил. Первая версия слежения за ящиком выглядела примерно так (упрощено):</p><pre><code class=\"kotlin\">suspend fun watch(account: MailAccount) {\n    val store = session.getStore(\"imaps\") as IMAPStore\n    runInterruptible(Dispatchers.IO) {\n        store.connect(account.host, 993, account.username, account.password)\n    }\n    val inbox = store.getFolder(\"INBOX\") as IMAPFolder\n    runInterruptible(Dispatchers.IO) { inbox.open(Folder.READ_ONLY) }\n\n    while (currentCoroutineContext().isActive) {\n        // Блокируется, пока сервер не пришлет EXISTS или другое событие\n        runInterruptible(Dispatchers.IO) { inbox.idle(true) }\n        // Забираем письма с UID больше последнего обработанного\n        processNewMessages(account, inbox)\n    }\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Несколько деталей, которые важны с самого начала:</p><ul><li><p>Новые письма ищутся по UID, а не по флагу <code>\\Seen</code>: пользователь мог уже прочитать письмо с телефона. Последний UID и <code>UIDVALIDITY</code> папки хранятся в базе.</p></li><li><p>Блокирующие вызовы идут через <code>runInterruptible</code>, иначе отмена корутины (пользователь удалил ящик) висит до таймаута сокета.</p></li><li><p>Серверы рвут IDLE‑соединения раз в десятки минут, поэтому вокруг цикла нужен перезапуск с экспоненциальной паузой (5 с, 10 с, 20 с... до 10 минут). Иначе при неверном пароле бот превращается в переборщика паролей, и почта его блокирует.</p></li></ul><h3>Замеры: где теряется время</h3><p>Чтобы не гадать, я разделил задержку на две части и логирую обе для каждого письма:</p><ul><li><p><strong>доставка почтой</strong> — от заголовка <code>Date</code> (когда письмо отправили) до <code>INTERNALDATE</code> (когда его принял почтовый сервер получателя);</p></li><li><p><strong>обнаружение ботом</strong> — от <code>INTERNALDATE</code> до момента, когда бот увидел письмо.</p></li></ul><pre><code class=\"kotlin\">val transport = Duration.between(message.sentAt, message.receivedAt).seconds\nval detection = Duration.between(message.receivedAt, Instant.now()).seconds\nlogger.info(\"Email UID {} from {}: mail transport delay={} s, bot detection delay={} s\", ...)</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Первая часть от меня не зависит, вторая — целиком моя. Одна оговорка: <code>Date</code> ставит отправитель, и его часы могут спешить, поэтому отрицательные значения обрезаются до нуля.</p><p>С чистым IDLE картина получилась такая:</p><div><div class=\"table\"><table><tbody><tr><th><p>Ящик</p></th><th><p>Доставка почтой</p></th><th><p>Обнаружение ботом</p></th><th><p>Итого до Telegram</p></th></tr><tr><td><p align=\"left\">Mail.ru / list.ru</p></td><td><p align=\"left\">0 с</p></td><td><p align=\"left\">0 с</p></td><td><p align=\"left\">1–6 с</p></td></tr><tr><td><p align=\"left\">Gmail</p></td><td><p align=\"left\">1–2 с</p></td><td><p align=\"left\">до 40+ с</p></td><td><p align=\"left\">до 44 с</p></td></tr></tbody></table></div></div><p>Сервер Gmail принимал письмо за секунду‑две, но сообщал об этом в открытое IDLE‑соединение с большим опозданием. Значит, проблема не в доставке, а в том, как и когда уже открытая IMAP‑сессия узнает о новом письме. А однажды Gmail не показывал новое письмо по IMAP вообще несколько минут: в логах есть случай с обнаружением через 251 секунду. Такое не лечится ничем на стороне клиента, но среднюю задержку сократить можно.</p><h3>Попытка 1: NOOP по открытому соединению</h3><p>Первая идея: раз в несколько секунд самому «толкнуть» сервер. Команда <code>NOOP</code> ничего не делает, но в ответ на нее сервер обязан прислать накопившиеся обновления папки, в том числе <code>EXISTS</code>. Нового входа в ящик для этого не нужно.</p><p>В Jakarta Mail самый простой способ прервать текущий <code>idle()</code> и отправить <code>NOOP</code> — обратиться к папке из другого потока. Библиотека сама завершит IDLE (<code>DONE</code>), выполнит команду, а основной цикл проверит новые письма и снова уйдет в IDLE:</p><pre><code class=\"kotlin\">coroutineScope {\n    val noopJob = launch {\n        while (isActive) {\n            delay(5_000)\n            // Обращение к папке из другого потока прерывает IDLE и шлет NOOP\n            runInterruptible(Dispatchers.IO) { inbox.messageCount }\n        }\n    }\n    try {\n        while (isActive) {\n            runInterruptible(Dispatchers.IO) { inbox.idle(true) }\n            processNewMessages(account, inbox)\n        }\n    } finally {\n        noopJob.cancel()\n    }\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>На серверах, которые просто «засыпают» в IDLE, это помогает. А вот Gmail в той же сессии на <code>NOOP</code> отвечал тем же устаревшим состоянием папки: задержка по‑прежнему доходила до 40+ секунд. Похоже, что уже открытая сессия Gmail видит папку с задержкой, а свежий взгляд дает только новое открытие папки. Это моя гипотеза по наблюдениям, документации на этот счет я не нашел.</p><h3>Попытка 2: контрольная проверка с новым входом</h3><p>Раз свежая сессия видит письма сразу, я добавил рядом с IDLE вторую корутину: раз в 15 секунд она заново входит в ящик, открывает «Входящие», забирает письма после последнего UID и выходит.</p><pre><code class=\"kotlin\">suspend fun watch(account: MailAccount) = supervisorScope {\n    launch { runIdleLoop(account) }       // push, как раньше\n    launch {\n        while (isActive) {\n            delay(15_000)\n            checkWithFreshLogin(account)  // connect + SELECT INBOX + FETCH + logout\n        }\n    }\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Чтобы IDLE и контрольная проверка не прислали одно письмо дважды, обработка ящика идет под <code>Mutex</code> на аккаунт, а последний UID сдвигается в базе сразу после постановки письма в очередь. Кто увидел письмо первым, тот его и отправил.</p><p>Результат по скорости сразу стал хорошим: три тестовых письма на Gmail пришли в Telegram через 10, 12 и 14 секунд после отправки вместо прежних 44.</p><p>Но у решения есть цена, которую на пяти ящиках не видно. Каждая проверка — это полноценный вход: TLS‑рукопожатие, <code>LOGIN</code>, <code>SELECT</code>, <code>LOGOUT</code>.</p><ul><li><p>1 ящик: 4 входа в минуту, 240 в час, почти 6 тысяч в сутки;</p></li><li><p>200 ящиков: около 13 входов в секунду с одного IP‑адреса.</p></li></ul><p>Для почтового сервиса это выглядит как перебор паролей или сломанный клиент. Лимиты на частоту входов почтовики не публикуют, но получить временную блокировку IP или письма «подозрительный вход» у всех пользователей сразу не хотелось. Решение работало, но не масштабировалось.</p><h3>Решение: один вход, но свежий SELECT</h3><p>Ключевое наблюдение: свежий список писем дает не новый вход, а новое открытие папки (<code>SELECT</code> или <code>EXAMINE</code>). А открыть папку заново можно в уже авторизованном соединении сколько угодно раз.</p><p>Так что контрольная проверка теперь держит свое постоянное соединение с ящиком. Раз в 15 секунд она открывает «Входящие», забирает новое и закрывает папку, но не соединение. Вход происходит один раз, и повторяется, только когда сервер сам разорвет соединение.</p><pre><code class=\"kotlin\">private suspend fun runSafetyPollLoop(account: MailAccount) {\n    var store: IMAPStore? = null\n    try {\n        while (currentCoroutineContext().isActive) {\n            delay(15_000)\n            try {\n                store = checkOverPersistentConnection(account, store)\n            } catch (e: Exception) {\n                closeQuietly(store)\n                store = null          // в следующий раз войдем заново (с нарастающей паузой)\n            }\n        }\n    } finally {\n        closeQuietly(store)\n    }\n}\n\nprivate suspend fun checkOverPersistentConnection(account: MailAccount, current: IMAPStore?): IMAPStore {\n    if (current != null &amp;&amp; current.isConnected) {\n        try {\n            checkInbox(account, current)\n            return current\n        } catch (e: Exception) {\n            // Сервер мог тихо закрыть соединение: не ждем следующего круга\n            closeQuietly(current)\n        }\n    }\n    val fresh = connectStore(account)  // единственное место, где происходит LOGIN\n    checkInbox(account, fresh)\n    return fresh\n}\n\nprivate suspend fun checkInbox(account: MailAccount, store: IMAPStore) {\n    val inbox = store.getFolder(\"INBOX\") as IMAPFolder\n    runInterruptible(Dispatchers.IO) { inbox.open(Folder.READ_ONLY) }  // свежий SELECT/EXAMINE\n    try {\n        processNewMessages(account, inbox)\n    } finally {\n        runCatching { if (inbox.isOpen) inbox.close(false) }\n    }\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Два момента, на которые стоит обратить внимание:</p><ul><li><p>У соединения проверки короткий таймаут чтения (60 секунд), а у IDLE‑соединения длинный (25 минут). Иначе «зависшее» соединение проверки молча блокирует корутину на десятки минут.</p></li><li><p><code>isConnected</code> не гарантирует, что сервер еще держит соединение. Поэтому при ошибке на старом соединении бот сразу входит заново и проверяет еще раз в том же цикле.</p></li></ul><p>Итоги всех трех подходов для Gmail:</p><div><div class=\"table\"><table><tbody><tr><th><p>Подход</p></th><th><p>До Telegram</p></th><th><p>Входов в час на ящик</p></th></tr><tr><td><p align=\"left\">IDLE + NOOP</p></td><td><p align=\"left\">до 44 с</p></td><td><p align=\"left\">около 1</p></td></tr><tr><td><p align=\"left\">+ проверка с новым входом раз в 15 с</p></td><td><p align=\"left\">10–14 с</p></td><td><p align=\"left\">240</p></td></tr><tr><td><p align=\"left\">+ проверка по постоянному соединению</p></td><td><p align=\"left\">около 8–10 с</p></td><td><p align=\"left\">около 2</p></td></tr></tbody></table></div></div><p>В первом же тесте после выкатки лог показал <code>mail transport delay=2 s, bot detection delay=6 s</code>: бот даже быстрее, чем с входом на каждую проверку. На всякий случай старое поведение можно вернуть одной переменной окружения, если какой‑то сервер поведет себя иначе.</p><h3>Еще три грабли IMAP, о которых мало пишут</h3><h4>IMAP SEARCH ищет не так, как ждет пользователь</h4><p>В приложении можно искать письма по теме и отправителю. Первая версия просто отправляла серверу <code>SEARCH OR SUBJECT \"...\" FROM \"...\"</code>, и первый же тест нашел две проблемы:</p><ul><li><p>письмо с темой «22222» не находилось по запросу «222»: серверы часто ищут по целым словам, а не по подстроке;</p></li><li><p>в Gmail не находилось ничего по русским словам.</p></li></ul><p>Решение вышло гибридным. Последние 2000 писем папки бот читает одним <code>FETCH</code> только с <code>ENVELOPE</code> и <code>FLAGS</code> (это быстро, тексты писем не скачиваются) и ищет подстроку сам. Для более старых писем остается серверный <code>SEARCH</code>. Строки перед сравнением нормализуются:</p><pre><code class=\"kotlin\">internal fun normalizeForSearch(value: String): String =\n    value.lowercase()\n        .replace('ё', 'е')         // ё -&gt; е: \"ещё\" находится по \"еще\"\n        .replace(Regex(\"\\\\s+\"), \" \")\n        .trim()</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h4>Хостинг может закрыть SMTP</h4><p>Я сделал кнопку «Ответить»: текст из Telegram уходит письмом с ящика пользователя. Локально все работало, а на сервере летел таймаут соединения. Выяснилось, что многие VPS‑хостинги блокируют исходящие порты 465 и 587 против спама, а разблокируют по запросу и часто за деньги. Проверить можно за секунду до того, как писать код:</p><pre><code class=\"bash\">timeout 5 bash -c '&lt;/dev/tcp/smtp.mail.ru/465' &amp;&amp; echo open || echo blocked</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>У меня порты оказались закрыты, и функция теперь включается флагом в конфиге: кнопка появляется, только если сервер реально может отправлять почту.</p><h4>Уведомление не должно потеряться</h4><p>Если бот забрал письмо из ящика и сдвинул последний UID, а потом Telegram ответил ошибкой или сервер перезапустился, письмо потеряно навсегда. Поэтому между почтой и Telegram стоит очередь‑outbox в SQLite:</p><ol><li><p>Новое письмо и сдвиг UID записываются в базу. Уникальный ключ (ящик, UIDVALIDITY, UID) делает запись идемпотентной.</p></li><li><p>Несколько воркеров забирают задачи из очереди и отправляют в Telegram.</p></li><li><p>Ошибки делятся на временные (429, 5 xx, сеть — повтор с нарастающей паузой, для 429 — строго по <code>retry_after</code>) и постоянные (403 «бот заблокирован» — больше не пытаемся).</p></li></ol><p>И еще один трюк для скорости: карточка письма уходит сразу из заголовков (от кого, тема, дата), а когда письмо скачается целиком, бот редактирует ее и добавляет вложения. Большое вложение не задерживает само уведомление.</p><h3>Безопасность: чужие пароли от почты — большая ответственность</h3><p>Бот хранит доступ к чужим почтовым ящикам, поэтому безопасность тут не опция. Что сделано:</p><ul><li><p><strong>Только пароли приложений.</strong> Gmail, Яндекс и Mail.ru и так не пускают сторонние программы по основному паролю. Пароль приложения пользователь может отозвать в любой момент, не меняя основной. И вводится он не в чат с ботом, а в Mini App.</p></li><li><p><strong>Шифрование в базе.</strong> Пароли хранятся в SQLite, зашифрованные AES-256-GCM со случайным IV для каждой записи. Ключ лежит только в переменной окружения, не в базе и не в бэкапах. Украденная база сама по себе паролей не дает. В <code>toString()</code> модели ящика пароль замаскирован, чтобы не утечь в логи случайно.</p></li><li><p><strong>Проверка подписи Telegram.</strong> Каждый запрос из Mini App несет <code>initData</code>, подписанный HMAC‑SHA256 от токена бота. Сервер проверяет подпись и свежесть <code>auth_date</code> и берет ID пользователя только оттуда. Подставить чужой ID и посмотреть чужие ящики нельзя.</p></li><li><p><strong>Защита от SSRF.</strong> Пользователь сам указывает IMAP‑сервер, а значит, может ввести <code>127.0.0.1</code>, <code>169.254.169.254</code> или имя соседнего Docker‑контейнера и «прощупать» сервер бота изнутри. Перед подключением имя резолвится, и если хоть один адрес частный, link‑local, loopback или из диапазона CGNAT, ящик не принимается. Порт — только 993.</p></li><li><p><strong>Удаление данных.</strong> Одна команда удаляет все: ящики с паролями, настройки, очередь уведомлений. Сами письма бот не хранит, только недолгий кэш для кнопок под карточкой.</p></li></ul><h3>Итоги</h3><p>Что я вынес из этой истории:</p><ol><li><p><strong>IDLE — не гарантия.</strong> У каждого сервера своя задержка, и у Gmail она бывает в десятки секунд. Если скорость важна, IDLE нужно страховать периодической проверкой.</p></li><li><p><strong>NOOP не всегда обновляет состояние.</strong> Gmail может отдавать на NOOP старую картину ящика. Свежие данные дает только повторный SELECT/EXAMINE.</p></li><li><p><strong>Не логиньтесь в цикле.</strong> Повторный вход работает, но 240 логинов в час на ящик — прямой путь к блокировке. Одно постоянное соединение для подстраховки дает ту же скорость почти без входов.</p></li><li><p><strong>Сначала измерьте.</strong> Пока я не начал разделять время на «доставку» (Date → INTERNALDATE) и «обнаружение» (INTERNALDATE → сейчас), я чинил не то.</p></li></ol><p>Сейчас письмо из Gmail приходит в Telegram в среднем за 8–10 секунд, из Mail.ru и Яндекса — почти мгновенно.</p><p>Весь код открыт: <a href=\"https://github.com/LightSmit/mail-to-telegram-bot\" rel=\"noopener nofollow\">github.com/LightSmit/mail‑to‑telegram‑bot</a>. Сам бот работает как <a href=\"https://t.me/FromMailBot\" rel=\"noopener nofollow\">@FromMailBot</a>, если хотите посмотреть на результат вживую.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "imap"
+    },
+    {
+      "titleHtml": "imap idle"
+    },
+    {
+      "titleHtml": "gmail"
+    },
+    {
+      "titleHtml": "Kotlin"
+    },
+    {
+      "titleHtml": "Jakarta mail"
+    },
+    {
+      "titleHtml": "telegram-бот"
+    },
+    {
+      "titleHtml": "электронная почта"
+    },
+    {
+      "titleHtml": "задержка уведомлений"
+    },
+    {
+      "titleHtml": "корутины"
+    },
+    {
+      "titleHtml": "корутины kotlin"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105716/71a72eb330ccbc80b0820e861c0235cf/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105716/71a72eb330ccbc80b0820e861c0235cf/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105716\\/\"},\"headline\":\"Почему Gmail опаздывает по IMAP IDLE и как я сократил задержку с 44 до 8 секунд\",\"datePublished\":\"2026-11-09T23:58:43+03:00\",\"dateModified\":\"2026-11-09T23:58:43+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Я делаю Telegram‑бота, который пересылает новые письма из&nbsp;почты в&nbsp;чат. Главное требование&nbsp;— скорость: если письмо приходит через минуту, проще...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105716\\/#post-content-body\",\"about\":[\"h_kotlin\",\"h_java\",\"h_network_technologies\",\"h_instant_messaging\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105716\\/71a72eb330ccbc80b0820e861c0235cf\\/\"]}",
+    "metaDescription": "Я делаю Telegram‑бота, который пересылает новые письма из&nbsp;почты в&nbsp;чат. Главное требование&nbsp;— скорость: если письмо приходит через минуту, проще открыть почту самому. С&nbsp;Mail.ru и...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 9,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

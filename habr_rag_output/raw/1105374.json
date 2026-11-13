@@ -1,0 +1,210 @@
+{
+  "id": "1105374",
+  "timePublished": "2026-11-09T08:52:16+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Хостинг‑провайдер ESTT: причина сбоя инфраструктуры — кибератака с использованием программы‑шифровальщика",
+  "leadData": {
+    "textHtml": "<p>Хостинг-провайдер ESTT <a href=\"https://t.me/dcestt/276\" rel=\"noopener nofollow\">сообщил</a>  о причинах аварии 8 ноября и текущем ходе восстановления сервисов. По предварительным данным, причиной аварии стала кибератака с использованием программы-шифровальщика. В результате пострадали кластеры виртуализации и системы управления облачной инфраструктурой ESTT, что привело к нарушению работы клиентских сервисов.</p>",
+    "imageUrl": "https://habrastorage.org/extt/31/da/3d/31da3d74e813c39ace572544c2f0124a.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/31/da/3d/31da3d74e813c39ace572544c2f0124a.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "780987",
+    "alias": "denis-19",
+    "fullname": "Денис",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/6a0/f31/235/6a0f31235bb26134f3c7a741c03e4efb.jpg",
+    "speciality": "Информационная служба Хабра, без использования ИИ",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1069,
+      "votesCount": 2027
+    },
+    "rating": 880.5,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "1024K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 1,
+    "readingCount": 1838,
+    "score": 6,
+    "votesCount": 3,
+    "votesCountPlus": 3,
+    "votesCountMinus": 0,
+    "reach": 7369,
+    "readers": 1422
+  },
+  "hubs": [
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21958",
+      "alias": "network_hardware",
+      "type": "collective",
+      "title": "Сетевое оборудование",
+      "titleHtml": "Сетевое оборудование",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "17123",
+      "alias": "network_technologies",
+      "type": "collective",
+      "title": "Сетевые технологии",
+      "titleHtml": "Сетевые технологии",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "16120",
+      "alias": "cloud_computing",
+      "type": "collective",
+      "title": "Облачные вычисления",
+      "titleHtml": "Облачные вычисления",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "6398",
+      "alias": "it-infrastructure",
+      "type": "collective",
+      "title": "IT-инфраструктура",
+      "titleHtml": "IT-инфраструктура",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/31/da/3d/31da3d74e813c39ace572544c2f0124a.png\" width=\"665\" height=\"519\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/31/da/3d/31da3d74e813c39ace572544c2f0124a.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/31/da/3d/31da3d74e813c39ace572544c2f0124a.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Хостинг-провайдер ESTT <a href=\"https://t.me/dcestt/276\" rel=\"noopener nofollow\">сообщил</a> о причинах аварии 8 ноября и текущем ходе восстановления сервисов. По предварительным данным, причиной аварии стала кибератака с использованием программы-шифровальщика. В результате пострадали кластеры виртуализации и системы управления облачной инфраструктурой ESTT, что привело к нарушению работы клиентских сервисов.</p><blockquote><p>При этом выделенные физические серверы клиентов не пострадали и продолжают работать в штатном режиме. Основные последствия атаки затронули именно облачную инфраструктуру.</p><p>По имеющейся на данный момент информации, признаков утечки клиентских данных не выявлено.</p><p>С момента обнаружения атаки наши инженеры работают круглосуточно. За это время удалось восстановить значительную часть инфраструктуры и постепенно вернуть клиентские серверы в работу.</p><p>На данный момент восстановлено 90% клиентских виртуальных серверов. Работы по восстановлению остальных продолжаются. Личный кабинет пока остаётся недоступен. О восстановлении доступа сообщим отдельно.</p><p>За каждым сервером стоят сайты, приложения и рабочие процессы наших клиентов. Поэтому сейчас все силы команды сосредоточены на том, чтобы как можно быстрее вернуть ваши сервисы в работу.</p><p>Точные сроки полного восстановления пока назвать не можем. Будем регулярно сообщать о ходе работ и новых результатах.</p></blockquote><p>Ранее в ESTT <a href=\"https://habr.com/ru/news/1105262/\" rel=\"noopener nofollow\">сообщили</a> о серьёзном техническом сбое в работе своей IT-инфраструктуры. Часть клиентских сервисов в компании удалось оперативно восстановить, однако инженерная команда хостинга продолжает работы по стабилизации инфраструктуры. Личный кабинет недоступен, и пополнить баланс не получается. Точное время восстановления сервисов в компании пока, к сожалению, назвать не могут. «Часть серверов уже удалось восстановить, продолжаем запуск остальных. Восстановление клиентских серверов сейчас наш главный приоритет», — заявили в ESTT.</p><blockquote><p>Нашим инженерам <a href=\"https://t.me/dcestt/275\" rel=\"noopener nofollow\">удалось восстановить</a> значительную часть инфраструктуры. Виртуальные серверы постепенно запускаются, восстанавливается их сетевая доступность.</p><p>Наша команда работает круглосуточно, в том числе всю прошедшую ночь. Сейчас для нас самое важное — как можно быстрее вернуть в работу ваши серверы и сервисы. На этом сосредоточены все наши силы.</p><p>Мы знаем, что многие из вас ждут новостей о своих серверах. В ближайшее время мы опубликуем официальное заявление компании с подробной информацией о причинах аварии и ходе восстановления.</p><p>Личный кабинет пока недоступен. О возобновлении его работы сообщим отдельно.</p></blockquote></div>",
+  "tags": [
+    {
+      "titleHtml": "estt"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105374/2bcff64231952fd885643de7a3b703d4/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105374/2bcff64231952fd885643de7a3b703d4/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105374\\/\"},\"headline\":\"Хостинг‑провайдер ESTT: причина сбоя инфраструктуры — кибератака с использованием программы‑шифровальщика\",\"datePublished\":\"2026-11-09T11:52:16+03:00\",\"dateModified\":\"2026-11-09T12:58:14+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Хостинг-провайдер ESTT сообщил о причинах аварии 8 ноября и текущем ходе восстановления сервисов. По предварительным данным, причиной аварии стала кибератака с...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105374\\/#post-content-body\",\"about\":[\"h_infosecurity\",\"h_network_hardware\",\"h_network_technologies\",\"h_cloud_computing\",\"h_it-infrastructure\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/31\\/da\\/3d\\/31da3d74e813c39ace572544c2f0124a.png\"]}",
+    "metaDescription": "Хостинг-провайдер ESTT сообщил о причинах аварии 8 ноября и текущем ходе восстановления сервисов. По предварительным данным, причиной аварии стала кибератака с использованием программы-шифровальщика....",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

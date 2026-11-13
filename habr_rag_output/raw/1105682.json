@@ -1,0 +1,209 @@
+{
+  "id": "1105682",
+  "timePublished": "2026-11-09T19:16:05+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Про Кубернетес, LinuxONE и мэйнфрэймы",
+  "leadData": {
+    "textHtml": "<p>  Стоит мне зайти на Хабр и ответить на пару комментариев, опубликовать пост про бэкенд и мое отношение к этому, сразу появляется старый или новый тундрюг и начинает поливать тему МФ первобытной, пещерной злобой. Приэтом используются данные почти 30-летней давности. </p><p>  Мой ответ на один такой комментарий к моему, казалось бы, безодидному посту вылился в объем, не вписывающийся в пост. Пришлось оформлять его как статью. </p><p>  Цитаты ниже на русском языке  - это из комментария на мой пост.  </p>",
+    "imageUrl": "https://habrastorage.org/extt/c6/05/bd/c605bd283911bdacd4d0952866619acd.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/c6/05/bd/c605bd283911bdacd4d0952866619acd.jpg",
+      "fit": "cover",
+      "positionY": 80,
+      "positionX": 2
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5082783",
+    "alias": "zVlad909",
+    "fullname": "Vladimir Bouilov",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/925/577/06b/92557706b177387565986b95523ea19d.jpeg",
+    "speciality": "Специалист ИТ широкого профиля.",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 22,
+      "votesCount": 86
+    },
+    "rating": 8.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 26,
+    "favoritesCount": 2,
+    "readingCount": 749,
+    "score": 8,
+    "votesCount": 9,
+    "votesCountPlus": 7,
+    "votesCountMinus": 2,
+    "reach": 9736,
+    "readers": 512
+  },
+  "hubs": [
+    {
+      "id": "23270",
+      "alias": "os",
+      "type": "collective",
+      "title": "Операционные системы",
+      "titleHtml": "Операционные системы",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21470",
+      "alias": "cloud_services",
+      "type": "collective",
+      "title": "Облачные сервисы",
+      "titleHtml": "Облачные сервисы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17350",
+      "alias": "s_admin",
+      "type": "collective",
+      "title": "Серверное администрирование",
+      "titleHtml": "Серверное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "5767",
+      "alias": "system_programming",
+      "type": "collective",
+      "title": "Системное программирование",
+      "titleHtml": "Системное программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20742",
+      "alias": "read",
+      "type": "collective",
+      "title": "Читальный зал",
+      "titleHtml": "Читальный зал",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Стоит мне зайти на Хабр и ответить на пару комментариев, опубликовать пост про бэкенд и мое отношение к этому, сразу появляется старый или новый тундрюг и начинает поливать тему МФ первобытной, пещерной злобой. Приэтом используются данные почти 30-летней давности. </p><p>Мой ответ на один такой комментарий к моему, казалось бы, безодидному посту вылился в объем, не вписывающийся в пост. Пришлось оформлять его как статью. </p><p>Цитаты ниже на русском языке это из комментария на мой пост. </p><blockquote><p>никто не строит инфру на мейнфреймах....</p></blockquote><p>не надо говорить за всех. Если бы не использовали, то ИБМ не мог бы тратить миллиарды долларов на развитие новых и новых линеек мэйнфрэймов. Самая поздняя, и не последняя, линейка — z17 аннонсирована в апреле 2025, IBM LinuxONE Rockhopper 5 аннонсирована в июле 2026. Следующая дата релиза новой линейки предполагается быть в 2028:</p><blockquote><p><strong>IBM has not announced an official release date</strong> for the z18, though industry expectations and IBM's typical three‑year product cadence point to a <strong>2028</strong> release. [<a href=\"https://www.jonpeddie.com/news/ibm-unveils-dual-architecture-mainframe-chip/\" rel=\"noopener nofollow\">1</a>, <a href=\"https://www.servnetuk.com/news/ibm-dual-architecture-processor-mainframe-2026\" rel=\"noopener nofollow\">2</a>]</p><ul><li><p><strong>Processor Preview:</strong> IBM unveiled its <strong>next‑generation</strong> dual‑architecture processor (<strong>anticipated to power the z18)</strong> at the Hot Chips conference in August 2026. [<a href=\"https://newsroom.ibm.com/2026-08-24-ibm-unveils-next-generation-dual-architecture-processor-for-ibm-z-and-linuxone\" rel=\"noopener nofollow\">1</a>, <a href=\"https://www.itjungle.com/2026/08/31/will-power-chips-get-a-converged-arm-instruction-set-like-z-mainframe-cpus/\" rel=\"noopener nofollow\">2</a>]</p></li><li><p><strong>Technology:</strong> The new chip is built on a 2-nanometer node with 11 high‑performance cores running above 5.7 GHz, featuring native execution of both Arm and z/Architecture instructions. [<a href=\"https://www.tomshardware.com/pc-components/cpus/ibms-first-dual-isa-core-natively-executes-arm-and-z-architecture-in-the-same-core-all-cores-run-at-5-7-ghz-base-frequency-next-gen-mainframe-ai-processor-is-built-on-2nm-node-with-11-cores\" rel=\"noopener nofollow\">1</a>, <a href=\"https://newsroom.ibm.com/2026-08-24-ibm-unveils-next-generation-dual-architecture-processor-for-ibm-z-and-linuxone\" rel=\"noopener nofollow\">2</a>]</p></li><li><p><strong>Cadence:</strong> Following the launch of the <a href=\"https://www.ibm.com/support/pages/zvm/news/announcements/hardware.html\" rel=\"noopener nofollow\">IBM z17</a> in 2025, a roughly three‑year cycle places the next major generation around 2028. [<a href=\"https://www.ibm.com/support/pages/zvm/news/announcements/hardware.html\" rel=\"noopener nofollow\">1</a>, <a href=\"https://www.servnetuk.com/news/ibm-dual-architecture-processor-mainframe-2026\" rel=\"noopener nofollow\">2</a>]</p></li></ul></blockquote><p>Так что сидите там в вашей пещерке и ворчите, сколько хотите, а те кто понимает, будут использовать самые эффективные и на самом деле самые экономичные сервера в современном ИТ. </p><blockquote><p>то что IBM рассказывает про 1:9 это просто ложь, на деле IBM запрещает показывать результаты тестов </p></blockquote><p>Компания, где я работаю вот уже 27 лет, провела прекрасный тест на эту тему. Конечно, его результаты нигде не публиковались, но я вам вкратце расскажу о результатах. </p><p>На небольшом МФ уровня 2013 года выполнялось ядро (БД, сервера бизнес транзакций) всех инстанцев этого приложения: Продакшн, Девелопмент, Юзер Тест, трайнинг, песочницы. Все на одном МФ.</p><p>Параметры того МФ были такие: 1000 MIPS, 4 процессорных ядра (с заниженой производителностью) 32 ГБ RAM. Можете сами посмотреть параметры, набрав в Google строку zBС12-O04.</p><p>В 2022 году это приложение было переведено в Azure — облако Микрософта. БД Оракл была куплена за 2 млн. USD. Под каждый инстанс БД приложения свой сервер х86-64, продакшн на 8 ядрах 16 потоков и 256 ГБ RAM. Масса, десятки, серверов приложений, принт сервера, батч серевера. На МФ все это выполнялось на одном и том же МФ. Масса людей обслуживающих эту инфраструктуру и ежемесячные биллы от Микрософт за каждый чих и обслуживание в Azure. Во времена жизни этого приложения на МФ всю инфраструктуру ядра приложения обслуживал я один. И перенос данных из DB2 на Oracle тоже выполнил я. С помощью IBM InfoSphere Data Replication.</p><p>Как вам такой тест? Не нравится? То‑то и оно. 4 процессорных ядра МФ с задавленной производителностью, 32 ГБ RAM (24 ГБ под Продакшн и 8 ГБ тест, дев, трайнинг, QA) против десятков х86-64 серверов с десятками, если не сотней ядер. Этим летом завершался двухлетний апргрейд приложения. Для этого было создано <strong>50 серверов</strong> в параллель с имеющимися сколько‑то для того чтобы перекинуться и выполнить апгрейд. На МФ апгрейды приложения, самого МФ, ОС и БД проводились независимо друг от друга по мере необходимости. Как правило, за несколько дней. Два года с лишним шел апргейд этого же приложения в облаке Azure. Это само по себе сумашедшие деньги. Десятки людей были вовлечены в этот процесс, и я тоже должен был участвовать, но сроки переносились и вышли на мой отпуск. Пришлось перед отпуском передавать мою часть работы ДБА. </p><blockquote><p>Spark и Power еще в 90 х разнромили по перфоменсу мейнфрейм, а потом были поверженны и x86. </p></blockquote><p>Ну где эти ваши Spark Power? </p><p>В Вашей пещере надо обновить календарь — на дворе 2026 год заканчивается. Ау. </p><blockquote><p>. и попытками добится от IBM внятного прайс листа. </p></blockquote><p>Начнем с конца, с прайс‑листа (могли бы сами погуглить. В вашей пещере нет доступа к Google AI. Понимаю. Спешу на помощь):</p><blockquote><p>The entry‑level <strong>IBM LinuxONE 5 Express</strong> starts at a published price of <strong>USD $165,000</strong>. [<a href=\"https://www.ibm.com/products/linuxone-5\" rel=\"noopener nofollow\">1</a>]</p><p>Key Pricing &amp; Configuration Details</p><ul><li><p><strong>IBM LinuxONE 5 Express:</strong> Designed as a right‑sized, rack‑mountable entry point that fits into a standard 19-inch data center rack with standard power and cooling. It starts at <strong>USD $165,000</strong> with a preconfigured bill of materials.</p><p>........</p><p> You can explore official specifications and product options directly on the <a href=\"https://www.ibm.com/products/linuxone-5\" rel=\"noopener nofollow\">IBM LinuxONE 5 Product Page</a>. </p><p>The architectural sizing and resource scaling for the <strong>IBM LinuxONE 5</strong> family span from single‑rack edge configurations to massive, multi‑frame enterprise cores.</p><p>Model</p><p>Approximate Scale &amp; Max Core CountBest Fit / Core Use Case</p></li><li><p><strong>LinuxONE 5 ExpressUp to 16 cores</strong> (Single frame / 19\" rack‑mount). Small‑to‑medium businesses, localized edge computing, or entry‑level x86 consolidation.</p></li><li><p><strong>LinuxONE Rockhopper 5Up to 68 cores</strong> (Single‑frame system)Mid‑market enterprise workloads, large database hosting, and regional hybrid cloud hubs.</p></li><li><p><strong>LinuxONE Emperor 5Up to 200+ cores</strong> (Multi‑frame footprint)Global banking, massive transaction processing, and hyperscale x86 server consolidation.</p><p>......</p><p>Understanding the Consolidation Power</p><p>Mainframe cores scale differently than standard commodity hardware. Because of specialized on‑chip accelerators and extreme I/O bandwidth, <strong>a single IBM LinuxONE core can often replace dozens of standard x86 distributed cores</strong></p><p> for data‑heavy workloads.</p><p>For instance, an entry‑level 16-core Express model can seamlessly consolidate hundreds of average virtual machines running on legacy x86 hardware.</p></li></ul><p>.........</p><p>The Core Multiplier Effect on Oracle Licensing</p><p>Oracle Database is notoriously expensive to license on commodity x86 hardware because it requires a license for every core it touches. LinuxONE changes this math significantly:</p><ul><li><p><strong>The 10:1 (or higher) Consolidation Ratio:</strong> Because LinuxONE 5 features massive on‑chip caches and dedicated I/O processors, <strong>1 LinuxONE core frequently replaces 10 to 20 x86 cores</strong> for heavy Oracle workloads.</p></li><li><p><strong>Slashing Software Costs:</strong> By shrinking your physical core footprint, you can drastically reduce your Oracle Processor license requirements. In many enterprise migrations, the software licensing savings alone completely pay for the LinuxONE hardware within the first year.</p></li></ul></blockquote><p>Вы скажите что х86 и х86-64 это разные процессора. Согласен. Но дело в том что из‑за парадигмы рапределнности с ростом мощности отдельного х86 чипа количество серверов не меняется, консолидации не происходит. Разве только в тестовых установка, но не в продакшн. Приэтом более мощные сервера на х86 просто простаивают долше чем менее мощные. Я выше говорил про 50 серверов под приложение ранее выполнявшееся на одном МФ. </p><p>Парадигма МФ это максимальное использование ресурсов одиночного сервера. Это достигается высокой степенью совместного использования ресурсов через LPAR и/или виртуальные машины под zVM. </p><p>В итоге из тех 50 серверов в каждый момент времени 40 ничего не делают, сервер БД (он один) упахивается и все бы это можно было бы сократить. Но нет: решение делается такое, что задействуются 50 серверов. Они могут быть виртуальными, но виртуализация на х86 это все теже ядра, закрепленные за каждой виртуальной машиной, память, диски. </p><blockquote><p>Сила кубера в стандартах. Когда я говорю, что будет кубер, все вокруг четко понимают, что произойдет, если датацентр отключится, откуда возьмутся спецы, откуда возьмется поддержка софта и библиотек. Все понимают, что любой ии сходу подготовит план равертывания и все инструкции вместе с кодом. а с мф люди покрутят у виска, прекрасно понимая, что ни один спец с этой древностью не станет связыватся и все сдохнет еще этапе найма спецов</p></blockquote><p>Хотите использовать МФ с Кубером? Пожалуйста, используйте RedHat OpenShift. LinuxONE это МФ для ОС Linux и zVM. Все спецы по этой платформе с ходу могут начать работать на LinuxONE, даже не зная, что это не х86-64. ИБМ один раз придет, поставит LinuxONE, сконфигурирует по заказу и вперед. Никаких специальных специалистов по МФ это не требует. zVM — виртуальные машины, с которыми одно удовольствие работать. Гораздо приятнее чем все что есть на х86-64 для этого. Кроме того, гораздо эффективней, чем VMware и/или HyperV.</p><p>Дата центр, говорите, отключится. Много лет участвовал со своим МФ в ДР тестах в нашей компании наряду с другим под х86-64. Переход приложения МФ на ДР сайт занимал максимум час. И два дня (обычно это делалось в выходные) возились с приложениями на х86-64. Причем МФ продакшн диски мирорились на ДР сайт, где стоял второй наш МФ и выполнял другое продакшн приложения. Т.е. для ДР не держались отдельные ресурся МФ. Это были те же самые ресурсы, что использовались другим приложением. </p><p>Сейчас в Azure у нас два комплекта серверов. Не знаю, как там сервера приложений, но БД Оракл на ДР сайте это такой же вервер, как основной, и на нем stand‑by Оракл (Active Data Guard), за который постоянно платятся деньги и который никакой полезной работы не выполняет. Вот Вам, батенька, и х86-64. Деньги на ветер. </p></div>",
+  "tags": [
+    {
+      "titleHtml": "LinuxONE"
+    },
+    {
+      "titleHtml": "IBM mainframe"
+    },
+    {
+      "titleHtml": "Disaster Recovery"
+    },
+    {
+      "titleHtml": "Сравнение LinuxONE и Azure"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105682/de3513b4157c7b6addc4a2f7a49f4b33/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105682/de3513b4157c7b6addc4a2f7a49f4b33/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105682\\/\"},\"headline\":\"Про Кубернетес, LinuxONE и мэйнфрэймы\",\"datePublished\":\"2026-11-09T22:16:05+03:00\",\"dateModified\":\"2026-11-10T02:22:56+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Стоит мне зайти на&nbsp;Хабр и ответить на&nbsp;пару комментариев, опубликовать пост про&nbsp;бэкенд и мое отношение к&nbsp;этому, сразу появляется старый...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105682\\/#post-content-body\",\"about\":[\"h_os\",\"h_cloud_services\",\"h_s_admin\",\"h_system_programming\",\"h_read\",\"f_develop\",\"f_admin\",\"f_management\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105682\\/de3513b4157c7b6addc4a2f7a49f4b33\\/\"]}",
+    "metaDescription": "Стоит мне зайти на&nbsp;Хабр и ответить на&nbsp;пару комментариев, опубликовать пост про&nbsp;бэкенд и мое отношение к&nbsp;этому, сразу появляется старый или&nbsp;новый тундрюг и начинает поливать...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": true,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 7,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,198 @@
+{
+  "id": "1106296",
+  "timePublished": "2026-11-10T20:39:20+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Что каждый программист должен знать о переполнении стекового буфера",
+  "leadData": {
+    "textHtml": "<p>Прикладное руководство, помогающее с&nbsp;азов понять, как&nbsp;организованы атаки с&nbsp;переполнением стекового буфера под&nbsp;Windows. Ведь по&nbsp;Unix‑подобным системам таких разборов уже хватает.</p>",
+    "imageUrl": "https://habrastorage.org/extt/cb/a4/79/cba47924d9f8afc9d1ad34a6b58bac57.webp",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/cb/a4/79/cba47924d9f8afc9d1ad34a6b58bac57.webp",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 5
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "translation",
+      "typeOf": "system",
+      "title": "Перевод",
+      "data": {
+        "originalAuthorName": "Brocbyte",
+        "originalUrl": "https://brocbyte.substack.com/p/what-every-programmer-should-know"
+      }
+    }
+  ],
+  "author": {
+    "id": "2793727",
+    "alias": "Sivchenko_translate",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 372,
+      "votesCount": 478
+    },
+    "rating": 21.6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 39,
+    "readingCount": 2860,
+    "score": 20,
+    "votesCount": 18,
+    "votesCountPlus": 16,
+    "votesCountMinus": 2,
+    "reach": 13330,
+    "readers": 1982
+  },
+  "hubs": [
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17716",
+      "alias": "debug",
+      "type": "collective",
+      "title": "Отладка",
+      "titleHtml": "Отладка",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21456",
+      "alias": "win_dev",
+      "type": "collective",
+      "title": "Windows",
+      "titleHtml": "Windows",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Прикладное руководство, помогающее с азов понять, как организованы атаки с переполнением стекового буфера под Windows. Ведь по Unix‑подобным системам таких разборов уже хватает.</p><p>Все знают, что ничем не ограниченный код scanf — это плохо. Но почему?</p><h2>Проблема</h2><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d0/60/d0/d060d0a6395d16a476e7d4c7bc8d76ce.png\" width=\"796\" height=\"756\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d0/60/d0/d060d0a6395d16a476e7d4c7bc8d76ce.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d0/60/d0/d060d0a6395d16a476e7d4c7bc8d76ce.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Что ж, пока ИИ нас не заменил.</p><p>Код вопиёт:</p><p>Так нельзя! Вы в зоне риска! Мы все умрём!</p><p>Это вполне ясно и оправданно: действительно, так делать нельзя. Если размер буфера не указать, то scanf запишет данные и за его пределами, если ввод не умещается в буфер. Из‑за такой ошибки, именуемой «переполнением буфера» (buffer overflow), агрессивный злоумышленник может наделать самых <em>гнусных</em> дел. </p><p>Но каких именно? Что случится, если кто‑то <s>точно не вы</s> заронит что‑то подобное в базу кода? </p><p>Согласно сайту <a href=\"http://cppreference.com\" rel=\"noopener nofollow\"><strong>cppreference.com</strong></a>, спецификатор формата <code>%s</code> в scanf подбирает последовательность символов, не содержащих пробелов и сохраняет их в буфере, предоставленном пользователем, добавляя нулевой символ (<code>‘\\0’</code>). Так формируется строка, завершённая нулём. </p><p>Таким образом, если кто‑то введёт строку в формате «ABCDEFG» при <code>length=7</code> — всё нормально. Вот как она расположится в памяти:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/28/bf/97/28bf97d2f43999aa5d536d0d931002ad.png\" alt=\"Нормальное заполнение буфера    \" title=\"Нормальное заполнение буфера    \" width=\"1456\" height=\"656\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/28/bf/97/28bf97d2f43999aa5d536d0d931002ad.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/28/bf/97/28bf97d2f43999aa5d536d0d931002ad.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Нормальное заполнение буфера </figcaption></div></figure><p>Если в подаваемую на вход строку вставить дополнительный символ, например, <code>‘H’</code>, то <code>scanf</code> спровоцирует переполнение буфера. Если не учитывать размер буфера (<code>buff</code>), то <code>scanf</code> легко запишет данные сверх выделенного объёма. Поэтому она затрёт нулём первый байт <code>‘0x5b’</code> смежной структуры данных, следующей далее:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/13/95/b2/1395b2298ef9aadef9577bdb1eeabdb4.png\" alt=\"Неправильное заполнение буфера: один байт выплеснулся!    \" title=\"Неправильное заполнение буфера: один байт выплеснулся!    \" width=\"1456\" height=\"599\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/13/95/b2/1395b2298ef9aadef9577bdb1eeabdb4.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/13/95/b2/1395b2298ef9aadef9577bdb1eeabdb4.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Неправильное заполнение буфера: один байт выплеснулся! </figcaption></div></figure><p>Переполнение буфера — серьёзная проблема, поскольку при этом затирается прилегающая память. Поскольку память непрерывна, могут быть повреждены чувствительные данные, сохранённые вплотную к буферу — например, <strong>пароли</strong> или <strong>финансовая информация</strong>. Это само по себе опасно, но злоумышленник может и далее эксплуатировать допущенное переполнение, например, для выполнения произвольного кода. </p><h2>Модель памяти</h2><p>Прежде, чем продолжать тему, давайте кратко рассмотрим, как именно объекты занимают области памяти.</p><p>Память можно представить как огромный массив байт и для удобства изобразить в виде прямоугольника. На отдельные байты можно ссылаться по их адресу, обеспечивая таким образом доступ для чтения/записи:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/89/01/d7/8901d78bb7c4923aafd5377c3963bfd5.png\" alt=\"Небольшой фрагмент памяти размером 64 байта    \" title=\"Небольшой фрагмент памяти размером 64 байта    \" width=\"1456\" height=\"968\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/89/01/d7/8901d78bb7c4923aafd5377c3963bfd5.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/89/01/d7/8901d78bb7c4923aafd5377c3963bfd5.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Небольшой фрагмент памяти размером 64 байта </figcaption></div></figure><p>В реальности обычно приходится оперировать гораздо более крупными участками памяти, чем показанные здесь 64 байта, но принципиально ситуация не меняется. </p><p>Далее: память делят на сегменты, имеющие разное назначение:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/1e/f7/8e/1ef78e002ac5d8ce0a8430d8d47240ce.png\" alt=\"Компоновка памяти процесса    \" title=\"Компоновка памяти процесса    \" width=\"1456\" height=\"847\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1e/f7/8e/1ef78e002ac5d8ce0a8430d8d47240ce.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/1e/f7/8e/1ef78e002ac5d8ce0a8430d8d47240ce.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Компоновка памяти процесса </figcaption></div></figure><p>Как видите, наш объект <code>buff</code> занимает область в <em>стеке</em>. Также в стеке хранятся другие категории данных, и на одной из них мы остановимся как на особенно интересной.</p><p>В памяти хранятся как данные, так и код (запрограммированные инструкции), и процессору необходимо их различать.</p><h2>Ассемблерные инструкции</h2><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a1/66/76/a16676ff1e9a331dc1374a71d6fbd255.png\" alt=\"Процесс компиляции    \" title=\"Процесс компиляции    \" width=\"1456\" height=\"1535\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a1/66/76/a16676ff1e9a331dc1374a71d6fbd255.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/a1/66/76/a16676ff1e9a331dc1374a71d6fbd255.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Процесс компиляции </figcaption></div></figure><p>Компилятор обрабатывает ваш исходный код, преобразует в <strong>ассемблерный</strong> код, который затем преобразует в машинный код.</p><p>Как показано на картинке выше, каждая ассемблерная инструкция кодируется в одном или более байтах. Например, инструкция <code>sub rsp</code>, 8 представляется как последовательность байт <code>[0x48, 0x83, 0xec, 0x08]</code>, тогда как инструкция<code> ret</code> кодируется единственным байтом <code>0xc3</code>. Кодирует её таким образом компилятор. В ходе выполнения программы процессор декодирует эти инструкции, определяя, что нужно сделать.</p><p>Далее машинный код вновь собирается в исполняемый файл (с расширением.exe), служащий удобным представлением программы.</p><h2>Процессор работает</h2><p>Процессор выполняет машинный код, сгенерированный компилятором. Для этого используется регистр <code>RIP</code> (указатель инструкций), в котором хранится адрес инструкции, выполняемой в настоящий момент. Регистр RIP определяет, какую инструкцию выполнять следующей. Когда пользователь запускает исполняемый файл, процессор инициализирует <code>RIP</code> в начальное значение:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/98/d3/b2/98d3b252cd48642967f6c8b7edcf545f.png\" alt=\"Значение RIP при запуске программы    \" title=\"Значение RIP при запуске программы    \" width=\"1456\" height=\"1085\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/98/d3/b2/98d3b252cd48642967f6c8b7edcf545f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/98/d3/b2/98d3b252cd48642967f6c8b7edcf545f.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Значение RIP при запуске программы </figcaption></div></figure><p>Процессор выполняет инструкции одну за другой, последовательно. Выполнив <code>instruction #1</code>, указатель инструкций <code>RIP</code> переходит к следующей инструкции вот так: </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/fd/02/89/fd0289bbc2ad904ac19eaaf1f33e02f4.png\" alt=\"Значение RIP после выполнения первой инструкции    \" title=\"Значение RIP после выполнения первой инструкции    \" width=\"1456\" height=\"1098\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/fd/02/89/fd0289bbc2ad904ac19eaaf1f33e02f4.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/fd/02/89/fd0289bbc2ad904ac19eaaf1f33e02f4.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Значение RIP после выполнения первой инструкции </figcaption></div></figure><p>В правиле последовательного выполнения есть ряд ключевых исключений — например, по поводу инструкции <code>call</code>, при помощи которой вызывается функция. Как правило, адрес целевой функции кодируется <strong>прямо </strong>внутри инструкции. Когда процесс встречает инструкцию <code>call</code>, он обновляет <code>RIP</code> до её адреса, передавая управление в начале целевой функции:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/74/7b/4d/747b4db486e90532bedefffbf4a4c651.png\" alt=\"RIP сквозь выполнение ‘call’    \" title=\"RIP сквозь выполнение ‘call’    \" width=\"1456\" height=\"991\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/74/7b/4d/747b4db486e90532bedefffbf4a4c651.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/74/7b/4d/747b4db486e90532bedefffbf4a4c651.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>RIP сквозь выполнение «call» </figcaption></div></figure><h2>Стек</h2><p>Ранее мы уже видели стек, когда рассматривали модель компоновки памяти: </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/3f/46/8d/3f468dc06d4076dfdb34f7d245ad223c.png\" alt=\"Стек    \" title=\"Стек    \" width=\"1456\" height=\"1032\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3f/46/8d/3f468dc06d4076dfdb34f7d245ad223c.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/3f/46/8d/3f468dc06d4076dfdb34f7d245ad223c.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Стек </figcaption></div></figure><p>Стек работает как структура данных вида LIFO (последним пришёл — первым обслужен). Например, если мы укладываем в стек 8-байтный сегмент данных, то память под него выделяется из числа байт, расположенных в области «свободной памяти»:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/b6/5c/d0/b65cd018874b120518fc9cfc63f40767.png\" alt=\"Так меняется компоновка памяти в результате инструкции push \" title=\"Так меняется компоновка памяти в результате инструкции push \" width=\"1456\" height=\"892\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b6/5c/d0/b65cd018874b120518fc9cfc63f40767.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/b6/5c/d0/b65cd018874b120518fc9cfc63f40767.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Так меняется компоновка памяти в результате инструкции push </figcaption></div></figure><p>Затем можно вытолкнуть значение из стека, вернув выделенную под него память и увеличив область свободной памяти:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/43/60/a3/4360a3e80a436273d293080074782782.png\" alt=\"Освобождённая память вновь в нашем распоряжении!\" title=\"Освобождённая память вновь в нашем распоряжении!\" width=\"1456\" height=\"892\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/43/60/a3/4360a3e80a436273d293080074782782.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/43/60/a3/4360a3e80a436273d293080074782782.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Освобождённая память вновь в нашем распоряжении!</figcaption></div></figure><h2>Кадр функции</h2><p>Стек управляет вызовами функций, локальными переменными и потоком управления. При вызове функции создаётся новый кадр стека. Например, при вызове функции (<code>0x07</code>) требуется выделить 4 байта (показаны красным) для аргумента (но в некоторых архитектурах аргументы передаются через регистры), 4 байта (синим) для локальной переменной b и 8 байт для <strong>адреса возврата</strong>.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/14/9f/38/149f385547ab3cc04a0e4123dd416c66.png\" alt=\"Кадр функции\" title=\"Кадр функции\" width=\"1456\" height=\"892\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/14/9f/38/149f385547ab3cc04a0e4123dd416c66.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/14/9f/38/149f385547ab3cc04a0e4123dd416c66.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Кадр функции</figcaption></div></figure><h2>Адрес возврата</h2><p>На большинстве платформ <strong>адреса возврата</strong> хранятся бок о бок с данными функции. Чтобы объяснить, зачем нужны такие адреса, необходимо сначала определить, что такое <em>соглашение о вызовах</em>.</p><p>Инструкция <code>call</code> передаёт управление по другому адресу, но как происходит возврат управления? Когда функция вызывается с применением инструкции <code>call</code>, эта функция выполняется, может вернуть значение, а затем возобновляет выполнение с инструкции, следующей за вызовом:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/5e/7c/93/5e7c93592c7f5d07a5aa656a8736bb3a.png\" width=\"1456\" height=\"404\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/5e/7c/93/5e7c93592c7f5d07a5aa656a8736bb3a.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/5e/7c/93/5e7c93592c7f5d07a5aa656a8736bb3a.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Инструкция ret (возврат) должна определить, куда направить управление (т.e., куда должен указывать <code>RIP</code>). Но как? В отличие от инструкции call, кодирующей адрес целевой функции, инструкция ret занимает всего один байт (<code>0xc3</code>) и такого адреса не содержит.</p><p>Ответить на этот вопрос поможет инструкция call. Инструкция <code>call</code> просто задаёт в качестве значения <code>RIP</code> тот адрес, по которому начинается целевая функция: сначала записывает в стек адрес следующей инструкции. Когда функция (напр., <code>f</code>) завершает работу, инструкция <code>ret</code> выталкивает этот адрес и обновляет <code>RIP</code> так, чтобы он на него указывал. Этим процессом управляет соглашение о вызовах, которое варьируется от архитектуры к архитектуре.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/61/52/3b/61523bd219d01c46bbe4ebee41142aad.png\" alt=\"Цепочка call-ret: RIP и стек    \" title=\"Цепочка call-ret: RIP и стек    \" width=\"1200\" height=\"632\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/61/52/3b/61523bd219d01c46bbe4ebee41142aad.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/61/52/3b/61523bd219d01c46bbe4ebee41142aad.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Цепочка call‑ret: RIP и стек </figcaption></div></figure><h2>(Ещё не) эксплойт</h2><p>Довольно слов — попробуем сами провернуть атаку!</p><p>Как мы обсудили выше, при атаке через переполнение буфера именно адрес возврата будет нашей основной целью. При помощи scanf злоумышленник может затереть адрес возврата, потенциально расположенный прямо за пространством, выделенным под буфер. Так можно перенаправить управление программой и выполнить вредоносный код.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/53/29/6f/53296fb45d7ff8ea03ee681f07db9d39.png\" alt=\"Буфер и адрес возврата в памяти.    \" title=\"Буфер и адрес возврата в памяти.    \" width=\"1456\" height=\"1076\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/53/29/6f/53296fb45d7ff8ea03ee681f07db9d39.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/53/29/6f/53296fb45d7ff8ea03ee681f07db9d39.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Буфер и адрес возврата в памяти. </figcaption></div></figure><p>Давайте углубимся в эту задачу и научимся обращаться с <strong>WinDbg</strong>, хакерским отладчиком Windows. О том, как его установить, рассказано <a href=\"https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/\" rel=\"noopener nofollow\">здесь</a>. Далее выполним следующие шаги:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f7/ee/e5/f7eee5f1ae32340205a41f99bdd83829.png\" width=\"1456\" height=\"1072\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f7/ee/e5/f7eee5f1ae32340205a41f99bdd83829.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/f7/ee/e5/f7eee5f1ae32340205a41f99bdd83829.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Когда сделаете всё это, перед вами должно открыться примерно такое окно:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f8/99/3c/f8993c924f35b8acb7af9c660554f296.png\" alt=\"Расположение секций Windbg    \" title=\"Расположение секций Windbg    \" width=\"1200\" height=\"538\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f8/99/3c/f8993c924f35b8acb7af9c660554f296.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/f8/99/3c/f8993c924f35b8acb7af9c660554f296.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Расположение секций Windbg </figcaption></div></figure><p>WinDbg управляется преимущественно через командную строку, но и в её пользовательском интерфейсе есть удобные функции. В этой статье сосредоточимся на командной строке, чтобы обеспечить согласованные и воспроизводимые результаты. Ниже — краткое руководство по доступным командам:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/62/85/f6/6285f6d311f1ab79a836e6629a5baef7.png\" width=\"1456\" height=\"944\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/62/85/f6/6285f6d311f1ab79a836e6629a5baef7.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/62/85/f6/6285f6d311f1ab79a836e6629a5baef7.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/03/7d/9c/037d9c576eaefb79275e1c00228228b0.png\" width=\"1456\" height=\"891\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/03/7d/9c/037d9c576eaefb79275e1c00228228b0.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/03/7d/9c/037d9c576eaefb79275e1c00228228b0.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В окне Command введём команду <code>‘bp main!main’</code>, затем нажмём Ввод, а потом — <code>‘g’</code>:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/3b/bc/a1/3bbca1342ff672f95697f5a0959114b4.png\" alt=\"Окно Command \" title=\"Окно Command \" width=\"595\" height=\"393\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3b/bc/a1/3bbca1342ff672f95697f5a0959114b4.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/3b/bc/a1/3bbca1342ff672f95697f5a0959114b4.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Окно Command </figcaption></div></figure><p>Эта последовательность команд задаёт точку останова (<code>bp</code>) в самом начале функции <code>main</code>, а затем возобновляет выполнение, чтобы попасть в неё.</p><p>В окне Disassembly должно отобразиться начало функции <code>main</code> так, как показано ниже:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/24/37/98/243798603513a030ef17f162c9043d2c.png\" alt=\"Окно Disassembly\" title=\"Окно Disassembly\" width=\"1200\" height=\"518\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/24/37/98/243798603513a030ef17f162c9043d2c.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/24/37/98/243798603513a030ef17f162c9043d2c.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Окно Disassembly</figcaption></div></figure><p>Кроме того, при помощи команд «<code>x buff</code>» и «<code>db buff</code>» можно узнать, что содержится в <code>buff</code>, и где именно в памяти она находится:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a8/3e/36/a83e36461db1e7cd5307ea3cc6d798bc.png\" alt=\"Память buff в начале функции main()    \" title=\"Память buff в начале функции main()    \" width=\"1200\" height=\"239\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a8/3e/36/a83e36461db1e7cd5307ea3cc6d798bc.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/a8/3e/36/a83e36461db1e7cd5307ea3cc6d798bc.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Память buff в начале функции main() </figcaption></div></figure><p>Краткая справка по командам <code>x/db</code> (позже будет скомпонована в единый файл image‑helper вместе с предыдущими командами):</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f5/c1/44/f5c14457713b2efbc141d21d919c83e7.png\" width=\"1456\" height=\"944\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f5/c1/44/f5c14457713b2efbc141d21d919c83e7.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/f5/c1/44/f5c14457713b2efbc141d21d919c83e7.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Теперь давайте посмотрим в динамике. Несколько раз выполним команду <code>‘p’</code> (шаг с обходом инструкции), и в командной строке появится приглашение ввести следующую строку:</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/6e/27/ef/6e27ef5ad4f528aa96ce89a8ef981ef9.png\" width=\"324\" height=\"81\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/6e/27/ef/6e27ef5ad4f528aa96ce89a8ef981ef9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/6e/27/ef/6e27ef5ad4f528aa96ce89a8ef981ef9.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/6d/24/43/6d244397706ee5afac545c74e4e96738.png\" width=\"1200\" height=\"401\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/6d/24/43/6d244397706ee5afac545c74e4e96738.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/6d/24/43/6d244397706ee5afac545c74e4e96738.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Введите в окне консоли «ABCDEFGH12345678». По нашему замыслу, эта строка должна заполнить <code>buff</code> буквами «ABCDEFGH», а следующие 8 байт цифрами «12345678». Теперь перейдите в окно Windbg и снова выполните <code>‘x buff’</code> и <code>‘db buff’</code>, а затем посмотрите, что произошло в памяти:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/b4/9f/41/b49f4174c5d08c4b789d08036f3db4df.png\" width=\"1200\" height=\"307\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b4/9f/41/b49f4174c5d08c4b789d08036f3db4df.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/b4/9f/41/b49f4174c5d08c4b789d08036f3db4df.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Всё прошло точно как мы планировали: первые 8 байт (собственно, область буфера) оказались заполнены буквами, а следующие 8 байт (другие данные, находившиеся в стеке) были затёрты цифрами.</p><p>Давайте попробуем ещё раз, теперь подадим на вход строку <code>‘ABCDEFGH12345678abcdefghIJKLMNOP</code>», которая должна затереть и адрес возврата:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/1c/dc/55/1cdc55070b20c36a310063ad16889312.png\" alt=\"Бум! Адрес возврата оказался повреждён!\" title=\"Бум! Адрес возврата оказался повреждён!\" width=\"1200\" height=\"333\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1c/dc/55/1cdc55070b20c36a310063ad16889312.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/1c/dc/55/1cdc55070b20c36a310063ad16889312.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Бум! Адрес возврата оказался повреждён!</figcaption></div></figure><p>Что произойдёт, если мы позволим продолжать выполнение?</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/43/5e/66/435e6655aee5e10d9cf619ec43d7d1bb.png\" alt=\"Windows спасла нас от нас самих: грустно такое видеть!    \" title=\"Windows спасла нас от нас самих: грустно такое видеть!    \" width=\"1200\" height=\"182\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/43/5e/66/435e6655aee5e10d9cf619ec43d7d1bb.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/43/5e/66/435e6655aee5e10d9cf619ec43d7d1bb.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Windows спасла нас от нас самих: грустно такое видеть! </figcaption></div></figure><p>Что ж, тут не до смеха! Наше приложение только что рухнуло с исключением Fail Fast Exception — это сигнал, что Windows пытается защитить нас от потенциальной хакерской атаки. Операционная система вместе с компилятором MSVC реализует дополнительные проверки, помогающие предотвратить затирание адресов возврата. Разгадка этой «тайны» заключается в «стековой канарейке» — специальной страховочной фиче, размещаемой сразу же за объектом <code>“buff”</code>. Она появилась в компиляторе MSVC много лет назад и нужна с единственной целью — предотвратить атаки, связанные с переполнением буфера. Это уникальное значение, размещаемое после уязвимых объектов, например, после массивов или структур. Данный механизм проверяет, не было ли изменено это значение, и при любой попытке затереть адрес возврата придётся сначала повредить канарейку, что сразу же будет обнаружено.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/32/5f/f4/325ff44b46ec328666a9bd7164f90ff3.png\" width=\"1456\" height=\"266\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/32/5f/f4/325ff44b46ec328666a9bd7164f90ff3.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/32/5f/f4/325ff44b46ec328666a9bd7164f90ff3.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В конце главной функции выполняется вызов к<code> __security_check_cookie</code>, призванный подтвердить, что значение стековой канарейки не изменилось. Если проверка не пройдена, то исключение Fail Fast Exception инициируется именно из этой функции.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/92/d0/91/92d091ca9e9437711469796e51302c05.png\" width=\"1456\" height=\"645\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/92/d0/91/92d091ca9e9437711469796e51302c05.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/92/d0/91/92d091ca9e9437711469796e51302c05.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Чтобы справиться с этой проблемой, придётся откорректировать полезную нагрузку, то есть те данные, которые мы вставляем. В них должна содержаться корректная 8-байтная канареечная последовательность. Затерев канарейку её оригинальным значением, можно обойти этот фильтр следующим образом:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d5/09/40/d5094049b0be18d00e61093ec136506a.png\" width=\"1456\" height=\"391\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d5/09/40/d5094049b0be18d00e61093ec136506a.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d5/09/40/d5094049b0be18d00e61093ec136506a.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Но здесь есть и другая проблема — невозможно вставлять нулевые байты (пробелы, табуляцию, так далее), поскольку <code>scanf</code> трактует их как окончание пользовательского ввода! Поэтому нам ничего не остаётся, кроме как пока оставить всё как есть и затирать канарейку лишь частично. После того, как найдём способ выполнять произвольный код, придётся вернуться к этой проблеме и не допустить, чтобы сделанное нами попадало под проверку <code>__security_check_cookie</code>. Можете считать, что, смываясь с места преступления, мы немного заметаем следы. </p></div>",
+  "tags": [
+    {
+      "titleHtml": "программирование"
+    },
+    {
+      "titleHtml": "вредоносный код"
+    },
+    {
+      "titleHtml": "компьютерная безопасность"
+    },
+    {
+      "titleHtml": "windbg"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106296/0999d9bac7d8a592843d32ea06566e8f/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106296/0999d9bac7d8a592843d32ea06566e8f/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106296\\/\"},\"headline\":\"Что каждый программист должен знать о переполнении стекового буфера\",\"datePublished\":\"2026-11-10T23:39:20+03:00\",\"dateModified\":\"2026-11-11T09:49:44+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Прикладное руководство, помогающее с&nbsp;азов понять, как&nbsp;организованы атаки с&nbsp;переполнением стекового буфера под&nbsp;Windows. Ведь...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106296\\/#post-content-body\",\"about\":[\"h_programming\",\"h_infosecurity\",\"h_debug\",\"h_win_dev\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/d0\\/60\\/d0\\/d060d0a6395d16a476e7d4c7bc8d76ce.png\",\"https:\\/\\/habrastorage.org\\/extt\\/28\\/bf\\/97\\/28bf97d2f43999aa5d536d0d931002ad.png\",\"https:\\/\\/habrastorage.org\\/extt\\/13\\/95\\/b2\\/1395b2298ef9aadef9577bdb1eeabdb4.png\",\"https:\\/\\/habrastorage.org\\/extt\\/89\\/01\\/d7\\/8901d78bb7c4923aafd5377c3963bfd5.png\",\"https:\\/\\/habrastorage.org\\/extt\\/1e\\/f7\\/8e\\/1ef78e002ac5d8ce0a8430d8d47240ce.png\",\"https:\\/\\/habrastorage.org\\/extt\\/a1\\/66\\/76\\/a16676ff1e9a331dc1374a71d6fbd255.png\",\"https:\\/\\/habrastorage.org\\/extt\\/98\\/d3\\/b2\\/98d3b252cd48642967f6c8b7edcf545f.png\",\"https:\\/\\/habrastorage.org\\/extt\\/fd\\/02\\/89\\/fd0289bbc2ad904ac19eaaf1f33e02f4.png\",\"https:\\/\\/habrastorage.org\\/extt\\/74\\/7b\\/4d\\/747b4db486e90532bedefffbf4a4c651.png\",\"https:\\/\\/habrastorage.org\\/extt\\/3f\\/46\\/8d\\/3f468dc06d4076dfdb34f7d245ad223c.png\",\"https:\\/\\/habrastorage.org\\/extt\\/b6\\/5c\\/d0\\/b65cd018874b120518fc9cfc63f40767.png\",\"https:\\/\\/habrastorage.org\\/extt\\/43\\/60\\/a3\\/4360a3e80a436273d293080074782782.png\",\"https:\\/\\/habrastorage.org\\/extt\\/14\\/9f\\/38\\/149f385547ab3cc04a0e4123dd416c66.png\",\"https:\\/\\/habrastorage.org\\/extt\\/5e\\/7c\\/93\\/5e7c93592c7f5d07a5aa656a8736bb3a.png\",\"https:\\/\\/habrastorage.org\\/extt\\/61\\/52\\/3b\\/61523bd219d01c46bbe4ebee41142aad.png\",\"https:\\/\\/habrastorage.org\\/extt\\/53\\/29\\/6f\\/53296fb45d7ff8ea03ee681f07db9d39.png\",\"https:\\/\\/habrastorage.org\\/extt\\/f7\\/ee\\/e5\\/f7eee5f1ae32340205a41f99bdd83829.png\",\"https:\\/\\/habrastorage.org\\/extt\\/f8\\/99\\/3c\\/f8993c924f35b8acb7af9c660554f296.png\",\"https:\\/\\/habrastorage.org\\/extt\\/62\\/85\\/f6\\/6285f6d311f1ab79a836e6629a5baef7.png\",\"https:\\/\\/habrastorage.org\\/extt\\/03\\/7d\\/9c\\/037d9c576eaefb79275e1c00228228b0.png\",\"https:\\/\\/habrastorage.org\\/extt\\/3b\\/bc\\/a1\\/3bbca1342ff672f95697f5a0959114b4.png\",\"https:\\/\\/habrastorage.org\\/extt\\/24\\/37\\/98\\/243798603513a030ef17f162c9043d2c.png\",\"https:\\/\\/habrastorage.org\\/extt\\/a8\\/3e\\/36\\/a83e36461db1e7cd5307ea3cc6d798bc.png\",\"https:\\/\\/habrastorage.org\\/extt\\/f5\\/c1\\/44\\/f5c14457713b2efbc141d21d919c83e7.png\",\"https:\\/\\/habrastorage.org\\/extt\\/6e\\/27\\/ef\\/6e27ef5ad4f528aa96ce89a8ef981ef9.png\",\"https:\\/\\/habrastorage.org\\/extt\\/6d\\/24\\/43\\/6d244397706ee5afac545c74e4e96738.png\",\"https:\\/\\/habrastorage.org\\/extt\\/b4\\/9f\\/41\\/b49f4174c5d08c4b789d08036f3db4df.png\",\"https:\\/\\/habrastorage.org\\/extt\\/1c\\/dc\\/55\\/1cdc55070b20c36a310063ad16889312.png\",\"https:\\/\\/habrastorage.org\\/extt\\/43\\/5e\\/66\\/435e6655aee5e10d9cf619ec43d7d1bb.png\",\"https:\\/\\/habrastorage.org\\/extt\\/32\\/5f\\/f4\\/325ff44b46ec328666a9bd7164f90ff3.png\",\"https:\\/\\/habrastorage.org\\/extt\\/92\\/d0\\/91\\/92d091ca9e9437711469796e51302c05.png\",\"https:\\/\\/habrastorage.org\\/extt\\/d5\\/09\\/40\\/d5094049b0be18d00e61093ec136506a.png\"]}",
+    "metaDescription": "Прикладное руководство, помогающее с&nbsp;азов понять, как&nbsp;организованы атаки с&nbsp;переполнением стекового буфера под&nbsp;Windows. Ведь по&nbsp;Unix‑подобным системам таких разборов уже...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 8,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "18",
+    "title": "Тестирование",
+    "alias": "quality_assurance"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

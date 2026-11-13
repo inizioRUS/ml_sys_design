@@ -1,0 +1,228 @@
+{
+  "id": "1105768",
+  "timePublished": "2026-11-10T07:01:31+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Anthropic выпустила гайд — какую модель выбирать для конкретных задач",
+  "leadData": {
+    "textHtml": "<p>Anthropic <a href=\"https://claude.dev/blog/which-claude-model-should-you-build-with/\" rel=\"noopener nofollow\">выпустила</a> гайд, в котором объяснено, какую именно ИИ-модель нужно выбирать для конкретных задач, так как самая мощная система не всегда оказывается лучшим вариантом в определённых случаях.</p>",
+    "imageUrl": "https://habrastorage.org/extt/7d/c6/9e/7dc69e4cdd6de2a7bbd98f0ca67ba4b5.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/7d/c6/9e/7dc69e4cdd6de2a7bbd98f0ca67ba4b5.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "780987",
+    "alias": "denis-19",
+    "fullname": "Денис",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/6a0/f31/235/6a0f31235bb26134f3c7a741c03e4efb.jpg",
+    "speciality": "Информационная служба Хабра, без использования ИИ",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1069,
+      "votesCount": 2027
+    },
+    "rating": 881.5,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "1024K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 14,
+    "readingCount": 1520,
+    "score": 5,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 6345,
+    "readers": 1118
+  },
+  "hubs": [
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20696",
+      "alias": "study",
+      "type": "collective",
+      "title": "Учебный процесс в IT",
+      "titleHtml": "Учебный процесс в IT",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21470",
+      "alias": "cloud_services",
+      "type": "collective",
+      "title": "Облачные сервисы",
+      "titleHtml": "Облачные сервисы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19279",
+      "alias": "web_testing",
+      "type": "collective",
+      "title": "Тестирование веб-сервисов",
+      "titleHtml": "Тестирование веб-сервисов",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/7d/c6/9e/7dc69e4cdd6de2a7bbd98f0ca67ba4b5.png\" width=\"999\" height=\"702\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/7d/c6/9e/7dc69e4cdd6de2a7bbd98f0ca67ba4b5.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/7d/c6/9e/7dc69e4cdd6de2a7bbd98f0ca67ba4b5.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Anthropic <a href=\"https://claude.dev/blog/which-claude-model-should-you-build-with/\" rel=\"noopener nofollow\">выпустила</a> гайд, в котором объяснено, какую именно ИИ-модель нужно выбирать для конкретных задач, так как самая мощная система не всегда оказывается лучшим вариантом в определённых случаях. Гайд поможет сэкономить на токенах и подобрать модель эффективно под каждую задачу. Можно с помощью этого учебного материала сэкономить, практически не теряя в качестве:</p><ul><li><p>Opus 5.5 — универсальный вариант. Именно с неё Anthropic советует начинать большинство задач.</p></li><li><p>Haiku 5.5 — самая быстрая и дешёвая. Подходит для классификации, и простых задач и субагентов, которые читают логи.</p></li><li><p>Sonnet 5.5 — для повседневной работы, исправления багов, создания документов и общения.</p></li><li><p>Fable 5.2 — самая мощная модель линейки для масштабных проектов, сложных исследований и научных расчётов.</p></li></ul><p>Внутренний субагент Explore теперь работает на основной модели, а раньше работал на простенькой Haiku — поэтому пользователи могут попусту сжигать лимиты Fable 5.2.</p><details class=\"spoiler\"><summary>Чтобы Claude использовал руководство сам и не тратил токены зря, выдайте ему этот промпт:</summary><div class=\"spoiler__content\"><blockquote><p>Настрой мой Claude Code: дешёвые субагенты для рутины, основная модель для решений. Встроенный Explore теперь работает на модели сессии, а не на Haiku, поэтому поиск подорожал.</p><p>1. Покажи версию Claude Code, провайдера, содержимое ~/.claude/agents/ и .claude/agents/, значения CLAUDE_CODE_SUBAGENT_MODEL и ANTHROPIC_DEFAULT_HAIKU_MODEL. Спроси, ставить агентов глобально или в проект. Ничего не перезаписывай без моего «да».</p><p>2. Алиас haiku означает Haiku 5.5 только на Anthropic API с Claude Code v2.1.293+. На Bedrock, Google Cloud, Foundry и Claude Platform on AWS он ведёт на Haiku 4.5: предложи задать ANTHROPIC_DEFAULT_HAIKU_MODEL на Haiku 5.5, если она там есть.</p><p>3. Создай агентов с model: haiku и tools: Read, Grep, Glob, Bash, без права редактировать файлы:<br/>- Explore (перекроет встроенный): возвращает путь:строка и строку пояснения, без файлов целиком; если не уверен, так и говорит.<br/>- log-reader: по логам и выводу сборки сообщает, что упало, первую причину, путь:строка и точный текст ошибки.<br/>- test-runner: запускает тесты или сборку и сообщает «прошло / упало» со списком падений.<br/>CLAUDE_CODE_SUBAGENT_MODEL не задавай: она удешевит и Plan с general-purpose.</p><p>4. Добавь в CLAUDE.md (спроси, в какой):<br/>- Поиск, длинные логи и тесты отдавай Explore, log-reader, test-runner. Дела в 1–3 вызова инструментов делай сам.<br/>- Правки, решения и ревью делай сам. Вывод субагента перед правкой проверяй по указанному месту.<br/>- Если не выходит: проверь себя тестами, потом подними effort на уровень, и только потом бери модель сильнее.<br/>- Перед сменой модели делай /compact.</p><p>5. Сам настройки не меняй, покажи рекомендацию: по умолчанию Opus 5.5, effort medium (high для трудного); Sonnet 5.5 для задач по чёткой спецификации и документов; Fable 5.2 для крупных миграций, архитектуры и долгих автономных прогонов. Сначала меняй effort, потом модель.</p><p>6. Проверь в /agents, что Explore работает на Haiku, сделай пробный поиск и отчитайся: что создано (с путями), что решать мне, что не проверено.</p></blockquote></div></details></div>",
+  "tags": [
+    {
+      "titleHtml": "anthropic"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105768/8ec7e55fc918eb919cae74ba51731c7a/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105768/8ec7e55fc918eb919cae74ba51731c7a/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105768\\/\"},\"headline\":\"Anthropic выпустила гайд — какую модель выбирать для конкретных задач\",\"datePublished\":\"2026-11-10T10:01:31+03:00\",\"dateModified\":\"2026-11-10T10:24:37+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Anthropic выпустила гайд, в котором объяснено, какую именно ИИ-модель нужно выбирать для конкретных задач, так как самая мощная система не всегда оказывается...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105768\\/#post-content-body\",\"about\":[\"h_artificial_intelligence\",\"h_machine_learning\",\"h_study\",\"h_cloud_services\",\"h_web_testing\",\"f_develop\",\"f_admin\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/7d\\/c6\\/9e\\/7dc69e4cdd6de2a7bbd98f0ca67ba4b5.png\"]}",
+    "metaDescription": "Anthropic выпустила гайд, в котором объяснено, какую именно ИИ-модель нужно выбирать для конкретных задач, так как самая мощная система не всегда оказывается лучшим вариантом в определённых случаях....",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

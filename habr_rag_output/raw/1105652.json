@@ -1,0 +1,185 @@
+{
+  "id": "1105652",
+  "timePublished": "2026-11-09T17:32:30+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Мир, который реагирует на действия: что умеет NVIDIA Cosmos 3",
+  "leadData": {
+    "textHtml": "<p>NVIDIA рассказала о четырёх специализированных моделях Cosmos 3, предназначенных для создания синтетических данных и интерактивных сред. Две из них работают со сценами вождения и показаниями автомобильных сенсоров, ещё две — с визуальными наблюдениями для роботов. Все четыре получили открытые веса.</p><p>Подробный материал компании вышел 5 ноября. При этом в карточках моделей датой выпуска указано 20 октября 2026 года. Новинки созданы путём дообучения Cosmos 3 Nano и, по данным NVIDIA, содержат по <strong>16 млрд обучаемых параметров</strong>. Они распространяются по лицензии OpenMDW1.1, допускающей коммерческое и некоммерческое использование при соблюдении её условий.</p>",
+    "imageUrl": "https://habrastorage.org/extt/43/54/77/4354775a7a825de6607d99c7e04f2ab9.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/43/54/77/4354775a7a825de6607d99c7e04f2ab9.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "translation",
+      "typeOf": "system",
+      "title": "Перевод",
+      "data": {
+        "originalAuthorName": "NVIDIA",
+        "originalUrl": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+      }
+    }
+  ],
+  "author": {
+    "id": "6069166",
+    "alias": "RAGnul",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": -1,
+      "votesCount": 5
+    },
+    "rating": 2.3,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 451,
+    "score": 1,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 7256,
+    "readers": 287
+  },
+  "hubs": [
+    {
+      "id": "24016",
+      "alias": "speshu_ai",
+      "type": "corporative",
+      "title": "Блог компании SpeShu.AI",
+      "titleHtml": "Блог компании SpeShu.AI",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>NVIDIA рассказала о четырёх специализированных моделях Cosmos 3, предназначенных для создания синтетических данных и интерактивных сред. Две из них работают со сценами вождения и показаниями автомобильных сенсоров, ещё две — с визуальными наблюдениями для роботов. Все четыре получили открытые веса.</p><p>Подробный материал компании вышел 5 ноября. При этом в карточках моделей датой выпуска указано 20 октября 2026 года. Новинки созданы путём дообучения Cosmos 3 Nano и, по данным NVIDIA, содержат по <strong>16 млрд обучаемых параметров</strong>. Они распространяются по лицензии OpenMDW1.1, допускающей коммерческое и некоммерческое использование при соблюдении её условий.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/43/54/77/4354775a7a825de6607d99c7e04f2ab9.jpg\" width=\"780\" height=\"440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/43/54/77/4354775a7a825de6607d99c7e04f2ab9.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/43/54/77/4354775a7a825de6607d99c7e04f2ab9.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Задача этих моделей — помочь разработчикам исследовать, как автономная система ведёт себя при изменении окружающей среды. Для этого недостаточно сгенерировать правдоподобный ролик: изображение должно соответствовать действиям системы управления, а данные разных сенсоров — согласовываться между собой. Например, автомобиль должен получать совместимые наблюдения от камер и LiDAR, когда меняются дорожная обстановка, освещение или положение других машин.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/70/b8/ad/70b8adf700ccfe5d20d503270ec07f27.png\" width=\"2400\" height=\"1350\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/70/b8/ad/70b8adf700ccfe5d20d503270ec07f27.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/70/b8/ad/70b8adf700ccfe5d20d503270ec07f27.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Две модели для автономного вождения</h3><p><a href=\"https://huggingface.co/nvidia/Cosmos3-Nano-Transfer-Auto?utm_source=chatgpt.com\">Cosmos3-Nano-Transfer-Auto</a> предназначена для подготовки синтетических данных заранее, в пакетном режиме. Она генерирует синхронизированное видео с числом ракурсов до 11, включая камеры с объективами «рыбий глаз», и поддерживает совместную генерацию изображений и данных LiDAR.</p><p>Структуру дорожной сцены задают управляющие представления World Scenario Map, или WSM. Они описывают разметку, светофоры, знаки и положение объектов. Текстовый запрос отвечает за внешний вид: погоду, освещение и время суток. Благодаря такому разделению один сценарий можно воспроизводить в разных условиях, расширяя набор данных для обучения и оценки системы вождения.</p><p>Transfer-Auto также служит отправной точкой для адаптации к конкретному автомобилю. Разработчики могут дообучить модель на своих данных, учитывая расположение камер, конфигурацию LiDAR и особенности среды.</p><p><a href=\"https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Auto?utm_source=chatgpt.com\">Cosmos3-Nano-Sim-Auto</a> решает следующую задачу — генерирует наблюдения по мере развития симуляции. Это потоковый вариант Transfer-Auto, полученный с помощью каузальной дистилляции. Модель создаёт короткие фрагменты синхронизированного видео и данных LiDAR, опираясь на уже сгенерированную историю и новые управляющие сигналы.</p><p>Такой режим позволяет организовать замкнутый цикл: система управления получает наблюдения, выбирает действие, после чего среда формирует следующие данные с учётом этого действия. Для работы нужны среда выполнения симуляции и рендерер WSM, который преобразует команды в обновлённое описание сцены. Производительность зависит от оборудования и настроек генерации.</p><h3>Как модели работают с роботами</h3><p><a href=\"https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Transfer?utm_source=chatgpt.com\">Cosmos3-Nano-Sim-Transfer</a> подключается к физическому симулятору и превращает его выходные данные в фотореалистичное видео. В качестве управляющих сигналов используются карты глубины, маски сегментации, контуры объектов или размытые изображения. Текстовый запрос позволяет задать оформление сцены.</p><p>Роли компонентов здесь разделены: движение, столкновения и физическое состояние рассчитывает симулятор, а нейросеть формирует цветное изображение на основе его данных. Система управления роботом получает эти кадры и выбирает следующее действие. Такой подход позволяет менять визуальные условия, сохраняя физическую основу эксперимента.</p><p><a href=\"https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Bimanual?utm_source=chatgpt.com\">Cosmos3-Nano-Sim-Bimanual</a> предсказывает изменения сцены непосредственно по действиям робота или движениям камеры. Модель поддерживает симуляцию двух манипуляторов для платформ YAM и AgiBot. Команды может передавать алгоритм управления или человек с джойстиком.</p><p>Для начала достаточно исходного изображения и подготовленных управляющих данных. Затем модель генерирует следующие наблюдения, учитывая движения манипуляторов, состояние захватов и изменение ракурса. В рамках одной последовательности можно чередовать перемещения камеры и действия робота. <br/><br/>С управлением изображением через текст можно экспериментировать и на более привычных задачах. В<a href=\"https://speshu.ai/?utm_source=chatgpt.com\"> </a><a href=\"https://speshu.ai/?utm_source=media&amp;utm_medium=habrcorp&amp;utm_campaign=mir-kotoryy-reagiruyet-na-deystviya-chto-umeyet-nvida-cosmos-3\"><strong>SpeShu.AI</strong></a> доступны нейросети для генерации и редактирования изображений: можно подготовить иллюстрацию робота, изменить фон или уточнить оформление сцены. Это позволяет проверить, насколько точно модель следует описанию и сохраняет нужные детали при правках. В симуляциях Cosmos 3 к этому добавляется связь изображения с состоянием среды и действиями системы управления. </p><h3>Почему важна генерация короткими фрагментами</h3><p>Потоковые варианты Cosmos 3 строят видео последовательно. Каждый новый фрагмент зависит от доступной истории, текстового описания и управляющих сигналов. Каузальный механизм внимания ограничивает доступ к будущим целевым наблюдениям, а кэширование позволяет повторно использовать часть уже рассчитанной информации.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d0/53/61/d05361adad760ca9904def21af4f0b8d.png\" width=\"2400\" height=\"1350\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d0/53/61/d05361adad760ca9904def21af4f0b8d.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d0/53/61/d05361adad760ca9904def21af4f0b8d.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Короткие фрагменты дают возможность чаще учитывать новые команды. Однако у такого подхода есть сложность: ошибочно сгенерированный объект попадает в историю и может повлиять на следующие кадры. Поэтому для интерактивной симуляции важна устойчивость всей последовательности.</p><p>В<a href=\"https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation#the-four-stage-training-recipe\"> опубликованной схеме обучения</a> NVIDIA предусмотрела четыре этапа. Сначала модель адаптируют к предметной области на полных видеозаписях, затем обучают предсказывать фрагменты по предыдущим реальным наблюдениям. После этого дистилляция сокращает генерацию каждого фрагмента до четырёх шагов шумоподавления. На заключительном этапе, <strong>self-forcing</strong>, модель обучается на собственной сгенерированной истории, чтобы учитывать условия, с которыми столкнётся при использовании.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/8a/02/27/8a0227cb363094c1439804afed9a47ea.png\" width=\"2400\" height=\"1350\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/8a/02/27/8a0227cb363094c1439804afed9a47ea.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/8a/02/27/8a0227cb363094c1439804afed9a47ea.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Что доступно разработчикам</h3><p>Веса опубликованы в коллекции NVIDIA на Hugging Face. Компания также предоставила примеры запуска и инструкции по дообучению в Cosmos Framework. Они позволяют адаптировать модели к другим конфигурациям сенсоров, роботам и средам.</p><p>Для описанного NVIDIA запуска Sim-Bimanual через vLLM-Omni нужны Linux, GPU NVIDIA, Docker и NVIDIA Container Toolkit. Компания проверяла эту конфигурацию на одном GB200. Это описание тестового оборудования, а не универсальное требование к минимальному объёму видеопамяти.</p><p>Практическая ценность релиза — в возможности экспериментировать с генерацией наблюдений и адаптировать модели под собственные задачи. При этом реалистичность видео сама по себе не подтверждает пригодность симуляции для обучения робота или проверки беспилотного автомобиля. NVIDIA отмечает, что исследователям ещё предстоит оценить достоверность таких сред и разобраться в их ограничениях. Качество дообучения компания рекомендует проверять на отложенных эпизодах: успешный запуск кода ещё не означает, что модель научилась решать нужную задачу.<br/><br/>В блоге <a href=\"https://speshu.ai/?utm_source=media&amp;utm_medium=habrcorp&amp;utm_campaign=mir-kotoryy-reagiruyet-na-deystviya-chto-umeyet-nvida-cosmos-3\">Спешу АИ</a> мы разбираем новые нейросети и сценарии их применения. Подписывайтесь, чтобы следить за развитием ИИ — от работы с текстами и изображениями до моделей, которые помогают исследовать физический мир.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "nvidia"
+    },
+    {
+      "titleHtml": "cosmos 3"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    },
+    {
+      "titleHtml": "модели мира"
+    },
+    {
+      "titleHtml": "робототехника"
+    },
+    {
+      "titleHtml": "автономное вождение"
+    },
+    {
+      "titleHtml": "синтетические данные"
+    },
+    {
+      "titleHtml": "симуляция"
+    },
+    {
+      "titleHtml": "генерация видео"
+    },
+    {
+      "titleHtml": "открытые веса"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105652/dca63265221efcce1222ead2c30f82ec/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105652/dca63265221efcce1222ead2c30f82ec/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/speshu_ai\\/articles\\/1105652\\/\"},\"headline\":\"Мир, который реагирует на действия: что умеет NVIDIA Cosmos 3\",\"datePublished\":\"2026-11-09T20:32:30+03:00\",\"dateModified\":\"2026-11-11T14:30:17+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"NVIDIA рассказала о четырёх специализированных моделях Cosmos 3, предназначенных для создания синтетических данных и интерактивных сред. Две из них работают со...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/speshu_ai\\/articles\\/1105652\\/#post-content-body\",\"about\":[\"c_speshu_ai\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/43\\/54\\/77\\/4354775a7a825de6607d99c7e04f2ab9.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/70\\/b8\\/ad\\/70b8adf700ccfe5d20d503270ec07f27.png\",\"https:\\/\\/habrastorage.org\\/extt\\/d0\\/53\\/61\\/d05361adad760ca9904def21af4f0b8d.png\",\"https:\\/\\/habrastorage.org\\/extt\\/8a\\/02\\/27\\/8a0227cb363094c1439804afed9a47ea.png\"]}",
+    "metaDescription": "NVIDIA рассказала о четырёх специализированных моделях Cosmos 3, предназначенных для создания синтетических данных и интерактивных сред. Две из них работают со сценами вождения и показаниями...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "id": "1105724",
+  "timePublished": "2026-11-09T21:35:25+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Пет‑проект за 6 недель: 490 игроков, 398 рублей и что на самом деле показала аналитика",
+  "leadData": {
+    "textHtml": "<p>Полтора месяца назад я запустил ЖМЯК — браузерную «Свою игру» для компании: один экран (ноутбук или телевизор) показывает табло, остальные жмут кнопку с телефонов. Без установки, гости заходят по ссылке без регистрации.</p><p>В прошлой статье я рассказывал, как сделать честную кнопку, чтобы пинг не решал, кто ответил первым. Эта — не про код. Я сел, выгрузил всё, что накопилось в базе и в Метрике, и попытался честно ответить себе: что тут вообще происходит? Местами получилось приятно, местами — больно. Делюсь цифрами как есть, без «мы выросли в 10 раз» (хотя формально выросли).</p>",
+    "imageUrl": "https://habrastorage.org/extt/ad/92/32/ad9232c6b93f990276f2f38ce9dfb1e2.png",
+    "buttonTextHtml": "жмяяяяк",
+    "image": {
+      "url": "https://habrastorage.org/extt/ad/92/32/ad9232c6b93f990276f2f38ce9dfb1e2.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3686883",
+    "alias": "vnJ",
+    "fullname": "Камиль",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 3
+    },
+    "rating": 11,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 8,
+    "readingCount": 840,
+    "score": 3,
+    "votesCount": 3,
+    "votesCountPlus": 2,
+    "votesCountMinus": 1,
+    "reach": 10784,
+    "readers": 642
+  },
+  "hubs": [
+    {
+      "id": "20722",
+      "alias": "startuprise",
+      "type": "collective",
+      "title": "Развитие стартапа",
+      "titleHtml": "Развитие стартапа",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20726",
+      "alias": "productpm",
+      "type": "collective",
+      "title": "Управление продуктом",
+      "titleHtml": "Управление продуктом",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20698",
+      "alias": "weban",
+      "type": "collective",
+      "title": "Веб-аналитика",
+      "titleHtml": "Веб-аналитика",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20704",
+      "alias": "web_monetization",
+      "type": "collective",
+      "title": "Монетизация веб-сервисов",
+      "titleHtml": "Монетизация веб-сервисов",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "7773",
+      "alias": "gamedev",
+      "type": "collective",
+      "title": "Разработка игр",
+      "titleHtml": "Разработка игр",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "4",
+      "alias": "marketing",
+      "title": "Маркетинг",
+      "titleHtml": "Маркетинг"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Полтора месяца назад я запустил ЖМЯК — браузерную «Свою игру» для компании: один экран (ноутбук или телевизор) показывает табло, остальные жмут кнопку с телефонов. Без установки, гости заходят по ссылке без регистрации.</p><p>В прошлой статье я рассказывал, как сделать честную кнопку, чтобы пинг не решал, кто ответил первым. Эта — не про код. Я сел, выгрузил всё, что накопилось в базе и в Метрике, и попытался честно ответить себе: что тут вообще происходит? Местами получилось приятно, местами — больно. Делюсь цифрами как есть, без «мы выросли в 10 раз» (хотя формально выросли).</p><h3>Откуда цифры</h3><p>Две базы данных правды:</p><ul><li><p><strong>Postgres проекта.</strong> Игроки, лобби, партии, ответы на вопросы, события магазина. Все выборки — без админских аккаунтов и без лобби, которые создавал я сам.</p></li><li><p><strong>Яндекс Метрика.</strong> Визиты, источники, устройства. Про неё ниже будет отдельная боль.</p></li></ul><p>Срок — с 28 сентября по 10 ноября 2026.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ad/92/32/ad9232c6b93f990276f2f38ce9dfb1e2.png\" width=\"1920\" height=\"1350\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ad/92/32/ad9232c6b93f990276f2f38ce9dfb1e2.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ad/92/32/ad9232c6b93f990276f2f38ce9dfb1e2.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Общая картина</h3><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Что</p></th><th><p align=\"left\">Сколько</p></th></tr><tr><td><p align=\"left\">Людей (гостей и с аккаунтом)</p></td><td><p align=\"left\">490</p></td></tr><tr><td><p align=\"left\">Из них гостей — зашли по ссылке, без пароля</p></td><td><p align=\"left\">292</p></td></tr><tr><td><p align=\"left\">Сыграно партий</p></td><td><p align=\"left\">340</p></td></tr><tr><td><p align=\"left\">Доиграно до конца</p></td><td><p align=\"left\">~70%</p></td></tr><tr><td><p align=\"left\">Ответов на вопросы</p></td><td><p align=\"left\">13 454</p></td></tr><tr><td><p align=\"left\">Покупок</p></td><td><p align=\"left\">2 (398 ₽)</p></td></tr></tbody></table></div></div><p>Регистрации по неделям выглядят так:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Неделя</p></th><th><p align=\"left\">Регистраций</p></th><th><p align=\"left\">Из них гостей</p></th><th><p align=\"left\">Партий</p></th><th><p align=\"left\">Хозяев игр</p></th></tr><tr><td><p align=\"left\">28 сен</p></td><td><p align=\"left\">44</p></td><td><p align=\"left\">1</p></td><td><p align=\"left\">15</p></td><td><p align=\"left\">10</p></td></tr><tr><td><p align=\"left\">5 окт</p></td><td><p align=\"left\">12</p></td><td><p align=\"left\">7</p></td><td><p align=\"left\">6</p></td><td><p align=\"left\">3</p></td></tr><tr><td><p align=\"left\">12 окт</p></td><td><p align=\"left\">0</p></td><td><p align=\"left\">0</p></td><td><p align=\"left\">2</p></td><td><p align=\"left\">0</p></td></tr><tr><td><p align=\"left\">19 окт</p></td><td><p align=\"left\">17</p></td><td><p align=\"left\">10</p></td><td><p align=\"left\">9</p></td><td><p align=\"left\">3</p></td></tr><tr><td><p align=\"left\">26 окт</p></td><td><p align=\"left\">198</p></td><td><p align=\"left\">127</p></td><td><p align=\"left\">113</p></td><td><p align=\"left\">49</p></td></tr><tr><td><p align=\"left\">2 ноя</p></td><td><p align=\"left\">212</p></td><td><p align=\"left\">145</p></td><td><p align=\"left\">183</p></td><td><p align=\"left\">39</p></td></tr></tbody></table></div></div><p>Первая неделя — это друзья и знакомые, дальше три недели тишины (неделя с нулём регистраций — моя любимая строчка). В конце октября случился скачок, и он держится вторую неделю: партий стало больше, доигрываемость выросла.</p><p>Что именно его вызвало, я, честно говоря, до конца не знаю. Статья на Хабре дала 12 регистраций, поиск — около 50, Хеллоуин подкинул тематических игр. Остальное — это люди, которые пришли напрямую или по ссылке от друзей. И вот тут начинается самое интересное.</p><h3>Находка № 1. Две трети людей приводят игроки — но дальше цепочка рвётся</h3><p>Я разложил всех по тому, откуда они пришли, и посмотрел, что они делали потом.</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Откуда</p></th><th><p align=\"left\">Людей</p></th><th><p align=\"left\">Создали своё лобби</p></th><th><p align=\"left\">Сыграли</p></th><th><p align=\"left\">Провели игры в 2+ разных дня</p></th></tr><tr><td><p align=\"left\">Ссылка на лобби от друга</p></td><td><p align=\"left\">310</p></td><td><p align=\"left\"><strong>9</strong></p></td><td><p align=\"left\">267</p></td><td><p align=\"left\">0</p></td></tr><tr><td><p align=\"left\">Напрямую</p></td><td><p align=\"left\">92</p></td><td><p align=\"left\">57</p></td><td><p align=\"left\">50</p></td><td><p align=\"left\">5</p></td></tr><tr><td><p align=\"left\">Поиск Яндекса (главная)</p></td><td><p align=\"left\">29</p></td><td><p align=\"left\">25</p></td><td><p align=\"left\">21</p></td><td><p align=\"left\">5</p></td></tr><tr><td><p align=\"left\">Поиск Google (главная)</p></td><td><p align=\"left\">18</p></td><td><p align=\"left\">15</p></td><td><p align=\"left\">11</p></td><td><p align=\"left\">1</p></td></tr><tr><td><p align=\"left\">Хабр</p></td><td><p align=\"left\">12</p></td><td><p align=\"left\">12</p></td><td><p align=\"left\">8</p></td><td><p align=\"left\">2</p></td></tr><tr><td><p align=\"left\"><a href=\"http://chatgpt.com\" rel=\"noopener nofollow\">chatgpt.com</a></p></td><td><p align=\"left\">6</p></td><td><p align=\"left\">6</p></td><td><p align=\"left\">4</p></td><td><p align=\"left\">2</p></td></tr></tbody></table></div></div><p>64% всех людей на сайте — гости, которых позвал кто‑то другой. Это отличная новость: продукт сам себя распространяет, каждый хозяин приводит в среднем 3 человек.</p><p>Плохая новость во втором столбце. Из 310 приглашённых своё лобби создали <strong>девять</strong>. Ни один не стал постоянным хозяином. Вирусная петля выглядит так: хозяин → гости → … и всё. Гости играют, им нравится (267 из 310 сыграли, 117 — больше одной партии), но провести игру у себя им в голову не приходит.</p><p>Почему так — понятно задним числом. После партии гость видел итоги и кнопку «Сохранить аккаунт». Не «Провести такую же для своих», а именно «сохранить аккаунт». Зачем гостю аккаунт? Незачем. 18 человек всё‑таки сохранили — подозреваю, из вежливости.</p><p><strong>Что сделал:</strong> на экране итогов у гостя теперь «Проведите эту игру для своих» → кнопка «Провести у себя». Она сохраняет аккаунт и сразу открывает его собственное лобби с <strong>тем же пакетом вопросов</strong>, в который он только что играл. Чтобы позвать друзей, остаётся скопировать ссылку. Посмотрим через пару недель.</p><p>Отдельно порадовал <a href=\"http://chatgpt.com\" rel=\"noopener nofollow\">chatgpt.com</a>: 6 регистраций, и двое из них возвращаются. Видимо, на вопрос «во что поиграть онлайн с друзьями» ИИ иногда отвечает правильно. SEO будущего, без шуток.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/1b/32/fc/1b32fc74ac820ebfb1767a7052fd5f79.png\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1b/32/fc/1b32fc74ac820ebfb1767a7052fd5f79.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/1b/32/fc/1b32fc74ac820ebfb1767a7052fd5f79.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Находка № 2. Треть лобби пустые, треть партий — на одного</h3><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Что</p></th><th><p align=\"left\">Сколько</p></th></tr><tr><td><p align=\"left\">Лобби создано</p></td><td><p align=\"left\">225</p></td></tr><tr><td><p align=\"left\">Из них хоть раз сыграли</p></td><td><p align=\"left\">151 (67%)</p></td></tr></tbody></table></div></div><p>Каждое третье лобби умерло, не родившись. Человек зарегистрировался, создал лобби, увидел пустой экран «Ждём игроков» — и ушёл.</p><p>С партиями похожая история:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Людей в партии</p></th><th><p align=\"left\">Партий</p></th><th><p align=\"left\">Доиграли до конца</p></th></tr><tr><td><p align=\"left\">0 (только боты)</p></td><td><p align=\"left\">18</p></td><td><p align=\"left\">44%</p></td></tr><tr><td><p align=\"left\">1</p></td><td><p align=\"left\">93</p></td><td><p align=\"left\">57%</p></td></tr><tr><td><p align=\"left\">2</p></td><td><p align=\"left\">125</p></td><td><p align=\"left\">78%</p></td></tr><tr><td><p align=\"left\">3</p></td><td><p align=\"left\">40</p></td><td><p align=\"left\">73%</p></td></tr><tr><td><p align=\"left\">4</p></td><td><p align=\"left\">32</p></td><td><p align=\"left\">78%</p></td></tr><tr><td><p align=\"left\">5–8</p></td><td><p align=\"left\">32</p></td><td><p align=\"left\">~60%</p></td></tr></tbody></table></div></div><p>111 партий из 340 — на одного человека или вообще без людей. Это «попробовать, как работает»: открыл, потыкал, закрыл. И хуже всего доигрываются. Зато партии вдвоём — самые частые и самые доигрываемые. Видимо, ЖМЯК для двоих (пары, друзья по видеосвязи) — это отдельный сценарий, а не «ну раз не набралось народу».</p><p>Вывод неприятный: человеку, который пришёл один, я не давал ничего, кроме пустой комнаты. Боты в игре давно есть, но новичок про них просто не знает.</p><p><strong>Что сделал:</strong> в новом пустом лобби теперь блок «👋 Лобби готово» с двумя кнопками — «Позвать друзей» и «🐢 Сыграть с ботами«. Вторая одним нажатием сажает за стол двух ботов разного уровня и запускает быструю игру. Пусть человек сначала увидит игру живьём, а потом уже зовёт друзей.»</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/56/d0/2f/56d02fe6727068d196142916f0a63dc7.png\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/56/d0/2f/56d02fe6727068d196142916f0a63dc7.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/56/d0/2f/56d02fe6727068d196142916f0a63dc7.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Находка № 3. Хозяева почти не возвращаются</h3><p>Хозяин — тот, кто создаёт лобби и запускает игры. Без хозяев нет вообще ничего.</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Что</p></th><th><p align=\"left\">Сколько</p></th></tr><tr><td><p align=\"left\">Хозяев за всё время</p></td><td><p align=\"left\">102</p></td></tr><tr><td><p align=\"left\">Проводили игры в 2+ разных дня</p></td><td><p align=\"left\">19</p></td></tr><tr><td><p align=\"left\">В 3+ разных дня</p></td><td><p align=\"left\">5</p></td></tr><tr><td><p align=\"left\">Вернулись через неделю и позже</p></td><td><p align=\"left\">1</p></td></tr><tr><td><p align=\"left\">Партий на хозяина в среднем</p></td><td><p align=\"left\">2,8</p></td></tr><tr><td><p align=\"left\">Максимум у одного хозяина</p></td><td><p align=\"left\">18</p></td></tr></tbody></table></div></div><p>Типичный хозяин проводит вечер, играет 2–3 партии и пропадает. Это нормально для party‑игр — собираются не каждый день. Но «вернулся через неделю» — один человек из ста. На горизонте шести недель это ещё не приговор, но и не повод расслабляться.</p><p>Когда играют, видно по часам:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\"></p></th><th><p align=\"left\">Утро</p></th><th><p align=\"left\">День</p></th><th><p align=\"left\">Вечер</p></th></tr><tr><td><p align=\"left\">Пн</p></td><td><p align=\"left\">11</p></td><td><p align=\"left\">8</p></td><td><p align=\"left\">14</p></td></tr><tr><td><p align=\"left\">Вт</p></td><td><p align=\"left\">6</p></td><td><p align=\"left\">4</p></td><td><p align=\"left\">19</p></td></tr><tr><td><p align=\"left\">Ср</p></td><td><p align=\"left\">1</p></td><td><p align=\"left\">28</p></td><td><p align=\"left\">15</p></td></tr><tr><td><p align=\"left\">Чт</p></td><td><p align=\"left\">13</p></td><td><p align=\"left\">3</p></td><td><p align=\"left\">18</p></td></tr><tr><td><p align=\"left\">Пт</p></td><td><p align=\"left\">16</p></td><td><p align=\"left\">12</p></td><td><p align=\"left\">32</p></td></tr><tr><td><p align=\"left\"><strong>Сб</strong></p></td><td><p align=\"left\">21</p></td><td><p align=\"left\">19</p></td><td><p align=\"left\"><strong>49</strong></p></td></tr><tr><td><p align=\"left\">Вс</p></td><td><p align=\"left\">12</p></td><td><p align=\"left\">18</p></td><td><p align=\"left\">21</p></td></tr></tbody></table></div></div><p>Пик — субботний вечер, что логично. Загадка — среда днём: 28 партий, и почти все в один‑два дня. Подозреваю урок в школе или созвон в офисе. Если это вы — напишите, мне правда интересно.</p><p>Ещё одна мелочь, которая сказала мне больше, чем таблицы: <strong>8 визитов с телевизоров со средней длительностью 35 минут</strong>. Кто‑то реально выводит ЖМЯК на телевизор и играет всей комнатой. Ради этого всё и делалось.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/cb/db/50/cbdb509c61788037bb2f1f919f5fdbd1.png\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/cb/db/50/cbdb509c61788037bb2f1f919f5fdbd1.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/cb/db/50/cbdb509c61788037bb2f1f919f5fdbd1.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Находка № 4. Монетизация: 398 рублей</h3><p>Бесплатно в ЖМЯКе всё: игра, свои паки, боты. Платные только тематические шаблоны — например, «День рождения», где друзья именинника присылают вопросы, фото и голосовые, а ЖМЯК собирает из этого игру‑сюрприз. Шаблон стоит 199 ₽.</p><p>Воронка за всё время:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Шаг</p></th><th><p align=\"left\">Людей</p></th></tr><tr><td><p align=\"left\">Открыли страницу с ценами</p></td><td><p align=\"left\">17</p></td></tr><tr><td><p align=\"left\">Открыли шаблон «День рождения»</p></td><td><p align=\"left\">13</p></td></tr><tr><td><p align=\"left\">Начали заполнять</p></td><td><p align=\"left\">3</p></td></tr><tr><td><p align=\"left\">Купили</p></td><td><p align=\"left\"><strong>2</strong></p></td></tr></tbody></table></div></div><p>398 рублей за шесть недель. Два человека, оба — «День рождения». Остальные шаблоны (для пар, корпоратив) открывали по одному‑два раза и не купил никто.</p><p>Что я из этого вынес:</p><ul><li><p><strong>Конверсия из «начал заполнять» в «купил» — хорошая.</strong> Кто дошёл до дела, тот платит.</p></li><li><p><strong>До дела почти никто не доходит.</strong> Страницу с ценами видели 17 человек — при почти пятистах игроках. Платное просто не попадается на глаза, а пиком игр было время, когда никакого дня рождения нет.</p></li><li><p><strong>Работает конкретный повод, а не «шаблон вообще».</strong> Покупают не «тематическую игру», а «подарок другу на ДР».</p></li></ul><p><strong>Что сделал:</strong> на экране итогов партии — ненавязчивая карточка «Скоро у кого‑то день рождения?», а в лобби шаблон дня рождения стоит первым. Расчёт на тех, кто только что сыграл и понял, как это весело — им проще представить такую игру в подарок.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ea/db/b2/eadbb2f099dd8f4fead6c11bd809f27f.png\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ea/db/b2/eadbb2f099dd8f4fead6c11bd809f27f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ea/db/b2/eadbb2f099dd8f4fead6c11bd809f27f.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Находка № 5. Аналитика врала, и врал я сам</h3><p>Самая полезная находка — не про пользователей, а про меня.</p><p>В Метрике я долго радовался «самой преданной аудитории»: небольшая группа посетителей заходила каждый день, сидела подолгу и смотрела кучу страниц. А потом присмотрелся: это я сам. По сто раз в день захожу в админку, тестирую лобби и смотрю статистику. Набралось <strong>почти 15% всех визитов</strong>. Внутренние визиты с длинными сессиями красиво завышали «среднее время на сайте» и «глубину просмотра».</p><p><strong>Что сделал:</strong> скрипт Метрики теперь отдаётся пустым, если запрос пришёл от админа. Не фильтр в интерфейсе Метрики, а просто не подключаем счётчик. С сегодняшнего дня цифры чище.</p><p>Ещё несколько мелких открытий в том же духе:</p><ul><li><p><strong>Новости в колокольчике прочитали 4 человека.</strong> Я сделал внутри сайта ленту новостей с красной точкой и написал туда шесть заметок. Открыли — четверо. По карточке перешёл — один. Зато теперь у меня есть статистика по каждой новости, и она честно говорит: «никто не читает».</p></li><li><p><strong>Форма отзывов: 0 отзывов.</strong> За шесть недель. Видимо, кнопка «Отзыв» на сайте выглядит как место, куда пишут в пустоту, и люди предпочитают просто молча уйти (или написать в Telegram).</p></li><li><p><strong>Средняя оценка паков — 3,7 из 5</strong> (27 оценок). Мало, но уже видно, какие паки «заходят», а какие нет.</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/cf/a8/2d/cfa82d974c0d0c57f6225172cc11ee2d.png\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/cf/a8/2d/cfa82d974c0d0c57f6225172cc11ee2d.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/cf/a8/2d/cfa82d974c0d0c57f6225172cc11ee2d.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Немного весёлых цифр напоследок</h3><ul><li><p><strong>13 454 ответа</strong>, верных — 63%.</p></li><li><p><strong>Медиана реакции — 0,7 секунды</strong> от появления кнопки до нажатия. Люди жмякают быстро.</p></li><li><p>Самый популярный режим — «Быстрая игра» (70 партий), из готовых паков — «ЖМЯК 14» (34 партии).</p></li><li><p>Хэллоуинский «Кошмар на улице Жмяк» сыграли 26 раз, но доиграли только половину. Подозреваю, что вопросы там действительно кошмарные.</p></li><li><p>Игроки собрали больше сотни своих паков: свадебные квизы, вечеринки, выпуски для своей компании. Четверть всех партий — как раз на таких.</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/fa/74/3f/fa743ff041202651eeacb79343b67a0f.png\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/fa/74/3f/fa743ff041202651eeacb79343b67a0f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/fa/74/3f/fa743ff041202651eeacb79343b67a0f.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Что я понял за шесть недель</h3><ol><li><p><strong>Первый экран важнее всего.</strong> Пустое лобби убило треть лобби. Человеку нужно показать игру за 10 секунд, а не просить его кого‑то позвать.</p></li><li><p><strong>Вирусность есть, но она одноразовая.</strong> Гости приходят, играют и уходят. Чтобы петля замкнулась, гостю нужно прямо сказать: «вот кнопка, проведи у себя».</p></li><li><p><strong>Платят за повод, а не за функцию.</strong> «День рождения» продаётся, «тематический шаблон» — нет.</p></li><li><p><strong>Исключите себя из аналитики в первый же день.</strong> Иначе будете неделями радоваться самому себе.</p></li><li><p><strong>Внутренние каналы связи с пользователями работают хуже, чем кажется.</strong> Колокольчик и форма отзывов — почти мёртвые. Надо идти туда, где люди и так сидят.</p></li></ol><p>Через пару недель посмотрю, что дали изменения: стали ли гости проводить игры у себя, играют ли новички с ботами и купил ли кто‑нибудь ещё день рождения. Если интересно — напишу продолжение с цифрами «до и после».</p><p>А пока, если у вас бывают вечеринки, созвоны с друзьями или просто скучный вечер вдвоём — попробуйте: <a href=\"https://zhmyak.su/r/hqbdpz\" rel=\"noopener nofollow\">zhmyak.su</a>. Бесплатно, без установки, гости заходят по ссылке. Буду рад любым отзывам — хоть в комментариях, хоть в Telegram. Только не через форму на сайте, её всё равно никто не читает. Шучу. Читаю.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "пет-проект"
+    },
+    {
+      "titleHtml": "аналитика"
+    },
+    {
+      "titleHtml": "метрики"
+    },
+    {
+      "titleHtml": "воронка конверсии"
+    },
+    {
+      "titleHtml": "вирусность"
+    },
+    {
+      "titleHtml": "монетизация"
+    },
+    {
+      "titleHtml": "яндекс метрика"
+    },
+    {
+      "titleHtml": "своя игра"
+    },
+    {
+      "titleHtml": "онлайн-викторина"
+    },
+    {
+      "titleHtml": "party-игры"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105724/49fa22a9ab807149016ea77959a823e6/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105724/49fa22a9ab807149016ea77959a823e6/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105724\\/\"},\"headline\":\"Пет‑проект за 6 недель: 490 игроков, 398 рублей и что на самом деле показала аналитика\",\"datePublished\":\"2026-11-10T00:35:25+03:00\",\"dateModified\":\"2026-11-10T02:12:48+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Полтора месяца назад я запустил ЖМЯК&nbsp;— браузерную «Свою игру» для&nbsp;компании: один экран (ноутбук или&nbsp;телевизор) показывает табло, остальные жмут...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105724\\/#post-content-body\",\"about\":[\"h_startuprise\",\"h_productpm\",\"h_weban\",\"h_web_monetization\",\"h_gamedev\",\"f_develop\",\"f_management\",\"f_marketing\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/ad\\/92\\/32\\/ad9232c6b93f990276f2f38ce9dfb1e2.png\",\"https:\\/\\/habrastorage.org\\/extt\\/1b\\/32\\/fc\\/1b32fc74ac820ebfb1767a7052fd5f79.png\",\"https:\\/\\/habrastorage.org\\/extt\\/56\\/d0\\/2f\\/56d02fe6727068d196142916f0a63dc7.png\",\"https:\\/\\/habrastorage.org\\/extt\\/cb\\/db\\/50\\/cbdb509c61788037bb2f1f919f5fdbd1.png\",\"https:\\/\\/habrastorage.org\\/extt\\/ea\\/db\\/b2\\/eadbb2f099dd8f4fead6c11bd809f27f.png\",\"https:\\/\\/habrastorage.org\\/extt\\/cf\\/a8\\/2d\\/cfa82d974c0d0c57f6225172cc11ee2d.png\",\"https:\\/\\/habrastorage.org\\/extt\\/fa\\/74\\/3f\\/fa743ff041202651eeacb79343b67a0f.png\"]}",
+    "metaDescription": "Полтора месяца назад я запустил ЖМЯК&nbsp;— браузерную «Свою игру» для&nbsp;компании: один экран (ноутбук или&nbsp;телевизор) показывает табло, остальные жмут кнопку с&nbsp;телефонов....",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 7,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "30",
+    "title": "Маркетинг и контент",
+    "alias": "marketing"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

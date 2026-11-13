@@ -1,0 +1,188 @@
+{
+  "id": "1105382",
+  "timePublished": "2026-11-09T09:03:40+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Операторы ЦОДов ожидают методику резервирования 10% мощностей по указу президента",
+  "leadData": {
+    "textHtml": "<p>В&nbsp;Минцифры прошла встреча с&nbsp;операторами дата‑центров. На&nbsp;ней обсуждали исполнение указа президента о&nbsp;резервировании 10% площадей и мощностей центров обработки данных. Об&nbsp;этом <a href=\"https://www.vedomosti.ru/technology/articles/2026/11/09/1243514-operatori-tsodov-ozhidayut-metodiku\" rel=\"noopener nofollow\">пишут</a> «Ведомости» со ссылкой на&nbsp;источники в&nbsp;компании&nbsp;— операторе ЦОДа и из&nbsp;отраслевого объединения.</p>",
+    "imageUrl": "https://habrastorage.org/extt/41/e1/33/41e1330bb60f2edfb65fa728b4bc86fb.webp",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/41/e1/33/41e1330bb60f2edfb65fa728b4bc86fb.webp",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3000027",
+    "alias": "LizzieSimpson",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/87d/321/950/87d321950490400be5d296976a5747d0.png",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 97,
+      "votesCount": 429
+    },
+    "rating": 320.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 4,
+    "favoritesCount": 4,
+    "readingCount": 2229,
+    "score": 4,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 7030,
+    "readers": 1776
+  },
+  "hubs": [
+    {
+      "id": "21470",
+      "alias": "cloud_services",
+      "type": "collective",
+      "title": "Облачные сервисы",
+      "titleHtml": "Облачные сервисы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19197",
+      "alias": "dwh",
+      "type": "collective",
+      "title": "Хранение данных",
+      "titleHtml": "Хранение данных",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "6398",
+      "alias": "it-infrastructure",
+      "type": "collective",
+      "title": "IT-инфраструктура",
+      "titleHtml": "IT-инфраструктура",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/41/e1/33/41e1330bb60f2edfb65fa728b4bc86fb.webp\" width=\"640\" height=\"360\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/41/e1/33/41e1330bb60f2edfb65fa728b4bc86fb.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/41/e1/33/41e1330bb60f2edfb65fa728b4bc86fb.webp 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В Минцифры прошла встреча с операторами дата‑центров. На ней обсуждали исполнение указа президента о резервировании 10% площадей и мощностей центров обработки данных. Об этом <a href=\"https://www.vedomosti.ru/technology/articles/2026/11/09/1243514-operatori-tsodov-ozhidayut-metodiku\" rel=\"noopener nofollow\">пишут</a> «Ведомости» со ссылкой на источники в компании — операторе ЦОДа и из отраслевого объединения.</p><p>По словам последнего, участники совещания получили от министерства опросники об имеющихся у них мощностях. Сама методика расчёта мощностей для резервирования пока не сформулирована, рассказали оба собеседника. Аналитическая работа на основе собранных от участников рынка данных начнётся с 9 ноября, добавил ещё один собеседник.</p><p>На резервирование <a href=\"https://habr.com/ru/news/1102910/\" rel=\"noopener nofollow\">в указе</a> (подписан 2 ноября) отводится 10 дней. «Ведомости» направили запрос в Минцифры. Зарезервировать 10% мощностей, согласно документу, должны все операторы ЦОДов за исключением владельцев — органов власти, государственных и муниципальных унитарных предприятий и учреждений. Акционерные общества и ООО с госучастием среди исключений не названы.</p><p>Зарезервированные ресурсы разрешено продолжать использовать. Но по решению правительственной подкомиссии в течение суток их потребуется предоставить для поддержки российских информационных ресурсов. Плата ограничена предельной величиной, которую установит подкомиссия. Минцифры поручено учесть свободные площади и мощности, а правительству — определить порядок принятия решений об их предоставлении.</p><p>РТК‑ЦОД приступила к аудиту своих площадок для передачи данных в Минцифры. О начале этой работы компания сообщила «Интерфаксу» 2 ноября. Директор по взаимодействию с органами государственной власти РТК‑ЦОД Дмитрий Панышев рассказал «Ведомостям», что считает общую ёмкость российского рынка достаточной для формирования резерва с учётом корпоративных ЦОДов. Выполнить требование о резерве будет сложнее в регионах активного спроса, чем там, где загрузка ниже. Компания ожидает конкретную методику расчёта мощностей, говорит он.</p><p>Неясно, в каких единицах измерять резерв: в стойко‑местах, серверах или процессорах, отметил директор технологической практики «ТеДо» Юрий Швыдченко. Даже при расчёте в стойках необходимо учитывать их мощность. Отдельный вопрос — как оценивать резерв на уровне региона. По прогнозу эксперта, в десятидневный срок операторы отчитаются каждый в своих единицах, а практическое выполнение требования указа потребует уточнения параметров и подходов.</p><p>Не урегулированы и порядок высвобождения занятых клиентами ресурсов, и последствия для действующих договоров, отметили юристы Б1. Они рекомендовали операторам при нехватке свободных мощностей оценить правомерность и последствия изменения или приостановления обслуживания, а клиентам — проверить условия договоров.</p><p>Независимый эксперт Артём Семенихин считает технически нереализуемым перенос нагрузки за сутки из полностью занятого ЦОДа без заранее выделенного резерва. По его оценке, операторам может потребоваться держать часть ресурсов свободными и готовыми к немедленному использованию. Для быстрого переноса необходимы заранее подготовленные и проверенные сценарии переключения, отметил партнёр практики «Цифровая трансформация» консалтинговой компании Strategy Partners Сергей Кудряшов.</p><p>Семенихин оценил 10% коммерческого рынка примерно в 8600 стоек, аренда которых могла бы приносить владельцам 15–20 млрд рублей в год. При постоянном простое этих ресурсов такая сумма станет недополученной выручкой, считает он. Если сдавать их со скидкой за возможность срочного освобождения, эксперт оценивает снижение выручки в 3–6 млрд рублей в год. При фактическом переносе добавятся риски штрафов и оттока клиентов.</p><p>Указ предусматривает плату за предоставление ресурсов, но отдельно не описывает оплату поддержания их готовности. Поэтому обсуждать нужно и плату за готовность, считает Семенихин. Кудряшов допускает появление прерываемых тарифов со скидкой для клиентов, ресурсы которых можно оперативно высвободить. Ограниченная плата, по его оценке, скорее покроет эксплуатационные расходы, чем выпадающие доходы. Швыдченко оценивает возможную прибавку к действующим тарифам в 10% и более. Семенихин также ожидает давления на цены. Неопределённость срока действия меры, по его мнению, увеличивает риски инвестиций в новые площадки.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "цод"
+    },
+    {
+      "titleHtml": "хранение данных"
+    },
+    {
+      "titleHtml": "облачные сервисы"
+    },
+    {
+      "titleHtml": "облачные технологии"
+    },
+    {
+      "titleHtml": "облачные хранилища"
+    },
+    {
+      "titleHtml": "дата-центр"
+    },
+    {
+      "titleHtml": "дата-центры"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105382/d9f2542ca670b18ac3d56df0f8a13e46/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105382/d9f2542ca670b18ac3d56df0f8a13e46/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105382\\/\"},\"headline\":\"Операторы ЦОДов ожидают методику резервирования 10% мощностей по указу президента\",\"datePublished\":\"2026-11-09T12:03:40+03:00\",\"dateModified\":\"2026-11-09T13:00:36+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В&nbsp;Минцифры прошла встреча с&nbsp;операторами дата‑центров. На&nbsp;ней обсуждали исполнение указа президента о&nbsp;резервировании 10% площадей и мощностей...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105382\\/#post-content-body\",\"about\":[\"h_cloud_services\",\"h_dwh\",\"h_it-infrastructure\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/41\\/e1\\/33\\/41e1330bb60f2edfb65fa728b4bc86fb.webp\"]}",
+    "metaDescription": "В&nbsp;Минцифры прошла встреча с&nbsp;операторами дата‑центров. На&nbsp;ней обсуждали исполнение указа президента о&nbsp;резервировании 10% площадей и мощностей центров обработки данных. Об&nbsp;этом...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

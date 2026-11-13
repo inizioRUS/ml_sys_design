@@ -1,0 +1,203 @@
+{
+  "id": "1106276",
+  "timePublished": "2026-11-10T18:20:05+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Есть ли жизнь после блокировки Claude Code? Первая неделя на локальных Qwen и DeepSeek",
+  "leadData": {
+    "textHtml": "<p><strong>TL;DR.</strong> Anthropic в очередной раз заблокировал мой аккаунт, и Claude Code стал недоступен. Я попробовал заменить его локальными Qwen 3.8 Flash Next (1 × DGX Spark) и DeepSeek-V4.1-Flash-1017 (2 × DGX Spark). Замеры TPS/TTFT, рабочий процесс с двумя моделями и вывод — работать можно, но цикл разработки стал занимать значительно больше времени.</p>",
+    "imageUrl": "https://habrastorage.org/extt/98/4a/37/984a370eaf14e853cbd5c57a3aae7c7c.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/98/4a/37/984a370eaf14e853cbd5c57a3aae7c7c.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3068395",
+    "alias": "PHP-Programmist",
+    "fullname": "Костин Алексей",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/b8e/ee9/9db/b8eee99db7aa7026f18a78c9a37f81fe.jpg",
+    "speciality": "Senior PHP Developer",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 8,
+      "votesCount": 8
+    },
+    "rating": 27.1,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 35,
+    "favoritesCount": 39,
+    "readingCount": 8744,
+    "score": 27,
+    "votesCount": 23,
+    "votesCountPlus": 23,
+    "votesCountMinus": 0,
+    "reach": 16843,
+    "readers": 6735
+  },
+  "hubs": [
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20788",
+      "alias": "devops",
+      "type": "collective",
+      "title": "DevOps",
+      "titleHtml": "DevOps",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>TL;DR.</strong> Anthropic в очередной раз заблокировал мой аккаунт, и Claude Code стал недоступен. Я попробовал заменить его локальными Qwen 3.8 Flash Next (1 × DGX Spark) и DeepSeek‑V4.1-Flash-1017 (2 × DGX Spark). Замеры TPS/TTFT, рабочий процесс с двумя моделями и вывод — работать можно, но цикл разработки стал занимать значительно больше времени.</p><p><em>Железо для экспериментов выделил работодатель — компания, которая сдаёт DGX Spark в аренду. Статья — личный опыт, не реклама.</em></p><h3>Что случилось</h3><p>Очередная волна блокировок со стороны Anthropic зацепила и меня — как и многих других пользователей из РФ. 1 ноября 2026 года при входе в Claude Code мне предложили пройти верификацию. За пару дней до этого с той же проблемой столкнулись многие мои знакомые разработчики, и всех их в итоге заблокировали после верификации. Я решил не отдавать паспортные данные и сразу перейти к стадии принятия: смириться с потерей и жить дальше.</p><p>Морально я давно готовился к этому моменту, но, как показала практика, всё же не был до конца готов. Ощутил пустоту: потерял очень удобный инструмент, к которому привык за восемь месяцев. За это время случилась уже третья блокировка. Возможно, через месяц попробую завести новый аккаунт, но пока подожду: пусть пыль уляжется.</p><p>Но, вместе с этим, также получил и некое облегчение — больше не нужно думать, на что потратить неизрасходованные недельные лимиты.</p><h3>Что я пробую</h3><p>Ну, а пока нужно пробовать альтернативы. Собрал фидбек от знакомых разработчиков, которых тоже заблокировали за несколько дней до этого. Разумеется, они попробовали те же варианты, о которых думал и я, — Kimi K3.1 и Codex, — но разочаровались в них. Поэтому я выбрал другой путь — локальные китайские модели с открытыми весами.</p><p>Я давно интересуюсь локальными LLM (о чём упоминал в <a href=\"https://habr.com/ru/articles/1069216/\" rel=\"noopener nofollow\">прошлой статье</a>), и как раз сложились условия, чтобы проверить их в реальной работе. Организация, в которой я работаю, сдаёт в аренду NVIDIA DGX Spark. В рамках расширения парка компания закупила ещё два DGX Spark, которые мне временно выделили под эксперименты. Ещё один DGX Spark раньше выделили команде — на нём уже больше месяца работает Qwen 3.8 Flash Next. Команда хорошо отзывается об этой модели.</p><p>Qwen развёрнут по рецепту <a href=\"https://github.com/MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark-TensorFold\" rel=\"noopener nofollow\">Qwen3.8-Flash‑Next‑Single‑DGX‑Spark‑TensorFold</a>.</p><p>В первый день после блокировки решил развернуть DeepSeek‑V4.1-Flash-1017 (EXL3) по <a href=\"https://github.com/MiaAI-Lab/DeepSeek-v4.1-Flash-1017-2x-DGX-Sparks\" rel=\"noopener nofollow\">рецепту для кластера из двух Spark</a>. Поскольку Spark'и выделяют мне временно и, скорее всего, периодически они будут снова попадать в мои руки чистыми, я решил автоматизировать подготовку и деплой с помощью Ansible. Разведку машин, сбор требований, написание плейбуков и их прогон выполнял Qwen 3.8 Flash Next, запущенный на соседнем Spark. Это заняло примерно один рабочий день. Qwen работал долго, зато автономно — мне почти не приходилось вмешиваться. С работой он справился отлично: DeepSeek запустился с первой попытки.</p><p>На второй день начал использовать обе модели в реальных задачах: PHP (Symfony), Go и инфраструктура на K8s. В качестве основного harness (обвязки) пока использую минималистичный Pi, установленный в WSL. Пока у меня был доступ к Claude Code, я сделал плагин‑обёртку для консольного Pi в PhpStorm. Через этот плагин работать гораздо удобнее, чем в терминале: можно вставлять скриншоты прямо в окно чата и легко поставить курсор в нужное место мышью. Использую расширение pi‑subagents, чтобы экономить контекст основной сессии.</p><h3>Конфигурация</h3><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Параметр</p></th><th><p align=\"left\">Qwen 3.8 Flash Next</p></th><th><p align=\"left\">DeepSeek‑V4.1-Flash-1017</p></th></tr><tr><td><p align=\"left\">Железо</p></td><td><p align=\"left\">1 × DGX Spark</p></td><td><p align=\"left\">2 × DGX Spark</p></td></tr><tr><td><p align=\"left\">Движок</p></td><td><p align=\"left\">TensorFold</p></td><td><p align=\"left\">TensorFold</p></td></tr><tr><td><p align=\"left\">Квантизация</p></td><td><p align=\"left\">по рецепту TensorFold</p></td><td><p align=\"left\">EXL3 (ExLlamaV3)</p></td></tr><tr><td><p align=\"left\">Контекст</p></td><td><p align=\"left\">256K</p></td><td><p align=\"left\">512K</p></td></tr><tr><td><p align=\"left\">Развёртывание</p></td><td><p align=\"left\">рецепт TensorFold</p></td><td><p align=\"left\">рецепт для 2 × Spark + Ansible</p></td></tr><tr><td><p align=\"left\">Reasoning</p></td><td><p align=\"left\">xhigh / medium</p></td><td><p align=\"left\">high / medium</p></td></tr><tr><td><p align=\"left\">Temperature</p></td><td><p align=\"left\">0.7 / 0.6</p></td><td><p align=\"left\">0.7 / 0.6</p></td></tr></tbody></table></div></div><h3>Бенчмарки</h3><h4>Методика</h4><p>Написал небольшой бенчмарк, чтобы видеть ключевые показатели, которые модели выдают на этом железе. Делал по 10 замеров на каждом размере контекста: 2K, 8K, 32K, 64K и 128K. Профиль — code, на выходе 256 токенов, temperature 0, thinking off. Перед каждой серией делается один прогревочный запрос — в замеры он не попадает. Промпты в замерах уникальные: в начале стоит случайный salt, поэтому кэш префикса не помогает — это честный холодный prefill. Считал TPS (скорость генерации), TTFT p50 (медиану времени до первого токена) и разброс TTFT min‑max. Ещё считал prefill — скорость разбора промпта, то есть prompt_tokens / TTFT p50.</p><p>Отдельно про выбросы: в данных есть запросы с TTFT 4,8 с на 2K и 10,2 с на 8K у DeepSeek — похоже на разовые выбросы планировщика или кэша. Поэтому в таблицах я даю не только p50, но и min‑max: медиана показывает типичный случай, а разброс — насколько всё может прыгать. </p><h4>Qwen 3.8 Flash Next</h4><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Контекст</p></th><th><p align=\"left\">prompt tokens (median)</p></th><th><p align=\"left\">TPS p50 (min‑max)</p></th><th><p align=\"left\">TTFT p50, с</p></th><th><p align=\"left\">TTFT min‑max, с</p></th><th><p align=\"left\">prefill, ток/с</p></th></tr><tr><td><p align=\"left\">2K</p></td><td><p align=\"left\">2125</p></td><td><p align=\"left\">80.2 (67.0–87.0)</p></td><td><p align=\"left\">0.94</p></td><td><p align=\"left\">0.94–0.97</p></td><td><p align=\"left\">2256</p></td></tr><tr><td><p align=\"left\">8K</p></td><td><p align=\"left\">8282</p></td><td><p align=\"left\">74.0 (60.2–89.4)</p></td><td><p align=\"left\">3.29</p></td><td><p align=\"left\">3.28–3.32</p></td><td><p align=\"left\">2515</p></td></tr><tr><td><p align=\"left\">32K</p></td><td><p align=\"left\">32 796</p></td><td><p align=\"left\">74.8 (35.4–89.3)</p></td><td><p align=\"left\">13.05</p></td><td><p align=\"left\">13.04–13.43</p></td><td><p align=\"left\">2514</p></td></tr><tr><td><p align=\"left\">64K</p></td><td><p align=\"left\">65 598</p></td><td><p align=\"left\">70.7 (33.7–89.6)</p></td><td><p align=\"left\">26.90</p></td><td><p align=\"left\">26.84–27.00</p></td><td><p align=\"left\">2438</p></td></tr><tr><td><p align=\"left\">128K</p></td><td><p align=\"left\">130 931</p></td><td><p align=\"left\">72.6 (58.5–86.5)</p></td><td><p align=\"left\">56.94</p></td><td><p align=\"left\">56.73–57.01</p></td><td><p align=\"left\">2299</p></td></tr></tbody></table></div></div><h4>DeepSeek‑V4.1-Flash-1017</h4><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Контекст</p></th><th><p align=\"left\">prompt tokens (median)</p></th><th><p align=\"left\">TPS p50 (min‑max)</p></th><th><p align=\"left\">TTFT p50, с</p></th><th><p align=\"left\">TTFT min‑max, с</p></th><th><p align=\"left\">prefill, ток/с</p></th></tr><tr><td><p align=\"left\">2K</p></td><td><p align=\"left\">2113</p></td><td><p align=\"left\">109.4 (83.2–117.1)</p></td><td><p align=\"left\">1.25</p></td><td><p align=\"left\">1.21–4.76</p></td><td><p align=\"left\">1693</p></td></tr><tr><td><p align=\"left\">8K</p></td><td><p align=\"left\">8320</p></td><td><p align=\"left\">107.7 (82.6–117.8)</p></td><td><p align=\"left\">3.90</p></td><td><p align=\"left\">3.87–10.19</p></td><td><p align=\"left\">2133</p></td></tr><tr><td><p align=\"left\">32K</p></td><td><p align=\"left\">32 893</p></td><td><p align=\"left\">105.2 (89.7–118.0)</p></td><td><p align=\"left\">14.54</p></td><td><p align=\"left\">14.52–20.88</p></td><td><p align=\"left\">2262</p></td></tr><tr><td><p align=\"left\">64K</p></td><td><p align=\"left\">65 607</p></td><td><p align=\"left\">106.0 (90.3–117.2)</p></td><td><p align=\"left\">35.51</p></td><td><p align=\"left\">33.24–35.57</p></td><td><p align=\"left\">1848</p></td></tr><tr><td><p align=\"left\">128K</p></td><td><p align=\"left\">130 867</p></td><td><p align=\"left\">98.9 (72.1–116.4)</p></td><td><p align=\"left\">73.01</p></td><td><p align=\"left\">66.77–73.45</p></td><td><p align=\"left\">1793</p></td></tr></tbody></table></div></div><h4>Что видно из цифр</h4><p>Первое: Qwen на одном Spark выдаёт ~70–80 ток/с, DeepSeek на двух — ~99–109 ток/с. Если нормировать на железо, картина меняется: Qwen — 70–80 ток/с на Spark, DeepSeek — 49–55 ток/с на Spark. То есть на двух Spark DeepSeek выдаёт в 1,36–1,5 раза больше TPS, чем Qwen на одном, но не удвоение. Зато DeepSeek субъективно умнее — об этом ниже.</p><p>Второе: prefill. Qwen разбирает контекст со скоростью 2,3–2,5 тыс. ток/с, DeepSeek — 1,7–2,3 тыс. ток/с. Поэтому на 128K TTFT у Qwen 57 с, у DeepSeek 73 с, хотя TPS у DeepSeek выше. Для холодного разбора длинного промпта это важнее, чем скорость генерации.</p><p>Что это значит на практике: это цифры про холодный разбор полного промпта. По p50: на 32K — 13–21 с, на 64K — 27–36 с, на 128K — 57–73 с. Но в кодинг‑агенте контекст растёт постепенно: каждый следующий запрос добавляет несколько токенов, а префикс уже лежит в кэше, поэтому TTFT в обычном цикле может быть сильно ниже этих значений. На больших контекстах кэш как раз и спасает. </p><h3>Планирование</h3><p>При планировании использую reasoning <strong>xhigh</strong> у Qwen и <strong>high</strong> у DeepSeek, а при имплементации — <strong>medium</strong> у обеих.</p><p>Для крупных задач у меня пока такой метод: даю одну и ту же задачу Qwen и DeepSeek и прошу каждую написать план. Отвечаю на уточняющие вопросы каждой модели, получаю два файла с планами в Markdown. Перечитываю планы и уточняю у «автора» непонятные места. При необходимости вношу правки вручную. Затем прошу каждую модель ознакомиться с планом «коллеги» и определить, какой план полнее, какой взять за основу и что из второго в него добавить. На удивление, в моих задачах модели сходились во мнении: DeepSeek утверждал, что его план полнее, и этот план брали за основу; Qwen тоже признавал, что план DeepSeek лучше, и предлагал взять его за основу. Так было в большинстве случаев — только один раз обе модели выбрали план Qwen.</p><p>Затем ещё раз вычитываю итоговый план и перехожу к имплементации.</p><h3>Имплементация</h3><p><strong>Простой вариант</strong>: поручаю реализацию итогового плана одной DeepSeek. Запускаю модель с уровнем reasoning <strong>medium</strong> и прошу использовать субагентов для разведки и имплементации каждого шага, а также делать отдельный коммит на каждый шаг. Когда появляется первый коммит, начинаю ревьюить его и записывать замечания в Notepad. Таким образом, к моменту завершения задачи у меня уже есть понимание, что именно написано и что в этом коде мне не нравится.</p><p>По завершении имплементации передаю список замечаний и прошу их пофиксить. Затем в свежем контексте запускаю ревью силами DeepSeek. Смотрю, какие замечания справедливы, и прошу пофиксить. Затем — ревью и фиксы с помощью Qwen.</p><p><strong>Сложный вариант</strong>: использую два отдельных <strong>worktree</strong> и запускаю имплементацию на обеих моделях параллельно. Потом сравниваю оба решения и выбираю более удачное. Затем — два раунда ревью и фиксов.</p><h3>Тестирование</h3><p>Сначала, опираясь на итоговый план и код в ветке, прошу обе модели написать план e2e‑тестирования на dev‑стенде. Потом «скрещиваю» планы и получаю итоговый.</p><p>Затем по очереди прошу каждую модель протестировать функционал по плану и пофиксить найденные баги. Как правило, начинаю с DeepSeek; после его фиксов Qwen серьёзных проблем уже не находит, но мелкие недочёты — часто.</p><p>Затем — обязательное ручное e2e‑тестирование, деплой на стейдж, тестирование на стейдже и, наконец, релиз.</p><h3>Итоги первой недели</h3><p>По предварительным оценкам, за первую неделю цикл разработки стал занимать в 3–4 раза больше времени, чем с Claude Code. Иногда кажется, что писать самому было бы быстрее. Но, думаю, это из‑за непривычки и дублирования работы на двух моделях. Скорее всего, в будущем остановлюсь на одной модели. По субъективным ощущениям, DeepSeek процентов на 20 умнее и внимательнее, чем Qwen, но для DeepSeek нужен кластер из двух DGX Spark. Если у вас один Spark — Qwen; если два — DeepSeek.</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Плюсы</p></th><th><p align=\"left\">Минусы</p></th></tr><tr><td><p align=\"left\">Приватность и офлайн: код не уходит в облако</p></td><td><p align=\"left\">Цикл разработки в 3–4 раза дольше</p></td></tr><tr><td><p align=\"left\">Нет лимитов, блокировок и верификации</p></td><td><p align=\"left\">Требуется дорогое железо</p></td></tr></tbody></table></div></div><h3>Не кодом единым...</h3><p>На выходных дал DeepSeek задачу настроить запуск Hogwarts Legacy в VR. На этот раз я использовал DeepSeek Harness с уровнем reasoning medium. DeepSeek разведал систему, выяснил, что нужен универсальный инжектор, установил его, скачал профили настроек, написал скрипт для запуска игры в VR и составил подробную инструкцию. На всё ушло около часа.</p><p>С первого раза VR не запустился: были проблемы с VR‑инжектором. Описал проблему и попросил DeepSeek её диагностировать. Примерно через полчаса DeepSeek разобрался с проблемой, сам запустил игру и инжектор — в этот раз всё взлетело.</p><p>Уверен, что Claude Opus 5.5 справился бы с задачей в разы быстрее, но приходится пользоваться тем, что есть. Да, китайским моделям ещё далеко до Opus 5.5, но их уровня уже вполне достаточно для многих задач.</p><h3>Что дальше</h3><p>На следующей неделе планирую испытать GLM 5.3 Flash в задачах на кластере из двух Spark. Об этом обязательно напишу.</p><h3>Ссылки</h3><ul><li><p><a href=\"https://habr.com/ru/articles/1069216/\" rel=\"noopener nofollow\">Прошлая статья</a></p></li><li><p><a href=\"https://github.com/MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark-TensorFold\" rel=\"noopener nofollow\">Рецепт Qwen 3.8 Flash Next (TensorFold)</a></p></li><li><p><a href=\"https://github.com/MiaAI-Lab/DeepSeek-v4.1-Flash-1017-2x-DGX-Sparks\" rel=\"noopener nofollow\">Рецепт DeepSeek‑V4.1-Flash-1017 на двух Spark</a></p></li></ul></div>",
+  "tags": [
+    {
+      "titleHtml": "локальные llm"
+    },
+    {
+      "titleHtml": "dgx spark"
+    },
+    {
+      "titleHtml": "qwen"
+    },
+    {
+      "titleHtml": "deepseek"
+    },
+    {
+      "titleHtml": "claude code"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106276/5ec07f526c370ae3c5da34da66a7b109/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106276/5ec07f526c370ae3c5da34da66a7b109/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106276\\/\"},\"headline\":\"Есть ли жизнь после блокировки Claude Code? Первая неделя на локальных Qwen и DeepSeek\",\"datePublished\":\"2026-11-10T21:20:05+03:00\",\"dateModified\":\"2026-11-11T02:14:16+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"TL;DR. Anthropic в&nbsp;очередной раз заблокировал мой аккаунт, и Claude Code стал недоступен. Я попробовал заменить его локальными Qwen 3.8&nbsp;Flash Next...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106276\\/#post-content-body\",\"about\":[\"h_artificial_intelligence\",\"h_machine_learning\",\"h_open_source\",\"h_devops\",\"f_develop\",\"f_admin\",\"f_popsci\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1106276\\/5ec07f526c370ae3c5da34da66a7b109\\/\"]}",
+    "metaDescription": "TL;DR. Anthropic в&nbsp;очередной раз заблокировал мой аккаунт, и Claude Code стал недоступен. Я попробовал заменить его локальными Qwen 3.8&nbsp;Flash Next (1&nbsp;× DGX Spark) и...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 8,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,224 @@
+{
+  "id": "1105386",
+  "timePublished": "2026-11-09T09:11:43+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Microsoft устранила проблему с залипанием клавиш, доставлявшую неудобства пользователям на протяжении более 30 лет",
+  "leadData": {
+    "textHtml": "<p>Microsoft <a href=\"https://www.windowslatest.com/2026/11/08/microsoft-took-31-years-to-let-you-kill-windows-11s-sticky-keys-popup-which-exists-because-of-a-windows-95-era-pinball-game/\" rel=\"noopener nofollow\">добавила</a>&nbsp;чекбокс «Никогда не&nbsp;включать залипания клавиш с&nbsp;помощью этого сочетания клавиш» (Never turn on Sticky Keys with this shortcut) в&nbsp;диалоговое окно «Залипание клавиш» (Sticky Keys) Windows 11, которое появляется при&nbsp;пятикратном нажатии Shift. Аналогичная опция появилась в «Фильтре клавиш» (Filter Keys).</p>",
+    "imageUrl": "https://habrastorage.org/extt/c3/85/3e/c3853e3ac305906ef8f9e6a3673210be.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/c3/85/3e/c3853e3ac305906ef8f9e6a3673210be.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "1782611",
+    "alias": "Travis_Macrif",
+    "fullname": "Руслан",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/9af/987/8b0/9af9878b02f82d2e0864184d83479017.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 175,
+      "votesCount": 607
+    },
+    "rating": 375.2,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 12,
+    "favoritesCount": 0,
+    "readingCount": 2810,
+    "score": 5,
+    "votesCount": 4,
+    "votesCountPlus": 3,
+    "votesCountMinus": 1,
+    "reach": 7900,
+    "readers": 2371
+  },
+  "hubs": [
+    {
+      "id": "21456",
+      "alias": "win_dev",
+      "type": "collective",
+      "title": "Windows",
+      "titleHtml": "Windows",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21892",
+      "alias": "design",
+      "type": "collective",
+      "title": "Дизайн",
+      "titleHtml": "Дизайн",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21906",
+      "alias": "history",
+      "type": "collective",
+      "title": "История IT",
+      "titleHtml": "История IT",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "23270",
+      "alias": "os",
+      "type": "collective",
+      "title": "Операционные системы",
+      "titleHtml": "Операционные системы",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20726",
+      "alias": "productpm",
+      "type": "collective",
+      "title": "Управление продуктом",
+      "titleHtml": "Управление продуктом",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "2",
+      "alias": "design",
+      "title": "Дизайн",
+      "titleHtml": "Дизайн"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Microsoft <a href=\"https://www.windowslatest.com/2026/11/08/microsoft-took-31-years-to-let-you-kill-windows-11s-sticky-keys-popup-which-exists-because-of-a-windows-95-era-pinball-game/\" rel=\"noopener nofollow\">добавила</a> чекбокс «Никогда не включать залипания клавиш с помощью этого сочетания клавиш» (Never turn on Sticky Keys with this shortcut) в диалоговое окно «Залипание клавиш» (Sticky Keys) Windows 11, которое появляется при пятикратном нажатии Shift. Аналогичная опция появилась в «Фильтре клавиш» (Filter Keys).</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c3/85/3e/c3853e3ac305906ef8f9e6a3673210be.jpg\" width=\"1200\" height=\"675\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c3/85/3e/c3853e3ac305906ef8f9e6a3673210be.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/c3/85/3e/c3853e3ac305906ef8f9e6a3673210be.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Сейчас диалоговое окно «Залипания клавиш» имеет дизайн Win32, но Microsoft <a href=\"https://x.com/ItsL0N3/status/2119118768442159606\" rel=\"noopener nofollow\">работает</a> над его модернизацией.</p><p>Последние изменения коснулись сборок Windows 11 26H2 <a href=\"https://learn.microsoft.com/en-us/windows-insider/release-notes/experimental/preview-build-26340-9882\" rel=\"noopener nofollow\">26340.9882</a> и <a href=\"https://learn.microsoft.com/en-us/windows-insider/release-notes/beta/preview-build-26320-9876\" rel=\"noopener nofollow\">26320.9876</a>, вышедших 6 ноября 2026 года. Microsoft указывает, что пользователь может отказаться от повторного запроса в диалоговых окнах функций «Залипание клавиш» и «Фильтр клавиш», но это контролируемое внедрение в экспериментальные версии, поэтому пока не все смогут заметить эти изменения.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/72/dd/d8/72ddd8c1d5c2be7bf98c2ca5fa111976.jpg\" width=\"1200\" height=\"675\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/72/dd/d8/72ddd8c1d5c2be7bf98c2ca5fa111976.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/72/dd/d8/72ddd8c1d5c2be7bf98c2ca5fa111976.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Автор Windows Latest установил сборку 26 340.9882 на виртуальную машину и пять раз нажал Shift. Если в старом диалоговом окне были доступны варианты «Да», «Нет» и ссылка на «Параметры клавиатуры специальных возможностей», то в новом над ссылкой «Дополнительные параметры залипания клавиш» добавлен чекбокс. Когда автор поставил галочку и выбрал «Нет», пять нажатий Shift не привели к вызову диалогового окна.</p><p>Функция «Залипания клавиш» будет по‑прежнему доступна в настройках, её всегда было можно отключить там.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/19/3d/ee/193dee8f33e92f2829c78567858c2b3a.jpg\" width=\"1200\" height=\"760\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/19/3d/ee/193dee8f33e92f2829c78567858c2b3a.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/19/3d/ee/193dee8f33e92f2829c78567858c2b3a.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В 1994 году на должность менеджера программ по специальным возможностям Windows пришёл Чарльз Опперманн. Он рассказал, что написал эти диалоговые окна в начале 1995 года, поскольку дети главы разработки Windows 95 Брэда Сильверберга постоянно вызывали окно «Залипания клавиш» во время игры в Space Cadet Pinball. Опперманн добавил, что его команда «тогда рассматривала вариант с чекбоксом», но предпочла сделать более наглядными функции доступности Windows. Таким образом, вопрос появления чекбокса обсуждался ещё 31 год.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ac/dc/03/acdc032dfa75d6572c08395eeba1ff13.jpg\" width=\"1200\" height=\"675\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ac/dc/03/acdc032dfa75d6572c08395eeba1ff13.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/ac/dc/03/acdc032dfa75d6572c08395eeba1ff13.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Штаты Массачусетс и Миссури настойчиво требовали от Microsoft улучшить доступность Windows для людей с ограниченными возможностями, вспоминает Сильверберг. В Windows 95 Resource Kit диалоговое окно подтверждения описывается как «мера предосторожности против случайного включения» функции. Там же указывается способ навсегда отключить вызов этого окна с помощью горячей клавиши.</p><p>Функция «Залипание клавиш» помогает людям, которые печатают одним пальцем или с помощью специальных средств. Клавиши‑модификаторы, такие как Ctrl, остаются нажатыми до тех пор, пока пользователь не нажмёт следующую клавишу. В таком случае последовательное нажатие Ctrl и C работает так же, как сочетание Ctrl + C. Функция «Фильтр клавиш» игнорирует короткие или повторяющиеся нажатия клавиш, что помогает людям с тремором. Microsoft включает обе эти функции в список своих инструментов людей с нарушениями подвижности.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "windows 11"
+    },
+    {
+      "titleHtml": "windows"
+    },
+    {
+      "titleHtml": "microsoft"
+    },
+    {
+      "titleHtml": "залипание клавиш"
+    },
+    {
+      "titleHtml": "sticky keys"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105386/4019dda1d33d454196d3275cfb780736/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105386/4019dda1d33d454196d3275cfb780736/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105386\\/\"},\"headline\":\"Microsoft устранила проблему с залипанием клавиш, доставлявшую неудобства пользователям на протяжении более 30 лет\",\"datePublished\":\"2026-11-09T12:11:43+03:00\",\"dateModified\":\"2026-11-09T13:03:50+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Microsoft добавила чекбокс «Никогда не&nbsp;включать залипания клавиш с&nbsp;помощью этого сочетания клавиш» (Never turn on Sticky Keys with this shortcut)...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105386\\/#post-content-body\",\"about\":[\"h_win_dev\",\"h_design\",\"h_history\",\"h_os\",\"h_productpm\",\"f_develop\",\"f_admin\",\"f_design\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/c3\\/85\\/3e\\/c3853e3ac305906ef8f9e6a3673210be.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/72\\/dd\\/d8\\/72ddd8c1d5c2be7bf98c2ca5fa111976.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/19\\/3d\\/ee\\/193dee8f33e92f2829c78567858c2b3a.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/ac\\/dc\\/03\\/acdc032dfa75d6572c08395eeba1ff13.jpg\"]}",
+    "metaDescription": "Microsoft добавила чекбокс «Никогда не&nbsp;включать залипания клавиш с&nbsp;помощью этого сочетания клавиш» (Never turn on Sticky Keys with this shortcut) в&nbsp;диалоговое окно «Залипание клавиш»...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "24",
+    "title": "Дизайн",
+    "alias": "design"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,179 @@
+{
+  "id": "1105818",
+  "timePublished": "2026-11-10T08:12:54+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Сервер отвечает 200 OK. Сайт не работает. Почему мониторинг ничего не заметил?",
+  "leadData": {
+    "textHtml": "<p>Вчера я разработал новый интересный кейс для моего <a href=\"https://prodisdown.ru\" rel=\"noopener nofollow\">тренажера</a> и с интересом вам расскажу о нем:</p><p>Представим довольно неприятную ситуацию.</p><p>После очередного деплоя пользователи начинают жаловаться, что сайт перестал работать. Открывают страницу — белый экран. Никаких сообщений, ошибок или признаков жизни.</p><p>Проверяем сервер:</p>",
+    "imageUrl": "https://habrastorage.org/extt/33/b9/14/33b91454acf5675f0daa7534504e8b19.jpeg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/33/b9/14/33b91454acf5675f0daa7534504e8b19.jpeg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "6041974",
+    "alias": "verin_is",
+    "fullname": "Верин Игорь",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 11
+    },
+    "rating": 55,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 5,
+    "readingCount": 388,
+    "score": 3,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 5215,
+    "readers": 272
+  },
+  "hubs": [
+    {
+      "id": "6659",
+      "alias": "nginx",
+      "type": "collective",
+      "title": "Nginx",
+      "titleHtml": "Nginx",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20788",
+      "alias": "devops",
+      "type": "collective",
+      "title": "DevOps",
+      "titleHtml": "DevOps",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Вчера я разработал новый интересный кейс для моего <a href=\"https://prodisdown.ru\" rel=\"noopener nofollow\">тренажера</a> и с интересом вам расскажу о нем:</p><p>Представим довольно неприятную ситуацию.</p><p>После очередного деплоя пользователи начинают жаловаться, что сайт перестал работать. Открывают страницу — белый экран. Никаких сообщений, ошибок или признаков жизни.</p><p>Проверяем сервер:</p><pre><code class=\"bash\">systemctl status nginx</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Nginx работает. В журналах нет ничего необычного.</p><p>Проверяем HTTP:</p><pre><code class=\"bash\">curl -I https://example.com</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Получаем:</p><pre><code>HTTP/2 200\ncontent-type: text/html</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>CPU не перегружен, память свободна, сервер отвечает. Мониторинг тоже показывает зелёный статус.</p><p>Только вот сайт по-прежнему не работает.</p><p>Я решил разобрать такую ситуацию на небольшом тестовом стенде. Оказалось, что получить <code>200 OK</code> от полностью неработающего frontend довольно легко.</p><p>И причин для этого как минимум несколько.</p><h3>Почему HTTP 200 ещё ничего не гарантирует</h3><p>Начнём с простого.</p><p>Когда мы выполняем:</p><pre><code class=\"bash\">curl -I https://example.com</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>мы проверяем ответ сервера на HEAD-запрос.</p><p>Если сервер возвращает 200, это означает, что запрос успешно обработан на уровне HTTP.</p><p>Но браузеру для отображения современного веб-приложения зачастую недостаточно одного HTML-файла.</p><p>Допустим, у нас обычное SPA-приложение.</p><p>Его HTML выглядит примерно так:</p><pre><code>&lt;!DOCTYPE html&gt;\n&lt;html lang=\"ru\"&gt;\n&lt;head&gt;\n  &lt;meta charset=\"UTF-8\"&gt;\n  &lt;title&gt;Dashboard&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;div id=\"app\"&gt;&lt;/div&gt;\n  &lt;script type=\"module\" src=\"/assets/app.abc123.js\"&gt;&lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Сам HTML практически пустой. Интерфейс формируется JavaScript-кодом после загрузки страницы.</p><p>Если JavaScript не загрузится, браузер вполне может показать белый экран.</p><p>При этом Nginx продолжит совершенно спокойно отвечать <code>200 OK</code> на запрос главной страницы.</p><p>С точки зрения веб-сервера всё нормально.</p><p>С точки зрения пользователя - приложение мертво.</p><h3>Ситуация №1. Nginx возвращает HTML вместо JavaScript</h3><p>Допустим, после деплоя у нас получилась следующая структура:</p><pre><code>/srv/www/app/\n├── index.html\n└── assets/\n    └── app.def456.js</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Но в <code>index.html</code> осталась ссылка на старую версию:</p><pre><code>&lt;script type=\"module\" src=\"/assets/app.abc123.js\"&gt;&lt;/script&gt;</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Файла <code>app.abc123.js</code> больше нет.</p><p>Посмотрим на упрощённую конфигурацию Nginx:</p><pre><code class=\"nginx\">server {\n    listen 80;\n    server_name example.com;\n\n    root /srv/www/app;\n    index index.html;\n\n    location / {\n        try_files $uri $uri/ /index.html;\n    }\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Для SPA это довольно распространённая настройка. Если пользователь открывает <code>/dashboard</code>, а такого файла нет, Nginx возвращает <code>index.html</code>. Дальше маршрутизацией занимается JavaScript.</p><p>Но здесь есть нюанс.</p><p>Запрос к отсутствующему <code>/assets/app.abc123.js</code> тоже попадает под это правило.</p><p>Nginx не находит файл и вместо JavaScript возвращает <code>index.html</code>.</p><p>Проверяем:</p><pre><code class=\"bash\">curl -i http://localhost/assets/app.abc123.js</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Результат будет примерно таким:</p><pre><code>HTTP/1.1 200 OK\nContent-Type: text/html\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"ru\"&gt;\n...</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>И вот оно.</p><p>Запрос JavaScript-файла вернул 200 OK. Но в ответе вообще нет JavaScript.</p><p>Открываем DevTools в браузере и смотрим Console.</p><p>Там можно увидеть:</p><pre><code>Failed to load module script:\nExpected a JavaScript module script\nbut the server responded with a MIME\ntype of \"text/html\".</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Браузер ожидал JavaScript-модуль, а получил HTML.</p><p>Он отказывается его выполнять.</p><h4>Как исправить</h4><p>Для начала нужно восстановить согласованность файлов деплоя: <code>index.html</code> должен ссылаться на реально существующий JavaScript-бандл.</p><p>А чтобы Nginx не скрывал подобную ошибку, можно отдельно обрабатывать статические ресурсы:</p><pre><code class=\"nginx\">location ^~ /assets/ {\n    try_files $uri =404;\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Теперь при запросе отсутствующего JS-файла сервер вернёт честный <code>404 Not Found</code>.</p><p>Это не починит сломанную сборку автоматически, зато сделает проблему гораздо заметнее.</p><p>И мониторингу, и разработчику будет проще понять, что ресурс действительно отсутствует.</p><h3>Ситуация №2. Файл существует, но Nginx ищет его не там</h3><p>Теперь представим другой вариант.</p><p>Файл JavaScript на сервере есть. Путь в HTML правильный.</p><p>Но браузер всё равно его не получает.</p><p>В конфигурации обнаруживается:</p><pre><code class=\"nginx\">location /assets/ {\n    alias /srv/www/app/;\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>А реальные файлы находятся в:</p><pre><code>/srv/www/app/assets/</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Проблема в том, как работает <code>alias</code>.</p><p>При таком правиле запрос:</p><pre><code>/assets/app.js</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Nginx попытается сопоставить с:</p><pre><code>/srv/www/app/app.js</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>А нужный файл лежит в другой директории.</p><p>Исправляем путь:</p><pre><code class=\"nginx\">location /assets/ {\n    alias /srv/www/app/assets/;\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Затем проверяем конфигурацию:</p><pre><code class=\"bash\">sudo nginx -t</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Если всё нормально:</p><pre><code class=\"bash\">sudo systemctl reload nginx</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>И повторяем запрос.</p><p>Это кажется довольно очевидной ошибкой, когда уже знаешь причину.</p><p>Но в момент расследования её легко пропустить: файл на месте, Nginx работает, главная страница открывается.</p><p>Нужно проверять не только наличие файла на диске, но и то, каким путём Nginx пытается его найти.</p><h3>Ситуация №3. JavaScript есть, но браузер отказывается его выполнять</h3><p>Третий случай ещё интереснее.</p><p>Файл существует. Nginx его находит. HTTP-ответ - 200.</p><p>Но приложение не запускается.</p><p>Проверяем заголовки:</p><pre><code class=\"bash\">curl -I http://localhost/assets/app.js</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Получаем:</p><pre><code>HTTP/1.1 200 OK\nContent-Type: text/plain</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>На первый взгляд ничего страшного.</p><p>Но для JavaScript-модулей браузеры применяют строгую проверку MIME-типа.</p><p>Если сервер возвращает JavaScript как <code>text/plain</code>, модуль не будет выполнен.</p><p>Например, такая проблема может появиться из-за неправильной конфигурации MIME-типов:</p><pre><code class=\"nginx\">location /assets/ {\n    types { }\n    default_type text/plain;\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Здесь мы фактически заставляем Nginx отдавать ресурсы с неподходящим типом содержимого.</p><p>В нормальной конфигурации необходимо использовать корректные MIME-сопоставления, обычно подключаемые через:</p><pre><code class=\"nginx\">include /etc/nginx/mime.types;</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>При этом нужно убедиться, что локальные настройки <code>types</code> не переопределяют нужные сопоставления.</p><p>После исправления заголовок JavaScript-файла должен содержать подходящий MIME-тип, например:</p><pre><code>Content-Type: text/javascript</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>И браузер сможет выполнить модуль.</p><p>В очередной раз: сервер работал, файл существовал, HTTP возвращал 200. Но сайт оставался неработоспособным.</p><h3>А почему мониторинг ничего не заметил?</h3><p>Теперь вернёмся к исходной ситуации.</p><p>Допустим, наш мониторинг каждые 30 секунд делает:</p><pre><code class=\"bash\">curl -fsS -o /dev/null https://example.com/</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Если сервер возвращает успешный HTTP-код, проверка завершается без ошибки.</p><p>Для простых сайтов этого иногда достаточно.</p><p>Но для SPA-приложения подобная проверка говорит только о доступности HTTP-страницы.</p><p>Она не отвечает на несколько важных вопросов:</p><ul><li><p>Загрузились ли JavaScript-ресурсы?</p></li><li><p>Выполнился ли код приложения?</p></li><li><p>Появился ли интерфейс?</p></li><li><p>Может ли пользователь выполнить основное действие?</p></li></ul><p>Получается, что мы проверяем доступность Nginx, а называем это доступностью приложения.</p><h4>Как я бы улучшил проверку</h4><p>Я бы разделил мониторинг на несколько уровней.</p><p>Первый - доступность сервера.</p><p>Проверяем, что Nginx отвечает и главная страница доступна.</p><p>Второй - доступность ресурсов.</p><p>Проверяем, что JavaScript-файлы действительно существуют, имеют корректный MIME-тип и возвращают ожидаемое содержимое.</p><p>Третий - работоспособность приложения.</p><p>Здесь уже полезен браузерный smoke-тест.</p><p>Например, с Playwright можно открыть страницу в Chromium и проверить, что приложение действительно отрисовало нужный элемент.</p><p>Условный пример:</p><pre><code class=\"javascript\">import { chromium } from 'playwright';\n\nconst browser = await chromium.launch();\n\ntry {\n  const page = await browser.newPage();\n\n  await page.goto('https://example.com/');\n\n  await page.locator('[data-testid=\"dashboard\"]')\n    .waitFor({ state: 'visible', timeout: 10000 });\n\n  console.log('Frontend is working');\n} finally {\n  await browser.close();\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Разумеется, в самом приложении должен существовать соответствующий элемент.</p><p>Но такая проверка уже гораздо ближе к тому, что видит реальный пользователь.</p><p>Она не просто спрашивает у Nginx, жив ли он.</p><p>Она проверяет, что интерфейс действительно смог загрузиться.</p><p>Я бы не запускал полноценный браузерный тест каждые несколько секунд на каждом экземпляре сервиса. Но для проверки после деплоя и периодического внешнего мониторинга это полезный дополнительный уровень.</p><h3>Что в итоге</h3><p>У всех трёх ситуаций есть одна общая черта.</p><p>HTTP 200 означает успешный ответ на конкретный HTTP-запрос, но не гарантирует, что приложение работает.</p><p>Можно получить 200 от главной страницы, 200 от отсутствующего JavaScript-файла, 200 от ресурса с неправильным MIME-типом.</p><p>И при этом пользователь увидит только белый экран.</p><p>Меня в подобных задачах интересует даже не сама ошибка, а разница между тем, что показывает мониторинг, и тем, что происходит на самом деле.</p><p>Мы привыкли проверять службы, порты и HTTP-коды. Но иногда все эти показатели зелёные, а продукт уже недоступен.</p><p>Наверное, поэтому хороший healthcheck должен отвечать не только на вопрос «жив ли сервер», но и на вопрос «может ли пользователь сделать то, ради чего вообще существует этот сервис».</p></div>",
+  "tags": [
+    {
+      "titleHtml": "devops"
+    },
+    {
+      "titleHtml": "nginx"
+    },
+    {
+      "titleHtml": "системное администрирование"
+    },
+    {
+      "titleHtml": "sre"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105818/efa9ff3a9211521be0d809f79ffe6c06/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105818/efa9ff3a9211521be0d809f79ffe6c06/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105818\\/\"},\"headline\":\"Сервер отвечает 200 OK. Сайт не работает. Почему мониторинг ничего не заметил?\",\"datePublished\":\"2026-11-10T11:12:54+03:00\",\"dateModified\":\"2026-11-11T13:19:12+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Вчера я разработал новый интересный кейс для моего тренажера и с интересом вам расскажу о нем: Представим довольно неприятную ситуацию. После очередного деплоя...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105818\\/#post-content-body\",\"about\":[\"h_nginx\",\"h_sys_admin\",\"h_devops\",\"f_admin\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105818\\/efa9ff3a9211521be0d809f79ffe6c06\\/\"]}",
+    "metaDescription": "Вчера я разработал новый интересный кейс для моего тренажера и с интересом вам расскажу о нем: Представим довольно неприятную ситуацию. После очередного деплоя пользователи начинают жаловаться, что...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 6,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,170 @@
+{
+  "id": "1105394",
+  "timePublished": "2026-11-09T09:20:43+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "🤖 ИИ-агенты постепенно становятся полноценными участниками процесса разработки: получают доступ к внутренним...",
+  "leadData": {
+    "textHtml": "<p>🤖 ИИ-агенты постепенно становятся полноценными участниками процесса разработки: получают доступ к внутренним инструментам, используют накопленную экспертизу команд и самостоятельно выполняют задачи. Но вместе с ростом их возможностей возникают новые вопросы: как масштабировать агентскую разработку, контролировать качество генерируемого кода и обеспечить безопасность таких процессов?</p><p>На вебинаре обсудим практику внедрения ИИ-агентов в разработку на примере Яндекса: поговорим об инфраструктуре, нагрузке на процессы ревью, оценке качества кода и новых ролях инженеров.</p><p>Затем рассмотрим loop engineering как подход к организации безопасной агентской разработки. Разберём, как встроить инструменты статического анализа в цикл работы ИИ-агентов, какие задачи можно доверить нейросети, а какие требуют детерминированных проверок, и как организовать взаимодействие моделей и инструментов в том числе в закрытом контуре.</p><p>📌 Встречаемся 17 ноября в 15:00!</p><p>➡️ <strong><a href=\"https://pvs-studio.ru/ru/webinar/cycle/genai-code-quality/?utm_source=habr&amp;utm_medium=pvsteam&amp;utm_campaign=webinar&amp;utm_content=quality_genai_4\" rel=\"noopener nofollow\">Регистрация</a></strong> ⬅️</p>",
+    "imageUrl": null,
+    "buttonTextHtml": "Читать дальше &rarr;",
+    "image": null
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "4376592",
+    "alias": "PvsTeam",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/f17/a17/744/f17a17744ed0241679ff1b56846095fb.jpg",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 22,
+      "votesCount": 28
+    },
+    "rating": 0.7,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 1,
+    "readingCount": 2978,
+    "score": 1,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 4612,
+    "readers": 52
+  },
+  "hubs": [
+    {
+      "id": "18095",
+      "alias": "pvs-studio",
+      "type": "corporative",
+      "title": "Блог компании PVS-Studio",
+      "titleHtml": "Блог компании PVS-Studio",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/5d/e6/7f/5de67f5b0164516b8bc597258a9c7e11.png\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/5d/e6/7f/5de67f5b0164516b8bc597258a9c7e11.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/5d/e6/7f/5de67f5b0164516b8bc597258a9c7e11.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>🤖 ИИ-агенты постепенно становятся полноценными участниками процесса разработки: получают доступ к внутренним инструментам, используют накопленную экспертизу команд и самостоятельно выполняют задачи. Но вместе с ростом их возможностей возникают новые вопросы: как масштабировать агентскую разработку, контролировать качество генерируемого кода и обеспечить безопасность таких процессов?</p><p>На вебинаре обсудим практику внедрения ИИ-агентов в разработку на примере Яндекса: поговорим об инфраструктуре, нагрузке на процессы ревью, оценке качества кода и новых ролях инженеров.</p><p>Затем рассмотрим loop engineering как подход к организации безопасной агентской разработки. Разберём, как встроить инструменты статического анализа в цикл работы ИИ-агентов, какие задачи можно доверить нейросети, а какие требуют детерминированных проверок, и как организовать взаимодействие моделей и инструментов в том числе в закрытом контуре.</p><p>📌 Встречаемся 17 ноября в 15:00!</p><p>➡️ <strong><a href=\"https://pvs-studio.ru/ru/webinar/cycle/genai-code-quality/?utm_source=habr&amp;utm_medium=pvsteam&amp;utm_campaign=webinar&amp;utm_content=quality_genai_4\" rel=\"noopener nofollow\">Регистрация</a></strong> ⬅️</p></div>",
+  "tags": [
+    {
+      "titleHtml": "ии"
+    },
+    {
+      "titleHtml": "ии-агенты"
+    },
+    {
+      "titleHtml": "вебинар"
+    },
+    {
+      "titleHtml": "ai"
+    },
+    {
+      "titleHtml": "ai-агенты"
+    },
+    {
+      "titleHtml": "разработка"
+    },
+    {
+      "titleHtml": "качество кода"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105394/03729b244144af39ba1a762e40f9484a/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105394/03729b244144af39ba1a762e40f9484a/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/pvs-studio\\/articles\\/1105394\\/\"},\"headline\":\"🤖 ИИ-агенты постепенно становятся полноценными участниками процесса разработки: получают доступ к внутренним...\",\"datePublished\":\"2026-11-09T12:20:43+03:00\",\"dateModified\":\"2026-11-09T16:53:34+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"🤖 ИИ-агенты постепенно становятся полноценными участниками процесса разработки: получают доступ к внутренним инструментам, используют накопленную экспертизу...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/pvs-studio\\/articles\\/1105394\\/#post-content-body\",\"about\":[\"c_pvs-studio\",\"h_artificial_intelligence\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105394\\/03729b244144af39ba1a762e40f9484a\\/\"]}",
+    "metaDescription": "🤖 ИИ-агенты постепенно становятся полноценными участниками процесса разработки: получают доступ к внутренним инструментам, используют накопленную экспертизу команд и самостоятельно выполняют задачи....",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": null,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

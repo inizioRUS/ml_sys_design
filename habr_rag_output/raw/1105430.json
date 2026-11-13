@@ -1,0 +1,230 @@
+{
+  "id": "1105430",
+  "timePublished": "2026-11-09T10:18:31+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Сколько стоит ИИ построить?",
+  "leadData": {
+    "textHtml": "<p>Собрать по кускам БЯМ и сшить из неё ассистента, отличающегося умом и сообразительностью, выливается в солидную копеечку. Выясняем, сколько в итоге нужно потратить на ChatGPT и прочих флагманов столь непростой индустрии.</p>",
+    "imageUrl": "https://habrastorage.org/extt/81/4c/52/814c523e4d153f4ab24f4172fd686af6.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/81/4c/52/814c523e4d153f4ab24f4172fd686af6.png",
+      "fit": "cover",
+      "positionY": 100,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5685463",
+    "alias": "DimaIam",
+    "fullname": "DimaIam",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/f07/467/087/f07467087639d6831634d53596f2e449.jpeg",
+    "speciality": "«Не стреляйте в журналиста. Он пишет как умеет.»",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 50,
+      "votesCount": 90
+    },
+    "rating": 112.7,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "64K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 11,
+    "readingCount": 927,
+    "score": 6,
+    "votesCount": 5,
+    "votesCountPlus": 5,
+    "votesCountMinus": 0,
+    "reach": 9024,
+    "readers": 666
+  },
+  "hubs": [
+    {
+      "id": "23818",
+      "alias": "studyai",
+      "type": "corporative",
+      "title": "Блог компании StudyAI",
+      "titleHtml": "Блог компании StudyAI",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20742",
+      "alias": "read",
+      "type": "collective",
+      "title": "Читальный зал",
+      "titleHtml": "Читальный зал",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21910",
+      "alias": "popular_science",
+      "type": "collective",
+      "title": "Научно-популярное",
+      "titleHtml": "Научно-популярное",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Собрать по кускам БЯМ и сшить из неё ассистента, отличающегося умом и сообразительностью, выливается в солидную копеечку. Выясняем, сколько в итоге нужно потратить на ChatGPT и прочих флагманов столь непростой индустрии.</p><h3>ChatGPT</h3><p>GPT-1, она же «предварительно обученный генеративный трансформер», появилась в 2018 году. Это была модель со 117 миллионами параметров, предварительно обученная на неразмеченных текстах и заложившая основы полууправляемого многоцелевого обучения для обработки естественного языка.</p><p><em>Уже исторический артефакт: архитектура трансформерной модели. </em><a href=\"https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf\"><em>Источник.</em></a></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/67/56/cd/6756cd326801615fa0f5e7cc97d34878.png\" width=\"647\" height=\"300\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/67/56/cd/6756cd326801615fa0f5e7cc97d34878.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/67/56/cd/6756cd326801615fa0f5e7cc97d34878.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Самая первая итерация ГПТшной модели была маленькой и скромной, стеснительной  пробой пера: её обучение обошлось создателям примерно в $1 000–4 000. Точную стоимость никогда не называли, и это станет доброй традицией OpenAI в будущем.</p><p>GPT-2 явила себя миру годом позже. На её обучение в последний “некоронованный год”, по распространённым оценкам, уже ушло около $43 000.</p><p>А вот с GPT-3 дела уже принимают серьёзный оборот. Если во второй модели было всего 1,5 миллиарда параметров, то в третьей их количество выросло в астрономические сто раз — до 175 миллиардов.</p><p>Такой качественный скачок Тройка удалая совершит в 2020-м, потому что команда OpenAI целенаправленно проверяла гипотезу: качественный скачок в универсальности и способности решать задачи без дообучения достигается за счёт экспоненциального роста параметров и данных. Точные цифры остаются в анналах OpenAI под грифом «совершенно секретно».</p><p><em>Штаб-квартира OpenAI. </em><a href=\"https://en.wikipedia.org/wiki/OpenAI\"><em>Источник.</em></a></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/91/0a/5f/910a5f909eafc421439577b79b64eb4c.png\" width=\"624\" height=\"416\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/91/0a/5f/910a5f909eafc421439577b79b64eb4c.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/91/0a/5f/910a5f909eafc421439577b79b64eb4c.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Однако, по этому поводу<a href=\"https://lambda.com/blog/demystifying-gpt-3\"> Lambda Labs отписались</a>, что для модели с таким количеством параметров понадобились бы 3,14×10²³ FLOPS, а их обработка заняла бы 355 лет на одном, самом бюджетном графическом процессоре.</p><p><em>Интересной статьёй расхода, как</em><a href=\"https://time.com/6247678/openai-chatgpt-kenya-workers/\"><em> выяснил журнал Time</em></a><em>, стал наём кенийских аннотаторов, воочию просматривавших и вручную фильтровавших контент с маркировкой «жесть» для обучения детектора вредоносного контента. Им приходилось наблюдать тёмные и отвратительные грани интернета, включая фантазии об убийствах и зоосадизм, за что работодатель Sama платил им от $1,32 до $2 в час, хотя в общей сложности OpenAI выделяла $12,50 на час такой работы. Как потом сажет один из аннотаторов: «Это была пытка».</em></p><p><em>Офис компании Sama. </em><a href=\"https://time.com/6247678/openai-chatgpt-kenya-workers/\"><em>Источник.</em></a></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/b3/50/26/b35026956e5d91951359b042b1ea7157.png\" width=\"2048\" height=\"1365\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b3/50/26/b35026956e5d91951359b042b1ea7157.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/b3/50/26/b35026956e5d91951359b042b1ea7157.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Расходы на GPT-4 почти удесятерились, хотя точные цифры вновь неизвестны. Сам Альтман лишь обиняками да экивоками дал понять, что на подготовку четвёртой модели ушло больше ста миллионов долларов.</p><p>В свете одной из оценок стало известно, что Четвёрку<a href=\"https://arxiv.org/html/2506.15006v2\"> готовили с помощью</a> примерно 25 000 графических процессоров NVIDIA A100 на протяжении 90–100 дней. В 2022 году одна такая карта с 40 гигабайтами видеопамяти стоила порядка $10 000–12 000. Только на сами ускорители, таким образом, пришлось бы потратить около $250–300 миллионов — не считая инфраструктуры, электричества и, конечно, заоблачных зарплат инженеров-ИИшников.</p><p>Наконец, GPT-5, некоторое время носившая кодовый позывной «Орион», потребовала ресурсов уже совершенно иного масштаба. Только на тренировочный марафон, продлившийся около шести месяцев, ушло не меньше полумиллиарда долларов. В ценник вошли арендованные серверные мощности и счета за электричество. Остальные средства ушли на создание орионовской архитектуры, симуляцию тренировочных полигонов, многоагентные симуляции и оплату доступа к качественному контенту в сети.</p><p>В общем, за восемь лет любимый всеми «Чатик» скакнул со скромной тыщёнки долларов до фактически триллиона — и это ещё по скромным подсчётам.</p><h3>Claude</h3><p>Антропик долго не раскочегаривался и сразу запрыгнул на Олимп, чтобы выковать свою эпохальную модель. Успех во многом объясняется тем, что компания, по сути, плоть от плоти OpenAI: там ранее работали брат и сестра Дарио и Даниэлла Амодеи, а также несколько других талантливых исследователей.</p><p><em>Одно из мест базирования Anthropic. </em><a href=\"https://en.wikipedia.org/wiki/OpenAI\"><em>Источник.</em></a></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e6/f8/e9/e6f8e97793bf0a51fca14f69dfa3ed76.png\" width=\"1988\" height=\"2048\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e6/f8/e9/e6f8e97793bf0a51fca14f69dfa3ed76.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/e6/f8/e9/e6f8e97793bf0a51fca14f69dfa3ed76.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Кроме того, тренировку Клода усилили так называемым конституциональным методом — это когда модель уже не нуждается в огромном количестве человеческого фидбека, а продолжает обучение в соответствии с заранее прописанными правилами. С уставом дружить — вечно человечеству служить, так сказать.</p><p>Как и в случае с ChatGPT, трудно выяснить, сколько точно было потрачено на создание Клода. Самая первая модель, названная в честь Клода Шеннона, состояла примерно из 52 миллиардов параметров и также обучалась на гугловских TPU. По приблизительным оценкам, только обучение могло обойтись в $5–15 миллионов.</p><p><em>Клод Элвуд Шеннон, пионер кибернетики, полимат и языковая модель. </em><a href=\"https://www.newyorker.com/tech/annals-of-technology/claude-shannon-the-father-of-the-information-age-turns-1100100\"><em>Источник.</em></a></p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/03/02/f5/0302f5dd5922c021d3e5aaa496cb60e8.png\" width=\"447\" height=\"686\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/03/02/f5/0302f5dd5922c021d3e5aaa496cb60e8.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/03/02/f5/0302f5dd5922c021d3e5aaa496cb60e8.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>А вот с «учебниками», которые Клод штудировал, было не всё так однозначно. Первая партия досталась Anthropic почти бесплатно: цифровые версии миллионов книг были скачаны с пиратских ресурсов вроде LibGen и Books3.</p><p>Но, как водится, бесплатный <s>сыр</s> книг бывает только в мышеловке. В итоге компания стала ответчиком в деле Bartz против Anthropic о нарушении авторских прав. Тяжба вылилась в гигантские $1,5 миллиарда компенсационных выплат для кармана Антропиков. Параллельно компания перешла к “Проекту Панама” — закупке подержанных печатных книг, их сканированию и использованию цифровых копий. Данная операция тоже обошлась в десятки миллионов.</p><p><em>Предположительно, одно из книгохранилищ Anthropic, где держались книги для “Проекта Панама”. </em><a href=\"https://medium.com/@fromriaria/project-panama-how-the-ai-industry-is-destroying-books-and-knowledge-a7e3477005be\"><em>Источник.</em></a></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/22/c8/24/22c824aa5b029b2267402e59b60a1113.png\" width=\"630\" height=\"434\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/22/c8/24/22c824aa5b029b2267402e59b60a1113.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/22/c8/24/22c824aa5b029b2267402e59b60a1113.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>С более поздними версиями семейства Claude всё ещё менее прозрачно: Anthropic не раскрывает ни точных затрат на обучение, ни деталей контрактов с облачными провайдерами. Известно лишь, что компания заключила многомиллиардные соглашения о вычислительных мощностях с AWS, Google и другими партнерами, которые, по некоторым оценкам, приближаются к $895 миллиардам.</p><h3>Grok</h3><p>Грок — птица интересная, так как архитектурные крылья у него устроены немного иначе, чем у других. В основе Грока лежит так называемая «архитектура смеси экспертов», она же MoE.</p><p><em>Принцип устройства архитектуры MoE. </em><a href=\"https://medium.com/@diwakarkumar_18755/understanding-mixture-of-experts-moe-architecture-in-ai-224e3b3b9243\"><em>Источник.</em></a></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/6a/cf/b6/6acfb617635e8dd1fa1675313ae8dd3f.png\" width=\"678\" height=\"452\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/6a/cf/b6/6acfb617635e8dd1fa1675313ae8dd3f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/6a/cf/b6/6acfb617635e8dd1fa1675313ae8dd3f.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Данная архитектура использует динамическую маршрутизацию, чтобы активировать лишь часть общих экспертных подсетей для каждого запроса. Это позволяет масштабировать параметры модели, не наращивая пропорционально вычисления и энергозатраты на каждый токен.</p><p><a href=\"https://epoch.ai/data-insights/grok-4-training-resources\">По данным Epoch AI</a>, на обучение Grok 4 ушло примерно $490 миллионов. Но это, видимо, копейки в сравнении с железом, необходимым для существования гроковской модели. Её мозги туго скомпонованы из 200 000 видеокарточек NVIDIA калибра H100, H200 и GB200. Цифры, кстати, отчасти<a href=\"https://www.businessinsider.com/elon-musk-hints-how-much-grok-ai-chatbot-training-costs-2024-7\"> раскрыл лично Маск</a>, признавшись, что Grok 3 тренировался с помощью 100 000 видеокарт H100 — что в пересчёте на американскую валюту составляет где-то $3-4 миллиарда.</p><h3>DeepSeek</h3><p>Талисман китайского Дипсика — голубой кит, тихий гигант глубин, поглащающий тонну криля в сутки. Но, в отличие от своего тотемного животного, модели не нужно съедать слишком много, чтобы успешно функционировать — по крайней мере, так гласят официальные отчёты.</p><p><em>Похожая на автодилерский центр, штаб-квартира Дипсика в китайской “силиконовой долине”, в городе Ханчжоу. </em><a href=\"https://hgwconsult.com.au/deepseek-chinas-open-source-ai-powerhouse/\"><em>Источник.</em></a></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/15/f2/c1/15f2c10e3779ffe79180f7e35914b0c1.png\" width=\"640\" height=\"480\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/15/f2/c1/15f2c10e3779ffe79180f7e35914b0c1.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/15/f2/c1/15f2c10e3779ffe79180f7e35914b0c1.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В частности, заявляется, что на финальный прогон обучения DeepSeek-V3, дающей моментальные ответы, ушло всего $5,6 миллиона. При более чем 600 миллиардах параметров это буквально горстка ломаных грошей. Всего модели на цикл обучения понадобились 2,79 миллиона GPU-часов на процессорах H800 от всё той же Nvidia.</p><p>А модель глубокого мышления DeepSeek-R1 и вовсе тренировали 80 часов на 512 картах Nvidia H800, что встало компании<a href=\"https://www.thehindu.com/sci-tech/technology/chinas-deepseek-says-its-hit-ai-model-cost-just-294000-to-train/article70068505.ece\"> в смехотворные $294 000</a>.</p><p><em>Дипсик также задействует MoE-архитектуру. </em><a href=\"https://en.wikipedia.org/wiki/Mixture_of_experts\"><em>Источник.</em></a></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/cd/23/aa/cd23aa70130aec076e68e86c14c823a7.png\" width=\"1280\" height=\"1030\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/cd/23/aa/cd23aa70130aec076e68e86c14c823a7.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/cd/23/aa/cd23aa70130aec076e68e86c14c823a7.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Qwen</h3><p>Во сколько Alibaba обошёлся Qwen — её флагманская модель тоже построена на MoE-архитектуре, как и Грок — трудно судить. Вполне возможно, что, как и в случае с Дипсиком, один обучающий запуск обходится примерно в $5,6 миллиона.</p><p>В распоряжении Alibaba Group — целая армада из 20 000 видеопроцессоров H200, на которых, кстати, обучалась и Kimi от пекинских конкурентов Moonshot.</p><p>Зато известно, что для Qwen агрессивно срезают траты за счёт архитектурных усовершенствований. Например, методология ZeroSearch обучает модель эффективному веб-поиску и анализу информации без обращения к реальным поисковикам во время фазы обучения с подкреплением.</p><p><em>Архитектура Qwen3-Next. </em><a href=\"https://qwen.ai/blog?id=4074cca80393150c248e508aa62983f9cb7d27cd&amp;from=research.latest-advancements-list\"><em>Источник</em></a><em>.</em></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/19/33/ab/1933abd66a4de31764effb6b4a51b0bb.png\" width=\"1922\" height=\"2048\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/19/33/ab/1933abd66a4de31764effb6b4a51b0bb.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/19/33/ab/1933abd66a4de31764effb6b4a51b0bb.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В результате модель учится качественно отделять достоверные данные от шума, которым интернет обычно забит под завязку. На обучении это сказывается снижением затрат примерно на 88%. Видимо, такие ноу-хау и позволяют Квену до сих пор оставаться бюджетным для меньшинства и бесплатным для остальных.</p><h3>Что всё это значит?</h3><p>А значит то, что ИИ, по крайней мере LLM, — это что-то «на богатом». Свой собственный, полноценный, мощный искусственный интеллект смогут позволить себе лишь немногие государства. Россия в число таких пока что не входит, к сожалению. И кто знает, может, в скором времени появится закрытый «ИИ клуб» по аналогии с ядерным?</p></div>",
+  "tags": [
+    {
+      "titleHtml": "ии"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    },
+    {
+      "titleHtml": "ai"
+    },
+    {
+      "titleHtml": "grok"
+    },
+    {
+      "titleHtml": "deepseek"
+    },
+    {
+      "titleHtml": "qwen"
+    },
+    {
+      "titleHtml": "chatgpt"
+    },
+    {
+      "titleHtml": "claude"
+    },
+    {
+      "titleHtml": "anthropic"
+    },
+    {
+      "titleHtml": "нейросети"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105430/a3e43700d2342b35c40945013d113168/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105430/a3e43700d2342b35c40945013d113168/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/studyai\\/articles\\/1105430\\/\"},\"headline\":\"Сколько стоит ИИ построить?\",\"datePublished\":\"2026-11-09T13:18:31+03:00\",\"dateModified\":\"2026-11-11T14:38:52+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Собрать по кускам БЯМ и сшить из неё ассистента, отличающегося умом и сообразительностью, выливается в солидную копеечку. Выясняем, сколько в итоге нужно...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/studyai\\/articles\\/1105430\\/#post-content-body\",\"about\":[\"c_studyai\",\"h_artificial_intelligence\",\"h_machine_learning\",\"h_read\",\"h_popular_science\",\"f_develop\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/67\\/56\\/cd\\/6756cd326801615fa0f5e7cc97d34878.png\",\"https:\\/\\/habrastorage.org\\/extt\\/91\\/0a\\/5f\\/910a5f909eafc421439577b79b64eb4c.png\",\"https:\\/\\/habrastorage.org\\/extt\\/b3\\/50\\/26\\/b35026956e5d91951359b042b1ea7157.png\",\"https:\\/\\/habrastorage.org\\/extt\\/e6\\/f8\\/e9\\/e6f8e97793bf0a51fca14f69dfa3ed76.png\",\"https:\\/\\/habrastorage.org\\/extt\\/03\\/02\\/f5\\/0302f5dd5922c021d3e5aaa496cb60e8.png\",\"https:\\/\\/habrastorage.org\\/extt\\/22\\/c8\\/24\\/22c824aa5b029b2267402e59b60a1113.png\",\"https:\\/\\/habrastorage.org\\/extt\\/6a\\/cf\\/b6\\/6acfb617635e8dd1fa1675313ae8dd3f.png\",\"https:\\/\\/habrastorage.org\\/extt\\/15\\/f2\\/c1\\/15f2c10e3779ffe79180f7e35914b0c1.png\",\"https:\\/\\/habrastorage.org\\/extt\\/cd\\/23\\/aa\\/cd23aa70130aec076e68e86c14c823a7.png\",\"https:\\/\\/habrastorage.org\\/extt\\/19\\/33\\/ab\\/1933abd66a4de31764effb6b4a51b0bb.png\"]}",
+    "metaDescription": "Собрать по кускам БЯМ и сшить из неё ассистента, отличающегося умом и сообразительностью, выливается в солидную копеечку. Выясняем, сколько в итоге нужно потратить на ChatGPT и прочих флагманов столь...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 6,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "48",
+    "title": "Научпоп",
+    "alias": "popsci"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}
