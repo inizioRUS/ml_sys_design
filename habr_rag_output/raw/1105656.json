@@ -1,0 +1,197 @@
+{
+  "id": "1105656",
+  "timePublished": "2026-11-09T17:36:28+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Языковая модель с нуля на одной RTX 4060: dpp-gpt 2.2 Pro (260M), претрейн, SFT и RL",
+  "leadData": {
+    "textHtml": "<p>Обучил с нуля языковую модель на 260M параметров на одной домашней видеокарте: претрейн на 31 млрд токенов, SFT и RL. Рассказываю, как она устроена, что умеет, где проигрывает Gemma и SmolLM2 и что не получилось.</p>",
+    "imageUrl": "https://habrastorage.org/extt/48/f9/97/48f997063ad79d079e0871039dae37f5.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/48/f9/97/48f997063ad79d079e0871039dae37f5.png",
+      "fit": "cover",
+      "positionY": 49,
+      "positionX": 2
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5802998",
+    "alias": "dikiyplayerpig",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 15,
+      "votesCount": 15
+    },
+    "rating": 22.1,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 11,
+    "favoritesCount": 26,
+    "readingCount": 2651,
+    "score": 22,
+    "votesCount": 19,
+    "votesCountPlus": 19,
+    "votesCountMinus": 0,
+    "reach": 11843,
+    "readers": 1892
+  },
+  "hubs": [
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22125",
+      "alias": "natural_language_processing",
+      "type": "collective",
+      "title": "Natural Language Processing",
+      "titleHtml": "Natural Language Processing",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Я делаю свою линейку маленьких языковых моделей dpp-gpt. Не файнтюн чужой модели, а всё с нуля: токенизатор, претрейн, SFT, RL, бенчмарки. Всё это на одной домашней видеокарте RTX 4060 с 8 ГБ памяти. Недавно вышла версия 2.2 Pro на 260 миллионов параметров. В статье расскажу, как она устроена, что получилось, что нет, и какие неожиданные вещи всплыли по дороге.</p><p>Сразу честно: это не конкурент моделям, обученным большими командами на триллионах токенов. На общепринятых английских бенчмарках она отстаёт даже от самых маленьких из них (бенчмарки ниже). Интересна она другим: тем, сколько можно выжать из одной видеокарты, и тем, что видно изнутри.</p><h3>Что это за модель</h3><div class=\"table\"><table><tbody><tr><td><p align=\"left\">Параметры</p></td><td data-colwidth=\"398\" width=\"398\"><p align=\"left\">259M (242M уникальных: эмбеддинги входа и выхода общие)</p></td></tr><tr><td><p align=\"left\">Архитектура</p></td><td data-colwidth=\"398\" width=\"398\"><p align=\"left\">как у Llama: RMSNorm, RoPE, SwiGLU, GQA</p></td></tr><tr><td><p align=\"left\">Слои / ширина / головы / KV-головы</p></td><td data-colwidth=\"398\" width=\"398\"><p align=\"left\">20 / 1024 / 16 / 4</p></td></tr><tr><td><p align=\"left\">Контекст</p></td><td data-colwidth=\"398\" width=\"398\"><p align=\"left\">8192 токена</p></td></tr><tr><td><p align=\"left\">Словарь</p></td><td data-colwidth=\"398\" width=\"398\"><p align=\"left\">16 384, свой BPE, цифры отдельными токенами</p></td></tr><tr><td><p align=\"left\">Языки</p></td><td data-colwidth=\"398\" width=\"398\"><p align=\"left\">русский, английский, французский</p></td></tr></tbody></table></div><h3>Претрейн: 31 миллиард токенов</h3><p>2.2 продолжает претрейн базовой версии 2.1: к её 11.8 млрд токенов я долил ещё около 19 млрд, всего примерно 31 млрд. Смесь:</p><ul><li><p>Википедия на трёх языках: 23%;</p></li><li><p>CulturaX (веб) на трёх языках: 13%;</p></li><li><p>код на Python: 16%, веб-код: 5%;</p></li><li><p>Cosmopedia и Zyda-2: по 5%;</p></li><li><p>стихи 4%, факты 5%, переводы 5%;</p></li><li><p>синтетика по работе с текстом (написание по буквам, анализ слов, капс): 4%;</p></li><li><p>синтетический код, написанный deepseek 4 flash: 1%;</p></li><li><p><strong>математика: 14%</strong>.</p></li></ul><p>Математика сгенерирована скриптом, с поразрядным счетом. Благодаря этому модель может считать большие числа. Пример формата:</p><pre><code>Действие 1: 290 * 3\nСотни: 2 * 3 = 6 (600)\nДесятки: 9 * 3 = 27 (270)\nЕдиницы: 0 * 3 = 0 (0)\nИтого: 600 + 270 + 0 = 870\nОтвет: 870</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>В предыдущей версии модели тоже был пошаговый поразрядный счет, однако в новой версии стало больше более сложных и разнообразных примеров. Генераторы покрывают сложение и вычитание чисел до 40 знаков, умножение, деление с остатком, скобки, уравнения, дроби, системы. Каждый ответ считается Python, так что ошибок в данных нет.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/48/f9/97/48f997063ad79d079e0871039dae37f5.png\" alt=\"\" title=\"\" width=\"931\" height=\"561\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/48/f9/97/48f997063ad79d079e0871039dae37f5.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/48/f9/97/48f997063ad79d079e0871039dae37f5.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d6/a7/5d/d6a75d491e7c136bcd170e38b8e86c07.png\" alt=\" Умножение 1337 × 4267 по разрядам  (ответ верный)\" title=\" Умножение 1337 × 4267 по разрядам  (ответ верный)\" width=\"961\" height=\"866\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d6/a7/5d/d6a75d491e7c136bcd170e38b8e86c07.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d6/a7/5d/d6a75d491e7c136bcd170e38b8e86c07.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption> Умножение 1337 × 4267 по разрядам  (ответ верный)</figcaption></div></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/40/8f/29/408f2948c309fd1e4fd41963009127a1.png\" alt=\"Решение простой системы уравнений. X найден верно, Y забыт.\" title=\"Решение простой системы уравнений. X найден верно, Y забыт.\" width=\"1099\" height=\"487\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/40/8f/29/408f2948c309fd1e4fd41963009127a1.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/40/8f/29/408f2948c309fd1e4fd41963009127a1.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Решение простой системы уравнений. X найден верно, Y забыт.</figcaption></div></figure><h3>SFT: 60 миллионов токенов</h3><p>SFT-датасет вырос с 16.5 млн токенов у 2.1 до 60 млн, это около 122 тысяч диалогов. При обучении 68% примеров брались из них, остальные 32% были повтором претрейна, чтобы модель не забывала базу.</p><ul><li><p>общий чат на трёх языках (86 тем, 431 подтема, многоходовые разговоры): 27.7 тыс. диалогов, 15.4 млн токенов;</p></li><li><p>следование инструкциям (системные промпты, роли, форматы, списки): 35.7 тыс., 9.8 млн;</p></li><li><p>математика с решениями: 13.8 тыс., 7.7 млн;</p></li><li><p>код на Python: 11.5 тыс., 5.4 млн;</p></li><li><p>сочинения: 2.0 тыс., 4.5 млн; стихи: 2.2 тыс., 1.7 млн;</p></li><li><p>работа с текстом: 4.4 тыс., 3.7 млн;</p></li><li><p>иголка в стоге сена (найти факт в тексте до 6000 токенов): 1.4 тыс., 3.0 млн;</p></li><li><p>вызов инструментов: 3.1 тыс., 1.5 млн;</p></li><li><p>JSON по описанию: 2.4 тыс., 1.1 млн;</p></li><li><p>переводы: 6.1 тыс., 1.0 млн;</p></li><li><p>факты: 9.0 тыс., 0.7 млн;</p></li></ul><p>Почти всё сгенерировано DeepSeek через OpenRouter. Каждый ответ с числами пересчитан и проверен кодом. На данные для 2.2 ушло около 3000 рублей.</p><p>Результат SFT я выложил как <strong>2.2 Pro preview</strong>. Неприятный момент: SFT просадил математику. У базовой модели было 47.6% на моём математическом бенчмарке, у первого SFT 26%, после подбора смеси 36.8%. Вернуть её стало одной из целей следующего этапа.</p><h3>RL (GRPO) на 8 ГБ видеопамяти</h3><p>Финальная 2.2 Pro получена обучением с подкреплением (GRPO) поверх preview. Суть GRPO: на каждый запрос модель пишет несколько ответов (у меня 8), каждый получает награду, и модель учится на разнице между ответами внутри группы. Награда за ответы выдается либо кодом, либо моделью-судьей, в зависимости от типа задачи.</p><p>Код проверял:</p><ul><li><p>арифметику и уравнения;</p></li><li><p>школьные текстовые задачи;</p></li><li><p>Python: код запускается на тестах;</p></li><li><p>JSON по описанию;</p></li><li><p>поиск числа в тексте;</p></li><li><p>инструкции к форме ответа;</p></li><li><p>вызов инструментов в разных форматах и ответ по результату инструмента;</p></li><li><p>перевод (по сходству с эталоном).</p></li></ul><p>Сочинения, стихи и ответы о фактах оценивал локальный судья Gemma 4 E4B.</p><p>Ещё одна полезная вещь: <strong>подбор сложности</strong>. Если модель какой-то тип задач решает всегда или не решает никогда, все 8 ответов получают одинаковую награду, и учиться нечему. Такие типы задач выбираются реже, а те, где модель решает примерно половину, чаще.</p><p>Всего было 9 прогонов GRPO. Я улучшал оценку, чтобы она проверяла больше разных проблем, и следил, чтобы не было перекоса под бенчмарк или какую-то узкую тему. Например, в первых прогонах награду за текст считал код по косвенным признакам, и модель научилась обманывать её короткими ответами: сочинения и общие вопросы сломались. Пришлось добавить судью и перебалансировать обучение. Но потом очевидные проблемы вроде бы закончились, и дальнейшего роста не было: каждый следующий чекпоинт где-то выигрывал, а где-то терял, и среднее упёрлось примерно в одно значение. Помогло неожиданно простое: <strong>усреднение весов</strong> нескольких чекпоинтов. Финальная модель — это 0.4 · GRPO8 + 0.3 · GRPO9 + 0.3 · GRPO5. Такой суп оказался лучше каждого отдельного чекпоинта.</p><h3>Бенчмарки</h3><h4>Свой набор</h4><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/6b/f4/2f/6bf42fccbf6d34d53b518110428d4eae.png\" width=\"2439\" height=\"686\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/6b/f4/2f/6bf42fccbf6d34d53b518110428d4eae.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/6b/f4/2f/6bf42fccbf6d34d53b518110428d4eae.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Я сделал свой набор под эту линейку: 12 областей, 2450 вопросов на трёх языках, каждый задаётся дважды (с мыслями и без). Всё, что можно, проверяет код; стихи, сочинения, чат и знания оценивает Gemma 4 26B. Плюс отдельный математический бенчмарк на 2200 задач.</p><p>Важная оговорка: набор сделан под мои форматы, поэтому подыгрывает dpp-gpt. А часть задач RL сделана теми же генераторами, что и часть бенчмарков (с другими числами и формулировками).</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Модель</p></th><th><p align=\"left\">Среднее</p></th><th><p align=\"left\">instr</p></th><th><p align=\"left\">json</p></th><th><p align=\"left\">tools</p></th><th><p align=\"left\">pysmall</p></th><th><p align=\"left\">math</p></th></tr><tr><td><p align=\"left\"><strong>2.2 Pro</strong></p></td><td><p align=\"left\"><strong>24.2</strong></p></td><td><p align=\"left\">30.5</p></td><td><p align=\"left\">53.3</p></td><td><p align=\"left\">59.7</p></td><td><p align=\"left\">22.3</p></td><td><p align=\"left\">51.3</p></td></tr><tr><td><p align=\"left\">2.2 Pro preview</p></td><td><p align=\"left\">17.8</p></td><td><p align=\"left\">16.2</p></td><td><p align=\"left\">41.4</p></td><td><p align=\"left\">45.9</p></td><td><p align=\"left\">9.7</p></td><td><p align=\"left\">36.8</p></td></tr><tr><td><p align=\"left\">2.15 Pro</p></td><td><p align=\"left\">8.3</p></td><td><p align=\"left\">14.4</p></td><td><p align=\"left\">34.7</p></td><td><p align=\"left\">0.0</p></td><td><p align=\"left\">5.2</p></td><td><p align=\"left\">13.4</p></td></tr><tr><td><p align=\"left\">2.1 Pro</p></td><td><p align=\"left\">5.2</p></td><td><p align=\"left\">12.1</p></td><td><p align=\"left\">17.4</p></td><td><p align=\"left\">0.0</p></td><td><p align=\"left\">4.4</p></td><td><p align=\"left\">10.1</p></td></tr><tr><td><p align=\"left\">2.0 Pro</p></td><td><p align=\"left\">1.1</p></td><td><p align=\"left\">8.2</p></td><td><p align=\"left\">1.6</p></td><td><p align=\"left\">0.0</p></td><td><p align=\"left\">0.0</p></td><td><p align=\"left\">0.3</p></td></tr><tr><td><p align=\"left\">Gemma 3 270M</p></td><td><p align=\"left\">36.9</p></td><td><p align=\"left\">28.9</p></td><td><p align=\"left\">74.4</p></td><td><p align=\"left\">14.9</p></td><td><p align=\"left\">62.0</p></td><td><p align=\"left\">11.2</p></td></tr><tr><td><p align=\"left\">SmolLM2 135M</p></td><td><p align=\"left\">26.9</p></td><td><p align=\"left\">33.5</p></td><td><p align=\"left\">45.0</p></td><td><p align=\"left\">0.0</p></td><td><p align=\"left\">43.2</p></td><td><p align=\"left\">0.8</p></td></tr><tr><td><p align=\"left\">Falcon-H1-Tiny 100M</p></td><td><p align=\"left\">24.4</p></td><td><p align=\"left\">19.7</p></td><td><p align=\"left\">69.4</p></td><td><p align=\"left\">0.0</p></td><td><p align=\"left\">45.6</p></td><td><p align=\"left\">15.0</p></td></tr></tbody></table></div></div><p>За одно поколение среднее выросло с 8.3 до 24.2. 2.2 Pro впереди всех в арифметике и вызове инструментов, но в среднем примерно на уровне Falcon-H1-Tiny и позади Gemma 3 270M. Полная таблица по всем 13 колонкам — в карточке модели.</p><h4>Общепринятые бенчмарки</h4><p>Чтобы цифры можно было честно сравнить с чем угодно, я прогнал <a href=\"https://github.com/EleutherAI/lm-evaluation-harness\" rel=\"noopener nofollow\">lm-evaluation-harness</a> с одинаковыми настройками для всех моделей. Это только английский.</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Модель</p></th><th><p align=\"left\">HellaSwag</p></th><th><p align=\"left\">ARC-Easy</p></th><th><p align=\"left\">PIQA</p></th><th><p align=\"left\">GSM8K</p></th><th><p align=\"left\">IFEval (строго)</p></th></tr><tr><td><p align=\"left\"><strong>dpp-gpt 2.2 Pro</strong></p></td><td><p align=\"left\">28.9</p></td><td><p align=\"left\">39.2</p></td><td><p align=\"left\">57.7</p></td><td><p align=\"left\">1.8</p></td><td><p align=\"left\">14.1</p></td></tr><tr><td><p align=\"left\">Gemma 3 270M</p></td><td><p align=\"left\">39.3</p></td><td><p align=\"left\">55.3</p></td><td><p align=\"left\">65.6</p></td><td><p align=\"left\">8.6</p></td><td><p align=\"left\">25.5</p></td></tr><tr><td><p align=\"left\">SmolLM2 135M</p></td><td><p align=\"left\">42.9</p></td><td><p align=\"left\">54.0</p></td><td><p align=\"left\">66.7</p></td><td><p align=\"left\">1.7</p></td><td><p align=\"left\">22.7</p></td></tr><tr><td><p align=\"left\">SmolLM2 360M</p></td><td><p align=\"left\">56.7</p></td><td><p align=\"left\">56.6</p></td><td><p align=\"left\">71.6</p></td><td><p align=\"left\">8.9</p></td><td><p align=\"left\">32.4</p></td></tr><tr><td><p align=\"left\">случайный выбор</p></td><td><p align=\"left\">25</p></td><td><p align=\"left\">25</p></td><td><p align=\"left\">50</p></td><td><p align=\"left\">0</p></td><td><p align=\"left\"></p></td></tr></tbody></table></div></div><p>Здесь картина без прикрас: 2.2 Pro выше случайного угадывания, но заметно позади всех. Базовая модель без SFT набирает на HellaSwag столько же (28.8), так что дело не в файнтюне, а в претрейне: 31 млрд токенов против триллионов, причём на трёх языках и с большой долей синтетики. RL эти бенчмарки не сдвинул: preview и финал здесь в пределах погрешности. Его выигрыш в другом: в арифметике, инструментах, JSON и инструкциях.</p><h3>Что умеет и что нет</h3><p>Умеет:</p><ul><li><p>считать длинные числа по разрядам и решать простые уравнения по шагам;</p></li><li><p>вызывать инструменты (и не вызывать, когда не нужно), отвечать по результату;</p></li><li><p>писать JSON по описанию, выполнять простые инструкции к форме ответа;</p></li><li><p>брать имя и роль из системного промпта;</p></li><li><p>разговаривать, писать стихи и простой код на трёх языках.</p></li></ul><p>Не умеет или умеет плохо:</p><ul><li><p>умножение 5–6-значных чисел (верно примерно в 30% случаев);</p></li><li><p>держать счёт через несколько сообщений («было 5 яблок, съел 3, потом купил ещё 3»);</p></li><li><p>следовать инструкциям вроде «ответь одним словом» или «ответь по-английски»;</p></li><li><p>сочинения, факты, сложный код;</p></li><li><p>мысли в среднем пока не помогают: без них ответы немного лучше.</p></li></ul><p>Вызов инструментов работает только в том формате, на котором модель училась (пример в карточке модели).</p><h3>Что дальше</h3><ul><li><p><strong>2.2 flash</strong> (около 140M) сейчас дообучается на немного улучшенных данных: Python код (из-за ошибки в Python-датасете 260M-версии Python составлял лишь 14%, а всё остальное было другими языками; теперь это исправлено), более очищенная Википедия, FineWeb-Edu и FineWeb2.</p></li><li><p><strong>2.3</strong>: увеличу словарь до 32k и слои до 28, часть слоев сделаю с локальным вниманием: это ускорит обучение и инференс примерно на 20-30% (не проверял точно), а перплексия без дообучения вырастает всего на 2%. Плюс новые данные, включая много рассуждений.</p></li></ul><p>Если интересно следить или есть вопросы, пишите в комментариях. Модель: <a href=\"http://huggingface.co/dikiyplayerpig/dpp-gpt-V2.2-Pro-260m\" rel=\"noopener nofollow\">huggingface.co/dikiyplayerpig/dpp-gpt-V2.2-Pro-260m</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "языковые модели"
+    },
+    {
+      "titleHtml": "LLM"
+    },
+    {
+      "titleHtml": "обучение с нуля"
+    },
+    {
+      "titleHtml": "малые языковые модели"
+    },
+    {
+      "titleHtml": "GRPO"
+    },
+    {
+      "titleHtml": "обучение с подкреплением"
+    },
+    {
+      "titleHtml": "претрейн"
+    },
+    {
+      "titleHtml": "SFT"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105656/9fb4647c221dd70598ec3da861684567/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105656/9fb4647c221dd70598ec3da861684567/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105656\\/\"},\"headline\":\"Языковая модель с нуля на одной RTX 4060: dpp-gpt 2.2 Pro (260M), претрейн, SFT и RL\",\"datePublished\":\"2026-11-09T20:36:28+03:00\",\"dateModified\":\"2026-11-12T12:22:38+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Я делаю свою линейку маленьких языковых моделей dpp-gpt. Не файнтюн чужой модели, а всё с нуля: токенизатор, претрейн, SFT, RL, бенчмарки. Всё это на одной...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105656\\/#post-content-body\",\"about\":[\"h_machine_learning\",\"h_artificial_intelligence\",\"h_natural_language_processing\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/48\\/f9\\/97\\/48f997063ad79d079e0871039dae37f5.png\",\"https:\\/\\/habrastorage.org\\/extt\\/d6\\/a7\\/5d\\/d6a75d491e7c136bcd170e38b8e86c07.png\",\"https:\\/\\/habrastorage.org\\/extt\\/40\\/8f\\/29\\/408f2948c309fd1e4fd41963009127a1.png\",\"https:\\/\\/habrastorage.org\\/extt\\/6b\\/f4\\/2f\\/6bf42fccbf6d34d53b518110428d4eae.png\"]}",
+    "metaDescription": "Я делаю свою линейку маленьких языковых моделей dpp-gpt. Не файнтюн чужой модели, а всё с нуля: токенизатор, претрейн, SFT, RL, бенчмарки. Всё это на одной домашней видеокарте RTX 4060 с 8 ГБ памяти....",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

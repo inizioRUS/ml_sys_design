@@ -1,0 +1,219 @@
+{
+  "id": "1105710",
+  "timePublished": "2026-11-09T20:03:21+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "ИИ‑агенты оставили 1,4 млн файлов. Поможет ли лимит в пять агентов?",
+  "leadData": {
+    "textHtml": "<p>В Claude Code мне попалась подсказка, которую я <a href=\"https://offerstock.net/journal/the-tip-described-our-problem\" rel=\"noopener nofollow\">описал в исходной заметке</a>: размер агентного процесса можно ограничить прямо в запросе. Например, попросить небольшую команду, разрешить максимум пять агентов или задать размер по умолчанию через <code>/config</code>.</p><p>Я смотрел на неё с двойственным чувством. Последние месяцы я решал ту же задачу в своём инструменте, который проводит агентную работу от плана до готового изменения в репозитории. Но ограничить число одновременно работающих агентов оказалось лишь одной частью проблемы.</p>",
+    "imageUrl": "https://habrastorage.org/extt/1a/7c/ff/1a7cff347212ef7216e8b5553170c460.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/1a/7c/ff/1a7cff347212ef7216e8b5553170c460.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "sandbox",
+      "typeOf": "system",
+      "title": "Из песочницы",
+      "data": {
+        "url": null
+      }
+    },
+    {
+      "type": "translation",
+      "typeOf": "system",
+      "title": "Перевод",
+      "data": {
+        "originalAuthorName": "Eli Tabrisov",
+        "originalUrl": "https://offerstock.net/journal/the-tip-described-our-problem"
+      }
+    }
+  ],
+  "author": {
+    "id": "4082852",
+    "alias": "ArtemAndr89",
+    "fullname": "Артём Андрианов",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": -1,
+      "votesCount": 3
+    },
+    "rating": 0,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/artemandrianov/",
+        "value": "artemandrianov",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/artemandrianov/",
+        "value": "artemandrianov",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": {
+      "careerProfileLink": "https://career.habr.com/artemandr?utm_source=habr&utm_medium=profile_header&utm_campaign=button_habr_career",
+      "expertProfileLink": null
+    },
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 1,
+    "readingCount": 351,
+    "score": -2,
+    "votesCount": 2,
+    "votesCountPlus": 0,
+    "votesCountMinus": 2,
+    "reach": 10822,
+    "readers": 265
+  },
+  "hubs": [
+    {
+      "id": "21370",
+      "alias": "typescript",
+      "type": "collective",
+      "title": "TypeScript",
+      "titleHtml": "TypeScript",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "357",
+      "alias": "javascript",
+      "type": "collective",
+      "title": "JavaScript",
+      "titleHtml": "JavaScript",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "6398",
+      "alias": "it-infrastructure",
+      "type": "collective",
+      "title": "IT-инфраструктура",
+      "titleHtml": "IT-инфраструктура",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>В Claude Code мне попалась подсказка, которую я <a href=\"https://offerstock.net/journal/the-tip-described-our-problem\" rel=\"noopener nofollow\">описал в исходной заметке</a>: размер агентного процесса можно ограничить прямо в запросе. Например, попросить небольшую команду, разрешить максимум пять агентов или задать размер по умолчанию через <code>/config</code>.</p><p>Я смотрел на неё с двойственным чувством. Последние месяцы я решал ту же задачу в своём инструменте, который проводит агентную работу от плана до готового изменения в репозитории. Но ограничить число одновременно работающих агентов оказалось лишь одной частью проблемы.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/1a/7c/ff/1a7cff347212ef7216e8b5553170c460.png\" width=\"1600\" height=\"900\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1a/7c/ff/1a7cff347212ef7216e8b5553170c460.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/1a/7c/ff/1a7cff347212ef7216e8b5553170c460.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><br/><strong>Как агентная задача разрастается</strong></p><p>Я хотел, чтобы агент мог получить инженерную задачу, прочитать репозиторий, внести правку, проверить результат и передать изменение дальше. Самая трудная часть обнаружилась не в генерации кода. Трудно было предсказать, сколько работы агент создаст себе по дороге.</p><p>Одна задача превращается в несколько подзадач. Для них запускаются отдельные сессии, иногда в собственных git worktree. Проверки повторяются. Растут расход контекста, время и счёт за вычисления. Снаружи это выглядит как параллельная работа, но часть усилий уходит на обслуживание самой параллельности.</p><p>У меня накопились вполне материальные последствия таких запусков. В одном случае параллельные сессии за три недели заполнили диск. В другом тесты в нескольких worktree оставили во временной папке около 1,4 млн файлов; после этого Mac перестал загружаться, хотя свободное место ещё было. В <a href=\"https://offerstock.net/journal/two-hundred-and-sixty-four-gigabytes-free\" rel=\"noopener nofollow\">разборе этого сбоя</a> я привёл точный подсчёт: 1 378 905 файлов и 30 182 папки. В одном сравнении самый тщательный режим обходился примерно в 12 раз дороже дешёвого на задаче того же типа. Каждый дополнительный поток стоил примерно как ещё одна интерактивная сессия.</p><p>Эти цифры не означают, что любой запуск будет вести себя так же. Они показывают, почему мне понадобились ограничения, которые действуют на протяжении всей задачи, а не только в момент старта.</p><h3>Пять агентов — понятный предел. Что происходит дальше?</h3><p>Подсказка Claude Code описывает простой рычаг: зафиксировать размер команды. Я и сам пришёл к необходимости такого предела. Когда система может порождать новые работы и тратить реальные ресурсы, ограничение масштаба быстро становится обязательным.</p><p>Но сама задача проходит больше этапов:</p><ol><li><p>Принять запрос и понять, что именно нужно сделать.</p></li><li><p>Решить, можно ли запускать работу при текущем бюджете и условиях.</p></li><li><p>Выполнить изменение.</p></li><li><p>Получить доказательства, что оно работает: тесты, проверки, просмотр diff.</p></li><li><p>Принять решение о слиянии.</p></li><li><p>Выполнить слияние и закрыть задачу.</p></li></ol><p>Лимит в пять агентов отвечает лишь на вопрос о количестве параллельной работы. Он не определяет, кто допускает задачу к исполнению, сколько раз можно повторить неудачную проверку, какие доказательства достаточны для слияния и когда зависший запуск следует остановить.</p><p>Поэтому в своей системе я ограничиваю не только число потоков. У цикла проверки есть предел повторений; исчерпанный лимит не превращается в молчаливое разрешение на merge. Для изменения выбирается самый дешёвый маршрут, который всё ещё даёт нужную проверку. За человеком остаются выпуск и публикация. Остальное агенты могут делать самостоятельно в пределах заранее заданных условий.</p><p>Снаружи два инструмента могут одинаково показывать «не больше пяти агентов». Разница становится видна, когда одна из проверок не прошла или задача застряла на полпути.</p><h3>Мог ли Claude Code взять эту идею из моих запусков?</h3><p>Я строю свой инструмент с помощью Claude Code, поэтому после появления подсказки у меня возник неприятный вопрос: могла ли команда платформы увидеть мои решения? У меня нет фактов, которые позволяли бы так утверждать.</p><p>Здесь полезно различать несколько потоков данных. Запросы и ответы отправляются модели для работы сервиса. Отдельно существует операционная телеметрия: метрики использования и сообщения об ошибках. Согласно <a href=\"https://code.claude.com/docs/en/data-usage\" rel=\"noopener nofollow\">документации Anthropic</a>, метрики не содержат код, запросы и пути к файлам; для них и для сообщений об ошибках предусмотрены отдельные настройки. Возможность использовать разговоры для обучения будущих моделей на пользовательских тарифах задаётся другой настройкой аккаунта. Команды <code>/feedback</code>, <code>/bug</code> и <code>/share</code> могут передать историю разговора, включая код, если пользователь сам отправляет такой отчёт.</p><p>Сам факт работы через платформу не доказывает, что кто‑то изучил мою архитектуру и повторил её. Для такого вывода понадобились бы датированные материалы, конкретные совпадения и понятная связь между ними. Пока у меня есть только совпадение по времени и по инженерной проблеме.</p><h3>Какие ограничения пришлось добавить</h3><p>Мне нужен процесс, который умеет остановиться, когда исчерпан бюджет или не получены доказательства готовности. Он должен понимать, какое решение можно принять автоматически, а где нужно передать его человеку. Простая настройка числа агентов этого не решает.</p><p>Появление похожей подсказки у Claude Code не отменяет работу, которую я уже сделал. Оно показывает, что вопрос контроля масштаба возникает и у других пользователей агентных систем. Для себя я сформулировал более строгий критерий: инструмент полезен тогда, когда изменение можно довести до проверенного результата, не оставив человеку разбирать последствия бесконтрольного запуска.</p><h3>Источники</h3><ul><li><p><a href=\"https://offerstock.net/journal/the-tip-described-our-problem\" rel=\"noopener nofollow\">Исходная статья на английском — The tip described our problem</a>. История подсказки Claude Code, замеры затрат и устройство агентного процесса.</p></li><li><p><a href=\"https://offerstock.net/journal/two-hundred-and-sixty-four-gigabytes-free\" rel=\"noopener nofollow\">Разбор сбоя Mac — Two hundred and sixty‑four gigabytes free</a>. Точный подсчёт временных файлов и разбор сбоя загрузки Mac.</p></li><li><p><a href=\"https://code.claude.com/docs/en/data-usage\" rel=\"noopener nofollow\">Документация Anthropic — Data usage</a>. Передача запросов, телеметрия, обучение моделей и команды обратной связи.</p></li></ul></div>",
+  "tags": [
+    {
+      "titleHtml": "ии-агенты"
+    },
+    {
+      "titleHtml": "лимиты"
+    },
+    {
+      "titleHtml": "claude-code"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105710/32480965164a86b32e46d449f677058d/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105710/32480965164a86b32e46d449f677058d/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105710\\/\"},\"headline\":\"ИИ‑агенты оставили 1,4 млн файлов. Поможет ли лимит в пять агентов?\",\"datePublished\":\"2026-11-09T23:03:21+03:00\",\"dateModified\":\"2026-11-09T23:03:21+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В&nbsp;Claude Code мне попалась подсказка, которую я описал в&nbsp;исходной заметке : размер агентного процесса можно ограничить прямо в&nbsp;запросе. Например,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105710\\/#post-content-body\",\"about\":[\"h_typescript\",\"h_javascript\",\"h_it-infrastructure\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/1a\\/7c\\/ff\\/1a7cff347212ef7216e8b5553170c460.png\"]}",
+    "metaDescription": "В&nbsp;Claude Code мне попалась подсказка, которую я описал в&nbsp;исходной заметке : размер агентного процесса можно ограничить прямо в&nbsp;запросе. Например, попросить небольшую команду, разрешить...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "4",
+    "title": "Фронтенд",
+    "alias": "frontend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

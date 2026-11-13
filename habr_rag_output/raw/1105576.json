@@ -1,0 +1,212 @@
+{
+  "id": "1105576",
+  "timePublished": "2026-11-09T14:53:27+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "HTML‑виджеты Telegram до выхода Bot API 10.4: отправляем через MTProto из Telethon и разбираем грабли слоя 233",
+  "leadData": {
+    "textHtml": "<p>В Telegram появились HTMLBubbles: бот присылает сообщение, внутри которого работает крошечная веб-страница со скриптом. Игра, опрос или калькулятор живут прямо в пузыре чата, без Mini App и хостинга. В публичном Bot API метода для них пока нет, но в протоколе MTProto они уже есть.</p><p>Я сделал мини-игру из Telethon, подменив клиенту слой протокола с 229 на 233. Рассказываю, где брать схему (документация расходится с исходниками Telegram Desktop), как описать новые типы руками, почему бот падает, если сделать его админом канала, и как это чинится парсером на десяток строк. В конце - таблица того, что умеет движок виджетов, и проверка, куда их на самом деле пускают: пересылка, инлайн, каналы и группы закрыты, хотя документация разрешает.</p>",
+    "imageUrl": "https://habrastorage.org/extt/d0/a0/82/d0a0827e7c2f0f0188230e6ac5e4c564.png",
+    "buttonTextHtml": "Разбираем грабли слоя 233",
+    "image": {
+      "url": "https://habrastorage.org/extt/d0/a0/82/d0a0827e7c2f0f0188230e6ac5e4c564.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "sandbox",
+      "typeOf": "system",
+      "title": "Из песочницы",
+      "data": {
+        "url": null
+      }
+    }
+  ],
+  "author": {
+    "id": "1875035",
+    "alias": "Asadflow",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 2,
+      "votesCount": 2
+    },
+    "rating": 2,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 5,
+    "readingCount": 1343,
+    "score": 2,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 8594,
+    "readers": 1014
+  },
+  "hubs": [
+    {
+      "id": "340",
+      "alias": "python",
+      "type": "collective",
+      "title": "Python",
+      "titleHtml": "Python",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "7773",
+      "alias": "gamedev",
+      "type": "collective",
+      "title": "Разработка игр",
+      "titleHtml": "Разработка игр",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "92",
+      "alias": "instant_messaging",
+      "type": "collective",
+      "title": "Мессенджеры",
+      "titleHtml": "Мессенджеры",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19011",
+      "alias": "reverse-engineering",
+      "type": "collective",
+      "title": "Реверс-инжиниринг",
+      "titleHtml": "Реверс-инжиниринг",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "84",
+      "alias": "crazydev",
+      "type": "collective",
+      "title": "Ненормальное программирование",
+      "titleHtml": "Ненормальное программирование",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>В Telegram появились HTMLBubbles: виджеты, где бот присылает сообщение и внутри него работает маленькая веб‑страница со скриптом. В публичном Bot API 10.3 метода для них пока нет, но в протоколе MTProto они уже есть. Я отправил свою мини‑игру через Telethon, подменив клиенту слой протокола, и собрал по дороге все грабли: схему, которая расходится с документацией, бота, который падает от собственного канала, и сервер, который не пускает виджеты туда, куда документация разрешает. Ниже — как это устроено, рабочий код и таблицы с тем, что проверено руками.</p><h2>Что такое виджет и что он умеет</h2><p>Виджет (в обиходе HTMLBubbles) — это один HTML‑документ, который бот кладёт в сообщение как медиа. Клиент рисует его прямо в пузыре чата: не нужно открывать Mini App, не нужен хостинг, весь код едет в самом сообщении. Telegram выложил песочницу и документацию в открытый репозиторий <a href=\"https://github.com/TelegramMessenger/widget-sandbox\" rel=\"noopener nofollow\">TelegramMessenger/widget‑sandbox</a>: в демо там форма заказа, опрос, приглашение на событие, крестики‑нолики и бегущий курс.</p><p>Внутри виджета объект TelegramWidget. Главное в нём:</p><ul><li><p>request(data) — отправить боту строку до 64 байт и получить ответ до 1 КБ; </p></li><li><p>openLink(url) и openTelegramLink(url) — открыть ссылку (обычная — с подтверждением, <a href=\"http://t.me\" rel=\"noopener nofollow\">t.me</a> — сразу); </p></li><li><p>chatData и publicData — состояние, которое пишет только бот: одно привязано к сообщению в чате, второе видно везде, где показан виджет; </p></li><li><p>viewer, chatType, isForward — кто смотрит и где лежит сообщение. </p><p>Я проверял всё на мини‑игре: трясёшь бутылку газировки, множитель растёт, вовремя открыл — забрал очки, передержал — крышку сорвало. Пять бутылок за партию и общая таблица рекордов, которую держит бот. Живой бот для проверки: <a class=\"mention\" href=\"/users/game_barulin_cv_bot\">@game_barulin_cv_bot</a>. Если клиент ТГ показывает «unsupported message», его нужно обновить.</p></li></ul><figure class=\"bordered full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/2c/9f/d2/2c9fd29fb38758f47658791270e36212.png\" alt=\"ошибка на старых клиентах\" title=\"ошибка на старых клиентах\" width=\"910\" height=\"504\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/2c/9f/d2/2c9fd29fb38758f47658791270e36212.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/2c/9f/d2/2c9fd29fb38758f47658791270e36212.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>ошибка на старых клиентах</figcaption></div></figure><figure class=\"bordered full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c4/76/91/c4769143e303e8a510755b03dbd6520c.png\" alt=\"Мой демо-виджет в чате\" title=\"Мой демо-виджет в чате\" width=\"676\" height=\"1489\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c4/76/91/c4769143e303e8a510755b03dbd6520c.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c4/76/91/c4769143e303e8a510755b03dbd6520c.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Мой демо‑виджет в чате</figcaption></div></figure><h2>Почему не Bot API</h2><p>Последняя публичная версия Bot API на момент написания — 10.3, виджетов в ней нет. В документации песочницы описан Bot API 10.4 с методами sendWidget, answerWidgetQuery, editMessageWidgetData и апдейтом widget_query, но он доступен только на бета‑сервере. Обычный бот на aiogram или python‑telegram‑bot виджет сегодня не отправит.</p><p>Зато в MTProto виджеты есть с 233-го слоя. Бот может ходить в MTProto напрямую по своему токену: так работают Telethon и Pyrogram. Остаётся объяснить библиотеке, что это за новые типы.</p><h2>Где брать схему: документация врёт</h2><p>Первое, на что я наткнулся: схема в документации песочницы (<a href=\"https://github.com/TelegramMessenger/widget-sandbox/blob/3acba1b62093c83815d38603d26f48c4f26a94c2/docs/tgw-format.md?plain=1#L4\" rel=\"noopener nofollow\">docs/tgw‑format.md</a>) не совпадает со схемой в исходниках Telegram Desktop (Telegram/SourceFiles/mtproto/scheme/<a href=\"http://api.tl\" rel=\"noopener nofollow\">api.tl</a>).</p><p>В документации:</p><blockquote></blockquote><blockquote><p>inputMediaWidget#44f6c04e flags:# allow_queries:flags.0?true shared_widget:flags.1?true width:int height:int html:string public_data:flags.2?string chat_data:flags.3?string = InputMedia;</p></blockquote><p>Флаги сдвинуты, fwd_allow_queries пропал, а ID конструктора считается от строки схемы, так что он тоже разный. Сервер принимает вариант из Desktop. Мораль: схему берите из клиента, которым Telegram пользуется сам, а документацию читайте как описание поведения.</p><p>Для простой игры с таблицей рекордов нужны четыре типа:</p><div><div class=\"table\"><table><tbody><tr><td data-colwidth=\"403\" width=\"403\"><p align=\"left\"><strong>Тип</strong></p></td><td><p align=\"left\"><strong>Зачем</strong></p></td></tr><tr><td data-colwidth=\"403\" width=\"403\"><p align=\"left\"><code>inputMediaWidget#44f6c04e</code> </p></td><td><p align=\"left\">сам виджет: HTML, ширина, высота, флаг <code>allow_queries</code>. Отправляется обычным <code>messages.sendMedia</code> </p></td></tr><tr><td data-colwidth=\"403\" width=\"403\"><p align=\"left\"><code>messageMediaWidget#2238f214</code></p></td><td><p align=\"left\">так виджет приходит обратно в составе сообщения </p></td></tr><tr><td data-colwidth=\"403\" width=\"403\"><p align=\"left\"><code>updateBotWidgetQuery#b373fe68</code></p></td><td><p align=\"left\">апдейт, когда виджет вызвал <code>TelegramWidget.request()</code> </p></td></tr><tr><td data-colwidth=\"403\" width=\"403\"><p align=\"left\"><code>messages.setBotWidgetQueryAnswer#f8cdec6a</code></p></td><td><p align=\"left\">ответ бота, на него 15 секунд, иначе у виджета <code>TIMEOUT</code> </p></td></tr></tbody></table></div></div><h3>Учим Telethon новым типам</h3><p>В Telethon 1.45 этих типов нет. Объект, который мы отправляем, — это наследник <em>TLObject</em> с методом <em>bytes()</em>:<em> </em>четыре байта ID конструктора, дальше поля в порядке схемы. Строки сериализует сам Telethon через <em>serializebytes</em>.</p><pre><code class=\"python\">import struct\nfrom telethon import functions\nfrom telethon.tl.tlobject import TLObject\n\nclass InputMediaWidget(TLObject):\n    \"\"\"inputMediaWidget#44f6c04e flags:# allow_queries:flags.0?true shared_widget:flags.1?true\n    width:int height:int html:string public_data:flags.2?string chat_data:flags.3?string = InputMedia\"\"\"\n    CONSTRUCTOR_ID, SUBCLASS_OF_ID = 0x44F6C04E, 0xFAF846F4\n\n    def __init__(self, html, width=430, height=580, allow_queries=True):\n        self.html, self.width, self.height, self.allow_queries = html, width, height, allow_queries\n\n    def to_dict(self):\n        return {\"_\": \"InputMediaWidget\", \"width\": self.width, \"height\": self.height}\n\n    def _bytes(self):\n        flags = 1 if self.allow_queries else 0\n        return struct.pack(\"&lt;IIii\", self.CONSTRUCTOR_ID, flags, self.width, self.height) \\\n            + self.serialize_bytes(self.html)\n\nawait client(functions.messages.SendMediaRequest(peer=chat_id, media=InputMediaWidget(html), message=\"\"))</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Входящие типы устроены наоборот: класс с методом <em>from_reader</em>, который читает поля из <em>BinaryReader</em>, и регистрация в словаре <a href=\"http://telethon.tl\" rel=\"noopener nofollow\"><em>telethon.tl</em></a><em>.alltlobjects.tlobjects</em>. После этого апдейт можно ловить через events.Raw.</p><pre><code class=\"python\">from telethon import events\nfrom telethon.tl import alltlobjects\nfrom telethon.tl.tlobject import TLObject, TLRequest\n\nclass UpdateBotWidgetQuery(TLObject):\n    \"\"\"updateBotWidgetQuery#b373fe68 flags:# query_id:long query_type:WidgetQueryType user_id:long peer:Peer\n    msg_id:int chat_instance:long chat_type:string data:bytes widget_id:flags.0?long wallet_card:flags.1?wallet.Card\"\"\"\n    CONSTRUCTOR_ID, SUBCLASS_OF_ID = 0xB373FE68, 0x9F89304E\n\n    @classmethod\n    def from_reader(cls, r):\n        o = cls()\n        flags = r.read_int()\n        o.query_id, o.query_type, o.user_id = r.read_long(), r.tgread_object(), r.read_long()\n        o.peer, o.msg_id, o.chat_instance = r.tgread_object(), r.read_int(), r.read_long()\n        o.chat_type, o.data = r.tgread_string(), r.tgread_bytes()\n        o.widget_id = r.read_long() if flags &amp; 1 else None\n        o.wallet_card = r.tgread_object() if flags &amp; 2 else None\n        return o\n\nclass SetBotWidgetQueryAnswerRequest(TLRequest):\n    \"\"\"messages.setBotWidgetQueryAnswer#f8cdec6a flags:# query_id:long result:flags.0?string = Bool\"\"\"\n    CONSTRUCTOR_ID, SUBCLASS_OF_ID = 0xF8CDEC6A, 0xF5B399AC\n\n    def __init__(self, query_id, result):\n        self.query_id, self.result = query_id, result\n\n    def _bytes(self):\n        return struct.pack(\"&lt;IIq\", self.CONSTRUCTOR_ID, 1, self.query_id) + self.serialize_bytes(self.result)\n\nalltlobjects.tlobjects[UpdateBotWidgetQuery.CONSTRUCTOR_ID] = UpdateBotWidgetQuery\n# query_type - тоже новый тип: widgetQueryTypeData#16d8cf0b, регистрируется так же\n\n@client.on(events.Raw(UpdateBotWidgetQuery))\nasync def on_query(update):\n    data = update.data.decode()\n    await client(SetBotWidgetQueryAnswerRequest(update.query_id, '{\"ok\": true}'))</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>На стороне виджета это одна строка:</p><pre><code class=\"python\">TelegramWidget.request('s:' + score).then(a =&gt; showTop(JSON.parse(a.result)))</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Виджет отправляется, а запросы не приходят</h3><p>С этим кодом виджет отправился с первого раза. А вот нажатия до бота не доходили: игра вызывает request, у бота тишина, через 15 секунд виджет получает TIMEOUT.</p><p>Причина в слое. При подключении клиент сообщает серверу, на каком слое схемы он говорит (invokeWithLayer). Telethon 1.45 представляется клиентом 229-го слоя, а updateBotWidgetQuery сервер присылает только тем, кто на 233-м. Лечится одной строкой до создания клиента:</p><pre><code class=\"python\">import telethon.client.telegrambaseclient as tbc\ntbc.LAYER = 233</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>По сути, бот выходит в сеть с поддельным паспортом. Работает, но у этого есть цена.</p><h2>Цена подмены: бот падает при добавлении в канал</h2><p>Сказав серверу «я на 233-м слое», вы получаете от него в 233-м формате вообще всё, а не только виджеты. Типы, которые изменились между 229 и 233, Telethon не знает и падает на них с TypeNotFoundError.</p><p>Пока бот жил в личке, это не мешало. Проблема вылезла, когда я решил пускать в игру только подписчиков своего канала. Чтобы бот видел подписчиков, его нужно сделать админом канала. После этого при каждом запуске Telethon делает updates.getDifference, в ответе приходит объект канала, и бот падает:</p><blockquote><p>telethon.errors.common.TypeNotFoundError: Could not find a matching Constructor ID for the TLObject that was supposed to be read with ID 7ad15240.</p></blockquote><p>Docker перезапускает контейнер, бот снова падает на старте. Снаружи это выглядит так, будто бот просто перестал отвечать.</p><p>Чинится это за полчаса, если знать, где смотреть. 7ad15240 ищем в <a href=\"http://api.tl\" rel=\"noopener nofollow\">api.tl</a> Telegram Desktop — это channel. Потом сравниваем с тем, как этот тип читает Telethon (inspect.getsource(<a href=\"http://types.Channel\" rel=\"noopener nofollow\">types.Channel</a>.from_reader)). Разница оказалась маленькой: во втором поле флагов появились биты 21 и 23 без данных и поле pinned_msg_id:flags2.22?int в самом конце. Значит, можно отдать чтение родному коду Telethon и дочитать хвост самому:</p><pre><code class=\"python\">from telethon.tl import alltlobjects, types\n\nclass Channel233(types.Channel):\n    \"\"\"channel#7ad15240 (233) = channel из Telethon (229) + pinned_msg_id:flags2.22?int в конце\"\"\"\n    CONSTRUCTOR_ID = 0x7AD15240\n\n    @classmethod\n    def from_reader(cls, reader):\n        pos = reader.tell_position()\n        reader.read_int()              # flags\n        flags2 = reader.read_int()\n        reader.set_position(pos)\n        obj = types.Channel.from_reader(reader)\n        if flags2 &amp; (1 &lt;&lt; 22):\n            reader.read_int()          # pinned_msg_id\n        return obj\n\nalltlobjects.tlobjects[Channel233.CONSTRUCTOR_ID] = Channel233</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Тем же способом я заранее поправил messageReplyHeader: в 233-м слое в конце добавилось quote_rich:flags.14?Vector, и без парсера бот упал бы, как только кто‑то ответит на его сообщение.</p><p>Чтобы не ждать следующего падения, полезно один раз посмотреть, каких конструкторов 233-го слоя Telethon вообще не знает:</p><pre><code class=\"python\">import re\nfrom telethon.tl import alltlobjects\n\nknown = set(alltlobjects.tlobjects)\nfor line in open(\"api.tl\", encoding=\"utf-8\"):\n    if line.startswith(\"---functions\"):\n        break\n    m = re.match(r\"^([\\w.]+)#([0-9a-f]+) .*= ([\\w.]+);\", line)\n    if m and int(m.group(2), 16) not in known:\n        print(m.group(3), m.group(1))</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>У меня таких набралось 95. Из тех, что реально прилетают боту, — channel, channelFull, userFull, messageReplyHeader, остальное — кошельки, темы форумов и сами виджеты. Полные карточки канала и пользователя бот сам не запрашивает, так что их я пока не трогал.</p><h2>Всё, что не про виджеты, — через Bot API</h2><p>Вывод после падения: всё, что не касается виджетов, надёжнее делать через обычный Bot API тем же токеном. Он не зависит от подмены слоя, и MTProto‑сессия ему не мешает.</p><p>Проверка подписки — getChatMember. Бот должен быть админом канала, иначе Telegram отвечает member list is inaccessible. Прав админу можно не давать никаких. Меню команд при вводе «/» — setMyCommands. С scope типа chat можно показать админские команды только себе. Описание бота, которое видно до /start, — setMyDescription. Я подставляю туда текущего лидера таблицы рекордов. И ещё одна мелочь эксплуатации: после падения я поставил на сервер скрипт‑сторож. Он раз в 2 минуты смотрит на статус контейнера и счётчик перезапусков и пишет мне в Telegram через тот же Bot API. Бот может лежать, а Bot API у сторожа всё равно работает.</p><h2>Что умеет движок виджетов</h2><p>Для проверки я сделал пробник: виджет, который выводит размеры, поддержку CSS, что есть в TelegramWidget, и умеет спрашивать бота. Результаты на Telegram Desktop и мобильных клиентах, ноябрь 2026:</p><div><div class=\"table\"><table><tbody><tr><td><p align=\"left\"><strong>Что</strong></p></td><td><p align=\"left\"><strong>Как на деле</strong></p></td></tr><tr><td><p align=\"left\">Размер</p></td><td><p align=\"left\">дин HTML до 32 КБ и до 4 КБ в сжатом виде. Сервер сжимает как PHP <code>gzcompress</code> уровня 9, проверять удобно через <code>zlib.compress(html, 9)</code> </p></td></tr><tr><td><p align=\"left\">Ширина</p></td><td><p align=\"left\">Равна ширине пузыря: 430 px на десктопе, около 362 px на телефоне. Верстать в процентах</p></td></tr><tr><td><p align=\"left\">Высота</p></td><td><p align=\"left\">Задаётся в <code>inputMediaWidget</code>, до 600 px</p></td></tr><tr><td><p align=\"left\">CSS</p></td><td><p align=\"left\">Есть flex, grid, <code>min()</code>, <code>clamp()</code>, SVG, CSS‑анимации. Нет <code>vh</code>/<code>vmin</code>: высота считается нулевой</p></td></tr><tr><td><p align=\"left\">Внешние ресурсы</p></td><td><p align=\"left\">Нет: ни картинок, ни шрифтов, ни сетевых запросов. Только <code>data:</code> и встроенный SVG </p></td></tr><tr><td><p align=\"left\">Скрипт</p></td><td><p align=\"left\">Больше 500 мс непрерывной работы — «Виджет остановлен»</p></td></tr><tr><td><p align=\"left\">Хранилище</p></td><td><p align=\"left\"><code>localStorage</code> своё у каждого сообщения, до 4 КБ </p></td></tr><tr><td><p align=\"left\">Тапы</p></td><td><p align=\"left\">Один тап разблокирует один вызов: <code>request</code>, <code>openLink</code> или <code>openTelegramLink</code></p></td></tr><tr><td><p align=\"left\">Без тапа</p></td><td><p align=\"left\">Только в личке с ботом: один запрос при появлении, дальше не чаще раза в 5 секунд</p></td></tr></tbody></table></div></div><figure class=\"bordered full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/8f/fe/57/8ffe57fe95de928363c0c60e7456a2ed.png\" alt=\"Первая версия виджета была обрезана справа на мобилках, хотя на десктопе всё работало корректно из-за ограничений, которых я нигде не нашёл\" title=\"Первая версия виджета была обрезана справа на мобилках, хотя на десктопе всё работало корректно из-за ограничений, которых я нигде не нашёл\" width=\"960\" height=\"1280\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/8f/fe/57/8ffe57fe95de928363c0c60e7456a2ed.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/8f/fe/57/8ffe57fe95de928363c0c60e7456a2ed.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Первая версия виджета была обрезана справа на мобилках, хотя на десктопе всё работало корректно из‑за ограничений, которых я нигде не нашёл</figcaption></div></figure><p>Про «Виджет остановлен» стоит рассказать отдельно. Я сделал брызги при взрыве бутылки: 30 капель, у каждой свой таймер. Виджет падал на первом же взрыве. Свёл всё в один общий цикл анимации — продержался до второй бутылки. Помогло только убрать постоянную анимацию на JS совсем: брызги стали статичной картинкой, а бутылка качается одним разовым setTimeout.</p><p>Вторая неочевидная вещь — правило одного тапа. По надписи на бутылке открывается канал через openTelegramLink, и этот тап уже потрачен. Отправить боту клик в том же обработчике нельзя: вызов молча не выполнится. Поэтому клик копится в localStorage и уходит боту со следующим запросом.</p><h2>Куда виджет пускают</h2><p>По документации виджет можно переслать в любой чат, бот может прислать его через инлайн‑режим куда угодно, а напрямую — в личку и в группы. Я проверил каждый путь.</p><div><div class=\"table\"><table><tbody><tr><td data-colwidth=\"185\" width=\"185\"><p align=\"left\"><strong>Куда</strong></p></td><td><p align=\"left\"><strong>Документация</strong></p></td><td><p align=\"left\"><strong>На деле</strong></p></td><td><p align=\"left\"><strong>Как проверял</strong></p></td></tr><tr><td data-colwidth=\"185\" width=\"185\"><p align=\"left\">Личка с ботом</p></td><td><p align=\"left\">можно</p></td><td><p align=\"left\">работает</p></td><td><p align=\"left\">-</p></td></tr><tr><td data-colwidth=\"185\" width=\"185\"><p align=\"left\">Пересылка из лички </p></td><td><p align=\"left\">можно</p></td><td><p align=\"left\">нельзя</p></td><td><p align=\"left\">Отправил виджет во всех четырёх сочетаниях <code>allow_queries</code> и <code>shared_widget</code>: сервер у всех вернул сообщение с <code>noforwards</code>. Бот этот флаг не ставит, обычные сообщения того же бота пересылаются</p></td></tr><tr><td data-colwidth=\"185\" width=\"185\"><p align=\"left\">Инлайн, <code>@бот</code> в другом чате</p></td><td><p align=\"left\">можно</p></td><td><p align=\"left\"><code>INPUT_MEDIA_WIDGET_NOT_ALLOWED</code></p></td><td><p align=\"left\"><code>messages.setInlineBotResults</code> с <code>inputBotInlineMessageWidget</code> </p></td></tr><tr><td data-colwidth=\"185\" width=\"185\"><p align=\"left\">Канал</p></td><td><p align=\"left\">пока нельзя</p></td><td><p align=\"left\"><code>INPUT_MEDIA_WIDGET_NOT_ALLOWED</code></p></td><td><p align=\"left\">Бот — админ с правом публикации</p></td></tr><tr><td data-colwidth=\"185\" width=\"185\"><p align=\"left\">Группа обсуждения канала</p></td><td><p align=\"left\">можно</p></td><td><p align=\"left\"><code>INPUT_MEDIA_WIDGET_NOT_ALLOWED</code></p></td><td><p align=\"left\">Бот — участник группы </p></td></tr></tbody></table></div></div><p>Похоже, на бете виджеты открыты только в личке с ботом. Для продвижения это главное ограничение: игра не разлетается сама, делиться ей можно только ссылкой на бота. В канал я публикую обычный пост с гифкой и кнопкой «Играть», которая ведёт в бота.</p><h2>Итого</h2><p>Виджеты — хорошая штука для мини‑игр, опросов и мелких интерактивных вещей прямо в чате, но пока это бета со всеми последствиями. Схема в документации расходится со схемой в клиенте, пересылка и группы закрыты, а сам способ держится на подмене слоя протокола и сломается в любой момент. Когда Bot API 10.4 выйдет из беты, всё это можно будет делать обычной библиотекой.</p><p>Если хотите попробовать сейчас, я собрал шаблон: бот на Telethon, все типы с парсерами для 233-го слоя, пробник движка и сторож, запуск через Docker. Подставляете свой HTML и свою логику ответа: <a href=\"http://github.com/fedor-barulin/shipuchka-widget-bot\" rel=\"noopener nofollow\">github.com/fedor‑barulin/shipuchka‑widget‑bot</a>.</p><p><strong><em>UPD 9.11.27: </em></strong></p><p>Telegram выпустил <a href=\"https://core.telegram.org/bots/api-changelog#november-9-2026\" rel=\"noopener nofollow\">Bot API 10.4</a>. Виджеты теперь доступны через обычный <code>api.telegram.org/bot&lt;TOKEN&gt;/</code>, без <code>/beta</code>.</p><p>Описанные в статье ручные TL-типы и подмена слоя Telethon для нового бота больше не нужны. Отправка <em>sendWidget</em>, запросы из виджета приходят как <em>widget_query</em>, ответ через <em>answerWidgetQuery</em>. Всё обычными HTTP с токеном бота. Свою «Шипучку» я уже перевёл на этот вариант, сохранив игру и таблицу рекордов.</p><p>А ограничения на распространение остались: в рабочем окружении виджеты доступны только в личке с ботом, пересылка запрещена, inline-режим пока недоступен. Теперь это прямо оговорено в релизе, так что расхождение с таблицей из статьи получило официальное объяснение.</p><p>Лимит в 4 КБ после сжатия тоже на месте. Ковырять протокол больше не обязательно, ужимать игру всё ещё придётся.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "telegram"
+    },
+    {
+      "titleHtml": "telethon"
+    },
+    {
+      "titleHtml": "mtproto"
+    },
+    {
+      "titleHtml": "htmlbubbles"
+    },
+    {
+      "titleHtml": "виджеты"
+    },
+    {
+      "titleHtml": "боты"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105576/dd4ff36533a40fc884b8adfad99eac73/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105576/dd4ff36533a40fc884b8adfad99eac73/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105576\\/\"},\"headline\":\"HTML‑виджеты Telegram до выхода Bot API 10.4: отправляем через MTProto из Telethon и разбираем грабли слоя 233\",\"datePublished\":\"2026-11-09T17:53:27+03:00\",\"dateModified\":\"2026-11-09T19:39:59+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В&nbsp;Telegram появились HTMLBubbles: виджеты, где бот присылает сообщение и внутри него работает маленькая веб‑страница со скриптом. В&nbsp;публичном Bot API...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105576\\/#post-content-body\",\"about\":[\"h_python\",\"h_gamedev\",\"h_instant_messaging\",\"h_reverse-engineering\",\"h_crazydev\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/2c\\/9f\\/d2\\/2c9fd29fb38758f47658791270e36212.png\",\"https:\\/\\/habrastorage.org\\/extt\\/c4\\/76\\/91\\/c4769143e303e8a510755b03dbd6520c.png\",\"https:\\/\\/habrastorage.org\\/extt\\/8f\\/fe\\/57\\/8ffe57fe95de928363c0c60e7456a2ed.png\"]}",
+    "metaDescription": "В&nbsp;Telegram появились HTMLBubbles: виджеты, где бот присылает сообщение и внутри него работает маленькая веб‑страница со скриптом. В&nbsp;публичном Bot API 10.3&nbsp;метода для&nbsp;них пока нет,...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 10,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

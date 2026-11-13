@@ -1,0 +1,175 @@
+{
+  "id": "1105670",
+  "timePublished": "2026-11-09T18:25:34+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "ByteDance выпустила Seedream 5.5: модель выдерживает до 100 последовательных правок изображения",
+  "leadData": {
+    "textHtml": "<p>ByteDance <a href=\"https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5\">представила</a> Seedream 5.5. Это новая версия модели генерации и редактирования изображений. Главное обновление — возможность вносить до 100 последовательных изменений в одну картинку без постепенной потери деталей и искажения областей, которые не затрагивали при редактировании.</p><p>В демонстрации ByteDance модель 100 раз отредактировала изображение одного человека: меняла одежду, аксессуары и предметы вокруг. При этом сохранялись внешность, освещение и мелкие детали.</p><p>Ещё одно нововведение — нативная генерация PNG с прозрачностью. Seedream 5.5 умеет создавать изображения с альфа-каналом, включая частично прозрачные области. Это позволяет сразу использовать полученные объекты в дизайне и монтаже, без отдельного удаления фона.</p><p>Улучшили реализм, более естественная передача освещения, материалов и текстуры кожи. Еще теперь модель лучше воспроизводит мелкие надписи и сложные символы. По данным ByteDance, доля серьёзных ошибок в тексте составляет 0,4%, незначительных — 1,7%. Также подкрутили сохранение деталей: при последовательном редактировании уменьшается потеря качества и накопление искажений.</p><p>В собственных тестах ByteDance Seedream 5.5 показала лучшие результаты, чем предыдущая версия, во всех шести сценариях: электронной коммерции, маркетинге, кино и телевидении, играх, офисной работе и дизайне одежды.</p><p>Модель уже представлена, а Pro-версия линейки Seedream 5.5 появится позднее.</p>",
+    "imageUrl": "https://habrastorage.org/extt/17/a2/f3/17a2f3609bd466effe279d84878744b1.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/17/a2/f3/17a2f3609bd466effe279d84878744b1.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5177951",
+    "alias": "DashaPasha",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": -2,
+      "votesCount": 120
+    },
+    "rating": 44.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 1,
+    "readingCount": 606,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 7908,
+    "readers": 504
+  },
+  "hubs": [
+    {
+      "id": "23256",
+      "alias": "bothub",
+      "type": "corporative",
+      "title": "Блог компании BotHub",
+      "titleHtml": "Блог компании BotHub",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>ByteDance <a href=\"https://seed.bytedance.com/en/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5\">представила</a> Seedream 5.5. Это новая версия модели генерации и редактирования изображений. Главное обновление — возможность вносить до 100 последовательных изменений в одну картинку без постепенной потери деталей и искажения областей, которые не затрагивали при редактировании.</p><p>В демонстрации ByteDance модель 100 раз отредактировала изображение одного человека: меняла одежду, аксессуары и предметы вокруг. При этом сохранялись внешность, освещение и мелкие детали.</p><p>Ещё одно нововведение — нативная генерация PNG с прозрачностью. Seedream 5.5 умеет создавать изображения с альфа‑каналом, включая частично прозрачные области. Это позволяет сразу использовать полученные объекты в дизайне и монтаже, без отдельного удаления фона.</p><p>Улучшили реализм, более естественная передача освещения, материалов и текстуры кожи. Еще теперь модель лучше воспроизводит мелкие надписи и сложные символы. По данным ByteDance, доля серьёзных ошибок в тексте составляет 0,4%, незначительных — 1,7%. Также подкрутили сохранение деталей: при последовательном редактировании уменьшается потеря качества и накопление искажений.</p><p>В собственных тестах ByteDance Seedream 5.5 показала лучшие результаты, чем предыдущая версия, во всех шести сценариях: электронной коммерции, маркетинге, кино и телевидении, играх, офисной работе и дизайне одежды.</p><p>Модель уже представлена, а Pro‑версия линейки Seedream 5.5 появится позднее.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "Seedream 5.5"
+    },
+    {
+      "titleHtml": "ByteDance"
+    },
+    {
+      "titleHtml": "генерация изображений"
+    },
+    {
+      "titleHtml": "редактирование изображений"
+    },
+    {
+      "titleHtml": "ИИ-редактор"
+    },
+    {
+      "titleHtml": "прозрачный фон"
+    },
+    {
+      "titleHtml": "альфа-канал"
+    },
+    {
+      "titleHtml": "генерация текста на изображениях"
+    },
+    {
+      "titleHtml": "нейросети"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105670/935520e81f254c7714e76128bbc19d37/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105670/935520e81f254c7714e76128bbc19d37/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/bothub\\/articles\\/1105670\\/\"},\"headline\":\"ByteDance выпустила Seedream 5.5: модель выдерживает до 100 последовательных правок изображения\",\"datePublished\":\"2026-11-09T21:25:34+03:00\",\"dateModified\":\"2026-11-10T02:25:23+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"ByteDance представила Seedream 5.5. Это новая версия модели генерации и редактирования изображений. Главное обновление&nbsp;— возможность вносить до...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/bothub\\/articles\\/1105670\\/#post-content-body\",\"about\":[\"c_bothub\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105670\\/935520e81f254c7714e76128bbc19d37\\/\"]}",
+    "metaDescription": "ByteDance представила Seedream 5.5. Это новая версия модели генерации и редактирования изображений. Главное обновление&nbsp;— возможность вносить до 100&nbsp;последовательных изменений в&nbsp;одну...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

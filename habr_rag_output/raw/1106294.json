@@ -1,0 +1,227 @@
+{
+  "id": "1106294",
+  "timePublished": "2026-11-10T20:38:22+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Агентная система для тех, кто вкатывается: собираем агента поддержки от одного файла до Temporal, саги и circuit breaker",
+  "leadData": {
+    "textHtml": "<p>Тысяча классификаций обращений стоит $0,23 на Claude Haiku 5.5 и $4,50 на Sonnet 5.5. Почти двадцать раз, и это не самое дорогое место в системе, где агент поддержки возвращает клиентам деньги. Дороже выходят возврат, проведённый дважды после падения воркера, сто воркеров, которые долбят упавшего провайдера модели, и крупная сумма, ушедшая без человека.</p><p>Собираем такую систему по шагам, начиная с агента в одном файле. На каждом шаге упираемся в проблему и добавляем компонент: API и базу, Temporal с его собственной базой, LLM-шлюз с circuit breaker, сагу с точкой невозврата и консоль оператора, роутер, который отдаёт агенту только спорные случаи, трейсы и outbox. Схема растёт вместе с текстом по C4, от Context до Component. В конце чек-лист из 11 пунктов: какой компонент добавлять при какой боли.</p>",
+    "imageUrl": "https://habrastorage.org/extt/89/29/a8/8929a8def56a86a08b4f9dae61d17b04.jpg",
+    "buttonTextHtml": "Где ставить circuit breaker",
+    "image": {
+      "url": "https://habrastorage.org/extt/89/29/a8/8929a8def56a86a08b4f9dae61d17b04.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3755978",
+    "alias": "MuratovER",
+    "fullname": "Эльдар",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/42f/cac/0ae/42fcac0aeddf7ea219a7105821c04933.jpeg",
+    "speciality": "Solution Architect",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": -1,
+      "votesCount": 5
+    },
+    "rating": 16,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 21,
+    "readingCount": 1433,
+    "score": 1,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 9768,
+    "readers": 1023
+  },
+  "hubs": [
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "397",
+      "alias": "analysis_design",
+      "type": "collective",
+      "title": "Анализ и проектирование систем",
+      "titleHtml": "Анализ и проектирование систем",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21482",
+      "alias": "distributed_systems",
+      "type": "collective",
+      "title": "Распределённые системы",
+      "titleHtml": "Распределённые системы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "22115",
+      "alias": "microservices",
+      "type": "collective",
+      "title": "Микросервисы",
+      "titleHtml": "Микросервисы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Клиент пишет в поддержку: «Посылка не пришла, верните деньги». Агента, который на это ответит, можно написать за вечер. Цикл из части 1, три инструмента, и в демо он отвечает правильно. А потом процесс перезапускается посреди возврата, провайдер модели ложится на полчаса, клиент нажимает «отправить» дважды. И оказывается, что агент это малая часть системы.</p><p>Это третья, последняя часть серии. В <a href=\"https://habr.com/ru/articles/1103562/\" rel=\"noopener nofollow\">первой</a> разобрали агентный цикл, токены и кэш. Во <a href=\"https://habr.com/ru/articles/1105712/\" rel=\"noopener nofollow\">второй</a> собрали практики: ретраи, идемпотентность, саги, Temporal, подтверждение человеком, проверки. Здесь соберём из них одну систему. Начнём с агента в одном файле и на каждом шаге будем упираться в проблему. Каждая проблема добавит компонент, а схема системы будет расти вместе с текстом. Код, как и раньше, псевдокод: имена на английском, как в настоящем Python, комментарии на русском.</p><p>Схемы рисую по <a href=\"https://c4model.com\" rel=\"noopener nofollow\">C4</a>. Это способ рисовать архитектуру с разным приближением, как карту. Context показывает систему коробкой среди людей и внешних систем. Container раскрывает её на приложения и хранилища. Component раскрывает одно приложение на части. Первые два уровня авторы C4 советуют всем командам, третий только когда он что-то добавляет. Контейнер в C4 это не Docker, а всё, что должно работать, чтобы работала система: сервис, база, очередь.</p><p><strong>TL;DR</strong></p><ul><li><p>Агент в одном процессе теряет всё при перезапуске. Обращение и историю диалога храните в базе, а сам процесс обработки ведите в Temporal: workflow на обращение, Workflow ID равен id диалога.</p></li><li><p>У Temporal своя база, и бизнес-данные в ней не хранят. Воркеры с вашим кодом запускаете вы, сервис Temporal их не выполняет.</p></li><li><p>Ретрай и circuit breaker разные вещи. Ретрай повторяет временный сбой, circuit breaker перестаёт звать сервис, который лежит. Его место перед провайдером модели, в LLM-шлюзе.</p></li><li><p>Модель решает, деньги двигает код: возврат идёт сагой, где возврат денег это точка невозврата. Крупные суммы одобряет оператор.</p></li><li><p>Не всё должен делать агент. Роутер на маленькой модели отправляет FAQ в один вызов, «где заказ» в цепочку, и только спорный возврат в агента.</p></li><li><p>Добавляйте компонент, когда появилась боль, которую он лечит. Чек-лист в конце.</p></li></ul><h3>Шаг 0. Агент в одном файле</h3><p>Начнём с того, что умеем после части 1. Скрипт держит историю диалога в памяти, вызывает модель и выполняет инструменты, которые она попросила. Инструментов три: <code>track_order_status</code> смотрит статус заказа у службы доставки, <code>get_refund_policy</code> достаёт правила возврата, <code>refund_payment</code> возвращает деньги. Похожий <code>track_order_status</code> есть в гайде OpenAI по агентам, где пример тоже про поддержку.</p><pre><code class=\"python\"># Псевдокод: агент поддержки в одном файле\nhistory = []\n\ndef handle(message):\n    history.append(message)\n    while True:\n        response = llm(history, tools=[track_order_status,\n                                       get_refund_policy, refund_payment])\n        history.append(response)\n        if response.stop_reason != \"tool_use\":\n            return response.text\n        for call in response.tool_calls:\n            history.append(run_tool(call))\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>На уровне Context система выглядит так. Клиент пишет, оператор иногда подключается. Снаружи провайдер модели, магазин с заказами, служба доставки, платёжная система и база знаний со статьями.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/62/48/ab/6248abd9b2a1ba28b4c01bb5de79f72c.png\" alt=\"Уровень Context: система поддержки среди людей и внешних систем\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/62/48/ab/6248abd9b2a1ba28b4c01bb5de79f72c.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/62/48/ab/6248abd9b2a1ba28b4c01bb5de79f72c.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Уровень Context: система поддержки среди людей и внешних систем</figcaption></div></figure><p><em>C4, уровень 1. Внешние системы не наши, мы их только вызываем.</em> </p><p>В демо это работает. Проблемы начинаются, когда клиентов становится больше одного. История лежит в памяти процесса, поэтому любой перезапуск стирает все диалоги. Скрипт обслуживает одного клиента за раз. И если процесс упал между <code>refund_payment</code> и ответом клиенту, никто не знает, вернули деньги или нет.</p><h3>Шаг 1. API и база</h3><p>Первое, что добавляем, это вход и память. Скрипт из шага 0 делал всё сразу: принимал сообщение, звал модель и ждал её ответа. Делим его на две программы.</p><p>API это веб-сервис, в который чат отправляет сообщение клиента. Он проверяет запрос, сохраняет сообщение в базу, ставит там задачу «обработать диалог» и сразу отвечает чату, что сообщение принято. Модель API не вызывает, поэтому отвечает за миллисекунды.</p><p>Воркер это отдельный фоновый процесс, в котором живёт сам агент, то есть цикл из шага 0. Воркер берёт задачу из базы, читает историю диалога, зовёт модель и инструменты и записывает ответ в базу, откуда его забирает чат. Воркеров запускают несколько, каждый берёт свою задачу. С клиентом воркер напрямую не общается.</p><p>История диалога теперь лежит в базе, и её переживёт любой перезапуск. Готовые хранилища истории есть в SDK. В OpenAI Agents SDK это сессии: SQLite, Redis, SQLAlchemy, MongoDB и свои реализации.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/8d/1a/ea/8d1aea32a288db95b954c4bfcd34586a.png\" alt=\"Шаг 1: API, воркер и база приложения\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/8d/1a/ea/8d1aea32a288db95b954c4bfcd34586a.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/8d/1a/ea/8d1aea32a288db95b954c4bfcd34586a.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Шаг 1: API, воркер и база приложения</figcaption></div></figure><p><em>C4, уровень 2. Оранжевой рамкой выделено то, что добавили на этом шаге.</em> </p><p>Зачем делить. Агент думает над одним обращением от секунд до минуты. Если бы это делал API, каждое обращение держало бы соединение открытым всё это время. Поэтому долгая работа уходит воркерам: API остаётся быстрым, а воркеров добавляют под нагрузку.</p><p>Но главная проблема осталась. Воркер упал на середине обращения. Он успел проверить статус заказа и вызвать <code>refund_payment</code>, а ответ получить не успел. Новый воркер возьмёт обращение заново. Вызвать возврат ещё раз? Если первый прошёл, клиент получит деньги дважды. Не вызывать? Если не прошёл, клиент не получит ничего. База знает, что сказал клиент, но не знает, на каком шаге остановилась обработка.</p><h3>Шаг 2. Temporal: каждое обращение это workflow</h3><p>Здесь нужен durable execution, который мы разбирали во второй части. Temporal записывает каждый шаг в журнал. После падения другой воркер проигрывает журнал и продолжает с того же места. Готовые шаги второй раз не выполняются: их результаты берутся из журнала.</p><p>Важно понять, из чего Temporal состоит физически, потому что тут путаются чаще всего. Temporal Service это сервер плюс его собственная база. Сервер внутри делится на четыре сервиса. Frontend принимает вызовы, ограничивает их частоту и проверяет права. History хранит состояние workflow, Matching держит очереди задач, Worker выполняет внутренние фоновые задачи. База у Temporal своя: PostgreSQL, MySQL или Cassandra. Её единственную он требует для работы.</p><p>А ваш код Temporal не выполняет. Документация говорит прямо: воркеры живут вне Temporal Service, их пишет и запускает команда приложения. Воркер сам опрашивает очередь задач и берёт новую, только когда свободен. Так нагрузка распределяется между воркерами без балансировщика. Если воркер упал, задача остаётся в очереди и дождётся следующего.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/3e/2f/5c/3e2f5ca0df13fcc71695cb8e44033d2e.png\" alt=\"Шаг 2: Temporal Service со своей базой, воркеры опрашивают очереди\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/3e/2f/5c/3e2f5ca0df13fcc71695cb8e44033d2e.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/3e/2f/5c/3e2f5ca0df13fcc71695cb8e44033d2e.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Шаг 2: Temporal Service со своей базой, воркеры опрашивают очереди</figcaption></div></figure><p><em>Temporal хранит ход обработки, база приложения хранит данные.</em> </p><p>Агентный цикл ложится сюда так. Цикл живёт в workflow, вызов модели и каждый вызов инструмента становятся activities. Так устроена официальная интеграция Temporal с OpenAI Agents SDK: цикл, выбор инструментов и передача задачи между агентами идут в workflow, вызовы модели идут activities и при восстановлении не повторяются. По словам самого Temporal, на нём работает веб-агент Codex от OpenAI. Это слова вендора, разбора от OpenAI я не нашёл.</p><p>Как обращение попадает в workflow. ID workflow задаёте вы, и он должен нести бизнес-смысл, например номер заказа. Возьмём id диалога. Temporal гарантирует, что открытым может быть только одно выполнение с таким ID. Клиент нажал «отправить» дважды, второй запуск не создаст дубль. Ещё удобнее Update-with-Start. Это один вызов из API: если workflow для этого диалога уже идёт, новое сообщение уходит в него, если нет, workflow стартует. Для этого вызову обязательно указывают политику конфликта ID, здесь Use Existing. API при этом может дождаться ответа. Задачу в базу API больше не ставит: очередь задач теперь держит Temporal, а база приложения хранит только сами сообщения.</p><pre><code class=\"python\"># Псевдокод: API принимает сообщение клиента\n@post(\"/chat/{dialog_id}\")\ndef new_message(dialog_id, text):\n    db.save_message(dialog_id, text)\n    return temporal.update_with_start(\n        workflow=support_case, workflow_id=f\"dialog-{dialog_id}\",\n        id_conflict_policy=USE_EXISTING,   # workflow уже идёт: сообщение уходит в него\n        update=\"new_message\", arg=text)\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Писать в workflow можно тремя способами. Signal это асинхронное сообщение без ответа. Update это синхронная запись: отправитель ждёт результат или ошибку, а workflow может проверить запрос до принятия. Query это чтение текущего состояния, оно ничего не пишет в журнал. Новое сообщение клиента удобно слать Update, решение оператора Signal, статус для интерфейса читать Query.</p><p>И почему не хранить всё в Temporal, раз он и так хранит журнал. Журнал одного выполнения ограничен: 51 200 событий или 50 МБ. После этого выполнение завершается. Для долгого диалога есть Continue-As-New: workflow передаёт своё состояние новому выполнению с тем же ID и чистым журналом. Но данные клиента, заказы и историю переписки, которую читает оператор, держите в базе приложения. Ещё одна причина: Workflow ID хранится открытым текстом и виден в интерфейсе и логах, поэтому персональных данных в нём быть не должно.</p><h3>Шаг 3. LLM-шлюз и circuit breaker</h3><p>Провайдер модели лёг на полчаса. Temporal делает то, что должен: повторяет activity с растущей паузой, по умолчанию без ограничения числа попыток. Сто воркеров с тысячей открытых обращений дружно долбят упавший API. Каждая попытка ждёт таймаута и держит соединение. Когда провайдер поднимется, на него разом обрушится вся очередь.</p><p>Ретрай рассчитан на сбой, который пройдёт за секунды. Для долгого отказа есть другой паттерн, circuit breaker, автоматический выключатель. Мартин Фаулер описывает его так. Обёртка вокруг вызова считает сбои. После порога она размыкается, и следующие вызовы сразу получают ошибку, без похода к сервису. Через время выключатель пропускает пробный вызов. Прошёл, значит выключатель замыкается обратно.</p><p>Microsoft в своём описании паттерна подчёркивает разницу. Ретрай повторяет операцию в расчёте на успех. Circuit breaker не даёт выполнить операцию, которая почти наверняка провалится. Их можно сочетать: ретрай идёт через выключатель. Но ретрай должен понимать ошибку выключателя и прекращать попытки, если сбой не временный.</p><p>Где поставить выключатель. Воркеров много, и у каждого своя память. Если выключатель живёт в памяти воркера, каждый из них будет отдельно узнавать, что провайдер лёг. Поэтому состояние выключателя должно быть общим. Удобное место это LLM-шлюз, отдельный сервис между воркерами и провайдерами. Например, LiteLLM умеет то, что нужно. Он выводит модель из ротации, если за короткое время она упала больше заданного числа раз (в примере документации больше трёх сбоев, и модель «остывает» 30 секунд), переключает на запасную модель и держит это состояние в Redis, общем для всех инстансов.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/b1/4f/48/b14f4854327d8add142ec265b3d65f31.png\" alt=\"Шаг 3: LLM-шлюз с circuit breaker между воркерами и провайдерами\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/b1/4f/48/b14f4854327d8add142ec265b3d65f31.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/b1/4f/48/b14f4854327d8add142ec265b3d65f31.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Шаг 3: LLM-шлюз с circuit breaker между воркерами и провайдерами</figcaption></div></figure><p><em>Выключатель в шлюзе общий для всех воркеров. Состояние в Redis.</em> </p><p>Дальше мой совет, а не правило из документации. Пусть activity вызова модели различает два вида ошибок. Временная ошибка от провайдера повторяется политикой Temporal. Ошибка «выключатель разомкнут» означает, что провайдер лежит, и workflow решает сам: уйти на запасную модель, подождать дольше или отдать обращение оператору.</p><pre><code class=\"python\"># Псевдокод: вызов модели через шлюз\n@activity\ndef call_llm(history):\n    response = gateway.chat(history, model=\"main\", fallback=\"backup\")\n    if response.error == \"all_models_cooling_down\":\n        raise NonRetryableError(\"провайдеры недоступны\")  # ретраи Temporal не жгём\n    return response\n\n@workflow\ndef support_case(...):\n    try:\n        response = activity(call_llm, history, retry=retry_policy)\n    except NonRetryableError:\n        return hand_off_to_operator(\"модель недоступна\")\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Те же выключатели ставят перед любым внешним API, который может лечь надолго: службой доставки, платёжкой. Правило одно: состояние выключателя общее для всех воркеров.</p><h3>Шаг 4. Сага и подтверждение оператором</h3><p>Теперь сам возврат. Он затрагивает три системы. Сначала создать этикетку возврата у службы доставки. Потом вернуть деньги через платёжную систему. Потом сообщить клиенту и обновить заказ в магазине. Общей транзакции на эти системы нет. Как это решает сага, подробно было во второй части: у каждого шага заранее есть компенсация, и при сбое сделанное отменяется в обратном порядке.</p><p>Здесь добавлю понятие, которое в описании паттерна у Microsoft называется pivot transaction, точка невозврата. Шаги до неё можно отменить. После неё отменять уже нечего, и оставшиеся шаги нужно довести до конца, повторяя сколько угодно. У нас точка невозврата это возврат денег. Этикетку можно отменить. Деньги ушли, значит письмо клиенту и обновление заказа обязаны выполниться, даже если для этого понадобится сутки ретраев.</p><pre><code class=\"python\"># Псевдокод: возврат как сага внутри workflow\ndef refund(decision):\n    label = activity(create_return_label, decision.order, key=decision.id)\n    try:\n        activity(refund_payment, decision.amount, key=decision.id)  # точка невозврата\n    except PermanentError:\n        activity(cancel_return_label, label)                        # компенсация\n        raise\n    # дальше только вперёд: повторять до успеха\n    activity(notify_customer, decision, key=decision.id, retry=FOREVER)\n    activity(update_order, decision, key=decision.id, retry=FOREVER)\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Каждое действие получает ключ идемпотентности: id решения. Если Temporal повторит шаг после сбоя, платёжная система по тому же ключу вернёт старый ответ, а не спишет деньги снова. Сага в Temporal пишется обычным кодом в workflow. Microsoft называет такой вариант оркестрацией: один координатор знает все шаги и сам запускает компенсации.</p><p>Крупный возврат модель не должна проводить сама. В гайде OpenAI среди поводов звать человека прямо названы отмена заказа, крупный возврат и платёж. В системе появляется консоль оператора. Workflow показывает ей решение и ждёт сигнал. Ожидание записано в журнал, поэтому оператор может ответить через час, а воркеры за это время успеют перезапуститься. Как это устроено и какие правила у подтверждения, во второй части.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/69/09/94/6909949ec800e4ebc431851cdb9fc4d5.png\" alt=\"Шаг 4: консоль оператора, сага через доставку и платёжку\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/69/09/94/6909949ec800e4ebc431851cdb9fc4d5.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/69/09/94/6909949ec800e4ebc431851cdb9fc4d5.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Шаг 4: консоль оператора, сага через доставку и платёжку</figcaption></div></figure><p><em>Ждущий workflow не занимает воркер: его состояние лежит в журнале.</em> </p><h3>Шаг 5. Цепочка или агент</h3><p>Система стала надёжной, но дорогой и медленной. Каждое обращение проходит полный агентный цикл, даже вопрос «как вернуть товар?», на который есть статья в базе знаний. А ведь обращения бывают трёх видов. На вопрос из базы знаний хватает одного вызова модели с поиском. «Где мой заказ» решается цепочкой: достать номер, вызвать <code>track_order_status</code>, написать ответ. И только спорный возврат требует суждения: заказ мог прийти в пункт выдачи, клиент мог не забрать его в срок, правила для разных товаров разные.</p><p>Цепочкой (workflow, agents chain) называют систему, где шаги заранее прописаны в коде. Агентом (AgentsLLM) называют систему, где модель сама решает, какой шаг сделать дальше. Так их разделяют Anthropic, OpenAI и LangGraph. Microsoft добавляет к этому лестницу сложности: прямой вызов модели, один агент с инструментами, несколько агентов. Совет у них простой: брать самый низкий уровень, который надёжно решает задачу. Если хватает хорошего промпта, агент не нужен.</p><p>Разделение по типам обращений Anthropic описывает как паттерн «роутинг» и приводит именно пример поддержки: общие вопросы, возвраты и техподдержка уходят в разные процессы со своими промптами и инструментами. Роутер сам по себе ещё не агент. Модель там делает одно решение и ни в каком цикле не крутится.</p><p>Внутри воркера теперь видно несколько компонентов. Это уровень Component в C4.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/5b/d1/e2/5bd1e25d2b24754f909f3da4896594d1.png\" alt=\"Уровень Component: что внутри воркера агента\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/5b/d1/e2/5bd1e25d2b24754f909f3da4896594d1.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/5b/d1/e2/5bd1e25d2b24754f909f3da4896594d1.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Уровень Component: что внутри воркера агента</figcaption></div></figure><p><em>C4, уровень 3. Пунктирной оранжевой рамкой выделены места, где решает модель; деньги двигают обычный код и сага.</em> </p><pre><code class=\"python\"># Псевдокод: одно сообщение клиента внутри workflow\nkind = activity(classify, message, model=\"small\")                  # роутер: один вызов\nif kind == \"faq\":\n    answer = activity(answer_from_kb, message)                       # один вызов\nelif kind == \"where_is_order\":\n    status = activity(track_order_status, message.order)\n    answer = activity(write_reply, status)                           # цепочка\nelse:\n    decision = agent_loop(message, tools=READ_ONLY_TOOLS)            # агент\n    check_rules(decision)                                            # код: лимиты, порог\n    if decision.amount &gt; THRESHOLD:\n        approved = wait_for_signal(\"operator_decision\")              # Signal из консоли\n        if not approved:\n            return hand_off_to_operator(decision)\n    refund(decision)                                                 # сага\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Обратите внимание на две детали. Агент получает только инструменты чтения: статус заказа, правила, историю клиента. Он предлагает решение, но денег не двигает. Деньги двигает сага, обычный код, после проверки правил и, при крупной сумме, одобрения оператора.</p><p>Вторая деталь это модель под задачу. OpenAI советует ставить маленькую модель на классификацию, а решение о возврате доверять сильной. Разница заметная: тысяча классификаций по 2 000 входных токенов стоит $0,23 на Claude Haiku 5.5 и $4,50 на Sonnet 5.5 по прайсу на конец октября 2026 года.</p><h3>Шаг 6. Трейсы и outbox</h3><p>Оператор открывает жалобу: «Агент отказал в возврате, хотя посылка не пришла». Почему он так решил? Какие инструменты вызвал, что они вернули, сколько стоило обращение? Без трейса ответов нет.</p><p>Добавляем сбор трейсов. Каждое обращение получает трейс, где видно каждый вызов модели и инструмента, токены, время и цену. Формат стандартный, OpenTelemetry с соглашениями для GenAI, о нём было во второй части. Я бы связывал трейс с Workflow ID: тогда из жалобы оператор переходит и к журналу Temporal, и к трейсу вызовов.</p><p>Последняя мелочь касается событий. После возврата CRM должна узнать, что заказ закрыт, а аналитика, что был возврат. Если воркер сначала обновит базу, а потом упадёт до отправки события в брокер, CRM никогда не узнает о возврате. Для этого есть паттерн transactional outbox. Событие пишется в таблицу outbox в той же транзакции, что и изменение заказа. Отдельный процесс читает таблицу и отправляет события в брокер. Запись и событие либо появятся обе, либо ни одна.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/d8/5a/33/d85a33702d91f8717ba8510752c65716.png\" alt=\"Итог: система поддержки целиком\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/d8/5a/33/d85a33702d91f8717ba8510752c65716.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/d8/5a/33/d85a33702d91f8717ba8510752c65716.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Итог: система поддержки целиком</figcaption></div></figure><p><em>C4, уровень 2, финальная версия. Номера на контейнерах показывают, где стоит каждый паттерн.</em> </p><h3>Что получилось</h3><p>Агент из одного файла превратился в систему из десятка компонентов. Удобнее всего свести, какой паттерн где стоит и от чего защищает:</p><ul><li><p><strong>Workflow на обращение</strong> (Temporal): падение воркера не теряет ход обработки.</p></li><li><p><strong>Workflow ID = id диалога</strong>: двойная отправка не создаёт второй обработчик.</p></li><li><p><strong>Ретраи</strong> (политика activities в Temporal): короткие сбои модели и API.</p></li><li><p><strong>Circuit breaker</strong> (LLM-шлюз, общее состояние в Redis): долгий отказ провайдера не забивает воркеры.</p></li><li><p><strong>Ключ идемпотентности</strong> (каждое действие до внешней системы): повтор шага не возвращает деньги дважды.</p></li><li><p><strong>Сага с точкой невозврата</strong> (код в workflow): сбой посреди возврата не оставляет систему наполовину.</p></li><li><p><strong>Подтверждение оператором</strong> (Signal из консоли): крупный возврат не проходит без человека.</p></li><li><p><strong>Роутер</strong> (цепочка на маленькой модели): агент работает только там, где без суждения никак.</p></li><li><p><strong>Outbox</strong> (база приложения): событие не теряется между записью и отправкой.</p></li><li><p><strong>Трейсы</strong> (OpenTelemetry): понятно, почему агент решил так и сколько это стоило.</p></li></ul><p>Главное в этой схеме не список компонентов, а порядок их появления. Каждый появился, когда без него что-то ломалось. В маленьком проекте половина из них может не понадобиться ещё долго.</p><h3>Чек-лист: какой компонент добавлять при какой боли</h3><ol><li><p>Диалоги теряются при перезапуске: история в базу, вход через API.</p></li><li><p>Непонятно, на каком шаге упала обработка: durable execution, workflow на обращение.</p></li><li><p>Дубли от двойной отправки: Workflow ID из бизнес-идентификатора, Update-with-Start.</p></li><li><p>Бизнес-данные просятся в Temporal: нет, они в базе приложения; длинным workflow Continue-As-New.</p></li><li><p>Провайдер лёг, и воркеры повисли: LLM-шлюз с circuit breaker и запасной моделью, ошибка выключателя не ретраится.</p></li><li><p>Действие в нескольких системах: сага, найдите точку невозврата, после неё только вперёд.</p></li><li><p>Повтор шага опасен: ключ идемпотентности до внешней системы.</p></li><li><p>Действие с деньгами: агент только предлагает, код проверяет, оператор одобряет крупное.</p></li><li><p>Агент дорогой и медленный: роутер, цепочки для типовых обращений, маленькая модель на классификацию.</p></li><li><p>Непонятно, почему агент так решил: трейсы, связанные с Workflow ID.</p></li><li><p>События теряются между базой и брокером: outbox.</p></li></ol><p>Агент, который отвечает «посылка не пришла, верните деньги», занимает в этой системе одну коробку из десяти. Остальные девять нужны не модели, а деньгам клиента и спокойствию оператора. Почти все они знакомы по обычному бэкенду. Новое только одно: внутри теперь есть компонент, который каждый раз решает по-разному. Вся архитектура вокруг него нужна, чтобы это не стало проблемой.</p><p>С какой коробки из этой схемы вы начали бы у себя, а какую выкинули бы?</p><h3>Серия «AI-инженерия для тех, кто вкатывается»</h3><p>Это цикл из трёх статей.</p><ol><li><p><a href=\"https://habr.com/ru/articles/1103562/\" rel=\"noopener nofollow\">«AI-инженерия для тех, кто вкатывается: агенты, MCP, токены и кэш с цифрами»</a></p></li><li><p><a href=\"https://habr.com/ru/articles/1105712/\" rel=\"noopener nofollow\">«AI-агент в проде для тех, кто вкатывается: инструменты, RAG, надёжность и проверки»</a></p></li><li><p>«Агентная система для тех, кто вкатывается: собираем агента поддержки от одного файла до Temporal, саги и circuit breaker» (вы читаете её сейчас)</p></li></ol></div>",
+  "tags": [
+    {
+      "titleHtml": "AI-агенты"
+    },
+    {
+      "titleHtml": "LLM"
+    },
+    {
+      "titleHtml": "архитектура"
+    },
+    {
+      "titleHtml": "C4"
+    },
+    {
+      "titleHtml": "Temporal"
+    },
+    {
+      "titleHtml": "circuit breaker"
+    },
+    {
+      "titleHtml": "сага"
+    },
+    {
+      "titleHtml": "transactional outbox"
+    },
+    {
+      "titleHtml": "LiteLLM"
+    },
+    {
+      "titleHtml": "OpenAI Agents SDK"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106294/a454e461b712812e193421d24125907b/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106294/a454e461b712812e193421d24125907b/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106294\\/\"},\"headline\":\"Агентная система для тех, кто вкатывается: собираем агента поддержки от одного файла до Temporal, саги и circuit breaker\",\"datePublished\":\"2026-11-10T23:38:22+03:00\",\"dateModified\":\"2026-11-11T02:16:20+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Клиент пишет в поддержку: «Посылка не пришла, верните деньги». Агента, который на это ответит, можно написать за вечер. Цикл из части 1, три инструмента, и в...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106294\\/#post-content-body\",\"about\":[\"h_artificial_intelligence\",\"h_analysis_design\",\"h_distributed_systems\",\"h_microservices\",\"h_programming\",\"f_develop\",\"f_admin\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/webt\\/62\\/48\\/ab\\/6248abd9b2a1ba28b4c01bb5de79f72c.png\",\"https:\\/\\/habrastorage.org\\/webt\\/8d\\/1a\\/ea\\/8d1aea32a288db95b954c4bfcd34586a.png\",\"https:\\/\\/habrastorage.org\\/webt\\/3e\\/2f\\/5c\\/3e2f5ca0df13fcc71695cb8e44033d2e.png\",\"https:\\/\\/habrastorage.org\\/webt\\/b1\\/4f\\/48\\/b14f4854327d8add142ec265b3d65f31.png\",\"https:\\/\\/habrastorage.org\\/webt\\/69\\/09\\/94\\/6909949ec800e4ebc431851cdb9fc4d5.png\",\"https:\\/\\/habrastorage.org\\/webt\\/5b\\/d1\\/e2\\/5bd1e25d2b24754f909f3da4896594d1.png\",\"https:\\/\\/habrastorage.org\\/webt\\/d8\\/5a\\/33\\/d85a33702d91f8717ba8510752c65716.png\"]}",
+    "metaDescription": "Клиент пишет в поддержку: «Посылка не пришла, верните деньги». Агента, который на это ответит, можно написать за вечер. Цикл из части 1, три инструмента, и в демо он отвечает правильно. А потом...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "tutorial",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 12,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

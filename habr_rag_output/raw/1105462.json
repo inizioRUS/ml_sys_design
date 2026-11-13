@@ -1,0 +1,243 @@
+{
+  "id": "1105462",
+  "timePublished": "2026-11-09T11:41:59+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Злой автономный ИИ который реверс-инженерит чужой софт и отправляет багрепорты чтобы владелец работал бесплатно",
+  "leadData": {
+    "textHtml": "<p><strong>🏴‍☠️ Плохо лежит</strong></p><p>Нужный мне софт для торговли на бирже продается за подписку банковской картой Swift. Так как платежный шлюз карт МИР не был интегрирован изначально, мне ничего не остается кроме как написать аналогичный самостоятельно. В этом мне поможет автономный дистиллирующий ИИ агент</p>",
+    "imageUrl": "https://habrastorage.org/extt/f2/06/cc/f206cc5fecbb23e39bbe975b08505cdf.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/f2/06/cc/f206cc5fecbb23e39bbe975b08505cdf.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2178239",
+    "alias": "tripolskypetr",
+    "fullname": "Петр Трипольский",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/a43/60b/849/a4360b8497fad6dd47bb04c527483d25.png",
+    "speciality": "Backend разработчик",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 0,
+      "votesCount": 62
+    },
+    "rating": 6.5,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Сайт",
+        "url": "https://backtest-kit.github.io/",
+        "value": "https://backtest-kit.github.io/",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Сайт",
+        "url": "https://backtest-kit.github.io/",
+        "value": "https://backtest-kit.github.io/",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 17,
+    "readingCount": 2459,
+    "score": 6,
+    "votesCount": 8,
+    "votesCountPlus": 7,
+    "votesCountMinus": 1,
+    "reach": 9893,
+    "readers": 1907
+  },
+  "hubs": [
+    {
+      "id": "340",
+      "alias": "python",
+      "type": "collective",
+      "title": "Python",
+      "titleHtml": "Python",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20688",
+      "alias": "research",
+      "type": "collective",
+      "title": "Исследования и прогнозы в IT",
+      "titleHtml": "Исследования и прогнозы в IT",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19011",
+      "alias": "reverse-engineering",
+      "type": "collective",
+      "title": "Реверс-инжиниринг",
+      "titleHtml": "Реверс-инжиниринг",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><blockquote><p>Посмотреть пример транспиляции можно <a href=\"https://github.com/theonetrade/pynecore-strategies\" rel=\"noopener nofollow\">по ссылке</a></p></blockquote><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f2/06/cc/f206cc5fecbb23e39bbe975b08505cdf.jpg\" alt=\"Злой ИИ. Картина маслом\" title=\"Злой ИИ. Картина маслом\" width=\"1168\" height=\"784\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f2/06/cc/f206cc5fecbb23e39bbe975b08505cdf.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/f2/06/cc/f206cc5fecbb23e39bbe975b08505cdf.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Злой ИИ. Картина маслом</figcaption></div></figure><h2>Пару слов PyneSys и PyneCore</h2><p>На момент 2026 года прямые продажи не работают. Чтобы продать что-то нужно следовать стратегии <a href=\"https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish\" rel=\"noopener nofollow\">EEE от Microsoft</a>, написать Open Source программное обеспечение, а деньги заработать на потребности, вызванной недоработкой того самого ПО. Это может быть техническое ограничение 10 тысяч подключений без запуска в облаке Azure для SignalR Core. Или лимит на число генерируемых изображений у Grok.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/extt/d6/9f/7c/d69f7c352c9fbde9c6eb1dfd7048e459.gif\" alt=\"Дебаг Pine Script в VSCode. За деньги\" title=\"Дебаг Pine Script в VSCode. За деньги\" width=\"1280\" height=\"719\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/extt/d6/9f/7c/d69f7c352c9fbde9c6eb1dfd7048e459.gif 780w,&#10;       https://habrastorage.org/extt/d6/9f/7c/d69f7c352c9fbde9c6eb1dfd7048e459.gif 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Дебаг Pine Script в VSCode. За деньги</figcaption></div></figure><p>На рынке торговли акциями или криптой есть монополист TradingView. Он создал язык Pine Script, сделал открытую спецификацию но не предоставил реализации. Итого, писать на этом языке мы можем только в облаке, как следствие нет отладчика и возможности использовать ИИ Агентов</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/87/56/01/875601fbda592ddfdd35e1bdca38888b.png\" alt=\"Без злого ИИ придется тратить 50$ в месяц\" title=\"Без злого ИИ придется тратить 50$ в месяц\" width=\"3106\" height=\"1814\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/87/56/01/875601fbda592ddfdd35e1bdca38888b.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/87/56/01/875601fbda592ddfdd35e1bdca38888b.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Без злого ИИ придется тратить 50$ в месяц</figcaption></div></figure><p>Хитрая компания PyneSys LLC написала библиотеку <a href=\"https://pynecore.org/\" rel=\"noopener nofollow\">PyneCore</a>. Она позволяет программировать торговые стратегии тем же принципом что и TradingView, но не на Pyne Script а на Python. А если хочешь на Pyne Script, то нужно платить деньги за облачный компилятор</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/9e/3a/a5/9e3aa56984d927b8d9ccd5b34943f7a7.png\" alt=\"ИИ за секунды переберет BTC +261 %, SOL +285 %, LINK +201% и выяснит, что просадку дают монеты ATOM −64 %, LTC −61 %, DOT −58 %. \" title=\"ИИ за секунды переберет BTC +261 %, SOL +285 %, LINK +201% и выяснит, что просадку дают монеты ATOM −64 %, LTC −61 %, DOT −58 %. \" width=\"2940\" height=\"1840\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/9e/3a/a5/9e3aa56984d927b8d9ccd5b34943f7a7.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/9e/3a/a5/9e3aa56984d927b8d9ccd5b34943f7a7.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>ИИ за секунды переберет BTC +261 %, SOL +285 %, LINK +201% и выяснит, что просадку дают монеты ATOM −64 %, LTC −61 %, DOT −58 %. </figcaption></div></figure><p>Ключевое: чтобы сделать это нужно выкачать из TradingView самые популярные Pine Script стратегии и собрать из них свой конструктор: каждая стратегия по отдельности не перформит вовсе. Если не дать сниппеты на вход агенту, он скажет что у него лапки и откажется зарабатывать деньги. Переписать руками не вариант: нужен датасет хотя бы из двух тысяч стратегий</p><h2>Плохо лежит</h2><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/9f/ea/94/9fea943c049a30699fb42e035226e7a1.png\" alt=\"https://github.com/pine2pyne\" title=\"https://github.com/pine2pyne\" width=\"3000\" height=\"1920\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/9f/ea/94/9fea943c049a30699fb42e035226e7a1.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/9f/ea/94/9fea943c049a30699fb42e035226e7a1.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><a href=\"https://github.com/pine2pyne\" rel=\"noopener nofollow\">https://github.com/pine2pyne</a></figcaption></div></figure><p>Ребята вы поймите. У меня есть 50$ оплатить подписку, но у меня нет карты Visa или MasterCard. <strong>И так как карты МИР не были интегрированы в платежную систему изначально</strong>, мне ничего не остается, кроме как <a href=\"https://habr.com/ru/articles/1051834/\" rel=\"noopener nofollow\">дать команду злому ИИ решить вопрос</a></p><pre><code class=\"markdown\"># Автономная итерация (пользователь спит, компьютер включён): НЕ останавливайся в ожидании ввода; тормозит работу только исчерпанный лимит PyneComp (120 компиляций в час, 2100 в неделю — python tools/pynecomp_probe.py --usage). Если у тебя уже идёт задача — продолжай её, это сообщение игнорируй.\n\n**ЗАПРЕТЫ пользователя:** НЕ редактировать README.md. В докстрингах и комментариях пакета pine2pyne/ НЕ ссылаться на пробы, карточки (#NN), id файлов assets, tmp/ и прочее непонятное постороннему (тесты, assets, tools, пробы в PyPI не уходят) — описывай само правило PyneComp. Ссылки на пробы/файлы допустимы только в tests/ и tools/.\n\n**Цель:** сегменты PyneComp, которые не удалось вывести из тестов проекта. Материал — assets/test/strategy, assets/test/indicator, assets/test/lib (сначала самые сложные). Руководство по папке и скачиванию из TradingView: assets/test/README.md. Если MCP playwright (.mcp.json) недоступен — python-скрипты с HTTPS GET (pubscripts-suggest-json, pine-facade), User-Agent браузера, пауза 0.4 с.\n\n**ОБЯЗАННОСТЬ:** вести docs/pynecore_vs_pine.md по ходу дела. Каждое новое расхождение с Pine Script сразу вноси в этот файл, вместе с основанием (замер TradingView, проба, тест, скрипт assets/test). Раздел 1 — рантайм PyneCore считает не как Pine. Раздел 2 — PyneComp пишет код, который считает не как Pine: новая known difference в tests/test_pynecomp_probes.py или заметка «known difference» в реестре. Раздел 3 — то, что не замерено на TradingView; после замера пункт переносится в раздел 1 или 2. Правка файла идёт в том же коммите, что и находка.\n\n# Каждая итерация:\n\n1. python tools/assets_test_ledger.py --probe-names — скрипты без ответа PyneComp; реестр assets/test/processed.tsv (status processed | skipped_duplicate | pending; pynecomp identical | final-newline | differs | error | not_compiled; notes). Дубликат уже покрытой логики помечай skipped_duplicate без компиляции.\n2. Скопируй выбранные в tmp/probes/.pine и скомпилируй python tools/pynecomp_probe.py &lt;names&gt;; затем python tools/assets_test_ledger.py.\n3. Для строк differs: выведи правило PyneComp (маленькие пробы в tmp/probes), почини pine2pyne так, чтобы совпадение росло и вывод считал как Pine (где PyneComp неправ — следуй Pine, known difference в tests/test_pynecomp_probes.py и строка в docs/pynecore_vs_pine.md). Пробы-доказательства клади в assets/probes, тесты — в tests/.\n4. Перед коммитом: весь python -m pytest (без новых падений) и python -m pine2pyne.compat (совпадений не меньше MATCHING_FLOOR в tests/test_compat_harness.py, поднимай порог при росте). Обнови реестр (python tools/assets_test_ledger.py) и docs/pynecore_vs_pine.md. Коммит и push в claude/fervent-einstein-lv5559 (git pull --no-rebase origin main перед push, если main ушёл вперёд; никогда не коммить tmp/ и ключ из tmp/config/api.toml; git diff --cached | grep -c eyJhbGci = 0).\n5. Если часовой лимит исчерпан — закоммить сделанное и закончи итерацию; следующая продолжит.</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Следующий промпт запускает агента на дистилляцию облачного компилятора. <strong>Выпускайте кракена.</strong> В результате работы агент фиксирует баги оригинального компилятора в файл <code>pynecore_vs_pine.md</code>, которые можно любезно отправить в issues автору</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c6/65/c9/c665c9f8b36ddeb684833e185622f204.png\" width=\"3000\" height=\"1920\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c6/65/c9/c665c9f8b36ddeb684833e185622f204.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c6/65/c9/c665c9f8b36ddeb684833e185622f204.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h2>Спасибо за внимание</h2></div>",
+  "tags": [
+    {
+      "titleHtml": "tradingview"
+    },
+    {
+      "titleHtml": "pinescript"
+    },
+    {
+      "titleHtml": "python"
+    },
+    {
+      "titleHtml": "мосбиржа"
+    },
+    {
+      "titleHtml": "исскуственный интеллект"
+    },
+    {
+      "titleHtml": "реверс инжиниринг"
+    },
+    {
+      "titleHtml": "машинное обучение"
+    },
+    {
+      "titleHtml": "парсер"
+    },
+    {
+      "titleHtml": "ии агент"
+    },
+    {
+      "titleHtml": "промпт инжиниринг"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105462/abce2612e2e59e425bdf5991dc7821b1/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105462/abce2612e2e59e425bdf5991dc7821b1/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105462\\/\"},\"headline\":\"Злой автономный ИИ который реверс-инженерит чужой софт и отправляет багрепорты чтобы владелец работал бесплатно\",\"datePublished\":\"2026-11-09T14:41:59+03:00\",\"dateModified\":\"2026-11-10T17:59:27+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Посмотреть пример транспиляции можно по ссылке Злой ИИ. Картина маслом Пару слов PyneSys и PyneCore На момент 2026 года прямые продажи не работают. Чтобы...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105462\\/#post-content-body\",\"about\":[\"h_python\",\"h_machine_learning\",\"h_artificial_intelligence\",\"h_research\",\"h_reverse-engineering\",\"f_develop\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/f2\\/06\\/cc\\/f206cc5fecbb23e39bbe975b08505cdf.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/d6\\/9f\\/7c\\/d69f7c352c9fbde9c6eb1dfd7048e459.gif\",\"https:\\/\\/habrastorage.org\\/extt\\/87\\/56\\/01\\/875601fbda592ddfdd35e1bdca38888b.png\",\"https:\\/\\/habrastorage.org\\/extt\\/9e\\/3a\\/a5\\/9e3aa56984d927b8d9ccd5b34943f7a7.png\",\"https:\\/\\/habrastorage.org\\/extt\\/9f\\/ea\\/94\\/9fea943c049a30699fb42e035226e7a1.png\",\"https:\\/\\/habrastorage.org\\/extt\\/c6\\/65\\/c9\\/c665c9f8b36ddeb684833e185622f204.png\"]}",
+    "metaDescription": "Посмотреть пример транспиляции можно по ссылке Злой ИИ. Картина маслом Пару слов PyneSys и PyneCore На момент 2026 года прямые продажи не работают. Чтобы продать что-то нужно следовать стратегии EEE...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": true,
+  "format": "tutorial",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "22",
+    "title": "Системный и бизнес-анализ",
+    "alias": "analytics"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

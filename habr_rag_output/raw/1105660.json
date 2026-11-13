@@ -1,0 +1,172 @@
+{
+  "id": "1105660",
+  "timePublished": "2026-11-09T18:02:58+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Читая PMBOK. Временно не обновляются аудиоподкасты Яндекса и VK",
+  "leadData": {
+    "textHtml": "<p>Всем приветы!</p><p>У меня четыре новости: две плохие и две - норм, кажется %)</p><p>Первая новость, собственно, в сабже: моё общение с поддержкой ВК заканчивается каждый раз ничем - закрывают обращение, так как в чате ничего не происходит. А проблема в том, что у ВК Музыки, видимо, поломался механизм импорта аудиоподкастов с дистрибьютерских площадок... либо частично поломался, либо начал работать очень медленно. Точнее медленнее чем раньше работал :)</p><p>Вторая новость, так же сломался механизм импорта аудиоподкастов у Яндекс Музыки. Другого механизма, кроме как через дистрибьютеров у них нет. Общение с их поддержкой - аналогичное с VK . Что делать - совсем не понятно. Я сначала подумал, что проблема конкретно с моей площадкой, но пообщался с народом, кто пользуется другими площадками: там говорят, что Яндекс совсем перестал приходить за фидами. Так что, пока, забьём.</p><p>Третья новость, у ВК Музыка есть ручник для загрузки аудиоподкастов через VK Сообщество. Ещё не пробовал, но Ок, пусть это и подкинет дополнительных проблем. Это хорошая новость :)</p><p>Четвертая новость, позитивная: я перешел на платную подписку на <a href=\"https://vk.cc/d3qiaS\" rel=\"noopener nofollow\">pmfintech.mave.digital</a> и теперь доступны главы для аудиоподкастов (как в видео: можно навигироваться, главы добавил ко всем подкастам). Так же аудиоподкасты продолжают быть доступны на площадке <a href=\"https://vk.cc/d3KzHC\" rel=\"noopener nofollow\">YouTube Music</a> и у нашего Сообществе VK в разделе <a href=\"https://vk.cc/d3KzSw\" rel=\"noopener nofollow\">Музыка</a>.</p><p>Всем Добра!   </p>",
+    "imageUrl": null,
+    "buttonTextHtml": "Читать далее",
+    "image": null
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "54958",
+    "alias": "nmouse",
+    "fullname": "Шамин Александр",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/1e4/69e/b92/1e469eb9258442b1e9bc8d1d45567648.jpg",
+    "speciality": "Пользователь",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 4,
+      "votesCount": 26
+    },
+    "rating": 0.2,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Сайт",
+        "url": "https://vk.ru/pmfintech",
+        "value": "https://vk.ru/pmfintech",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Сайт",
+        "url": "https://vk.ru/pmfintech",
+        "value": "https://vk.ru/pmfintech",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 0,
+    "readingCount": 216,
+    "score": -2,
+    "votesCount": 2,
+    "votesCountPlus": 0,
+    "votesCountMinus": 2,
+    "reach": 6694,
+    "readers": 152
+  },
+  "hubs": [
+    {
+      "id": "20682",
+      "alias": "pm",
+      "type": "collective",
+      "title": "Управление проектами",
+      "titleHtml": "Управление проектами",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Всем приветы!</p><p>У меня четыре новости: две плохие и две — норм, кажется%)</p><p>Первая новость, собственно, в сабже: моё общение с поддержкой ВК заканчивается каждый раз ничем — закрывают обращение, так как в чате ничего не происходит. А проблема в том, что у ВК Музыки, видимо, поломался механизм импорта аудиоподкастов с дистрибьютерских площадок... либо частично поломался, либо начал работать очень медленно. Точнее медленнее, чем раньше работал:)</p><p>Вторая новость, так же сломался механизм импорта аудиоподкастов у Яндекс Музыки. Другого механизма, кроме как через дистрибьютеров у них нет. Общение с их поддержкой — аналогичное с VK. Что делать — совсем не понятно. Я сначала подумал, что проблема конкретно с моей площадкой, но пообщался с народом, кто пользуется другими площадками: там говорят, что Яндекс совсем перестал приходить за фидами. Так что, пока, забьём.</p><p>Третья новость, у ВК Музыка есть ручник для загрузки аудиоподкастов через VK Сообщество. Ещё не пробовал, но Ок, пусть это и подкинет дополнительных проблем. Это хорошая новость:)</p><p>Четвертая новость, позитивная: я перешел на платную подписку на <a href=\"https://vk.cc/d3qiaS\" rel=\"noopener nofollow\">pmfintech.mave.digital</a> и теперь доступны главы для аудиоподкастов (как в видео: можно навигироваться, главы добавил ко всем подкастам). Так же аудиоподкасты продолжают быть доступны на площадке <a href=\"https://vk.cc/d3KzHC\" rel=\"noopener nofollow\">YouTube Music</a> и у нашего Сообщества VK в разделе <a href=\"https://vk.cc/d3KzSw\" rel=\"noopener nofollow\">Музыка</a>.</p><p>Всем Добра! </p></div>",
+  "tags": [
+    {
+      "titleHtml": "pmbok"
+    },
+    {
+      "titleHtml": "pmbok 8"
+    },
+    {
+      "titleHtml": "pmbok guide"
+    },
+    {
+      "titleHtml": "pmbok свод знаний"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105660/57d8ced14d83e121a45df127c23e341b/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105660/57d8ced14d83e121a45df127c23e341b/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105660\\/\"},\"headline\":\"Читая PMBOK. Временно не обновляются аудиоподкасты Яндекса и VK\",\"datePublished\":\"2026-11-09T21:02:58+03:00\",\"dateModified\":\"2026-11-12T12:18:24+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Всем приветы! У&nbsp;меня четыре новости: две плохие и две&nbsp;— норм, кажется%) Первая новость, собственно, в&nbsp;сабже: моё общение с&nbsp;поддержкой ВК...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105660\\/#post-content-body\",\"about\":[\"h_pm\",\"f_management\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105660\\/57d8ced14d83e121a45df127c23e341b\\/\"]}",
+    "metaDescription": "Всем приветы! У&nbsp;меня четыре новости: две плохие и две&nbsp;— норм, кажется%) Первая новость, собственно, в&nbsp;сабже: моё общение с&nbsp;поддержкой ВК заканчивается каждый раз ничем&nbsp;—...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "26",
+    "title": "Менеджмент",
+    "alias": "management"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false
+}

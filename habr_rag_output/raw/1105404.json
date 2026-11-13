@@ -1,0 +1,230 @@
+{
+  "id": "1105404",
+  "timePublished": "2026-11-10T06:30:25+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Как выполнить армирование и реализовать раздел КЖ в nanoCAD Конструкции PS: новый тест-драйв",
+  "leadData": {
+    "textHtml": "<p><strong>Изучите принципы проектирования железобетонных конструкций на практике. С помощью пошагового тест-драйва вы пройдете полный цикл работы в nanoCAD Конструкции PS: от создания геометрии и армирования до оформления чертежей раздела КЖ.</strong></p><p><strong>Кому это будет полезно?</strong></p><p>1. Всем, кто работает с nanoCAD Конструкции PS или еще только изучает программу, – быстрое освоение функционала и решение практических задач.</p><p>2. Инженерам-конструкторам – выполнение армирования и выпуск чертежей раздела КЖ в одной программе.</p><p>3. Руководителям проектных отделов – ускорение подготовки комплекта чертежей марки КЖ.</p><p>4. Студентам – готовый пример для курсовой и понятный вход в освоение программы.</p>",
+    "imageUrl": "https://habrastorage.org/extt/56/8e/2a/568e2aa755fe8d4acf62462a60abb350.webp",
+    "buttonTextHtml": "Узнать больше",
+    "image": {
+      "url": "https://habrastorage.org/extt/56/8e/2a/568e2aa755fe8d4acf62462a60abb350.webp",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "52783",
+    "alias": "nanocad",
+    "fullname": "Нанософт",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/dc6/df0/b04/dc6df0b0488d51ab9653d868115cd72f.png",
+    "speciality": "Разработчик инженерного ПО",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 21,
+      "votesCount": 113
+    },
+    "rating": 0,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 94,
+    "score": -1,
+    "votesCount": 1,
+    "votesCountPlus": 0,
+    "votesCountMinus": 1,
+    "reach": 5167,
+    "readers": 77
+  },
+  "hubs": [
+    {
+      "id": "13138",
+      "alias": "nanosoft",
+      "type": "corporative",
+      "title": "Блог компании Нанософт разработка",
+      "titleHtml": "Блог компании Нанософт разработка",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "17698",
+      "alias": "cad_cam",
+      "type": "collective",
+      "title": "CAD/CAM",
+      "titleHtml": "CAD/CAM",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20726",
+      "alias": "productpm",
+      "type": "collective",
+      "title": "Управление продуктом",
+      "titleHtml": "Управление продуктом",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "397",
+      "alias": "analysis_design",
+      "type": "collective",
+      "title": "Анализ и проектирование систем",
+      "titleHtml": "Анализ и проектирование систем",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "22113",
+      "alias": "engineering_systems",
+      "type": "collective",
+      "title": "Инженерные системы",
+      "titleHtml": "Инженерные системы",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Изучите принципы проектирования железобетонных конструкций на практике. С помощью пошагового тест-драйва вы пройдете полный цикл работы в nanoCAD Конструкции PS: от создания геометрии и армирования до оформления чертежей раздела КЖ.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/56/8e/2a/568e2aa755fe8d4acf62462a60abb350.webp\" alt=\"Изображение\" width=\"1088\" height=\"600\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/56/8e/2a/568e2aa755fe8d4acf62462a60abb350.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/56/8e/2a/568e2aa755fe8d4acf62462a60abb350.webp 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Изображение</figcaption></div></figure><p><strong>Кому это будет полезно?</strong></p><ul><li><p>Всем, кто работает с nanoCAD Конструкции PS или еще только изучает программу, – быстрое освоение функционала и решение практических задач.</p></li><li><p>Инженерам-конструкторам – выполнение армирования и выпуск чертежей раздела КЖ в одной программе.</p></li><li><p>Руководителям проектных отделов – ускорение подготовки комплекта чертежей марки КЖ.</p></li><li><p>Студентам – готовый пример для курсовой и понятный вход в освоение программы.</p></li></ul><p><strong>Программа тест-драйва</strong></p><p><strong>Блок 1. Создание геометрии</strong></p><p><strong>Блок 2. Подготовка чертежа</strong></p><ul><li><p>Настройка слоев и параметров объектов</p></li><li><p>Задание защитного слоя бетона</p></li><li><p>Добавление необходимых обозначений</p></li></ul><p><strong>Блок 3. Армирование</strong></p><ul><li><p>Создание арматурных стержней, задание класса, диаметра и параметров</p></li><li><p>Создание гнутых стержней</p></li><li><p>Работа с хомутами, шпильками, скобами и фиксаторами</p></li><li><p>Схематичное и детальное армирование</p></li></ul><p><strong>Блок 4. Оформление деталей</strong></p><ul><li><p>Регистрация деталей и присвоение им марок</p></li><li><p>Поиск нужных деталей в диспетчере марок</p></li><li><p>Сборка конструкции и изделия</p></li></ul><p><strong>Блок 5. Подготовка документации</strong></p><ul><li><p>Оформление планов и разрезов</p></li><li><p>Формирование спецификации изделий и перечня деталей</p></li><li><p>Размещение чертежа и спецификации на лист</p></li></ul><p><strong>Результат</strong></p><p>Комплект чертежей: план верхнего армирования с разрезами, ведомость деталей, спецификация и ведомость расхода стали.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/5f/51/90/5f5190ec39389a78e8d55733880943b0.webp\" alt=\"План верхнего армирования, разрезы 3-3 и 4-4, ведомость деталей\" title=\"План верхнего армирования, разрезы 3-3 и 4-4, ведомость деталей\" width=\"456\" height=\"350\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/5f/51/90/5f5190ec39389a78e8d55733880943b0.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/5f/51/90/5f5190ec39389a78e8d55733880943b0.webp 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>План верхнего армирования, разрезы 3-3 и 4-4, ведомость деталей</figcaption></div></figure><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/55/7e/cd/557ecda1789faa08b053e25d52c515be.webp\" alt=\"Разрезы 1-1 и 2-2, спецификация и ведомость расхода стали\" title=\"Разрезы 1-1 и 2-2, спецификация и ведомость расхода стали\" width=\"456\" height=\"350\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/55/7e/cd/557ecda1789faa08b053e25d52c515be.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/55/7e/cd/557ecda1789faa08b053e25d52c515be.webp 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Разрезы 1-1 и 2-2, спецификация и ведомость расхода стали</figcaption></div></figure><p>Все необходимые файлы и пошаговое руководство к тест-драйву доступны в <a href=\"https://lk.nanocad.ru/product/nanocad-konstruktsii-ps/?PLATFORM=199&amp;r=609456&amp;utm_source=habr&amp;utm_medium=konstrukcii_ps&amp;utm_campaign=test_drive\">Личном кабинете пользователя</a>.</p><p><strong>Начните прямо сейчас! </strong><a href=\"https://www.nanocad.ru/products/konstrukcii_ps/download/?utm_source=habr&amp;utm_medium=konstrukcii_ps&amp;utm_campaign=test_drive\"><strong>Оцените все возможности</strong></a> nanoCAD Конструкции PS на практике – получите бесплатный доступ на <strong>30 дней</strong>.</p><p><a href=\"https://www.nanocad.ru/products/konstrukcii_ps/download/?utm_source=habr&amp;utm_medium=konstrukcii_ps&amp;utm_campaign=test_drive\">Скачать пробную версию nanoCAD Конструкции PS</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "cad"
+    },
+    {
+      "titleHtml": "nanocad"
+    },
+    {
+      "titleHtml": "нанософт"
+    },
+    {
+      "titleHtml": "nanocad конструкции ps"
+    },
+    {
+      "titleHtml": "тест-драйв"
+    },
+    {
+      "titleHtml": "инженерия"
+    },
+    {
+      "titleHtml": "проектирование"
+    },
+    {
+      "titleHtml": "железобетонные конструкции"
+    },
+    {
+      "titleHtml": "армирование"
+    },
+    {
+      "titleHtml": "спецификации"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105404/7342791c960740e41b64a2de32ecf87c/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105404/7342791c960740e41b64a2de32ecf87c/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/nanosoft\\/articles\\/1105404\\/\"},\"headline\":\"Как выполнить армирование и реализовать раздел КЖ в nanoCAD Конструкции PS: новый тест-драйв\",\"datePublished\":\"2026-11-10T09:30:25+03:00\",\"dateModified\":\"2026-11-11T14:27:47+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Изучите принципы проектирования железобетонных конструкций на практике. С помощью пошагового тест-драйва вы пройдете полный цикл работы в nanoCAD Конструкции...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/nanosoft\\/articles\\/1105404\\/#post-content-body\",\"about\":[\"h_cad_cam\",\"c_nanosoft\",\"h_productpm\",\"h_analysis_design\",\"h_engineering_systems\",\"f_develop\",\"f_admin\",\"f_management\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/56\\/8e\\/2a\\/568e2aa755fe8d4acf62462a60abb350.webp\",\"https:\\/\\/habrastorage.org\\/extt\\/5f\\/51\\/90\\/5f5190ec39389a78e8d55733880943b0.webp\",\"https:\\/\\/habrastorage.org\\/extt\\/55\\/7e\\/cd\\/557ecda1789faa08b053e25d52c515be.webp\"]}",
+    "metaDescription": "Изучите принципы проектирования железобетонных конструкций на практике. С помощью пошагового тест-драйва вы пройдете полный цикл работы в nanoCAD Конструкции PS: от создания геометрии и армирования до...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "14",
+    "title": "Промышленная инженерия",
+    "alias": "industrial_engineering"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

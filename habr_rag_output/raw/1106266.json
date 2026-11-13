@@ -1,0 +1,206 @@
+{
+  "id": "1106266",
+  "timePublished": "2026-11-10T17:45:32+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "SDD в организации и в Solo‑проекте",
+  "leadData": {
+    "textHtml": "<p>Гонять спеки туда‑сюда весело, когда за&nbsp;токены платит компания. Но&nbsp;как&nbsp;выстроить разработку с&nbsp;ИИ‑агентами, если у&nbsp;тебя пет‑проект, две подписки суммарно 30$ и нет желания отдавать 200$ за&nbsp;тариф, где тебя могут забанить?<br><br>В&nbsp;статье разобрал подход Anthropic к&nbsp;AI‑native SDLC: от&nbsp;идеи и спецификации до&nbsp;плана, проверок и ревью. А&nbsp;также рассказал, как&nbsp;адаптировал SDD к&nbsp;разработке над своим проектом, как&nbsp;ограничил бесконечные пересмотры плана и куда складывал идеи, чтобы агент не&nbsp;превратил небольшую задачу в&nbsp;перестройку всего проекта.<br><br>Рецепт не&nbsp;универсальный, но&nbsp;у&nbsp;меня работает.</p>",
+    "imageUrl": "https://habrastorage.org/extt/3e/53/e8/3e53e89c394a6fe4976fd38442f655df.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/3e/53/e8/3e53e89c394a6fe4976fd38442f655df.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "sandbox",
+      "typeOf": "system",
+      "title": "Из песочницы",
+      "data": {
+        "url": null
+      }
+    }
+  ],
+  "author": {
+    "id": "6072336",
+    "alias": "nikolai-stepanov",
+    "fullname": "Степанов Николай",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 2,
+      "votesCount": 2
+    },
+    "rating": 4,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 5,
+    "favoritesCount": 17,
+    "readingCount": 3179,
+    "score": 4,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 10061,
+    "readers": 2038
+  },
+  "hubs": [
+    {
+      "id": "84",
+      "alias": "crazydev",
+      "type": "collective",
+      "title": "Ненормальное программирование",
+      "titleHtml": "Ненормальное программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19583",
+      "alias": "dev_management",
+      "type": "collective",
+      "title": "Управление разработкой",
+      "titleHtml": "Управление разработкой",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "22026",
+      "alias": "itcompanies",
+      "type": "collective",
+      "title": "IT-компании",
+      "titleHtml": "IT-компании",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "6398",
+      "alias": "it-infrastructure",
+      "type": "collective",
+      "title": "IT-инфраструктура",
+      "titleHtml": "IT-инфраструктура",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Сейчас многие организации переходят не просто к «агентской разработке», а к SDD (Spec‑Driven Development) и перестраивают SDLC вокруг него. У Anthropic вышла хорошая <a href=\"https://claude.com/resources/articles/the-ai-native-sdlc-playbook\" rel=\"noopener nofollow\">статья</a> на тему реорганизации процессов вокруг агентов, поэтому данный текст разбит на две части:</p><ol><li><p>SDD в организации — объяснение подходов, которые предлагает Anthropic, и того, как они ложатся в уже существующие процессы</p></li><li><p>SDD в solo‑проекте — как у меня получилось выстроить свой процесс SDD, используя две подписки (суммарно на 30$), чтобы разрабатывать пет‑проект и не улетать за лимиты.</p></li></ol><p>Если ты знаком с SDD и текстом Anthropic, можешь пропустить первую половину и сразу перейти ко второй =)</p><h3>SDD в организации</h3><p>Новый SDLC предлагает парадигму артефактов: intent.md → spec.md → plan.md → report.md → review.md, которые описаны человеческим языком. Жизнь фичи может посмотреть любой: от идеи до реализации — и понять, какие решения были приняты и на какие компромисы пришлось пойти.</p><h4>Этап первый — Идея (intent.md)</h4><p>Anthropic предлагают создать артефакт, в котором нужно отразить:</p><blockquote><p>Intent (что хочется), Problem (что сейчас не так), Proposed outcome (чего хочется достичь), Affected (какие системы затрагиваются), Constraints (какие есть ограничения) и Open questions (на какие вопросы нужно ответить).</p></blockquote><p>По сути, это тот же тикет в Jira/Tracker, который вы видели множество раз. Основная разница в том, что он должен придерживаться более строгого формата и должен делаться вместе с агентом. </p><p>Почему?</p><p>Каждый, кто хотя бы немного работал в любой организации, знает, как сложно добиться от другого человека ответа на вопросы: «А чего ты хочешь? А зачем это?» Агент на этом этапе экономит время PO и dev‑команды на выяснение этого. Он общается с заказчиком фичи/аналитиком, и результатом их работы становится стандартизированный артефакт, который можно или передать дальше, или отправить на доработку с новыми вводными.<br/>Также агент обладает доступом к другим артефактам (например, прошлым решениям или коду), что позволяет ему изначально предложить идею, формат которой уже будет вписываться в продукт.</p><h4>Этап второй — Дизайн (spec.md)</h4><p>После того как идея была принята, её нужно задизайнить с учётом существующей архитектуры, нюансов безопасности и дизайна. На этом этапе цена ошибки минимальна (мы все ещё не начали писать код), поэтому PO должен гонять спеку столько раз, сколько нужно, пока результат не будет его полностью удовлетворять.</p><p>Пример промпта из статьи Anthropic:</p><blockquote><p>Read the attached intent.md and produce a requirements and design spec for integrating it into our existing codebase. Apply the skills available to you so the plan conforms to our brand guidelines, security policies and UX standards. Document the spec fully as spec.md, ready to hand to the engineering team. Describe clearly any areas of concern, especially where you cannot satisfy contradicting policies.</p></blockquote><h4>Этап третий — Разработка (plan.md)</h4><p>Тут уже идея (<code>intent.md</code>) и дизайн (<code>spec.md</code>) доходят до команды разработки. На основе этих документов создается план (<code>plan.md</code>) с описанием работы для агентов. Поскольку мы все ещё не пишем код, план должен проходить ревью столько раз, сколько потребуется, пока разработчик не будет доволен планом и не утвердит его. </p><p>Пример плана:</p><pre><code class=\"markdown\"># Plan: \nclaims status self-service (from intent.md 2026-06-02) \n\n## Files that change \n\nportal/src/claims/StatusPanel.tsx (new), \nclaims-api/routes/status.py, \nclaims-api/tests/test_status.py \n\n## Order of work \n\n1. Add the status endpoint behind existing auth. \n2. Panel against the endpoint. \n3. Wire into the portal nav. \n\n## Risks \n\nThe claims-core API rate-limits at 50 rps; the panel must cache. \n\n## Proof \n\ntest_status.py covers the four claim states; screenshot matches the approved mock.</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Результатом данного этапа становится <code>plan.md</code>. Когда он принят, агент начинает работать, и уже результатом работы становится <code>report.md</code> (но о нем позже), когда все тесты и детерминированные проверки пройдены. Кстати, про тесты.</p><h4>Этап четвертый — Тесты (feedback‑loop/report.md)</h4><p>Агенты могут писать огромное количество кода за единицу времени. Мы (люди) никогда не сможем перерабатывать такие объемы, поэтому прежде чем отдавать результат человеку, агент должен проверить себя сам, а только потом передавать результат дальше по цепочке.<br/>Для таких проверок лучше всего подходят детерминированные проверки: линтеры, тесты, статический анализ кода. Потому что LLM недетерминирована и при разработке может решить одну задачу множеством способов. Линтеры, unit‑тесты и статанализ прекрасно поймают совсем уж плохой результат. А учитывая, что сейчас писать тесты крайне дешево — не иметь их уже неприлично.</p><p>Пример блока тестирования в CLAUDE.md:</p><pre><code class=\"markdown\">(CLAUDE.md verification block) \n\n## Verifying your work \n\n- Build: make build (must finish with \"Build succeeded\") \n- Test: make test (all green; never skip or delete a failing test) \n- Lint: make lint (zero warnings) \n  \nRun all three before reporting any task complete, and paste the output. If a test fails, fix the code, not the test.</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Результатом этого этапа становится report.md, который читает разработчик. Это отчет агента по проделанной работе, где опытный глаз может заметить странности и попросить их исправить или объяснить. </p><h4>Этап пятый — Ревью и подготовка к деплою (review.md)</h4><p>Скорее всего, каждый, кто это читает, или пытался автоматизировать ревью кода, или видел, как это пытались сделать. Никто не любит эту часть, но по итогу её стало ещё больше, так как кода стало ещё больше.<br/>Основная ошибка в том, что ревью проходит так же, как когда код писали не агенты, из‑за чего процесс захлёбывается. Идея Anthropic — уйти от построчной проверки и перейти на более высокий уровень абстракции: решает ли изменение задачу и какие риски оно несет? Тем самым внимание человека начинает фокусироваться на важных пунктах, а остальные или принимаются как компромисс, или исправляются, или отправляются в backlog/intent.md (см. шаг первый).</p><p>Anthropic предлагают следующий пример инструкций по ревью:</p><pre><code class=\"markdown\"># Review instructions \n\n## Passes Run three passes and tag each finding with its pass: \n\n- Bugs: logic errors, broken edge cases, subtle regressions \n- Security: injection risks, authentication gaps, PII in logs \n- Compliance: the change matches spec.md, plan.md and our design principles \n  \n\n## What Important means here \n\nReserve Important for findings that would break behavior, leak data or breach a policy. Style and naming are nits. \n\n## Cap the nits \n\nReport at most five nits per review; summarize the rest as a count. \n\n## Do not report \n\nGenerated files under src/gen/ and anything CI already enforces.</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Также стоит добавить, что мы не говорим тут о критической инфраструктуре. Одно дело, когда мы правим блок, который не так важен системе, и совершенно другое, когда мы правим блок «обработки платежей», например. Там человеческое ревью все ещё нужно и может быть крайне полезным. Но вы не каждый день исправляете и меняете критические компоненты, верно?</p><h4>Этап шестой — Поддержка</h4><p>Если вы помните, любой запрос начинается с идеи (<code>intent.md</code>). Но агент сам может её создавать на основе детерминированной аналитики (например, количества ошибок 500 на проде), тем самым замыкая loop и превращая это в SDLC. А для мелких и некритичных задач, возможно, в будущем даже человек не будет нужен.</p><h3>SDD на solo‑проекте</h3><p>Гонять спеки туда‑сюда весело и просто, когда за токены платишь не ты, а компания. Тогда становится в общем‑то все равно, какая модель какую задачу решает — желательно, чтобы качественно и прод не лег.<br/>Совершенно другое, когда ты платишь за модели из собственных карманов. Меня, честно, душит жаба отдавать 200$ и получить бан или не использовать модели на полную и не отбить каждую копейку. Да и как‑то получается слишком жирно для будущей open‑source тулзы, которая пока нужна только мне.</p><p>Чтобы минимизировать стоимость, я выбрал подписку на Claude за 20$ и OpenCode за 10$, и оказалось, что с этим можно очень комфортно работать, если подходить к этому правильно.</p><h4>Подготовка до первой строчки кода</h4><p>Прежде чем вообще начинать что‑то писать с агентами, я подготовил несколько файлов:</p><ul><li><p><code>product-brief.md</code> — отвечает за описание продукта — что это должно быть, как хранятся данные, какие этапы (что делаем сейчас, что переносим на потом, а что вне скоупа)</p></li><li><p><code>mvp-done.md</code> — чек‑лист, который отвечает за то, чтобы разработка не стала уходить в дебри. Этапы, указанные в <code>product-brief.md</code>, превращаются в уже осмысленные пункты. Пример из этапа, связанного с UX/UI:</p></li></ul><pre><code class=\"markdown\">- [ ] Новый дизайн применён ко всем экранам; макеты согласованы пользователем (T-301, T-302)</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><ul><li><p><code>backlog.md</code> — по сути, это сборка <code>intent.md</code> в одном месте, но теперь у каждой таски указаны модель, которая пишет план, и модель, которая его реализует (Важно, что агенты не имеют права править backlog.md, чтобы не разудвать план разработки) Пример:</p></li></ul><pre><code class=\"markdown\">| ID | Task | Plan | Build | После | Status |\n| T-302 | UI: применить дизайн к дереву, панели деталей, баннерам и диалогам | S | K2 | T-301 | todo |</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><ul><li><p><code>later.md</code> — файл хранит в себе пожелания, которые появились во время разработки, но выходили за скоуп задачи или этапа. По сути, те же самые <code>intent.md</code>, но необязательные для основного плана</p></li><li><p><code>handoff.md</code> — мостик между сессиями, но об этом позже</p></li></ul><p>Также я отдельно вынес правила для агентов по бюджету, чтобы они не спавнили множество sub‑агентов и не вылетали за квоту, и ограничил выбор моделей. Отдельно была создана папка <code>decisions</code>, которая хранит в себе ADR по проекту.</p><p>Смысл этих файлов не в том, чтобы агент написал побольше документации. Они задают границы: что делаем сейчас, что считаем готовым и куда складываем всё интересное, что не входит в текущую задачу.</p><h4>Workflow</h4><pre><code class=\"markdown\">Задача из backlog → контекст и интервью → план → моё ревью →\nреализация другой моделью → проверки → отчёт → моё ревью → handoff</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Агент принимает задачу на планирование определённой таски (планирование я отдал Claude Opus или Sonnet в зависимости от сложности). Читает <code>handoff.md</code>, таску из <code>backlog.md</code>, релевантные ADR из папки <code>decisions</code> и <code>mvp-done.md</code>, после изучает код. Затем, исходя из собранной информации, если есть вопросы без ответа (которые не закрывают сама задача и ADR), проводит интервью, используя <code>grilling</code> (он также ограничен по количеству вопросов, чтобы не сжирать все токены).</p><p>Результатом работы является <code>plan.md</code> (<em>планы сохраняются в свою папку после принятия</em>), который я отсматриваю сам через <code>plannotator</code>. Где‑то в 85–90% случаев план норм, но иногда нужно вносить коррективы. Внутри плана лежат описания разделов: </p><p>Проблемы, Решения из интервью, Решение, Критерии приёмки, Файлы, Шаги реализации, Тесты, Вне рамок задачи (это часто уходит в <code>later.md</code>) и Риски+вопросы.</p><p>Сам план может пересматриваться полностью только 2 раза. После этого агент задаёт на каждый мой комментарий один вопрос формата «делаем/не делаем (заносим в later.md)». Создано это для того, чтобы оно не превращалось в бесконечный loop.</p><p>Когда план согласован, он передаётся другой модели через <code>handoff.md</code>, в котором описано (кратко): Текущее состояние, Следующий шаг (возьми вот этот план и реализуй) и Риски. Модель получает <code>handoff.md</code>, изучает базу, ADR и приступает к реализации фичи. Результатом становится <code>report.md</code>.</p><p>Внутри <code>report.md</code>: Что сделано, какие файлы изменены, как это работает, как проверить функционал руками, какие проверки сделаны, были ли отклонения от плана и что Не сделано / риски. </p><p>Таким образом, я могу посмотреть, правильную ли логику машина реализовала, какие места пришлось пересмотреть, что может отстрельнуть в будущем и нужно ли это править сейчас. После согласования уже эта модель пишет <code>handoff.md</code>для будущего таска.</p><p>И так по кругу, пока этап (большая фича) не закончится. После того как этап завершён, начинается фаза рефакторинга.</p><p>Рефакторинг у меня означает следующее:</p><ol><li><p>Проверить все репорты и планы на соответствие ADR и правдивость (проанализировать код); если есть несостыковки — занести их в <code>later.md</code></p></li><li><p>Проверить репу линтерами + repowise на предмет кусков кода, которые требуют рефакторинга; если есть — занести в <code>later.md</code></p></li><li><p>Вынести задачи из <code>later.md</code> в <code>backlog.md</code> и начать их исправлять</p></li></ol><p>Таким образом, получается сохранить документацию актуальной, и я знаю, что когда мне нужно будет полезть в код руками, это не будет страшное и нечитаемое месиво. Раз в несколько этапов я прохожусь по системе руками и вручную тестирую функционал, чтобы убедиться, что все работает корректно.</p><p>Учитывая, что задачи на планирование и реализацию разбиты между двумя подписками, за 5-часовой лимит у меня получается закрывать 5–8 задач (например реализация MCP для проекта). При желании и везении в теории можно закрыть один блок задач за 10 часов в два подхода, но я к этому пока не дошел.</p><p>Интересно почитать то, как у людей, которые могут запускать рой агентов, устроена работа. Это спеки или что‑то другое? Есть ли ревью планов/репортов или в таких сценариях лучше всего подходит <code>/goal</code>? Поделитесь в комментариях опытом.</p><p>P. S. Если будет спрос, то выложу на гитхаб инструкции и описание, которые у меня используются: может, кому‑то это будет полезно.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "Anthropic"
+    },
+    {
+      "titleHtml": "claude code"
+    },
+    {
+      "titleHtml": "sdd"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106266/8979577d09fbb8a9636fb75e6acac8db/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106266/8979577d09fbb8a9636fb75e6acac8db/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106266\\/\"},\"headline\":\"SDD в организации и в Solo‑проекте\",\"datePublished\":\"2026-11-10T20:45:32+03:00\",\"dateModified\":\"2026-11-10T20:45:32+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Сейчас многие организации переходят не&nbsp;просто к «агентской разработке», а&nbsp;к&nbsp;SDD (Spec‑Driven Development) и перестраивают SDLC вокруг него....\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106266\\/#post-content-body\",\"about\":[\"h_crazydev\",\"h_dev_management\",\"h_itcompanies\",\"h_it-infrastructure\",\"f_develop\",\"f_admin\",\"f_management\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1106266\\/8979577d09fbb8a9636fb75e6acac8db\\/\"]}",
+    "metaDescription": "Сейчас многие организации переходят не&nbsp;просто к «агентской разработке», а&nbsp;к&nbsp;SDD (Spec‑Driven Development) и перестраивают SDLC вокруг него. У&nbsp;Anthropic вышла хорошая статья...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 9,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

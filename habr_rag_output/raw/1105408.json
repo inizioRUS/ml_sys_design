@@ -1,0 +1,194 @@
+{
+  "id": "1105408",
+  "timePublished": "2026-11-09T09:52:33+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "«Бери заряд» выпустил собственные пауэрбанки c быстрой зарядкой",
+  "leadData": {
+    "textHtml": "<p>Сервис «Бери заряд» представил обновлённые портативные аккумуляторы для&nbsp;зарядки смартфонов. Первые 30&nbsp;тыс. экземпляров уже появились на&nbsp;московских станциях. Разработкой занималось Конструкторское бюро «Яндекса», а&nbsp;внешний вид создала команда Commo&nbsp;— бренда электроники и аксессуаров «Яндекс Фабрики», рассказали Хабру в&nbsp;пресс‑службе компании.</p>",
+    "imageUrl": "https://habrastorage.org/extt/a7/fa/13/a7fa13ceaddc1c1894ec917a5231b330.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/a7/fa/13/a7fa13ceaddc1c1894ec917a5231b330.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3000027",
+    "alias": "LizzieSimpson",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/87d/321/950/87d321950490400be5d296976a5747d0.png",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 97,
+      "votesCount": 429
+    },
+    "rating": 320.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 5,
+    "favoritesCount": 4,
+    "readingCount": 1720,
+    "score": 12,
+    "votesCount": 11,
+    "votesCountPlus": 8,
+    "votesCountMinus": 3,
+    "reach": 8338,
+    "readers": 1424
+  },
+  "hubs": [
+    {
+      "id": "21894",
+      "alias": "gadgets",
+      "type": "collective",
+      "title": "Гаджеты",
+      "titleHtml": "Гаджеты",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21908",
+      "alias": "smartphones",
+      "type": "collective",
+      "title": "Смартфоны",
+      "titleHtml": "Смартфоны",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21914",
+      "alias": "energy",
+      "type": "collective",
+      "title": "Энергия и элементы питания",
+      "titleHtml": "Энергия и элементы питания",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22024",
+      "alias": "urban",
+      "type": "collective",
+      "title": "Урбанизм",
+      "titleHtml": "Урбанизм",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a7/fa/13/a7fa13ceaddc1c1894ec917a5231b330.jpg\" width=\"2103\" height=\"1402\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a7/fa/13/a7fa13ceaddc1c1894ec917a5231b330.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/a7/fa/13/a7fa13ceaddc1c1894ec917a5231b330.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Сервис «Бери заряд» представил обновлённые портативные аккумуляторы для зарядки смартфонов. Первые 30 тыс. экземпляров уже появились на московских станциях. Разработкой занималось Конструкторское бюро «Яндекса», а внешний вид создала команда Commo — бренда электроники и аксессуаров «Яндекс Фабрики», рассказали Хабру в пресс‑службе компании.</p><p>Данные от «Бери заряд»: ёмкость аккумулятора 8000 мА*ч, мощность зарядки до 22,5 Вт, встроенные кабели Lightning и USB-C.</p><p>Там отметили, что новая модель заряжает телефоны в полтора раза быстрее предыдущей. Например, смартфон с уровнем заряда менее 10% можно восполнить до 50% примерно за 30 минут. Стоимость аренды осталась прежней и зависит от времени использования. Тариф отображается в приложении перед оформлением заказа.</p><p>Корпус устройств получил рельефную поверхность для более удобного удержания вместе со смартфоном. Также изменились крепления и выемки для кабелей. В комплекте остались провода Lightning и USB‑C, а разъём micro‑USB убрали. По данным компании, на такие устройства приходится менее 0,1% аренд.</p><p>В Москве планируют заменить около 180 тыс. аккумуляторов, после чего обновлённая модель появится в других городах, в первую очередь в Санкт‑Петербурге и Сочи.</p><p>Ранее <a href=\"https://habr.com/ru/news/1102758/\" rel=\"noopener nofollow\">сообщалось</a>, что «Бери заряд» обновил 10 750 станций в Москве.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "бери заряд"
+    },
+    {
+      "titleHtml": "гаджеты"
+    },
+    {
+      "titleHtml": "гаджеты и девайсы"
+    },
+    {
+      "titleHtml": "зарядные устройства"
+    },
+    {
+      "titleHtml": "пауэрбанки"
+    },
+    {
+      "titleHtml": "смартфоны"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105408/938cf5a200f4951ebc35dacbb59c9a1d/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105408/938cf5a200f4951ebc35dacbb59c9a1d/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105408\\/\"},\"headline\":\"«Бери заряд» выпустил собственные пауэрбанки c быстрой зарядкой\",\"datePublished\":\"2026-11-09T12:52:33+03:00\",\"dateModified\":\"2026-11-09T14:45:54+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Сервис «Бери заряд» представил обновлённые портативные аккумуляторы для&nbsp;зарядки смартфонов. Первые 30&nbsp;тыс. экземпляров уже появились...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105408\\/#post-content-body\",\"about\":[\"h_gadgets\",\"h_smartphones\",\"h_energy\",\"h_urban\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/a7\\/fa\\/13\\/a7fa13ceaddc1c1894ec917a5231b330.jpg\"]}",
+    "metaDescription": "Сервис «Бери заряд» представил обновлённые портативные аккумуляторы для&nbsp;зарядки смартфонов. Первые 30&nbsp;тыс. экземпляров уже появились на&nbsp;московских станциях. Разработкой занималось...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

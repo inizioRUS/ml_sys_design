@@ -1,0 +1,167 @@
+{
+  "id": "1106072",
+  "timePublished": "2026-11-10T11:35:43+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "ТОП-5 ИБ‑событий недели по версии Jet CSIRT",
+  "leadData": {
+    "textHtml": "<p>Сегодня в ТОП-5 —&nbsp;две уязвимости Barracuda позволяют получить root-доступ к устройствам, атака на цепочку поставок обновлений cPGuard, уязвимость в APT позволяет выполнять код с правами root, через уязвимости Xen можно выйти из гостевой ВМ и получить контроль над хостом, в OpenSSH обнаружен беспарольный вход в систему. </p>",
+    "imageUrl": "https://habrastorage.org/extt/d5/5d/96/d55d9637b87d91fae8cd22527ed53f2a.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/d5/5d/96/d55d9637b87d91fae8cd22527ed53f2a.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2006901",
+    "alias": "CSIRT",
+    "fullname": "Jet CSIRT",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/596/4d7/eb1/5964d7eb1a1722a5cbe1c3c0e77a09df.png",
+    "speciality": "Центр мониторинга и реагирования на инциденты ИБ",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 47,
+      "votesCount": 75
+    },
+    "rating": 29.3,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 222,
+    "score": 3,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 5745,
+    "readers": 172
+  },
+  "hubs": [
+    {
+      "id": "18955",
+      "alias": "jetinfosystems",
+      "type": "corporative",
+      "title": "Блог компании Инфосистемы Джет",
+      "titleHtml": "Блог компании Инфосистемы Джет",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d5/5d/96/d55d9637b87d91fae8cd22527ed53f2a.jpg\" width=\"1625\" height=\"917\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d5/5d/96/d55d9637b87d91fae8cd22527ed53f2a.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/d5/5d/96/d55d9637b87d91fae8cd22527ed53f2a.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Сегодня в ТОП-5 — две уязвимости Barracuda позволяют получить root-доступ к устройствам, атака на цепочку поставок обновлений cPGuard, уязвимость в APT позволяет выполнять код с правами root, через уязвимости Xen можно выйти из гостевой ВМ и получить контроль над хостом, в OpenSSH обнаружен беспарольный вход в систему. </p><p><a href=\"https://trust.barracuda.com/security/pre-authentication-authorization-bypass-command-injection\">Две уязвимости Barracuda позволяют получить root-доступ к устройствам</a></p><p>Специалисты Barracuda раскрыли две уязвимости: обход авторизации CVE-2026-116606 (CVSS: 9.3) и внедрение команд CVE-2026-111560 (CVSS: 8.6), совместное использование которых позволяет обойти контроль авторизации и получить root-доступ к устройству. Обход авторизации затрагивает только Email Security Gateway, а внедрение команд — также Application Delivery Controller, Message Archiver, WAF Control Center, Web Application Firewall и Web Security Gateway. Для эксплуатации обеих уязвимостей злоумышленнику необходим сетевой доступ к административному интерфейсу (Admin UI), при этом для обхода авторизации на ESG вводить учётные данные не требуется. Barracuda выпустила патчи для всех затронутых продуктов и рекомендует установить последние прошивки и обновления безопасности. </p><p><a href=\"https://opsshield.com/notice/cpguard-update-channel-compromise.html\">Атака на цепочку поставок обновлений cPGuard</a></p><p>Компания OPSSHIELD сообщила о компрометации своей инфраструктуры обновлений, которая произошла 2 ноября 2026 года. Неизвестный злоумышленник использовал скомпрометированные учётные данные для доступа к CDN OPSSHIELD и внедрил вредоносный скрипт в канал обновлений cPGuard 5.88.12 – 5.88.19. Скрипт собирал хеши системных паролей, файлы конфигурации базы данных MariaDB/MySQL, историю команд root и SSH-ключи. Атака была обнаружена в течение 12 часов, а исправление с удалением бэкдора включено в cPGuard 5.88.25 и новее. По предварительным данным расследования, злоумышленник успел перехватить информацию как минимум с 32 серверов клиентов. Администраторам следует обновить серверы до cPGuard 5.88.25+ командой cpgcli update –start, а также свериться с IOC, приведёнными в статье.</p><p><a href=\"https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer=https%3A%2F%2Fthehackernews.com%2F\">Уязвимость в APT позволяет выполнять код с правами root</a></p><p>В менеджере пакетов APT для Debian и Ubuntu обнаружена уязвимость CVE-2026-109518, которая позволяет злоумышленнику подменять проверенный пакет собственным вредоносным кодом, выполняемым впоследствии с правами root. Для атаки необходимо, чтобы APT повторял неудачные загрузки, что по умолчанию происходит в современных дистрибутивах Debian и Ubuntu. Атака возможна со стороны любого, кто может изменить HTTP-трафик между APT и сервером пакетов, и использует HTTP-перенаправления и временные ошибки сервера, чтобы заставить APT повторить загрузку и подменить пакет после проверки. Разработчики Debian, Ubuntu и APT выпустили исправления, включая обновления для Ubuntu Pro. Хотя старые версии (Debian 11 и Ubuntu 20.04) уязвимы не по умолчанию, в пользовательских скриптах мог быть включён параметр Acquire::Retries, а все восемь отслеживаемых версий Ubuntu от 14.04 LTS до 26.10 на момент публикации исправлений всё ещё помечались как уязвимые. </p><p><a href=\"https://xenbits.xen.org/xsa/advisory-523.html\">Через уязвимости Xen можно выйти из гостевой ВМ и получить контроль над хостом</a></p><p>Специалисты выявили две уязвимости в гипервизоре Xen: CVE-2026-102703 и CVE-2026-102704 (XSA-523). Из-за ошибок кэширования проверок прав при копировании данных между страницами памяти вредоносная гостевая ВМ может читать и записывать память других ВМ на том же хосте, включая dom0. Разработчики XCP-ng и Qubes OS предупреждают, что один скомпрометированный гостевой компьютер может выйти из изоляции и захватить контроль над всем хостом, затронув все поддерживаемые версии и конфигурации. Уязвимости были обнаружены компанией Anthropic с помощью модели Claude. Также о проблеме независимо сообщила команда CodeAnt AI Security Research Team. Все версии Xen, начиная с 4.6, уязвимы, патчи выпущены для исходного кода Xen, XCP-ng 8.3 и Qubes OS 4.3, однако известных способов смягчения последствий нет. В Debian пакет xen уязвим в bookworm, trixie и forky, но исправлен в sid.</p><p><a href=\"https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/\">В OpenSSH обнаружен беспарольный вход в систему</a></p><p>Alpine Linux сообщили об уязвимости в OpenSSH на базе библиотеки musl libc, которая позволяет обойти аутентификацию. Злоумышленники, получившие сетевой доступ к порту SSH, могут войти без знания пароля в защищённые только SSH-ключом аккаунты на серверах Alpine Linux со стандартным openssh-server. Атака работает, когда sshd проверяет пароли без PAM, включена авторизация по паролю и хотя бы у одной локальной учётной записи задан пароль в виде хеша семейства $5$ или $6$. Из-за особенности musl функция crypt() возвращает «*» для паролей длиной от 257 до 1024 байт, что совпадает с полем аккаунтов без пароля. Уязвимы только серверы OpenSSH на дистрибутивах с musl (Alpine, OpenWrt, Buildroot, Yocto), системы на glibc и с PAM не затронуты. Разработчики OpenSSH исправили ошибку в новой версии 10.6p2, а команда Alpine Linux выпустила исправления с бэкпортированными патчами для всех своих релизов, начиная с версии 3.16. </p></div>",
+  "tags": [
+    {
+      "titleHtml": "cybersecurity"
+    },
+    {
+      "titleHtml": "cyberattack"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106072/8c80bf49355ee038a00d7d74e176978c/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106072/8c80bf49355ee038a00d7d74e176978c/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/jetinfosystems\\/articles\\/1106072\\/\"},\"headline\":\"ТОП-5 ИБ‑событий недели по версии Jet CSIRT\",\"datePublished\":\"2026-11-10T14:35:43+03:00\",\"dateModified\":\"2026-11-11T20:31:30+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Сегодня в ТОП-5 —&nbsp;две уязвимости Barracuda позволяют получить root-доступ к устройствам, атака на цепочку поставок обновлений cPGuard, уязвимость в APT...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/jetinfosystems\\/articles\\/1106072\\/#post-content-body\",\"about\":[\"c_jetinfosystems\",\"h_infosecurity\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/d5\\/5d\\/96\\/d55d9637b87d91fae8cd22527ed53f2a.jpg\"]}",
+    "metaDescription": "Сегодня в ТОП-5 —&nbsp;две уязвимости Barracuda позволяют получить root-доступ к устройствам, атака на цепочку поставок обновлений cPGuard, уязвимость в APT позволяет выполнять код с правами root,...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "analytics",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

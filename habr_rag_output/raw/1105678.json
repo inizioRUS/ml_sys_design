@@ -1,0 +1,159 @@
+{
+  "id": "1105678",
+  "timePublished": "2026-11-09T19:16:01+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Claude Fable 5.2 формализовала теорему Ферма за 30 часов",
+  "leadData": {
+    "textHtml": "<p>Тысяча агентов Claude Fable 5.2 за 30 часов формализовала доказательство Великой теоремы Ферма в Lean. Opus 5.5 с тем же числом агентов остановилась примерно на четверти работы. Как проходил эксперимент и чем Fable 5.2 отличается от Mythos 5.2.</p>",
+    "imageUrl": null,
+    "buttonTextHtml": "Читать далее",
+    "image": null
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5905698",
+    "alias": "kuriokenshi",
+    "fullname": "Николай Лаев",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": -3,
+      "votesCount": 17
+    },
+    "rating": 5.4,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 56,
+    "favoritesCount": 4,
+    "readingCount": 5878,
+    "score": -3,
+    "votesCount": 11,
+    "votesCountPlus": 4,
+    "votesCountMinus": 7,
+    "reach": 12128,
+    "readers": 4820
+  },
+  "hubs": [
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Тысяча агентов Claude Fable 5.2 за 30 часов формализовала доказательство Великой теоремы Ферма в Lean. В таком же эксперименте Opus 5.5 осилила 26% формализации за первые 18 часов и почти не продвинулась за оставшиеся 12. Anthropic опубликовала оба прогона в анонсе Fable 5.2 и Mythos 5.2.</p><h3>Что проверял Lean</h3><p>Великая теорема Ферма утверждает, что для целого n &gt; 2 у уравнения aⁿ + bⁿ = cⁿ нет решений в положительных целых числах. Доказательство Эндрю Уайлса было опубликовано в 1995 году после исправления пробела совместно с Ричардом Тейлором. Задача агентов состояла в том, чтобы записать математический аргумент на языке, который может проверить компьютер.</p><p>В Lean утверждение задаётся типом, а доказательство представляет собой терм этого типа. Тактики строят терм доказательства, ядро проверяет его тип. Чтобы применить лемму, нужно доказать её предпосылки. Если нужной леммы нет в библиотеке, её тоже приходится записывать и доказывать в Lean.</p><p>В сентябрьском эксперименте Anthropic отслеживала эти зависимости в Prove2Me. Платформа хранила направленный ациклический граф утверждений. По нему агенты видели, какие леммы уже доказаны и где можно продолжать работу параллельно. Тот прогон занял 11 дней, а в итоговое доказательство вошли 29 500 промежуточных теорем. Отдельная проверка подтвердила, что финальная формулировка совпадает с формулировкой в Mathlib. <a href=\"https://t.me/data_analysis_ml/5730\" rel=\"noopener nofollow\">Описание сентябрьского эксперимента</a>.</p><h3>Тысяча агентов и один запуск на модель</h3><p>В новом эксперименте Fable 5.2 получила короткие стартовые инструкции и список промежуточных утверждений, по которому оценивали прогресс. По данным Anthropic, агенты сами распределяли работу и обходились без математических справочников. Люди вмешивались редко. По сравнению с сентябрьским экспериментом число токенов, затраченных на действия, сократилось втрое, а формальный текст доказательства получился в семь раз короче.</p><p>Для Opus 5.5 Anthropic использовала ту же конфигурацию примерно с тысячей агентов. Обе команды через 18 часов возобновили работу с сохранённого состояния. На графике в анонсе по одному прогону каждой модели. В сентябрьском эксперименте использовали другую модель и другую схему координации. <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-2#science-and-engineering\" rel=\"noopener nofollow\">График и условия эксперимента</a>.</p><h3>Миграция с Python на Rust и прототип ОС</h3><p>Внутри Anthropic команда агентов на ранней версии Fable 5.2 перенесла критичный сервис с Python на Rust. По данным Anthropic, время запуска сервиса сократилось примерно в 26 раз.</p><p>В другом эксперименте Fable 5.2 восемь дней координировала работу более тысячи субагентов над прототипом операционной системы. Они начали с пустой папки и получили систему, которая загружается на ноутбуке. У неё есть ядро, драйверы диска, клавиатуры и сети, файловое хранилище, оконный интерфейс и установщик.</p><p>На FrontierCode 2.0 у Fable 5.2 получилось 49,1% на уровне усилия Xhigh против 32,4% у Fable 5.1 с той же настройкой. На том же тесте Fable 5.2 в режиме High набрала примерно столько же, сколько Opus 5.5 в режиме Max. Решение одной задачи обходилось примерно вдвое дешевле. <a href=\"https://www.anthropic.com/document/claude-fable-5-2-mythos-5-2-system-card\" rel=\"noopener nofollow\">Методика и таблица результатов</a>.</p><h3>Чем Mythos отличается от Fable</h3><p>У Fable 5.2 и Mythos 5.2 одна базовая модель. У Fable действуют дополнительные ограничения на высокорисковые задачи по кибербезопасности и биологии. Mythos доступна проверенным организациям через программы Anthropic для специалистов по безопасности и биомедицинским исследованиям.</p><p>На внутреннем тесте CVE Rediscovery Mythos 5.2 нашла 89,6% уязвимостей против 78,3% у Mythos 5.1 и 81,3% у Opus 5.5 с отключёнными защитными ограничениями. В октябрьском прогоне было 1829 уже опубликованных CVE. Моделям давали версии проектов до исправления, чтобы проверить, сколько известных уязвимостей они найдут самостоятельно.</p><h3>API, скорость и цена</h3><p>В API Claude Platform модель доступна под именем <code>claude-fable-5-2</code>. Fable 5.2 доступна также через AWS, Google Cloud и Microsoft Azure. Базовый тариф для обеих моделей составляет $8 за миллион входящих токенов и $40 за миллион исходящих. Anthropic заявляет, что по сравнению с версией 5.1 скорость генерации выросла до 30%. В Fast Mode токены генерируются до 2,5 раза быстрее, тариф составляет $16 за миллион входящих и $80 за миллион исходящих. <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-2\" rel=\"noopener nofollow\">Официальный анонс Anthropic</a>.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "Claude"
+    },
+    {
+      "titleHtml": "anthropic"
+    },
+    {
+      "titleHtml": "lean"
+    },
+    {
+      "titleHtml": "теорема ферма"
+    },
+    {
+      "titleHtml": "ии-агенты"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105678/67644bba7cf522c972544a4117ce46dd/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105678/67644bba7cf522c972544a4117ce46dd/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105678\\/\"},\"headline\":\"Claude Fable 5.2 формализовала теорему Ферма за 30 часов\",\"datePublished\":\"2026-11-09T22:16:01+03:00\",\"dateModified\":\"2026-11-10T02:23:05+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Тысяча агентов Claude Fable 5.2 за 30 часов формализовала доказательство Великой теоремы Ферма в Lean. В таком же эксперименте Opus 5.5 осилила 26% формализации...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105678\\/#post-content-body\",\"about\":[\"h_artificial_intelligence\",\"f_popsci\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105678\\/67644bba7cf522c972544a4117ce46dd\\/\"]}",
+    "metaDescription": "Тысяча агентов Claude Fable 5.2 за 30 часов формализовала доказательство Великой теоремы Ферма в Lean. В таком же эксперименте Opus 5.5 осилила 26% формализации за первые 18 часов и почти не...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

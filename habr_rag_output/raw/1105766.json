@@ -1,0 +1,230 @@
+{
+  "id": "1105766",
+  "timePublished": "2026-11-10T06:33:38+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "OpenAI и ModRetro выпустили портативную консоль для запуска игр, созданных с помощью Codex",
+  "leadData": {
+    "textHtml": "<p>OpenAI и ModRetro <a href=\"https://openai.com/supply/co-lab/chromatic/\" rel=\"noopener nofollow\">представили</a> Chromatic: Codex Edition&nbsp;— специальную версию портативной консоли в&nbsp;прозрачном корпусе. Устройство стоит 200&nbsp;долларов, а&nbsp;в&nbsp;комплект входит перезаписываемый картридж для&nbsp;загрузки собственных игр.</p>",
+    "imageUrl": "https://habrastorage.org/extt/d9/9f/45/d99f45aa025754d914f6949c2f3bdfe8.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/d9/9f/45/d99f45aa025754d914f6949c2f3bdfe8.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2320593",
+    "alias": "daniilshat",
+    "fullname": "Даниил Шатухин",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/165/6b8/929/1656b8929300fbfdbb3bbb0b1721ec87.png",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 300,
+      "votesCount": 580
+    },
+    "rating": 280.7,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/daniilshat/",
+        "value": "daniilshat",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/mrshatukhin",
+        "value": "mrshatukhin",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/daniilshat/",
+        "value": "daniilshat",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/mrshatukhin",
+        "value": "mrshatukhin",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": "423039146555"
+    },
+    "donationsMethod": "wallets",
+    "isInBlacklist": null,
+    "careerProfile": {
+      "careerProfileLink": "https://career.habr.com/daniilshat?utm_source=habr&utm_medium=profile_header&utm_campaign=button_habr_career",
+      "expertProfileLink": null
+    },
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 3,
+    "readingCount": 380,
+    "score": 4,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 7170,
+    "readers": 297
+  },
+  "hubs": [
+    {
+      "id": "21894",
+      "alias": "gadgets",
+      "type": "collective",
+      "title": "Гаджеты",
+      "titleHtml": "Гаджеты",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21980",
+      "alias": "games",
+      "type": "collective",
+      "title": "Игры и игровые консоли",
+      "titleHtml": "Игры и игровые консоли",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>OpenAI и ModRetro <a href=\"https://openai.com/supply/co-lab/chromatic/\" rel=\"noopener nofollow\">представили</a> Chromatic: Codex Edition — специальную версию портативной консоли в прозрачном корпусе. Устройство стоит 200 долларов, а в комплект входит перезаписываемый картридж для загрузки собственных игр.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d9/9f/45/d99f45aa025754d914f6949c2f3bdfe8.jpg\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d9/9f/45/d99f45aa025754d914f6949c2f3bdfe8.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/d9/9f/45/d99f45aa025754d914f6949c2f3bdfe8.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Впервые консоль <a href=\"https://habr.com/ru/articles/1088596/\" rel=\"noopener nofollow\">показали</a> на мероприятии OpenAI DevDay в сентябре 2026 года. Тогда всем участникам подарили лимитированную версию. Теперь же устройство могут купить все желающие.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/31/cc/8b/31cc8bc81d9ceffe43c567cfeeeb7a0a.jpg\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/31/cc/8b/31cc8bc81d9ceffe43c567cfeeeb7a0a.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/31/cc/8b/31cc8bc81d9ceffe43c567cfeeeb7a0a.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Игры для Chromatic можно создавать с помощью Codex и специального плагина <a href=\"https://developers.openai.com/blog/build-a-game-with-modretro-chromatic\" rel=\"noopener nofollow\">ModRetro Chromatic</a>. Пользователю надо описать персонажей, игровые механики и мир, а нейросеть соберёт проект в GB Studio — визуальном редакторе игр для GameBoy. Плагин работает с анимациями персонажей, фонами и картами.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/08/70/df/0870df597ba0b9c88290dc8003850ff6.jpg\" width=\"1091\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/08/70/df/0870df597ba0b9c88290dc8003850ff6.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/08/70/df/0870df597ba0b9c88290dc8003850ff6.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Проверить результат работы Codex можно в браузерном эмуляторе. В нём можно выделять игровые объекты и предлагать правки. Агент также может нажимать на виртуальные кнопки и делать скриншоты во время тестирования. Готовую игру система сохраняет в ROM‑файл и записывает на картридж через USB. При желании проект можно открыть в том же редакторе и доработать самостоятельно.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/b2/b2/77/b2b277a1e20b7cb52c69c40db76e6699.jpg\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b2/b2/77/b2b277a1e20b7cb52c69c40db76e6699.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/b2/b2/77/b2b277a1e20b7cb52c69c40db76e6699.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Сама консоль оснащена 2,56-дюймовым IPS‑экраном с разрешением 160 × 144 пикселя, подсветкой и защитным стеклом Gorilla Glass. За автономность отвечают три батарейки типа AA. Также есть порт USB‑C и разъём для наушников.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/54/51/30/545130cf1c47e250ee196703734ad4db.jpg\" width=\"1024\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/54/51/30/545130cf1c47e250ee196703734ad4db.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/54/51/30/545130cf1c47e250ee196703734ad4db.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Устройство стоит 200 долларов и доступно для заказа в США, Канаде, Великобритании, странах ЕС, Японии и Новой Зеландии. Первую партию уже раскупили, а ближайшая поставка запланирована на 19 ноября 2026 года.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/5e/a9/fd/5ea9fd970237da99ad1a7fdb3792a362.jpg\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/5e/a9/fd/5ea9fd970237da99ad1a7fdb3792a362.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/5e/a9/fd/5ea9fd970237da99ad1a7fdb3792a362.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure></div>",
+  "tags": [
+    {
+      "titleHtml": "openai"
+    },
+    {
+      "titleHtml": "codex"
+    },
+    {
+      "titleHtml": "ModRetro"
+    },
+    {
+      "titleHtml": "Chromatic"
+    },
+    {
+      "titleHtml": "game boy"
+    },
+    {
+      "titleHtml": "консоли"
+    },
+    {
+      "titleHtml": "игры"
+    },
+    {
+      "titleHtml": "нейросети"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105766/a6f479b7be93638d8b2cbf3597ed7dc8/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105766/a6f479b7be93638d8b2cbf3597ed7dc8/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105766\\/\"},\"headline\":\"OpenAI и ModRetro выпустили портативную консоль для запуска игр, созданных с помощью Codex\",\"datePublished\":\"2026-11-10T09:33:38+03:00\",\"dateModified\":\"2026-11-10T10:21:57+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"OpenAI и ModRetro представили Chromatic: Codex Edition&nbsp;— специальную версию портативной консоли в&nbsp;прозрачном корпусе. Устройство стоит...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105766\\/#post-content-body\",\"about\":[\"h_gadgets\",\"h_games\",\"h_artificial_intelligence\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/d9\\/9f\\/45\\/d99f45aa025754d914f6949c2f3bdfe8.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/31\\/cc\\/8b\\/31cc8bc81d9ceffe43c567cfeeeb7a0a.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/08\\/70\\/df\\/0870df597ba0b9c88290dc8003850ff6.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/b2\\/b2\\/77\\/b2b277a1e20b7cb52c69c40db76e6699.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/54\\/51\\/30\\/545130cf1c47e250ee196703734ad4db.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/5e\\/a9\\/fd\\/5ea9fd970237da99ad1a7fdb3792a362.jpg\"]}",
+    "metaDescription": "OpenAI и ModRetro представили Chromatic: Codex Edition&nbsp;— специальную версию портативной консоли в&nbsp;прозрачном корпусе. Устройство стоит 200&nbsp;долларов, а&nbsp;в&nbsp;комплект входит...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "42",
+    "title": "Железо и гаджеты",
+    "alias": "hardware_and_gadgets"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

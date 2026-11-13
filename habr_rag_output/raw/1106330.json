@@ -1,0 +1,212 @@
+{
+  "id": "1106330",
+  "timePublished": "2026-11-11T04:52:35+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Как я сделал папку с паролем для Windows на WinFsp и формате Cryptomator",
+  "leadData": {
+    "textHtml": "<p>Zamok шифрует папку в Windows 10 и 11 из меню правой кнопки Проводника. Папка остаётся на своём пути, открывается паролем или Windows Hello и запирается сама по Win+L, при сне и после 30 минут без работы. Данные хранятся в формате Cryptomator, и папку можно открыть без Zamok в Cryptomator на Windows, macOS, Linux, iOS и Android.</p>",
+    "imageUrl": "https://habrastorage.org/extt/7f/c6/10/7fc610de369acc0e19160e4c088de12c.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/7f/c6/10/7fc610de369acc0e19160e4c088de12c.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5987662",
+    "alias": "olerast",
+    "fullname": "Егор",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/880/1d1/e81/8801d1e81a0be4e7f1a0ca314cafc48f.jpeg",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 6,
+      "votesCount": 6
+    },
+    "rating": 9,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 8,
+    "readingCount": 596,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 7138,
+    "readers": 404
+  },
+  "hubs": [
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "118",
+      "alias": "crypto",
+      "type": "collective",
+      "title": "Криптография",
+      "titleHtml": "Криптография",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "18961",
+      "alias": "rust",
+      "type": "collective",
+      "title": "Rust",
+      "titleHtml": "Rust",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21456",
+      "alias": "win_dev",
+      "type": "collective",
+      "title": "Windows",
+      "titleHtml": "Windows",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Zamok это моя программа для шифрования папок в Windows. Достаточно нажать на папку правой кнопкой и выбрать «Зашифровать паролем», и после шифрования папка остаётся на том же месте, но открывается только по паролю. Ярлыки, недавние файлы и проекты в программах продолжают на неё указывать. Папку с паролем я хотел ещё в детстве, когда компьютер был общий.</p><div class=\"floating-image\"><figure class=\"float full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/4f/57/67/4f5767234eaa78112957b107c5de5842.png\" alt=\"Zamok, шифрование папок в Windows\" width=\"1280\" height=\"400\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/4f/57/67/4f5767234eaa78112957b107c5de5842.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/4f/57/67/4f5767234eaa78112957b107c5de5842.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Zamok, шифрование папок в Windows</figcaption></div></figure><p>Я пользовался и VeraCrypt, и Cryptomator. В VeraCrypt нужно выбрать файл тома, букву диска и ввести пароль, после чего файлы лежат на отдельном диске. Путь к файлам меняется, и ярлыки и пути в программах приходится переделывать. В Cryptomator сначала создаётся хранилище, файлы переносятся в него, и запереть его часто мешает открытое окно Проводника. </p></div><h3>Папка без буквы диска</h3><p>После шифрования по пути папки, например <code>D:\\Работа\\Клиенты</code>, стоит точка подключения файловой системы WinFsp. Это бесплатный драйвер, через который программа показывает Windows папки и файлы, которых на диске в таком виде нет. На нём же работает Cryptomator. Зашифрованные данные лежат рядом в скрытой папке <code>D:\\Работа\\.Клиенты.zamok</code>. Когда Word открывает файл, WinFsp передаёт запрос в Zamok, тот читает зашифрованный кусок, расшифровывает его в памяти и отдаёт. Открытый текст на диск не пишется.</p><p>WinFsp подключает файловую систему только на путь, которого не существует. Если бы я подключал папку при открытии и отключал при запирании, на этом пути каждый раз нужно было бы удалять и создавать папку, а открытое окно Проводника не давало бы её отключить. Поэтому файловая система подключается при входе в винду и остаётся подключённой. У неё два состояния. В запертом ключ стёрт из памяти, а внутри виден один значок, который открывает окно пароля. В открытом видно расшифрованное содержимое.</p><p>Запирание переключает состояние внутри программы. Ядро WinFsp кэширует сведения о файлах и списки папок, и без сброса кэша имена и размеры файлов были бы видны ещё до истечения таймаута. Zamok при запирании сбрасывает этот кэш через <code>FspFileSystemNotify</code>, и окно Проводника, открытое на папке, сразу показывает запертый вид.</p><h3>Двойной клик по запертой папке</h3><p>Сначала я хотел, чтобы окно пароля появлялось по двойному клику по самой папке. Я проверил три способа, и ни один не подошёл.</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Способ</p></th><th><p align=\"left\">Что вышло</p></th></tr><tr><td><p align=\"left\">Обработчик меню правой кнопки делает «Открыть с паролем» действием по умолчанию у запертых папок</p></td><td><p align=\"left\">Проводник открывает папки по двойному клику, не спрашивая обработчики меню</p></td></tr><tr><td><p align=\"left\">Файловая система замечает, что Проводник заходит в запертую папку, и показывает окно пароля</p></td><td><p align=\"left\">Проводник заходит в корень папки и без двойного клика: рисует миниатюру, проверяет, пустая ли она. Окно выскакивало бы от просмотра соседней папки</p></td></tr><tr><td><p align=\"left\">Действие папки в реестре с условием <code>AppliesTo</code>, которое подходит только запертым папкам</p></td><td><p align=\"left\">На запертой папке окно пароля появилось. Обычные папки на моём компьютере после этого начали открываться в VLC</p></td></tr></tbody></table></div></div><p>В итоге в запертой папке файловая система показывает один файл <code>Открыть Клиенты.zamok</code> со значком замка. Расширение <code>.zamok</code> регистрируется только для текущего пользователя, и другие папки и программы его не касаются. Двойной клик по значку открывает окно пароля, после пароля файлы появляются в том же окне Проводника. Получается на один двойной клик больше, и обычные папки открываются как раньше.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/7f/c6/10/7fc610de369acc0e19160e4c088de12c.png\" alt=\"Окно пароля для папки Documents\" width=\"527\" height=\"411\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/7f/c6/10/7fc610de369acc0e19160e4c088de12c.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/7f/c6/10/7fc610de369acc0e19160e4c088de12c.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Окно пароля для папки Documents</figcaption></div></figure><p>Если в настройках папки включён Windows Hello, при открытии сначала появляется запрос PIN-кода или отпечатка, а поле пароля остаётся запасным путём. Мастер-ключ папки при этом завёрнут ключом из подписи Windows Hello и лежит в <code>%LOCALAPPDATA%\\Zamok</code>. Кто знает PIN-код Windows, тот откроет и папку, это написано в настройках рядом с переключателем.</p><h3>Шифрование на месте</h3><p>При шифровании существующей папки сбой посередине может оставить человека без файлов. Порядок шагов я выбрал так, чтобы сбой на любом из них оставлял либо нетронутый оригинал, либо полную проверенную копию.</p><ol><li><p>Zamok проверяет, что диск NTFS, места хватает на вторую копию папки плюс 10%, файлы не открыты в других программах и папка не системная.</p></li><li><p>Каждый файл шифруется во временную скрытую копию, сразу расшифровывается обратно в памяти, и его SHA-256 сверяется с оригиналом. Готовый файл отмечается в журнале.</p></li><li><p>Всё сбрасывается на диск через <code>FlushFileBuffers</code>.</p></li><li><p>Временная копия переименовывается в <code>.Клиенты.zamok</code>, оригинал в скрытую <code>.Клиенты.zamok-original</code>. На одном диске переименование мгновенное.</p></li><li><p>На путь папки подключается файловая система в открытом состоянии.</p></li><li><p>Оригинал удаляется.</p></li></ol><p>Журнал лежит в <code>%LOCALAPPDATA%\\Zamok\\jobs</code> и переписывается целиком после каждого шага. После сбоя Zamok при старте читает его. Если сбой случился после проверки копии, работа доводится до конца. Если во время копирования, проверенные файлы остаются, и повторное «Зашифровать» с тем же паролем продолжает с места остановки. Перед тем как оставить файл из прошлого раза, Zamok расшифровывает его целиком и сверяет с отпечатком из журнала, а у оригинала сверяет размер, время изменения и номер файла NTFS.</p><p>После обычного шифрования и после продолжения прерванной копии результат ещё читается библиотеками криптоматор.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/30/68/7f/30687f0ad520a5cf05426c77db4762c4.png\" alt=\"Мастер шифрования, шаг с паролем\" width=\"677\" height=\"536\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/30/68/7f/30687f0ad520a5cf05426c77db4762c4.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/30/68/7f/30687f0ad520a5cf05426c77db4762c4.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Мастер шифрования, шаг с паролем</figcaption></div></figure><h3>Формат Cryptomator</h3><p>Свой формат и свою криптографию я не писал. Zamok хранит данные в формате Cryptomator vault format 8: ключ из пароля получается через scrypt, имена файлов шифруются AES-SIV, содержимое AES-GCM кусками по 32 КБ, а структура папок скрыта. Все алгоритмы берутся из библиотек RustCrypto.</p><p>Если Zamok сломается или я перестану его поддерживать, папку откроет Cryptomator, а он есть на винде, маке, линуксе, айосе и андроиде. Совместимость я проверил в обе стороны на хранилищах Cryptomator 1.19.6. При удалении программы рядом с каждой папкой появляется файл «КАК ОТКРЫТЬ Имя.txt» с инструкцией. В репозитории есть ещё <code>zamok-recover</code>, программа для командной строки, которая собирается из исходников: по паролю или ключу восстановления она выгружает расшифрованную копию.</p><p>Ключ восстановления это мастер-ключ папки, записанный 44 словами из словаря криптоматора. Мастер создаёт его по умолчанию и после показа просит ввести четыре слова по номерам, чтобы убедиться, что ключ записан. От ключа можно отказаться, тогда мастер предупреждает: без пароля и без ключа данные вернуть нельзя.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/94/e1/48/94e148ab984c251f007c0b320940d66a.png\" alt=\"Ключ восстановления из 44 слов\" width=\"752\" height=\"609\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/94/e1/48/94e148ab984c251f007c0b320940d66a.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/94/e1/48/94e148ab984c251f007c0b320940d66a.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Ключ восстановления из 44 слов</figcaption></div></figure><p>Формат прячет содержимое и имена, но не прячет количество файлов и подпапок, примерные размеры файлов и длину имён. Имя самой зашифрованной папки тоже остаётся видимым.</p><h3>Открытую папку нельзя перетаскивать мышкой</h3><p>Для Проводника точка подключения выглядит отдельным томом, и перенос открытой папки мышкой он делает копированием и удалением. Файлы копируются на новое место расшифрованными и удаляются из хранилища. Обойти это я не смог. Запертую папку переносить безопасно, внутри неё нет файлов, кроме значка.</p><p><code>zamok-shell.dll</code> работает внутри процесса Проводника, и ошибка в ней роняет все окна с папками. Поэтому она не обращается к диску и сети: список папок она читает из общей памяти, которую публикует фоновая программа Zamok. Тест подменяет функции открытия файлов и сокетов в <code>ntdll</code> и проверяет, что за 20 000 вызовов перехватчика копирования DLL ни разу к ним не обратилась. Каждый вызов занял меньше миллисекунды. Ещё тест 1000 раз подряд открывает меню папки и проверяет, что оно не замедляется и память не растёт.</p><h3>Следы в Windows</h3><p>Сам Zamok расшифрованное на диск не пишет, но Windows сохраняет миниатюры, данные для поиска и содержимое памяти в своих файлах. Проверку я сделал отдельным окном в настройках. Оно смотрит, зашифрован ли системный диск, включена ли гибернация, шифруется ли файл подкачки, входят ли папки в индекс поиска и сохраняет ли Проводник миниатюры. Прав администратора окну не нужно, ни одну настройку оно не меняет.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/28/6a/42/286a422607e29bc94749584f4c8158d2.png\" alt=\"Проверка следов\" width=\"952\" height=\"972\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/28/6a/42/286a422607e29bc94749584f4c8158d2.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/28/6a/42/286a422607e29bc94749584f4c8158d2.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Проверка следов</figcaption></div></figure><p>Про миниатюры я надеялся, что хватит атрибута «не индексировать», который Zamok ставит на все файлы. Я проверил это на кэше миниатюр своего ноутбука: миниатюра картинки из открытой папки попадает в <code>thumbcache_*.db</code> так же, как из обычной, и остаётся там после запирания. Отключить кэш для одной папки Windows не даёт.</p><p>Если программа отобразила файл из папки в память, страницы, которые она прочитала до запирания, остаются в общем кэше Windows и читаются после него. Страницы, которые никто не читал, после запирания не загружаются. Поэтому запирание по бездействию в такой ситуации не срабатывает молча: Zamok показывает окно, в котором написано, какая программа держит файлы, и предлагает отложить запирание на 10 минут.</p><p>Почти все эти следы при краже ноутбука закрывает шифрование системного диска, BitLocker или «Шифрование устройства».</p><h3>Скорость</h3><p>Любая зашифрованная файловая система на Windows медленнее обычного диска. У Zamok больше всего проигрыш на создании тысяч мелких файлов, в 9 раз. Замеры я делал на ноутбуке с Intel Core i5-11300H и Windows 10 LTSC 2021, с включённым Defender. В таблице медиана трёх прогонов, в секундах.</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Задача</p></th><th><p align=\"left\">NTFS</p></th><th><p align=\"left\">Zamok</p></th></tr><tr><td><p align=\"left\">Распаковка дерева на 20 000 файлов</p></td><td><p align=\"left\">4,91</p></td><td><p align=\"left\">45,4</p></td></tr><tr><td><p align=\"left\">Список файлов дерева</p></td><td><p align=\"left\">0,54</p></td><td><p align=\"left\">1,45</p></td></tr><tr><td><p align=\"left\"><code>git status</code></p></td><td><p align=\"left\">0,35</p></td><td><p align=\"left\">1,29</p></td></tr><tr><td><p align=\"left\">Копирование файла на 1 ГБ</p></td><td><p align=\"left\">2,50</p></td><td><p align=\"left\">4,57</p></td></tr></tbody></table></div></div><p>В упреждающем чтении была ошибка. Когда одновременно читались два больших файла, поток пула брал чужую задачу, пока ждал свои куски, повторно заходил в функцию расшифровки и натыкался на занятый буфер. Паника внутри задачи пула роняла весь процесс, и все открытые папки отключались. Она проявилась в проверке на GitHub, которая иногда падала без понятной причины. Тест, который читает восемь файлов параллельно, до исправления падал 5 раз из 5, после проходит.</p><h3>Как это сделано</h3><p>Фоновая программа <code>zamok-core</code>, файловая система и криптография написаны на Rust. Компилятор Rust не пропускает целый класс ошибок работы с памятью, которые в программе шифрования становятся уязвимостями. Мастер-ключи и ключи из пароля лежат в памяти, которую Windows не выгружает в файл подкачки. При запирании все ключи стираются через <code>zeroize</code>. Окна написаны на C# и WinUI 3. Установщик собран на WiX и ставит драйвер WinFsp, только если его ещё нет. Права администратора он просит один раз, ради драйвера, сам Zamok ставится для текущего пользователя.</p><h3>Что не готово</h3><p>Это альфа. Независимой проверки кода не было. Установщик пока без подписи, поэтому SmartScreen покажет предупреждение, а на Windows 11 с включённым интеллектуальным управлением приложениями Zamok не поставить. Подпись я собираюсь получить через SignPath Foundation, они бесплатно подписывают открытые проекты. </p><p>Сам Zamok к сети не обращается. К GitHub ходит только кнопка «Проверить обновления» в настройках и только по нажатию: один или два запроса к списку выпусков, ничего не скачивается.</p><p>Репозиторий и установщик: <a href=\"https://github.com/olerast67/zamok\" rel=\"noopener nofollow\">https://github.com/olerast67/zamok</a> <br/>Сайт: <a href=\"https://olerast67.github.io/zamok/ru/\" rel=\"noopener nofollow\">https://olerast67.github.io/zamok/ru/</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "шифрование папок"
+    },
+    {
+      "titleHtml": "Windows"
+    },
+    {
+      "titleHtml": "WinFsp"
+    },
+    {
+      "titleHtml": "Cryptomator"
+    },
+    {
+      "titleHtml": "Rust"
+    },
+    {
+      "titleHtml": "WinUI 3"
+    },
+    {
+      "titleHtml": "Проводник"
+    },
+    {
+      "titleHtml": "Windows Hello"
+    },
+    {
+      "titleHtml": "open source"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106330/46a560a4c69f55557a371055a8910aa3/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106330/46a560a4c69f55557a371055a8910aa3/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106330\\/\"},\"headline\":\"Как я сделал папку с паролем для Windows на WinFsp и формате Cryptomator\",\"datePublished\":\"2026-11-11T07:52:35+03:00\",\"dateModified\":\"2026-11-11T16:53:11+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Zamok это моя программа для шифрования папок в Windows. Достаточно нажать на папку правой кнопкой и выбрать «Зашифровать паролем», и после шифрования папка...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106330\\/#post-content-body\",\"about\":[\"h_infosecurity\",\"h_crypto\",\"h_open_source\",\"h_rust\",\"h_win_dev\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/4f\\/57\\/67\\/4f5767234eaa78112957b107c5de5842.png\",\"https:\\/\\/habrastorage.org\\/extt\\/7f\\/c6\\/10\\/7fc610de369acc0e19160e4c088de12c.png\",\"https:\\/\\/habrastorage.org\\/extt\\/30\\/68\\/7f\\/30687f0ad520a5cf05426c77db4762c4.png\",\"https:\\/\\/habrastorage.org\\/extt\\/94\\/e1\\/48\\/94e148ab984c251f007c0b320940d66a.png\",\"https:\\/\\/habrastorage.org\\/extt\\/28\\/6a\\/42\\/286a422607e29bc94749584f4c8158d2.png\"]}",
+    "metaDescription": "Zamok это моя программа для шифрования папок в Windows. Достаточно нажать на папку правой кнопкой и выбрать «Зашифровать паролем», и после шифрования папка остаётся на том же месте, но открывается...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 7,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

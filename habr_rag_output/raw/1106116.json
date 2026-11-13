@@ -1,0 +1,215 @@
+{
+  "id": "1106116",
+  "timePublished": "2026-11-11T16:03:13+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Борьба с ложными состояниями: взгляд из C++ на Rust‑дилеммы и реактивный код",
+  "leadData": {
+    "textHtml": "<p><strong>Хабр, привет!</strong></p><p> На днях наткнулся на отличную статью Никиты Тимофеенко <strong><a href=\"https://habr.com/ru/articles/1104958/\" rel=\"noopener nofollow\">«Вам не нужны bool и Option»</a></strong>. Автор со стороны Rust-разработки поднимает фундаментально правильный вопрос: кодировать состояния системы разрозненными флагами вроде <code>succeeded: bool</code> и <code>failed: bool</code> — это плохой тон, ведущий к трудноуловимым багам. Система типов должна делать некорректные состояния запрещенными на этапе компиляции.</p><p>В C++ сообществе эта идея, разумеется, тоже не нова. Мы давно и успешно оборачиваем подобные вещи в <code>std::variant</code>, используя <code>std::monostate</code> как аналог отсутствия значения (<code>можно задать псевдоним, например AbsentResult</code>).</p><p>Но читая статью и комментарии к ней, я поймал себя на мысли: <strong>мы, разработчики, слишком сильно увлеклись мощью современных компиляторов.</strong> Как только стандарты C++ (да и Rust) дали нам инструменты для зубодробительных compile-time проверок любых сущностей, мы начали пихать эти проверки везде, где нужно и не нужно.</p><p>В этой статье я хочу показать, как правильное использование <code>std::variant</code> может... замаскировать серьезную ошибку проектирования архитектуры. Как увлечение построением лучшей системы типов отвлекает нас от фундаментальных вопросов проектирования систем. Мы разберем, как классические стейт-машины при поллинге (polling) заставляют нас писать тонны шаблонного кода ради проверок, которых в этой точке программы <strong>вообще не должно существовать</strong>.</p>",
+    "imageUrl": "https://habrastorage.org/extt/31/44/92/31449204c8d9d117056eec07ba2df26c.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/31/44/92/31449204c8d9d117056eec07ba2df26c.png",
+      "fit": "cover",
+      "positionY": 16,
+      "positionX": 3
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3278321",
+    "alias": "rukhi7",
+    "fullname": "Сергей",
+    "avatarUrl": null,
+    "speciality": "software developer, радиоинженер",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 29,
+      "votesCount": 125
+    },
+    "rating": 10,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 8,
+    "favoritesCount": 14,
+    "readingCount": 2212,
+    "score": 9,
+    "votesCount": 9,
+    "votesCountPlus": 8,
+    "votesCountMinus": 1,
+    "reach": 8199,
+    "readers": 1699
+  },
+  "hubs": [
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "559",
+      "alias": "cpp",
+      "type": "collective",
+      "title": "C++",
+      "titleHtml": "C++",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "7504",
+      "alias": "refactoring",
+      "type": "collective",
+      "title": "Проектирование и рефакторинг",
+      "titleHtml": "Проектирование и рефакторинг",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "524",
+      "alias": "complete_code",
+      "type": "collective",
+      "title": "Качество кода",
+      "titleHtml": "Качество кода",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "18961",
+      "alias": "rust",
+      "type": "collective",
+      "title": "Rust",
+      "titleHtml": "Rust",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/1d/35/64/1d35643c97a17c87e53375a18e6df4ac.png\" width=\"825\" height=\"488\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1d/35/64/1d35643c97a17c87e53375a18e6df4ac.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/1d/35/64/1d35643c97a17c87e53375a18e6df4ac.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>На днях наткнулся на отличную статью Никиты Тимофеенко <a href=\"https://habr.com/ru/articles/1104958/\" rel=\"noopener nofollow\">«Вам не нужны bool и Option»</a> (далее <code>[1]</code>). Автор со стороны Rust‑разработки поднимает фундаментально правильный вопрос: кодировать состояния системы разрозненными флагами вроде <code>succeeded: bool</code> и <code>failed: bool</code> — это плохой тон, ведущий к трудноуловимым багам. Система типов должна делать некорректные состояния запрещенными на этапе компиляции.</p><p>В C++ сообществе эта идея, разумеется, тоже не нова. Мы давно и успешно оборачиваем подобные вещи в <code>std::variant</code>, используя <code>std::monostate</code> как аналог отсутствия значения (можно задать псевдоним, например <code>AbsentResult</code>).</p><p>Но читая статью и комментарии к ней, я поймал себя на мысли: <strong>мы, разработчики, слишком сильно увлеклись мощью современных компиляторов.</strong> Как только стандарты C++ (да и Rust) дали нам инструменты для зубодробительных compile‑time проверок любых сущностей, мы начали пихать эти проверки везде, где нужно и не нужно.</p><p>В этой статье я хочу показать, как правильное использование <code>std::variant</code> может... замаскировать серьезную ошибку проектирования архитектуры, и как увлечение построением идеальной системы типов отвлекает нас от фундаментальных вопросов проектирования систем. Мы разберем, как классические стейт‑машины при поллинге (polling) заставляют нас писать тонны шаблонного кода ради проверок, которых в этой точке программы <strong>вообще не должно существовать.</strong></p><hr/><p> <strong>От теории к практике C++: Строим безопасный мост</strong></p><p>Вернемся к примеру из статьи <code>[1]</code>. Допустим, мы моделируем состояние запущенной задачи обработки файла (интересный пример из той статьи). В Rust это был бы красивый <code>enum</code> с данными внутри. В C++ мы просто будем использовать этот <code>std::variant</code>:</p><pre><code class=\"cpp\">#include &lt;variant&gt;\n#include &lt;string&gt;\n\nusing AbsentResult = std::monostate; // Состояние \"еще выполняется / пусто\"\nstruct ErrorState { std::string message; };\nstruct GoodResult { int data; };\n\nusing PollVariant = std::variant&lt;AbsentResult, ErrorState, GoodResult&gt;;</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Мало кто задумывается о том, что <code>std::variant</code> — это фактически <code>enum</code>, жестко привязанный к набору типов. Значение определенного типа всегда сопровождается предопределенным числовым индексом, по которому и производится проверка: <em>«а какой тип сейчас хранит variant?»</em>. Это внутренний <code>enum</code> внутри <code>std::variant</code>, к которому разработчики C++ не догадались (или побоялись) дать прямой доступ по именам, хотя этот доступ все равно можно организовать штатными средствами языка.</p><blockquote><p><em>Замечание: комитет стандартизации C++ на самом деле дал нам этот доступ, но в своем, «шаблонном» стиле — через </em><code><em>std::variant_alternative</em></code><em> и метод </em><code><em>.index()</em></code><em>. Но они сделали его числовым, а не именованным.</em></p></blockquote><p>Если мы обрабатываем <code>std::variant</code> в функциональном стиле с помощью <code>std::visit</code> и паттерна <code>overloaded</code>, компилятор C++ полностью контролирует нас на этапе сборки. Но что, если нам по старинке нужна императивная стейт‑машина (например, она уже «прибита гвоздями» в легаси‑коде)? Что, если мы хотим использовать классический и понятный <code>switch</code> по индексу типа (<code>my_variant.index()</code>), но при этом не хотим закладываться на «магические числа» (<code>case 0</code>, <code>case 1</code>), которые сломаются при первом же изменении порядка типов в <code>using PollVariant</code>?</p><p>В идеальном мире мы бы хотели написать что‑то вроде <code>PollVariant::getTypeId&lt;ErrorState&gt;()</code>. Но в стандарте этого нет. Разработчики часто решают это созданием параллельного <code>enum</code>, где вручную синхронизируют порядок:</p><pre><code class=\"cpp\">// Хрупко! Если поменять местами типы в variant, \n// этот enum станет бомбой замедленного действия\nenum VariantType {\n    IndexAbsent = 0,\n    IndexError  = 1,\n    IndexGood   = 2\n};</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>В лучшем случае можно разместить этот <code>enum</code> в непосредственной близости с определением <code>PollVariant</code>. Но никакой реальной безопасности здесь, конечно, нет — это лишь иллюзия контроля. К счастью, C++ не был бы собой, если бы не позволял нам автоматизировать это на этапе компиляции.</p><h2>Магия constexpr: заставляем компилятор считать за нас</h2><p>Мы можем написать небольшую (по меркам C++ шаблоностроения) <code>constexpr</code>‑функцию, которая пробежится по альтернативам нашего <code>std::variant</code> прямо во время сборки программы и вернет точный индекс нужного типа.</p><p>Вот как это, достаточно изящно, выглядит в <strong>C++20</strong> с использованием fold expressions и шаблонных лямбд:</p><pre><code class=\"cpp\">#include &lt;iostream&gt;\n#include &lt;type_traits&gt;\n\n// Универсальный хелпер для поиска индекса типа T внутри Variant\ntemplate &lt;typename T, typename Variant&gt;\nconstexpr size_t get_variant_index() {\n    size_t index = 0;\n\n    // Лямбда-поиск: разворачиваем последовательность индексов\n    bool found = []&lt;size_t... Is&gt;(std::index_sequence&lt;Is...&gt;, auto&amp; idx) {\n        return ((std::is_same_v&lt;T, std::variant_alternative_t&lt;Is, Variant&gt;&gt; ? (idx = Is, true) : false) || ...);\n    }(std::make_index_sequence&lt;std::variant_size_v&lt;Variant&gt;&gt;{}, index);\n\n    if (!found) {\n        // Вызов метода, который завалит компиляцию, если тип не найден\n        throw \"Type not found in variant\"; \n    }\n    return index;\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><em>(Примечание для тех, кто работает на </em><strong>C++17</strong><em>: не расстраивайтесь, аналогичный трюк легко реализуется через классическую рекурсию шаблонов и </em><code>if constexpr</code><em> — компилятор сделает ровно то же самое).</em></p><p>А теперь смотрите, как красиво и стопроцентно безопасно мы объявляем наш <code>enum</code>:</p><pre><code class=\"cpp\">enum VariantType {\n    IndexAbsent = get_variant_index&lt;AbsentResult, PollVariant&gt;(),\n    IndexError  = get_variant_index&lt;ErrorState, PollVariant&gt;(),\n    IndexGood   = get_variant_index&lt;GoodResult, PollVariant&gt;()\n};</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Что мы получили?</p><ol><li><p><strong>Защита от изменений:</strong> если завтра наш коллега решит, что <code>GoodResult</code> должен идти первым в <code>std::variant</code>, наш <code>enum</code> перестроится автоматически при следующей сборке. <code>switch</code> не сломается.</p></li><li><p><strong>Защита от опечаток:</strong> если вы попытаетесь запросить <code>get_variant_index&lt;СовершенноДругойТип, PollVariant&gt;()</code>, код просто не скомпилируется.</p></li></ol><p>Теперь наш <code>switch</code> в стейт‑машине выглядит кристально чисто:</p><pre><code class=\"cpp\">void processResultWithSwitch(const PollVariant&amp; res) {\n    switch (res.index()) {\n        case IndexAbsent:\n            std::cout &lt;&lt; \"Статус: В процессе...\\n\";\n            break;\n        case IndexError:\n            std::cout &lt;&lt; \"Статус: Ошибка -&gt; \" &lt;&lt; \n              std::get&lt;ErrorState&gt;(res).message &lt;&lt; \"\\n\";\n            break;\n        case IndexGood:\n            std::cout &lt;&lt; \"Статус: Успех -&gt; \" &lt;&lt; \n              std::get&lt;GoodResult&gt;(res).data &lt;&lt; \"\\n\";\n            break;\n    }\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Казалось бы, победа! Мы укротили систему типов C++, написали безопасный, расширяемый код, подружили <code>std::variant</code> со старым добрым <code>switch</code> и гордо закрыли задачу.</p><p>А теперь давайте сделаем шаг назад, снимем украшенный рунами плащ метапрограммиста и посмотрим на то, <strong>что</strong> мы только что написали, с точки зрения здравого смысла и архитектуры. И вот здесь начинается самое интересное…</p><h2>Архитектурная слепота: Когда идеальные типы маскируют плохой дизайн</h2><p>Давайте внимательно посмотрим на состояние <code>IndexAbsent</code> (оно же <code>std::monostate</code> или <code>AbsentResult</code>). Зачем оно вообще появилось в нашем <code>std::variant</code>?</p><p>Ответ стандартный: <em>«Ну как же, у нас поллинг (polling)! Мы с определенной периодичностью опрашиваем какую‑то подсистему, поток или внешний сервис. Пока данные генерируются, читаются или парсятся из файла, нам возвращают вариант, который хранит </em><code><em>AbsentResult</em></code><em>. Как только всё готово — там появится результат или ошибка»</em>.</p><p>И вот здесь кроется фундаментальная архитектурная ошибка, которую не способен отловить ни один компилятор в мире — ни C++, ни Rust, никто.</p><p>Мы объединили <strong>динамику процесса</strong> (фазу ожидания) и <strong>статику результата</strong> (данные) в один тип. А затем заставили нашу стейт‑машину, поток или микросервис на каждом тике периода polling‑таймера выполнять проверку:</p><pre><code>[ Каждые 100 мс ]: «Так, что у нас там? Всё ещё AbsentResult? Ладно, ждем. \nЧто теперь? Опять AbsentResult? Ждем.\nЧто теперь? Опять AbsentResult? Ждем...»</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>На этом этапе сам результат еще не существует, соответственно, проверять его тип не имеет смысла.</p><blockquote><p><strong>Ошибка состоит в том, что </strong><code><strong>AbsentResult</strong></code><strong> — это вообще не состояние результата!</strong> Результата еще физически нет, и у него не может быть состояния. Это состояние <em>генератора</em> (мухи), за которым мы следим, пока он пытается этот результат (котлеты) создать!</p></blockquote><p>Даже если мы по какой‑то причине вынуждены работать через схему с опросом (polling), на этапе ожидания знание о типах результата (котлетах) будет только мешать и отвлекать нас от логики этой фазы. В нашей программе кроме <em>результата</em> (у которого есть состояния <code>Error</code> и <code>Good</code>) есть еще <em>генератор (муха)</em>, который создает этот результат (и у него свои состояния: <code>ready</code> / <code>pending</code>). Состояния этих совершенно разных сущностей никак нельзя было записывать в один общий <code>enum</code>. Это грубая ошибка — но не на уровне типов, а на уровне идентификации сущностей, которые действуют в программе.</p><p>А мы при поллинге получили многократные, абсолютно бессмысленные проверки на каждом шаге цикла ожидания. Мы написали зубодробительный шаблонный хелпер <code>get_variant_index</code> только для того, чтобы безопасно обрабатывать в <code>switch</code> состояние, которого <strong>в этой точке логики вообще не должно существовать</strong>!</p><p>Давайте визуализируем, как этот академический оверхед выглядит на практике:</p><pre><code>```text\n [ Цикл поллинга / Поток данных ]\n                 │\n                 ▼\n ┌──────────────────────────────────────────────┐\n │         Стейт-машина Ожидания                │\n │ ──────────────────────────────────────────── │\n │  Каждый тик проверяет PollVariant:           │\n │  - Это AbsentResult?  -&gt; (Ждем дальше...)   │\n │  - Это ErrorState?    -&gt; (Ой, обрабатываем!) │\n │  - Это GoodResult?    -&gt; (Ура, обрабатываем!)│ ◄── МНОГОКРАТНЫЙ ЛИШНИЙ ОВЕРХЕД!\n └──────────────────────────────────────────────┘     Фанаты контроля типов \n                                                      счастливы, разработчик \n                                                      пишет километры шаблонов.\n```</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h2>Разделяй и властвуй: Проектируем фазы, а не типы</h2><p>Стейт‑машина, которая занимается поллингом или ожиданием, должна быть <strong>унизительно простой</strong>. Её зона ответственности — отвечать на один‑единственный бинарный вопрос: <em>«Завершен ли процесс генерации?»</em>. Ей абсолютно плевать, каков результат этого завершения — успешный файл там или сетевая ошибка доступа.</p><p>Сложный, многовариантный тип вроде <code>std::variant&lt;ErrorState, GoodResult&gt;</code> должен рождаться на свет <strong>только в момент перехода в финальную фазу</strong>.</p><p>Если перепроектировать архитектуру правильно, разделив жизненный цикл на независимые фазы, картина кардинально меняется:</p><pre><code>```text\n  [ Фаза 1: Ожидание / Поллинг ]\n                 │\n                 ▼\n ┌──────────────────────────────────────────────┐\n │            Простая Стейт-машина              │\n │ ──────────────────────────────────────────── │\n │  Оперирует строго бинарным состоянием:       │ ◄── Никаких лишних проверок\n │  - Готово (Ready) / Не готово (Pending)      │     на каждом шаге!\n └──────────────────────────────────────────────┘\n                 │\n                 │ (Когда перешли в статус Ready)\n                 ▼\n  [ Фаза 2: Точка завершения (Single Shot) ]\n                 │\n                 ▼\n ┌──────────────────────────────────────────────┐\n │          Слой обработки результата           │\n │ ──────────────────────────────────────────── │\n │  Один раз (!) распаковываем данные:          │ ◄── std::variant / std::visit\n │  - Либо Успех (GoodResult)                   │     работают только здесь.\n │  - Либо Ошибка (ErrorState)                  │\n └──────────────────────────────────────────────┘\n```\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Посмотрите, что произошло:</p><ol><li><p><strong>Из </strong><code><strong>std::variant</strong></code><strong> полностью исчез </strong><code><strong>std::monostate</strong></code><strong>.</strong> Он больше не нужен. Вариант стал «чистым» контейнером результата: <code>std::variant&lt;ErrorState, GoodResult&gt;</code>, и его логично переименовать во что‑то вроде <code>ResultVariant</code> и ничего не мешает нам добавить еще альтернативы и ветки их обработки после генерации.</p></li><li><p><strong>В цикле поллинга больше нет никаких </strong><code><strong>switch</strong></code>, <code>overloaded</code> лямбд и проверок типов. Там остался простой <code>if (worker.is_ready())</code>.</p></li><li><p><strong>Тяжелая артиллерия</strong> в виде <code>std::visit</code> или <code>switch(res.index())</code> вызывается <strong>ровно один раз</strong> — в точке ленивой обработки результата, когда поллинг <em>уже</em> завершился.</p></li><li><p><strong>Невозможно перепутать сущности:</strong> Мы больше не можем перепутать состояния <code>is_ready</code> и <code>GoodResult</code>, просто потому что это состояния разных сущностей на разных фазах выполнения программы. Даже если вы замените оба на <code>true</code>, они разнесены по времени и объектам.</p></li><li><p><strong>Исключены невозможные комбинации:</strong> А что случилось с гипотетическим багом, когда генератор еще <code>not_ready</code>, а результат уже <code>GoodResult</code>? Теперь мы физически не можем создать объект результата ни с каким состоянием, пока генератор не перешел в статус <code>ready</code>. Мы отсекли это сочетание на уровне логики и последовательности исполнения кода.</p></li></ol><h2>Шаг к абсолютному дзену: Истинно реактивный подход</h2><p>Разделение поллинга на бинарное ожидание генератора и последующую обработку чистого результата — это хороший шаг вперед. Но давайте признаем честно: сам по себе поллинг (polling) — это всё ещё костыль из прошлого века. Нам все еще нужно тратить ресурсы процессора, чтобы периодически просыпаться и дергать систему глупым вопросом: <em>«Как там, готово?»</em>.</p><p>Так давайте сделаем следующий шаг и поднимемся на уровень архитектурного дзен‑совершенства. Зададим себе вопрос: а зачем нам вообще следить за генератором? Почему бы не заставить сам генератор постучаться к нам, когда он закончит?</p><p>Вот оно — <strong>истинно реактивное программирование</strong> в своей первозданной сути.</p><p>Под реактивностью, здесь, я имею в виду не модные библиотеки с километрами функциональных операторов, а фундаментальный принцип: <strong>код не нагружает и не тормозит систему тоннами polling‑запросов, а выдает реакцию строго в ответ на пришедшее событие (реагирует реактивно).</strong> Вызывающий поток либо мирно спит на средствах синхронизации (условных переменных, мьютексах, семафорах, <code>epoll</code>, фьючерсах,...), либо занимается другими полезными задачами. Он полностью освобожден от бремени контроля! Бонусом идет то, что события обрабатываются мгновенно, тогда как в системе с поллингом мы всегда рискуем получить задержку реакции, равную периоду опроса.</p><p>Давайте посмотрим, как эта асинхронная идиллия выглядит на схеме взаимодействия потоков:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/4d/21/52/4d21527ea3fae825843ebcef59c6e6ed.png\" alt=\"асинхронное взаимодействие - реактивная схема\" title=\"асинхронное взаимодействие - реактивная схема\" width=\"825\" height=\"488\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/4d/21/52/4d21527ea3fae825843ebcef59c6e6ed.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/4d/21/52/4d21527ea3fae825843ebcef59c6e6ed.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>асинхронное взаимодействие — реактивная схема</figcaption></div></figure><p>Посмотрите, как красиво всё встало на свои места:</p><ol><li><p><strong>Идеальное разделение сущностей:</strong> Вызывающий поток вообще ничего не знает про промежуточные состояния генератора. Для него фазы «генератор думает» просто не существует в коде — она инкапсулирована на уровне ОС или асинхронного фреймворка.</p></li><li><p><strong>Чистый контракт данных:</strong> <code>std::variant&lt;ErrorState, GoodResult&gt;</code> используется исключительно как безопасный конверт для передачи финального сообщения между потоками. В нем нет никакого <code>std::monostate</code>, потому что пустой конверт отправлять незачем.</p></li><li><p><strong>Нулевой оверхед:</strong> Обработчик просыпается ровно <strong>один раз</strong>. Мы вызываем <code>std::visit</code> или <code>switch</code> ровно <strong>один раз</strong>. Никаких холостых прокруток цикла, никаких проверок на каждом тике таймера.</p></li></ol><p>В реактивной схеме система типов C++ наконец‑то занимается своим прямым делом — безопасно описывает <em>результат</em>, а не пытается починить плохой дизайн управления потоками данных.</p><h2>Синдром «Космического корабля»</h2><p>Почему мы так часто наступаем на эти грабли? Мне кажется наличие невероятно мощных, сложных и увлекательных средств контроля типов, которые предлагают современные языки программирования, вызывает у разработчика непреодолимый зуд: надо обязательно использовать всё это богатство!</p><p>Возникает когнитивное искажение: <em>«Я же не зря купил космический корабль, надо лететь из Москвы в Питер через Южный полюс(заодно пингвинов посмотрю)! Раз компилятор позволяет нам написать compile‑time верификацию любой сложности, значит, код написан правильно»</em>.</p><p>Но это ловушка. <strong>Безопасность типов (Type Safety) не равна архитектурной корректности.</strong> Запихивая логику ожидания внутрь типа данных результата, мы маскируем плохой дизайн. Мы лечим симптомы вместо болезни: строим сложные шаблонные леса там, где нужно было просто провести четкую границу между фазами выполнения программы.</p><h2>Заключение: Вместо вывода</h2><p>И в Rust, и в C++ безопасные составные типы (<code>enum</code> с данными и <code>std::variant</code>) — это великолепный инструмент, который делает код читаемым и надежным <code>[1]</code>. Ошибочные состояния действительно нужно делать невыразимыми, ломающими компиляцию.</p><p>Но прежде чем бросаться кодить очередной зубодробительный шаблон или вложенный <code>std::visit</code>, сделайте шаг назад и задайте себе три вопроса:</p><ol><li><p><strong>Должно ли это состояние вообще существовать в этой подсистеме?</strong></p></li><li><p><strong>Нельзя ли сократить количество состояний, если разделить логику по фазам исполнения?</strong></p></li><li><p> <strong>А принадлежат ли эти состояния одной единственной сущности или мы собрали состояния мух и котлет в одном месте?</strong></p></li></ol><p>Эти вопросы могут оказаться гораздо важнее вопроса <em>«Как нам запретить состояния, которых не должно существовать?»</em>. Возможно, вместо того чтобы доказывать компилятору свою правоту с помощью метапрограммирования, стоит просто перепроектировать архитектуру так, чтобы лишних состояний не возникало логически‑физически.</p><p>А как вы боретесь с ложными состояниями в своих проектах? Не пробовали анализировать разделение функциональности между действующими сущностями программы? Как всегда, с благодарностью приму любые комментарии, критику и исправления.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "c++"
+    },
+    {
+      "titleHtml": "c++20"
+    },
+    {
+      "titleHtml": "rust"
+    },
+    {
+      "titleHtml": "архитектура"
+    },
+    {
+      "titleHtml": "проектирование"
+    },
+    {
+      "titleHtml": "стейт-машина"
+    },
+    {
+      "titleHtml": "реактивное программирование"
+    },
+    {
+      "titleHtml": "система типов"
+    },
+    {
+      "titleHtml": "качество кода"
+    },
+    {
+      "titleHtml": "variant"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106116/edaca9d49601412a8cdfd83dc37a22d4/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106116/edaca9d49601412a8cdfd83dc37a22d4/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106116\\/\"},\"headline\":\"Борьба с ложными состояниями: взгляд из C++ на Rust‑дилеммы и реактивный код\",\"datePublished\":\"2026-11-11T19:03:13+03:00\",\"dateModified\":\"2026-11-12T01:06:56+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"На&nbsp;днях наткнулся на&nbsp;отличную статью Никиты Тимофеенко «Вам не&nbsp;нужны bool и Option» (далее [1] ). Автор со стороны Rust‑разработки поднимает...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106116\\/#post-content-body\",\"about\":[\"h_programming\",\"h_cpp\",\"h_refactoring\",\"h_complete_code\",\"h_rust\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/1d\\/35\\/64\\/1d35643c97a17c87e53375a18e6df4ac.png\",\"https:\\/\\/habrastorage.org\\/extt\\/4d\\/21\\/52\\/4d21527ea3fae825843ebcef59c6e6ed.png\"]}",
+    "metaDescription": "На&nbsp;днях наткнулся на&nbsp;отличную статью Никиты Тимофеенко «Вам не&nbsp;нужны bool и Option» (далее [1] ). Автор со стороны Rust‑разработки поднимает фундаментально правильный вопрос: кодировать...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "opinion",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 11,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

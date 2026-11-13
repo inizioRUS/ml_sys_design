@@ -1,0 +1,158 @@
+{
+  "id": "1105494",
+  "timePublished": "2026-11-09T13:14:04+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Vue Skills",
+  "leadData": {
+    "textHtml": "<p>Каждый на проекте использует у себя какой-то ИИ. Они забирают у нас рутинную работу и часто делают одно и то же. Агенты стали намного умнее, но зачастую без описания они повторяют одни и те же ошибки вашего проекта. Каждый раз объяснять одно и то же устаешь. Представляю вам решение по skills для Vue-сегмента.</p>",
+    "imageUrl": "https://habrastorage.org/extt/52/ea/dc/52eadc9b6358cafed621c98499faa39a.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/52/ea/dc/52eadc9b6358cafed621c98499faa39a.png",
+      "fit": "cover",
+      "positionY": 2,
+      "positionX": 49
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "1815083",
+    "alias": "Pnym",
+    "fullname": "Басов Алексей",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/4a9/be6/176/4a9be6176d0d32517e241dfda191b474.jpeg",
+    "speciality": "Опытный Frontend-разработчик",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 13,
+      "votesCount": 19
+    },
+    "rating": 3.9,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 6,
+    "readingCount": 413,
+    "score": 2,
+    "votesCount": 5,
+    "votesCountPlus": 3,
+    "votesCountMinus": 2,
+    "reach": 6269,
+    "readers": 301
+  },
+  "hubs": [
+    {
+      "id": "21296",
+      "alias": "vuejs",
+      "type": "collective",
+      "title": "VueJS",
+      "titleHtml": "VueJS",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Каждый на проекте использует у себя какой-то ИИ. Они забирают у нас рутинную работу и часто делают одно и то же. Агенты стали намного умнее, но зачастую без описания они повторяют одни и те же ошибки вашего проекта. Каждый раз объяснять одно и то же устаешь. Представляю вам решение по skills для Vue-сегмента.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ac/2d/39/ac2d39151ba83aec487c1032407cd01a.png\" width=\"1536\" height=\"768\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ac/2d/39/ac2d39151ba83aec487c1032407cd01a.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ac/2d/39/ac2d39151ba83aec487c1032407cd01a.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><details class=\"spoiler\"><summary>Скрытый текст</summary><div class=\"spoiler__content\"><p>Я бы назвал это временным костылем, потому что в будущем в каждом продукте, библиотеке и даже в официальном решении будут предоставлять сразу же все ИИ-скиллы вместе!)</p></div></details><h2>Что такое vue-skills</h2><p><a href=\"https://vue-skills-f61328.gitlab.io/#/\" rel=\"noopener nofollow\">Vue Skills </a>- cборная солянка для презентации навыков во Vue. Каждый навык представляет собой markdown-файл с методологией: правила, таблицы выбора, примеры кода, антипаттерны и чек-лист.</p><p>Скиллы уже покрывают различные темы:</p><ul><li><p>Структура проекта</p></li><li><p>Готовые решения</p></li><li><p>Проектирование компонентов</p></li><li><p>и т.д.</p></li></ul><h2>Как попробовать</h2><p>Первый вариант, через <a href=\"https://www.npmjs.com/package/create-vue-skills?activeTab=readme\" rel=\"noopener nofollow\">npm</a>:</p><pre><code class=\"bash\">npx create-vue-skills</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/44/41/75/4441758fadaba2c6c70d11c8556189e7.png\" width=\"765\" height=\"528\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/44/41/75/4441758fadaba2c6c70d11c8556189e7.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/44/41/75/4441758fadaba2c6c70d11c8556189e7.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><div class=\"floating-image\"><p>Второй вариант, через <a href=\"https://vue-skills-f61328.gitlab.io/#/\" rel=\"noopener nofollow\">сайт</a>.  Навыбор у вас есть: каталог с поиском, информация вся, конструктор. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/90/b2/98/90b298c202a7849300eee3cf901adbe6.png\" width=\"678\" height=\"383\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/90/b2/98/90b298c202a7849300eee3cf901adbe6.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/90/b2/98/90b298c202a7849300eee3cf901adbe6.png 781w\" loading=\"lazy\" decode=\"async\"/></figure></div><details class=\"spoiler\"><summary>Скрытый текст</summary><div class=\"spoiler__content\"><p>В данный момент это первая публикация, где проект дальше будет развиваться. Хотелось бы услышать ваше мнение. Возможно, у вас есть крутые готовые скиллы и вы бы и предоставить. </p><p>Мы знаем, что скиллы - это не готовое решение. Мое мнение такое: если вы полностью доверяете ИИ, то в код лучше не заглядывать. Для меня лично ИИ - это помощник, а не волшебная палочка. За код нужно отвечать, для этого и придумали профессию разработчика. Только разработчик понимает, что написано в коде (не тестировщик, не аналитик - никто не может за вас заглянуть в код!)</p></div></details><h2>Планы</h2><p>В планах - дальше развивать проект, прокачивать нужные скиллы, делать рефакторинг. Впереди ждет долгий и тяжелый путь, который не за один день преодолевается. Дорогой читатель, обязательно наберись терпения и подключайся к обсуждению, твое мнение очень важно для меня.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "vue"
+    },
+    {
+      "titleHtml": "skills"
+    },
+    {
+      "titleHtml": "frontend ai integration"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105494/4dfd6f0821c65e623c8c8899e0eb7af5/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105494/4dfd6f0821c65e623c8c8899e0eb7af5/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105494\\/\"},\"headline\":\"Vue Skills\",\"datePublished\":\"2026-11-09T16:14:04+03:00\",\"dateModified\":\"2026-11-10T18:33:08+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Каждый на проекте использует у себя какой-то ИИ. Они забирают у нас рутинную работу и часто делают одно и то же. Агенты стали намного умнее, но зачастую без...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105494\\/#post-content-body\",\"about\":[\"h_vuejs\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/ac\\/2d\\/39\\/ac2d39151ba83aec487c1032407cd01a.png\",\"https:\\/\\/habrastorage.org\\/extt\\/44\\/41\\/75\\/4441758fadaba2c6c70d11c8556189e7.png\",\"https:\\/\\/habrastorage.org\\/extt\\/90\\/b2\\/98\\/90b298c202a7849300eee3cf901adbe6.png\"]}",
+    "metaDescription": "Каждый на проекте использует у себя какой-то ИИ. Они забирают у нас рутинную работу и часто делают одно и то же. Агенты стали намного умнее, но зачастую без описания они повторяют одни и те же ошибки...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "opinion",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "4",
+    "title": "Фронтенд",
+    "alias": "frontend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

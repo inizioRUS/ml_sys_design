@@ -1,0 +1,170 @@
+{
+  "id": "1105696",
+  "timePublished": "2026-11-09T19:40:46+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Claude Fable 5.2 и Claude Mythos 5.2 вышли и взломали математику: как использовать в России без блокировки Anthropic",
+  "leadData": {
+    "textHtml": "<p>9 ноября 2026 года Anthropic представила Claude Fable 5.2 и Claude Mythos 5.2. Компания обновила модели для сложных технических задач: разработки программ, научных исследований и проектирования электроники. По заявлению Anthropic, они работают быстрее предыдущих версий, а базовая стоимость обработки токенов снизилась на 20%.</p>",
+    "imageUrl": null,
+    "buttonTextHtml": "Читать далее",
+    "image": null
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "6069166",
+    "alias": "RAGnul",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": -1,
+      "votesCount": 5
+    },
+    "rating": 2.3,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 3105,
+    "score": 1,
+    "votesCount": 3,
+    "votesCountPlus": 2,
+    "votesCountMinus": 1,
+    "reach": 9627,
+    "readers": 2491
+  },
+  "hubs": [
+    {
+      "id": "24016",
+      "alias": "speshu_ai",
+      "type": "corporative",
+      "title": "Блог компании SpeShu.AI",
+      "titleHtml": "Блог компании SpeShu.AI",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>9 ноября 2026 года Anthropic представила Claude Fable 5.2 и Claude Mythos 5.2. Компания обновила модели для сложных технических задач: разработки программ, научных исследований и проектирования электроники. По заявлению Anthropic, они работают быстрее предыдущих версий, а базовая стоимость обработки токенов снизилась на 20%.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/48/2a/90/482a90e82a1bcf94eeaae796deed27e8.jpg\" width=\"780\" height=\"440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/48/2a/90/482a90e82a1bcf94eeaae796deed27e8.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/48/2a/90/482a90e82a1bcf94eeaae796deed27e8.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Чем Fable 5.2 отличается от Mythos 5.2</h3><p>За двумя названиями стоит одна базовая модель. Разница заключается в защитных механизмах и условиях доступа.</p><p>Fable предназначена для широкого использования, поэтому часть запросов, связанных с кибербезопасностью и биологией, ограничена. Mythos даёт больше возможностей в этих областях, но доступ к ней получают прошедшие проверку специалисты и организации.</p><p>В документации Anthropic Fable 5.2 отводится роль модели для сложных рассуждений и длительной агентной работы. Для большинства повседневных задач компания по‑прежнему рекомендует начинать с Opus 5.5 и переходить к Fable, если возможностей Opus недостаточно. </p><p>Согласно <a href=\"https://platform.claude.com/docs/en/models/fable-5-2/overview?utm_source=chatgpt.com\">карточке Fable 5.2</a>, её контекстное окно составляет миллион токенов, максимальный объём ответа — 128 тысяч. Модель принимает текст и изображения, возвращает текст и поддерживает вызов инструментов. Она доступна через Claude API и платформы AWS, Google Cloud и Microsoft Foundry. Идентификатор в API — <code>claude-fable-5-2</code>. </p><p>Такое позиционирование помогает понять смысл обновления: основная аудитория — пользователи, которым нужно поручить модели большой проект с несколькими этапами, зависимостями и проверками результата.</p><h3>От отдельных правок к работе над проектом</h3><p>В анонсе Anthropic приводит пример миграции рабочего сервиса с Python на Rust. Над ней работала команда агентов на ранней версии Fable 5.2. По данным компании, после переноса сервис стал запускаться примерно в 26 раз быстрее. Это результат конкретного проекта, который нельзя переносить на любую миграцию между этими языками.</p><p>Другой эксперимент длился восемь дней: модель координировала более тысячи субагентов, разрабатывавших прототип операционной системы. Anthropic сообщает, что он загружается на ноутбуке и включает собственное ядро, драйверы, файловое хранилище и графический интерфейс. Однако демонстрация прототипа сама по себе не подтверждает его готовность к повседневной эксплуатации.</p><p>Для обычной работы с кодом масштаб таких экспериментов избыточен. В <a href=\"https://speshu.ai/?utm_source=media&amp;utm_medium=habrcorp&amp;utm_campaign=claude-fable-5-2\">SpeShu.AI</a> можно использовать доступные модели Claude для разбора фрагмента программы, поиска ошибок и подготовки исправлений. Начать удобно с небольшой задачи с проверяемым результатом — например, объяснить сбой и предложить правку. Так проще оценить пользу модели для своего проекта. </p><h3>Что показали тесты</h3><p>В отчёте Anthropic приведены следующие результаты. В таблице — оценки Fable, а не специализированных возможностей Mythos.</p><div><div class=\"table\"><table><tbody><tr></tr></tbody></table></div></div><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/90/36/a8/9036a83d64eb92313de134e0effa9269.jpg\" width=\"1111\" height=\"941\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/90/36/a8/9036a83d64eb92313de134e0effa9269.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/90/36/a8/9036a83d64eb92313de134e0effa9269.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Тест</p></th><th><p align=\"left\">Что проверяет</p></th><th><p align=\"left\">Fable 5.2</p></th><th><p align=\"left\">Fable 5.1</p></th><th><p align=\"left\">Opus 5.5</p></th></tr><tr><td><p align=\"left\">FrontierCode 2.0</p></td><td><p align=\"left\">Работа над изменениями в программных проектах</p></td><td><p align=\"left\">49,1%</p></td><td><p align=\"left\">32,4%</p></td><td><p align=\"left\">45,5%</p></td></tr><tr><td><p align=\"left\">FrontierSWE v2</p></td><td><p align=\"left\">Агентные задачи разработки</p></td><td><p align=\"left\">69,9%</p></td><td><p align=\"left\">56,3%</p></td><td><p align=\"left\">62,3%</p></td></tr><tr><td><p align=\"left\">AutomationBench</p></td><td><p align=\"left\">Автоматизация бизнес‑процессов</p></td><td><p align=\"left\">51,4%</p></td><td><p align=\"left\">31,4%</p></td><td><p align=\"left\">42,5%</p></td></tr><tr><td><p align=\"left\">Humanity’s Last Exam, с инструментами</p></td><td><p align=\"left\">Сложные вопросы из разных научных дисциплин</p></td><td><p align=\"left\">74,2%</p></td><td><p align=\"left\">65,6%</p></td><td><p align=\"left\">67,7%</p></td></tr></tbody></table></div></div><p>Это результаты, опубликованные разработчиком. Условия и уровни вычислительных усилий различаются между тестами; например, для FrontierCode указаны лучшие результаты моделей при разных настройках. Проценты характеризуют выполнение заданий конкретного набора, а не общую вероятность правильного ответа.</p><p>Для рабочего проекта из этого следует практический критерий: сравнивать модели стоит на одинаковых собственных задачах, учитывая принятые исправления, время проверки и стоимость повторных попыток.</p><p>Мы следим за релизами, чтобы вы могли быстро переходить от новостей к собственным тестам. В <a href=\"https://speshu.ai/?utm_source=media&amp;utm_medium=habrcorp&amp;utm_campaign=claude-fable-5-2\"><strong>SpeShu.AI</strong> </a>свежие модели появляются в считаные минуты после открытия доступа для подключения. Можно сразу проверить новинку на привычных задачах: разобрать код, подготовить текст или проанализировать документ — и оценить, что изменилось именно в вашей работе.</p><h3>Тысяча агентов и доказательство теоремы Ферма</h3><p>В <a href=\"https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/\">отдельном эксперименте</a> команда из тысячи агентов на ранней версии Fable 5.2 завершила формализацию доказательства Великой теоремы Ферма примерно за 29 часов.</p><p>Речь идёт о переводе доказательства в форму, которую проверяет система Lean. У агентов были математическая библиотека, список промежуточных утверждений, определения и 47 ранее доказанных лемм. Каждый работал в отдельной изолированной среде без доступа к интернету, а для координации использовались Git и общая база PostgreSQL.</p><p>Этот опыт интересен устройством совместной работы. Агенты распределяли задачи, сохраняли промежуточные результаты и дробили трудные утверждения на более мелкие. Вместе с тем исследователи отмечают, что агенты могли неверно оценивать сложность и преждевременно считать задачу невыполнимой. Поэтому результат не отменяет пользы человеческого руководства и специализированных инструментов.</p><h3>Как Claude проектировала электронику</h3><p>Ещё один <a href=\"https://www.anthropic.com/research/claude-electronics-design\">проект Anthropic и Diode</a> показывает применение модели за пределами разработки ПО. Fable 5.2 поручили спроектировать три устройства: домашний голосовой помощник, USB‑спикерфон и карманный гаджет с виртуальным питомцем.</p><p>Модель подбирала компоненты, разрабатывала печатные платы, проектировала корпуса и писала прошивки. В процессе она обращалась к документации производителей, проверяла совместимость деталей и переделывала неудачные решения. Например, при проектировании спикерфона проверила, удастся ли установить плату в корпус с учётом выступающего переключателя.</p><p>Физическое изготовление, сборку и испытания выполняли инженеры Diode. По сообщению Anthropic, все три прототипа заработали без исправлений электрических схем.</p><p>До готового коммерческого продукта при этом остаётся несколько этапов. Устройства не прошли полный цикл электрических и тепловых испытаний, настройку антенн и сертификацию. Их также не проектировали для массового производства. Эксперимент показывает возможности подготовки прототипа, а не завершённый процесс выпуска товара.</p><h3>Сколько стоят новые модели</h3><p>Согласно <a href=\"https://platform.claude.com/docs/en/about-claude/pricing?utm_source=chatgpt.com\">официальным тарифам</a>, стандартная цена Fable 5.2 и Mythos 5.2 составляет $8 за миллион входных токенов и $40 за миллион выходных. У версий 5.1 эти показатели равнялись $10 и $50 соответственно.</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Модель и режим</p></th><th><p align=\"left\">Миллион входных токенов</p></th><th><p align=\"left\">Миллион выходных токенов</p></th></tr><tr><td><p align=\"left\">Fable 5.2 / Mythos 5.2, стандартный режим</p></td><td><p align=\"left\">$8</p></td><td><p align=\"left\">$40</p></td></tr><tr><td><p align=\"left\">Fable 5.2 / Mythos 5.2, Fast mode</p></td><td><p align=\"left\">$16</p></td><td><p align=\"left\">$80</p></td></tr><tr><td><p align=\"left\">Fable 5.1 / Mythos 5.1, стандартный режим</p></td><td><p align=\"left\">$10</p></td><td><p align=\"left\">$50</p></td></tr></tbody></table></div></div><p>Тарифы приведены для API; условия облачных площадок и дополнительные услуги могут влиять на итоговую стоимость. <a href=\"https://platform.claude.com/docs/en/about-claude/pricing?utm_source=chatgpt.com\">Claude Platform Docs</a></p><p>В обычном режиме новые модели, по данным Anthropic, генерируют токены до 30% быстрее предшественников. Дополнительный Fast mode ускоряет генерацию до 2,5 раза относительно стандартного режима, но удваивает указанные тарифы.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d2/f1/dc/d2f1dc549c6295fdfdd92865ecddc0e0.jpg\" width=\"1107\" height=\"940\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d2/f1/dc/d2f1dc549c6295fdfdd92865ecddc0e0.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/d2/f1/dc/d2f1dc549c6295fdfdd92865ecddc0e0.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Скорость генерации токенов не равна скорости завершения проекта: агенту также требуется время на запуск инструментов, тестирование и исправление ошибок. Аналогично снижение тарифа на 20% не гарантирует такого же уменьшения итогового счёта. Он зависит от объёма контекста, длины ответов, использования кэша и числа повторных запусков.</p><h3>Доступ к Mythos и работа с данными</h3><p>Для расширенных кибервозможностей Mythos предусмотрена <a href=\"https://support.claude.com/en/articles/14604842-cyber-verification-program?utm_source=chatgpt.com\">Cyber Verification Program</a>. В ней проверяются заявитель, характер его работы и соблюдение требований безопасности. Для исследований в области наук о жизни действует отдельная программа.</p><p>При этом обычные модели Claude тоже можно использовать для защитных задач: анализа собственного исходного кода, исправления известных ошибок и разбора предупреждений безопасности. Проверка требуется для доступа к более широким возможностям, а не для любого обсуждения уязвимостей. </p><p>Ещё один существенный вопрос для компаний — хранение запросов и ответов. Anthropic объясняет, что выявление сложных злоупотреблений требует анализа последовательности обращений. В документации Fable 5.2 указан стандартный срок хранения 30 дней; исключения требуют отдельного разрешения Anthropic. </p><p>Для подходящих корпоративных клиентов компания развивает <a href=\"https://www.anthropic.com/news/enterprise-frontier-safeguards?utm_source=chatgpt.com\">Enterprise Frontier Safeguards</a>. Данные для мониторинга могут храниться в облачной инфраструктуре клиента под его контролем, а сигналы о подозрительной активности передаются его специалистам. Это отдельная корпоративная схема, условия которой следует уточнять при подключении. <a href=\"http://anthropic.com\">anthropic.com</a></p><h3>Что это меняет для пользователя</h3><p>Практическая ценность Fable 5.2 проявится там, где модель сможет довести длинную задачу до проверяемого результата: подготовить работающую правку, согласовать изменения между компонентами или пройти несколько итераций проектирования. Для выбора инструмента полезнее измерить такой результат на своём материале, чем ориентироваться только на место в таблице тестов.</p><p>В <a href=\"https://speshu.ai/?utm_source=media&amp;utm_medium=habrcorp&amp;utm_campaign=claude-fable-5-2\">Спешу АИ</a> доступны нейросети для работы с текстами, документами и кодом в одном сервисе. Подписывайтесь на наш блог: мы разбираем обновления моделей и показываем, какие их возможности можно применять в повседневной работе.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "anthropic"
+    },
+    {
+      "titleHtml": "claude"
+    },
+    {
+      "titleHtml": "Claude Fable 5.2"
+    },
+    {
+      "titleHtml": "Claude Mythos 5.2"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    },
+    {
+      "titleHtml": "нейросети"
+    },
+    {
+      "titleHtml": "большие языковые модели"
+    },
+    {
+      "titleHtml": "автоматизация разработки"
+    },
+    {
+      "titleHtml": "блокировки anthropic"
+    },
+    {
+      "titleHtml": "как использовать в россии"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105696/d942aa8f91fb5d9c2e63a895bb558999/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105696/d942aa8f91fb5d9c2e63a895bb558999/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/speshu_ai\\/articles\\/1105696\\/\"},\"headline\":\"Claude Fable 5.2 и Claude Mythos 5.2 вышли и взломали математику: как использовать в России без блокировки Anthropic\",\"datePublished\":\"2026-11-09T22:40:46+03:00\",\"dateModified\":\"2026-11-10T02:15:50+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"9&nbsp;ноября 2026&nbsp;года Anthropic представила Claude Fable 5.2&nbsp;и Claude Mythos 5.2. Компания обновила модели для&nbsp;сложных технических задач:...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/speshu_ai\\/articles\\/1105696\\/#post-content-body\",\"about\":[\"c_speshu_ai\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/48\\/2a\\/90\\/482a90e82a1bcf94eeaae796deed27e8.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/90\\/36\\/a8\\/9036a83d64eb92313de134e0effa9269.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/d2\\/f1\\/dc\\/d2f1dc549c6295fdfdd92865ecddc0e0.jpg\"]}",
+    "metaDescription": "9&nbsp;ноября 2026&nbsp;года Anthropic представила Claude Fable 5.2&nbsp;и Claude Mythos 5.2. Компания обновила модели для&nbsp;сложных технических задач: разработки программ, научных исследований и...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 6,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

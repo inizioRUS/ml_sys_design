@@ -1,0 +1,164 @@
+{
+  "id": "1106164",
+  "timePublished": "2026-11-10T13:53:34+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "«Лествица» в Steam: Disco-like RPG о внутренней борьбе и тайнах Русского Севера",
+  "leadData": {
+    "textHtml": "<p>Сегодня, 10 ноября, в Steam выходит первая глава «Лествицы» от студии «Хорошие игры». Это бесплатный мистический детектив, действие которого разворачивается на Русском Севере в начале 2000-х.</p>",
+    "imageUrl": "https://habrastorage.org/extt/ba/a6/96/baa696da41580d7e93102b6053a995a1.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/ba/a6/96/baa696da41580d7e93102b6053a995a1.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5123045",
+    "alias": "Berlogames_25",
+    "fullname": "НКФП «Берлога»",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/ade/070/24c/ade07024c30b9c8c9b8ffa62ad02fabd.png",
+    "speciality": "Полезные видеоигры",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 11,
+      "votesCount": 35
+    },
+    "rating": 1.2,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 5,
+    "readingCount": 765,
+    "score": 2,
+    "votesCount": 4,
+    "votesCountPlus": 3,
+    "votesCountMinus": 1,
+    "reach": 7920,
+    "readers": 606
+  },
+  "hubs": [
+    {
+      "id": "21980",
+      "alias": "games",
+      "type": "collective",
+      "title": "Игры и игровые консоли",
+      "titleHtml": "Игры и игровые консоли",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Сегодня, 10 ноября, в Steam выходит первая глава «Лествицы» от студии «Хорошие игры». Это бесплатный мистический детектив, действие которого разворачивается на Русском Севере в начале 2000-х.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ee/4b/76/ee4b763252f8125f47c57ace02c4cb27.png\" width=\"1079\" height=\"607\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ee/4b/76/ee4b763252f8125f47c57ace02c4cb27.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ee/4b/76/ee4b763252f8125f47c57ace02c4cb27.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Проект доступен на ПК и работает на движке Unity. Премьерный релиз состоялся неделю назад на <a href=\"https://vkplay.ru/play/game/lestvica-prolog-48723/\" rel=\"noopener nofollow\">VK Play</a>: пользователи российской платформы могли первыми пройти первую главу игры и поделиться опытом.</p><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af3243d2a2228dac47198fc\" data-style=\"\" id=\"6af3243d2a2228dac47198fc\" width=\"\" data-habr-games=\"\"></div><p><strong>Расследуйте кражу и измените будущее</strong></p><p>В центре сюжета — 17-летний парень по имени Алексей. В его родном городе Синицке украдена древняя икона, а главным подозреваемым стал отец героя. Пока подросток, которого никто не воспринимает всерьёз, пытается разобраться, бесы затягивают город во мрак.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/4d/cd/b5/4dcdb5bdd9fa83b726f34d1e4ce2c1aa.png\" width=\"1153\" height=\"607\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/4d/cd/b5/4dcdb5bdd9fa83b726f34d1e4ce2c1aa.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/4d/cd/b5/4dcdb5bdd9fa83b726f34d1e4ce2c1aa.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>От таинственного незнакомца Алексей получает дар прозревать в прошлое. Временные прыжки в эпоху Древней Руси помогают ему понять корни проблем настоящего и открыть тайны, о которых горожане предпочли забыть.</p><p><strong>Как устроен геймплей</strong></p><p>«Лествица» — первая глава нарративной RPG, где диалоги и внутренняя борьба героя становятся полноценной механикой. Вместо очков опыта работает связка устойчивых идей героя и борьбы добродетелей и страстей.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/05/4b/8b/054b8b6858b3c9cd197a2d141341a180.png\" width=\"1079\" height=\"607\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/05/4b/8b/054b8b6858b3c9cd197a2d141341a180.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/05/4b/8b/054b8b6858b3c9cd197a2d141341a180.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Когда вы выбираете реплику или действие, срабатывает активная проверка навыков. Успех зависит от того, насколько сознательный у вас персонаж. Внутренние голоса Алексея — его добродетели и страсти — проводят пассивные проверки: работают сами по себе, без вашего участия. Они спорят, комментируют действия или дают советы прямо во время разговора. Вы можете к ним прислушаться или проигнорировать.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ce/77/6d/ce776dc99b85267384c7310f5b0e63b9.png\" width=\"1079\" height=\"607\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ce/77/6d/ce776dc99b85267384c7310f5b0e63b9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ce/77/6d/ce776dc99b85267384c7310f5b0e63b9.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Как вы меняете личность героя</strong></p><p>Ваши решения напрямую влияют на то, каким человеком станет Алексей. Загляните в «Древо Души». </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/62/5c/15/625c1500695617fe2cea31b713b0ac37.png\" width=\"1079\" height=\"607\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/62/5c/15/625c1500695617fe2cea31b713b0ac37.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/62/5c/15/625c1500695617fe2cea31b713b0ac37.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Ваше прохождение наполняет его мыслями, укрепляет положительные качества или, наоборот, разжигает пороки. В зависимости от этого меняется поведение героя, открываются новые реплики, реакции, навыки.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/25/03/e2/2503e2815122c19441737f1ba7e6b31a.png\" width=\"1079\" height=\"607\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/25/03/e2/2503e2815122c19441737f1ba7e6b31a.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/25/03/e2/2503e2815122c19441737f1ba7e6b31a.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Что говорят игроки</strong></p><p>За неделю в <a href=\"https://vkplay.ru/play/game/lestvica-prolog-48723/\" rel=\"noopener nofollow\">VK Play</a> пользователи оценили игру на 9,7 из 10. Ценители нарративных игр хвалят визуал: локации отлично передают дух нулевых. Тексты и детали получают позитивные отклики за глубину и адаптацию диско-механик под местный колорит. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/52/83/91/528391c3cc31d75429c325da0d74373d.png\" width=\"1079\" height=\"607\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/52/83/91/528391c3cc31d75429c325da0d74373d.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/52/83/91/528391c3cc31d75429c325da0d74373d.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Большинство хочет продолжения, т.к. основной сюжет занимает от часа на спидране до двух-трех часов, в зависимости от скорости чтения, прохождения квестов и разных веток.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/83/d0/d3/83d0d309e1bc5a816e4e45cdb2524fca.png\" width=\"935\" height=\"313\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/83/d0/d3/83d0d309e1bc5a816e4e45cdb2524fca.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/83/d0/d3/83d0d309e1bc5a816e4e45cdb2524fca.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Для студии «Хорошие игры» «Лествица» стала дебютным проектом на ПК. Это первая часть мистического расследования и приключение только начинается.</p><p>Сможете ли вы раскрыть тайну кражи и не потерять себя? Пройдите этот путь самостоятельно.</p><p>Скачать в Steam: <a href=\"https://store.steampowered.com/app/5446260/Lestvitsa/\" rel=\"noopener nofollow\">https://store.steampowered.com/app/5446260/Lestvitsa/</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "лествица"
+    },
+    {
+      "titleHtml": "rpg"
+    },
+    {
+      "titleHtml": "инди-игры"
+    },
+    {
+      "titleHtml": "Steam"
+    },
+    {
+      "titleHtml": "нарративные игры"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106164/ac35901f07bf9a85403707313420c505/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106164/ac35901f07bf9a85403707313420c505/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106164\\/\"},\"headline\":\"«Лествица» в Steam: Disco-like RPG о внутренней борьбе и тайнах Русского Севера\",\"datePublished\":\"2026-11-10T16:53:34+03:00\",\"dateModified\":\"2026-11-10T17:03:58+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Сегодня, 10 ноября, в Steam выходит первая глава «Лествицы» от студии «Хорошие игры». Это бесплатный мистический детектив, действие которого разворачивается на...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106164\\/#post-content-body\",\"about\":[\"h_games\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/ee\\/4b\\/76\\/ee4b763252f8125f47c57ace02c4cb27.png\",\"https:\\/\\/habrastorage.org\\/extt\\/4d\\/cd\\/b5\\/4dcdb5bdd9fa83b726f34d1e4ce2c1aa.png\",\"https:\\/\\/habrastorage.org\\/extt\\/05\\/4b\\/8b\\/054b8b6858b3c9cd197a2d141341a180.png\",\"https:\\/\\/habrastorage.org\\/extt\\/ce\\/77\\/6d\\/ce776dc99b85267384c7310f5b0e63b9.png\",\"https:\\/\\/habrastorage.org\\/extt\\/62\\/5c\\/15\\/625c1500695617fe2cea31b713b0ac37.png\",\"https:\\/\\/habrastorage.org\\/extt\\/25\\/03\\/e2\\/2503e2815122c19441737f1ba7e6b31a.png\",\"https:\\/\\/habrastorage.org\\/extt\\/52\\/83\\/91\\/528391c3cc31d75429c325da0d74373d.png\",\"https:\\/\\/habrastorage.org\\/extt\\/83\\/d0\\/d3\\/83d0d309e1bc5a816e4e45cdb2524fca.png\"]}",
+    "metaDescription": "Сегодня, 10 ноября, в Steam выходит первая глава «Лествицы» от студии «Хорошие игры». Это бесплатный мистический детектив, действие которого разворачивается на Русском Севере в начале 2000-х. Проект...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "16",
+    "title": "Геймдев",
+    "alias": "gamedev"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

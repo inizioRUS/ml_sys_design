@@ -1,0 +1,221 @@
+{
+  "id": "1105562",
+  "timePublished": "2026-11-09T14:43:12+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Один телефон, несколько узких мест: как раздать все 450 Мбит/с 5G",
+  "leadData": {
+    "textHtml": "<p><em>От 100-мегабитного порта роутера до ECMP: что ограничивало раздачу и как каналы сложились.</em></p><p>Дома интернет приходит только через телефон: на нём 5G давал около 450 Мбит/с, а компьютер через роутер получал 96–98. Я хотел забрать на компьютер всю доступную скорость и проверил по отдельности USB-модем, роутер и прямое подключение к точке доступа телефона. Затем объединил эти пути: в speedtest загрузка дошла до 456 Мбит/с. Ниже — замеры, ограничения каждого подключения и то, как схема работает, когда телефон уносят от компьютера.</p>",
+    "imageUrl": "https://habrastorage.org/extt/87/29/4f/87294fa33e7aafa7a5374efc45fd9566.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/87/29/4f/87294fa33e7aafa7a5374efc45fd9566.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "sandbox",
+      "typeOf": "system",
+      "title": "Из песочницы",
+      "data": {
+        "url": null
+      }
+    }
+  ],
+  "author": {
+    "id": "850822",
+    "alias": "Byh",
+    "fullname": "Roman",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 0,
+      "votesCount": 2
+    },
+    "rating": 3,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "4K+"
+  },
+  "statistics": {
+    "commentsCount": 7,
+    "favoritesCount": 9,
+    "readingCount": 691,
+    "score": 3,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 6805,
+    "readers": 501
+  },
+  "hubs": [
+    {
+      "id": "17123",
+      "alias": "network_technologies",
+      "type": "collective",
+      "title": "Сетевые технологии",
+      "titleHtml": "Сетевые технологии",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17201",
+      "alias": "wireless",
+      "type": "collective",
+      "title": "Беспроводные технологии",
+      "titleHtml": "Беспроводные технологии",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "7312",
+      "alias": "virtualization",
+      "type": "collective",
+      "title": "Виртуализация",
+      "titleHtml": "Виртуализация",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "7289",
+      "alias": "nix",
+      "type": "collective",
+      "title": "*nix",
+      "titleHtml": "*nix",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><em>От 100-мегабитного порта роутера до ECMP: что ограничивало раздачу и как каналы сложились.</em></p><p>Дома интернет приходит только через телефон: на нём 5G давал около 450 Мбит/с, а компьютер через роутер получал 96–98. Я хотел забрать на компьютер всю доступную скорость и проверил по отдельности USB-модем, роутер и прямое подключение к точке доступа телефона. Затем объединил эти пути: в speedtest загрузка дошла до 456 Мбит/с. Ниже — замеры, ограничения каждого подключения и то, как схема работает, когда телефон уносят от компьютера.</p><h3>С чего всё началось</h3><p>Интернет дома только мобильный: 5G на телефоне Motorola moto g54, который я ношу с собой по дому. Работаю в виртуальной машине на Proxmox.</p><p>Сначала точку доступа телефона принимал недорогой USB Wi‑Fi адаптер, подключённый к VM. Антенна у него встроенная, приём слабый: стоило отойти с телефоном метров на пять, и связь обрывалась. Тогда я подключил к серверу кабелем роутер Tenda AC6 в режиме Wi‑Fi‑клиента (WISP). Он принимает интернет с телефона по Wi‑Fi и отдаёт серверу по кабелю. У роутера внешние антенны, и он держит телефон даже дальше 10 метров, выдавая там около 30 Мбит/с.</p><p>Но и когда телефон лежал рядом, скорость не поднималась выше 96–98 Мбит/с, хотя сам телефон показывал ~450. Сотовая сеть, выходит, не виновата: скорость теряется где-то между телефоном и компьютером. Этот участок я и разобрал по звеньям.</p><h3>Стенд и каналы</h3><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Узел</p></th><th><p align=\"left\">Что это</p></th><th><p align=\"left\">Важное</p></th></tr><tr><td><p align=\"left\">Телефон</p></td><td><p align=\"left\">Motorola moto g54 5G, Android 15</p></td><td><p align=\"left\">USB 2.0; режим USB-модема только RNDIS; точка доступа 5 ГГц только на каналах 149–161</p></td></tr><tr><td><p align=\"left\">Роутер</p></td><td><p align=\"left\">Tenda AC6, режим WISP</p></td><td><p align=\"left\">один радиомодуль 5 ГГц; порты 10/100 Мбит/с</p></td></tr><tr><td><p align=\"left\">Wi‑Fi адаптер</p></td><td><p align=\"left\">TP-Link Archer T2U Nano</p></td><td><p align=\"left\">802.11ac, встроенная антенна, схема 1×1</p></td></tr><tr><td><p align=\"left\">Компьютер</p></td><td><p align=\"left\">VM на Proxmox (KVM, 12 vCPU)</p></td><td><p align=\"left\">USB-устройства проброшены через эмулированный контроллер xHCI</p></td></tr><tr><td><p align=\"left\">Хост</p></td><td><p align=\"left\">сервер на чипсете Intel C620</p></td><td><p align=\"left\">два USB-контроллера: чипсета и отдельный ASMedia ASM2142</p></td></tr></tbody></table></div></div><p>От телефона к компьютеру можно провести три канала:</p><ul><li><p><strong>USB кабель:</strong> телефон в режиме USB-модема;</p></li><li><p><strong>LAN:</strong> телефон → Wi‑Fi → роутер → кабель → компьютер;</p></li><li><p><strong>Wi‑Fi адаптер:</strong> подключён к точке доступа телефона напрямую.</p></li></ul><p><strong>Как мерил.</strong> Скорость каждого канала по отдельности показывает <strong>замер curl</strong>: по 4 параллельные загрузки на канал по 8 секунд, с привязкой к интерфейсу, а скорость считается по счётчику байт на каждом интерфейсе. Итоговые цифры даёт <strong>speedtest</strong> на компьютере: он открывает десятки соединений к нескольким серверам и лучше показывает, сколько дают все каналы вместе. Сотовая сеть плавает, поэтому разброс повторных замеров около ±10 %.</p><h3>Узкое место №1: роутер</h3><ul><li><p><strong>Порты 10/100.</strong> По кабелю больше ~98 Мбит/с не пройдёт. Это и был потолок исходной схемы.</p></li><li><p><strong>Один радиомодуль 5 ГГц.</strong> В режиме WISP он и принимает интернет от телефона, и раздаёт его клиентам, поэтому вынужден работать на канале телефона. Канал 36 из настроек в этом режиме игнорируется. Каждый пакет для Wi‑Fi‑клиента роутера проходит эфир дважды: Wi‑Fi адаптер через роутер получал 81–88 Мбит/с, а напрямую к телефону 137–149. Beamforming ничего не дал.</p></li><li><p><strong>Процессор роутера ни при чём.</strong> Под нагрузкой он был занят на 1–48 %. Паспортные 867 Мбит/с — это скорость радио в одну сторону для клиента с двумя антеннами, когда сам роутер подключён к интернету кабелем.</p></li></ul><p>Значит, нужен путь мимо роутера.</p><h3>Узкое место №2: USB-модем в VM и одно ядро</h3><p>Подключил телефон к VM по USB кабелю в режиме модема и получил 156 Мбит/с. При этом <strong>одно ядро VM было загружено на 92 %</strong>, а остальные 11 простаивали.</p><p>Причина в протоколе RNDIS, который Android использует для USB-модема: <strong>каждый сетевой пакет — отдельная USB-передача</strong>. За тест на 118 087 пакетов пришлось 132 420 прерываний USB-контроллера. В VM каждая такая передача проходит через эмулированный контроллер xHCI, и всю эту работу делает одно ядро.</p><p>Что не помогло:</p><ul><li><p><strong>RPS</strong> (раскидать обработку пакетов по ядрам): 169 вместо 156, в пределах погрешности. Дорогая часть — эмуляция USB, а она происходит ещё до сетевого стека.</p></li><li><p><strong>NCM</strong> вместо RNDIS. NCM упаковывает много пакетов в одну передачу, но на <code>tether_force_usb_functions</code> прошивка ответила <code>Could not set unsupported function for the GadgetHal</code>. Без root никак. Попутные грабли: когда я включил отладку по USB, телефон сменил свой USB ID. Proxmox пробрасывал его в VM по ID, и телефон пропал из VM вместе с интернетом. После этого я перевёл проброс на привязку по порту.</p></li><li><p><strong>Второй эмулированный контроллер (EHCI)</strong>, чтобы развести USB кабель и Wi‑Fi адаптер по разным ядрам. Адаптер я переключил на ходу через монитор QEMU (<code>device_del</code> / <code>device_add</code>), без перезагрузки VM:</p></li></ul><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Конфигурация</p></th><th><p align=\"left\">USB кабель</p></th><th><p align=\"left\">Wi‑Fi адаптер</p></th><th><p align=\"left\">Сумма, Мбит/с</p></th></tr><tr><td><p align=\"left\">Оба через xHCI</p></td><td><p align=\"left\">122</p></td><td><p align=\"left\">95</p></td><td><p align=\"left\">218</p></td></tr><tr><td><p align=\"left\">USB кабель через xHCI, адаптер через EHCI</p></td><td><p align=\"left\">141</p></td><td><p align=\"left\">8</p></td><td><p align=\"left\">150</p></td></tr></tbody></table></div></div><p>Нагрузка разошлась по ядрам, но адаптер через EHCI почти перестал работать: 6–8 Мбит/с вместо ~140. Эмуляция EHCI в QEMU рассчитана на клавиатуры и мыши, а не на поток данных.</p><p>К этому моменту я перебрал 14 конфигураций трёх каналов и их сочетаний. Лучше всех оказалась USB кабель + LAN с балансировкой: 236 Мбит/с, в 2,4 раза больше исходного. Но одно ядро VM так и оставалось потолком, и средствами эмуляции его не убрать. Нужен настоящий контроллер.</p><h3>Настоящий контроллер и датчик температуры</h3><p>Сначала я проверил выигрыш временно, ничего не меняя в настройках VM. Скрипт на хосте отцеплял от хоста контроллер чипсета вместе с датчиком температуры (почему вместе, расскажу ниже) и подключал контроллер к работающей VM через монитор QEMU. <strong>Через 6 минут скрипт сам всё возвращал</strong>, а если бы подключение не удалось, откатил бы сразу. В VM заранее ждал наблюдатель, который при появлении контроллера сам прогнал тесты:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Замер curl</p></th><th><p align=\"left\">Эмуляция</p></th><th><p align=\"left\">Настоящий контроллер</p></th></tr><tr><td><p align=\"left\">USB кабель</p></td><td><p align=\"left\">156 (ядро 92 %)</p></td><td><p align=\"left\"><strong>260</strong> (ядро 18 %)</p></td></tr><tr><td><p align=\"left\">USB кабель + Wi‑Fi адаптер</p></td><td><p align=\"left\">218</p></td><td><p align=\"left\"><strong>348</strong></p></td></tr><tr><td><p align=\"left\">USB кабель + LAN + Wi‑Fi адаптер</p></td><td><p align=\"left\">246</p></td><td><p align=\"left\"><strong>368</strong></p></td></tr></tbody></table></div></div><p>Узкое место ушло. Но насовсем отдавать контроллер чипсета нельзя: он сидит в одной группе IOMMU с <strong>датчиком температуры чипсета</strong> (Intel PCH Thermal). VFIO отдаёт устройство в VM, только если вся его группа отвязана от хоста. Хост перестал бы видеть температуру чипсета: ни графиков, ни оповещений о перегреве. Вдобавок в VM ушли бы все порты чипсета. Менять наблюдаемость круглосуточного сервера на скорость интернета в одной VM — плохая сделка.</p><p>Выручил второй контроллер на плате, <strong>ASMedia ASM2142</strong> (USB 3.1). Он сидит в своей группе IOMMU один, а два его порта на задней панели, Type‑A и Type‑C, были свободны. Его я отдал VM насовсем и переставил телефон в Type‑A. Wi‑Fi адаптер, клавиатура и мышь остались на портах чипсета.</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Замер curl</p></th><th><p align=\"left\">Эмуляция</p></th><th><p align=\"left\">ASMedia</p></th></tr><tr><td><p align=\"left\">USB кабель</p></td><td><p align=\"left\">156</p></td><td><p align=\"left\"><strong>237</strong></p></td></tr><tr><td><p align=\"left\">USB кабель + LAN</p></td><td><p align=\"left\">229–236</p></td><td><p align=\"left\"><strong>347</strong></p></td></tr><tr><td><p align=\"left\">USB кабель + LAN + Wi‑Fi адаптер</p></td><td><p align=\"left\">246</p></td><td><p align=\"left\"><strong>445</strong></p></td></tr></tbody></table></div></div><p>Грабли на этом шаге:</p><ul><li><p><strong>Номер слота PCI.</strong> В VM уже была проброшена видеокарта в слоте <code>hostpci0</code>, и первая команда добавила контроллер в тот же слот, то есть <strong>заменила видеокарту</strong>. Новое устройство нужно ставить в следующий свободный слот, сначала проверив занятые: <code>qm config &lt;VMID&gt; | grep hostpci</code>.</p></li><li><p><strong>Нужен именно порт ASMedia.</strong> Портов на задней панели много, и большинство принадлежит чипсету. К какому контроллеру подключён телефон, видно на хосте по пути устройства в <code>/sys/bus/usb/devices</code>.</p></li></ul><h3>Узкое место №3: сам USB 2.0</h3><p>На ASMedia ядро VM почти свободно, а USB кабель всё равно остановился на ~260–280. Чтобы исключить влияние Wi‑Fi‑раздачи, я выключил на телефоне точку доступа и померил один USB кабель:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Потоков</p></th><th><p align=\"left\">USB кабель, Мбит/с</p></th><th><p align=\"left\">Ядро VM</p></th></tr><tr><td><p align=\"left\">4</p></td><td><p align=\"left\">263</p></td><td><p align=\"left\">~23 %</p></td></tr><tr><td><p align=\"left\">8</p></td><td><p align=\"left\">275</p></td><td><p align=\"left\">~28 %</p></td></tr><tr><td><p align=\"left\">16</p></td><td><p align=\"left\">279</p></td><td><p align=\"left\">~27 %</p></td></tr></tbody></table></div></div><p>Столько же. Это потолок <strong>USB 2.0 + RNDIS</strong>: на бумаге 480, реально ~300, и RNDIS теряет ещё на отдельной передаче для каждого пакета. USB 3 у телефона нет, NCM прошивка не поддерживает. Один кабель больше ~300 не даст.</p><h3>Узкое место №4: Wi‑Fi‑раздача телефона</h3><p>Wi‑Fi адаптер напрямую к телефону получал 137–149 Мбит/с при канальной скорости 390, процессор телефона был занят на ~4 %. Роутер и адаптер, подключённые одновременно, вместе получали ~145–160, почти столько же. Например, без USB кабеля вышло 144: LAN 94 + адаптер 50. Все клиенты делят эфир одной точки доступа по очереди.</p><p>Сам Wi‑Fi‑модуль телефона способен на чуть большее: адаптер, переставленный для проверки на ASMedia, получил 190. Но в рабочей схеме этот порт занят телефоном. Поднять потолок настройками нельзя: телефон раздаёт только в одном диапазоне за раз (2,4 или 5 ГГц), а на 5 ГГц ему доступен лишь один блок 80 МГц, каналы 149–161.</p><h3>Складываем потолки</h3><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Канал</p></th><th><p align=\"left\">Потолок, Мбит/с</p></th><th><p align=\"left\">Во что упирается</p></th></tr><tr><td><p align=\"left\">USB кабель</p></td><td><p align=\"left\">~280–300</p></td><td><p align=\"left\">USB 2.0 + RNDIS</p></td></tr><tr><td><p align=\"left\">LAN</p></td><td><p align=\"left\">до ~98</p></td><td><p align=\"left\">порты роутера 10/100</p></td></tr><tr><td><p align=\"left\">Wi‑Fi адаптер</p></td><td><p align=\"left\">~50 (с LAN вместе ~145)</p></td><td><p align=\"left\">общая с роутером Wi‑Fi‑раздача телефона</p></td></tr><tr><td><p align=\"left\"><strong>Сотовая сеть</strong></p></td><td><p align=\"left\"><strong>~450</strong></p></td><td><p align=\"left\"></p></td></tr></tbody></table></div></div><p>Пока сумма потолков меньше сотовой сети, каналы складываются. Оператор этому не мешает: раздача идёт через ту же точку доступа оператора (APN), что и интернет самого телефона, отдельного «модемного» APN нет.</p><p>Распределяю я <strong>по соединениям</strong>: общий маршрут по умолчанию с несколькими направлениями (ECMP) и хешем по адресам и портам. Каждое соединение целиком идёт по одному каналу, а многопоточная загрузка — сразу по всем.</p><pre><code class=\"bash\">sysctl -w net.ipv4.fib_multipath_hash_policy=1   # хеш с учётом портов\nsysctl -w net.ipv4.fib_multipath_use_neigh=1     # не слать на мёртвый шлюз\nip route replace default proto 99 metric 50 \\\n    nexthop via &lt;шлюз USB&gt;  dev &lt;usb-интерфейс&gt;  weight 2 \\\n    nexthop via &lt;шлюз LAN&gt;  dev &lt;lan-интерфейс&gt;  weight 1 \\\n    nexthop via &lt;шлюз Wi-Fi&gt; dev &lt;wifi-интерфейс&gt; weight 1\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Все каналы выходят в интернет через один телефон, поэтому внешний IP у всех соединений один, и сайты не видят «прыжков» между адресами.</p><h3>Служба, чтобы работало без присмотра</h3><p>Маршрут ставит и поддерживает небольшая служба на bash, <code>multiwan-balance</code>:</p><ul><li><p>Ставит маршрут поверх маршрутов NetworkManager (metric 50) с весами: USB кабель 2, LAN и Wi‑Fi адаптер по 1.</p></li><li><p>Раз в 5 секунд проверяет интернет через каждый канал. После трёх неудач подряд канал исключается, после первой удачи возвращается. Пока по каналу идёт активный приём, он считается живым без пинга. Под нагрузкой пинг через телефон доходит до секунд (до внешнего узла — 2,9 с, максимум 6,8 с) и давал бы ложные срабатывания.</p></li><li><p>Если не работает ни один канал, маршрут службы снимается, и остаются штатные маршруты NetworkManager. При остановке службы происходит то же самое.</p></li><li><p>Возвращает Wi‑Fi адаптеру скорость после того, как телефон уносили. Когда телефон возвращается, адаптер переподключается ещё на краю зоны, на низкой скорости, и остаётся на ней, даже когда телефон уже рядом. Ручное переподключение сразу помогало. Служба делает это сама: если связь пропадала, а сигнал три проверки подряд не хуже −60 dBm, она один раз переподключает адаптер.</p></li></ul><p>Роутер остаётся опорным каналом. Полная скорость получается, когда телефон лежит у компьютера на USB. Когда я ухожу с телефоном, USB кабель отключается, и интернет держится через роутер.</p><p>Ещё одна деталь: в NetworkManager я выключил IPv6 на USB кабеле и Wi‑Fi адаптере. Когда точка доступа выключена, телефон начинает раздавать по USB ещё и IPv6, и такой трафик шёл бы только по USB кабелю, мимо балансировки.</p><h3>Результат</h3><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Схема</p></th><th><p align=\"left\">Speedtest, загрузка</p></th></tr><tr><td><p align=\"left\">Роутер (исходно)</p></td><td><p align=\"left\">96–98</p></td></tr><tr><td><p align=\"left\">USB кабель + LAN</p></td><td><p align=\"left\">396</p></td></tr><tr><td><p align=\"left\"><strong>USB кабель + LAN + Wi‑Fi адаптер</strong></p></td><td><p align=\"left\"><strong>456</strong> (отдача 48)</p></td></tr></tbody></table></div></div><p>Без Wi‑Fi адаптера speedtest упирается ровно в сумму двух потолков: ~300 + ~96 ≈ 396. Адаптер добирает остаток до потолка оператора. 456 — столько же, сколько показывал сам телефон (сеть колеблется примерно на ±10 %): выжато всё, что даёт сотовая сеть.</p><h3>Что не складывается</h3><ul><li><p><strong>Отдача.</strong> Каждый канал по отдельности отдаёт примерно одинаково: USB кабель 32, LAN 32, Wi‑Fi адаптер 29 Мбит/с. Все три вместе дают только 41. Значит, предел — отдача самой сотовой сети, ~30–57 Мбит/с, и она сильно плавает. С адаптером в распределении отдача даже немного ниже (в замере curl 44–47 против 55–57). Смена алгоритма TCP на BBR не помогла. Если отдача важнее, адаптер можно перевести в резерв (<code>WIFI_MODE=reserve</code>): загрузка тогда ~396.</p></li><li><p><strong>Одиночная загрузка</strong> идёт по одному каналу: до ~300 Мбит/с по USB кабелю, ~98 по LAN, ~140 по Wi‑Fi адаптеру. При весах 2:1:1 она попадает на USB кабель в половине случаев. По той же причине 16 потоков к одному серверу дают ~380, а не 456: соединения ложатся на каналы неравномернее, чем десятки соединений speedtest.</p></li><li><p><strong>Потеря роутера.</strong> Если роутер включён, но потерял связь с телефоном, служба замечает это за ~15–40 секунд. В это время часть новых соединений может зависать.</p></li><li><p><strong>Порты ASMedia теперь принадлежат VM.</strong> Подключённые к ним устройства видны только в ней.</p></li></ul><h3>Итог: во что упирались</h3><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Узкое место</p></th><th><p align=\"left\">Потолок, Мбит/с</p></th><th><p align=\"left\">Как обошли</p></th></tr><tr><td><p align=\"left\">Порты роутера 10/100</p></td><td><p align=\"left\">~98</p></td><td><p align=\"left\">добавил каналы мимо роутера</p></td></tr><tr><td><p align=\"left\">Роутер с одним радиомодулем в режиме WISP</p></td><td><p align=\"left\">~88 через его Wi‑Fi</p></td><td><p align=\"left\">Wi‑Fi роутера для компьютера не используется, только LAN</p></td></tr><tr><td><p align=\"left\">Эмуляция USB-контроллера в VM (всё на одном ядре)</p></td><td><p align=\"left\">~156</p></td><td><p align=\"left\">проброс отдельного контроллера ASMedia</p></td></tr><tr><td><p align=\"left\">USB 2.0 + RNDIS в телефоне</p></td><td><p align=\"left\">~280–300</p></td><td><p align=\"left\">не обойти, добавлены другие каналы</p></td></tr><tr><td><p align=\"left\">Wi‑Fi‑раздача телефона</p></td><td><p align=\"left\">~145–160 на всех клиентов</p></td><td><p align=\"left\">используется двумя путями: роутер и Wi‑Fi адаптер</p></td></tr><tr><td><p align=\"left\"><strong>Сотовая сеть оператора</strong></p></td><td><p align=\"left\"><strong>~450 (±10 %)</strong></p></td><td><p align=\"left\"><strong>это и есть итоговый предел: через раздачу 456</strong></p></td></tr></tbody></table></div></div><h3>Выводы</h3><ol><li><p>USB кабель — отдельный путь, а роутер и Wi‑Fi адаптер делили один эфир телефона. Поэтому скорость адаптера в одиночном тесте нельзя целиком прибавить к скорости LAN.</p></li><li><p>ECMP складывает скорость при множестве соединений. Каждое соединение целиком идёт по одному пути, так что одно соединение от добавления каналов быстрее не становится.</p></li><li><p>С отдачей вышло иначе: её ограничивала сотовая сеть. Участие Wi‑Fi адаптера немного снижало результат, поэтому при приоритете отдачи ему полезнее оставаться резервным каналом.</p></li><li><p>В VM эмуляция USB упёрлась в одно ядро раньше, чем телефон — в предел своего USB 2.0. Проброс настоящего контроллера снял это ограничение, но для постоянной работы подошёл контроллер, который не делил группу IOMMU с нужным хосту датчиком температуры.</p></li></ol><p>Скрипт службы и установщик: <a href=\"https://github.com/byha78/phone-multiwan\" rel=\"noopener nofollow\">https://github.com/byha78/phone-multiwan</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "5G"
+    },
+    {
+      "titleHtml": "USB-модем"
+    },
+    {
+      "titleHtml": "RNDIS"
+    },
+    {
+      "titleHtml": "Android"
+    },
+    {
+      "titleHtml": "ECMP"
+    },
+    {
+      "titleHtml": "балансировка каналов"
+    },
+    {
+      "titleHtml": "Proxmox"
+    },
+    {
+      "titleHtml": "PCI passthrough"
+    },
+    {
+      "titleHtml": "Wi-Fi"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105562/411145610b77ba61907b3cf9ac937413/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105562/411145610b77ba61907b3cf9ac937413/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105562\\/\"},\"headline\":\"Один телефон, несколько узких мест: как раздать все 450 Мбит\\/с 5G\",\"datePublished\":\"2026-11-09T17:43:12+03:00\",\"dateModified\":\"2026-11-09T17:43:12+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"От 100-мегабитного порта роутера до ECMP: что ограничивало раздачу и как каналы сложились. Дома интернет приходит только через телефон: на нём 5G давал около...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105562\\/#post-content-body\",\"about\":[\"h_network_technologies\",\"h_wireless\",\"h_sys_admin\",\"h_virtualization\",\"h_nix\",\"f_admin\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105562\\/411145610b77ba61907b3cf9ac937413\\/\"]}",
+    "metaDescription": "От 100-мегабитного порта роутера до ECMP: что ограничивало раздачу и как каналы сложились. Дома интернет приходит только через телефон: на нём 5G давал около 450 Мбит/с, а компьютер через роутер...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 8,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

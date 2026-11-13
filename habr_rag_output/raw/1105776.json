@@ -1,0 +1,197 @@
+{
+  "id": "1105776",
+  "timePublished": "2026-11-10T10:00:48+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "ИИ научился понимать ДНК и создавать белки по тексту",
+  "leadData": {
+    "textHtml": "<p>Исследователи из Китая представили ИИ‑модель Pinal, которая по текстовому описанию подбирает структуру и аминокислотную последовательность белка. Почти одновременно Hugging Face вместе с Zhongguancun Academy и Университетом Неаполя выпустила Carbon‑X — открытую модель для работы с последовательностями ДНК и обычным текстом.</p>",
+    "imageUrl": "https://habrastorage.org/extt/17/fe/a4/17fea4a75eadc099d22dc644ab46ab39.jpg",
+    "buttonTextHtml": "Читать далее &rarr;",
+    "image": {
+      "url": "https://habrastorage.org/extt/17/fe/a4/17fea4a75eadc099d22dc644ab46ab39.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5174463",
+    "alias": "TrexSelectel",
+    "fullname": "Самый зубастый автор",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/351/c2c/d04/351c2cd0454796adab40bb11c60d4a49.png",
+    "speciality": "Тирекс Академии Selectel: https://selectel.ru/blog",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 68,
+      "votesCount": 156
+    },
+    "rating": 289,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 5,
+    "readingCount": 544,
+    "score": 10,
+    "votesCount": 4,
+    "votesCountPlus": 4,
+    "votesCountMinus": 0,
+    "reach": 7328,
+    "readers": 406
+  },
+  "hubs": [
+    {
+      "id": "14740",
+      "alias": "selectel",
+      "type": "corporative",
+      "title": "Блог компании Selectel",
+      "titleHtml": "Блог компании Selectel",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22750",
+      "alias": "biology",
+      "type": "collective",
+      "title": "Биология",
+      "titleHtml": "Биология",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21912",
+      "alias": "biotech",
+      "type": "collective",
+      "title": "Биотехнологии",
+      "titleHtml": "Биотехнологии",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21910",
+      "alias": "popular_science",
+      "type": "collective",
+      "title": "Научно-популярное",
+      "titleHtml": "Научно-популярное",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/48/62/27/486227f6658f19bb06a24c226c24d6bd.jpg\" width=\"1198\" height=\"674\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/48/62/27/486227f6658f19bb06a24c226c24d6bd.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/48/62/27/486227f6658f19bb06a24c226c24d6bd.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Исследователи из Китая представили ИИ-модель Pinal, которая по текстовому описанию подбирает структуру и аминокислотную последовательность белка. Почти одновременно Hugging Face вместе с Zhongguancun Academy и Университетом Неаполя выпустила Carbon-X — открытую модель для работы с последовательностями ДНК и обычным текстом.</p><p>Pinal работает в два этапа. Сначала модуль T2struct превращает текстовое описание нужной функции в предполагаемую структуру белка. Затем SaProt-T на ее основе составляет аминокислотную последовательность.</p><p>Модель содержит около 16 млрд параметров. Для обучения использовалось примерно 1,7 млрд примеров, где последовательности и структуры белков сопоставлялись с описанием их функций. Значительную часть структур взяли из базы AlphaFold.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/5d/37/b9/5d37b975952dec3edea94eca36b994d2.png\" alt=\"Источник.\" title=\"Источник.\" width=\"734\" height=\"452\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/5d/37/b9/5d37b975952dec3edea94eca36b994d2.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/5d/37/b9/5d37b975952dec3edea94eca36b994d2.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><a href=\"https://www.nature.com/articles/s41586-026-11205-z\"><em>Источник</em></a><em>.</em></figcaption></div></figure><p>Авторы проверили Pinal на четырех задачах. Он создали два фермента и два белка — для метаболического процесса и флуоресцентного. Во всех случаях среди предложенных вариантов удалось найти рабочие молекулы. В одном из экспериментов новый белок увеличил выход продукта в искусственном пути фиксации CO₂ примерно в 1,7 раза по сравнению с природным аналогом из E. coli (Escherichia coli, палочка Эшерихия).</p><p>При этом модель пока не выдает готовый результат с первой попытки. Например, для поиска флуоресцентного белка Pinal сгенерировала около 50 тыс последовательностей. После отбора исследователи оставили 29 кандидатов, и только один из них действительно оказался флуоресцентным.</p><p>Carbon-X построена на базе Qwen3-14B и содержит 14,8 млрд параметров. Ее можно использовать для анализа участков ДНК — например, оценить последствия замены одного нуклеотида, найти регулирующие участки или определить, насколько вероятно, что конкретная мутация окажется вредной.</p><p>Модель также умеет продолжать последовательности ДНК и объяснять результаты обычным языком. Однако разработчики предупреждают, что при генерации длинных участков качество снижается. Кроме того, Carbon-X может ошибаться в координатах и отдельных позициях.</p><p>Полную версию Carbon-X можно запускать локально на одной видеокарте с 80 ГБ памяти. Также опубликованы уменьшенные GGUF‑версии. Код и веса распространяются по лицензии Apache 2.0. Модели Pinal и Carbon-X решают разные задачи, но обе упрощают работу с биологическими данными за счет обычного текстового интерфейса. Pinal предназначена прежде всего для проектирования белков, а Carbon-X — для анализа ДНК.</p><div class=\"floating-image\"><figure class=\"float \"><img src=\"https://habrastorage.org/getpro/habr/upload_files/872/b78/ec9/872b78ec933ec8074db743484f4064c9.gif\" alt=\"\" title=\"\" width=\"200\" height=\"200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/getpro/habr/upload_files/872/b78/ec9/872b78ec933ec8074db743484f4064c9.gif 780w,&#10;       https://habrastorage.org/getpro/habr/upload_files/872/b78/ec9/872b78ec933ec8074db743484f4064c9.gif 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Token Factory: инференс открытых ИИ-моделей на серверах в РФ</strong></p><p>Подключайте GLM, DeepSeek, Qwen и Kimi через OpenAI-совместимый API и платите в рублях только за используемые токены. </p><p><a href=\"https://selectel.ru/services/cloud/token-factory/?utm_source=habr.com&amp;utm_medium=referral&amp;utm_campaign=tokenfactory_news_dna_101126_banner_ord\"><strong>Подробнее →</strong></a></p></div></div>",
+  "tags": [
+    {
+      "titleHtml": "Selectel"
+    },
+    {
+      "titleHtml": "белки"
+    },
+    {
+      "titleHtml": "ДНК"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105776/06c491276335564d3bdc02da8b1fd923/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105776/06c491276335564d3bdc02da8b1fd923/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/selectel\\/articles\\/1105776\\/\"},\"headline\":\"ИИ научился понимать ДНК и создавать белки по тексту\",\"datePublished\":\"2026-11-10T13:00:48+03:00\",\"dateModified\":\"2026-11-11T19:09:40+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Исследователи из Китая представили ИИ-модель Pinal, которая по текстовому описанию подбирает структуру и аминокислотную последовательность белка. Почти...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/selectel\\/articles\\/1105776\\/#post-content-body\",\"about\":[\"c_selectel\",\"h_artificial_intelligence\",\"h_biology\",\"h_biotech\",\"h_popular_science\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/48\\/62\\/27\\/486227f6658f19bb06a24c226c24d6bd.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/5d\\/37\\/b9\\/5d37b975952dec3edea94eca36b994d2.png\",\"https:\\/\\/habrastorage.org\\/getpro\\/habr\\/upload_files\\/872\\/b78\\/ec9\\/872b78ec933ec8074db743484f4064c9.gif\"]}",
+    "metaDescription": "Исследователи из Китая представили ИИ-модель Pinal, которая по текстовому описанию подбирает структуру и аминокислотную последовательность белка. Почти одновременно Hugging Face вместе с Zhongguancun...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "48",
+    "title": "Научпоп",
+    "alias": "popsci"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

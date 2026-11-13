@@ -1,0 +1,210 @@
+{
+  "id": "1105610",
+  "timePublished": "2026-11-09T16:00:42+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Пересадил Claude Code на механику",
+  "leadData": {
+    "textHtml": "<p>Листаю ленту, а там человек переключает модели Claude Code автомобильным рычагом. Тянет ручку, она щёлкает в паз, тахометр подскакивает, и в терминале меняется модель. Мне, конечно, тоже понадобилось.</p><p>Можно было набрать <code>/model</code> руками. Но тогда у меня не было бы коробки передач. Это ituzov-gearbox: Node.js, tmux, ванильный JavaScript и кулиса в SVG. Код открытый. Можно поставить себе, можно разобрать и сделать свою. Ниже как раз разберём.</p>",
+    "imageUrl": "https://habrastorage.org/extt/c8/c3/b0/c8c3b0a2fc75fc2d39b22935c8a9be6e.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/c8/c3/b0/c8c3b0a2fc75fc2d39b22935c8a9be6e.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "sandbox",
+      "typeOf": "system",
+      "title": "Из песочницы",
+      "data": {
+        "url": null
+      }
+    }
+  ],
+  "author": {
+    "id": "3607327",
+    "alias": "ituzov",
+    "fullname": "Илья Тузов",
+    "avatarUrl": "//habrastorage.org/extt/14/7e/f1/147ef1c3682b25ff8ee22383ad0b93c6.jpg",
+    "speciality": "Фулстек-разработчик. Экспериментирую с AI",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 5
+    },
+    "rating": 9,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/ituzov_fun",
+        "value": "ituzov_fun",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/ituzov_fun",
+        "value": "ituzov_fun",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 6,
+    "favoritesCount": 8,
+    "readingCount": 3211,
+    "score": 0,
+    "votesCount": 4,
+    "votesCountPlus": 2,
+    "votesCountMinus": 2,
+    "reach": 9229,
+    "readers": 2720
+  },
+  "hubs": [
+    {
+      "id": "17110",
+      "alias": "nodejs",
+      "type": "collective",
+      "title": "Node.JS",
+      "titleHtml": "Node.JS",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "84",
+      "alias": "crazydev",
+      "type": "collective",
+      "title": "Ненормальное программирование",
+      "titleHtml": "Ненормальное программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Листаю ленту, а там человек переключает модели Claude Code автомобильным рычагом. Тянет ручку, она щёлкает в паз, тахометр подскакивает, и в терминале меняется модель. Мне, конечно, тоже понадобилось. Теперь у меня есть своя:</p><figure class=\"\"><img src=\"https://habrastorage.org/extt/e3/77/44/e3774428eb555cb46cca4970784d9598.gif\" alt=\"Коробка передач: движение рычага отправляет команду смены модели в Claude Code\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/extt/e3/77/44/e3774428eb555cb46cca4970784d9598.gif 780w,&#10;       https://habrastorage.org/extt/e3/77/44/e3774428eb555cb46cca4970784d9598.gif 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Коробка передач: движение рычага отправляет команду смены модели в Claude Code</figcaption></div></figure><p>Можно было набрать <code>/model</code> руками. Но тогда у меня не было бы коробки передач. Это <a href=\"https://github.com/ituzov/ituzov-gearbox\" rel=\"noopener nofollow\">ituzov-gearbox</a>: Node.js, tmux, ванильный JavaScript и кулиса в SVG. Код открытый. Можно поставить себе, можно разобрать и сделать свою. Ниже как раз разберём.</p><h3>Сначала хотел поставить готовую</h3><p>Я Илья Тузов, фулстек-разработчик. Люблю разбираться, как устроены AI-инструменты, и собирать свои. Эта коробка появилась после одного ролика в ленте.</p><p>Приложение из ролика нашлось: Model Shift. На тот момент оно было платным, с закрытым кодом и только для macOS. Платить за красивую штуку нормально. Но эта штука должна печатать команды в мой терминал. Захотелось сначала посмотреть, что внутри, а посмотреть нечего.</p><p>Поэтому полез разбираться, как вообще снаружи переключить модель в работающем Claude Code. Оказалось, достаточно запустить Claude Code внутри tmux. Он умеет передавать нажатия клавиш в нужную панель. Вся связь с Клодом уместилась в одну команду. Ну тут уже захотелось собрать свою.</p><h3>За каждой передачей стоит одна команда</h3><p>tmux делит терминал на панели. У каждой есть свой адрес, например <code>%3</code>. Можно из другого терминала сказать ему: напечатай в третью панель вот это и нажми Enter:</p><pre><code class=\"bash\">tmux send-keys -t %3 \"/model opus\" Enter\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>В панели появится <code>/model opus</code>, как будто я набрал это руками. Claude Code обработает команду и переключит модель. Осталось приделать к ней рычаг. Связал всё так:</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/b3/c3/ff/b3c3ffce947b3d30b435cc115ef49bb4.png\" alt=\"Как рычаг отправляет команду через Node.js и tmux в Claude Code\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/b3/c3/ff/b3c3ffce947b3d30b435cc115ef49bb4.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/b3/c3/ff/b3c3ffce947b3d30b435cc115ef49bb4.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Как рычаг отправляет команду через Node.js и tmux в Claude Code</figcaption></div></figure><p>В браузере двигается ручка. Когда передача включилась, страница отправляет серверу модель и выбранную панель. Сервер дёргает tmux. За всё общение с терминалом отвечает один файл, <code>src/tmux.js</code>.</p><p>Передавать в терминал что угодно я не стал: сервер проверяет имя модели и формат адреса панели. tmux запускаю через <code>execFile</code>, аргументы передаю массивом. Но сама команда не знает, кто сидит в панели. Выбрал обычный shell вместо Клода, туда и напечатает. В интерфейсе я помечаю панели, похожие на Claude Code, по процессу и заголовку. Выбранную всё равно лучше проверить.</p><h3>Коробка открывает меню и читает его с экрана</h3><p>Рычаг уже умеет печатать <code>/model opus</code>. А какие ещё модели разложить по передачам? У всех свой список, и обновляется он чаще, чем хочется править подписи на коробке. Можно открыть меню <code>/model</code> и посмотреть. Коробка так и делает. У tmux для этого есть <code>capture-pane</code>:</p><pre><code class=\"bash\">tmux capture-pane -t %3 -p\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Команда отдаёт текст с экрана панели. Открываю <code>/model</code>, жду, забираю текст и вытаскиваю названия регуляркой. Потом закрываю меню Escape. Коробка буквально читает тот же список, что и я.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/1b/08/5e/1b085e941c7ee0f1e72f7a949690b628.png\" alt=\"Чтение списка моделей: меню, capture-pane, парсер и раскладка передач\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/1b/08/5e/1b085e941c7ee0f1e72f7a949690b628.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/1b/08/5e/1b085e941c7ee0f1e72f7a949690b628.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Чтение списка моделей: меню, capture-pane, парсер и раскладка передач</figcaption></div></figure><p>В коде это выглядит так, если оставить только команды:</p><pre><code>await run([\"send-keys\", \"-t\", paneId, \"/model\", \"Enter\"]);\nawait sleep(1200);\n\nconst screen = await run([\"capture-pane\", \"-t\", paneId, \"-p\"]);\nawait run([\"send-keys\", \"-t\", paneId, \"Escape\"]);\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><code>run</code> здесь вызывает <code>execFile(\"tmux\", args, ...)</code>. Полный вариант с проверками лежит в репозитории. Только с Escape есть подвох. Если Claude сейчас отвечает, клавиша прервёт генерацию. Хотели прочитать список моделей, а остановили работу. Поэтому перед открытием меню проверяю, что происходит в панели:</p><pre><code>const before = await run([\"capture-pane\", \"-t\", paneId, \"-p\"]);\n\nif (/esc to interrupt/i.test(before)) {\n  throw new Error(\"панель занята — Claude сейчас отвечает\");\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Так я проверяю занятость перед чтением моделей. На само переключение рычагом эту проверку не переносил, поэтому передачи меняем, когда Claude ждёт ввода. Да, это завязано на конкретный интерфейс. Перерисуют меню или поменяют подсказку, придётся чинить парсер. И 1200 мс ожидания тоже не гарантия: на медленной машине меню может открываться дольше.</p><p>Не получилось прочитать меню? Показываю ошибку и оставляю запасную раскладку. А если хочется свою, можно положить её в <code>gearbox.config.json</code>. Тогда коробка возьмёт передачи оттуда.</p><h3>Почему ручка не проходит сквозь металл</h3><p>Но ради одной команды я бы не стал рисовать коробку. Хотелось именно тянуть ручку, ловить паз и слышать щелчок. Если ручка просто ездит за курсором, это кружок поверх картинки. Какая-то грустная коробка получается.</p><p>У настоящей есть прорези. Из первой в четвёртую по диагонали не проскочишь, надо пройти через нейтраль. И если бросил ручку на полпути, она должна вернуться назад.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/86/88/f8/8688f882f984e716524fbdd592383e8c.png\" alt=\"Путь из первой в четвёртую передачу через нейтраль\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/86/88/f8/8688f882f984e716524fbdd592383e8c.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/86/88/f8/8688f882f984e716524fbdd592383e8c.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Путь из первой в четвёртую передачу через нейтраль</figcaption></div></figure><p>Так кулиса превратилась в граф: горизонтальная рейка нейтрали и вертикальные колонки передач. Ручке разрешено жить только на этих линиях. На нейтрали можно ехать вбок. Подошёл к нужной колонке, потянул вверх или вниз, ручка зашла в прорезь. Дальше <code>x</code> заперт, меняется только <code>y</code>, да и тот ограничен концами паза.</p><pre><code>// Упрощённая схема движения внутри вертикальной прорези.\nconst col = nearestColumn(x);\nx = col.x;\ny = clamp(pointer.y, col.top, col.bottom);\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Чтобы выйти из колонки, нужно вернуться на нейтраль. Даже если ленишься тянуть и просто кликаешь по номеру передачи, ручка доедет по прорезям. Через металл не срезает. Дотянул до паза и отпустил: щелчок, перегазовка, команда улетела в терминал. Не дотянул, ручка возвращается в текущую передачу.</p><p>Обошёлся без физического движка. Запретил ручке проходить через стенки, добавил возврат в паз и короткий щелчок. Звук тоже сделал кодом, через Web Audio.</p><h3>Окно сделал через Chrome</h3><p>Ещё хотелось, чтобы коробка висела отдельным маленьким окном. Для этого хватило браузера, который уже установлен. Node.js поднимает сервер на <code>127.0.0.1</code>, а Chromium открывает страницу с флагом:</p><pre><code>--app=http://127.0.0.1:4321\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Получается окно без вкладок и адресной строки, размером с коробку. Отдельный браузерный движок с собой не тащу. Правда, запускаю его с отдельным профилем. Уже работающий Chrome может забрать новое окно себе и проигнорировать размер и положение, которые я попросил. Поэтому у коробки свой профиль. Не нашёлся Chromium, откроется обычная вкладка.</p><p>Предусмотрел запуск на macOS, Linux и Windows через WSL. Без WSL на Windows не получится: вся затея держится на tmux. Сервер слушает <code>127.0.0.1</code>, поэтому напрямую с другой машины к нему не подключиться. Возможность отправлять ввод в терминал у него остаётся, и эту часть стоит прочитать перед запуском. Открытый репозиторий как раз позволяет это сделать.</p><h3>Как попробовать</h3><p>Нужны Node.js 18+, tmux и установленный Claude Code. Сначала запускаешь Клода внутри tmux:</p><pre><code class=\"bash\">tmux\nclaude\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>В другом терминале запускаешь коробку:</p><pre><code class=\"bash\">npx ituzov-gearbox\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Или сначала забираешь исходники и запускаешь из папки:</p><pre><code class=\"bash\">git clone https://github.com/ituzov/ituzov-gearbox.git\ncd ituzov-gearbox\nnpm start\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Дальше выбери панель с Клодом, дождись чтения моделей и тяни ручку. Только смотри и в терминал: коробка отправляет клавиши, а принял ли Claude команду, видно уже там. Всё лежит на <a href=\"https://github.com/ituzov/ituzov-gearbox\" rel=\"noopener nofollow\">GitHub</a>, MIT. За терминалом иди в <code>src/tmux.js</code>, за рычагом и щелчками в <code>public/app.js</code>.</p><p>Вот так вместо установки готовой аппки я написал свою коробку передач. Модели можно было переключать и раньше, зато теперь с перегазовкой. Ещё хочу сцепление на пробел и ручник для отмены генерации. Есть куда потратить следующий вечер.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "claude code"
+    },
+    {
+      "titleHtml": "tmux"
+    },
+    {
+      "titleHtml": "node.js"
+    },
+    {
+      "titleHtml": "javascript"
+    },
+    {
+      "titleHtml": "svg"
+    },
+    {
+      "titleHtml": "open source"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105610/d7fca88d95f08e300c7ad2f48fd464f3/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105610/d7fca88d95f08e300c7ad2f48fd464f3/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105610\\/\"},\"headline\":\"Пересадил Claude Code на механику\",\"datePublished\":\"2026-11-09T19:00:42+03:00\",\"dateModified\":\"2026-11-09T19:00:42+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Листаю ленту, а там человек переключает модели Claude Code автомобильным рычагом. Тянет ручку, она щёлкает в паз, тахометр подскакивает, и в терминале меняется...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105610\\/#post-content-body\",\"about\":[\"h_nodejs\",\"h_crazydev\",\"h_open_source\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/e3\\/77\\/44\\/e3774428eb555cb46cca4970784d9598.gif\",\"https:\\/\\/habrastorage.org\\/webt\\/b3\\/c3\\/ff\\/b3c3ffce947b3d30b435cc115ef49bb4.png\",\"https:\\/\\/habrastorage.org\\/webt\\/1b\\/08\\/5e\\/1b085e941c7ee0f1e72f7a949690b628.png\",\"https:\\/\\/habrastorage.org\\/webt\\/86\\/88\\/f8\\/8688f882f984e716524fbdd592383e8c.png\"]}",
+    "metaDescription": "Листаю ленту, а там человек переключает модели Claude Code автомобильным рычагом. Тянет ручку, она щёлкает в паз, тахометр подскакивает, и в терминале меняется модель. Мне, конечно, тоже понадобилось....",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

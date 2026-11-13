@@ -1,0 +1,182 @@
+{
+  "id": "1106186",
+  "timePublished": "2026-11-10T14:43:43+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Что такое пользовательский опыт: как UX-исследования, дизайн и тексты помогают бизнесу",
+  "leadData": {
+    "textHtml": "<p>Вы открываете приложение банка, чтобы перевести деньги. Находите нужную кнопку за пару секунд, вводите данные и закрываете приложение. В другом приложении та же задача превращается в квест: нужная кнопка спрятана, названия разделов ничего не объясняют, а после нескольких попыток хочется всё закрыть.</p><p>Почему одним продуктом пользоваться легко, а другим — нет? Дело в пользовательском опыте, или UX (User Experience). За него отвечает целая команда специалистов: UX-исследователь изучает поведение пользователей, UX-дизайнер проектирует интерфейс, а UX-редактор работает над текстами внутри продукта.</p><p>В статье разберёмся, чем занимаются эти специалисты, какие навыки им нужны, сколько они зарабатывают и где учиться UX.</p>",
+    "imageUrl": "https://habrastorage.org/extt/45/55/b6/4555b67dd2fc26f5a2c18daded1965ba.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/45/55/b6/4555b67dd2fc26f5a2c18daded1965ba.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3144313",
+    "alias": "alina_kiz",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 47
+    },
+    "rating": 9,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 4,
+    "readingCount": 251,
+    "score": 5,
+    "votesCount": 3,
+    "votesCountPlus": 2,
+    "votesCountMinus": 1,
+    "reach": 7755,
+    "readers": 194
+  },
+  "hubs": [
+    {
+      "id": "20566",
+      "alias": "habr_career",
+      "type": "corporative",
+      "title": "Блог компании Хабр Карьера",
+      "titleHtml": "Блог компании Хабр Карьера",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20740",
+      "alias": "career",
+      "type": "collective",
+      "title": "Карьера в IT-индустрии",
+      "titleHtml": "Карьера в IT-индустрии",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/45/55/b6/4555b67dd2fc26f5a2c18daded1965ba.png\" width=\"1560\" height=\"880\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/45/55/b6/4555b67dd2fc26f5a2c18daded1965ba.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/45/55/b6/4555b67dd2fc26f5a2c18daded1965ba.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Вы открываете приложение банка, чтобы перевести деньги. Находите нужную кнопку за пару секунд, вводите данные и закрываете приложение. В другом приложении та же задача превращается в квест: нужная кнопка спрятана, названия разделов ничего не объясняют, а после нескольких попыток хочется всё закрыть.</p><p>Почему одним продуктом пользоваться легко, а другим — нет? Дело в пользовательском опыте, или UX (User Experience). За него отвечает целая команда специалистов: UX-исследователь изучает поведение пользователей, UX-дизайнер проектирует интерфейс, а UX-редактор работает над текстами внутри продукта.</p><p>В статье разберёмся, чем занимаются эти специалисты, какие навыки им нужны, сколько они зарабатывают и где учиться UX.</p><h2>Что такое пользовательский опыт</h2><p>Пользовательский опыт (User Experience, UX) — общее впечатление от взаимодействия с продуктом, услугой или системой. Ввёл термин ещё в 90-е годы Дональд Норман, один из основателей Nielsen Norman Group. Он имел в виду все аспекты взаимодействия человека с компанией: от знакомства и покупки до первого использования, обновления и замены продукта.</p><p>Специалисты оценивают UX по нескольким характеристикам:</p><ul><li><p><strong>доступность</strong> — учитывает ли дизайн потребности людей с ограниченными возможностями</p></li><li><p><strong>удобство</strong> — насколько эффективно пользователь достигает цели</p></li><li><p><strong>достоверность</strong> — вызывает ли продукт доверие</p></li><li><p><strong>удовлетворённость</strong> — приятно ли им пользоваться</p></li><li><p><strong>полезность</strong> — решает ли продукт проблему человека</p></li></ul><h4>UX и UI — не одно и то же</h4><p>UI (пользовательский интерфейс) — это то, из чего состоит продукт: кнопки, ссылки, иконки, заголовки и изображения. </p><p>UX — это намерения пользователя, порядок его действий и эмоции. </p><p>Нильсен и Норман объясняют разницу на примере сайта с рецензиями на фильмы. Допустим, интерфейс поиска сделан идеально. Но если человеку нужна информация о небольшом независимом релизе, а в базе есть только картины крупных студий, опыт будет плохим, как бы красиво всё ни выглядело.</p><p>Тот же принцип работает на маркетплейсе. Нашёл ли пользователь нужный товар? Получилось ли быстро? Описание ответило на вопросы? Где пришлось задержаться и что раздражало? Всё это складывается в UX.</p><h2>Как UX помогает бизнесу</h2><p><strong>Удерживает покупателей в воронке.</strong> Лучше всего это видно в интернет-торговле. <a href=\"https://baymard.com/blog/cart-abandonment-rate\">По данным Baymard Institute</a>, средний показатель отказа от корзины в мире — 70,19%. Оформление заказа — часто единственная причина, по которой люди бросали покупку, так как форма непонятна, ошибка не объясняет, что исправить, нужно создавать аккаунт. </p><p>Институт проанализировал оформление заказа на 327 крупных сайтах: у 65% оно «посредственное» или хуже, и только 2% получили оценку «хорошо». По оценке Baymard, среднему крупному магазину улучшения оформления заказа потенциально могут прибавить около 35% конверсии. Это только оценка по результатам тестов, но порядок цифр показывает, что поток людей, которых компания уже привела на сайт, теряется именно на удобстве.</p><p><strong>Разгружает поддержку.</strong> Когда интерфейс и тексты понятны, у пользователей меньше вопросов и жалоб. Практики UX-редактуры отмечают, что переработанные сценарии и формулировки сокращают поток обращений в техподдержку.</p><p><strong>Повышают вероятность покупки.</strong> Человек, который без усилий решает задачу, охотнее возвращается и принимает решение о покупке. Практика UX-редактуры показывает, что правильная коммуникация ускоряет достижение целей и влияет на продуктовые метрики.</p><p><strong>Делает исправление ошибки дешевле.</strong> Исследование и тестирование прототипа находят проблемы до того, как продукт написан. Переделывать готовый код дороже, чем экран в Figma.</p><h2>Какие профессии есть внутри UX</h2><p>В больших компаниях над пользовательским опытом работает целая команда. В небольших и в стартапах эти роли часто совмещает один человек.</p><h4>UX-исследователь</h4><p>UX-исследователь изучает, как люди пользуются цифровыми продуктами, что им нужно и с какими трудностями они сталкиваются. Для этого он проводит интервью, опросы и тестирование интерфейсов. Например, может выяснить, почему пользователи не доходят до оформления заказа или не могут найти нужную функцию.</p><p>Исследователь планирует работу, подбирает участников, проводит встречи и анализирует результаты. Затем передаёт выводы дизайнерам и разработчикам, чтобы те могли улучшить продукт. </p><p>В работе пригодятся знания методов исследований — от глубинных интервью до A/B-тестов, а также умение работать с Figma, Miro и системами аналитики. Важно уметь слушать людей, задавать точные вопросы и отделять потребности пользователей от собственных предположений.</p><p><a href=\"https://career.habr.com/salaries?utm_source=habr&amp;utm_medium=megapost&amp;utm_campaign=salaries1h2026\">По данным калькулятора Хабр Карьеры</a>, медианная зарплата UX-исследователя — 199 тысяч рублей в месяц. Джуны получают около 93 тысяч, мидлы — 184 тысячи, а сеньоры — 199 тысяч.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/72/d9/e4/72d9e4126f69fe0e029f648707696859.png\" width=\"1600\" height=\"804\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/72/d9/e4/72d9e4126f69fe0e029f648707696859.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/72/d9/e4/72d9e4126f69fe0e029f648707696859.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Где учиться</strong></p><p>На рынке немного курсов по UX-исследованиям, один из них представлен в онлайн-школе <a href=\"https://career.habr.com/courses/analitika/ux-analyst?educationPlatforms%5B%5D=10-netologiya&amp;?utm_source=habr_edu&amp;utm_medium=partner&amp;utm_campaign=57&amp;utm_content=netology\"><strong>Нетология</strong></a>. Программа поможет лучше понимать клиентов, тестировать гипотезы и принимать решения на основе данных.</p><h4>UX-дизайнер</h4><p>UX-дизайнер продумывает, как пользователь будет взаимодействовать с продуктом: какие экраны увидит, куда сможет перейти и как выполнит нужное действие. Он разрабатывает структуру интерфейса, создаёт прототипы и оформляет их в дизайн. Например, проектирует путь от выбора товара до оплаты заказа.</p><p>В работе UX-дизайнер опирается на результаты исследований и проверяет свои решения на пользователях. Во многих компаниях он совмещает UX и UI: отвечает не только за логику интерфейса, но и за его внешний вид. Основной рабочий инструмент — Figma.</p><p>Медианная з/п UX/UI-дизайнера — 128 тысяч рублей. На старте карьеры можно получать 73 тысячи, после пары-тройки лет работы — уже 127 тысяч рублей. Сеньоры-дизайнеры зарабатывают около 206 тысяч, а лиды — 258 тысяч с возможностью роста до 400+ тысяч рублей.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/13/b8/b4/13b8b4f1217fbcba683baf33107f9810.png\" width=\"1600\" height=\"804\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/13/b8/b4/13b8b4f1217fbcba683baf33107f9810.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/13/b8/b4/13b8b4f1217fbcba683baf33107f9810.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Где учиться</strong></p><p>Онлайн-школы <a href=\"https://career.habr.com/courses/dizajn/dizajn-polzovatelskogo-interfejsa-ux-ui?educationPlatforms%5B%5D=36-skillbox&amp;?utm_source=habr_edu&amp;utm_medium=partner&amp;utm_campaign=57&amp;utm_content=skillbox\"><strong>Skillbox</strong></a>, <a href=\"https://career.habr.com/courses/dizajn/dizajn-polzovatelskogo-interfejsa-ux-ui?educationPlatforms%5B%5D=35-yandeks-praktikum&amp;?utm_source=habr_edu&amp;utm_medium=partner&amp;utm_campaign=57&amp;utm_content=yandex_practicum\"><strong>Яндекс Практикум</strong></a>, <a href=\"https://career.habr.com/courses/dizajn/dizajn-polzovatelskogo-interfejsa-ux-ui?educationPlatforms%5B%5D=271-akademiya-edyuson&amp;?utm_source=habr_edu&amp;utm_medium=partner&amp;utm_campaign=57&amp;utm_content=eduson\"><strong>Академия Эдюсон</strong></a>, <a href=\"https://career.habr.com/courses/dizajn/dizajn-polzovatelskogo-interfejsa-ux-ui?educationPlatforms%5B%5D=249-brunoyam&amp;?utm_source=habr_edu&amp;utm_medium=partner&amp;utm_campaign=57&amp;utm_content=brunoyam\"><strong>Бруноям</strong></a> и <a href=\"https://career.habr.com/courses/dizajn?educationPlatforms%5B%5D=565-institut-professionalnyh-kvalifikaciy&amp;?utm_source=habr_edu&amp;utm_medium=partner&amp;utm_campaign=57&amp;utm_content=IPK\"><strong>Институт профессиональных квалификаций</strong></a><strong> </strong>предлагают курсы по дизайну, где всему обучат с нуля — работе в Figma, разработке удобных сайтов и приложений, их адаптации под разные устройства. </p><h4>UX-редактор</h4><p>UX-редактор отвечает за все тексты внутри продукта: названия кнопок, подсказки, сообщения об ошибках, push-уведомления и реплики чат-ботов. Он должен понятно объяснить пользователю, что происходит на экране и что делать дальше. Например, помочь разобраться с ошибкой при оплате или подсказать, как восстановить пароль.</p><p>В отличие от копирайтера, который пишет статьи и рекламные тексты, UX-редактор работает непосредственно с интерфейсом. Он учитывает логику продукта и действия пользователя, поэтому даже короткую подпись для кнопки продумывает с учётом конкретного сценария.</p><p>Обычно UX-редактор подключается на этапе проектирования или доработки продукта. В крупных командах он работает вместе с UX-дизайнером и помогает сделать интерфейс понятным на каждом этапе взаимодействия.</p><p>Медианная зарплата UX-редактора — 134 тысячи рублей, причём в профессии можно расти и до 250+ тысяч.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/55/e5/f4/55e5f46668ac28f080ff04f88e768fa1.png\" width=\"1600\" height=\"804\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/55/e5/f4/55e5f46668ac28f080ff04f88e768fa1.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/55/e5/f4/55e5f46668ac28f080ff04f88e768fa1.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Где учиться</strong></p><p>Один из немногих курсов по UX-редактуре предлагает <a href=\"https://career.habr.com/courses/dizajn/uxcopywriting?educationPlatforms%5B%5D=10-netologiya&amp;?utm_source=habr_edu&amp;utm_medium=partner&amp;utm_campaign=57&amp;utm_content=netology\"><strong>Нетология</strong></a>. Тут научат работать с UX-текстами и расскажут основы продуктового подхода, а после обучения вы пополните портфолио 10+ кейсами и командным проектом с UX/UI-дизайнерами.</p><h2>Как войти в профессию</h2><p><strong>Начните с практики: в UX решает портфолио.</strong> Если у вас нет профильного коммерческого опыта, то хороший первый проект можно сделать за пару недель на примере любого приложения, которым вы ежедневно пользуетесь.</p><p><strong>Для исследователя:</strong> возьмите приложение, проведите пять интервью или мини-юзабилити-теста с друзьями (попросите проговаривать мысли вслух), расшифруйте записи и оформите отчёт с выводами.</p><p><strong>Для дизайнера:</strong> найдите в сервисе неудобный сценарий, переделайте его в Figma в виде кликабельного прототипа и опишите, что и почему изменили.</p><p><strong>Для редактора:</strong> выпишите проблемные формулировки в приложении по экранам, предложите замены и объясните, как они помогут пользователю.</p><p>В портфолио для каждого кейса стоит показать ход мысли: ситуация и проблема, пользователь, решение, ценность для людей и бизнеса.</p><h2>Не просто красивые интерфейсы</h2><p>Пользовательский опыт — это способ сделать продукт понятным и полезным, удержать пользователей и сэкономить деньги бизнеса. Внутри направления есть место исследователям и аналитикам, дизайнерам и редакторам.</p><p>Войти в UX можно из смежных областей и без профильного диплома, но очень пригодится портфолио с кейсами (хотя бы учебными) и умение презентовать себя на собеседовании. Точную вилку для своей роли и города проверяйте в <a href=\"https://career.habr.com/salaries?utm_source=habr&amp;utm_medium=megapost&amp;utm_campaign=salaries1h2026\">калькуляторе зарплат Хабр Карьеры</a>.</p><p>Для старта присмотритесь к программам <a href=\"https://career.habr.com/courses/dizajn/dizajn-polzovatelskogo-interfejsa-ux-ui?educationPlatforms%5B%5D=36-skillbox&amp;?utm_source=habr_edu&amp;utm_medium=partner&amp;utm_campaign=57&amp;utm_content=skillbox\">Skillbox</a>, <a href=\"https://career.habr.com/courses/dizajn/dizajn-polzovatelskogo-interfejsa-ux-ui?educationPlatforms%5B%5D=35-yandeks-praktikum&amp;?utm_source=habr_edu&amp;utm_medium=partner&amp;utm_campaign=57&amp;utm_content=yandex_practicum\">Яндекс Практикума</a>, <a href=\"https://career.habr.com/courses/dizajn/dizajn-polzovatelskogo-interfejsa-ux-ui?educationPlatforms%5B%5D=271-akademiya-edyuson&amp;?utm_source=habr_edu&amp;utm_medium=partner&amp;utm_campaign=57&amp;utm_content=eduson\">Академии Эдюсон</a>, <a href=\"https://career.habr.com/courses/dizajn/dizajn-polzovatelskogo-interfejsa-ux-ui?educationPlatforms%5B%5D=249-brunoyam&amp;?utm_source=habr_edu&amp;utm_medium=partner&amp;utm_campaign=57&amp;utm_content=brunoyam\">Бруноям</a>, <a href=\"https://career.habr.com/courses/dizajn?educationPlatforms%5B%5D=565-institut-professionalnyh-kvalifikaciy&amp;?utm_source=habr_edu&amp;utm_medium=partner&amp;utm_campaign=57&amp;utm_content=IPK\">Института профессиональных квалификаций</a> и <a href=\"https://career.habr.com/courses/dizajn/uxcopywriting?educationPlatforms%5B%5D=10-netologiya&amp;?utm_source=habr_edu&amp;utm_medium=partner&amp;utm_campaign=57&amp;utm_content=netology\">Нетологии</a>.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "образование в ит"
+    },
+    {
+      "titleHtml": "образование в it"
+    },
+    {
+      "titleHtml": "ux"
+    },
+    {
+      "titleHtml": "ux дизайн"
+    },
+    {
+      "titleHtml": "ux-исследования"
+    },
+    {
+      "titleHtml": "ux для новичков"
+    },
+    {
+      "titleHtml": "онлайн образование"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106186/b6ea6698d608f656aa48d0effc444d24/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106186/b6ea6698d608f656aa48d0effc444d24/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/habr_career\\/articles\\/1106186\\/\"},\"headline\":\"Что такое пользовательский опыт: как UX-исследования, дизайн и тексты помогают бизнесу\",\"datePublished\":\"2026-11-10T17:43:43+03:00\",\"dateModified\":\"2026-11-11T21:43:39+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Вы открываете приложение банка, чтобы перевести деньги. Находите нужную кнопку за пару секунд, вводите данные и закрываете приложение. В другом приложении та же...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/habr_career\\/articles\\/1106186\\/#post-content-body\",\"about\":[\"c_habr_career\",\"h_career\",\"f_management\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/45\\/55\\/b6\\/4555b67dd2fc26f5a2c18daded1965ba.png\",\"https:\\/\\/habrastorage.org\\/extt\\/72\\/d9\\/e4\\/72d9e4126f69fe0e029f648707696859.png\",\"https:\\/\\/habrastorage.org\\/extt\\/13\\/b8\\/b4\\/13b8b4f1217fbcba683baf33107f9810.png\",\"https:\\/\\/habrastorage.org\\/extt\\/55\\/e5\\/f4\\/55e5f46668ac28f080ff04f88e768fa1.png\"]}",
+    "metaDescription": "Вы открываете приложение банка, чтобы перевести деньги. Находите нужную кнопку за пару секунд, вводите данные и закрываете приложение. В другом приложении та же задача превращается в квест: нужная...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "30",
+    "title": "Маркетинг и контент",
+    "alias": "marketing"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

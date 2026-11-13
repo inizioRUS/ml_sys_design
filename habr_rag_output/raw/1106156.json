@@ -1,0 +1,203 @@
+{
+  "id": "1106156",
+  "timePublished": "2026-11-10T13:39:46+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Не ИИ обесценил сеньоров. Это сделали ваши собеседования",
+  "leadData": {
+    "textHtml": "<p>Принято считать, что LLM обесценивают опыт: новичок с моделью выдаёт результат, похожий на результат эксперта, и платить за экспертизу становится незачем. Данные показывают более сложную картину. Модель действительно сокращает разрыв, но только на задачах, которые она решает хорошо, и не даёт новичку главного — способности проверить ответ. Уравнивает новичка с LLM и опытного специалиста не модель, а найм, который проверяет ровно то, в чём они похожи. Разберёмся, как это происходит, и какие адаптации найма можно обосновать исследованиями.</p>",
+    "imageUrl": "https://habrastorage.org/extt/ac/d7/3d/acd73d498b1513fb4641a0cc829b81cc.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/ac/d7/3d/acd73d498b1513fb4641a0cc829b81cc.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3359219",
+    "alias": "yudeek",
+    "fullname": "Денис",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/615/373/578/615373578ebafb61c7212f1ca06f24d8.jpg",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 10,
+      "votesCount": 34
+    },
+    "rating": 6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 8,
+    "favoritesCount": 12,
+    "readingCount": 1903,
+    "score": 6,
+    "votesCount": 6,
+    "votesCountPlus": 6,
+    "votesCountMinus": 0,
+    "reach": 8844,
+    "readers": 1422
+  },
+  "hubs": [
+    {
+      "id": "20740",
+      "alias": "career",
+      "type": "collective",
+      "title": "Карьера в IT-индустрии",
+      "titleHtml": "Карьера в IT-индустрии",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21910",
+      "alias": "popular_science",
+      "type": "collective",
+      "title": "Научно-популярное",
+      "titleHtml": "Научно-популярное",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20688",
+      "alias": "research",
+      "type": "collective",
+      "title": "Исследования и прогнозы в IT",
+      "titleHtml": "Исследования и прогнозы в IT",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20736",
+      "alias": "hr_management",
+      "type": "collective",
+      "title": "Управление персоналом",
+      "titleHtml": "Управление персоналом",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Один из основных вопросов на рынке ИТ в 2026 году звучит так: если джун с ИИ закрывает задачи почти так же быстро, как сеньор, а аналитик без опыта получает от модели готовый SQL и аккуратный дашборд, то <strong>зачем платить за опыт</strong>? У такого вопроса есть весьма аргументированное основание. В исследовании 5 172 сотрудников поддержки ИИ-ассистент поднял производительность в среднем на 15%, причём менее опытные выиграли и в скорости, и в качестве, а самые опытные — немного в скорости при небольшом падении качества. В эксперименте с 453 специалистами, писавшими профессиональные тексты, время выполнения сократилось на 40%, качество выросло на 18%, а неравенство между работниками уменьшилось. <strong>Проще говоря, на типовых задачах LLM подтягивает слабых к сильным.</strong></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/da/e1/19/dae119c3705e71665ceb6aabf8a29fe5.png\" alt=\"Новичок с LLM vs. эксперт\" title=\"Новичок с LLM vs. эксперт\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/da/e1/19/dae119c3705e71665ceb6aabf8a29fe5.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/da/e1/19/dae119c3705e71665ceb6aabf8a29fe5.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Новичок с LLM vs. эксперт</figcaption></div></figure><p>Но что, если вывод «LLM уравняла новичка и эксперта» — не свойство модели, а свойство того, как мы их сравниваем? Например, что если сам процесс найма в ИТ стал таким, что вооруженный LLM вкатун с нулевым опытом легко может обойти сеньора в борьбе за вакантное место?</p><h3>Что такое экспертиза</h3><p>Получается, что LLM уравнивает новичка и опытного не вообще, а в определённой области: на <strong>типовых задачах</strong> в пределах возможностей модели и там, где <strong>результат не требует проверки </strong>от человека. За этой областью разрыв сохраняется, а иногда и растёт. Почему? Ответ дала когнитивная психология задолго до LLM. <strong>Экспертиза — это прежде всего содержимое долговременной памяти. </strong>Эксперт отличается от новичка не более ёмкой рабочей памятью, а тем, что он уже много раз встречал похожие задачи и хранит готовые схемы их решения. Новичку приходится собирать решение в ограниченной рабочей памяти шаг за шагом. <strong>Накопленное знание — главный, а возможно, единственный изменяемый источник различий между людьми.</strong></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/71/7b/c1/717bc13fbbed552c0932663ccb3114e0.png\" alt=\"Роль экспертизы в решении задач\" title=\"Роль экспертизы в решении задач\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/71/7b/c1/717bc13fbbed552c0932663ccb3114e0.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/71/7b/c1/717bc13fbbed552c0932663ccb3114e0.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Роль экспертизы в решении задач</figcaption></div></figure><p>Снаружи схемы проявляются в трёх признаках. <strong>Во-первых,</strong> эксперт <strong>узнаёт</strong> осмысленные конфигурации: шахматист с одного взгляда запоминает позицию из реальной партии, но не случайную расстановку фигур, и тот же эффект получен на программистах. <strong>Во-вторых,</strong> эксперт <strong>классифицирует</strong> задачи по глубинной структуре, а новичок — по внешним признакам: физики-эксперты группировали задачи по закону, который нужен для решения, а студенты — по тому, что изображено в условии. <strong>В-третьих,</strong> эксперт сразу <strong>видит первый шаг </strong>решения. Метод, построенный на этом признаке, коррелировал с полным тестом знаний до 0,92 и сокращал время проверки в 2,5–4,9 раза. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0d/0a/53/0d0a5319037b76df57a01b9dfb0a9bc1.png\" alt=\"Разница в подходах новичок с LLM vs. эксперт\" title=\"Разница в подходах новичок с LLM vs. эксперт\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0d/0a/53/0d0a5319037b76df57a01b9dfb0a9bc1.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0d/0a/53/0d0a5319037b76df57a01b9dfb0a9bc1.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Разница в подходах новичок с LLM vs. эксперт</figcaption></div></figure><p>Теперь видно, почему LLM не заменяет экспертизу. <strong>Все три признака — это способность узнать, что перед тобой, и понять, правильно ли оно устроено. </strong>Именно это и нужно, чтобы проверить ответ модели и заметить, что задача вышла за пределы её возможностей. Модель порождает текст и код, но схемы для их оценки остаются в голове человека — или отсутствуют. Иными словами, <strong>LLM заменяет исполнение, а экспертиза — это прежде всего распознавание.</strong></p><h3>Найм как уравнитель</h3><p>Оттолкнемся от типового процесс найма:</p><ul><li><p><strong>описание вакансии</strong> составляется с помощью LLM, часто тем, кто не знает предметной области;</p></li><li><p><strong>резюме</strong> адаптированы под системы автоматического отбора (ATS), и ATS отсеивает их по совпадению ключевых слов;</p></li><li><p><strong>скрининг</strong> проводит неэксперт: что ищете, почему уходите, рассказ о компании;</p></li><li><p>затем идут <strong>общие интервью </strong>в формате STAR</p></li><li><p> а потом <strong>технические интервью,</strong> проверяющие только один небольшой кусок экспертизы соискателя</p></li></ul><p>Теперь давайте пройдем по всем этапам и разберем, что именно на них оценивается. </p><p><strong>Вакансия и ATS.</strong> Схемы, которые нужны роли, определяются классом задач, с которыми человек будет сталкиваться. Если вакансию пишет тот, кто этих задач не знает, он описывает роль через <strong>поверхностные признаки: стек, годы опыта, модные термины. </strong>Это та же категоризация новичка по внешним признакам, только на стороне работодателя. ATS затем сравнивает ключевые слова резюме с ключевыми словами вакансии — поверхность с поверхностью. Резюме, подогнанное под ключевые слова, одинаково напишет и эксперт, и новичок.</p><p><strong>Скрининг.</strong> Неэксперт не может отличить глубинный ответ от поверхностного и не узнаёт об этом. В экспериментах с неструктурированными интервью участники формировали уверенное впечатление о собеседнике, даже когда тот отвечал случайным образом, а само интервью ухудшало прогноз по сравнению с одними объективными данными. <strong>Субъективная уверенность вообще плохо говорит о точности</strong>: надёжная интуиция возникает только в регулярной среде с многократной обратной связью. На этом этапе гладкость рассказа решает больше, чем схемы.</p><p><strong>Интервью.</strong> Формат STAR (вопросы о прошлом поведении) сам по себе не слабый: со шкалами, где описаны уровни ответов, его валидность в метаанализе достигала 0,63. Но кандидат сам выбирает, о чём рассказать, поэтому без таких шкал<strong> интервью во многом измеряет умение рассказывать. </strong></p><p><strong>Технические задачи.</strong>  Алгосы, system design и live coding добавляют другой шум: результат смешан с тревогой от того, что за тобой наблюдают. <strong>А еще такие задачи по своей природе типовые, то есть с высокой вероятностью лежат в пределах возможностей модели. </strong>Поэтому при использовании LLM на собесе (не важно, легально или нет) результат новичка и сеньора будет в лучшем случае одинаковым.  </p><p>Получается неприятная петля. Каждый этап измеряет либо поверхностные признаки, либо впечатление, либо результат на типовой задаче. Это ровно та область, где новичок с LLM и опытный специалист похожи. <strong>Распознавание, проверку, работу за пределами возможностей модели не измеряет ни один этап.</strong> Значит, на выходе найма новичок с LLM и эксперт выглядят одинаково не потому, что модель их уравняла, а потому, что <strong>найм смотрит только туда, где они равны.</strong></p><p>Здесь нужна честная оговорка. Если роль действительно состоит почти только из типовых задач в пределах возможностей модели, обесценивание опыта в ней реально, и найм тут ни при чём. Но почему-то даже для написания CRUD и покраски кнопок на рынке всегда хотели взять прирожденного инженера. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/1c/80/8c/1c808ca92840ec73e125556c7b25df3f.png\" alt=\"Типовой процесс найма в ИТ\" title=\"Типовой процесс найма в ИТ\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1c/80/8c/1c808ca92840ec73e125556c7b25df3f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/1c/80/8c/1c808ca92840ec73e125556c7b25df3f.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Типовой процесс найма в ИТ</figcaption></div></figure><h3>Цена уравнивания</h3><p>Если найм не различает новичка с LLM и эксперта, решение выглядит рациональным: брать того, кто дешевле. Последствия у этого решения двух видов.</p><p><strong>Первое — прямые ошибки. </strong>Новичок, нанятый на роль, где нужна проверка, будет ошибаться там, где граница возможностей модели пройдена, и не узнает об этом. Это следует из данных о задачах за пределами возможностей модели и об иллюзии компетентности, хотя прямых измерений ошибок найма такого рода нет.</p><p><strong>Второе — сломанный конвейер.</strong> Эксперты получаются только из новичков. Ещё в 1983 году Лизанна Бейнбридж описала «иронию автоматизации» в промышленности: автоматика забирает у оператора ту самую практику, на которой вырастает навык, нужный, чтобы её контролировать и подменять, когда она ошибается. Перенос на LLM — аналогия, но прямая. Новичок, нанятый как оператор модели, свои схемы не строит. </p><p>Экономисты описывают автоматизацию не как замену должностей, а как перераспределение задач: технология вытесняет труд из одних задач и создаёт новые, где он снова нужен. Если найм оценивает людей только по задачам, которые модель уже забрала, он систематически недооценивает тех, кто способен делать оставшиеся.</p><p><strong>Круг замыкается: найм не видит экспертизу, рынок за неё не платит, новички растут операторами, и экспертизы действительно становится меньше. </strong></p><h3>Адаптации найма</h3><p>Хорошая новость в том, что у психологии отбора персонала есть проверенные инструменты, а теория экспертизы подсказывает, как их нацелить. Ниже — адаптации, разделённые по силе доказательной базы.</p><p><em>Адаптации с устойчивой доказательной базой.</em></p><p><strong>Анализ работы вместо списка ключевых слов.</strong> Вакансия пишется из перечня задач роли, который составляет эксперт: 5–10 типичных задач с отметкой, где каждая находится относительно модели — делает LLM; делает LLM, проверяет человек; задача за пределами возможностей модели. </p><p><strong>Структурированное интервью со шкалами.</strong> Структурированное интервью называют лучшим методом, потому что из всех методов отбора оно <strong>точнее всего предсказывает</strong>, как человек будет работать. </p><p>За счёт чего:</p><ul><li><p><strong>Одинаковые вопросы для всех.</strong> Ответы кандидатов можно сравнивать между собой, а не с настроением интервьюера.</p></li><li><p><strong>Вопросы строятся из анализа работы.</strong> Спрашивают о том, что действительно понадобится в роли </p></li><li><p><strong>Шкалы с описанными уровнями ответов.</strong> Оценщики расходятся меньше относительно оценки кандидата. </p></li><li><p><strong>Меньше места для впечатления.</strong> В неструктурированном интервью люди уверенно «понимают» даже случайные ответы, и прогноз от этого ухудшается. Структура отсекает этот эффект. </p></li></ul><p><strong>Рабочие пробы на реальных задачах.</strong> Рабочая проба (work sample) — это задание, которое воспроизводит часть реальной работы: кандидат делает работу, а не рассказывает о ней. Связь с последующей эффективностью у неё умеренная, но устойчивая. Пробу можно собрать из перечня задач роли.</p><p>Почему метод работает:</p><ul><li><p>Измеряется поведение на задаче из самой работы, а не самоописание или впечатление.</p></li><li><p>Если говорить языком теории экспертизы, проба напрямую затрагивает схемы предметной области, а не умение о них рассказать.</p></li></ul><p>Но у этого метода есть и оговорки:</p><ul><li><p>Проба частично пересекается с общими способностями. Её корреляция с тестами общих когнитивных способностей составляет 0,32. То есть проба измеряет не только экспертизу.</p></li><li><p>Проба видит только те схемы, которые попали в задание. Узкая проба даёт узкий срез, поэтому её стоит собирать из перечня реальных задач роли.</p></li><li><p>Домашнюю пробу кандидат может сделать с LLM <em>(привет всем любителям типовых тестовых заданий в пределах компетенции LLM).</em> Тогда она перестаёт различать новичка с моделью и эксперта. </p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0d/2c/c2/0d2cc2de36a34f774fbab198c0a342e0.png\" alt=\"Адаптации с устойчивой доказательной базой\" title=\"Адаптации с устойчивой доказательной базой\" width=\"1650\" height=\"928\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0d/2c/c2/0d2cc2de36a34f774fbab198c0a342e0.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0d/2c/c2/0d2cc2de36a34f774fbab198c0a342e0.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Адаптации с устойчивой доказательной базой</em></figcaption></div></figure><p><em>Адаптации, обоснованные теорией, но не проверенные в найме.</em></p><p><strong>Пробы на распознавание.</strong> Короткие задания «первого шага»: фрагмент лога, diff, схема архитектуры с вопросом «что здесь происходит и что вы сделаете первым?», с ключом ответов от эксперта. Или сортировка 6–8 коротких описаний проблем с объяснением, как в исследованиях классификации задач экспертами. Метод хорошо работает в обучении; в ИТ-найме он не валидирован.</p><p><strong>Пробы на проверку ответа LLM.</strong> Внутри рабочей пробы: найти ошибку в правдоподобном решении, сгенерированном моделью, и решить задачу за пределами её возможностей. Это прямое измерение того, что отличает эксперта от новичка с моделью, но данных о валидности таких проб пока нет.</p><p><strong>Широкая выборка схем.</strong> Одна обязательная область и одна, которую кандидат выбирает сам как самую сильную. Это снижает риск, что интервью увидит узкий и не самый сильный срез. Объяснение или изменение решения вживую проверяет, что обработку делал сам кандидат.</p><p><strong>Меньше внешней нагрузки от формата.</strong> Если результат live coding смешан с тревогой от наблюдения, формат стоит менять, например давать решить задачу без наблюдателя и затем обсуждать.</p><p>Цену этих адаптаций стоит оговорить сразу. Они требуют времени экспертов на каждом этапе — от перечня задач до шкал и оценки проб. Но альтернатива — найм, который экспертизу не видит, — в итоге обходится дороже.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/26/84/cf/2684cf818925e27856a8a16723feb504.png\" alt=\"Адаптации, обоснованные теорией, но не проверенные в найме\" title=\"Адаптации, обоснованные теорией, но не проверенные в найме\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/26/84/cf/2684cf818925e27856a8a16723feb504.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/26/84/cf/2684cf818925e27856a8a16723feb504.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Адаптации, обоснованные теорией, но не проверенные в найме</em></figcaption></div></figure><h3>Заключение</h3><p>Схема, которую мы собрали, читается так. LLM действительно сокращает разрыв между новичком и опытным, но только на типовых задачах в пределах своих возможностей и только в порождении результата. Экспертиза же — это схемы распознавания, которые нужны, чтобы проверить ответ и заметить выход за границу возможностей модели. Типовой найм измеряет поверхностные признаки, впечатление и результат на типовых задачах — ровно то, в чём новичок с LLM и эксперт похожи. <strong>Поэтому их уравнивает не модель, а найм.</strong></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/21/3d/91/213d91d050bb2a81cb9bf2932c33a2f9.png\" alt=\"Найм для оценки экспертизы\" title=\"Найм для оценки экспертизы\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/21/3d/91/213d91d050bb2a81cb9bf2932c33a2f9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/21/3d/91/213d91d050bb2a81cb9bf2932c33a2f9.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Найм для оценки экспертизы</figcaption></div></figure><p>Отсюда три вывода. <strong>Первый</strong>: тезис «LLM обесценила опыт» в значительной мере — артефакт измерения, а не свойство технологии. <strong>Второй</strong>: у психологии отбора есть инструменты с устойчивой доказательной базой — анализ работы, структурированное интервью со шкалами, рабочие пробы, механическое сведение оценок, — и их достаточно, чтобы найм снова начал видеть экспертизу. <strong>Третий</strong>: пробы на распознавание и проверку ответа LLM — самый прямой способ измерить то, чего модель не даёт, но их ещё нужно валидировать.</p><p>Для компаний вывод практический: <strong>пока найм уравнивает новичка с моделью и эксперта, экономия на опыте сегодня превращается в нехватку проверяющих завтра.</strong> Для специалистов вывод не менее конкретный: <strong>ценность растёт там, где человек умеет распознать и проверить, а не там, где он быстрее всех получает ответ.</strong></p><hr/><p><em>Статья написана при участии Claude Code (Anthropic). Автор отобрал исследования, изучил их, сформулировал главную мысль статьи, а также написал черновик материала. Claude Code проверил ошибки, отредактировал текст, а также подготовил инфографику.</em></p><hr/><h3>Что почитать</h3><p><em>Экспертиза и схемы</em></p><ul><li><p>Chase W. G., Simon H. A. <a href=\"https://doi.org/10.1016/0010-0285(73)90004-2\" rel=\"noopener nofollow\">Perception in chess</a> // Cognitive Psychology. 1973. Vol. 4, No. 1. P. 55–81 — классическое исследование узнавания позиций: эксперт запоминает осмысленные, но не случайные конфигурации.</p></li><li><p>Chi M. T. H., Feltovich P. J., Glaser R. <a href=\"https://doi.org/10.1207/s15516709cog0502_2\" rel=\"noopener nofollow\">Categorization and Representation of Physics Problems by Experts and Novices</a> // Cognitive Science. 1981. Vol. 5, No. 2. P. 121–152 — эксперты классифицируют задачи по принципам решения, новички — по внешним признакам.</p></li><li><p>McKeithen K. B., Reitman J. S., Rueter H. H., Hirtle S. C. <a href=\"https://doi.org/10.1016/0010-0285(81)90012-8\" rel=\"noopener nofollow\">Knowledge organization and skill differences in computer programmers</a> // Cognitive Psychology. 1981. Vol. 13, No. 3. P. 307–325 — эффект узнавания и организации знаний, воспроизведённый на программистах.</p></li><li><p>Sweller J. <a href=\"https://doi.org/10.1016/j.lindif.2024.102423\" rel=\"noopener nofollow\">Cognitive load theory and individual differences</a> // Learning and Individual Differences. 2024. Vol. 110. Article 102423 — экспертиза как содержимое долговременной памяти и главный изменяемый источник различий.</p></li><li><p>Kalyuga S., Sweller J. <a href=\"https://doi.org/10.1037/0022-0663.96.3.558\" rel=\"noopener nofollow\">Measuring Knowledge to Optimize Cognitive Load Factors During Instruction</a> // Journal of Educational Psychology. 2004. Vol. 96, No. 3. P. 558–568 — метод «первого шага»: корреляция с полным тестом до 0,92 при сокращении времени в 2,5–4,9 раза.</p></li><li><p>Kalyuga S., Ayres P., Chandler P., Sweller J. <a href=\"https://doi.org/10.1207/s15326985ep3801_4\" rel=\"noopener nofollow\">The Expertise Reversal Effect</a> // Educational Psychologist. 2003. Vol. 38, No. 1. P. 23–31 — почему поддержка, полезная новичку, мешает опытному.</p></li></ul><p><em>ИИ, производительность и проверка</em></p><ul><li><p>Brynjolfsson E., Li D., Raymond L. <a href=\"https://doi.org/10.1093/qje/qjae044\" rel=\"noopener nofollow\">Generative AI at Work</a> // The Quarterly Journal of Economics. 2025. Vol. 140, No. 2. P. 889–942 — 5 172 сотрудника поддержки: +15% в среднем, наибольший выигрыш у менее опытных.</p></li><li><p>Noy S., Zhang W. <a href=\"https://doi.org/10.1126/science.adh2586\" rel=\"noopener nofollow\">Experimental evidence on the productivity effects of generative artificial intelligence</a> // Science. 2023. Vol. 381, No. 6654. P. 187–192 — 453 специалиста: −40% времени, +18% качества, меньше неравенства между работниками.</p></li><li><p>Dell'Acqua F., McFowland E., Mollick E., et al. <a href=\"https://doi.org/10.1287/orsc.2025.21838\" rel=\"noopener nofollow\">Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality</a> // Organization Science. 2026. Vol. 37, No. 2. P. 403–423 — 758 консультантов: выигрыш внутри границы возможностей модели и −19% верных решений за её пределами.</p></li><li><p>Prather J., Reeves B. N., Leinonen J., et al. <a href=\"https://doi.org/10.1145/3632620.3671116\" rel=\"noopener nofollow\">The Widening Gap: The Benefits and Harms of Generative AI for Novice Programmers</a> // Proceedings of ICER 2024. P. 469–486 — как генеративный ИИ ускоряет сильных новичков и создаёт иллюзию компетентности у слабых.</p></li><li><p>Goddard K., Roudsari A., Wyatt J. C. <a href=\"https://doi.org/10.1136/amiajnl-2011-000089\" rel=\"noopener nofollow\">Automation bias: a systematic review of frequency, effect mediators, and mitigators</a> // Journal of the American Medical Informatics Association. 2012. Vol. 19, No. 1. P. 121–127 — от чего зависит чрезмерное доверие автоматике и что его снижает.</p></li><li><p>Lee H.-P., Sarkar A., Tankelevitch L., et al. <a href=\"https://doi.org/10.1145/3706598.3713778\" rel=\"noopener nofollow\">The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers</a> // Proceedings of CHI 2025. P. 1–22 — доверие к ИИ связано с меньшим критическим мышлением.</p></li></ul><p><em>Валидность методов отбора</em></p><ul><li><p>Sackett P. R., Zhang C., Berry C. M., Lievens F. <a href=\"https://doi.org/10.1037/apl0000994\" rel=\"noopener nofollow\">Revisiting meta-analytic estimates of validity in personnel selection: Addressing systematic overcorrection for restriction of range</a> // Journal of Applied Psychology. 2022. Vol. 107, No. 11. P. 2040–2068 — пересмотр валидности: структурированное интервью на первом месте, оценки ниже прежних на 0,10–0,20.</p></li><li><p>Roth P. L., Bobko P., McFarland L. A. <a href=\"https://doi.org/10.1111/j.1744-6570.2005.00714.x\" rel=\"noopener nofollow\">A meta-analysis of work sample test validity: Updating and integrating some classic literature</a> // Personnel Psychology. 2005. Vol. 58, No. 4. P. 1009–1037 — валидность рабочих проб: 0,26 без поправок и 0,33 с поправкой.</p></li><li><p>Kuncel N. R., Klieger D. M., Connelly B. S., Ones D. S. <a href=\"https://doi.org/10.1037/a0034156\" rel=\"noopener nofollow\">Mechanical versus clinical data combination in selection and admissions decisions: A meta-analysis</a> // Journal of Applied Psychology. 2013. Vol. 98, No. 6. P. 1060–1072 — механическое сведение оценок предсказывает лучше целостного суждения, даже экспертного.</p></li></ul><p><em>Интервью и суждение интервьюера</em></p><ul><li><p>Levashina J., Hartwell C. J., Morgeson F. P., Campion M. A. <a href=\"https://doi.org/10.1111/peps.12052\" rel=\"noopener nofollow\">The Structured Employment Interview: Narrative and Quantitative Review of the Research Literature</a> // Personnel Psychology. 2014. Vol. 67, No. 1. P. 241–293 — обзор того, из чего складывается структура интервью и что известно о каждом её элементе.</p></li><li><p>Taylor P. J., Small B. <a href=\"https://doi.org/10.1348/096317902320369712\" rel=\"noopener nofollow\">Asking applicants what they would do versus what they did do: A meta-analytic comparison of situational and past behaviour employment interview questions</a> // Journal of Occupational and Organizational Psychology. 2002. Vol. 75, No. 3. P. 277–294 — валидность вопросов о прошлом поведении (0,63) и согласованность оценщиков со шкалами (0,77–0,79).</p></li><li><p>Dana J., Dawes R., Peterson N. <a href=\"https://doi.org/10.1017/S1930297500003612\" rel=\"noopener nofollow\">Belief in the unstructured interview: The persistence of an illusion</a> // Judgment and Decision Making. 2013. Vol. 8, No. 5. P. 512–520 — уверенные впечатления от случайных ответов и ухудшение прогноза после неструктурированного интервью.</p></li><li><p>Kahneman D., Klein G. <a href=\"https://doi.org/10.1037/a0016755\" rel=\"noopener nofollow\">Conditions for intuitive expertise: A failure to disagree</a> // American Psychologist. 2009. Vol. 64, No. 6. P. 515–526 — когда интуиции можно доверять и почему субъективная уверенность не говорит о точности.</p></li><li><p>Behroozi M., Shirolkar S., Barik T., Parnin C. <a href=\"https://doi.org/10.1145/3368089.3409712\" rel=\"noopener nofollow\">Does stress impact technical interview performance?</a> // Proceedings of ESEC/FSE 2020. P. 481–492 — результат технического интервью у доски смешан с тревогой от наблюдения.</p></li></ul><p><em>Автоматизация, научение и труд</em></p><ul><li><p>Bastani H., Bastani O., Sungu A., et al. <a href=\"https://doi.org/10.1073/pnas.2422633122\" rel=\"noopener nofollow\">Generative AI without guardrails can harm learning: Evidence from high school mathematics</a> // Proceedings of the National Academy of Sciences. 2025. Vol. 122, No. 26. Article e2422633122 — +48% и +127% с доступом, −17% после отключения, роль защитных подсказок.</p></li><li><p>Bainbridge L. <a href=\"https://doi.org/10.1016/0005-1098(83)90046-8\" rel=\"noopener nofollow\">Ironies of automation</a> // Automatica. 1983. Vol. 19, No. 6. P. 775–779 — автоматизация лишает оператора практики, которая нужна, чтобы её контролировать.</p></li><li><p>Acemoglu D., Restrepo P. <a href=\"https://doi.org/10.1257/jep.33.2.3\" rel=\"noopener nofollow\">Automation and New Tasks: How Technology Displaces and Reinstates Labor</a> // Journal of Economic Perspectives. 2019. Vol. 33, No. 2. P. 3–30 — автоматизация как перераспределение задач: вытеснение и восстановление труда.</p></li></ul></div>",
+  "tags": [
+    {
+      "titleHtml": "найм"
+    },
+    {
+      "titleHtml": "llm"
+    },
+    {
+      "titleHtml": "собеседования"
+    },
+    {
+      "titleHtml": "подбор персонала"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106156/47a323f5cb9213a81c96e58a289d3b4b/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106156/47a323f5cb9213a81c96e58a289d3b4b/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106156\\/\"},\"headline\":\"Не ИИ обесценил сеньоров. Это сделали ваши собеседования\",\"datePublished\":\"2026-11-10T16:39:46+03:00\",\"dateModified\":\"2026-11-10T16:45:02+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Один из основных вопросов на рынке ИТ в 2026 году звучит так: если джун с ИИ закрывает задачи почти так же быстро, как сеньор, а аналитик без опыта получает от...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106156\\/#post-content-body\",\"about\":[\"h_career\",\"h_popular_science\",\"h_research\",\"h_hr_management\",\"h_artificial_intelligence\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/da\\/e1\\/19\\/dae119c3705e71665ceb6aabf8a29fe5.png\",\"https:\\/\\/habrastorage.org\\/extt\\/71\\/7b\\/c1\\/717bc13fbbed552c0932663ccb3114e0.png\",\"https:\\/\\/habrastorage.org\\/extt\\/0d\\/0a\\/53\\/0d0a5319037b76df57a01b9dfb0a9bc1.png\",\"https:\\/\\/habrastorage.org\\/extt\\/1c\\/80\\/8c\\/1c808ca92840ec73e125556c7b25df3f.png\",\"https:\\/\\/habrastorage.org\\/extt\\/0d\\/2c\\/c2\\/0d2cc2de36a34f774fbab198c0a342e0.png\",\"https:\\/\\/habrastorage.org\\/extt\\/26\\/84\\/cf\\/2684cf818925e27856a8a16723feb504.png\",\"https:\\/\\/habrastorage.org\\/extt\\/21\\/3d\\/91\\/213d91d050bb2a81cb9bf2932c33a2f9.png\"]}",
+    "metaDescription": "Один из основных вопросов на рынке ИТ в 2026 году звучит так: если джун с ИИ закрывает задачи почти так же быстро, как сеньор, а аналитик без опыта получает от модели готовый SQL и аккуратный дашборд,...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 11,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "36",
+    "title": "HR",
+    "alias": "human_resources"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

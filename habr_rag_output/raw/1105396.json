@@ -1,0 +1,975 @@
+{
+  "id": "1105396",
+  "timePublished": "2026-11-10T07:51:37+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "TokenRouter: непрерывная маршрутизация LLM по токенам",
+  "leadData": {
+    "textHtml": "<p>Привет, Хабр! Сегодня расскажу, как можно эффективно использовать в своей системе сразу несколько LLM.</p><p>ИИ решает самые разные задачи: анализирует тексты, готовит контент, обрабатывает изображения, генерирует видео. Но одна LLM все запросы не тянет. Точнее, тянет, только результат получается хуже, чем мог бы. Технические запросы, такие как расчет гармоник, разбор спецификаций, интерпретацию стандартов — лучше поручать специализированной модели, которая уверенно работает с формулами и таблицами. А общие — универсальной.</p><p>Для эффективного направления запросов используется маршрутизация LLM, и здесь речь идет не о сетевом трафике. Запросы перераспределяются между разными моделями, сдвигая границу Парето «стоимость–качество» обслуживания. В результате можно выбрать, какую именно модель нам будет выгоднее использовать в каждом конкретном случае.</p><p>В продакшне давно используют маршрутизацию на уровне сессии или запроса. Но многие исследователи утверждают, что заметный выигрыш и по эффективности, и по качеству даст именно маршрутизация на уровне токенов.</p><p>Однако эффективное обслуживание токен-уровневого маршрутизированного инференса создает значительные трудности для существующих систем. Текущие системы страдают от серьезной десинхронизации шагов и частых задержек допуска в батч при использовании маршрутизации на уровне токенов, да и реализовать это трудно.</p><p>В этом материале рассмотрим работу <a href=\"https://arxiv.org/abs/2610.12242\">TokenRouter: Efficient Serving System for Token-Level LLM Routing</a>. В ней описывается<strong> </strong>система обслуживания LLM, в основе которой заложен принцип «программирование с точки зрения запроса, исполнения с точки зрения модели».&nbsp;</p>",
+    "imageUrl": "https://habrastorage.org/extt/e4/78/db/e478db9e85dd15ea64e0226c9a98cf54.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/e4/78/db/e478db9e85dd15ea64e0226c9a98cf54.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5637431",
+    "alias": "aberglaube",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 27,
+      "votesCount": 43
+    },
+    "rating": 79.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 5,
+    "readingCount": 331,
+    "score": 12,
+    "votesCount": 7,
+    "votesCountPlus": 7,
+    "votesCountMinus": 0,
+    "reach": 5598,
+    "readers": 224
+  },
+  "hubs": [
+    {
+      "id": "20822",
+      "alias": "ru_mts",
+      "type": "corporative",
+      "title": "Блог компании МТС",
+      "titleHtml": "Блог компании МТС",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e5/1e/fb/e51efb8c686472eb71419ed0228a3ce4.png\" width=\"1672\" height=\"941\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e5/1e/fb/e51efb8c686472eb71419ed0228a3ce4.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/e5/1e/fb/e51efb8c686472eb71419ed0228a3ce4.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Привет, Хабр! Сегодня расскажу, как можно эффективно использовать в своей системе сразу несколько LLM.</p><p>ИИ решает самые разные задачи: анализирует тексты, готовит контент, обрабатывает изображения, генерирует видео. Но одна LLM все запросы не тянет. Точнее, тянет, только результат получается хуже, чем мог бы. Технические запросы, такие как расчет гармоник, разбор спецификаций, интерпретацию стандартов — лучше поручать специализированной модели, которая уверенно работает с формулами и таблицами. А общие — универсальной.</p><p>Для эффективного направления запросов используется маршрутизация LLM, и здесь речь идет не о сетевом трафике. Запросы перераспределяются между разными моделями, сдвигая границу Парето «стоимость–качество» обслуживания. В результате можно выбрать, какую именно модель нам будет выгоднее использовать в каждом конкретном случае.</p><p>В продакшне давно используют маршрутизацию на уровне сессии или запроса. Но многие исследователи утверждают, что заметный выигрыш и по эффективности, и по качеству даст именно маршрутизация на уровне токенов.</p><p>Однако эффективное обслуживание токен-уровневого маршрутизированного инференса создает значительные трудности для существующих систем. Текущие системы страдают от серьезной десинхронизации шагов и частых задержек допуска в батч при использовании маршрутизации на уровне токенов, да и реализовать это трудно.</p><p>В этом материале рассмотрим работу <a href=\"https://arxiv.org/abs/2610.12242\">TokenRouter: Efficient Serving System for Token-Level LLM Routing</a>. В ней описывается<strong> </strong>система обслуживания LLM, в основе которой заложен принцип «программирование с точки зрения запроса, исполнения с точки зрения модели». </p><h2>Как работает TokenRouter</h2><p>Разработчик описывает логику маршрутизации для одного запроса, а рантайм запускает отдельный субсервер для каждой LLM и асинхронно распределяет запросы между ними.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/5b/fb/c9/5bfbc9dc243db940b63a49413a7d7dd5.png\" width=\"764\" height=\"320\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/5b/fb/c9/5bfbc9dc243db940b63a49413a7d7dd5.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/5b/fb/c9/5bfbc9dc243db940b63a49413a7d7dd5.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В экспериментах на разных алгоритмах маршрутизации, нагрузках и парах моделей TokenRouter обгоняет существующие системы по пропускной способности декодирования во много раз.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/dd/34/86/dd3486496f480f59e58f239decd9082a.png\" width=\"1084\" height=\"523\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/dd/34/86/dd3486496f480f59e58f239decd9082a.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/dd/34/86/dd3486496f480f59e58f239decd9082a.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Однако маршрутизация на уровне токенов приносит и ряд проблем:</p><ul><li><p><strong>Десинхронизация шагов. </strong>Разные LLM сильно различаются по времени, которое тратят на один шаг декодирования. В синхронном батче каждый шаг ждет самую медленную модель, а быстрые простаивают.</p></li><li><p><strong>Задержка допуска в батч. </strong>Из-за частых переключений моделей запрос попадает к целевой модели, когда та еще обрабатывает предыдущий батч. Приходится ждать следующего — в расписании появляются простои, а батчи дробятся на мелкие.</p></li><li><p><strong>Сложность реализации. </strong>Текущие системы обслуживания не дают интерфейса для решений о маршрутизации на каждом шаге. Встроить ее на уровне токенов непросто — придется переписать большую часть кода. А логику маршрутов еще нужно согласовать с непрерывным батчингом и кэшированием префиксов.</p></li></ul><p>Давайте посмотрим, как TokenRouter справляется со всем этим.</p><h2>Реализация</h2><p>Разработчики описывают алгоритм маршрутизации, прослеживая, как один запрос проходит через взаимодействующие LLM, а TokenRouter обеспечивает эффективное обслуживание через асинхронные моделецентричные субсерверы. Всю сложность обслуживания маршрутизации разработчик не видит. Она остается на рантайме, который сам оптимизирует исполнение между моделями и планирует батчи. Для клиента TokenRouter выглядит как обычный сервер с одной LLM.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/3c/df/c5/3cdfc5eb2e2a64af0bb228cf3614a290.png\" width=\"765\" height=\"343\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3c/df/c5/3cdfc5eb2e2a64af0bb228cf3614a290.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/3c/df/c5/3cdfc5eb2e2a64af0bb228cf3614a290.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Алгоритмы маршрутизации на уровне токенов реализуются через интерфейс <strong>route-send-receive. </strong>Он строится вокруг одного запроса, поэтому реализации получаются короткими и понятными. Исполнение при этом устроено вокруг моделей: рантайм смотрит на систему со стороны модели и обрабатывает запросы асинхронно.</p><p>Разные LLM работают с разной скоростью. Если их шаги синхронизировать, все ждут самую медленную. Авторы предлагают два решения. Первое — асинхронное исполнение. Второе — планировщик с отложенным батчингом, который копит запросы и запускает их вместе, чтобы снизить среднюю задержку.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/9d/56/37/9d563763d43f112d8907eae7960f4069.png\" width=\"919\" height=\"377\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/9d/56/37/9d563763d43f112d8907eae7960f4069.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/9d/56/37/9d563763d43f112d8907eae7960f4069.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Чтобы это заработало, разработчики пересмотрели весь путь запроса в алгоритмах маршрутизации на уровне токенов. Теперь запрос сначала приходит на входную модель, где выполняется декодирование. После прямого прохода специфичный для данного алгоритма роутер решает, должен ли запрос продолжиться локально или быть передан другой модели. Если запрос делегирован, текущая модель собирает необходимый контекст, такой как последние сгенерированные токены, и отправляет его целевой модели. Та в свою очередь получает запрос, продолжает декодирование и повторяет тот же процесс route-send-receive.</p><h2>В интерфейсе три основных элемента</h2><p>Прежде всего это <strong>route(result),</strong> который вызывается после каждого шага декодирования LLM. Он смотрит на результат прямого прохода: скрытые состояния, логиты следующего токена и уже сэмплированные токены. И по ним выбирает, куда направить каждый запрос из батча. Установка 0 означает, что запрос продолжает декодирование локально, а ненулевое назначение указывает на соответствующую peer-модель.</p><p>Элемент <strong>send(req)</strong> вызывается, когда route передает запрос. Он возвращает настроенное сообщение PeerReq, которое несет ID запроса, суффикс токенов, которые peer-модель еще не видела, поле статуса, указывающее, активен ли запрос или завершен, и любые специфичные для алгоритма поля, необходимые получателю. Позиционный якорь req.loc также прикрепляется, чтобы указать позицию декодирования перед отправкой PeerReq. Получатель может использовать его для определения минимального суффикса, который следует отправить обратно. Точный суффикс зависит от алгоритма. Например, планировщик включает только что сэмплированный токен лишь тогда, когда peer-модель должна его перегенерировать.</p><p>Ну а <strong>receive(peer_req)</strong> вызывается, когда PeerReq прибывает от peer-модели. Он преобразует PeerReq в локальный формат запроса, чтобы модель-получатель могла продолжить декодирование. По умолчанию receive фиксирует все переданные токены из PeerReq, что достаточно для большинства алгоритмов токен-уровневой маршрутизации. Разработчикам нужно переопределять receive только тогда, когда семантика передачи специфична для алгоритма. Например, алгоритм может положить в запрос дополнительное состояние и потом продолжить декодирование.</p><p>Давайте посмотрим пример кода, выполняющего маршрутизацию в зависимости от переданного на вход токена.</p><pre><code class=\"python\">class RStitchSLM(BaseRouter):\n\n    # self.tau (порог) и self.peer_idx (индекс субсервера LLM) берутся из конфигурации.\n\n    def route(self, result):\n\n        # Делегировать высокоэнтропийные токены peer-LLM; остальные оставить локально.\n\n        probs = result.logits_output.next_token_logits.softmax(dim=-1)\n\n        entropy = -(probs * probs.log()).sum(-1) / math.log(probs.shape[-1])\n\n        destination = torch.zeros_like(entropy, dtype=torch.long)\n\n        destination[entropy &gt; self.tau] = self.peer_idx\n\n        return destination.cpu()\n\n    def send(self, req) -&gt; PeerReq:\n\n        # Отбросить только что декодированный неуверенный токен; попросить LLM перегенерировать.\n\n        token_ids = req.origin_input_ids + req.output_ids[:-1]\n\n        peer_anchor = req.peer_locs[self.peer_idx] or 0\n\n        return PeerReq(rid=req.rid, token_ids=token_ids[peer_anchor:],\n\n                       loc=len(token_ids), finished=req.finished(),...)\n\n    # receive использует поведение по умолчанию и принимает все возвращенные токены.</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><h2>Архитектура системы</h2><p>Рантайм TokenRouter устроен так: снаружи один общий интерфейс, а за ним — множество субсерверов. На каждом работает одна модель-кандидат. У субсервера есть планировщик, модуль запуска LLM с приватным пулом KV-кэша и три пользовательские функции — для роутера, отправителя и получателя. Субсерверы работают независимо и общаются через peer-запросы. Внутри они устроены одинаково, поэтому масштабирование сводится к запуску новых субсерверов.</p><h3>Асинхронное обслуживание</h3><p>Когда запросы на шаге декодирования синхронизированы, весь батч ждет самую медленную модель.</p><p>На рисунке ниже представлены различные варианты возникновения десинхронизации (a,b) и предлагаемый разработчиками TokenRouter вариант (c, d).</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c6/ea/af/c6eaaf70e08bd6512bdcb95fd9e6409b.png\" width=\"1072\" height=\"690\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c6/ea/af/c6eaaf70e08bd6512bdcb95fd9e6409b.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c6/ea/af/c6eaaf70e08bd6512bdcb95fd9e6409b.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>При асинхронности планирование все равно остается. Поскольку маршрутизированные токены приходят редко и нерегулярно, каждому субсерверу нужна своя политика. Задержка допуска — это время от прихода запроса в субсервер до начала его исполнения. На рисунке шаг (c) иллюстрирует проблему при еager-асинхронном планировании. Субсервер запускает шаг, как только приходит любой peer-запрос. Запросы, пришедшие следом, ждут, пока шаг не закончится. Например, токен 3 запроса 3 не может начаться, пока LLM не закончит декодировать токен 2 запроса 2, неся задержку допуска от времени 2 до времени 4,5. Маршрутизация на уровне токенов часто переключает модели, а задержка на шаг сильно скачет. Поэтому такие остановки повторяются, и батч дробится на мелкие куски.</p><p>Чтобы снизить задержки допуска, можно использовать планировщик с отложенным батчингом, чтобы больше запросов, нацеленных на одну модель, могли быть исполнены вместе. Планировщик ждет, пока в буфере наберется B запросов, и только тогда запускает батч. На шаге (d) рисунка — пример: у LLM-субсервера B = 2, у SLM-субсервера B = 1. Первый запрос ждет дольше, чем при eager-async на шаге (c). Зато следующие ждут гораздо меньше, и в среднем задержка допуска по нагрузке падает.</p><p>TokenRouter также аналитически определяет порог отложенного батчинга B, оптимальный по пропускной способности. Здесь нужно найти компромисс: слишком малый B дает большую задержку допуска в батч, а слишком большой запирает запросы в очереди и лишает малую модель активной работы. Для этого TokenRouter моделирует процесс маршрутизации как цепь Маркова (DTMC).</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/5f/ed/dd/5fedddad52d0f53f65ba6ba2bf715b6c.png\" width=\"238\" height=\"279\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/5f/ed/dd/5fedddad52d0f53f65ba6ba2bf715b6c.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/5f/ed/dd/5fedddad52d0f53f65ba6ba2bf715b6c.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>На вход модели подают алгоритм маршрутизации на уровне токенов, конкурентность N, вероятность маршрутизации P и задержку декодирования на шаг L_i для каждой LLM. Дальше модель считает пропускную способность в зависимости от B и подбирает B, дающее наибольшую пропускную способность.</p><h2>Эксперименты</h2><p>На практике разработчики оценивали пять алгоритмов маршрутизации в TokenRouter: CITER, R2R, R-Stitch, Co-LLM и ME.</p><p>Первые четыре алгоритма выбирают между Qwen3-0.6B и Qwen3-32B. ME работает с тремя моделями: Qwen3-0.6B, Qwen3-8B и Qwen3-32B.</p><p>Настройки:</p><ul><li><p>CITER — обученный роутер, τ = 0.98;</p></li><li><p>R2R — официальный роутер и порог;</p></li><li><p>R-Stitch — τ = 0.03;</p></li><li><p>Co-LLM — дообученный Qwen3-0.6B, η = 0.15;</p></li><li><p>ME — веса ансамбля 0.5, 0.3 и 0.2.</p></li></ul><p>В качестве аппаратной платформы использовался сервер с 8×A100-80G GPU. Малой модели в двумодельных алгоритмах отдавали один GPU, большой — два с тензорным параллелизмом. Еще два GPU отдавали моделям в общее пользование через CUDA MPS. Для ME каждая модель развернута на одном GPU.</p><p>Оценивали на трех нагрузках с разной длиной входа и выхода:</p><ul><li><p><strong>low-effort reasoning — </strong>короткий вход, короткий выход. Брали AIME2024: около 100 токенов на вход, до 2048 на выход;</p></li><li><p><strong>high-effort reasoning —</strong> короткий вход, длинный выход. Тоже AIME2024, но с лимитом выхода 8192, и в выборку попадали только задачи, где решение Qwen3-32B выходит за 8192 токена;</p></li><li><p><strong>agentic tasks —</strong> многошаговые. Использовали траектории SWE-Smith объемом около 8192 входных токенов с максимальной длиной выхода 1024.</p></li></ul><p>Также собирается статистика по пропускной способности и end-to-end задержке завершения запроса. Для inference-движков формируется батч из N запросов с последующей обработкой, на N воркерах запускают сервинг-системы. Завершив запрос, каждый из них сразу отправляет новый. Для вычисления пропускной способности общее число выходных токенов делят на время работы.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/79/91/2a/79912aca16d33b3f1425462d806e8840.png\" width=\"1099\" height=\"669\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/79/91/2a/79912aca16d33b3f1425462d806e8840.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/79/91/2a/79912aca16d33b3f1425462d806e8840.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>На рисунке видно: в большинстве сочетаний алгоритма и нагрузки TokenRouter стабильно обгоняет официальные реализации и стандартный сервер. Пропускная способность выше в 2,01–64,15 раза. TokenRouter также снижает end-to-end задержку Std. Serving в 2,03–63,64 раза, и хотя Std. Serving существенно улучшает официальные реализации Co-LLM и CITER через асинхронное исполнение, ему не хватает механизма handoff-and-resume TokenRouter. Следовательно, состояние обслуживания маршрутизированного запроса не может быть сохранено через переключение моделей, и каждый возвращающийся токен должен трактоваться как новый запрос. Эта проблема несет существенные накладные расходы для таких операций, как сопоставление префиксов и обновления KV-кэша. </p><p>TokenRouter также изящно масштабируется с длиной выхода. Когда выход вырос с 2048 до 8192 токенов, TokenRouter не просел. Std. Serving потерял 58,1–85,2% пропускной способности.</p><p>Эти результаты показывают, что TokenRouter эффективно поддерживает разнообразные алгоритмы токен-уровневой маршрутизации в их оригинальных алгоритмических настройках.</p><h2>Что в итоге?</h2><p>TokenRouter — эффективная система обслуживания для токен-уровневой маршрутизации LLM, которая разделяет алгоритмы маршрутизации и оптимизацию системы обслуживания.</p><p>Архитектура TokenRouter избавляет от главных проблем маршрутизации на уровне токенов: шаги больше не рассинхронизируются, а запросы не ждут допуска в батч.</p><p>Проверки, проведенные на разнообразных алгоритмах, рабочих нагрузках и парах моделей, стабильно обеспечивали более высокую пропускную способность декодирования по сравнению с существующими реализациями, создавая прочную основу для будущих исследований в области токен-маршрутизации.</p><p>Код лежит<a href=\"https://github.com/thu-nics/TokenRouter\"> здесь</a>.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "TokenRouter"
+    },
+    {
+      "titleHtml": "маршрутизация LLM"
+    },
+    {
+      "titleHtml": "token-level routing"
+    },
+    {
+      "titleHtml": "LLM serving"
+    },
+    {
+      "titleHtml": "инференс LLM"
+    },
+    {
+      "titleHtml": "асинхронный батчинг"
+    },
+    {
+      "titleHtml": "KV-кэш"
+    },
+    {
+      "titleHtml": "Qwen3"
+    },
+    {
+      "titleHtml": "пропускная способность"
+    },
+    {
+      "titleHtml": "оптимизация инференса"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105396/9501b332d41c7b078af056f947479877/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105396/9501b332d41c7b078af056f947479877/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/ru_mts\\/articles\\/1105396\\/\"},\"headline\":\"TokenRouter: непрерывная маршрутизация LLM по токенам\",\"datePublished\":\"2026-11-10T10:51:37+03:00\",\"dateModified\":\"2026-11-11T18:34:35+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Привет, Хабр! Сегодня расскажу, как можно эффективно использовать в своей системе сразу несколько LLM. ИИ решает самые разные задачи: анализирует тексты,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/ru_mts\\/articles\\/1105396\\/#post-content-body\",\"about\":[\"c_ru_mts\",\"h_artificial_intelligence\",\"h_machine_learning\",\"h_open_source\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/e5\\/1e\\/fb\\/e51efb8c686472eb71419ed0228a3ce4.png\",\"https:\\/\\/habrastorage.org\\/extt\\/5b\\/fb\\/c9\\/5bfbc9dc243db940b63a49413a7d7dd5.png\",\"https:\\/\\/habrastorage.org\\/extt\\/dd\\/34\\/86\\/dd3486496f480f59e58f239decd9082a.png\",\"https:\\/\\/habrastorage.org\\/extt\\/3c\\/df\\/c5\\/3cdfc5eb2e2a64af0bb228cf3614a290.png\",\"https:\\/\\/habrastorage.org\\/extt\\/9d\\/56\\/37\\/9d563763d43f112d8907eae7960f4069.png\",\"https:\\/\\/habrastorage.org\\/extt\\/c6\\/ea\\/af\\/c6eaaf70e08bd6512bdcb95fd9e6409b.png\",\"https:\\/\\/habrastorage.org\\/extt\\/5f\\/ed\\/dd\\/5fedddad52d0f53f65ba6ba2bf715b6c.png\",\"https:\\/\\/habrastorage.org\\/extt\\/79\\/91\\/2a\\/79912aca16d33b3f1425462d806e8840.png\"]}",
+    "metaDescription": "Привет, Хабр! Сегодня расскажу, как можно эффективно использовать в своей системе сразу несколько LLM. ИИ решает самые разные задачи: анализирует тексты, готовит контент, обрабатывает изображения,...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": [
+    {
+      "type": "post",
+      "uuid": "01a1cffa-87f6-723d-8e6c-e3094573dec5",
+      "content": {
+        "id": "1107130",
+        "timePublished": "2026-11-12T13:04:49+00:00",
+        "isCorporative": true,
+        "lang": "ru",
+        "titleHtml": "Виртуальные сотрудники и агенты на митапе «Русское техно 2»",
+        "editorVersion": "2.0",
+        "postType": "article",
+        "publicationType": "article",
+        "postLabels": [],
+        "author": {
+          "id": "95856",
+          "alias": "Lavs",
+          "fullname": "Сергей Лавров",
+          "avatarUrl": "//habrastorage.org/getpro/habr/avatars/dbd/f1f/577/dbdf1f5772057c5bbdb76726dc1f893a.jpg",
+          "speciality": "Создаю Android/iOS приложения",
+          "deleted": false,
+          "isSeo": false
+        },
+        "statistics": {
+          "commentsCount": 0,
+          "favoritesCount": 2,
+          "readingCount": 79,
+          "score": 5,
+          "votesCount": 2,
+          "votesCountPlus": 2,
+          "votesCountMinus": 0,
+          "reach": 3458,
+          "readers": 58
+        },
+        "hubs": [
+          {
+            "id": "20822",
+            "alias": "ru_mts",
+            "type": "corporative",
+            "title": "Блог компании МТС",
+            "titleHtml": "Блог компании МТС",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "21922",
+            "alias": "artificial_intelligence",
+            "type": "collective",
+            "title": "Искусственный интеллект",
+            "titleHtml": "Искусственный интеллект",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "20754",
+            "alias": "tech_events",
+            "type": "collective",
+            "title": "Конференции",
+            "titleHtml": "Конференции",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "20740",
+            "alias": "career",
+            "type": "collective",
+            "title": "Карьера в IT-индустрии",
+            "titleHtml": "Карьера в IT-индустрии",
+            "isProfiled": false,
+            "relatedData": null
+          }
+        ],
+        "flows": null,
+        "relatedData": {
+          "vote": null,
+          "unreadCommentsCount": 0,
+          "bookmarked": false,
+          "canComment": false,
+          "canEdit": false,
+          "canViewVotes": false,
+          "votePlus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "voteMinus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "draftReason": null,
+          "lockReason": null
+        },
+        "leadData": {
+          "textHtml": "<p>У многих настроен свой локальный харнесс, другие работают в облаке. А что если развернуть харнесс на большую компанию? Как быть, если первого ответа агента приходится ждать почти 40 секунд? Что можно оптимизировать и к чему это приведет? Ладно, развернули и оптимизировали, но как подружить агентов с сотрудниками? И как оценить эффект от внедрения ИИ на уровне бизнеса?</p><p>Я еще не настроил свой харнесс, и мне было интересно посмотреть на опыт других компаний. Поэтому пошел на митап MWS на эту тему. Сначала рассказали историю развития ИИ-агентов и базу: что такое обвязка вокруг модели. Потом был доклад про оптимизацию: в MWS все развернуто на Kubernetes и поддерживает OpenClaw и Hermes одновременно. Дальше руководители направлений обсуждали, как агенты работают вместе с сотрудниками. Напоследок был доклад про внедрение ИИ в организациях и оценку его эффекта.</p>",
+          "imageUrl": "https://habrastorage.org/extt/5d/57/b3/5d57b3211bde594a4a177ca8511cdb0a.jpeg",
+          "buttonTextHtml": "Читать далее",
+          "image": {
+            "url": "https://habrastorage.org/extt/5d/57/b3/5d57b3211bde594a4a177ca8511cdb0a.jpeg",
+            "fit": "cover",
+            "positionY": 0,
+            "positionX": 0
+          }
+        },
+        "status": "published",
+        "plannedPublishTime": null,
+        "isSeo": false,
+        "mode": "standard",
+        "checked": null,
+        "moderation": null,
+        "format": "reportage",
+        "readingTime": 16,
+        "complexity": null,
+        "isInBlacklist": null,
+        "flowNew": {
+          "id": "12",
+          "title": "AI и ML",
+          "alias": "ai_and_ml"
+        },
+        "tags": [
+          {
+            "titleHtml": "митап"
+          },
+          {
+            "titleHtml": "агенты ии"
+          },
+          {
+            "titleHtml": "виртуальные сотрудники"
+          }
+        ]
+      }
+    },
+    {
+      "type": "post",
+      "uuid": "01a1cffa-87f8-7239-95ad-db6da4ff0c21",
+      "content": {
+        "id": "1106716",
+        "timePublished": "2026-11-12T08:13:05+00:00",
+        "isCorporative": true,
+        "lang": "ru",
+        "titleHtml": "Кейс RED Security: как отличить ИИ от человека в автоматизированной кибератаке",
+        "editorVersion": "2.0",
+        "postType": "article",
+        "publicationType": "article",
+        "postLabels": [],
+        "author": {
+          "id": "4270410",
+          "alias": "st3l1n",
+          "fullname": null,
+          "avatarUrl": null,
+          "speciality": null,
+          "deleted": false,
+          "isSeo": false
+        },
+        "statistics": {
+          "commentsCount": 0,
+          "favoritesCount": 4,
+          "readingCount": 411,
+          "score": 10,
+          "votesCount": 6,
+          "votesCountPlus": 6,
+          "votesCountMinus": 0,
+          "reach": 5149,
+          "readers": 306
+        },
+        "hubs": [
+          {
+            "id": "20822",
+            "alias": "ru_mts",
+            "type": "corporative",
+            "title": "Блог компании МТС",
+            "titleHtml": "Блог компании МТС",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "50",
+            "alias": "infosecurity",
+            "type": "collective",
+            "title": "Информационная безопасность",
+            "titleHtml": "Информационная безопасность",
+            "isProfiled": true,
+            "relatedData": null
+          }
+        ],
+        "flows": null,
+        "relatedData": {
+          "vote": null,
+          "unreadCommentsCount": 0,
+          "bookmarked": false,
+          "canComment": false,
+          "canEdit": false,
+          "canViewVotes": false,
+          "votePlus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "voteMinus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "draftReason": null,
+          "lockReason": null
+        },
+        "leadData": {
+          "textHtml": "<p>Хабр, привет!&nbsp;На связи Никита Полосухин, ведущий аналитик центра мониторинга и реагирования на кибератаки RED Security SOC. В этом посте расскажу о недавней атаке на крупную российскую коммерческую компанию. В расследовании атаки участвовала наша команда. Атакующий прошел через цепочку уязвимостей внешнего и внутреннего периметра, полностью скомпрометировал домен организации&nbsp;— и все с помощью ИИ. Не буду разливать воду, сразу к делу.</p>",
+          "imageUrl": "https://habrastorage.org/extt/ad/7f/14/ad7f145c1ed8b10dc8fffb13ad02e7a8.png",
+          "buttonTextHtml": "Читать далее",
+          "image": {
+            "url": "https://habrastorage.org/extt/ad/7f/14/ad7f145c1ed8b10dc8fffb13ad02e7a8.png",
+            "fit": "cover",
+            "positionY": 0,
+            "positionX": 0
+          }
+        },
+        "status": "published",
+        "plannedPublishTime": null,
+        "isSeo": false,
+        "mode": "standard",
+        "checked": null,
+        "moderation": null,
+        "format": "case",
+        "readingTime": 8,
+        "complexity": "medium",
+        "isInBlacklist": null,
+        "flowNew": {
+          "id": "10",
+          "title": "Информационная безопасность",
+          "alias": "information_security"
+        },
+        "tags": [
+          {
+            "titleHtml": "soc"
+          },
+          {
+            "titleHtml": "active directory"
+          },
+          {
+            "titleHtml": "реагирование на инциденты"
+          },
+          {
+            "titleHtml": "dcsync"
+          },
+          {
+            "titleHtml": "ии-агенты"
+          },
+          {
+            "titleHtml": "red security"
+          },
+          {
+            "titleHtml": "цифровая форензика"
+          },
+          {
+            "titleHtml": "artex"
+          },
+          {
+            "titleHtml": "вебшеллы"
+          },
+          {
+            "titleHtml": "автоматизированные атаки"
+          }
+        ]
+      }
+    },
+    {
+      "type": "post",
+      "uuid": "01a1cffa-87fc-7352-ac17-0108521296a2",
+      "content": {
+        "id": "1106524",
+        "timePublished": "2026-11-11T12:20:42+00:00",
+        "isCorporative": true,
+        "lang": "ru",
+        "titleHtml": "ИИ в мобильных звонках, архитектурные агенты и «Карта гипотез». Что показали на одиннадцатом митапе MWS",
+        "editorVersion": "2.0",
+        "postType": "article",
+        "publicationType": "article",
+        "postLabels": [],
+        "author": {
+          "id": "5832824",
+          "alias": "IvanSayHi",
+          "fullname": "Иван Лященко",
+          "avatarUrl": "//habrastorage.org/getpro/habr/avatars/fd1/9bb/497/fd19bb497df83beb746e5ba14132db64.jpeg",
+          "speciality": "Корреспондент и выпускающий редактор «Компьютерры»",
+          "deleted": false,
+          "isSeo": false
+        },
+        "statistics": {
+          "commentsCount": 0,
+          "favoritesCount": 3,
+          "readingCount": 198,
+          "score": 10,
+          "votesCount": 5,
+          "votesCountPlus": 5,
+          "votesCountMinus": 0,
+          "reach": 6509,
+          "readers": 142
+        },
+        "hubs": [
+          {
+            "id": "20822",
+            "alias": "ru_mts",
+            "type": "corporative",
+            "title": "Блог компании МТС",
+            "titleHtml": "Блог компании МТС",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "21922",
+            "alias": "artificial_intelligence",
+            "type": "collective",
+            "title": "Искусственный интеллект",
+            "titleHtml": "Искусственный интеллект",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "20754",
+            "alias": "tech_events",
+            "type": "collective",
+            "title": "Конференции",
+            "titleHtml": "Конференции",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "20740",
+            "alias": "career",
+            "type": "collective",
+            "title": "Карьера в IT-индустрии",
+            "titleHtml": "Карьера в IT-индустрии",
+            "isProfiled": false,
+            "relatedData": null
+          }
+        ],
+        "flows": null,
+        "relatedData": {
+          "vote": null,
+          "unreadCommentsCount": 0,
+          "bookmarked": false,
+          "canComment": false,
+          "canEdit": false,
+          "canViewVotes": false,
+          "votePlus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "voteMinus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "draftReason": null,
+          "lockReason": null
+        },
+        "leadData": {
+          "textHtml": "<p>ИИ все чаще берется за задачи, которые раньше требовали участия инженера, архитектора или руководителя. Но просто встроить нейросеть в рабочий процесс недостаточно — ее нужно правильно адаптировать и настроить для получения положительного результата.</p><p>На одиннадцатом митапе MWS эксперты обсудили применение искусственного интеллекта в разных областях — от обработки голосовых вызовов непосредственно в мобильной сети до автоматизации работы с архитектурной документацией. Отдельное внимание уделили тому, как ИИ может помочь в стратегическом планировании и проверке бизнес-гипотез. В завершение встречи участники предложили собственные идеи сервисов на основе технологий MWS.</p>",
+          "imageUrl": "https://habrastorage.org/extt/4b/08/ad/4b08ad8fd8fb9a8ba8ebbb29f810bdba.jpg",
+          "buttonTextHtml": "Читать далее",
+          "image": {
+            "url": "https://habrastorage.org/extt/4b/08/ad/4b08ad8fd8fb9a8ba8ebbb29f810bdba.jpg",
+            "fit": "cover",
+            "positionY": 0,
+            "positionX": 0
+          }
+        },
+        "status": "published",
+        "plannedPublishTime": null,
+        "isSeo": false,
+        "mode": "standard",
+        "checked": null,
+        "moderation": null,
+        "format": "reportage",
+        "readingTime": 8,
+        "complexity": "low",
+        "isInBlacklist": null,
+        "flowNew": {
+          "id": "50",
+          "title": "Другое",
+          "alias": "other"
+        },
+        "tags": [
+          {
+            "titleHtml": "искусственный интеллект"
+          },
+          {
+            "titleHtml": "мобильная связь"
+          },
+          {
+            "titleHtml": "шумоподавление"
+          },
+          {
+            "titleHtml": "mws"
+          },
+          {
+            "titleHtml": "ии-агенты"
+          },
+          {
+            "titleHtml": "карта гипотез"
+          },
+          {
+            "titleHtml": "ии-трансформация"
+          },
+          {
+            "titleHtml": "архитектура ит-систем"
+          },
+          {
+            "titleHtml": "mws meetup"
+          },
+          {
+            "titleHtml": "architecture-as-a-code"
+          }
+        ]
+      }
+    },
+    {
+      "type": "post",
+      "uuid": "01a1cffa-87ff-71db-af4a-21b9919c6147",
+      "content": {
+        "id": "1094828",
+        "timePublished": "2026-11-09T10:00:03+00:00",
+        "isCorporative": true,
+        "lang": "ru",
+        "titleHtml": "Дипфейк на связи: как мы защитили видеозвонки на платформе IVA MCU от мошенников",
+        "editorVersion": "2.0",
+        "postType": "article",
+        "publicationType": "article",
+        "postLabels": [],
+        "author": {
+          "id": "4374534",
+          "alias": "TatianaDeshkina",
+          "fullname": "Татьяна Дешкина",
+          "avatarUrl": null,
+          "speciality": null,
+          "deleted": false,
+          "isSeo": false
+        },
+        "statistics": {
+          "commentsCount": 0,
+          "favoritesCount": 4,
+          "readingCount": 497,
+          "score": 15,
+          "votesCount": 8,
+          "votesCountPlus": 8,
+          "votesCountMinus": 0,
+          "reach": 8146,
+          "readers": 318
+        },
+        "hubs": [
+          {
+            "id": "22944",
+            "alias": "mts_ai",
+            "type": "corporative",
+            "title": "Блог компании MWS AI",
+            "titleHtml": "Блог компании MWS AI",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "20822",
+            "alias": "ru_mts",
+            "type": "corporative",
+            "title": "Блог компании МТС",
+            "titleHtml": "Блог компании МТС",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "21922",
+            "alias": "artificial_intelligence",
+            "type": "collective",
+            "title": "Искусственный интеллект",
+            "titleHtml": "Искусственный интеллект",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "50",
+            "alias": "infosecurity",
+            "type": "collective",
+            "title": "Информационная безопасность",
+            "titleHtml": "Информационная безопасность",
+            "isProfiled": true,
+            "relatedData": null
+          },
+          {
+            "id": "19439",
+            "alias": "machine_learning",
+            "type": "collective",
+            "title": "Машинное обучение",
+            "titleHtml": "Машинное обучение",
+            "isProfiled": true,
+            "relatedData": null
+          }
+        ],
+        "flows": null,
+        "relatedData": {
+          "vote": null,
+          "unreadCommentsCount": 0,
+          "bookmarked": false,
+          "canComment": false,
+          "canEdit": false,
+          "canViewVotes": false,
+          "votePlus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "voteMinus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "draftReason": null,
+          "lockReason": null
+        },
+        "leadData": {
+          "textHtml": "<p>Привет, Хабр! Меня зовут Татьяна Дешкина, я замдиректора по развитию продуктов в VisionLabs. Вместе с Дмитрием Журавлёвым, директором продукта IVA MCU в IVA Technologies, мы расскажем, как детектор дипфейков VisionLabs защищает видеозвонки на платформе IVA MCU: какими бывают дипфейки, как устроена детекция и почему она нужна, даже если у вас уже настроена вроде бы надёжная защита ВКС.</p>",
+          "imageUrl": "https://habrastorage.org/extt/e5/06/f3/e506f3c1b45cfe76fd1bebe7212b201c.png",
+          "buttonTextHtml": "Читать далее",
+          "image": {
+            "url": "https://habrastorage.org/extt/e5/06/f3/e506f3c1b45cfe76fd1bebe7212b201c.png",
+            "fit": "cover",
+            "positionY": 0,
+            "positionX": 0
+          }
+        },
+        "status": "published",
+        "plannedPublishTime": null,
+        "isSeo": false,
+        "mode": "standard",
+        "checked": null,
+        "moderation": null,
+        "format": "case",
+        "readingTime": 8,
+        "complexity": "medium",
+        "isInBlacklist": null,
+        "flowNew": {
+          "id": "12",
+          "title": "AI и ML",
+          "alias": "ai_and_ml"
+        },
+        "tags": [
+          {
+            "titleHtml": "информационная безопасность"
+          },
+          {
+            "titleHtml": "ии"
+          },
+          {
+            "titleHtml": "видеоконференции"
+          },
+          {
+            "titleHtml": "вкс"
+          },
+          {
+            "titleHtml": "антифрод"
+          },
+          {
+            "titleHtml": "подмена записей"
+          },
+          {
+            "titleHtml": "детекция"
+          },
+          {
+            "titleHtml": "дипфейки"
+          },
+          {
+            "titleHtml": "liveness detection"
+          },
+          {
+            "titleHtml": "deepfake detection"
+          }
+        ]
+      }
+    },
+    {
+      "type": "post",
+      "uuid": "01a1cffa-8803-718c-a383-cdf8f0c0f2cc",
+      "content": {
+        "id": "1097740",
+        "timePublished": "2026-11-02T12:46:33+00:00",
+        "isCorporative": true,
+        "lang": "ru",
+        "titleHtml": "Свежие научные работы про ИИ, агентов и все такое. Сентябрь-2026: мультимодальный ИИ и робототехника",
+        "editorVersion": "2.0",
+        "postType": "article",
+        "publicationType": "article",
+        "postLabels": [],
+        "author": {
+          "id": "1232986",
+          "alias": "Mimizavr",
+          "fullname": "Андрей",
+          "avatarUrl": "//habrastorage.org/getpro/habr/avatars/65c/424/9e4/65c4249e443ecd4add35eb8829ffe59a.jpg",
+          "speciality": "Библиарий Ордена True Tech",
+          "deleted": false,
+          "isSeo": false
+        },
+        "statistics": {
+          "commentsCount": 0,
+          "favoritesCount": 9,
+          "readingCount": 677,
+          "score": 13,
+          "votesCount": 5,
+          "votesCountPlus": 5,
+          "votesCountMinus": 0,
+          "reach": 8666,
+          "readers": 441
+        },
+        "hubs": [
+          {
+            "id": "20822",
+            "alias": "ru_mts",
+            "type": "corporative",
+            "title": "Блог компании МТС",
+            "titleHtml": "Блог компании МТС",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "21922",
+            "alias": "artificial_intelligence",
+            "type": "collective",
+            "title": "Искусственный интеллект",
+            "titleHtml": "Искусственный интеллект",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "19439",
+            "alias": "machine_learning",
+            "type": "collective",
+            "title": "Машинное обучение",
+            "titleHtml": "Машинное обучение",
+            "isProfiled": true,
+            "relatedData": null
+          },
+          {
+            "id": "21902",
+            "alias": "robot",
+            "type": "collective",
+            "title": "Робототехника",
+            "titleHtml": "Робототехника",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "21910",
+            "alias": "popular_science",
+            "type": "collective",
+            "title": "Научно-популярное",
+            "titleHtml": "Научно-популярное",
+            "isProfiled": false,
+            "relatedData": null
+          }
+        ],
+        "flows": null,
+        "relatedData": {
+          "vote": null,
+          "unreadCommentsCount": 0,
+          "bookmarked": false,
+          "canComment": false,
+          "canEdit": false,
+          "canViewVotes": false,
+          "votePlus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "voteMinus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "draftReason": null,
+          "lockReason": null
+        },
+        "leadData": {
+          "textHtml": "<p>Привет, Хабр! В прошлой части дайджеста я собирал научные работы про LLM, агентную разработку и безопасность, а теперь перейду к изображениям, речи и роботам. Всего в этом дайджесте 17 исследований о CV, речи, роботах и других системах, объединяющих различные виды данных. В одних исследованиях ученые тестировали настоящие манипуляторы и дроны, в других ограничивались симуляцией. В каждом разборе мы уточняем, как именно проходили испытания, поскольку хорошие результаты тестов — еще не гарантия, что робот так же классно справится с задачей в реальных условиях. Для самых показательных работ мы добавили иллюстрации из оригинальных публикаций.</p>",
+          "imageUrl": "https://habrastorage.org/extt/d6/6b/b9/d66bb92eac62a17e05e7d7c3362e4790.png",
+          "buttonTextHtml": "Читать далее",
+          "image": {
+            "url": "https://habrastorage.org/extt/d6/6b/b9/d66bb92eac62a17e05e7d7c3362e4790.png",
+            "fit": "cover",
+            "positionY": 0,
+            "positionX": 0
+          }
+        },
+        "status": "published",
+        "plannedPublishTime": null,
+        "isSeo": false,
+        "mode": "standard",
+        "checked": null,
+        "moderation": null,
+        "format": "digest",
+        "readingTime": 19,
+        "complexity": null,
+        "isInBlacklist": null,
+        "flowNew": {
+          "id": "12",
+          "title": "AI и ML",
+          "alias": "ai_and_ml"
+        },
+        "tags": [
+          {
+            "titleHtml": "робототехника"
+          },
+          {
+            "titleHtml": "научные исследования"
+          },
+          {
+            "titleHtml": "дайджест"
+          },
+          {
+            "titleHtml": "нейросети"
+          },
+          {
+            "titleHtml": "автономные системы"
+          },
+          {
+            "titleHtml": "компьютерное зрение"
+          },
+          {
+            "titleHtml": "машинное обучение"
+          },
+          {
+            "titleHtml": "arxiv"
+          },
+          {
+            "titleHtml": "llm"
+          },
+          {
+            "titleHtml": "мультимодальный ии"
+          }
+        ]
+      }
+    }
+  ],
+  "multiwidgetUuid": "01a1cffa-87f1-7355-8f1f-045c34ee295b",
+  "readingTime": 9,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

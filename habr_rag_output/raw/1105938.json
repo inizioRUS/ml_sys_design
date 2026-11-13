@@ -1,0 +1,204 @@
+{
+  "id": "1105938",
+  "timePublished": "2026-11-10T10:15:32+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Ваш стриминг ненастоящий. Ловушка загрузки файлов в Spring Boot",
+  "leadData": {
+    "textHtml": "<p>В контроллере <code>Flux</code>, приложение на WebFlux, всё выглядит реактивно. А под капотом файл сначала целиком оседает во временном хранилище. Десять загрузок по 2 ГБ и можно идти выяснять, кто съел диск.</p><p>Ловушка прячется в привычном <code>@RequestPart</code>. Одного реактивного типа недостаточно, чтобы байты обрабатывались по мере поступления.</p><p>В статье показываем, как устроить настоящую потоковую загрузку через <code>Flux&lt;PartEvent&gt;</code>. И проверяем её файлом на 512 МБ при куче 256 МБ.</p>",
+    "imageUrl": "https://habrastorage.org/extt/33/02/db/3302dbad187be06f95993a041abf31d9.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/33/02/db/3302dbad187be06f95993a041abf31d9.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "translation",
+      "typeOf": "system",
+      "title": "Перевод",
+      "data": {
+        "originalAuthorName": "Denis Kalgushkin",
+        "originalUrl": "https://foojay.io/today/streaming-large-file-uploads/"
+      }
+    }
+  ],
+  "author": {
+    "id": "4149694",
+    "alias": "spring_aio",
+    "fullname": "Spring АйО",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/8e0/5e8/a1c/8e05e8a1c5fd4560f661efb2cb00e77e.png",
+    "speciality": "Главный по Spring",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 55,
+      "votesCount": 153
+    },
+    "rating": 15.6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 13,
+    "readingCount": 729,
+    "score": 2,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 5667,
+    "readers": 480
+  },
+  "hubs": [
+    {
+      "id": "23393",
+      "alias": "spring_aio",
+      "type": "corporative",
+      "title": "Блог компании Spring АйО",
+      "titleHtml": "Блог компании Spring АйО",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "375",
+      "alias": "java",
+      "type": "collective",
+      "title": "Java",
+      "titleHtml": "Java",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19441",
+      "alias": "kotlin",
+      "type": "collective",
+      "title": "Kotlin",
+      "titleHtml": "Kotlin",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Введение</h3><p>Вы наверняка видели такой пример: обработчик с <code>@PostMapping</code>, параметр <code>MultipartFile</code>, вызов <code>transferTo()</code>. Пять минут — и готово. На локальной машине всё работает отлично.</p><p>А потом в рабочую среду прилетает первый файл на 500 МБ, и под падает с <code>OutOfMemoryError</code>.</p><p>Проблема не в Вашем коде, а в допущении, на котором построено большинство руководств: файлы достаточно малы, чтобы целиком сохранить их в памяти или на диске ещё до запуска обработчика. В реальных системах — медиаплатформах, системах управления документами, здравоохранении, финтехе — это допущение быстро перестаёт работать.</p><p>Причём версия примера на WebFlux зачастую ничем не лучше. Просто буферизация происходит в менее очевидном месте.</p><p>Это первая часть небольшой серии о создании конвейера загрузки файлов на Java, готового к промышленной эксплуатации. Здесь мы разберём:</p><ul><li><p>Почему <code>MultipartFile</code> буферизует файл целиком ещё до того, как Вы получаете к нему доступ.</p></li><li><p>Почему <code>@RequestPart</code> в WebFlux делает то же самое, в том числе в примере, который все копируют.</p></li><li><p>Какой API WebFlux действительно обеспечивает потоковую обработку и как правильно им пользоваться.</p></li></ul><p>Во второй части займёмся сохранением потока в S3, определением типа файла по нескольким первым байтам и безопасной проверкой на вирусы при больших нагрузках. Также разберём сценарий сбоя, о котором стоит узнать до публикации обработчика загрузки в интернете: безобидный на вид файл может вывести из строя весь сервер. Затем повторим всё это на сервлетном стеке для команд, которые не могут перейти на WebFlux. Поэтому, если Вы используете Spring MVC, оставайтесь с нами.</p><h3>Почему MultipartFile — ловушка</h3><p>Spring <code>MultipartFile</code> и его аналоги кажутся удобными, но под капотом сервлетный контейнер буферизует всё тело запроса — в памяти или во временном файле — ещё до вызова метода контроллера.</p><p>При загрузке видео размером 2 ГБ это означает:</p><ul><li><p>2 ГБ занятой кучи или диска на каждую одновременную загрузку.</p></li><li><p>Передача в хранилище начинается только после получения всего файла.</p></li><li><p>Ваши собственные проверки не запускаются, пока система не выполнит весь объём операций ввода-вывода.</p></li></ul><p>Важно понимать, какой именно вариант используется: сбои у них разные.</p><p><code>file-size-threshold</code>: 0 — значение по умолчанию для Tomcat — приводит к сохранению всего тела во временный файл. Десять одновременных загрузок по 2 ГБ занимают 20 ГБ временного дискового пространства, которые Вы не планировали расходовать. При этом в целевое хранилище ничего не поступает до получения последнего байта.</p><p>Если порог выше размера файла, данные остаются в куче. Именно этот вариант убивает JVM, а вместе с ней — и все остальные обрабатываемые запросы.</p><p>Прежде чем двигаться дальше, сделаем важную оговорку: контейнер может отклонить запрос заранее на основании собственных ограничений. Например, Tomcat проверяет max-file-size во время разбора. Вы теряете не любую возможность отклонить запрос, а возможность сделать это по своим правилам: проверить квоту, применить политику допустимых типов содержимого или начать сохранение до того, как последний байт попадёт во временное хранилище. Во второй части разберём, как выполнять эти проверки с небольшими затратами.</p><h3>Общая картина: к чему мы движемся</h3><p>Прежде чем погружаться в особенности WebFlux, посмотрим на весь конвейер, который построим в этой серии. Так будет понятнее, какое место занимает описанная ниже часть:</p><p>1. Принимаем загружаемый файл потоком — никогда не буферизуем его целиком (эта статья).</p><p>2. Читаем первые ~500 байт, чтобы определить тип файла, затем возвращаем прочитанные байты в поток (часть 2).</p><p>3. Если тип недопустим, сразу прекращаем обработку — без лишней записи в хранилище и проверки на вирусы.</p><p>4. Если тип допустим, направляем один входящий поток одновременно в:</p><p>     - хранилище (S3 или диск) — без ограничения объёма этой ветки: нужно сохранить весь файл;</p><p>     - антивирус — с разумным ограничением объёма, чтобы огромный файл не перегрузил сканер.</p><p>Общий принцип на каждом этапе: читаем входящие байты из сети ровно один раз и начинаем действовать, не дожидаясь, пока весь файл окажется в памяти или на диске. Эта статья целиком посвящена первому шагу — получению настоящего потока из входящего запроса. На этой основе во второй части построим сохранение и анализ.</p><h3>В чём ошибается большинство руководств по WebFlux</h3><p>Вероятно, Вы уже видели такой вариант. Он не обеспечивает потоковую обработку:</p><pre><code class=\"java\">@PostMapping(value = \"/upload\", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)\npublic Mono&lt;UploadResult&gt; upload(\n        @RequestPart(\"file\") Flux&lt;DataBuffer&gt; fileParts,\n        @RequestPart(\"metadata\") UploadMetadata metadata) {\n\n    return uploadService.streamToStorage(fileParts, metadata);\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Выглядит правильно. <code>Flux&lt;DataBuffer&gt;</code> — реактивный поток блоков данных. Сам тип говорит «поток», значит, всё должно работать потоково. Но это не так, и Spring прямо сообщает об этом в документации:</p><p>Для потокового разбора multipart-данных можно использовать <code>Flux&lt;PartEvent&gt;</code>, возвращаемый <code>PartEventHttpMessageReader</code>, вместо <code>@RequestPart</code>. Использование <code>@RequestPart</code> предполагает доступ к отдельным частям по имени, как в <code>Map</code>, а значит, требует полного разбора multipart-данных.</p><p>В этом и заключается вся хитрость: <code>@RequestPart</code> означает «найди эту часть по имени», а искать части по имени в ещё не прочитанном теле нельзя. Поэтому Spring сначала читает всё.</p><p>Вот что происходит с каждой из сигнатур, к которым Вы могли бы обратиться:</p><div><div class=\"table\"><table><tbody><tr><td><p align=\"left\"><strong>Сигнатура</strong></p></td><td><p align=\"left\"><strong>Что происходит на самом деле</strong></p></td></tr><tr><td><p align=\"left\"><code>@RequestPart(\"file\") MultipartFile</code></p></td><td><p align=\"left\">Сервлетный стек: всё тело буферизуется до запуска обработчика</p></td></tr><tr><td><p align=\"left\"><code>@RequestPart(\"file\") FilePart</code></p></td><td><p align=\"left\">WebFlux: данные хранятся в памяти до достижения <code>max-in-memory-size</code> — 256 КБ, затем записываются во временный файл. Всё это происходит до запуска обработчика</p></td></tr><tr><td><p align=\"left\"><code>@RequestPart(\"file\") Flux&lt;DataBuffer&gt;</code></p></td><td><p align=\"left\">WebFlux: данные объединяются в один буфер, ограниченный <code>max-in-memory-size</code> — по умолчанию 256 КБ</p></td></tr><tr><td><p align=\"left\"><code>@RequestBody Flux&lt;PartEvent&gt;</code></p></td><td><p align=\"left\">Действительно обеспечивает потоковую обработку</p></td></tr></tbody></table></div></div><p>Три из четырёх вариантов заслуживают отдельного рассмотрения, потому что каждый приводит к своим проблемам.</p><p><strong>FilePart — это MultipartFile с временным файлом под капотом.</strong> Именно этот вариант часто вводит в заблуждение: <code>FilePart</code> выглядит современным реактивным решением. Но к моменту вызова обработчика часть уже полностью получена. Если её размер меньше <code>maxInMemorySize</code>, она находится в памяти, иначе — во временном файле .multipart на диске. Справочник настроек Spring Boot прямо описывает каталог временных файлов как «каталог для хранения файловых частей, размер которых превышает maxInMemorySize; игнорируется при использовании потоковой обработки через <code>PartEvent</code>». Такая настройка существует именно потому, что <code>@RequestPart</code> записывает части на диск до того, как Вы получаете к ним доступ.</p><p><strong>Вариант с </strong><code><strong>Flux&lt;DataBuffer&gt;</strong></code><strong> падает громко и непонятно.</strong> Для отдельного <code>DataBuffer</code> нет реактивного адаптера, поэтому декодер переходит к обработке одиночного значения и объединяет Ваш «поток» в один составной буфер, ограниченный spring.http.codecs.max-in-memory-size. При стандартном лимите 256 КБ загрузка файла на 1 МБ возвращает HTTP 413 — чего никто не ожидает от обработчика, для которого не настраивали ограничение размера. Если увеличить лимит, чтобы «исправить» проблему, каждая загрузка будет целиком храниться в куче. Получите тот же OOM, только с дополнительными шагами.</p><p><code><strong>DataBufferUtils.join()</strong></code><strong> тоже не помогает.</strong> Обычно предлагают такой «практичный переходник»:</p><pre><code class=\"java\">InputStream inputStream = DataBufferUtils.join(fileParts)\n    .map(buf -&gt; buf.asInputStream(true))\n    .block();</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Здесь две проблемы. <code>join()</code> собирает все буферы в один составной буфер, поэтому потребление памяти растёт вместе с размером файла. Именно этого мы и пытаемся избежать. А <code>.block()</code> выполняется в потоке цикла событий Netty, в котором был вызван обработчик, поэтому до этого дело даже не доходит:</p><pre><code class=\"java\">java.lang.IllegalStateException: block()/blockFirst()/blockLast() are blocking,\nwhich is not supported in thread reactor-http-nio-4</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Это не вопрос настройки производительности. Такой код просто не может выполняться.</p><h3>Spring Boot: правильная потоковая обработка multipart в WebFlux</h3><p>API, который действительно обеспечивает потоковую обработку, — <code>@RequestBody Flux&lt;PartEvent&gt;</code>. Вместо набора именованных частей Вы получаете плоский поток событий по мере разбора тела запроса. Поле формы создаёт один <code>FormPartEvent</code>, а файл — один или несколько <code>FilePartEvent</code>, каждый из которых содержит буфер. У последнего события каждой части <code>isLast()</code> возвращает <code>true</code>. Это позволяет разделять поток на части без буферизации.</p><pre><code class=\"java\">@RestController\npublic class UploadController {\n\n    private final PartEventUploadService uploads;\n\n    @PostMapping(value = \"/api/upload\", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)\n    public Mono&lt;ResponseEntity&lt;UploadResult&gt;&gt; upload(@RequestBody Flux&lt;PartEvent&gt; events) {\n        return uploads.store(events)\n                .map(result -&gt; ResponseEntity.status(HttpStatus.CREATED).body(result));\n    }\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Сервис обрабатывает части по одной, в порядке поступления:</p><pre><code class=\"java\">public Mono&lt;UploadResult&gt; store(Flux&lt;PartEvent&gt; events) {\n    AtomicReference&lt;UploadMetadata&gt; metadata = new AtomicReference&lt;&gt;();\n\n    return events\n            .windowUntil(PartEvent::isLast)                    // one window per part\n            .concatMap(window -&gt; handlePart(window, metadata)) // strictly sequential\n            .next()\n            .switchIfEmpty(Mono.error(new InvalidUploadException(\"No 'file' part in the request\")));\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Здесь принципиальны две детали.</p><p><code>windowUntil(PartEvent::isLast)</code> разбивает плоский поток событий на окна, соответствующие отдельным частям. Затем <code>concatMap</code> обрабатывает их по очереди, поэтому телу запроса негде накапливаться. А поскольку проход всего один, порядок частей имеет значение: метаданные нужно отправлять перед файлом. Второго прохода, во время которого можно было бы их найти, не будет. Это реальное ограничение, а не вопрос стиля — цена отказа от буферизации.</p><p>Вторая деталь приводит к утечкам памяти, если сделать всё неправильно. Буферы содержимого <code>FilePartEvent</code> необходимо потребить, передать дальше или освободить — каждый без исключения. Фреймворк не сделает это за Вас.</p><h4>Потоковая запись в хранилище</h4><p>Модуль хранения принимает буферы файловой части и записывает их по мере поступления:</p><pre><code class=\"java\">@Override\npublic Mono&lt;StoredUpload&gt; store(Flux&lt;DataBuffer&gt; content, StorageSpec spec) {\n    Path tempFile = root.resolve(key + \".part\");\n    Path targetFile = root.resolve(key);\n    AtomicLong written = new AtomicLong();\n    MessageDigest digest = sha256();\n\n    Flux&lt;DataBuffer&gt; metered = content\n            .doOnDiscard(DataBuffer.class, DataBufferUtils::release)\n            .doOnNext(buffer -&gt; {\n                long total = written.addAndGet(buffer.readableByteCount());\n                if (total &gt; maxBytes) {\n                    DataBufferUtils.release(buffer);          // we are aborting: this one is ours to free\n                    throw new UploadTooLargeException(maxBytes, total);\n                }\n                digest.update(buffer.asByteBuffer().duplicate());\n            })\n            .map(FileSystemStorageBackend::toHeapBuffer);\n\n    return Mono.usingWhen(\n            openChannel(tempFile),\n            channel -&gt; DataBufferUtils.write(metered, channel)\n                    // write() re-emits each buffer once it is on disk: releasing is our job\n                    .doOnNext(DataBufferUtils::release)\n                    .doOnDiscard(DataBuffer.class, DataBufferUtils::release)\n                    .then(Mono.fromCallable(() -&gt; commit(channel, tempFile, targetFile, digest, written))),\n            channel -&gt; closeQuietly(channel),\n            (channel, cause) -&gt; closeQuietly(channel).then(deleteQuietly(tempFile)).then(Mono.error(cause)),\n            channel -&gt; closeQuietly(channel).then(deleteQuietly(tempFile)));\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Здесь стоит отдельно отметить четыре момента: в наивной реализации каждый из них становится ошибкой.</p><p><code><strong>DataBufferUtils.write</strong></code><strong> не освобождает записанные буферы — он повторно выдаёт их дальше.</strong> Освобождать их должен подписчик. Пропустите эту строку — и при загрузках будет постоянно утекать память из пула за пределами кучи, пока процесс не завершится. Это самая распространённая ошибка в самописном коде потоковой обработки.</p><p><strong>При ошибке потока уже записанные байты остаются на диске.</strong> Частичный файл удаляется при ошибке и отмене, например при отключении клиента. Итоговый файл появляется только через атомарное переименование, поэтому недописанная загрузка никогда не становится доступна по ключу, выданному вызывающей стороне.</p><p><strong>Ограничение размера проверяется прямо во время передачи.</strong> Поэтому слишком большой файл отклоняется до завершения загрузки. Но есть компромисс, о котором нужно знать: при прерывании загрузки клиент может увидеть разрыв соединения раньше, чем получит тело ответа с ошибкой. Выполняйте дешёвые проверки до начала передачи тела. Если вызывающей стороне нужен корректный ответ, сначала дочитайте входящий поток, а затем возвращайте ошибку.</p><p><strong>Перед записью каждый блок копируется в кучу, потому что передача прямых буферов из пула Netty непосредственно файловому каналу работает не на всех платформах.</strong> В Windows с актуальной JDK это приводит к исключению внутри JDK:</p><pre><code class=\"bash\">UnsupportedOperationException: ByteBuffer derived from closeable shared sessions not supported. </code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Каналу нужен стабильный адрес, которого у такого буфера нет. Один memcpy на блок — и код работает везде.</p><p>Механизм обратного давления, или backpressure, получается автоматически, и полезно понимать, как он устроен. <code>DataBufferUtils.write</code> запрашивает следующий буфер только после завершения предыдущей записи. Этот спрос передаётся через парсер обратно к сокету. Медленный диск замедляет клиента, а не заполняет Вашу кучу.</p><h4>Как выглядит запрос curl</h4><p>Поскольку части обрабатываются по порядку, а JSON-часть с явно указанным типом содержимого не считается для Spring «полем формы», запрос выглядит так:</p><pre><code class=\"bash\">curl -X POST http://localhost:8080/api/upload \\\n  -F 'metadata={\"filename\":\"big.bin\",\"contentType\":\"application/octet-stream\"}' \\\n  -F 'file=@big.bin'</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Сначала метаданные в обычном поле. Затем файл. Обработчик в репозитории к статье принимает и вариант с явно указанным типом содержимого, но предпочтителен обычный вариант поля.</p><h3>Действительно ли это потоковая обработка? Измеряем вместо утверждений</h3><p>Утверждения вроде «потребление памяти зависит от размера блока, а не от размера файла» требуют доказательств. Поэтому в репозитории к статье есть два теста, которые я хотел бы увидеть, прежде чем поверить подобным заявлениям.</p><p><strong>Байты попадают на диск до завершения загрузки.</strong> Тестовый клиент отправляет один блок и отказывается отправлять остальные, пока не обнаружит на сервере непустой файл .part. Реализация с буферизацией не сможет пройти этот тест: до получения всего тела она ничего не запишет, а клиент будет ждать бесконечно. Поэтому тест завершится по тайм-ауту, а не пройдёт по случайной причине. При потоковой обработке тест обнаруживает на диске около 59 КБ, пока оставшиеся 4 МБ ещё не отправлены.</p><p><strong>Файл в несколько раз больше кучи.</strong> Приложение запускается отдельным процессом с жёстким ограничением <code>-Xmx256m</code>, а тест загружает 512 МБ, генерируемых на лету, — без огромного временного файла. Затем проверяет SHA-256 данных, записанных на диск:</p><div><div class=\"table\"><table><tbody><tr><td><p align=\"left\"><strong>Обработчик</strong></p></td><td><p align=\"left\"><strong>Объём загрузки при куче 256 МБ</strong></p></td><td><p align=\"left\"><strong>Результат</strong></p></td></tr><tr><td><p align=\"left\">POST /api/upload (<code>Flux&lt;PartEvent&gt;</code>)</p></td><td><p align=\"left\">512 МБ</p></td><td><p align=\"left\">201, хеш совпадает, OOM нет</p></td></tr><tr><td><p align=\"left\">Показанный выше переходник через <code>join()</code></p></td><td><p align=\"left\">512 МБ</p></td><td><p align=\"left\"><code>OutOfMemoryError</code>, процесс завершается</p></td></tr></tbody></table></div></div><p>Те же байты, та же куча — меняется только обработчик. Вся аргументация в одной таблице.</p><h4>Две мои первоначальные ошибки</h4><p>Обе обнаружились благодаря измерениям. Обе сохранились в истории репозитория, а не были исправлены незаметно.</p><p><strong>На пропускную способность влияет размер блока, а не группировка записей.</strong> По умолчанию HTTP-декодер Reactor Netty передаёт приложению данные порциями по 8 КБ, поэтому загрузка на 512 МБ поступает примерно в виде 65 тысяч отдельных событий частей. Увеличение <code>maxChunkSize</code> декодера до 256 КБ сократило их количество примерно до 8200, а время той же загрузки — с 29 до 14,5 секунды. При этом характер потребления памяти совершенно не изменился: буферы по-прежнему обрабатываются по одному. Для ориентира: скорость обычной записи на диск на той же машине составляет около 81 МБ/с, поэтому на этом этапе ограничением становятся диск и вычисление хеша, а не сама потоковая архитектура.</p><p><strong>Более хитрый оператор группировки тоже оказался ошибкой.</strong> Объединение нескольких блоков для одной записи изменило время менее чем на 5% и оказалось небезопасным: <code>bufferTimeout</code> выдаёт группы по таймеру независимо от спроса следующего обработчика, тогда как запись запрашивается строго по одной операции за раз. Под нагрузкой это приводило к <code>OverflowException: Could not emit buffer due to lack of requests</code>. Набор тестов не выявил проблему, поскольку она зависит от временных соотношений; её обнаружил ручной цикл запросов curl. Оператор удалили, и оставшийся путь полностью управляется спросом. Именно это и обеспечивает настоящее обратное давление.</p><h3>Несколько слов об ограничениях</h3><p>Если из этой статьи Вы вынесете только один совет по настройке, пусть это будет следующий: в WebFlux <code>max-in-memory-size</code> не определяет максимальный размер принимаемого файла.</p><ul><li><p><code>spring.webflux.multipart.max-in-memory-size</code> — для <code>@RequestPart</code> задаёт порог, после которого часть переносится на диск. Для PartEvent ограничивает только поля формы. Размер файла эта настройка не ограничивает.</p></li><li><p><code>spring.webflux.multipart.max-disk-usage-per-part</code> — реальный предел размера потоково обрабатываемой части, который проверяется ещё во время поступления байтов.</p></li><li><p><code>spring.http.codecs.max-in-memory-size</code> — ограничивает декодирование с предварительным накоплением данных, включая рассмотренный выше случай <code>@RequestPart Flux&lt;DataBuffer&gt;</code>.</p></li><li><p>Ваше собственное ограничение, проверяемое по мере поступления байтов, — позволяет вернуть понятную ошибку вместо стандартного отказа фреймворка.</p></li></ul><p>Если Вы используете Boot 4, учтите: <code>spring.codec.max-in-memory-size</code> больше не существует. Теперь настройка называется <code>spring.http.codecs.max-in-memory-size</code>, и все руководства со старым именем незаметно для Вас ничего не настраивают.</p><h3>Что дальше</h3><p>Далее разберём реализацию всего описанного на сервлетном стеке: <code>request.getInputStream()</code>, исключение обработчика загрузки из работы multipart resolver, буферы ограниченного размера и политику пула потоков, которая не даст быстрому клиенту исчерпать ресурсы при работе с медленным диском. Если Вы используете Spring MVC и всё это время думали: «К моему приложению это не относится», — следующая часть для Вас. Чтобы отказаться от буферизации загружаемых файлов, переходить на WebFlux необязательно.</p><p>После этого займёмся конвейером, в который поступают загруженные данные:</p><ul><li><p><strong>Хранение:</strong> потоковая передача тех же байтов в S3 через multipart upload, по-прежнему без буферизации, с использованием <code>AsyncRequestBody.fromPublisher()</code> вместо возврата к переходнику через <code>InputStream</code>.</p></li><li><p><strong>Определение типа:</strong> чтение примерно 500 байт вместо всего файла, чтобы решить, принимать ли его вообще; почему Apache Tika в качестве встроенной библиотеки создаёт риск при обработке вредоносных входных данных и как эту проблему решает tika-server.</p></li><li><p><strong>Антивирус:</strong> ограничение объёма проверки ClamAV, чтобы загрузка на 100 ГБ не перегрузила сканер, и обработка файлов, которые слишком велики для полной проверки.</p></li></ul><h3>Заключение</h3><p>Наивная загрузка файлов работает, пока размер файлов или количество одновременных запросов не превышают возможности буферизации. В WebFlux этот подход коварнее: <code>@RequestPart</code> и <code>FilePart</code> выглядят как потоковые API, хотя сначала незаметно разбирают всё тело целиком. <code>FilePart</code> — это <code>MultipartFile</code> с временным файлом, переодетый в реактивную оболочку. По-настоящему потоковый API — <code>@RequestBody Flux&lt;PartEvent&gt;</code>. Но он требует от Вас ответных усилий: обрабатывать части по порядку, освобождать каждый буфер, с которым Вы работаете, удалять незавершённые файлы при обрыве передачи и проверять собственные ограничения прямо во время поступления данных.</p><p>Если всё сделать правильно, загрузка на 512 МБ будет занимать столько же памяти в куче, сколько загрузка на 5 МБ. Это основа, на которой строится всё остальное в этой серии.</p><p>Полный исходный код, включая тесты, подтверждающие каждое утверждение статьи, доступен на GitHub:<a href=\"https://github.com/denis111/spring-boot-large-file-upload\"> denis111/spring-boot-large-file-upload</a>.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/getpro/habr/upload_files/258/484/92d/25848492d4cd2dcd1df595e475569a9a.png\" alt=\"\" title=\"\" width=\"1560\" height=\"334\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/getpro/habr/upload_files/258/484/92d/25848492d4cd2dcd1df595e475569a9a.png 780w,&#10;       https://habrastorage.org/r/w1560/getpro/habr/upload_files/258/484/92d/25848492d4cd2dcd1df595e475569a9a.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><a href=\"https://t.me/+brfSBvR8sAJlMjZi\">Присоединяйтесь</a> к русскоязычному сообществу разработчиков на Spring Boot в телеграм — <a href=\"https://t.me/+brfSBvR8sAJlMjZi\">Spring АйО</a>, чтобы быть в курсе последних новостей из мира разработки на Spring Boot и всего, что с ним связано.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "java"
+    },
+    {
+      "titleHtml": "jdk"
+    },
+    {
+      "titleHtml": "streaming"
+    },
+    {
+      "titleHtml": "spring"
+    },
+    {
+      "titleHtml": "spring boot"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105938/51cde0a433fbfd0fc7f733b1d81d552f/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105938/51cde0a433fbfd0fc7f733b1d81d552f/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/spring_aio\\/articles\\/1105938\\/\"},\"headline\":\"Ваш стриминг ненастоящий. Ловушка загрузки файлов в Spring Boot\",\"datePublished\":\"2026-11-10T13:15:32+03:00\",\"dateModified\":\"2026-11-11T19:10:37+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Введение Вы наверняка видели такой пример: обработчик с @PostMapping , параметр MultipartFile , вызов transferTo() . Пять минут — и готово. На локальной машине...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/spring_aio\\/articles\\/1105938\\/#post-content-body\",\"about\":[\"c_spring_aio\",\"h_programming\",\"h_java\",\"h_kotlin\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/r\\/w1560\\/getpro\\/habr\\/upload_files\\/258\\/484\\/92d\\/25848492d4cd2dcd1df595e475569a9a.png\"]}",
+    "metaDescription": "Введение Вы наверняка видели такой пример: обработчик с @PostMapping , параметр MultipartFile , вызов transferTo() . Пять минут — и готово. На локальной машине всё работает отлично. А потом в рабочую...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 12,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

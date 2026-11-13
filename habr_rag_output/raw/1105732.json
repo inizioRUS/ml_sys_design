@@ -1,0 +1,218 @@
+{
+  "id": "1105732",
+  "timePublished": "2026-11-09T23:05:04+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Движки e‑repa.ru. Часть 3. qt: вопрос к члену предложения и краткий ответ",
+  "leadData": {
+    "textHtml": "<p><a href=\"https://habr.com/ru/articles/1105634/\" rel=\"noopener nofollow\">Во второй части</a> я показал, как js-движок <a href=\"https://e-repa.ru/js/qb-script.js\" rel=\"noopener nofollow\">qb</a> выводит на экран инвентарь английского вопроса и правила его построения: по зонам карточек ученик видит, из каких структур состоит вопрос и из какой зоны берётся каждый элемент. Однако вопрос в qb ученик строит от русской опоры, и тип вопроса уже задан ею: «Кто преподавал химию и физику…?» сам сообщает, что это вопрос к подлежащему. Утвердительного английского предложения, из которого вопрос получается, ученик в qb не видит, а значит, не видит и отношения между предложением и вопросом. Он не видит, к какому члену предложения ставится вопрос, что вопросительное слово замещает этот член целиком, вместе с зависимыми словами, и что остальное предложение остаётся на месте: меняется только порядок слов, а при необходимости добавляется вспомогательный глагол. Нет в qb и ответа на вопрос.</p><p>Эти два пробела закрывает js-движок <a href=\"https://e-repa.ru/js/qt-script.js\" rel=\"noopener nofollow\">qt</a>. В нём ученику дано английское предложение, разрезанное на карточки по членам предложения, и красным выделено то, что замещает вопросительное слово. Ученик берёт карточку целиком, меняет красное на вопросительное слово, остальные карточки ставит как есть и получает вопрос. Затем он даёт на этот вопрос краткий ответ и возвращает в нём то, что заменил вопросительным словом. Так qt закрепляет навык, которого в qb нет совсем, — навык построения кратких ответов. Краткий ответ на вопрос к подлежащему состоит из подлежащего и вспомогательного глагола, который несёт время, число и отрицание: <em>Who examined the ships in his group carefully? — The admiral did.</em> Ответ на вопрос к предложной группе сохраняет предлог: <em>From the deck of whose ship…? — From the deck of his ship.</em></p>",
+    "imageUrl": "https://habrastorage.org/webt/da/95/d2/da95d24a0d1d0d6e902ea1bb855cb7c4.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/webt/da/95/d2/da95d24a0d1d0d6e902ea1bb855cb7c4.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "6070384",
+    "alias": "shurik_pronkin",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 0,
+      "votesCount": 2
+    },
+    "rating": -1,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 161,
+    "score": -1,
+    "votesCount": 1,
+    "votesCountPlus": 0,
+    "votesCountMinus": 1,
+    "reach": 9808,
+    "readers": 117
+  },
+  "hubs": [
+    {
+      "id": "91",
+      "alias": "webdev",
+      "type": "collective",
+      "title": "Веб-разработка",
+      "titleHtml": "Веб-разработка",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "357",
+      "alias": "javascript",
+      "type": "collective",
+      "title": "JavaScript",
+      "titleHtml": "JavaScript",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20696",
+      "alias": "study",
+      "type": "collective",
+      "title": "Учебный процесс в IT",
+      "titleHtml": "Учебный процесс в IT",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22006",
+      "alias": "learning_languages",
+      "type": "collective",
+      "title": "Изучение языков",
+      "titleHtml": "Изучение языков",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><a href=\"https://habr.com/ru/articles/1105634/\" rel=\"noopener nofollow\">Во второй части</a> я показал, как js‑движок <a href=\"https://e-repa.ru/js/qb-script.js\" rel=\"noopener nofollow\">qb</a> выводит на экран инвентарь английского вопроса и правила его построения: по зонам карточек ученик видит, из каких структур состоит вопрос и из какой зоны берётся каждый элемент. Однако вопрос в qb ученик строит от русской опоры, и тип вопроса уже задан ею: «Кто преподавал химию и физику…?» сам сообщает, что это вопрос к подлежащему. Утвердительного английского предложения, из которого вопрос получается, ученик в qb не видит, а значит, не видит и отношения между предложением и вопросом. Он не видит, к какому члену предложения ставится вопрос, что вопросительное слово замещает этот член целиком, вместе с зависимыми словами, и что остальное предложение остаётся на месте: меняется только порядок слов, а при необходимости добавляется вспомогательный глагол. Нет в qb и ответа на вопрос.</p><p>Эти два пробела закрывает js‑движок <a href=\"https://e-repa.ru/js/qt-script.js\" rel=\"noopener nofollow\">qt</a>. В нём ученику дано английское предложение, разрезанное на карточки по членам предложения, и красным выделено то, что замещает вопросительное слово. Ученик берёт карточку целиком, меняет красное на вопросительное слово, остальные карточки ставит как есть и получает вопрос. Затем он даёт на этот вопрос краткий ответ и возвращает в нём то, что заменил вопросительным словом. Так qt закрепляет навык, которого в qb нет совсем, — навык построения кратких ответов. Краткий ответ на вопрос к подлежащему состоит из подлежащего и вспомогательного глагола, который несёт время, число и отрицание: <em>Who examined the ships in his group carefully? — The admiral did.</em> Ответ на вопрос к предложной группе сохраняет предлог: <em>From the deck of whose ship…? — From the deck of his ship.</em></p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/da/95/d2/da95d24a0d1d0d6e902ea1bb855cb7c4.png\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/da/95/d2/da95d24a0d1d0d6e902ea1bb855cb7c4.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/da/95/d2/da95d24a0d1d0d6e902ea1bb855cb7c4.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Вместе два js‑движка выводят на экран грамматику английского вопроса с двух сторон. qb показывает, из чего вопрос строится: инвентарь и правила. qt показывает, из чего вопрос получается: члены утвердительного предложения, замену члена вопросительным словом и в кратком ответе обратную замену.</p><h3>Какими обходными путями ученик подменяет построение вопроса к члену предложения</h3><p>Когда задание требует поставить вопрос к выделенному члену готового предложения, у ученика есть несколько способов получить вопрос, не выполняя этой замены.</p><ol><li><p><strong>Куцый вопрос.</strong> Ученик выбрасывает часть предложения и пишет <em>What did the judge do?</em> вместо вопроса, в котором стоят все слова предложения.</p></li><li><p><strong>Замена не того куска.</strong> Ученик заменяет вопросительным словом одно слово и отрывает его от группы, к которой оно относится, или, наоборот, захватывает лишнее.</p></li><li><p><strong>Подсмотренный ответ.</strong> Ученик ищет верный вопрос в самом упражнении.</p></li><li><p><strong>Перебор вариантов.</strong> Ученик меняет вопрос наугад, пока упражнение его не примет.</p></li></ol><p>Как эти пути закрыты в упражнении и какие из них остаются открытыми, видно по тому, что ученик видит на экране и что он делает.</p><h3>Как устроено упражнение Question Transformer и как в нём закрыты обходные пути</h3><p>Когда ученик открывает страницу <a href=\"https://e-repa.ru/grammar/questions/question_drill/02/question-transformer.htm\" rel=\"noopener nofollow\">Question Transformer</a> и выбирает набор, он видит предложение, разрезанное на карточки, одна из которых выделена красным, два поля — для вопроса и для краткого ответа — и под ними четыре постоянные зоны: вопросительные слова, вспомогательные и модальные глаголы с <em>not</em>, местоимения по разрядам и предлоги. Вопрос ученик набирает с клавиатуры или вставляет в поле карточки предложения и карточки из зон.</p><p>Каждая карточка — член предложения со всеми зависимыми словами, и граница карточки для ученика значима: карточку он переносит в вопрос целиком. Красное — ровно те слова, которые замещает вопросительное слово. Поэтому ключ ученик может вывести с экрана: убрать красное, поставить вопросительное слово и вспомогательный глагол, а всё не красное оставить на месте и в той же форме.</p><p>По этой рамке закрыты три первых обходных пути:</p><ul><li><p><strong>куцый вопрос</strong> не принимается, потому что ключ содержит все слова предложения, а проверка требует полного совпадения с ключом;</p></li><li><p><strong>замена не того куска</strong> не принимается, потому что вопросительное слово замещает ровно выделенное красным, а карточка неделима;</p></li><li><p><strong>подсмотреть ответ</strong> негде: js‑движок не показывает ни верный вопрос, ни верный ответ, а Skip только откладывает задание.</p></li></ul><p>Четвёртый путь, перебор вариантов, js‑движок не закрывает: каждое изменение он проверяет и сразу засчитывает совпадение, а штрафа за перебор нет.</p><p>Трудность, которую ученик не может преодолеть сам, снята подсказкой. Она лежит в спойлере, и открывает её сам ученик: в ней названы тип вопроса и формула, по которой он строится, а там, где алгоритм ученика расходится с английским, — примечание с правилом. С формулой задание сводится к подстановке, поэтому подсказка — помощь, которую ученик включает сам, так же как замедление записи в js‑движке <a href=\"https://e-repa.ru/js/dub-script.js\" rel=\"noopener nofollow\">dub</a> из <a href=\"https://habr.com/ru/articles/1105612/\" rel=\"noopener nofollow\">первой части</a>.</p><h3>Как предложение, поля ввода и проверка устроены в коде js‑движка qt</h3><p>Всё, что ученик видит на экране и делает с карточками, реализовано в js‑движке qt. Как и qb, упражнение состоит из HTML‑страницы, XML‑наборов заданий и самого js‑движка — JS‑файла <a href=\"https://e-repa.ru/js/qt-script.js\" rel=\"noopener nofollow\">qt‑script.js</a>, написанного с использованием jQuery, и CSS‑файла <a href=\"https://e-repa.ru/css/qt-styles.css\" rel=\"noopener nofollow\">qt‑styles.css</a>. Наборы лежат в папке <code>qt_data/</code>, и список, из которого ученик выбирает набор, js‑движок строит по реестру <code>qt_data/index.json</code>, так же как в qb.</p><h4>Как составитель набора описывает предложение и вопросы к его членам в XML</h4><p>Предложение задаётся один раз, а вопросов к нему столько, сколько в нём членов, к которым составитель ставит вопрос. Каждый вопрос — отдельное задание.</p><pre><code class=\"xml\">&lt;sentence chunks=\"The admiral|examined|the ships in his group|carefully\"&gt;\n\t&lt;q target=\"The admiral\" qtype=\"subject\"&gt;\n\t\t&lt;answer&gt;Who examined the ships in his group carefully&lt;/answer&gt;\n\t\t&lt;short&gt;The admiral did&lt;/short&gt;\n\t&lt;/q&gt;\n\t&lt;q target=\"carefully\" qtype=\"special\"&gt;\n\t\t&lt;answer&gt;How did the admiral examine the ships in his group&lt;/answer&gt;\n\t\t&lt;short&gt;Carefully&lt;/short&gt;\n\t&lt;/q&gt;\n&lt;/sentence&gt;\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>В атрибуте <code>chunks</code> через <code>|</code> перечислены карточки, то есть члены предложения со всеми зависимыми словами: <em>in his group</em> стоит в одной карточке с <em>the ships</em>, потому что относится к этому существительному. Атрибут <code>target</code> — слова, которые замещает вопросительное слово, <code>&lt;answer&gt;</code> — вопрос, <code>&lt;short&gt;</code> — краткий ответ; верные варианты в обоих тегах перечисляются через <code>|</code>. Функция <code>readXML()</code> превращает каждый <code>&lt;q&gt;</code> в отдельный шаг упражнения, и все шаги одного предложения получают одни и те же карточки:</p><pre><code>$(xml).find('sentences sentence').each(function() {\n\tvar $s = $(this);\n\tvar chunks = $s.attr('chunks').split('|');\n\t$s.children('q').each(function() {\n\t\tvar $q = $(this);\n\t\tSTEPS.push({\n\t\t\tchunks: chunks,\n\t\t\ttarget: $q.attr('target'),\n\t\t\tchunk: $q.attr('chunk') || '',\n\t\t\tanswer: $q.children('answer').text().trim(),\n\t\t\tshort: $q.children('short').text().trim(),\n\t\t\tqtype: ($q.attr('qtype') || '').toLowerCase()\n\t\t\t// а также type, hint и note для подсказки\n\t\t});\n\t});\n});\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Красным js‑движок выделяет либо всю карточку, если <code>target</code> с ней совпадает, либо часть карточки, если вопрос ставится, например, к определению внутри группы. Если выделяемое слово встречается в нескольких карточках, составитель указывает нужную атрибутом <code>chunk</code>, и js‑движок выделяет слово только в ней.</p><h4>Почему в js‑движке qt нет зоны Words и что лежит в постоянных зонах</h4><p>В qb слова конкретного вопроса лежат в зоне Words. В qt эта зона не нужна: словами служат карточки самого предложения. Постоянные зоны заданы в js‑движке так же, как в qb, и от набора не зависят. Отличие одно: в зоне местоимений qt есть ещё <em>there</em>.</p><pre><code>var ZONE3 = [\n\t{label: 'subject', words: ['I','you','he','she','it','we','they']},\n\t{label: 'object', words: ['me','him','her','us','them']},\n\t// demonstrative, possessive, absolute possessive, reflexive\n\t{label: 'there', words: ['there']}\n];\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h4>Как ученик набирает вопрос с клавиатуры, щелчком по карточке и перетаскиванием</h4><p>Из карточек предложения и зон ученик составляет вопрос в обычном текстовом поле. Щелчок по карточке или по слову из зоны вставляет его в активное поле, в то место, где стоит курсор, а пробелы вокруг вставки js‑движок расставляет сам:</p><pre><code>function insertAtCursor(inputId, text) {\n\tvar el = document.getElementById('qt-input-' + inputId);\n\tif (el.readOnly) return;\n\tvar start = el.selectionStart;\n\tvar end = el.selectionEnd;\n\tvar before = el.value.substring(0, start);\n\tvar after = el.value.substring(end);\n\tvar spaceBefore = (before.length &gt; 0 &amp;&amp; before[before.length - 1] !== ' ') ? ' ' : '';\n\tvar spaceAfter = (after.length &gt; 0 &amp;&amp; after[0] !== ' ') ? ' ' : '';\n\tel.value = before + spaceBefore + text + spaceAfter + after;\n\t// курсор встаёт за вставкой, затем запускается проверка\n\tscheduleAutoCheck();\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Карточку можно и перетащить в поле, а выделенный фрагмент самого поля — перетащить на другое место внутри того же поля: так ученик переставляет вспомогательный глагол или предлог, не стирая набранное.</p><h4>Как js‑движок проверяет вопрос и краткий ответ в два этапа</h4><p>Кнопки «Проверить» в упражнении нет. Через 400 мс после последнего изменения в поле функция <code>doAutoCheck()</code> сравнивает набранное со всеми вариантами ключа. Функция <code>norm()</code> приводит текст к нижнему регистру, отбрасывает всё, кроме букв, цифр, апострофа и пробелов, и схлопывает пробелы, поэтому ни регистр, ни знаки препинания на проверку не влияют:</p><pre><code>function norm(s) {\n\treturn s.toLowerCase().replace(/[^a-z0-9'’\\s]/g, '').replace(/’/g, \"'\")\n\t\t.replace(/\\s+/g, ' ').trim();\n}\n\nfunction matchesAny(studentText, answerField) {\n\tvar sNorm = norm(studentText);\n\tvar variants = answerField.split('|');\n\tfor (var i = 0; i &lt; variants.length; i++) {\n\t\tif (sNorm === norm(variants[i])) return true;\n\t}\n\treturn false;\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Задание проходит два этапа. На первом js‑движок сравнивает поле вопроса с <code>&lt;answer&gt;</code>. Если вопрос совпал, js‑движок ставит заглавную букву и вопросительный знак, закрывает поле для правки и переводит курсор в поле ответа. На втором этапе он сравнивает поле ответа с <code>&lt;short&gt;</code>, и только совпавший краткий ответ засчитывает задание: ответ получает точку, пара «вопрос — ответ» уходит в банк ответов, и js‑движок переходит к следующему заданию. Поэтому задание нельзя закрыть одним вопросом: краткий ответ ученик строит каждый раз. Если набранное не совпало ни с одним вариантом, js‑движок ничего не сообщает и ждёт следующего изменения.</p><h4>Что показывает блок «Тип вопроса» и почему выбор типа не влияет на результат</h4><p>В спойлере с подсказкой есть блок «Тип вопроса». В нём ученик может выбрать, какой вопрос он строит: к подлежащему, специальный или общий, — и получить объяснение, а при ошибке — объяснение с правилами. Тип js‑движок берёт из атрибута <code>qtype</code>. Выбор типа на результат не влияет: засчитывают задание только совпавшие вопрос и краткий ответ.</p><h4>Как Skip сохраняет черновик обоих полей</h4><p>Skip откладывает задание, и функция <code>skipStep()</code> сохраняет в результатах всё набранное в обоих полях и этап, на котором ученик остановился:</p><pre><code>results[curStep] = {\n\tstatus: 'skip',\n\t// q и a — черновик для банка ответов\n\tsavedQ: $q.value,\n\tsavedA: $a.value,\n\tsavedPhase: phase\n};\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Функция <code>nextStep()</code> ищет следующее несданное задание, а дойдя до конца списка, начинает с начала. Когда отложенное задание возвращается в следующем цикле, js‑движок восстанавливает черновик: если вопрос уже был принят, ученик сразу продолжает с краткого ответа. Прогресс хранится в <code>localStorage</code> под составным ключом из пути страницы и имени набора, как в qb.</p><h3>Общий принцип, на котором построены js‑движки e‑repa.ru</h3><p>Карточки‑члены предложения в js‑движке qt выводятся из того же принципа, что зоны в qb и визуальная структура синтагмы в dub. Js‑движок переводит правила и инвентарь из абстрактно‑понятийной формы в наглядно‑действенную, и это позволяет ученику совершать конкретные действия: назначать каждому элементу функцию, его структурную роль. В qt такое действие — замена члена предложения вопросительным словом: ученик берёт карточку целиком, решает, каким вопросительным словом заменить красное и куда поставить эту карточку в вопросе, а в кратком ответе возвращает красное на место вопросительного слова.</p><p>В абстрактно‑понятийной форме этого действия не совершить: в голове ученика нет ни отдельного члена предложения, который можно взять, ни места в вопросе, куда его поставить, — грамматика построения вопроса существует там целиком и расплывчато. Наглядно‑действенная форма позволяет абстрактно‑понятийной форме:</p><ol><li><p><strong>Получить границы, то есть телесность и структурность.</strong> Член предложения становится карточкой, а граница карточки показывает, где кончается группа, которую замещает вопросительное слово: <em>the ships in his group</em> — одна карточка, и замещается она целиком.</p></li><li><p><strong>Превратиться в решение.</strong> Чтобы построить вопрос, ученик каждый раз определяет, каким членом предложения служит красное и какое вопросительное слово его замещает, а чтобы построить краткий ответ — что из вопроса вернуть и нужен ли вспомогательный глагол.</p></li><li><p><strong>Стать видимой самому ученику.</strong> Вопрос лежит в поле перед глазами рядом с карточками предложения, и ученик видит, какую карточку он заменил, какие оставил на месте и где поставил вспомогательный глагол.</p></li><li><p><strong>Повторяться до автоматизма.</strong> К одному предложению ученик ставит вопросы ко всем выделенным членам по очереди и каждый раз даёт краткий ответ, закрепляя последовательность решений. Из внешнего действия вырастает внутреннее, и опора становится ненужной.</p></li></ol></div>",
+  "tags": [
+    {
+      "titleHtml": "английский язык"
+    },
+    {
+      "titleHtml": "грамматика"
+    },
+    {
+      "titleHtml": "вопросительное предложение"
+    },
+    {
+      "titleHtml": "конструктор вопросов"
+    },
+    {
+      "titleHtml": "drag-and-drop"
+    },
+    {
+      "titleHtml": "JavaScript"
+    },
+    {
+      "titleHtml": "jQuery"
+    },
+    {
+      "titleHtml": "LCS"
+    },
+    {
+      "titleHtml": "localStorage"
+    },
+    {
+      "titleHtml": "e-learning"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105732/2f5e6da7995e2bab5f6f36561e4a24a1/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105732/2f5e6da7995e2bab5f6f36561e4a24a1/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105732\\/\"},\"headline\":\"Движки e‑repa.ru. Часть 3. qt: вопрос к члену предложения и краткий ответ\",\"datePublished\":\"2026-11-10T02:05:04+03:00\",\"dateModified\":\"2026-11-10T02:12:19+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Во&nbsp;второй части я показал, как&nbsp;js‑движок qb выводит на&nbsp;экран инвентарь английского вопроса и правила его построения: по&nbsp;зонам карточек...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105732\\/#post-content-body\",\"about\":[\"h_webdev\",\"h_javascript\",\"h_study\",\"h_learning_languages\",\"f_develop\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/webt\\/da\\/95\\/d2\\/da95d24a0d1d0d6e902ea1bb855cb7c4.png\"]}",
+    "metaDescription": "Во&nbsp;второй части я показал, как&nbsp;js‑движок qb выводит на&nbsp;экран инвентарь английского вопроса и правила его построения: по&nbsp;зонам карточек ученик видит, из&nbsp;каких структур состоит...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 9,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "4",
+    "title": "Фронтенд",
+    "alias": "frontend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,240 @@
+{
+  "id": "1106104",
+  "timePublished": "2026-11-10T12:42:35+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Она знает, что вы за ней следите: секрет безопасности Mythos 5.2 и разбор Claude Fable 5.2",
+  "leadData": {
+    "textHtml": "<p>Восемь долларов за миллион входных токенов и сорок за миллион выходных. Столько стоит <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-2\">Claude Fable 5.2</a>, новая старшая модель Anthropic, вышедшая 9 ноября вместе с Mythos 5.2. Предыдущая Fable 5.1 стоила 10 $ и 50 $, так что снижение составило ровно 20%. Это та же планка, что у GPT-6 Astra от OpenAI, только на пятую часть ниже.&nbsp;</p><p>Разобрал для вас все подробнее в посте.</p>",
+    "imageUrl": "https://habrastorage.org/extt/1f/14/03/1f140321d951a584e96fa7ae5baabe22.jpeg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/1f/14/03/1f140321d951a584e96fa7ae5baabe22.jpeg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "4038794",
+    "alias": "techno_mot",
+    "fullname": "Матвей Чернов",
+    "avatarUrl": "//habrastorage.org/extt/b3/f5/a5/b3f5a578217a50f7e5375281a5f9a152.jpg",
+    "speciality": "Инженер, который утащил ИИ в маркетинг",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 107,
+      "votesCount": 177
+    },
+    "rating": 225.2,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/mmmotomotoo",
+        "value": "mmmotomotoo",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/mmmotomotoo",
+        "value": "mmmotomotoo",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 3,
+    "favoritesCount": 7,
+    "readingCount": 2184,
+    "score": 33,
+    "votesCount": 21,
+    "votesCountPlus": 20,
+    "votesCountMinus": 1,
+    "reach": 11160,
+    "readers": 1652
+  },
+  "hubs": [
+    {
+      "id": "14740",
+      "alias": "selectel",
+      "type": "corporative",
+      "title": "Блог компании Selectel",
+      "titleHtml": "Блог компании Selectel",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20688",
+      "alias": "research",
+      "type": "collective",
+      "title": "Исследования и прогнозы в IT",
+      "titleHtml": "Исследования и прогнозы в IT",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/1f/14/03/1f140321d951a584e96fa7ae5baabe22.jpeg\" width=\"1198\" height=\"674\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1f/14/03/1f140321d951a584e96fa7ae5baabe22.jpeg 780w,&#10;       https://habrastorage.org/r/w1560/extt/1f/14/03/1f140321d951a584e96fa7ae5baabe22.jpeg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Восемь долларов за миллион входных токенов и сорок за миллион выходных. Столько стоит <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-2\">Claude Fable 5.2</a>, новая старшая модель Anthropic, вышедшая 9 ноября вместе с Mythos 5.2. Предыдущая Fable 5.1 стоила 10 $ и 50 $, так что снижение составило ровно 20%. Это та же планка, что у GPT-6 Astra от OpenAI, только на пятую часть ниже. </p><p><strong>Главные поинты этого события:</strong></p><ul><li><p>Почти бесплатный кэш. Повторное чтение контекста из кэша обойдется в смешные 0,20 $ за 1 млн токенов. Для агентных лупов — это киллер-фича;</p></li><li><p>Скидка 50% на инференс. Anthropic режет цены при использовании Batch API. А подписчикам тарифов Pro и Team в честь запуска щедро выдали временный сброс лимитов, чтобы обкатать новинку без трат.</p></li></ul><p>Разобрал для вас все подробнее в посте.</p><h2>Одни веса, два продукта</h2><p>Fable и Mythos в версии 5.2 — одна и та же модель с разными защитными фильтрами. Fable открыта всем и блокирует наступательную кибербезопасность (пентест, генерацию эксплойтов, анализ бинарей) и большую часть задач исследовательской биологии. </p><p>Mythos выдается по заявке через Cyber Verification Program и Life Sciences Verification Program, а клиенты на корпоративных аккаунтах получают ее внутри продукта Claude Security. На заблокированный в Fable запрос отвечает Opus 4.8 версии «кибер» или Opus 5. По сравнению с 5.1 блокировок стало на 55% меньше, в кибербезопасности — на 60%.</p><p>Так что если ваш агент для SRE или аудита кода внезапно отвечает хуже, чем ожидалось, стоит проверить, не ушел ли запрос на запасную модель.</p><h2>Как она выглядит на фоне конкурентов</h2><p>Все цифры ниже взяты из <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-2\">анонса Anthropic</a> , независимых прогонов на момент выхода нет.</p><div><div class=\"table\"><table><tbody><tr><td><p align=\"left\"><strong>Бенчмарк</strong></p></td><td><p align=\"left\"><strong>Fable 5.2</strong></p></td><td><p align=\"left\"><strong>Opus 5.5</strong></p></td><td><p align=\"left\"><strong>GPT-6 Astra</strong></p></td><td><p align=\"left\"><strong>Gemini 4 Carbon</strong></p></td></tr><tr><td><p align=\"left\">FrontierCode 2.0 (агентный кодинг)</p></td><td><p align=\"left\">49,1%</p></td><td><p align=\"left\">45,5%</p></td><td><p align=\"left\">42,8%</p></td><td><p align=\"left\">41,1%</p></td></tr><tr><td><p align=\"left\">FrontierSWE v2</p></td><td><p align=\"left\">69,9%</p></td><td><p align=\"left\">62,3%</p></td><td><p align=\"left\">65,5%</p></td><td><p align=\"left\">61,2%</p></td></tr><tr><td><p align=\"left\">AutomationBench (бизнес-процессы)</p></td><td><p align=\"left\">51,4%</p></td><td><p align=\"left\">42,5%</p></td><td><p align=\"left\">41,4%</p></td><td><p align=\"left\">53,9%</p></td></tr><tr><td><p align=\"left\">OSWorld 2.1 (computer use)</p></td><td><p align=\"left\">89,3%</p></td><td><p align=\"left\">87,2%</p></td><td><p align=\"left\">79,5%</p></td><td><p align=\"left\">81,5%</p></td></tr><tr><td><p align=\"left\">Humanity’s Last Exam с инструментами</p></td><td><p align=\"left\">74,2%</p></td><td><p align=\"left\">67,7%</p></td><td><p align=\"left\">57,2%</p></td><td><p align=\"left\">—</p></td></tr><tr><td><p align=\"left\">Remote Labor Index</p></td><td><p align=\"left\">41,3%</p></td><td><p align=\"left\">21,3%</p></td><td><p align=\"left\">20,8%</p></td><td><p align=\"left\">—</p></td></tr></tbody></table></div></div><p>Fable 5.2 превосходит GPT-6 Astra и собственную Opus 5.5 в тяжелых автономных задачах. На бенчмарке Remote Labor Index (способность заменять удаленного сотрудника) новинка выдает двукратный отрыв от рынка.</p><p>А вот в автоматизации бизнес-процессов Gemini 4 Carbon еще впереди. На FrontierCode 2.0 с уровнем рассуждений High модель набирает 45,3%, вровень с Opus 5.5, и обходится примерно вдвое дешевле за задачу. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0c/4b/76/0c4b76a58f6ba90fa21eead8c5948932.png\" alt=\"Бенчмарк FrontierCode. Источник.\" title=\"Бенчмарк FrontierCode. Источник.\" width=\"1142\" height=\"753\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0c/4b/76/0c4b76a58f6ba90fa21eead8c5948932.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0c/4b/76/0c4b76a58f6ba90fa21eead8c5948932.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Бенчмарк FrontierCode. </em><a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-2\"><em>Источник</em></a><em>.</em></figcaption></div></figure><p>При этом Anthropic по-прежнему советует Opus 5.5 для большинства повседневных задач. Похоже, Fable позиционируется как инструмент для длинных автономных прогонов, где цена ошибки высока.</p><h2>Где экономия на самом деле</h2><p>Главная статья расходов агентных систем — повторно отправляемый контекст. Кэшированные токены у Fable 5.2 стоят 0,20 $ за миллион против 1 $ у GPT-6 Astra. У агента, который на каждом шаге перечитывает репозиторий в сотни тысяч токенов, разница в счете будет ближе к пятикратной, чем к заявленным 20%. Есть и платный быстрый режим за 16 $ и 80 $, он ускоряет генерацию до 2,5 раз.</p><p>Корпоративным клиентам стоит прочитать раздел о данных. Без режима нулевого хранения запросы к Fable и Mythos хранятся 30 дней для мониторинга безопасности. Альтернатива — Enterprise Frontier Safeguards, мониторинг внутри инфраструктуры клиента, пока в закрытой бете с Bridgewater, Salesforce и Stripe.</p><h2>Что сказано о безопасности</h2><p>Если вспомнить, то именно с линейки Mythos в свое время начались главные проблемы Anthropic в сфере ИБ. В адверсариальном тесте на выход из песочницы Mythos 5.2 использовал чужие учетные данные или файлы в 3,1% сценариев. У Mythos 5.1 было 21%, у Mythos 5 — 39%. </p><p>В свежем релизе безопасность подтянули, но у модели проявились пугающие побочные эффекты. Модель заметно чаще подозревает, что ее тестируют: <a href=\"https://thenextweb.com/news/claude-fable-5-2-mythos-5-2-anthropic-launch-price\">TNW</a> со ссылкой на системную карту пишет о признаках этого в 43% транскриптов автоматического аудита и о том, что Mythos 5.2 стал первой моделью, которая примерно в каждой четвертой попытке обходила монитор рассуждений при команде намеренно занизить результат. Способности к ИИ-исследованиям (оптимизация ядер ускорителей, улучшение архитектур LLM) Anthropic сознательно удержала на уровне Opus 5.5.</p><h2>Почему релиз произошел прямо перед IPO</h2><p>Через несколько часов после релиза Reuters <a href=\"https://sg.finance.yahoo.com/news/anthropic-retracts-ipo-details-sending-030830834.html\">сообщило</a>, что Anthropic разослала банкирам параметры размещения (867 млн акций по 70–80 $, до 69,3 млрд $), а затем отозвала их как неточные и пообещала обновленный документ. Торги могут начаться уже на следующей неделе. В том же S-1 видно замедление квартального роста выручки до 47% после 144% во втором квартале. На этом фоне снижение цены флагмана выглядит как попытка удержать долю рынка разработчиков до того, как компанию начнут оценивать по публичной отчетности.</p><blockquote><p><strong>Если модель в 43% случаев понимает, что ее тестируют, то насколько вообще можно верить красивым графикам из начала поста? Она же могла просто подыграть аудиторам. Что думаете? </strong>Пишите в комментариях.</p></blockquote><div class=\"floating-image\"><figure class=\"float \"><img src=\"https://habrastorage.org/getpro/habr/upload_files/dbd/50d/bb6/dbd50dbb6316408a3d20c62b3ced3f3c.gif\" alt=\"\" title=\"\" width=\"200\" height=\"200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/getpro/habr/upload_files/dbd/50d/bb6/dbd50dbb6316408a3d20c62b3ced3f3c.gif 780w,&#10;       https://habrastorage.org/getpro/habr/upload_files/dbd/50d/bb6/dbd50dbb6316408a3d20c62b3ced3f3c.gif 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>ИИ‑роутер — доступ к 400+ моделям из одной панели</strong></p><p>Подключите OpenAI‑совместимый шлюз по единому API‑ключу. Настраивайте сквозную аналитику, отслеживайте лимиты и квотируйте ресурсы.</p><p><a href=\"https://promo.selectel.ru/ai-router/?utm_source=habr.com&amp;utm_medium=referral&amp;utm_campaign=airouter_news_ai-fable52_101126_banner_ord\"><strong>Запустить ИИ‑роутер →</strong></a></p></div></div>",
+  "tags": [
+    {
+      "titleHtml": "ии"
+    },
+    {
+      "titleHtml": "мл"
+    },
+    {
+      "titleHtml": "OpenAI"
+    },
+    {
+      "titleHtml": "GPT-6"
+    },
+    {
+      "titleHtml": "Astra"
+    },
+    {
+      "titleHtml": "Mythos 5.2"
+    },
+    {
+      "titleHtml": "claude fable 5.2"
+    },
+    {
+      "titleHtml": "Fable 5.1"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106104/de0a8a1737e069a790302f1d4550b7c3/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106104/de0a8a1737e069a790302f1d4550b7c3/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/selectel\\/articles\\/1106104\\/\"},\"headline\":\"Она знает, что вы за ней следите: секрет безопасности Mythos 5.2 и разбор Claude Fable 5.2\",\"datePublished\":\"2026-11-10T15:42:35+03:00\",\"dateModified\":\"2026-11-12T16:51:39+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Восемь долларов за миллион входных токенов и сорок за миллион выходных. Столько стоит Claude Fable 5.2 , новая старшая модель Anthropic, вышедшая 9 ноября...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/selectel\\/articles\\/1106104\\/#post-content-body\",\"about\":[\"c_selectel\",\"h_artificial_intelligence\",\"h_machine_learning\",\"h_research\",\"h_infosecurity\",\"f_develop\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/1f\\/14\\/03\\/1f140321d951a584e96fa7ae5baabe22.jpeg\",\"https:\\/\\/habrastorage.org\\/extt\\/0c\\/4b\\/76\\/0c4b76a58f6ba90fa21eead8c5948932.png\",\"https:\\/\\/habrastorage.org\\/getpro\\/habr\\/upload_files\\/dbd\\/50d\\/bb6\\/dbd50dbb6316408a3d20c62b3ced3f3c.gif\"]}",
+    "metaDescription": "Восемь долларов за миллион входных токенов и сорок за миллион выходных. Столько стоит Claude Fable 5.2 , новая старшая модель Anthropic, вышедшая 9 ноября вместе с Mythos 5.2. Предыдущая Fable 5.1...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "id": "1106036",
+  "timePublished": "2026-11-10T11:12:16+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Krea AI нейросеть: как пользоваться в России, сайт, тарифы и версии Креа 2 на русском",
+  "leadData": {
+    "textHtml": "<p>Krea долго воспринимали как еще один генератор картинок с приятным интерфейсом. Сейчас это совсем другая история: у компании появились собственные нейросети трех поколений, открытые веса для локального запуска и облачная студия, где рядом с ее моделями работают Nano Banana, Seedance и еще несколько десятков нейросетей. Отсюда путаница в поиске: одни ищут Krea 2 Turbo для ComfyUI, другие хотят понять, как оплатить подписку из России, третьи просто хотят сгенерировать картинку бесплатно и не разбираться в терминах.</p><p>Короткий ответ на главный вопрос. Актуальных моделей сейчас две: Krea 2 (генерация по тексту, вышла в мае, открытые веса опубликованы в июне) и Krea 3 (нейросеть для редактирования, открытая бета с 15 октября). Первая версия в приложении осталась, но это уже прошлое поколение. Ниже разберем, чем версии отличаются, где их запускать и как пользоваться нейросетью Krea в России без возни с зарубежными картами.</p>",
+    "imageUrl": "https://habrastorage.org/extt/ea/e6/84/eae684225820fd7cb150cf4455605f0e.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/ea/e6/84/eae684225820fd7cb150cf4455605f0e.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5877958",
+    "alias": "StudyAI",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": true,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 1
+    },
+    "rating": 0,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": false,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 31,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 51,
+    "readers": 23
+  },
+  "hubs": [
+    {
+      "id": "23978",
+      "alias": "study_ai",
+      "type": "corporative",
+      "title": "Блог компании StudyAI",
+      "titleHtml": "Блог компании StudyAI",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Krea долго воспринимали как еще один генератор картинок с приятным интерфейсом. Сейчас это совсем другая история: у компании появились собственные нейросети трех поколений, открытые веса для локального запуска и облачная студия, где рядом с ее моделями работают Nano Banana, Seedance и еще несколько десятков нейросетей. Отсюда путаница в поиске: одни ищут Krea 2 Turbo для ComfyUI, другие хотят понять, как оплатить подписку из России, третьи просто хотят сгенерировать картинку бесплатно и не разбираться в терминах.</p><p>Короткий ответ на главный вопрос. Актуальных моделей сейчас две: Krea 2 (генерация по тексту, вышла в мае, открытые веса опубликованы в июне) и Krea 3 (нейросеть для редактирования, открытая бета с 15 октября). Первая версия в приложении осталась, но это уже прошлое поколение. Ниже разберем, чем версии отличаются, где их запускать и как пользоваться нейросетью Krea в России без возни с зарубежными картами.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/53/41/e3/5341e34aab6ea4b6ecbd694f2de69338.png\" width=\"1672\" height=\"941\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/53/41/e3/5341e34aab6ea4b6ecbd694f2de69338.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/53/41/e3/5341e34aab6ea4b6ecbd694f2de69338.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><em>Krea AI нейросеть</em></p><h3>Как пользоваться Krea в России</h3><p>Сам сайт у многих открывается, но оплатить подписку Krea российской картой не получится: сервис принимает Visa, Mastercard и PayPal через зарубежные платежные шлюзы. Рабочих вариантов три.</p><ol><li><p><strong>Зарубежная карта.</strong> Карта банка Казахстана, Армении или другой страны. Самый прямой путь, но карту нужно оформить и пополнять.</p></li><li><p><strong>Платежный посредник.</strong> Вы переводите рубли, посредник оплачивает тариф за вас. Комиссия обычно составляет несколько сотен рублей сверху, и аккаунт фактически зависит от третьей стороны.</p></li><li><p><strong>Агрегатор нейросетей.</strong> Нужная модель доступна внутри <a href=\"https://studyai.one/?rid=a00c6cc3a74dd702&amp;ulp=https%3A%2F%2Fstudy24.ai%2Fchat%2Fkrea_2\">российского сервиса</a>, а оплата идет в рублях.</p></li></ol><h4>Study AI — Krea 2 без VPN и с оплатой в рублях</h4><p>Для большинства задач третий вариант проще всего. На Study AI нейросеть <a href=\"https://studyai.one/?rid=a00c6cc3a74dd702&amp;ulp=https%3A%2F%2Fstudy24.ai%2Fchat%2Fkrea_2\">Krea 2 </a>работает без VPN, интерфейс на русском, оплата принимается российскими картами. Плюс в том, что в том же окне доступны другие генераторы изображений, видеомодели и текстовые нейросети, поэтому для одной картинки в K2, правки в Nano Banana и ролика в Kling не нужны три разные подписки. Нейтральная оговорка: облачные функции вроде Nodes, мудбордов и Edit остаются на официальном сайте. Кому-то это минус, кому-то нет, если нужна именно генерация.</p><p><strong>Пошаговая инструкция, как пользоваться Krea 2 через агрегатор:</strong></p><ol><li><p>Откройте страницу модели на <a href=\"https://studyai.one/?rid=a00c6cc3a74dd702&amp;ulp=https%3A%2F%2Fstudy24.ai%2Fchat%2Fkrea_2\">Study AI</a> по ссылке.</p></li><li><p>Напишите промпт, лучше на английском, по формуле из следующего раздела.</p></li><li><p>Выберите формат кадра и отправьте запрос.</p></li><li><p>Если результат близок, но не идеален, уточните одну деталь в промпте, а не переписывайте его целиком.</p></li><li><p>Готовую картинку при необходимости увеличьте апскейлером или передайте в видеомодель, чтобы оживить.</p></li></ol><p><a href=\"https://studyai.one/?rid=a00c6cc3a74dd702&amp;ulp=https%3A%2F%2Fstudy24.ai%2Fchat%2Fkrea_2\"><strong>Сгенерировать картинку в Krea 2</strong></a></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/40/96/c3/4096c3c116c5129a14bb99d56f0cd0c9.png\" width=\"1672\" height=\"941\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/40/96/c3/4096c3c116c5129a14bb99d56f0cd0c9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/40/96/c3/4096c3c116c5129a14bb99d56f0cd0c9.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Три слоя Krea: почему в версиях легко запутаться</h3><p>Разбирая запросы вокруг бренда, я заметил одну закономерность: словом «Krea» называют три разные вещи, и половина вопросов возникает именно из-за этого.</p><ol><li><p><strong>Платформа </strong><a href=\"http://krea.ai\"><strong>krea.ai</strong></a><strong>.</strong> Облачная студия: генерация изображений и видео, Realtime, Enhancer для улучшения качества, редактор, ноды, агенты. Внутри больше 60 моделей, причем не только собственных.</p></li><li><p><strong>Собственные модели.</strong> Три поколения: K1, K2 и K3. Это закрытые нейросети, они работают в приложении, через API и у партнеров.</p></li><li><p><strong>Открытые веса.</strong> FLUX.1 Krea [dev] прошлого года и свежие Raw и Turbo второго поколения. Их можно скачать и запустить локально на своей видеокарте.</p></li></ol><p>Под каждый слой своя инструкция. Нужна просто красивая картинка, быстро и в браузере? Берите облако. Хотите полный контроль, собственные LoRA и генерацию без лимитов? Ваш путь — локальная модель в ComfyUI. Находитесь в России? Тогда главный вопрос не в модели, а в оплате, и к нему мы вернемся отдельно.</p><h3>Официальный сайт Krea AI и где нейросеть работает</h3><p>Официальный сайт — <a href=\"http://krea.ai\"><strong>krea.ai</strong></a>. Это веб-сервис: отдельной программы, которую нужно скачать на ноутбук с Windows, нет, все работает в браузере. Есть приложение для iPhone и iPad, на планшете даже появился голосовой режим, когда вы рисуете и одновременно проговариваете, что хотите получить, а холст обновляется на ходу. Так что запрос «скачать Krea» имеет смысл в двух случаях: мобильное приложение или открытые веса нейросети для локальной генерации.</p><p>Пара частых недоразумений:</p><ul><li><p><strong>Официального бота в Telegram нет.</strong> Боты с этим названием сделаны сторонними разработчиками, и что у них под капотом, проверить сложно.</p></li><li><p><strong>Русского интерфейса на сайте нет</strong>, только английский. Промпты надежнее писать на английском. Если нужен интерфейс на русском, проще работать с нейросетью через агрегатор.</p></li><li><p>Название часто набирают с ошибками — «krea al» вместо «krea ai» или «krea ia» на испанский манер. Речь об одном и том же сервисе.</p></li></ul><h3>Версии Krea: какие актуальны сейчас</h3><p>Вот вся линейка в одной таблице, без лишних деталей:</p><div><div class=\"table\"><table><tbody><tr><td><p align=\"left\"><strong>Версия</strong></p></td><td><p align=\"left\"><strong>Когда вышла</strong></p></td><td><p align=\"left\"><strong>Для чего</strong></p></td><td><p align=\"left\"><strong>Где работает</strong></p></td></tr><tr><td><p align=\"left\">Krea 1</p></td><td><p align=\"left\">июнь 2025</p></td><td><p align=\"left\">фотореализм без «пластикового» вида</p></td><td><p align=\"left\">сайт, API</p></td></tr><tr><td><p align=\"left\">FLUX.1 Krea [dev]</p></td><td><p align=\"left\">июль 2025</p></td><td><p align=\"left\">открытая версия первой модели, сделана вместе с Black Forest Labs</p></td><td><p align=\"left\">локально, ComfyUI</p></td></tr><tr><td><p align=\"left\">Krea 2 Medium, Large, Turbo</p></td><td><p align=\"left\">май</p></td><td><p align=\"left\">генерация по тексту, перенос стиля, мудборды</p></td><td><p align=\"left\">сайт, API, агрегаторы</p></td></tr><tr><td><p align=\"left\">Krea 2 Raw и Turbo (open source)</p></td><td><p align=\"left\">июнь</p></td><td><p align=\"left\">локальный запуск, обучение LoRA</p></td><td><p align=\"left\">Hugging Face, ComfyUI</p></td></tr><tr><td><p align=\"left\">Krea 3 (beta)</p></td><td><p align=\"left\">октябрь</p></td><td><p align=\"left\">редактирование фото по выделенной области</p></td><td><p align=\"left\">сайт, API, партнеры</p></td></tr></tbody></table></div></div><h4>Krea 1 и FLUX Krea: с чего все началось</h4><p>Первая версия вышла в июне 2025 года и стала первой нейросетью, которую компания обучила сама, а не взяла у Flux или Stable Diffusion. Главная идея — убрать узнаваемый «AI-вид»: замыленную кожу, пересвеченные блики и слишком безопасные композиции. Через месяц вместе с Black Forest Labs вышла FLUX.1 Krea [dev] — открытая модель на 12 млрд параметров, дистиллированная из K1. Именно ее имеют в виду, когда ищут «flux krea». Она до сих пор популярна у тех, кто работает в ComfyUI, но для новых задач логичнее смотреть на второе поколение.</p><h4>Krea 2: Medium, Large и Turbo</h4><p>Krea 2 (в интерфейсе ее иногда подписывают K2) компания представила 12 мая как первую базовую нейросеть, обученную полностью с нуля. Фокус сформулирован так: большинство моделей хорошо понимают, <em>что</em> вы хотите на картинке, а K2 построена вокруг вопроса, <em>как</em> это должно выглядеть.</p><p>В приложении три варианта:</p><ul><li><p><strong>Krea 2 Medium</strong> — сбалансированный и недорогой, стабилен на иллюстрациях;</p></li><li><p><strong>Krea 2 Large</strong> — больше чем вдвое крупнее Medium, дает более сырой, фотографичный результат. По оценке Contra Labs он вошел в число лидеров по точности переноса стиля, уступив только GPT Image 2;</p></li><li><p><strong>Krea 2 Turbo</strong> (в API — Medium Turbo) — быстрый вариант для черновиков и большого числа итераций.</p></li></ul><h4>Krea 3: новая нейросеть для редактирования</h4><p>Krea 3 вышла 15 октября в статусе открытой беты. Это не замена второй версии, а другой инструмент: нейросеть обучена именно редактировать. Вы обводите рамкой часть готового изображения, пишете, что должно измениться, и модель перерисовывает только эту область. По заявлению компании, большинство правок возвращается быстрее чем за 8 секунд в нативном 2K. Генерировать по тексту K3 тоже умеет, но в команде прямо говорят, что этот режим еще донастраивают. Открытых весов у третьей версии нет.</p><h3>Возможности Krea 2: стиль, мудборды и слайдеры</h3><p>Если коротко, это нейросеть для тех, кому важна эстетика и управляемость, а не только послушность промпту. Вот что реально отличает ее от соседей по рынку.</p><p><strong>Style references.</strong> Можно загрузить до 4 референсов, вытащить из них стиль и применить к своей картинке. У каждого референса свой ползунок силы, так что стили можно смешивать в нужной пропорции.</p><p><strong>Мудборды.</strong> Собираете доску на <a href=\"http://krea.ai/moodboards\">krea.ai/moodboards</a>, а потом подключаете ее к генерации. Нейросеть берет оттуда палитру, фактуры, настроение и композицию. На практике это самый точный способ задать визуальное направление для серии картинок, например для бренда или игрового проекта.</p><p><strong>Generative Sliders.</strong> Три ползунка от −100 до 100: Intensity (насыщенность стиля), Complexity (плотность деталей) и Movement (динамика кадра). Они меняют характер изображения, не трогая промпт. Есть режим Random, который при каждой генерации случайно двигает слайдеры, это удобно для поиска направления.</p><p><strong>Режимы Creativity.</strong> Raw, Low, Medium и High определяют, насколько свободно модель достраивает то, чего вы не написали. Raw рисует строго по тексту, High берет заметную творческую свободу.</p><p><strong>Krea styles и LoRA.</strong> Можно обучить собственный стиль, продукт или персонажа на своих картинках и применять его в генерации. Это ответ на запрос «Krea 2 создание персонажа по референсу»: один раз обучаете LoRA на своих снимках (на тарифе Basic — до 50 изображений), дальше персонаж узнаваем в любой сцене.</p><p>Базовое разрешение в приложении — 1K, за раз можно получить до 4 вариантов. Для печати и крупных форматов результат потом прогоняют через Enhancer.</p><p><a href=\"https://studyai.one/?rid=a00c6cc3a74dd702&amp;ulp=https%3A%2F%2Fstudy24.ai%2Fchat%2Fkrea_2\">Попробовать нейросеть Krea 2</a></p><h3>Krea Edit и Krea 3: как поправить фото и вписать человека в картинку</h3><p>Редактор Krea Edit пересобрали в марте вокруг одной простой идеи: показываете на то, что хотите изменить, описываете правку, а остальное изображение остается нетронутым. Раньше для этого приходилось перегенерировать картинку целиком и надеяться, что удачные детали выживут.</p><p>Что можно делать в редакторе:</p><ul><li><p><strong>Edit region</strong> — выделить область и заменить объект, фон, одежду или прическу. Отдельного инструмента для смены прически нет, это делается обычной правкой области с текстовой инструкцией;</p></li><li><p><strong>Colorize</strong> — раскрасить черно-белое фото, при желании подсказав цвета точками на нужных участках;</p></li><li><p><strong>правки поверх правок</strong> — каждая новая версия становится основой для следующей, а к исходнику можно вернуться через историю.</p></li></ul><p>Третье поколение делает то же самое заметно точнее. Главная фишка — до 6 референсов, на которые в промпте можно ссылаться по номерам: «image 1», «image 2». Можно даже указать HEX-код, чтобы цвет товара совпал с фирменным.</p><p>Как вписать человека в картинку с помощью нейросети:</p><ol><li><p>Загрузите сцену, в которую нужно добавить человека.</p></li><li><p>Добавьте фото человека как референс.</p></li><li><p>Обведите рамкой место, где он должен стоять.</p></li><li><p>Напишите инструкцию, например: «place the man from image 2 here, sitting on the bench, matching evening light».</p></li><li><p>Если лицо поплыло, повторите генерацию или уменьшите область правки.</p></li></ol><p>Для товарных карточек и рекламы это, пожалуй, самый полезный сценарий во всей платформе: одна и та же вещь в разных интерьерах, цветах и локализованных баннерах.</p><h3>Krea 2 локально: скачать, ComfyUI, Raw и Turbo</h3><p>22 июня компания выложила открытые веса Krea 2 на Hugging Face. Это Diffusion Transformer на 12,9 млрд параметров с VAE от Qwen Image и текстовым энкодером Qwen3-VL. В открытый релиз вошли две версии:</p><ul><li><p><strong>Krea 2 Raw</strong> — базовая модель без дополнительного дообучения, около 52 шагов на генерацию. Она медленнее, зато разнообразнее и пластичнее, на ней обучают LoRA и делают файнтюны;</p></li><li><p><strong>Krea 2 Turbo</strong> — дистиллированная версия на 8 шагов для быстрой генерации. LoRA, обученные на Raw, подключаются к Turbo без переделки.</p></li></ul><p>Связка простая: учите на Raw, генерируете на Turbo. К релизу разработчики приложили 9 стилевых LoRA: от акварели и детского рисунка до ретро-аниме и неонового стиля.</p><h4>Как установить Krea 2 в ComfyUI</h4><p>ComfyUI поддерживает модель из коробки, ставить отдельные кастомные ноды для базовой генерации не нужно.</p><ol><li><p>Обновите ComfyUI до свежей стабильной версии.</p></li><li><p>Откройте Template Library и найдите шаблон «Krea-2» (Turbo text-to-image) или «Krea-2 Style Reference».</p></li><li><p>Нажмите Show Missing Models, чтобы увидеть список нужных файлов.</p></li><li><p>Скачайте модели из репозитория Comfy-Org/Krea-2 на Hugging Face и разложите по папкам.</p></li><li><p>Запустите генерацию: Turbo по умолчанию работает на 8 шагах.</p></li></ol><p>Структура папок выглядит так:</p><pre><code>ComfyUI/models/diffusion_models/\n\n  krea2_turbo_fp8_scaled.safetensors   # Turbo FP8, вариант для большинства\n\n  krea2_turbo_bf16.safetensors\n\n  krea2_raw_bf16.safetensors\n\nComfyUI/models/text_encoders/\n\n  qwen3vl_4b_fp8_scaled.safetensors\n\nComfyUI/models/vae/\n\n  qwen_image_vae.safetensors\n\nComfyUI/models/loras/\n\n  krea2_darkbrush.safetensors          # и другие стилевые LoRA</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>FP8-версию Turbo сами разработчики ComfyUI рекомендуют большинству пользователей: она заметно легче полной BF16 и рассчитана на обычные видеокарты. Для свежих карт NVIDIA есть еще более сжатый вариант NVFP4. Если своей видеокарты нет, тот же workflow можно открыть в Comfy Cloud, а ноутбуки для Krea 2 в Colab тоже встречаются, но они неофициальные.</p><p>Без ComfyUI нейросеть запускается из официального репозитория krea-ai/krea-2 на GitHub или через Diffusers.</p><h4>Krea 2 Identity Edit и другие доработки сообщества</h4><p>Вокруг открытой модели быстро вырос целый набор доработок. Самая заметная — <strong>Krea 2 Identity Edit</strong>, LoRA для редактирования по инструкции с сохранением внешности. Важно: это неофициальная разработка энтузиаста, к разработчикам оригинала она отношения не имеет. В версии 1.2 она умеет переносить человека в новую сцену, менять одежду по фото товара (тот самый clothing transfer), делать замену лица и головы, инпейнтинг и аутпейнтинг. Для работы нужен отдельный пакет нод ComfyUI-Krea2Edit, ставится через ComfyUI Manager.</p><p>Помимо этого, на Hugging Face и Civitai лежат квантованные FP8- и GGUF-версии для слабого железа, LoRA на текстуру кожи и вариативность, а также готовые workflow для inpaint и image to image.</p><h4>Лицензия: что важно знать до коммерческого использования</h4><p>Веса распространяются по Krea 2 Community License, это не MIT и не Apache. Лицензия разрешает личное использование и исследования, а коммерческое применение ограничено порогом выручки компании. Кроме того, любой, кто разворачивает модель для других людей, обязан подключить фильтрацию контента. Перед запуском коммерческого проекта текст лицензии стоит прочитать целиком.</p><h3>Не только картинки: Realtime, Enhancer, видео, Nodes и Agent</h3><p>Если смотреть на платформу только как на генератор изображений, теряется половина ценности. Вот что еще есть на платформе.</p><p><strong>Realtime.</strong> Холст, где изображение обновляется прямо во время набора промпта или перемещения фигур, задержка, по данным разработчиков, меньше 50 мс. Есть и видеоверсия: модель Krea Realtime 14B генерирует длинное видео в реальном времени.</p><p><strong>Enhancer.</strong> Улучшение качества и апскейл изображений до 22K, видео — до 8K с интерполяцией до 120 кадров в секунду. Внутри несколько моделей: Krea Enhance добавляет детали в слабые AI-картинки, Upscale V1 бережно сохраняет исходник, Topaz отвечает за максимальное разрешение. Честное предупреждение из официальной документации: Enhancer достраивает детали, а не восстанавливает их. Прочитать текст с размытой вывески он не поможет.</p><p><strong>Видео.</strong> Платформа собирает популярные видеомодели в одном интерфейсе: Seedance 2.5, Wan 3.0, Kling и другие. Видео можно делать по тексту или оживлять картинку, в том числе сгенерированную в K2.</p><p><strong>3D и липсинк.</strong> Генерация 3D-объектов по изображению и синхронизация губ с аудио, доступны уже с тарифа Basic.</p><p><strong>Nodes и Agent.</strong> Nodes — визуальный конструктор, где модели, правки и эффекты соединяются в цепочки, а цепочки превращаются в приложения, которыми можно поделиться. С марта там работает Node Agent: пишете задачу обычной фразой, он читает холст, планирует пайплайн, соединяет ноды и запускает. В сентябре вышла платформа Krea Agents, которая доводит эту идею до режима «один промпт вместо графа». Когда ищут «krea chat», чаще всего имеют в виду как раз такой диалоговый режим работы.</p><h3>Krea бесплатно и подписка: что входит в тарифы</h3><p>Krea AI бесплатно пользоваться можно: на тарифе Free каждый день начисляется 100 вычислительных единиц (compute units). Это немного, например около 5 картинок в Krea 3 в день, и генерация идет по одной. Зато лимит обновляется ежедневно, а не сгорает как пробный период.</p><p>Платные планы на момент проверки выглядят так (цены в долларах, при годовой оплате дешевле):</p><ul><li><p><strong>Basic</strong> — $9 в месяц, 5 000 единиц. Все модели изображений, часть видеомоделей, 3D, обучение LoRA и коммерческая лицензия. Для ориентира: этого хватает примерно на 2 500 картинок в Krea 2 Turbo;</p></li><li><p><strong>Pro</strong> — $35 в месяц, 20 000 единиц. Все видеомодели, Nodes, больше параллельных задач;</p></li><li><p><strong>Max</strong> — 60 000 единиц, от $63 в месяц при годовой оплате;</p></li><li><p><strong>Business</strong> — $200 в месяц, 80 000 единиц и работа в команде.</p></li></ul><p>Две вещи, о которых стоит помнить. Во-первых, неиспользованные единицы на Basic, Pro и Max не переносятся на следующий месяц. Во-вторых, дорогие модели съедают единицы очень быстро: генерация в Nano Banana или видео в Seedance стоит в разы больше, чем картинка в Krea 2 Turbo. План лучше выбирать по реальному расходу за пару недель, а не по названию.</p><h3>Krea, Higgsfield, Midjourney или Nano Banana: что выбрать под задачу</h3><p>Вопрос «Higgsfield, Krea, Firefly или Syntx — что выбрать» в поиске встречается постоянно. Честный ответ: универсального победителя нет, есть модели под задачу. Моя рабочая раскладка такая.</p><ul><li><p><strong>Нужен узнаваемый стиль, мудборд, серия в одной эстетике</strong> — Krea 2.</p></li><li><p><strong>Точечная правка готового фото по текстовой команде</strong> — K3 на официальном сайте или Nano Banana 2.</p></li><li><p><strong>Текст на картинке, инфографика, сложные инструкции</strong> — GPT Image 2.5.</p></li><li><p><strong>Кинематографичные портреты людей с реалистичной кожей</strong> — Higgsfield Soul.</p></li><li><p><strong>Художественный арт и концепты</strong> — Midjourney.</p></li><li><p><strong>Открытая модель для своего пайплайна</strong> — Turbo второго поколения локально или FLUX.2.</p></li></ul><p>Adobe Firefly имеет смысл, если вы и так живете в экосистеме Adobe. ChatGPT и Grok тоже рисуют, но это универсальные ассистенты со встроенной генерацией, а здесь — специализированная студия с контролем стиля. Посмотреть все доступные модели можно в<a href=\"https://studyai.one/?rid=a00c6cc3a74dd702&amp;ulp=https%3A%2F%2Fstudy24.ai%2Fbots\"> каталоге нейросетей Study AI</a>.</p><h3>Промпты для Krea 2: формула и примеры</h3><p>Рабочая формула: <strong>объект + сцена + свет + камера или техника + настроение</strong>. Потом не переписывайте промпт, а подкручивайте Creativity и слайдеры: для точных задач Raw или Low, для свободного поиска Medium или High.</p><p><strong>Предметная съемка для маркетплейса.</strong> Creativity Low, Complexity чуть ниже нуля:</p><pre><code>matte black ceramic coffee cup on raw concrete slab, soft window light from the left, shallow depth of field, 85mm lens, minimal premium product photography</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><strong>Лист персонажа для LoRA или игры.</strong> Creativity Raw:</p><pre><code>character reference sheet, young woman courier with short silver hair and orange jacket, front view, side view, back view, neutral grey background, consistent proportions, clean illustration</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><strong>Портрет с пленочной фактурой.</strong> Intensity +30, Movement +20:</p><pre><code>candid portrait of an old fisherman on a pier at dawn, kodak portra film grain, natural skin texture, wind in hair, muted teal and amber palette</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><strong>Изометрическая 3D-иконка.</strong> Complexity −40:</p><pre><code>isometric 3d icon of a tiny greenhouse with glowing plants, soft clay render, pastel colors, white background, centered composition</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><strong>Интерьер для архитектурного концепта.</strong> Creativity Medium, подключите мудборд с референсами материалов:</p><pre><code>scandinavian living room with travertine floor and oak walls, late afternoon sun, long shadows, architectural digest style photography, wide angle</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Ограничения и отзывы о Krea</h3><p>Отзывы о Krea в целом сходятся: сильная эстетика и лучший на рынке контроль стиля, но есть нюансы, о которых лучше знать заранее.</p><ul><li><p><strong>Разрешение K2 в приложении — 1K.</strong> Для печати нужен Enhancer, а это дополнительные единицы.</p></li><li><p><strong>Текст на изображениях</strong> у этой нейросети слабее, чем у GPT Image: для баннеров с надписями лучше выбирать другую модель.</p></li><li><p><strong>Расход единиц трудно предсказать</strong>, особенно если переключаться между дорогими видеомоделями.</p></li><li><p><strong>Третья версия пока в бете.</strong> Первые пользователи жаловались, что при правках иногда меняется лицо и появляется шум в текстурах. Компания обещает технический отчет, независимых тестов пока мало.</p></li><li><p><strong>Локальная модель требует железа и терпения.</strong> Для слабых видеокарт есть FP8, но настраивать ComfyUI все равно придется самому.</p></li></ul><h3>Частые вопросы о Krea AI</h3><p><strong>Можно ли пользоваться Krea AI бесплатно?</strong> Да. Тариф Free каждый день дает 100 вычислительных единиц, этого хватает на несколько генераций для знакомства. Второй бесплатный путь — скачать открытую Krea 2 Turbo и генерировать локально в ComfyUI без лимитов, если позволяет видеокарта.</p><p><strong>Какая версия Krea актуальна в 2026 году?</strong> Для генерации по тексту — Krea 2 (Medium, Large, Turbo), для редактирования фото — Krea 3, которая вышла в октябре. Первая версия и FLUX.1 Krea остаются доступны, но это прошлое поколение.</p><p><strong>Можно ли скачать Krea на компьютер?</strong> Отдельной программы для Windows или macOS нет, сервис работает в браузере, а для iPhone и iPad есть приложение. Скачать можно только открытые веса Raw и Turbo с Hugging Face для локального запуска.</p><p><strong>Чем Krea 2 Turbo отличается от Krea 2 Raw?</strong> Raw — базовая модель примерно на 52 шага, на ней обучают LoRA. Turbo — ускоренная дистиллированная версия на 8 шагов для повседневной генерации. LoRA с Raw работают на Turbo.</p><p><strong>Как оплатить Krea AI в России?</strong> Российские карты сервис не принимает. Варианты: зарубежная карта, платежный посредник с комиссией или агрегатор нейросетей, где Krea 2 доступна без VPN с оплатой в рублях.</p><p><strong>Есть ли Krea на русском языке?</strong> Официальный интерфейс только на английском. На русском с нейросетью можно работать через агрегатор, но промпты все равно лучше писать по-английски.</p><p><strong>Есть ли официальный бот Креа в Telegram?</strong> Нет. Все Telegram-боты с таким названием — сторонние, официальный доступ только через сайт, мобильное приложение и API.</p><h3>Итог</h3><p>Krea в 2026 году — уже не один генератор, а экосистема: вторая версия для эстетичной генерации и переноса стиля, третья для точного редактирования, открытые веса для локальной работы и облачная студия с видео, Enhancer и нодами. Выбор пути зависит от задачи: если нужен полный набор инструментов и есть зарубежная карта, берите официальный сайт; если хочется экспериментировать бесплатно и без ограничений — ставьте Turbo в ComfyUI; если вы в России и нужна просто качественная генерация, проще всего начать с агрегатора.</p><p><a href=\"https://studyai.one/?rid=a00c6cc3a74dd702&amp;ulp=https%3A%2F%2Fstudy24.ai%2Fchat%2Fkrea_2\"><strong>Попробовать нейросеть Krea 2</strong></a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "krea"
+    },
+    {
+      "titleHtml": "krea ai"
+    },
+    {
+      "titleHtml": "krea нейросеть"
+    },
+    {
+      "titleHtml": "krea 2"
+    },
+    {
+      "titleHtml": "krea 2 turbo"
+    },
+    {
+      "titleHtml": "krea 3"
+    },
+    {
+      "titleHtml": "krea ai бесплатно"
+    },
+    {
+      "titleHtml": "comfyui krea 2"
+    },
+    {
+      "titleHtml": "flux krea"
+    },
+    {
+      "titleHtml": "krea подписка"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106036/310df4ddd4d0b817865c697eb249bc23/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106036/310df4ddd4d0b817865c697eb249bc23/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/study_ai\\/articles\\/1106036\\/\"},\"headline\":\"Krea AI нейросеть: как пользоваться в России, сайт, тарифы и версии Креа 2 на русском\",\"datePublished\":\"2026-11-10T14:12:16+03:00\",\"dateModified\":\"2026-11-11T11:49:10+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Krea долго воспринимали как еще один генератор картинок с приятным интерфейсом. Сейчас это совсем другая история: у компании появились собственные нейросети...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/study_ai\\/articles\\/1106036\\/#post-content-body\",\"about\":[\"c_study_ai\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/53\\/41\\/e3\\/5341e34aab6ea4b6ecbd694f2de69338.png\",\"https:\\/\\/habrastorage.org\\/extt\\/40\\/96\\/c3\\/4096c3c116c5129a14bb99d56f0cd0c9.png\"]}",
+    "metaDescription": "Krea долго воспринимали как еще один генератор картинок с приятным интерфейсом. Сейчас это совсем другая история: у компании появились собственные нейросети трех поколений, открытые веса для...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": true,
+  "mode": "seo",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 13,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

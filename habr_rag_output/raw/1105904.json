@@ -1,0 +1,209 @@
+{
+  "id": "1105904",
+  "timePublished": "2026-11-10T09:50:34+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Вебинар «Управляйте БД эффективно с Postgres Pro Enterprise Manager»",
+  "leadData": {
+    "textHtml": "<p>12 ноября компания Postgres Professional проведёт 12 ноября бесплатный вебинар, посвящённый Postgres Pro Enterprise Manager (PPEM) — графической платформе для централизованного мониторинга, диагностики и администрирования баз данных. Эксперты покажут, как управлять парком экземпляров СУБД из одного интерфейса, находить причины проблем с производительностью и контролировать отказоустойчивые кластеры.</p>",
+    "imageUrl": "https://habrastorage.org/extt/66/e2/3c/66e23ccc1f128b1ca54b57ce3b70ebbf.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/66/e2/3c/66e23ccc1f128b1ca54b57ce3b70ebbf.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5073235",
+    "alias": "slonik_pg",
+    "fullname": "Дмитрий",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/a29/8de/c7a/a298dec7a688bb94b644f729841b1e59.png",
+    "speciality": "Редактор в Postgres Professional",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 38,
+      "votesCount": 58
+    },
+    "rating": 68.2,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 1,
+    "readingCount": 126,
+    "score": 5,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 5440,
+    "readers": 92
+  },
+  "hubs": [
+    {
+      "id": "19663",
+      "alias": "postgrespro",
+      "type": "corporative",
+      "title": "Блог компании Postgres Professional",
+      "titleHtml": "Блог компании Postgres Professional",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "358",
+      "alias": "postgresql",
+      "type": "collective",
+      "title": "PostgreSQL",
+      "titleHtml": "PostgreSQL",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17350",
+      "alias": "s_admin",
+      "type": "collective",
+      "title": "Серверное администрирование",
+      "titleHtml": "Серверное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17681",
+      "alias": "db_admins",
+      "type": "collective",
+      "title": "Базы данных",
+      "titleHtml": "Базы данных",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>12 ноября компания Postgres Professional проведёт бесплатный вебинар, посвящённый Postgres Pro Enterprise Manager (PPEM) — графической платформе для централизованного мониторинга, диагностики и администрирования баз данных. Эксперты покажут, как управлять парком экземпляров СУБД из одного интерфейса, находить причины проблем с производительностью и контролировать отказоустойчивые кластеры.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/66/e2/3c/66e23ccc1f128b1ca54b57ce3b70ebbf.jpg\" width=\"3279\" height=\"1871\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/66/e2/3c/66e23ccc1f128b1ca54b57ce3b70ebbf.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/66/e2/3c/66e23ccc1f128b1ca54b57ce3b70ebbf.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Когда экземпляров PostgreSQL десятки или сотни, обслуживание каждого требует всё больше времени: приходится переключаться между серверами и инструментами, выполнять настройки вручную и следить за тем, чтобы ничего не упустить. На вебинаре разберём, как PPEM помогает организовать эту работу в едином центре управления.</p><h3>Что обсудим на вебинаре</h3><p>Вебинар будет интересен администраторам баз данных, системным архитекторам, DevOps‑инженерам, техническим лидерам и руководителям ИТ‑направлений.</p><p>В программе:</p><ul><li><p>покажем возможности PPEM для мониторинга, диагностики и администрирования экземпляров СУБД через графический интерфейс без написания SQL‑команд;</p></li><li><p>представим модуль HealthCheck Advisor, который автоматически анализирует нагрузку экземпляров СУБД, выявляет проблемы и предлагает рекомендации по их устранению;</p></li><li><p>разберём, как история активных сессий Active Session Engine и визуализация ожиданий помогают установить причину снижения производительности, даже если инцидент уже завершился;</p></li><li><p>расскажем об AI‑ассистенте Ask Postgres для задач администрирования и диагностики. Покажем, как из PPEM управлять модулем адаптивной оптимизации запросов AQO, который использует машинное обучение непосредственно в ядре СУБД;</p></li><li><p>проведём демонстрацию работы с кластерами BiHA в PPEM: контроль состояния узлов и репликации, управление кластером и обеспечение непрерывной работы при отказах.</p></li><li><p>поделимся планами по улучшению интерфейса и расширению функциональности для более удобного и безопасного управления системами и данными.</p></li></ul><h3>Кто выступит</h3><p>Борис Пищик — руководитель продукта Postgres Pro Enterprise Manager, Postgres Professional.</p><p>Андрей Забелин — старший технический консультант Postgres Professional.</p><h3>Как принять участие</h3><p><strong>Дата:</strong> 12 ноября 2026 года.<br/><strong>Время:</strong> 11:00.<br/><strong>Формат:</strong> онлайн.<br/><strong>Стоимость:</strong> бесплатно, по предварительной регистрации.</p><p>Регистрируйтесь на вебинар, чтобы познакомиться с возможностями PPEM и увидеть инструменты диагностики, AI и управления отказоустойчивостью в действии.</p><blockquote><p><a href=\"https://pgconf.ru/121126?utm_source=habr&amp;utm_medium=social&amp;utm_campaign=webinar_ppem_12.10.26&amp;utm_content=article&amp;utm_term=habr_news_announce\"><strong>Зарегистрироваться на вебинар</strong></a></p></blockquote></div>",
+  "tags": [
+    {
+      "titleHtml": "конференция"
+    },
+    {
+      "titleHtml": "митап"
+    },
+    {
+      "titleHtml": "база данных"
+    },
+    {
+      "titleHtml": "администрирование"
+    },
+    {
+      "titleHtml": "администрирование бд"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105904/67ca9a114c1982fbd89e33153ee0da5e/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105904/67ca9a114c1982fbd89e33153ee0da5e/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/postgrespro\\/articles\\/1105904\\/\"},\"headline\":\"Вебинар «Управляйте БД эффективно с Postgres Pro Enterprise Manager»\",\"datePublished\":\"2026-11-10T12:50:34+03:00\",\"dateModified\":\"2026-11-11T18:10:05+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"12&nbsp;ноября компания Postgres Professional проведёт бесплатный вебинар, посвящённый Postgres Pro Enterprise Manager (PPEM)&nbsp;— графической платформе...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/postgrespro\\/articles\\/1105904\\/#post-content-body\",\"about\":[\"c_postgrespro\",\"h_postgresql\",\"h_s_admin\",\"h_sys_admin\",\"h_db_admins\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/66\\/e2\\/3c\\/66e23ccc1f128b1ca54b57ce3b70ebbf.jpg\"]}",
+    "metaDescription": "12&nbsp;ноября компания Postgres Professional проведёт бесплатный вебинар, посвящённый Postgres Pro Enterprise Manager (PPEM)&nbsp;— графической платформе для&nbsp;централизованного мониторинга,...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

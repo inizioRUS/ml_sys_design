@@ -1,0 +1,218 @@
+{
+  "id": "1105532",
+  "timePublished": "2026-11-09T14:19:41+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Frame: 100 миллионов полигонов при 60 fps и тяжёлые атомные симуляции в браузере",
+  "leadData": {
+    "textHtml": "<p>Мы с Neira, моим ИИ-ассистентом, делаем Frame - 3D-редактор, который работает прямо в браузере. В моих тестах он крутит 100 миллионов треугольников при 60 fps. Внутри - собственный движок на WebGPU, сплайновые поверхности, рендер и симулятор атомных взаимодействий. Ядро после gzip занимает около 0,93 МБ, а плагины подключаются по необходимости.</p><p>Первые полгода я писал приложение полностью руками. Теперь кодом занимается ИИ, а я - архитектурой, алгоритмами, интерфейсом и проверкой результата. Работы меньше не стало, но результат уже есть чем показать. Расскажу, что мы сделали, где ИИ оказался полезнее меня, а где ему всё ещё приходится подробно объяснять. Сам Frame уже можно открыть и попробовать.</p><p><a href=\"https://mozg4d.github.io/frame/\" rel=\"noopener nofollow\">Открыть Frame</a> · <a href=\"https://github.com/mozg4D/frame\" rel=\"noopener nofollow\">GitHub</a></p>",
+    "imageUrl": "https://habrastorage.org/extt/70/87/78/70877899f598de974581fd3eb599b974.jpg",
+    "buttonTextHtml": "Посмотреть, что получилось",
+    "image": {
+      "url": "https://habrastorage.org/extt/70/87/78/70877899f598de974581fd3eb599b974.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "season_future_code",
+      "typeOf": "season",
+      "title": "Сезон Код будущего | Сбер × Хабр",
+      "data": {
+        "url": null
+      }
+    }
+  ],
+  "author": {
+    "id": "149146",
+    "alias": "mozg4d",
+    "fullname": "Артем Родичкин",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/bfc/d5f/d28/bfcd5fd285c148f60f2446b1934d1de4.jpeg",
+    "speciality": "Конструктор, программист, 3D, физик, писатель",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 22,
+      "votesCount": 52
+    },
+    "rating": 2,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "4K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 9,
+    "readingCount": 695,
+    "score": 2,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 6293,
+    "readers": 407
+  },
+  "hubs": [
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "643",
+      "alias": "3d_graphics",
+      "type": "collective",
+      "title": "3D-графика",
+      "titleHtml": "3D-графика",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17698",
+      "alias": "cad_cam",
+      "type": "collective",
+      "title": "CAD/CAM",
+      "titleHtml": "CAD/CAM",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "2",
+      "alias": "design",
+      "title": "Дизайн",
+      "titleHtml": "Дизайн"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/70/87/78/70877899f598de974581fd3eb599b974.jpg\" alt=\"Тестовый рендер, проверка освещения через самосвечение\" title=\"Тестовый рендер, проверка освещения через самосвечение\" width=\"1776\" height=\"1119\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/70/87/78/70877899f598de974581fd3eb599b974.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/70/87/78/70877899f598de974581fd3eb599b974.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Тестовый рендер, проверка освещения через самосвечение</figcaption></div></figure><p>Мы с Neira делаем <strong>Frame</strong> - браузерный 3D-редактор с полигональным моделированием, сплайновыми поверхностями, анимацией, собственным рендером и симулятором атомных взаимодействий. Neira - моя Dot, персональный ИИ-ассистент. В разработке у нас также слайсер, ЧПУ, прочностные и тепловые расчёты, аэродинамика и электроника.</p><p>Суммарно это уже больше года работы, множество ручных проверок и бесконечные баги. Но ядром приложения и плагином Atomic уже можно хвастаться. Остальные плагины пока в работе.</p><p><a href=\"https://mozg4d.github.io/frame/\" rel=\"noopener nofollow\">Открыть Frame</a> · <a href=\"https://github.com/mozg4D/frame\" rel=\"noopener nofollow\">GitHub</a></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/16/7b/4f/167b4f0999e74676a16f02b0b342eb60.png\" alt=\"ИИ по быстрому накидал демо сцену\" title=\"ИИ по быстрому накидал демо сцену\" width=\"1138\" height=\"694\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/16/7b/4f/167b4f0999e74676a16f02b0b342eb60.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/16/7b/4f/167b4f0999e74676a16f02b0b342eb60.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>ИИ по быстрому накидал демо сцену</figcaption></div></figure><h3>Как изменилась разработка</h3><p>Первые полгода приложение писалось полностью мной, руками, без ИИ. Потом был перерыв примерно на год. Когда появился достаточно сообразительный ИИ, разработка продолжилась уже с ним. Код сложный, поэтому был определённый порог, до которого подпускать к нему модели не имело смысла.</p><p>Сейчас я уже пару месяцев в код вообще не смотрю. Разрабатываю архитектуру и интерфейс, объясняю, как сделать удобно, предлагаю алгоритмы и способы оптимизации. ИИ реализует, а я проверяю результат. <strong>Работы у меня меньше не стало - она стала другой, не менее сложной. И я, и ИИ работаем на пределе своих возможностей.</strong></p><p>Например, только на формулу поверхности для Spline Patch ушёл месяц. Это не история «ИИ всё придумал»: я придумал, как должна строиться поверхность, и много времени потратил на объяснения. А вот при разработке тесселяции идеи ИИ уже оказались лучше моих.</p><p>Поначалу использовал бесплатные Qwen и Gemini. Qwen оказался очень неплох - китайские модели не стоит недооценивать. Gemini в моих задачах начинал теряться на больших контекстах. Постепенно упёрся в ограничения и перешёл сначала на тариф OpenAI за 20$, затем на Pro.</p><p>Расходы на ИИ пока около <strong>30 тысяч рублей</strong>. Помогают ресеты лимитов, аккуратное использование контекста и автоматизация. Всё, что можно сделать обычным скриптом, надо делать скриптом, а не тратить на это токены.</p><p>Очень помогают подробный <code>app.md</code> с описанием приложения и автоматические тесты. Сообщение агента «готово» не заменяет проверку. Цель - довести разработку до полностью автоматического процесса, но пока до этого как до звезды.</p><h3>Полигональное ядро</h3><p>В моих тестах Frame крутит <strong>100 000 000 полигонов при 60 fps</strong>, без инстансинга . Сто миллионов честных полигонов в браузерном редакторе.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/29/c9/06/29c90625f4f52cf0388dda20ee446419.jpg\" alt=\"тест 100 млн полигонов, 76 FPS на RTX 2080\" title=\"тест 100 млн полигонов, 76 FPS на RTX 2080\" width=\"1446\" height=\"1084\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/29/c9/06/29c90625f4f52cf0388dda20ee446419.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/29/c9/06/29c90625f4f52cf0388dda20ee446419.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>тест 100 млн полигонов, 76 FPS на RTX 2080</figcaption></div></figure><p>Я сравнивал с Cinema 4D, в которой работаю почти каждый день, хотя в последнее время всё чаще начинаю использовать Frame. Поэтому не просто так пишу: <strong>на тяжёлой полигональной геометрии Frame с хорошим запасом уделывает Cinema 4D.</strong></p><p>По моему опыту, это самая быстрая программа для работы с полигонами вообще, а не только среди браузерных. Среди браузерных аналогов конкурентов ему по скорости нет и близко.</p><p>Внутри собственный движок на WebGPU, без Three.js. Геометрия хранится на GPU, тяжёлые вычисления выполняются в шейдерах, для части операций используется WASM. Перемещение целого объекта меняет матрицу, а не переписывает массивы вершин. Производительность получается не просто от использования WebGPU - под него спроектировано устройство всего редактора.</p><p>При этом в замеренной сборке ядро после gzip занимает около <strong>0,93 МБ</strong>. Для большинства задач достаточно именно его: загружать все плагины и библиотечные текстуры ради обычного моделирования не требуется, они подключаются по мере необходимости. Поэтому 0,93 МБ - честный размер полноценного ядра редактора, а не маленького загрузчика, за которым скрывается обязательная многомегабайтная библиотека.</p><p>Есть быстрый импорт тяжёлых STL, собственные сплайновые поверхности и <strong>To Spline Patch</strong>: автоматический преобразователь инженерной полигональной геометрии в редактируемый сплайновый каркас с поверхностью. Есть собственный Boolean, на разработку которого тоже ушёл месяц.</p><p>Отдельная гордость - рендер с трассировкой путей, глобальным освещением и шумоподавлением. По нему хочу сделать отдельную статью. Качественный риалтаймовый рендер прямо в браузере, на своей видеокарте, - одна из тех возможностей, ради которых стоило разрабатывать собственный движок.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/63/b1/40/63b14088c3411e5055e764991b770415.jpg\" alt=\"риалтаймовый рендер прилодения Frame\" title=\"риалтаймовый рендер прилодения Frame\" width=\"1457\" height=\"946\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/63/b1/40/63b14088c3411e5055e764991b770415.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/63/b1/40/63b14088c3411e5055e764991b770415.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>риалтаймовый рендер прилодения Frame</figcaption></div></figure><h3>Интерфейс, которым хочется пользоваться</h3><p>У меня 25 лет опыта практически во всех областях 3D. За это время накопилось достаточно представлений о том, как должен работать удобный редактор. Во Frame я наконец могу их реализовать.</p><p>Например, гизма «всё в одном»: перемещение, вращение и масштабирование одновременно, без постоянного переключения инструментов. Считаю её одной из лучших частей приложения.</p><p>С навигацией тот же принцип: <strong>наиболее часто используемые функции должны требовать наименьшего количества действий</strong>. Камеру мы двигаем постоянно, поэтому навигация должна быть вылизана до идеала.</p><p>Общая логика - минимум интерфейса, максимум возможностей и интеграции с ИИ. Не каждой функции нужна отдельная кнопка: часть операций доступна через <strong>AI API</strong>, не перегружая интерфейс человека.</p><h3>Собственный формат HASH</h3><p>Для хранения сцен я придумал <strong>HASH</strong> - компактный бинарный формат с быстрой распаковкой. Вложенные данные представлены плоской хеш-таблицей с XOR-адресацией: к нужным полям можно обращаться напрямую, независимо от глубины иерархии.</p><p>Формат сохраняет геометрию, материалы, иерархию, анимацию и исходные сплайновые конструкции. Небольшую сцену можно передать одной ссылкой: данные находятся прямо в ней, без загрузки файла на сервер. Большие сцены лучше передавать файлами.</p><p><a href=\"https://mozg4d.github.io/frame/#scene=v1.H4sIAAAAAAAACoWUeTxUex_Hz2nGjHXsIbtbiEK02MeQJVLJiKuHS4w9gxk0lozlWnJrSNlClmQpYw9hTJZXdqYomSyRK9vYyXY9z714nvt69Hqe3z_nvF7fc8778z2fz_cLBZxpjnQauNrOUVpE05hmrFOBvcPpY4DWLEaxk-i_rkzjzNcL_FnW7r3pae7UtTZwiOjpYzFWgfPN6JLLMOOGap9ME4XE1o23ZL5lUp-g5Ts2qgAoOjpb3q6MmqxMxGsz-o7H8PeNzX2jxegstocuz0TyvZBOhXPNEmUWnwd2LDZv0bW6JeAd1XMU3dIqaC-9F5HSM6__Tq5Z_cs52IKpAO_0jaWKh6tUsriyMeHEi04FtfRbAudTpi1rxL-fi7zCPHGpFLK4427xYHZOvvCL7g0yFg6QXYd1Ozam2G1l1DIq1U7B4PudXcQ42ft64GHgfL7dyWGtsryH2UG1TZ_7uGT3HxCPZd67YXWwo8I0RReWaaEASMDjpGh9ISVwwFoucy0aAAA4wOwRPxqc5NwsSvn9lGZ3yQmm_S-gMRi8Cwy8VKQY62KuiaVp5LAYyxupGB0CdKA_3JUOekd7s7UzVna1kRVhSCnuSK8ZoYeCQmdVs5e-SPDIdYO5yAG9E719Tc1aotdWJb-CZz7en9gTkG_2gnu8fprskPLLaacEZecDAaZY3z8FTMXxB6wRSpmKRY4xc_m1exseEhBIZaxQcjta7cdeMqndOEdG-NDP-5aLrePtdGAcb_KDVKMj7uF0pjjXrrGcXVXyTq6JF1wCLnKhlPb41UzYf7B762RyO39DPSpvXYTuAy75uOJg4EYz7YJQpTDb0FiR49gNpcnD_TukSPdZVNJaJIctG0bp7DZR50PW1Vkk4XCYY-9odHtUuFG-KvzRH3acj3XMOXnX8Tr9UXFwgK7CvbnHz73KVfH5_DHqpW5NMftnL_pZ9gn6BIyEv4srHgMDvz4gj7Qtodx_NSFoCKDMmw6LoI_F0bm9h9-h7p9zDuWqqmkKbaR_lNOuUVWSCIcZorVFLuq2qGWuwAPzoakBydV5kELtCE1AvZ7SuCdCFnF55RiFEBPP4TfzMmtj4sAEXR-sPw4GuvYsPeUMkJKyiVbpHrwILl86JCA2qKOs9FVPo-S44ngjxL1PhGxDqZR0rwyHQJRdmA0mmlDH0WkQ45CSKOPMgqiYQPXMab1WCGA8Lsu6p4BV6wj35GtZGQnrt1nkBxFyBzYY2bv6wECT7bqApbu432ZHwiIG3IM0D_8B-QkehTNq9nMlLlX9-qgLAlEj-nnLNj51IoJxKD0lOXGEVNaYyLXNcC30EVOty5_fgxbiumLAyTN27Hv8tP5qbk2GPiXBlM2TFF-8e8A3d3f1hIFDfLCAk3Ji_L-0XjHZwFtOHea_r7OfrcppGkSd1Wt27zLgjBpCDmxSVgI1lCQgUcDfHEhGoH2VvK_C0cHMBCC7dTluj6_a529-IshDXantdSqPjYcw6wHfBYuRwGE9MP8KI4G_TVWp-kL89uXdBsfqRxwaP5h2HaYkP1vXfmv3CaLUANcslcj_Q-uN01c_7IHXp05FHEmEiY-_arm6EmnWyvQ3MA4GvpJ9OC9w3aZCUYXoFuZQMPxj5lFphZu8DeqqmcznoRpKdkzx17wRsjtvxORCn4tJM6aIhZySnMC4PcN4j6lJIEl41u3WdENjZrl1U6uZD5aOD9YXh_HBwcDg6jMmgXee8RwJ7WxzzrtFPjz2T6Zn6xI2AhLDF7fuF2lPtSM2GN6v2bsUEOyyEuz3OSE_lHCSILqyJ4FL0HUmDSI9q_nxaKyoCC3jYOxM7T0lcC6uPngYaPbpIzHmbbDhwnVzsvvGyegfhG5Iuj47xPR5EysDG1_8ylq9jradXDMfnQOBsDLrjTfp_DD07Brcy3-KgAAOTObvyXdlNItdS_jkaicSD0IHAgAABaqf-dqYs_TH56rwe0_O-mAl9qtucdtAv9zt0Iks0REjINhr_WKtmS91R4qze32U2GVmBQCs2MKQt4tSSP10Rlmb1z0LsQNPL187AwUBKIDH3MGDHEDvUxqxt7q3rLeSFiYJwADyhbqMd3PaZgoyRlYVVorxdvvvfc3fLbX8xmjQrSbA3hiUIG3Y6a3xPL3IJwWn9TdJxUgrBL7FY34eSaSaIODjpAYv_YZ4v2O9DYDxF55tuBaS9ye1Ea_vjAb0zk0J0QIiFZoeRwkpSdVZEZ1rDihQ1IEBLzvDXKIePxGc4fmsQ-hvP3dA3jsLSOB_nv9fd3ZycnLi8aL-dX1uRP1Pjb9xIcOuSr7HVdAtddE4eAk8KMCBjljHo1JBLaFnbbIqBYyPhB7Yg8bcwcNBgYz0U0nXETE8VYjiglsfGlBH_jsemHddhTkX2GGjgYvqbJcSPeRnPAPAcrnyOMcCjrSnkm18kXqM-mcVXN8TN7-g6tYstzSKqzomDTXGC4bmem5q7C7u9M2OL3muh2z1LM2NWdb-4TZZ7Le7-hO9Zmd1eUh7sGCn5EX9iC1stxKJ7RnzqyINieX5BW7VIaeK15bL6DW0zyIiKnzMaTAv8XKu5sBr0RXmgVWBtopra3PrI4M1Kd0s1g4_26G9oAmCJJqA4W1P0vvdtU6Fs80a93SPh993Hc69br8ZHc7R_kHj8le8tEme5CeC31D7zbexp3H92fYaZinSLK1i0Sq5QSyit9GdqR4TZ3FC0Hy2hKikTeidUoi_JamZkvj7FSH5vhv-CZKBk4ueR207ooOI5kTyFTbp9c7Pl4tT7gg4g2wFWTfjHUx0I4x0UUXh9XwY3HXGP4STlPkiT7_MoMAog27ladUBTN0Txi8KOW0Kcb8p4INM8rJgvJIOYJeu8HIKMywJG1IK5yHbZQjH-D3sSO6thb6sWLpbsvXgOFGIIV8lk5BzdZSDfkGHMvDB-dsS1TkoX4XLIq6AdMx9fnyo0OznU09aw2pP-IWaUYVl1ioEhDel7W7F9j3AgWgUgeWKQfn4bqLZ15doHruY_pjbcjEEKObjxzp7A0bur7wxtxdwLcq0SJKg4c11ibTg_Odt-JbCfgzHFauT226kyoAiK5Cpud7897FvklM4hYnwOeb6kjWv-MdCNW1dPCmOVg_cSPOkt8jN2U-VTtA_g3fjl58MwxItpIaVTe6NRCkUHOxkI9_b9p4wcEw5R4rr0Tn2sacLA2_yxjy7Dy2mQG6v7Yv3T22FvlbssQ0y03RHFk08WQqb2Zp93F5LiewxUx1FuvrUf7LegXzw5XkYatCwdnXLuihwPjNRr7Ff0ZeEVxgUSMeQKv34fb2-82I9AzYm_shlYzJdOs2OUFJSOl43fd7ru1D56DxZqAaRNLRWb8Ip623VWHGmetooR8-bmrKi5oZC0LEW9IGfu_2Ty55dr8gp7fjyNFd7JL53AzESVizX1-yrKmJbldVFtE-BQFi_25HaJ7108sBO0-Hsgb_aiD5a1UO1qfUI9yfmqkWZDf57NP8JWpnuZfQLAAA\" rel=\"noopener nofollow\">Пример ссылки содержащей сцену</a></p><p>Frame также устанавливается как <strong>PWA</strong>, работает без интернета после загрузки необходимых ресурсов и автоматически получает обновления. Новая версия применяется при следующем открытии, не прерывая работу с текущей сценой.</p><h3>Приложение не только создаётся с ИИ, но и рассчитано на него</h3><p>У Frame есть собственный <strong>AI API</strong>. Агент работает с теми же объектами и операциями, что и человек, а не с отдельной копией сцены. Его результат можно редактировать руками, отменять действия, сохранять и продолжать работу.</p><p>Есть <strong>Doc</strong> - текстовое описание проекта внутри сцены. Казалось бы, мелочь, но для совместной работы с ИИ очень полезная. Развивается <strong>Scene Control</strong> - программное управление сценой и её поведением.</p><p>Пробовал встроить локальную Gemini Nano, чтобы модель работала на компьютере пользователя. Пока отказался, её возможностей оказалось недостаточно.</p><p>Наверно, на Хабре будет отдельная статья о том, как пользоваться Frame с помощью приложения ChatGPT. А может, сделаю видео - ещё не решил. Хочется показать весь процесс: от просьбы спроектировать деталь до редактирования результата в обычной сцене.</p><h3>Atomic</h3><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/3b/16/c9/3b16c94315aedc28c88c0d2675150c92.jpg\" width=\"671\" height=\"724\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3b/16/c9/3b16c94315aedc28c88c0d2675150c92.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/3b/16/c9/3b16c94315aedc28c88c0d2675150c92.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Atomic - симулятор атомных взаимодействий на основе нейросетевого межатомного потенциала <strong>NEP89-1</strong>, с поддержкой <strong>75 элементов</strong>. Расчёт выполняется на GPU через WebGPU, а отображение встроено в общий движок Frame. Плагин использует его камеры и GPU-ресурсы, без отдельного графического контекста.</p><p>Атомы можно расставлять, выделять, перемещать обычной гизмой, закреплять, задавать начальную скорость и постоянную силу. Но собирать сложную структуру по одному атому - долго, поэтому Atomic рассчитан на работу через ИИ.</p><p>Идея такая: говорите агенту «хочу увидеть, как кристаллик алмаза сталкивается с фуллереновой трубкой», а он готовит сцену и задаёт условия. Дальше можно менять нагрузки, двигать закреплённые участки и повторять эксперимент.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/extt/43/ad/1e/43ad1edd7717ca6c6d9b4cece900f950.gif\" alt=\"Риалтаймовая симуляция столкновения алмаза и фуллереновой трубки в приложении Frame\" title=\"Риалтаймовая симуляция столкновения алмаза и фуллереновой трубки в приложении Frame\" width=\"720\" height=\"540\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/extt/43/ad/1e/43ad1edd7717ca6c6d9b4cece900f950.gif 780w,&#10;       https://habrastorage.org/extt/43/ad/1e/43ad1edd7717ca6c6d9b4cece900f950.gif 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Риалтаймовая симуляция столкновения алмаза и фуллереновой трубки в приложении Frame</figcaption></div></figure><p>Это не видеогенератор, который нарисовал убедительное столкновение. Здесь рассчитываются взаимодействия по конкретной модели - со своими границами применимости, но с возможностью менять условия и исследовать результат.</p><h3>Зачем мне остальные плагины</h3><p>Frame я делаю в том числе для собственных проектов. Следующий - новый крупноформатный 3D-принтер. Хочу в одном приложении спроектировать механику и плату, рассчитать антенну Wi-Fi, нагрев филамента в печатающей головке.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/62/89/c3/6289c3b6d8fe27cd2d2d717eac3c1001.jpg\" alt=\"мой  самодельный 3D принтер\" title=\"мой  самодельный 3D принтер\" width=\"1920\" height=\"1852\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/62/89/c3/6289c3b6d8fe27cd2d2d717eac3c1001.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/62/89/c3/6289c3b6d8fe27cd2d2d717eac3c1001.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>мой  самодельный 3D принтер</figcaption></div></figure><p>Отсюда направления разработки: <strong>3D Printer</strong> - слайсер, <strong>Mill</strong> - фрезеровка, <strong>Thermal</strong> - тепловые расчёты, <strong>Structural</strong> - прочность и топологическая оптимизация, <strong>CFD</strong> - аэродинамика, <strong>Magneto</strong> - магнитные поля, <strong>Circuit</strong> - электроника, <strong>RF</strong> - радиочастотные расчёты, включая антенны, <strong>Cut</strong> - лазерная, плазменная и гидроабразивная резка. Это именно разрабатываемые возможности, а не список готовых решателей.</p><p>Потом на этом принтере будет печататься микроэлектромобиль, который тоже хочу проектировать во Frame и там же рассчитывать его аэродинамику.</p><p>А вот электроцикл, который я разработал вручную, без ИИ, и уже напечатал на существующем принтере.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/89/85/9d/89859dcdfa04bae4d8427235e1d53527.jpg\" alt=\"мой электроцикл. 4 года разработок\" title=\"мой электроцикл. 4 года разработок\" width=\"2560\" height=\"1661\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/89/85/9d/89859dcdfa04bae4d8427235e1d53527.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/89/85/9d/89859dcdfa04bae4d8427235e1d53527.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>мой электроцикл. 4 года разработок</figcaption></div></figure><p>То есть это не фантазии о том, что когда-нибудь позволит сделать ИИ. Я уже занимаюсь такими проектами, и они успешны в том числе экономически. Теперь хочу подключить ИИ и к инженерной разработке - через Frame, где он сможет не только предлагать идеи, но и строить модели, рассчитывать и проверять варианты. Рассчитываю существенно повысить качество своей работы и сократить время разработки.</p><p>Особое внимание уделю слайсеру. С ним пока тяжело: ИИ не хватает интеллекта. Моего, конечно, хватает - я же гений, - но вручную писать всё это слишком долго).</p><h3>Можно попробовать и поучаствовать</h3><p>Официальной версией Frame можно пользоваться бесплатно, и я планирую ещё долго так оставлять. При этом код <strong>proprietary, не open source</strong> - условия описаны в лицензии. <strong>Совместимость между версиями на этом этапе пока не гарантирую.</strong></p><p>Пользуйтесь, проверяйте свои модели, собирайте баги и пишите в <a href=\"https://github.com/mozg4D/frame/issues\" rel=\"noopener nofollow\">issues на GitHub</a>. Особенно полезны сцена и несколько действий, которыми воспроизводится проблема. Сейчас мы с Neira максимально активно занимаемся развитием приложения: очевидные баги из issues она берёт в работу, менее очевидные обсуждает со мной.</p><p>В следующих статьях хочу давать готовые сцены, в том числе атомные: чтобы можно было открыть, поменять параметры и попробовать самому.</p><p>Интересно и сотрудничество - например, интеграция в SaaS для принт-ферм или ЧПУ. Или такой редактор прямо внутри диалога с ИИ: просите спроектировать деталь или рассчитать разрыв нанотрубки и получаете не только ответ, но и сцену, с которой можно работать.</p><p>OpenAI, Anthropic - наймите меня, будем делать). И да, я хочу переехать в США.</p><p>Этот софт ведь нужен не только людям. ИИ тоже нужны инструменты для проектирования - в том числе роботов для себя.</p><p>Так что остаётся вопрос: <strong>а не meat puppet ли я? Не убедил ли меня ИИ, что этот софт нужен мне, хотя на самом деле я делаю его для него?))</strong></p></div>",
+  "tags": [
+    {
+      "titleHtml": "Frame"
+    },
+    {
+      "titleHtml": "WebGPU"
+    },
+    {
+      "titleHtml": "JavaScript"
+    },
+    {
+      "titleHtml": "3D-редактор"
+    },
+    {
+      "titleHtml": "компьютерная графика"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    },
+    {
+      "titleHtml": "разработка с ИИ"
+    },
+    {
+      "titleHtml": "атомные симуляции"
+    },
+    {
+      "titleHtml": "CAD"
+    },
+    {
+      "titleHtml": "сезон код будущего"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105532/1e1d588191a8f551f2923764f04cdebd/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105532/1e1d588191a8f551f2923764f04cdebd/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105532\\/\"},\"headline\":\"Frame: 100 миллионов полигонов при 60 fps и тяжёлые атомные симуляции в браузере\",\"datePublished\":\"2026-11-09T17:19:41+03:00\",\"dateModified\":\"2026-11-10T18:35:40+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Тестовый рендер, проверка освещения через самосвечение Мы с Neira делаем Frame - браузерный 3D-редактор с полигональным моделированием, сплайновыми...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105532\\/#post-content-body\",\"about\":[\"h_artificial_intelligence\",\"h_3d_graphics\",\"h_cad_cam\",\"f_develop\",\"f_design\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/70\\/87\\/78\\/70877899f598de974581fd3eb599b974.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/16\\/7b\\/4f\\/167b4f0999e74676a16f02b0b342eb60.png\",\"https:\\/\\/habrastorage.org\\/extt\\/29\\/c9\\/06\\/29c90625f4f52cf0388dda20ee446419.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/63\\/b1\\/40\\/63b14088c3411e5055e764991b770415.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/3b\\/16\\/c9\\/3b16c94315aedc28c88c0d2675150c92.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/43\\/ad\\/1e\\/43ad1edd7717ca6c6d9b4cece900f950.gif\",\"https:\\/\\/habrastorage.org\\/extt\\/62\\/89\\/c3\\/6289c3b6d8fe27cd2d2d717eac3c1001.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/89\\/85\\/9d\\/89859dcdfa04bae4d8427235e1d53527.jpg\"]}",
+    "metaDescription": "Тестовый рендер, проверка освещения через самосвечение Мы с Neira делаем Frame - браузерный 3D-редактор с полигональным моделированием, сплайновыми поверхностями, анимацией, собственным рендером и...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 6,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

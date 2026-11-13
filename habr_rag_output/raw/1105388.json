@@ -1,0 +1,205 @@
+{
+  "id": "1105388",
+  "timePublished": "2026-11-09T11:50:25+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Анонс Rspack 2.3",
+  "leadData": {
+    "textHtml": "<p>Вышел Rspack 2.3: парсер SWC Next, ускорение сборки, снижение потребления памяти и размера бандлов, новый экспериментальный кэш и улучшения встроенной поддержки CSS.</p>",
+    "imageUrl": "https://habrastorage.org/extt/e6/73/fc/e673fc5600b3560558ef8c91ac41a669.webp",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/e6/73/fc/e673fc5600b3560558ef8c91ac41a669.webp",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "translation",
+      "typeOf": "system",
+      "title": "Перевод",
+      "data": {
+        "originalAuthorName": "Zhixin Jin, Chenwei Dai, Jiahan Chen, 9aoy, Sooniter, LingyuCoder, Yu Feng, Congcong Pan, Zhiyong Chen, yifancong, Gengkun He",
+        "originalUrl": "https://rspack.rs/blog/announcing-2-3"
+      }
+    }
+  ],
+  "author": {
+    "id": "1698625",
+    "alias": "qmzik",
+    "fullname": "Frontend по-флотски",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/527/8d3/bc8/5278d3bc896f04f6323dc1285bcd3bf6.jpg",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 52,
+      "votesCount": 92
+    },
+    "rating": 0.4,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/frontend_pasta",
+        "value": "frontend_pasta",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/frontend_pasta",
+        "value": "frontend_pasta",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 1,
+    "readingCount": 233,
+    "score": 1,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 7280,
+    "readers": 183
+  },
+  "hubs": [
+    {
+      "id": "357",
+      "alias": "javascript",
+      "type": "collective",
+      "title": "JavaScript",
+      "titleHtml": "JavaScript",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19816",
+      "alias": "build_automation",
+      "type": "collective",
+      "title": "Системы сборки",
+      "titleHtml": "Системы сборки",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Эта статья перевод оригинальной статьи «<a href=\"https://rspack.rs/blog/announcing-2-3\" rel=\"noopener nofollow\">Announcing Rspack 2.3</a>».</p><p>Также я веду телеграм канал «<a href=\"https://t.me/frontend_pasta\" rel=\"noopener nofollow\">Frontend по‑флотски</a>», где рассказываю про интересные вещи из мира разработки интерфейсов и AI.</p><h3>Вступление</h3><p>Вышел Rspack 2.3. В релиз вошли парсер SWC Next, ускорение сборки, снижение потребления памяти и размера бандлов, новый экспериментальный кэш с кэшированием отдельных лоадеров и улучшения встроенной поддержки CSS.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/3f/43/9e/3f439e1dfea042bb0cd629548750d1f6.png\" alt=\"Баннер Rspack 2.3\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3f/43/9e/3f439e1dfea042bb0cd629548750d1f6.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/3f/43/9e/3f439e1dfea042bb0cd629548750d1f6.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Баннер Rspack 2.3</figcaption></div></figure><p>Основные изменения касаются интеграции SWC Next, производительности и оптимизации SplitChunks, новой реализации кэша, фильтрации лоадеров по содержимому кода, встроенного CSS и инструментов экосистемы Rstack.</p><h3>Интеграция SWC Next</h3><p><a href=\"https://github.com/swc-project/swc-next\" rel=\"noopener nofollow\">SWC Next</a> совместно разрабатывают команды SWC и Rstack. Это новый компилятор JavaScript. Он станет следующей мажорной версией SWC. В основе новой архитектуры парсера, вдохновлённой <a href=\"https://github.com/yuku-toolchain/yuku\" rel=\"noopener nofollow\">Yuku</a>, лежит плоское AST на базе ESTree. Оно рассчитано на высокую скорость, экономное использование памяти и расширение средствами JavaScript.</p><p>В бенчмарках <a href=\"https://github.com/SoonIter/ecmascript-parser-benchmark-native\" rel=\"noopener nofollow\">нативный парсинг</a> SWC Next работает до 3 раз быстрее SWC, а парсинг через <a href=\"https://github.com/SoonIter/ecmascript-parser-benchmark-js\" rel=\"noopener nofollow\">JavaScript API</a> работает до 10 раз быстрее.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/bb/53/52/bb5352aa5db2df256d891952df969697.png\" alt=\"Сравнение производительности парсеров SWC Next и SWC\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/bb/53/52/bb5352aa5db2df256d891952df969697.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/bb/53/52/bb5352aa5db2df256d891952df969697.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Сравнение производительности парсеров SWC Next и SWC</figcaption></div></figure><p>Команда постепенно переносит модули SWC на эту архитектуру и заменяет существующие реализации Rspack. В Rspack 2.3 уже используется парсер SWC Next: более компактные AST и расположение данных в памяти ускоряют парсинг и обход дерева.</p><p>Сравнение времени парсинга и числа инструкций Rspack до и после интеграции SWC Next:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Проект</p></th><th><p align=\"left\">Время парсинга</p></th><th><p align=\"left\">Инструкции</p></th></tr><tr><td><p align=\"left\">three.js</p></td><td><p align=\"left\">23 мс → 20 мс (−14%)</p></td><td><p align=\"left\">205 млн → 155 млн (−24%)</p></td></tr><tr><td><p align=\"left\">React 10k</p></td><td><p align=\"left\">207 мс → 193 мс (−6%)</p></td><td><p align=\"left\">1597 млн → 1421 млн (−11%)</p></td></tr></tbody></table></div></div><p>Следующий этап развития SWC Next позволит писать высокопроизводительные плагины преобразования на JavaScript. Сейчас для собственных преобразований кода обычно используют плагины Babel или Wasm-плагины SWC. Разработчики хотят объединить производительность Rust с гибкостью написания плагинов на JavaScript. Плоское AST SWC Next позволяет эффективно обмениваться данными между Rust и JavaScript. Лоадер на основе SWC Next с поддержкой JavaScript-плагинов преобразования планируется представить в Rspack 2.4 или 2.5.</p><h3>Производительность</h3><h4>Снижение потребления памяти и ускорение сборки</h4><p>Когда несколько агентов работают параллельно, одновременно могут запускаться несколько сборок и серверов разработки, поэтому память становится существенным ограничением. Rspack 2.3.0 потребляет меньше памяти при сборке и разработке. Сравнение RSS в реальном проекте:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Сценарий</p></th><th><p align=\"left\">Метрика</p></th><th><p align=\"left\">2.2.0</p></th><th><p align=\"left\">2.3.0</p></th><th><p align=\"left\">Снижение</p></th></tr><tr><td><p align=\"left\">Сборка</p></td><td><p align=\"left\">Пиковый RSS</p></td><td><p align=\"left\">28.3 GiB</p></td><td><p align=\"left\">20.5 GiB</p></td><td><p align=\"left\">27.4%</p></td></tr><tr><td><p align=\"left\">Сборка</p></td><td><p align=\"left\">RSS после сборки</p></td><td><p align=\"left\">25.3 GiB</p></td><td><p align=\"left\">16.1 GiB</p></td><td><p align=\"left\">36.5%</p></td></tr><tr><td><p align=\"left\">Разработка</p></td><td><p align=\"left\">Пиковый RSS при запуске</p></td><td><p align=\"left\">28.6 GiB</p></td><td><p align=\"left\">19.0 GiB</p></td><td><p align=\"left\">33.8%</p></td></tr><tr><td><p align=\"left\">Разработка</p></td><td><p align=\"left\">RSS в установившемся режиме</p></td><td><p align=\"left\">28.9 GiB</p></td><td><p align=\"left\">18.8 GiB</p></td><td><p align=\"left\">34.8%</p></td></tr></tbody></table></div></div><p>В Rspack 2.3 появились снимки памяти на основе <a href=\"https://github.com/facebook/buck2/tree/main/allocative\" rel=\"noopener nofollow\">allocative</a>, которые помогают находить участки сборки с высоким потреблением памяти. Если проект потребляет много памяти, можно создать и отправить снимки по <a href=\"https://rspack.rs/guide/diagnostics/memory\" rel=\"noopener nofollow\">руководству по диагностике памяти</a>. Они помогут разработчикам найти способы снизить её расход.</p><p>SWC Next, оптимизация памяти и другие небольшие улучшения также ускоряют сборку в целом. Бенчмарки показывают прирост около 5% по сравнению с 2.2.0, а в некоторых крупных проектах разработчики наблюдали ускорение до 20%.</p><h4>Оптимизации SplitChunks</h4><p>В крупных проектах несколько страниц или точек входа часто зависят от одних и тех же модулей. Если модули попадают в несколько выходных файлов, размер результата увеличивается, а пользователям иногда приходится скачивать один и тот же код повторно. В Rspack 2.3 появились оптимизации, уменьшающие дублирование:</p><ul><li><p>Новый параметр <a href=\"https://rspack.rs/plugins/split-chunks-plugin#splitchunksdedupdepth\" rel=\"noopener nofollow\"><code>splitChunks.dedupDepth</code></a> находит больше возможностей вынести общие для страниц и точек входа модули. В production-режиме он включён по умолчанию (<code>dedupDepth: 1</code>).</p></li><li><p>Поддержка <a href=\"https://rspack.rs/plugins/split-chunks-plugin#splitchunksminremainingsize\" rel=\"noopener nofollow\"><code>splitChunks.minRemainingSize</code></a> помогает избежать создания очень маленьких выходных файлов при разделении кода. Это может сократить число лишних сетевых запросов и приближает поведение Rspack к webpack.</p></li><li><p>Улучшенная <a href=\"https://rspack.rs/guide/optimization/code-splitting#modules-already-available-from-parents\" rel=\"noopener nofollow\">дедупликация модулей при разделении кода</a> позволяет эффективнее повторно использовать существующие модули.</p></li></ul><p>Размеры выходных файлов двух крупных реальных проектов после сжатия Brotli до и после включения <code>dedupDepth: 1</code>:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Проект</p></th><th><p align=\"left\">До</p></th><th><p align=\"left\">После</p></th><th><p align=\"left\">Экономия</p></th><th><p align=\"left\">Снижение</p></th></tr><tr><td><p align=\"left\">A</p></td><td><p align=\"left\">23.2 MB</p></td><td><p align=\"left\">22.7 MB</p></td><td><p align=\"left\">550 KB</p></td><td><p align=\"left\">2.4%</p></td></tr><tr><td><p align=\"left\">B</p></td><td><p align=\"left\">40.0 MB</p></td><td><p align=\"left\">36.0 MB</p></td><td><p align=\"left\">4.0 MB</p></td><td><p align=\"left\">9.9%</p></td></tr></tbody></table></div></div><h3>Новая реализация кэша</h3><p>В Rspack 2.3 появился экспериментальный кэш, который занимает меньше места на диске, снижает затраты на запись и надёжнее восстанавливает результаты. Он устраняет три ограничения старого кэша:</p><ul><li><p>Большие файлы и сложное восстановление. Старый кэш сохранял промежуточное состояние целых этапов сборки, включая связи между модулями. Файлы получались большими, а при восстановлении возникали ошибки. Новый кэш хранит результаты отдельных задач, например сборки модулей, сокращая объём данных и риск ошибок.</p></li><li><p>Запись кэша блокировала компиляцию. Старый кэш готовил данные для записи на диск во время компиляции, увеличивая время сборки. Новый выполняет эту работу в периоды простоя или в конце сборки, реже прерывая компиляцию.</p></li><li><p>Ограниченное повторное использование между разработкой и production. Старый кэш был тесно связан с инкрементальной компиляцией при разработке, поэтому некоторые механизмы было сложно использовать в production-сборках. Новый разделяет эти задачи и единообразно управляет кэшем в памяти и на диске. Это упрощает повторное использование результатов в разных сборках и удаление ненужных записей.</p></li></ul><p>В бенчмарках новый кэш сократил использование диска примерно на 79%, а пиковое потребление памяти при холодной сборке примерно на 16%. При этом тёплые сборки заняли немного больше времени.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/5d/64/fc/5d64fc9e0432bede4d001d4effa55ae9.png\" alt=\"Сравнение старого и нового кэша на проекте React 10k\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/5d/64/fc/5d64fc9e0432bede4d001d4effa55ae9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/5d/64/fc/5d64fc9e0432bede4d001d4effa55ae9.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Сравнение старого и нового кэша на проекте React 10k</figcaption></div></figure><p>По умолчанию новый кэш отключён. Включить его можно с помощью <a href=\"https://rspack.rs/config/experiments#experimentsnewcache\" rel=\"noopener nofollow\"><code>experiments.newCache</code></a>:</p><pre><code>// rspack.config.mjs\nexport default {\n  cache: {\n    type: 'persistent',\n  },\n  experiments: {\n    newCache: true,\n  },\n};\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Разработчики продолжат оптимизировать производительность в следующих релизах и планируют включить новый кэш по умолчанию в одной из будущих минорных версий.</p><h4>Кэш лоадеров</h4><p>Новый кэш позволяет сохранять результаты преобразований отдельных лоадеров. Он работает на более подробном уровне, чем общий постоянный кэш, и для каждого лоадера можно задать свои условия инвалидирования. Изменение конфигурации Rspack может сделать общий кэш недействительным, но результаты лоадера останутся пригодными для повторного использования, если его входные данные, конфигурация и зависимости не изменились. Эти результаты также можно использовать при переключении между режимами разработки и сборки.</p><p>Это особенно полезно для ресурсоёмких лоадеров, таких как babel-loader и less-loader: они могут пропустить преобразование неизменённого кода и сократить время сборки. Следующая конфигурация включает новый постоянный кэш и кэширование результатов babel-loader:</p><pre><code>// rspack.config.mjs\nexport default {\n  cache: {\n    type: 'persistent',\n  },\n  experiments: {\n    newCache: true,\n  },\n  module: {\n    rules: [\n      {\n        test: /\\.[cm]?[jt]sx?$/,\n        use: [\n          {\n            loader: 'babel-loader',\n            cache: true,\n          },\n        ],\n      },\n    ],\n  },\n};\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>В тесте, где babel-loader обрабатывал около 10 000 искусственных модулей, включение кэша лоадера сократило время сборки примерно до 11–12 секунд:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Параллельные лоадеры</p></th><th><p align=\"left\">Кэш выключен</p></th><th><p align=\"left\">Кэш включён</p></th><th><p align=\"left\">Ускорение</p></th></tr><tr><td><p align=\"left\">Выключены</p></td><td><p align=\"left\">63.8 с</p></td><td><p align=\"left\">11.2 с</p></td><td><p align=\"left\">5.7 раза</p></td></tr><tr><td><p align=\"left\">Включены</p></td><td><p align=\"left\">28.5 с</p></td><td><p align=\"left\">11.9 с</p></td><td><p align=\"left\">2.4 раза</p></td></tr></tbody></table></div></div><h3>Новые возможности</h3><h4>Фильтрация лоадеров по содержимому кода</h4><p>Новый параметр <a href=\"https://rspack.rs/config/module-rules#rulesusecodefilter\" rel=\"noopener nofollow\"><code>module.rules[].use.codeFilter</code></a> позволяет пропускать ненужные преобразования лоадером в зависимости от содержимого кода. Например, можно преобразовывать только файлы с вызовом <code>customMacro()</code>:</p><pre><code>// rspack.config.mjs\nexport default {\n  module: {\n    rules: [\n      {\n        test: /\\.[cm]?[jt]sx?$/,\n        use: [\n          {\n            loader: './custom-macro-loader.js',\n            codeFilter: /\\bcustomMacro\\s*\\(/,\n          },\n        ],\n      },\n    ],\n  },\n};\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Ядро Rspack написано на Rust, поэтому вызов JavaScript-лоадера создаёт накладные расходы на взаимодействие между языками даже тогда, когда преобразование не требуется. <code>codeFilter</code> сначала проверяет код на стороне Rust и вызывает лоадер только при необходимости.</p><p>В бенчмарке с 10 000 модулей, из которых преобразования требовали только 10%, <code>codeFilter</code> сократил число вызовов лоадера на 90%, а общее время сборки с 622 до 481 мс, примерно на 23%.</p><h4>Встроенная поддержка CSS</h4><p>В этом релизе улучшены области видимости CSS Modules, композиция, ссылки на значения и поддержка вложенных селекторов.</p><h3>Точки входа только с CSS</h3><p>При публикации отдельной темы или библиотеки стилей может потребоваться только CSS. Теперь Rspack умеет собирать <a href=\"https://rspack.rs/guide/languages/css#css-entry\" rel=\"noopener nofollow\">точку входа только с CSS</a> в отдельный CSS-файл, не создавая дополнительный JavaScript-файл:</p><pre><code>// rspack.config.mjs\nexport default {\n  entry: {\n    styles: './src/styles.css',\n  },\n  module: {\n    rules: [{ test: /\\.css$/i, type: 'css/auto' }],\n  },\n  output: {\n    cssFilename: '[name].css',\n  },\n};\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Эта конфигурация создаёт один файл: <code>styles.css</code>.</p><h3>Внешние CSS-ресурсы</h3><p>Когда CSS или изображения размещены на CDN или другом внешнем сервисе, браузер может загружать их напрямую. Новые <a href=\"https://rspack.rs/config/externals\" rel=\"noopener nofollow\">типы внешних ресурсов</a> <code>css-import</code> и <code>asset-url</code> позволяют <a href=\"https://rspack.rs/guide/languages/css#external-resources\" rel=\"noopener nofollow\">исключить из сборки ресурсы, на которые ссылается CSS</a>. Например:</p><pre><code>// rspack.config.mjs\nexport default {\n  externals: {\n    'normalize.css': 'css-import normalize.css',\n    'https://example.com/a.css': 'css-import https://example.com/a.css',\n    'https://example.com/a.png': 'asset-url https://example.com/a.png',\n  },\n};\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Ссылки на эти ресурсы в CSS:</p><pre><code class=\"css\">/* styles.css */\n@import 'normalize.css';\n@import url('https://example.com/a.css');\n\n.logo {\n  background-image: url('https://example.com/a.png');\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Rspack сохранит ссылки <code>@import</code> и <code>url()</code> в выходном файле, не добавляя сами ресурсы в бандл. CSS-конструкции <code>@import</code>, <code>url()</code> и <code>image-set()</code> также поддерживают <a href=\"https://rspack.rs/guide/languages/css#magic-comments\" rel=\"noopener nofollow\">комментарии <code>rspackIgnore</code></a>, позволяющие исключить отдельные ресурсы из сборки:</p><pre><code class=\"css\">/* styles.css */\n@import /* rspackIgnore: true */ url('./runtime-theme.css');\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h4>Другие улучшения</h4><ul><li><p><a href=\"https://rspack.rs/guide/advanced/lazy-compilation\" rel=\"noopener nofollow\">Компиляция по требованию</a>: сокращено число лишних сборок, запускаемых при сохранении кода, и время ожидания обновлений.</p></li><li><p>Встроенный наблюдатель предоставляет более полные сведения о временных метках файлов, улучшая совместимость с такими библиотеками, как <code>ts-loader</code> и <code>vue-loader</code>.</p></li><li><p>Встроенный наблюдатель поддерживает функции в <a href=\"https://rspack.rs/config/watch#watchoptionsignored\" rel=\"noopener nofollow\"><code>watchOptions.ignored</code></a> и лучше обнаруживает новые каталоги, удалённые и заново созданные файлы.</p></li><li><p>Улучшена совместимость с хуками плагинов webpack и уточнены типы TypeScript для лоадеров, внешних ресурсов и статистики.</p></li><li><p>Для WebAssembly добавлен параметр <a href=\"https://rspack.rs/config/output#outputwasmstreamingfallback\" rel=\"noopener nofollow\"><code>output.wasmStreamingFallback</code></a>, позволяющий отключить переход к непотоковой загрузке.</p></li></ul><h3>Экосистема</h3><p>Вместе с Rspack 2.3 обновились инструменты экосистемы Rstack: Rsbuild, Rslib, Rsdoctor, Rstest и Rspress.</p><h4>Rsbuild</h4><h3>Поддержка Rsbuild в TanStack CLI</h3><p><a href=\"https://tanstack.com/cli/latest/docs/cli-reference\" rel=\"noopener nofollow\">TanStack CLI</a> официально поддерживает создание проектов TanStack Start с Rsbuild. Для выбора Rsbuild используется флаг <code>--build-tool rsbuild</code>. Например, команда для создания проекта React:</p><pre><code class=\"bash\">npx @tanstack/cli@latest create my-app --framework React --build-tool rsbuild\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>В <code>create-rsbuild</code> также добавлен вариант TanStack Start, который автоматически вызывает TanStack CLI для создания проекта. Чтобы использовать шаблон напрямую:</p><pre><code class=\"bash\">npx -y create-rsbuild@latest my-app -t tanstack-start-react\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Плагин Lynx для Rsbuild</h3><p>В Lynx представили <a href=\"https://lynxjs.org/next/api/packages/rsbuild-plugin/index.html\" rel=\"noopener nofollow\"><code>@lynx-js/rsbuild-plugin</code></a>, перенеся специфичные для Lynx настройки, значения по умолчанию и интеграцию сборки из Rspeedy в <code>pluginLynx</code>. Теперь приложения Lynx можно собирать непосредственно с помощью Rsbuild и этого плагина, без обёртки Rspeedy.</p><p>Можно использовать привычные <code>rsbuild.config.ts</code> и CLI Rsbuild, следовать документации Rsbuild и продолжать пользоваться существующими плагинами сборки Rsbuild и Lynx.</p><p>В <code>create-rsbuild</code> также появился вариант Lynx, автоматически вызывающий <code>@lynx-js/create-lynx</code> для создания проекта. Например, для проекта ReactLynx с TypeScript:</p><pre><code class=\"bash\">npx -y create-rsbuild@latest my-app -t lynx-ts\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Отчёты о размере файлов</h3><p>Rsbuild теперь показывает размеры файлов после сжатия Brotli. Для более точной оценки объёма передачи можно задать уровень сжатия gzip или Brotli в соответствии с настройками развёртывания. Чтобы вывести размеры после Brotli, добавьте:</p><pre><code>// rsbuild.config.ts\nexport default {\n  performance: {\n    printFileSize: {\n      compressed: { type: 'brotli' },\n    },\n  },\n};\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Другие улучшения Rsbuild</h3><ul><li><p>Production-сборки по умолчанию используют <a href=\"https://rspack.rs/blog/announcing-2-2#compact-hashed-ids\" rel=\"noopener nofollow\"><code>compact-hashed</code> ID</a>: короткие стабильные идентификаторы модулей и чанков уменьшают размер результата.</p></li><li><p>В приложениях с клиентским и серверным кодом изменения фронтенда могут <a href=\"https://github.com/web-infra-dev/rsbuild/pull/8729\" rel=\"noopener nofollow\">быстрее появляться в браузере</a>.</p></li><li><p><a href=\"https://github.com/web-infra-dev/rsbuild/pull/8711\" rel=\"noopener nofollow\"><code>server.publicDir</code> можно настроить для каждого окружения</a>, указав отдельный каталог публичных ресурсов.</p></li><li><p>Для Web Workers при <code>output.target: 'web-worker'</code> можно установить <a href=\"https://rsbuild.rs/config/output/module#web-workers\" rel=\"noopener nofollow\"><code>output.module: true</code></a>, чтобы получить выходной код в формате ES-модулей.</p></li><li><p><a href=\"https://rsbuild.rs/config/server/allowed-hosts\" rel=\"noopener nofollow\"><code>server.allowedHosts</code></a> ограничивает имена хостов, по которым доступны сервер разработки и сервер предпросмотра.</p></li><li><p>Новый хук <a href=\"https://rsbuild.rs/plugins/dev/hooks#onclosepreviewserver\" rel=\"noopener nofollow\"><code>onClosePreviewServer</code></a> позволяет плагинам освобождать ресурсы при закрытии сервера предпросмотра.</p></li><li><p>В <a href=\"https://github.com/web-infra-dev/rsbuild/pull/8722\" rel=\"noopener nofollow\"><code>api.transform</code></a> можно использовать <code>codeFilter</code>, чтобы пропускать ненужные преобразования в зависимости от содержимого кода.</p></li></ul><h4>Rslib</h4><h3>Выпуск Rslib 1.0</h3><p>Вышел Rslib 1.0. Подробности доступны в <a href=\"https://rslib.rs/blog/v1-0\" rel=\"noopener nofollow\">статье о релизе</a>.</p><h3>Встраивание Wasm-модулей</h3><p>Rslib поддерживает встраивание бинарных файлов Wasm в выходной JavaScript с помощью <code>?inline</code>, поэтому отдельные файлы <code>.wasm</code> распространять и загружать не требуется:</p><pre><code>import { add } from './add.wasm?inline';\n\nconsole.log(add(1, 2));\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Другие примеры есть в <a href=\"https://rslib.rs/guide/advanced/wasm\" rel=\"noopener nofollow\">руководстве по Wasm</a>.</p><h3>Поддержка TypeScript 7.1</h3><p>Rslib 1.0.4 умеет генерировать объявления типов с TypeScript 7.1 Beta, в том числе поддерживает новый механизм <a href=\"https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/#content-mappers\" rel=\"noopener nofollow\">Content Mappers</a> для обработки дополнительных типов файлов.</p><p>Чтобы использовать mapper, установите его и зарегистрируйте обрабатываемые расширения в <code>tsconfig.json</code>. Пример конфигурации mapper для CSS Modules, где <code>example-css-modules-mapper</code> используется как условное имя пакета:</p><pre><code class=\"json\">{\n  \"contentMappers\": [\n    {\n      \"package\": \"example-css-modules-mapper\",\n      \"extensions\": [\".module.css\"]\n    }\n  ]\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>При генерации объявлений типов Rslib автоматически загрузит mapper и создаст типы для имён классов CSS Modules. Установите TypeScript 7.1 Beta, чтобы попробовать:</p><pre><code>npm add typescript@7.1.0-beta -D\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><pre><code>yarn add typescript@7.1.0-beta -D\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><pre><code>pnpm add typescript@7.1.0-beta -D\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><pre><code>bun add typescript@7.1.0-beta -D\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><pre><code>deno add npm:typescript@7.1.0-beta -D\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h4>Rsdoctor</h4><p>Вышел <a href=\"https://rsdoctor.rs/blog/release/release-note-2_0\" rel=\"noopener nofollow\">Rsdoctor 2.0</a>. Для анализа с помощью ИИ теперь рекомендуется Agent CLI: он предоставляет прямой доступ к данным сборки и структурированный вывод.</p><p>В релизе улучшен анализ Rspack и добавлена поддержка отчётов для нескольких компиляторов. Размер установки сократился на 56%, время анализа на 57%, а время HMR в режиме разработки примерно на 47%.</p><h4>Rstest</h4><h3>Улучшения API браузерного режима</h3><p>Обновления браузерного режима упрощают тестирование взаимодействий с клавиатурой и гидратации React в настоящем браузере:</p><ul><li><p><a href=\"https://rstest.rs/api/runtime-api/browser-mode/locator#presssequentially\" rel=\"noopener nofollow\"><code>locator.pressSequentially()</code></a> вводит текст по одному символу, вызывая события клавиатуры для каждого. Это полезно для полей автодополнения и других элементов, реагирующих на отдельные нажатия.</p></li><li><p><a href=\"https://rstest.rs/guide/browser-testing/framework-guides\" rel=\"noopener nofollow\"><code>render()</code> в <code>@rstest/browser-react</code></a> теперь принимает <code>hydrate</code> и <code>createRootOptions</code>. С их помощью можно гидратировать существующую разметку, созданную на сервере, в заданном контейнере и настроить корень React при тестировании гидратации.</p></li></ul><pre><code>await page.getByLabel('Search').pressSequentially('rspack', { delay: 50 });\nawait expect.element(page.getByRole('listbox')).toBeVisible();\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Тестирование скриншотами</h3><p><a href=\"https://github.com/web-infra-dev/rstest/releases/tag/v0.12.4\" rel=\"noopener nofollow\">Rstest 0.12.4</a> добавляет визуальное регрессионное тестирование в браузерный режим при использовании провайдера Playwright. Новый матчер <a href=\"https://rstest.rs/api/runtime-api/browser-mode/assertion#toMatchScreenshot\" rel=\"noopener nofollow\"><code>toMatchScreenshot()</code></a> сравнивает элемент или страницу с сохранённым скриншотом и помогает обнаружить визуальные изменения, которые не видны при проверке DOM.</p><pre><code>// button.test.ts\nimport { page } from '@rstest/browser';\nimport { expect, test } from '@rstest/core';\n\ntest('button appearance', async () =&gt; {\n  document.body.innerHTML = '&lt;button&gt;Submit&lt;/button&gt;';\n\n  await expect(\n    page.getByRole('button', { name: 'Submit' }),\n  ).toMatchScreenshot();\n  await expect(page).toMatchScreenshot('full-page', { fullPage: true });\n});\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Если сравнение не проходит, Rstest сохраняет фактический скриншот и изображение различий. Можно маскировать динамическое содержимое, настраивать допустимые различия пикселей и обновлять эталонные изображения с помощью <code>--update</code>.</p><h4>Rspress</h4><p>Rspress 2.1.0 по умолчанию поддерживает <a href=\"https://developer.chrome.com/docs/ai/webmcp\" rel=\"noopener nofollow\">WebMCP</a>. Встроенные инструменты для получения сведений о сайте, поиска по документации и навигации позволяют агентам в браузере напрямую взаимодействовать с сайтами документации.</p><p>Чтобы попробовать, выполните следующий код в браузере с поддержкой WebMCP:</p><pre><code>const tools = await document.modelContext.getTools();\nconst tool = tools.find(({ name }) =&gt; name === 'rspress_get_current_page');\nconst page = JSON.parse(await document.modelContext.executeTool(tool, {}));\nconsole.log(page.markdown);\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Также можно регистрировать собственные инструменты с помощью хука <code>useWebMcp</code>, расширяя возможности агентов на сайте. Подробности есть в <a href=\"https://rspress.rs/guide/basic/webmcp\" rel=\"noopener nofollow\">документации WebMCP</a>.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "rspack"
+    },
+    {
+      "titleHtml": "swc"
+    },
+    {
+      "titleHtml": "javascript"
+    },
+    {
+      "titleHtml": "сборка"
+    },
+    {
+      "titleHtml": "кэширование"
+    },
+    {
+      "titleHtml": "rsbuild"
+    },
+    {
+      "titleHtml": "css"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105388/173f04904038b9bc9b7e6c03c4786071/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105388/173f04904038b9bc9b7e6c03c4786071/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105388\\/\"},\"headline\":\"Анонс Rspack 2.3\",\"datePublished\":\"2026-11-09T14:50:25+03:00\",\"dateModified\":\"2026-11-10T17:59:54+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Эта статья перевод оригинальной статьи « Announcing Rspack 2.3 ». Также я веду телеграм канал « Frontend по‑флотски », где рассказываю про интересные вещи из...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105388\\/#post-content-body\",\"about\":[\"h_javascript\",\"h_build_automation\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/3f\\/43\\/9e\\/3f439e1dfea042bb0cd629548750d1f6.png\",\"https:\\/\\/habrastorage.org\\/extt\\/bb\\/53\\/52\\/bb5352aa5db2df256d891952df969697.png\",\"https:\\/\\/habrastorage.org\\/extt\\/5d\\/64\\/fc\\/5d64fc9e0432bede4d001d4effa55ae9.png\"]}",
+    "metaDescription": "Эта статья перевод оригинальной статьи « Announcing Rspack 2.3 ». Также я веду телеграм канал « Frontend по‑флотски », где рассказываю про интересные вещи из мира разработки интерфейсов и AI....",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 10,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "4",
+    "title": "Фронтенд",
+    "alias": "frontend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

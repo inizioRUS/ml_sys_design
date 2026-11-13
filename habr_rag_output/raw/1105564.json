@@ -1,0 +1,218 @@
+{
+  "id": "1105564",
+  "timePublished": "2026-11-09T14:44:30+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "ОС еще не загрузилась, а Python уже работает: зачем мы принесли змею в UEFI",
+  "leadData": {
+    "textHtml": "<p>В какой-то момент в жизни инженера появляется задача, которая начинается словами: «Нам бы просто автоматизировать прошивку».</p><p>Слово «просто» здесь выполняет декоративную функцию. Примерно как кнопка закрытия дверей в некоторых лифтах: нажимать приятно, на происходящее влияет не всегда.</p><p>В департаменте исследований и разработки «Гравитон» мы занимаемся тестированием оборудования. Часть подготовительных действий нужна еще до загрузки операционной системы: получить параметры задания, проверить необходимые условия, организовать обновление прошивки и сохранить результаты диагностики.</p><p>Можно каждый раз загружать ОС, узнавать, что делать с устройством, а затем возвращаться в предзагрузочную среду. Но поднимать целую систему ради нескольких правил показалось нам несколько торжественным.</p><p>Так мы начали обживаться в UEFI Shell. А некоторое время спустя у нас появился собственный сборщик Python для этой среды.</p><p>Дальше — о том, из чего он состоит, какие особенности порта пришлось учитывать и почему наличия файла Python.efi для спокойной жизни недостаточно. Примеры сокращены до обсуждаемого механизма.</p>",
+    "imageUrl": "https://habrastorage.org/extt/60/1c/55/601c555b47767692819c42e4eb26a09a.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/60/1c/55/601c555b47767692819c42e4eb26a09a.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5182395",
+    "alias": "graviton_team",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/ece/e7e/8f0/ecee7e8f070d2ad8736611512a8e5f7c.png",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 15,
+      "votesCount": 19
+    },
+    "rating": 6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "4K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 6,
+    "readingCount": 543,
+    "score": 6,
+    "votesCount": 4,
+    "votesCountPlus": 4,
+    "votesCountMinus": 0,
+    "reach": 3294,
+    "readers": 328
+  },
+  "hubs": [
+    {
+      "id": "23734",
+      "alias": "graviton",
+      "type": "corporative",
+      "title": "Блог компании Гравитон",
+      "titleHtml": "Блог компании Гравитон",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22109",
+      "alias": "UEFI",
+      "type": "collective",
+      "title": "UEFI",
+      "titleHtml": "UEFI",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "340",
+      "alias": "python",
+      "type": "collective",
+      "title": "Python",
+      "titleHtml": "Python",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "5767",
+      "alias": "system_programming",
+      "type": "collective",
+      "title": "Системное программирование",
+      "titleHtml": "Системное программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "210",
+      "alias": "it_testing",
+      "type": "collective",
+      "title": "Тестирование IT-систем",
+      "titleHtml": "Тестирование IT-систем",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>В какой-то момент в жизни инженера появляется задача, которая начинается словами: «Нам бы просто автоматизировать прошивку».</p><p>Слово «просто» здесь выполняет декоративную функцию. Примерно как кнопка закрытия дверей в некоторых лифтах: нажимать приятно, на происходящее влияет не всегда.</p><p>В департаменте исследований и разработки «Гравитон» мы занимаемся тестированием оборудования. Часть подготовительных действий нужна еще до загрузки операционной системы: получить параметры задания, проверить необходимые условия, организовать обновление прошивки и сохранить результаты диагностики.</p><p>Можно каждый раз загружать ОС, узнавать, что делать с устройством, а затем возвращаться в предзагрузочную среду. Но поднимать целую систему ради нескольких правил показалось нам несколько торжественным.</p><p>Так мы начали обживаться в UEFI Shell. А некоторое время спустя у нас появился собственный сборщик Python для этой среды.</p><p>Дальше — о том, из чего он состоит, какие особенности порта пришлось учитывать и почему наличия файла <code>Python.efi</code> для спокойной жизни недостаточно. Примеры сокращены до обсуждаемого механизма.</p><p><strong>Когда Shell становится тесно</strong></p><p>Для запуска нескольких EFI-утилит возможностей Shell вполне хватает. Сложности начинаются, когда между запусками появляется содержательная логика: разобрать структурированный ответ, проверить параметры, выбрать допустимое продолжение, сохранить состояние и разобраться с ним после перезагрузки.</p><p>Условий становится больше. Затем появляются условия внутри условий. В какой-то момент сценарий смотрит на автора с выражением человека, который обещал повесить полку, а теперь согласовывает перенос несущей стены.</p><p>Нам понадобился более удобный язык для этой связующей работы. Python подходит для разбора данных и файлов обмена, а также для анализа результатов диагностики. Аппаратные операции при этом выполняют предназначенные для них EFI-утилиты под управлением Shell.</p><p>Получается понятное распределение обязанностей: Python готовит и проверяет задание, Shell организует выполнение аппаратных команд. Неудача при получении параметров остается ошибкой подготовки; до прошивальщика такой сценарий доходить не должен.</p><p>Отдельная область применения — проверки некоторых интерфейсов и необходимых возможностей непосредственно в UEFI. Это позволяет получить часть диагностической информации раньше, без промежуточной загрузки ОС. Полный комплекс испытаний устройства остается отдельной задачей.</p><p><strong>Как это используется у нас</strong></p><p>В нашем проекте Python получает серверное задание по введенному серийному номеру. Ответ с параметрами мы называем <code>cparam</code>. Получение этих правил происходит прямо в UEFI, поэтому загружать ОС только ради них не требуется.</p><p>Небольшой фрагмент из этапа подготовки, с сокращенным сообщением ошибки:</p><pre><code>run_stage(\n    \"cparam API\",\n    lambda: download_cparam(paths=paths),\n    require_zero=True,\n    paths=paths,\n)\n\nif not os.path.isfile(paths.CPARAM_FILE):\n    raise RuntimeError(\"cparam was not downloaded\")</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Здесь <code>run_stage</code> записывает начало и завершение этапа, а <code>require_zero=True</code> требует успешного кода возврата от обработчика. <code>paths</code> содержит пути к рабочим файлам.</p><p>Этот фрагмент проверяет завершение получения параметров и наличие сохраненного ответа. Дальше отдельно выполняются нормализация данных, проверки задания и подготовка файлов для Shell. Само по себе наличие JSON-файла еще не означает, что можно выполнять аппаратные действия.</p><p>После подготовки Shell запускает нужные EFI-утилиты, а результаты сохраняются для продолжения сценария и диагностики.</p><p>В этом и практический смысл всей конструкции: знакомым языком можно описывать логику подготовки до загрузки ОС, не превращая каждый новый вариант задания в еще один этаж условий в <code>.nsh</code>.</p><p><strong>Из чего собирается Python.efi</strong></p><p>За основу мы взяли существующий порт CPython 3.6.8 из проекта <a href=\"https://github.com/tianocore/edk2-libc\">edk2-libc</a>.</p><p>Здесь участвуют три слоя:</p><ul><li><p><strong>EDK II</strong> — инфраструктура разработки и сборки EFI-приложений.</p></li><li><p><strong>edk2-libc</strong> — реализация и адаптация библиотек C для UEFI, а также приложения, использующие это окружение.</p></li><li><p><strong>Порт CPython</strong> — интерпретатор и изменения, необходимые ему в этой среде.</p></li></ul><p>Наш builder подготавливает эти компоненты и собирает отдельное EFI-приложение. <code>Python.efi</code> запускается из UEFI Shell; устанавливать интерпретатор внутрь прошивки материнской платы для этого не требуется.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/1c/80/0d/1c800de44b4ef94d4da00da315fb0eba.png\" alt=\"Python.efi в UEFI Shell (QEMU/OVMF): версия интерпретатора, кодировка и проверка импортов.\" title=\"Python.efi в UEFI Shell (QEMU/OVMF): версия интерпретатора, кодировка и проверка импортов.\" width=\"800\" height=\"600\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1c/80/0d/1c800de44b4ef94d4da00da315fb0eba.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/1c/80/0d/1c800de44b4ef94d4da00da315fb0eba.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Python.efi в UEFI Shell (QEMU/OVMF): версия интерпретатора, кодировка и проверка импортов.</figcaption></div></figure><p>Версия 3.6.8 располагает к археологическим шуткам, но отражает выбранную основу порта. Переход на свежий CPython потребовал бы работы с низкоуровневой адаптацией, сборочными описаниями и stdlib.</p><p>При этом сам builder работает на современном host-Python. <strong>Интерпретатор, который запускает сборщик, и интерпретатор, который мы собираем, имеют разные версии и разные возможности.</strong></p><p>Общая последовательность:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/4d/03/af/4d03af84da9f19b3f386258476455806.png\" width=\"1280\" height=\"832\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/4d/03/af/4d03af84da9f19b3f386258476455806.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/4d/03/af/4d03af84da9f19b3f386258476455806.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>BaseTools — инструменты самого EDK II. Затем скрипт подготовки порта, <code>srcprep.py</code>, формирует рабочее дерево CPython с UEFI-адаптациями. Уже к этому дереву builder применяет необходимые исправления.</p><p>В центре процесса находится команда:</p><pre><code>build -t GCC -a X64 -b RELEASE -p AppPkg/AppPkg.dsc -D BUILD_PYTHON368</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Она выбирает GCC, архитектуру X64, конфигурацию RELEASE и сборочное описание AppPkg с включенным Python 3.6.8. К этому моменту окружение и исходники должны быть подготовлены.</p><p>Запуск компилятора занимает в builder сравнительно немного кода. Основная работа — обеспечить подходящие входные данные и аккуратно обработать результат.</p><p><strong>Старый порт встречает современный компилятор</strong></p><p>Некоторые изменения выглядят настолько скромно, что трудно представить, сколько внимания они потребовали.</p><p>Например, определение <code>VPATH</code>:</p><pre><code>-#define VPATH L\".\"\n+#define VPATH \".\"</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Префикс <code>L</code> делает литерал широкой строкой. В обсуждаемом месте значение передается в <code>Py_DecodeLocale</code>, который принимает обычную строку <code>const char *</code> и выполняет преобразование сам.</p><p>Одной буквы достаточно, чтобы компилятор возразил против наших планов.</p><p>Другой пример связан со встроенной zlib. Обычно свойства окружения zlib определяются на этапе configure. При использовании EDK II этот этап не выполняется.</p><p>При этом edk2-libc предоставляет <code>unistd.h</code>. Builder добавляет флаг, позволяющий zlib подключить этот заголовок и получить нужные объявления функций:</p><pre><code>-DHAVE_UNISTD_H=1</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Есть и точечные исправления на границе с API UEFI: например, согласование типа выходного указателя в вызове <code>LocateProtocol</code>. Отдельно добавляется отсутствующее в публичном заголовке объявление <code>tzset</code>.</p><p>Все эти изменения полезно выполнять повторяемым образом: уже примененный патч должен распознаваться, а неожиданно изменившийся исходник — останавливать подготовку.</p><p>Сокращенный принцип проверки одного из преобразований:</p><pre><code>source, count = re.subn(pattern, replacement, source)\n\nif count != 1:\n    raise RuntimeError(\"Expected exactly one build configuration entry\")</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Здесь <code>pattern</code>, <code>replacement</code> и <code>source</code> подготовлены выше. Число замен проверяет наше предположение о структуре исходника.</p><p>Здесь показана только проверка числа совпадений. В полном коде повторное применение предусмотрено отдельно: сборщик либо распознаёт уже исправленный фрагмент, либо использует шаблон, подходящий для обоих состояний.</p><p>Если ожидаемой строки больше нет, продолжать сборку с оптимистичным выражением лица довольно рискованно. Будущему отладчику тоже хочется иногда уходить домой.</p><p><strong>Почему socket.py еще не означает рабочую сеть</strong></p><p>У стандартной библиотеки есть существенная особенность: часть знакомых Python-модулей использует нативные модули интерпретатора.</p><p>Например, <code>socket.py</code> опирается на <code>_socket</code>. Наличие Python-файла само по себе не создает соответствующую реализацию на C.</p><p>В выбранном порте builder включает исходник и библиотеки, необходимые для нативной сетевой части:</p><pre><code>Modules/socketmodule.c\nBsdSocketLib\nEfiSocketLib</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Затем модуль должен присутствовать в таблице встроенных модулей CPython:</p><pre><code>{\"_socket\", PyInit__socket},</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Эти строки относятся к разным конфигурационным файлам. Вместе они показывают три необходимые составляющие: код модуля, библиотечные зависимости и регистрацию функции инициализации.</p><p>После сборки можно проверять базовые операции:</p><pre><code>import socket\n\nsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\ntry:\n    sock.settimeout(2)\n    print(\"Socket timeout:\", sock.gettimeout())\nfinally:\n    sock.close()</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Этот фрагмент проверяет создание объекта, установку тайм-аута и закрытие. <strong>Соединение с сервером он не проверяет.</strong></p><p>Под приложением остается целая цепочка:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/83/ee/9f/83ee9fc3df0b76bb52a4a40155c90ada.png\" width=\"1280\" height=\"993\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/83/ee/9f/83ee9fc3df0b76bb52a4a40155c90ada.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/83/ee/9f/83ee9fc3df0b76bb52a4a40155c90ada.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Успешное прохождение одного звена не подтверждает готовность остальных. Даже назначенный IP-адрес еще не отвечает на вопрос, сможет ли конкретное приложение установить TCP-соединение.</p><p>С TLS действует похожее правило: файл <code>ssl.py</code> не доказывает наличие рабочего нативного <code>_ssl</code>. Это отдельная возможность порта, которую нужно проверять.</p><p>Поэтому слово <code>Success</code> мы читаем вместе с названием операции, которая его напечатала. Обычно у этого слова довольно скромные должностные обязанности.</p><p><strong>Файловые пути: Python 3.6 со своими особенностями</strong></p><p>В обычном CPython 3.6 появился <a href=\"https://peps.python.org/pep-0519/\">протокол файловых путей PEP 519</a>: объект может предоставить строковое или байтовое представление пути через <code><strong>fspath</strong>()</code>.</p><p>Простейший пример:</p><pre><code>class FilePath(object):\n    def __init__(self, value):\n        self.value = value\n\n    def __fspath__(self):\n        return self.value</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Такой объект должен приниматься поддерживающими протокол файловыми операциями:</p><pre><code>path = FilePath(\"probe.txt\")\n\nwith open(path, \"w\", encoding=\"utf-8\") as stream:\n    stream.write(\"hello from UEFI\")</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Но подготовка исходников выбранного UEFI-порта подменяет некоторые файлы stdlib специальными вариантами. Поэтому наличие номера версии <code>3.6.8</code> еще не гарантирует все ожидаемые возможности обычного CPython.</p><p>В нашем случае builder восстанавливает необходимые файловые механизмы из исходников CPython, находящихся в той же ревизии edk2-libc. UEFI-адаптация <code>os</code> при этом сохраняется.</p><p>Это позволяет не зависеть от stdlib машины разработчика. Скопировать оттуда свежий <code>os.py</code> было бы заманчиво, но у него могут оказаться требования к нативным функциям и другим модулям, которых целевой интерпретатор не предоставляет.</p><p>Дополнительный сюжет создают имена файловых систем EFI Shell:</p><pre><code>fs0:\nfs1:\nfs12:</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Привычный <code>ntpath</code> исторически ориентируется в том числе на обозначения дисков вида <code>C:</code>. Имя UEFI mapping может быть длиннее.</p><p>Нам требуется такое поведение:</p><pre><code>os.path.splitdrive(\"fs12:/tests/probe.txt\")\n\n# Ожидаемый результат после адаптации:\n# (\"fs12:\", \"/tests/probe.txt\")</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Поэтому builder изменяет разбор обозначения диска и связанные проверки. Они охватывают не только <code>splitdrive</code>, но и соединение путей, нормализацию, строки и байтовые представления.</p><p>Здесь легко остановиться слишком рано: <code>os.fspath()</code> уже возвращает правильную строку, а следующий потребитель разбирает ее неверно.</p><p>Поэтому проверяем несколько потребителей одного протокола:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e5/a4/53/e5a45364394fe910ecc21f2ed7ca2eb1.png\" width=\"1280\" height=\"577\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e5/a4/53/e5a45364394fe910ecc21f2ed7ca2eb1.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/e5/a4/53/e5a45364394fe910ecc21f2ed7ca2eb1.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Нативный open() использует C API PyOS\\_FSPath; вызов Python-функции os.fspath() ему для этого не требуется.</p><p><strong>Кодировка нужна раньше прикладного кода</strong></p><p>У файловой совместимости есть еще один слой — ранняя инициализация кодировки файловой системы.</p><p>В используемом порте builder отдельно настраивает ее как UTF-8 на нативном уровне, до загрузки <code>site</code>. Этот модуль участвует в обычном старте Python и может обращаться к файловой системе еще до входа в наше приложение.</p><p>Поэтому исправление, подключаемое только в начале прикладного сценария, способно опоздать: интерпретатору нужная настройка понадобилась раньше.</p><p>Это отдельная задача от поддержки <code>PathLike</code>. Объект пути может корректно возвращать строку, а преобразование этой строки при обращении к файловой системе все еще требует правильно инициализированного окружения.</p><p>Также это не означает перевод всех файлов на UTF-8. При чтении и записи конкретных файлов по-прежнему нужно учитывать их формат, в том числе особенности UTF-16 и наличие маркера порядка байтов (BOM).</p><p>Иногда проблема «Python не открыл файл» начинается задолго до строки <code>open()</code>.</p><p><strong>Два Python и один каталог зависимостей</strong></p><p>Дополнительные пакеты builder готовит отдельно от базового интерпретатора. При разрешении зависимостей задается целевая версия Python 3.6.</p><p>Иначе современные host-инструменты могут выбрать пакет, который отлично подходит машине разработчика и совершенно не подходит нашему EFI-интерпретатору.</p><p>Для дополнительных пакетов мы ограничились pure Python. Подготовленное дерево проверяется на наличие нативных библиотек и расширений, в частности:</p><pre><code>native_suffixes = {\n    \".so\", \".pyd\", \".dll\",\n    \".dylib\", \".a\", \".lib\",\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Готовое расширение для Linux нельзя перенести в UEFI простым копированием.</p><p>Но и отсутствие таких файлов — только фильтр. Чистый Python-пакет может рассчитывать на процессы, потоки, системные службы или другие возможности, которых здесь нет.</p><p>Еще одна небольшая, но полезная операция — удаление <code>.pyc</code> и <code><strong>pycache</strong></code> из подготовленных зависимостей. Байткод разных версий CPython несовместим, а случайно приехавший кэш машины сборки целевому окружению не нужен.</p><p>Исходники остаются. Старшему поколению Python дают возможность прочитать текст самостоятельно.</p><p><strong>Кэш: не компилировать змею ради одного пакета</strong></p><p>Базовый интерпретатор и дополнительные зависимости меняются с разной частотой. Если мы добавили pure-Python пакет, заново собирать CPython обычно незачем.</p><p>Поэтому используются отдельные ключи базового и итогового пакетов:</p><pre><code>base_key = artifact_key(\n    edk2_commit, libc_commit,\n    TOOLCHAIN, ARCH, TARGET, gcc,\n)\n\nfinal_key = artifact_key(\n    edk2_commit, libc_commit,\n    TOOLCHAIN, ARCH, TARGET, gcc,\n    deps_hash=deps_hash,\n)</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>В ключах учитываются ревизии исходников, параметры сборки, версия GCC и версия схемы кэша. Для итогового окружения добавляется состояние списка зависимостей.</p><p>Версия схемы кэша особенно полезна при изменении наших патчей: upstream-ревизии могли остаться прежними, а способ подготовки исходников уже изменился.</p><p>Повторный запуск использует завершенные результаты. Обновление исходников выполняется явно. Для работы с уже заполненным кэшем предусмотрен offline-режим.</p><p>Такой подход сокращает лишнюю работу и помогает понимать происхождение результата. Сам по себе он не доказывает побайтовую воспроизводимость сборок или идентичность заново разрешенных зависимостей.</p><p>Зато наблюдать полную перекомпиляцию ради небольшого Python-пакета приходится значительно реже. Медитативность компилятора хороша, пока она добровольная.</p><p><strong>Почему готовый пакет — больше, чем Python.efi</strong></p><p>Интерпретатору нужна согласованная стандартная библиотека. Поэтому результатом builder становится окружение с несколькими составляющими:</p><ul><li><p><code>Python.efi</code>,</p></li><li><p>stdlib и подготовленные <code>site-packages</code>,</p></li><li><p>метаданные сборки,</p></li><li><p>лицензии использованных компонентов.</p></li></ul><p>В метаданных сохраняются версия builder, версия CPython, ревизии исходников, компилятор и параметры сборки.</p><p>Через некоторое время это позволяет ответить на вопрос «откуда взялся этот бинарник?» без коллективного сеанса воспоминаний.</p><p>Сама упаковка тоже требует аккуратности. Существование каталога еще не означает, что копирование закончилось. Builder проверяет обязательные файлы и записывает маркер завершения. При переносе пакета используется промежуточный каталог.</p><p>Схематично:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/bc/8d/b9/bc8db9de2c60d2c5258b3dc6a52bee17.png\" width=\"1280\" height=\"803\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/bc/8d/b9/bc8db9de2c60d2c5258b3dc6a52bee17.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/bc/8d/b9/bc8db9de2c60d2c5258b3dc6a52bee17.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Это проверка завершенности упаковки по правилам builder. Она не заменяет запуск интерпретатора и проверку его возможностей.</p><p><strong>Собралось — это начало проверки</strong></p><p>В проекте есть отдельный runtime-probe, который запускается настоящим <code>Python.efi</code>. Сам builder автоматически его не выполняет.</p><p>Probe проверяет импорты, файловые API, объекты путей, кодировки и базовые операции с сокетом. Проверки возможностей интерпретатора идут до подключения прикладного слоя совместимости, чтобы тот не замаскировал недостатки порта.</p><p>Пример работы файлового протокола — прямо в UEFI Shell:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/4f/e1/48/4fe148685396907d0127cd4270ca6f3a.png\" alt=\"Исходник и результат запуска в QEMU/OVMF. FilePath используется для записи и чтения файла. fs12: — входная строка для splitdrive; файл создается на текущем томе FS0:.\" title=\"Исходник и результат запуска в QEMU/OVMF. FilePath используется для записи и чтения файла. fs12: — входная строка для splitdrive; файл создается на текущем томе FS0:.\" width=\"800\" height=\"600\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/4f/e1/48/4fe148685396907d0127cd4270ca6f3a.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/4f/e1/48/4fe148685396907d0127cd4270ca6f3a.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Исходник и результат запуска в QEMU/OVMF. FilePath используется для записи и чтения файла. fs12: — входная строка для splitdrive; файл создается на текущем томе FS0:.</em></figcaption></div></figure><p>У проверки есть несколько уровней:</p><ol><li><p><strong>Host-тесты</strong> проверяют логику builder и изменения исходников.</p></li><li><p><strong>Запуск EFI-бинарника в VM</strong> позволяет проверить поведение самого интерпретатора в UEFI.</p></li><li><p><strong>Проверки на целевой плате</strong> нужны для реальных драйверов, NIC, сетевых протоколов и аппаратного сценария.</p></li></ol><p>Например, показанная проверка сокета не охватывает DNS, соединение, передачу данных или HTTP. Для них нужны отдельные проверки.</p><p>С прошивкой действует похожее разделение: завершение утилиты — один результат, а подтверждение ожидаемой версии после нового старта системы — следующий.</p><p>Поэтому сообщение «собралось» у нас имеет довольно буквальный смысл. Оно сообщает, что собралось.</p><p><strong>ОС еще спит, а Python уже занят</strong></p><p>Задача начиналась с автоматизации нескольких действий до загрузки ОС. В результате понадобился собственный builder, который готовит интерпретатор, учитывает особенности порта и собирает согласованное окружение.</p><p>Самые интересные места оказались на стыках: Python и C-модули, stdlib и EFI-пути, старый порт и современный GCC, машина разработки и целевой интерпретатор.</p><p>Теперь, когда мы запускаем наш сценарий из UEFI Shell, операционная система ещё не проснулась, а Python уже занят делом.ОС еще не загрузилась, а Python уже работает: зачем мы принесли змею в UEFI</p></div>",
+  "tags": [
+    {
+      "titleHtml": "UEFI"
+    },
+    {
+      "titleHtml": "UEFI Shell"
+    },
+    {
+      "titleHtml": "Python"
+    },
+    {
+      "titleHtml": "CPython"
+    },
+    {
+      "titleHtml": "EDK II"
+    },
+    {
+      "titleHtml": "edk2-libc"
+    },
+    {
+      "titleHtml": "Python.efi"
+    },
+    {
+      "titleHtml": "автоматизация тестирования"
+    },
+    {
+      "titleHtml": "прошивки"
+    },
+    {
+      "titleHtml": "системное программирование"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105564/095e3828d0c9909bbe2c550b745813ab/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105564/095e3828d0c9909bbe2c550b745813ab/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/graviton\\/articles\\/1105564\\/\"},\"headline\":\"ОС еще не загрузилась, а Python уже работает: зачем мы принесли змею в UEFI\",\"datePublished\":\"2026-11-09T17:44:30+03:00\",\"dateModified\":\"2026-11-11T18:35:03+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В какой-то момент в жизни инженера появляется задача, которая начинается словами: «Нам бы просто автоматизировать прошивку». Слово «просто» здесь выполняет...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/graviton\\/articles\\/1105564\\/#post-content-body\",\"about\":[\"h_UEFI\",\"h_python\",\"h_system_programming\",\"h_it_testing\",\"c_graviton\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/1c\\/80\\/0d\\/1c800de44b4ef94d4da00da315fb0eba.png\",\"https:\\/\\/habrastorage.org\\/extt\\/4d\\/03\\/af\\/4d03af84da9f19b3f386258476455806.png\",\"https:\\/\\/habrastorage.org\\/extt\\/83\\/ee\\/9f\\/83ee9fc3df0b76bb52a4a40155c90ada.png\",\"https:\\/\\/habrastorage.org\\/extt\\/e5\\/a4\\/53\\/e5a45364394fe910ecc21f2ed7ca2eb1.png\",\"https:\\/\\/habrastorage.org\\/extt\\/bc\\/8d\\/b9\\/bc8db9de2c60d2c5258b3dc6a52bee17.png\",\"https:\\/\\/habrastorage.org\\/extt\\/4f\\/e1\\/48\\/4fe148685396907d0127cd4270ca6f3a.png\"]}",
+    "metaDescription": "В какой-то момент в жизни инженера появляется задача, которая начинается словами: «Нам бы просто автоматизировать прошивку». Слово «просто» здесь выполняет декоративную функцию. Примерно как кнопка...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 10,
+  "complexity": "high",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "18",
+    "title": "Тестирование",
+    "alias": "quality_assurance"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "id": "1105814",
+  "timePublished": "2026-11-10T10:46:43+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Генерируем тест-кейсы с n8n: как подружить Пачку, Яндекс Вики и ИИ",
+  "leadData": {
+    "textHtml": "<p>Генерация тест-кейсов нейросетями — на удивление неочевидная задача. Уже давно было понятно, что нельзя просто закинуть юз-кейс в чат-бот без обвязки. Баги всегда прячутся в деталях, и чтобы их отловить, нужен контекст. А чтобы дать модели контекст, нужны интеграции. </p><p>За последние годы возможности моделей по интеграции с повседневными инструментами выросли неимоверно. В этой статье я хочу разобраться, какие технические возможности даёт современная оснастка для нейросетей при генерации тест-кейсов — а в следующей попробую разобраться, чего она пока сделать не может и на какие подводные камни можно натолкнуться. </p><p>Я буду работать с популярным инструментом <a href=\"https://n8n.io/\">n8n</a> и соберу агента, который свяжет чат в Пачке, страницы с требованиями в Яндекс Вики и нейросеть, чтобы писать тест-кейсы. </p>",
+    "imageUrl": "https://habrastorage.org/extt/64/f7/e5/64f7e53ecdd72b9ee5190e4d3ce9af6e.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/64/f7/e5/64f7e53ecdd72b9ee5190e4d3ce9af6e.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3182515",
+    "alias": "mikhail-lankin",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 10,
+      "votesCount": 12
+    },
+    "rating": 9,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 6,
+    "favoritesCount": 15,
+    "readingCount": 1153,
+    "score": 5,
+    "votesCount": 3,
+    "votesCountPlus": 3,
+    "votesCountMinus": 0,
+    "reach": 6279,
+    "readers": 783
+  },
+  "hubs": [
+    {
+      "id": "23718",
+      "alias": "testops_tms",
+      "type": "corporative",
+      "title": "Блог компании ТестОпс",
+      "titleHtml": "Блог компании ТестОпс",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "210",
+      "alias": "it_testing",
+      "type": "collective",
+      "title": "Тестирование IT-систем",
+      "titleHtml": "Тестирование IT-систем",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17696",
+      "alias": "yandex_api",
+      "type": "collective",
+      "title": "Яндекс API",
+      "titleHtml": "Яндекс API",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Генерация тест-кейсов нейросетями — на удивление неочевидная задача. Уже давно было понятно, что нельзя просто закинуть юз-кейс в чат-бот без обвязки. Баги всегда прячутся в деталях, и чтобы их отловить, нужен контекст. А чтобы дать модели контекст, нужны интеграции. </p><p>За последние годы возможности моделей по интеграции с повседневными инструментами выросли неимоверно. Сейчас крупные компании всерьёз автоматизируют ручные процессы в тестировании:</p><ul><li><p>думают о том, <a href=\"https://www.comnews.ru/content/242585/2025-11-27/2025-w48/1013/eksperimentov-k-rezultatu-kak-yandeks-vnedril-ii-processy-testirovaniya\">как систематизировать стихийно используемые инструменты</a>;</p></li><li><p>выстраивают <a href=\"https://habr.com/ru/companies/rgs_it/articles/1041996/\">сложные процессы работы с контекстом</a>;</p></li><li><p>интегрируют <a href=\"https://habr.com/ru/companies/sovcombank_technologies/articles/932426/\">ИИ-агентов в единый конвейер от требований до тест-кейсов</a>. </p></li></ul><p>В этой статье я хочу разобраться, какие технические возможности даёт современная оснастка для нейросетей при генерации тест-кейсов — а в следующей попробую разобраться, чего она пока сделать не может и на какие подводные камни можно натолкнуться. </p><p>Я буду работать с популярным инструментом <a href=\"https://n8n.io/\">n8n</a> и соберу агента, который свяжет чат в Пачке, страницы с требованиями в Яндекс Вики и нейросеть, чтобы писать тест-кейсы. </p><h3>1. Коротко о n8n</h3><p>N8n — это конструктор для агентов, который позволяет связывать нейросетевые модели с кодом, таск-трекерами, CI-системами и прочей инфраструктурой. За каждое действие отвечает отдельная нода, а из нод можно собирать агентов, как из Лего:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/30/b4/f1/30b4f1cb7fa34b84bf24edb02094cb97.png\" alt=\"Пример агента в n8n\" title=\"Пример агента в n8n\" width=\"1485\" height=\"524\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/30/b4/f1/30b4f1cb7fa34b84bf24edb02094cb97.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/30/b4/f1/30b4f1cb7fa34b84bf24edb02094cb97.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Пример агента в n8n</figcaption></div></figure><p>Исходный код n8n <a href=\"https://github.com/n8n-io/n8n\">открыт</a>, и все могут писать <a href=\"https://habr.com/ru/companies/amvera/articles/960100/\">собственные ноду</a>. Агенты в n8n называются «воркфлоу», и их можно экспортировать в формате JSON. Запускаются воркфлоу одним из двух способов:</p><ul><li><p>в облаке n8n — тогда нужно платить за хостинг и за каждый запуск;</p></li><li><p>на своей инфраструктуре — это бесплатно. </p></li></ul><p>В n8n сейчас уже <a href=\"https://n8n.io/integrations/\">больше 2600 интеграций</a> с самыми разными инструментами — и это позволяет собирать агентов под практически любой стек. Вот отличные примеры:</p><ul><li><p>Можно <a href=\"https://www.youtube.com/watch?v=xXGvM91L0fQ\">написать инструмент</a>, который будет генерировать тест-кейсы по тикетам из Jira и документации в GitHub, для которой настроен автоматизированный поиск через Pinecone.</p></li><li><p>Можно <a href=\"https://habr.com/ru/companies/skyeng/articles/1001488/\">сделать воркфлоу</a> для мессенджера, который будет обходить тред и собирать всё нужное для требований.</p></li><li><p>Можно <a href=\"https://habr.com/ru/companies/sovcombank_technologies/articles/1027594/\">собрать систему</a>, которая будет собирать в одном пространстве данные из пяти разных источников данных и помогать принимать решения по ним.</p></li></ul><p>Я разберу более простой кейс, но покажу процесс подробно. Сценарий такой: нужно сгенерировать тест-кейс, для которого есть требование в Яндекс Вики и юз-кейс в чате Пачки. Задача: дать модели доступ к этим источникам. С чего начать?</p><h3>2. Новый воркфлоу</h3><p>Вначале регистрируюсь на <a href=\"https://n8n.io/\">сайте n8n</a>. Выбираю пробный период в облаке — о своей инфраструктуре подумаю потом. Создаю новый воркфлоу — пока в своём личном пространстве, потом можно будет создать отдельный проект:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/dc/9c/8d/dc9c8d8dec478e511b39d0304a9ee08e.png\" alt=\"Создание воркфлоу\" title=\"Создание воркфлоу\" width=\"1867\" height=\"911\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/dc/9c/8d/dc9c8d8dec478e511b39d0304a9ee08e.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/dc/9c/8d/dc9c8d8dec478e511b39d0304a9ee08e.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Создание воркфлоу</figcaption></div></figure><p>После этого открывается холст, на который можно добавлять ноды и связывать их друг с другом. </p><p>У каждого воркфлоу должен быть триггер: специальная нода, которая запускает выполнение. Я хочу, чтобы мой воркфлоу запускался по событиям из чатов Пачки:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ef/3c/cc/ef3ccc4427dc193067018283b02be63c.png\" alt=\"Триггер Пачки\" title=\"Триггер Пачки\" width=\"1864\" height=\"858\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ef/3c/cc/ef3ccc4427dc193067018283b02be63c.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ef/3c/cc/ef3ccc4427dc193067018283b02be63c.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Триггер Пачки</figcaption></div></figure><p>Но чтобы этот триггер заработал, мне нужно настроить интеграцию с Пачкой. </p><h3>3. Интеграция n8n с Пачкой</h3><p>Чтобы ноды n8n могли отправлять и получать сообщения из Пачки, нужно настроить бота и канал в этом мессенджере.</p><p>На панели слева я кликаю <strong>Интеграции</strong> &gt; <strong>Боты</strong> &gt; <strong>Создать бота</strong>: </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/52/f7/2b/52f72b08c1f0e9007fb2f8235efe7a38.png\" alt=\"Создание бота\" title=\"Создание бота\" width=\"1919\" height=\"975\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/52/f7/2b/52f72b08c1f0e9007fb2f8235efe7a38.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/52/f7/2b/52f72b08c1f0e9007fb2f8235efe7a38.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Создание бота</figcaption></div></figure><p>Ввожу имя и ник, дальше включаю <strong>Исходящий вебхук</strong> бота, чтобы его можно было слушать на стороне n8n:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/7c/f9/11/7cf911910ede4ee3a022a27be0be867f.png\" alt=\"Исходящий вебхук\" title=\"Исходящий вебхук\" width=\"1919\" height=\"972\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/7c/f9/11/7cf911910ede4ee3a022a27be0be867f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/7c/f9/11/7cf911910ede4ee3a022a27be0be867f.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Исходящий вебхук</figcaption></div></figure><p>Настраиваю вебхук:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/88/8e/47/888e476359d0e33645894b6e31979733.png\" alt=\"Настройка вебухка\" title=\"Настройка вебухка\" width=\"1899\" height=\"970\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/88/8e/47/888e476359d0e33645894b6e31979733.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/88/8e/47/888e476359d0e33645894b6e31979733.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Настройка вебухка</figcaption></div></figure><ul><li><p><strong>Игнорировать свои сообщения</strong> — это нужно, чтобы бот не дёргал сам себя.</p></li><li><p><strong>Любые сообщения</strong> — чтобы бот слушал всё, что пишут в чате.</p></li><li><p><strong>Нажатие кнопок</strong> — нужно конкретно для моего воркфлоу.</p></li></ul><p>Дальше нужно настроить токен, по которому n8n будет распознавать бота. В меню редактирования бота иду в <strong>API</strong> и щёлкаю <strong>Создать токен</strong>:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/fb/a6/c5/fba6c5d4c3b476f29d95f4a83aca3df7.png\" alt=\"Новый токен\" title=\"Новый токен\" width=\"1919\" height=\"965\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/fb/a6/c5/fba6c5d4c3b476f29d95f4a83aca3df7.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/fb/a6/c5/fba6c5d4c3b476f29d95f4a83aca3df7.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Новый токен</figcaption></div></figure><p>Копирую токен себе — система его больше не покажет. Затем настраиваю права:</p><ul><li><p>messages:read</p></li><li><p>messages:create</p></li><li><p>threads:read (чтобы бот мог читать и создавать комментарии)</p></li><li><p>threads:create</p></li><li><p>views:write (через форму пользователь будет передавать URL требования)</p></li></ul><p>Чтобы связать бота с n8n, понадобятся:</p><ul><li><p>URL, который n8n будет слушать</p></li><li><p>ключ подписи </p></li></ul><p>Их можно найти на вкладке <strong>Исходящий вебхук</strong>:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/8a/91/cb/8a91cbdac3ce5c992aa5b09d5040d226.png\" alt=\"URL вебхука\" title=\"URL вебхука\" width=\"1918\" height=\"970\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/8a/91/cb/8a91cbdac3ce5c992aa5b09d5040d226.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/8a/91/cb/8a91cbdac3ce5c992aa5b09d5040d226.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>URL вебхука</figcaption></div></figure><p>Дальше я создаю чат, в котором буду общаться с ботом:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/3a/b4/1e/3ab41e6501bbc368858916d0c5b378c4.png\" alt=\"Создание чата\" title=\"Создание чата\" width=\"1919\" height=\"974\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3a/b4/1e/3ab41e6501bbc368858916d0c5b378c4.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/3a/b4/1e/3ab41e6501bbc368858916d0c5b378c4.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Создание чата</figcaption></div></figure><p>Добавляю бота в чат:</p><div class=\"floating-image\"><figure class=\"float full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/9b/98/56/9b9856ac5670763b9fee745c8645d4d2.png\" alt=\"Добавление бота в чат\" title=\"Добавление бота в чат\" width=\"527\" height=\"832\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/9b/98/56/9b9856ac5670763b9fee745c8645d4d2.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/9b/98/56/9b9856ac5670763b9fee745c8645d4d2.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Добавление бота в чат</figcaption></div></figure></div><p><strong>Настройка триггера в n8n</strong></p><p>Теперь можно вернуться в n8n. Открываю уже созданную ноду триггера и первым делом указываю там только что скопированный URL:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/09/db/0a/09db0aabcc2db1d128afe6d133524f35.png\" alt=\"Настройка триггера в n8n\" title=\"Настройка триггера в n8n\" width=\"1865\" height=\"843\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/09/db/0a/09db0aabcc2db1d128afe6d133524f35.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/09/db/0a/09db0aabcc2db1d128afe6d133524f35.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Настройка триггера в n8n</figcaption></div></figure><p>Дальше жму <strong>Connect to Pachca</strong> и ввожу только что созданный токен и ключ подписи:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/3b/00/95/3b0095fcded6a5db607a3742e3ebe076.png\" alt=\"Учетные данные Пачки\" title=\"Учетные данные Пачки\" width=\"1113\" height=\"716\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3b/00/95/3b0095fcded6a5db607a3742e3ebe076.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/3b/00/95/3b0095fcded6a5db607a3742e3ebe076.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Учетные данные Пачки</figcaption></div></figure><p>К сожалению, протестировать триггер кнопкой <strong>Execute</strong> внизу холста не получится: при таком выполнении он будет слушать не тот URL, который я ему передал, а другой, тестовый. Поэтому нужно либо настроить отдельного тестового бота в Пачке, либо опубликовать воркфлоу: </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/58/9a/85/589a8560141e3689c376881dc78ffdbb.png\" alt=\"Публикация воркфлоу\" title=\"Публикация воркфлоу\" width=\"1866\" height=\"904\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/58/9a/85/589a8560141e3689c376881dc78ffdbb.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/58/9a/85/589a8560141e3689c376881dc78ffdbb.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Публикация воркфлоу</figcaption></div></figure><p>Триггеры в опубликованном воркфлоу всегда ловят события, дополнительно их запускать не надо. Теперь я могу отправить сообщение в настроенном чате, вернуться в n8n и на вкладке <strong>Executions</strong> в проекте увидеть, что появилось новое выполнение:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c2/bb/26/c2bb26532880d18123524be85c815dd3.png\" alt=\"Новое выполнение в n8n\" title=\"Новое выполнение в n8n\" width=\"1865\" height=\"903\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c2/bb/26/c2bb26532880d18123524be85c815dd3.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c2/bb/26/c2bb26532880d18123524be85c815dd3.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Новое выполнение в n8n</figcaption></div></figure><p>Итак, связь с Пачкой заработала. Второй элемент моей инфраструктуры — Яндекс Вики.</p><h3>4. Интеграция n8n с Яндекс Вики</h3><p>Официальной ноды для Яндекс Вики в n8n нет, но связь с Yandex MCP всё равно настроить можно. Для этого потребуются две вещи: токен и идентификатор организации.</p><p><strong>Токен</strong></p><p>Чтобы внешние системы получили доступ к ресурсам Яндекса, нужно настроить приложение в <a href=\"https://oauth.yandex.ru/\">Яндекс OAuth</a>.</p><ul><li><p>Щёлкаю <strong>+Создать</strong>.</p></li><li><p>Выбираю тип <strong>Для доступа к API или отладки</strong>.</p></li><li><p>Ввожу любое название.</p></li><li><p>Указываю почту для авторизации.</p></li><li><p>В поле <strong>Доступ к данным</strong> добавляю нужные доступы: мне потребуется только <strong>wiki:read</strong>.</p></li><li><p>Жму <strong>Создать приложение</strong> внизу страницы.</p></li></ul><p>Приложение создано, теперь мне понадобится его <strong>ClientID</strong>:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/b4/c1/a1/b4c1a10721bffce2054248ec6db9c267.png\" alt=\"ClientID приложения\" title=\"ClientID приложения\" width=\"1852\" height=\"902\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b4/c1/a1/b4c1a10721bffce2054248ec6db9c267.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/b4/c1/a1/b4c1a10721bffce2054248ec6db9c267.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>ClientID приложения</figcaption></div></figure><p>С его помощью нужно сгенерировать токен. Для этого я копирую в адресную строку браузера следующую ссылку:</p><pre><code>https://oauth.yandex.ru/authorize?response_type=token&amp;client_id=ВАШ_CLIENT_ID\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>В ней <code>ВАШ_CLIENT_ID</code> заменяю на значение, скопированное из приложения, и перехожу по ссылке. Прохожу авторизацию, генерирую токен и сохраняю его.</p><p><strong>Идентификатор организации</strong></p><p>Его можно найти в Яндекс Трекере на странице <a href=\"https://tracker.yandex.ru/admin/orgs\">Администрирование → Организации</a>, в поле <strong>Идентификатор</strong>. </p><ul><li><p>Для «Яндекс 360 для бизнеса» идентификатор называется <strong>X-Org-ID</strong></p></li><li><p>Для «Yandex Cloud Organization» — <strong>X-Cloud-Org-ID</strong></p></li></ul><p>Если страница недоступна, нужно попросить ID у администратора организации.</p><p><strong>Настройка доступа в n8n</strong></p><p>В n8n все учётные данные хранятся отдельно от воркфлоу в разделе <strong>Credentials</strong> проекта или личного пространства. Перехожу туда и щёлкаю <strong>Create credential</strong>:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/9b/15/79/9b1579719b1f7bda3649a532df9b191a.png\" alt=\"Создание учётных данных\" title=\"Создание учётных данных\" width=\"1863\" height=\"900\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/9b/15/79/9b1579719b1f7bda3649a532df9b191a.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/9b/15/79/9b1579719b1f7bda3649a532df9b191a.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Создание учётных данных</figcaption></div></figure><p>Выбираю тип <strong>Multiple Headers Auth</strong> и создаю два заголовка:</p><ul><li><p><strong>Authorization</strong>: в значение вставляю токен.</p></li><li><p><strong>X-Org-ID</strong> или <strong>X-Cloud-Org-ID</strong>: в значение вставляю идентификатор.</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/6e/8b/d2/6e8bd2a7e40bb122735b94dda2ac1a74.png\" alt=\"Учётные данные Яндекс\" title=\"Учётные данные Яндекс\" width=\"1112\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/6e/8b/d2/6e8bd2a7e40bb122735b94dda2ac1a74.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/6e/8b/d2/6e8bd2a7e40bb122735b94dda2ac1a74.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Учётные данные Яндекс</figcaption></div></figure><p><strong>Нода Яндекс Вики в воркфлоу</strong></p><p>Обращаться к вики из воркфлоу можно разными способами:</p><ul><li><p>можно обратиться напрямую, строго указывая, что нужно от ресурса;</p></li><li><p>можно передать ИИ-модели доступ к вики как MCP-инструмент. </p></li></ul><p>Это делают соответственно ноды <strong>MCP Client</strong> и <strong>MCP Client AI Tool</strong>. У первой квадратная плашка, и она самостоятельная, у второй — круглая, и её можно использовать, только подключая к ноде модели:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ee/e8/45/eee845b4c8e40aa65e68f4cb1fd511ae.png\" alt=\"MCP Client и MCP Client Tool\" title=\"MCP Client и MCP Client Tool\" width=\"1862\" height=\"905\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ee/e8/45/eee845b4c8e40aa65e68f4cb1fd511ae.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ee/e8/45/eee845b4c8e40aa65e68f4cb1fd511ae.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>MCP Client и MCP Client Tool</figcaption></div></figure><p>Я попробую запросить страницу из вики напрямую, т. е. через квадратную ноду, по ID. Настройки будут такие:</p><ul><li><p><strong>Server Transport</strong>: HTTP Streamable</p></li><li><p><strong>MCP Endpoint URL</strong>: <a href=\"https://mcp.wiki.yandex.net\">https://mcp.wiki.yandex.net</a></p></li><li><p><strong>Authentication</strong>: Multiple Headers Auth</p></li><li><p><strong>Credential</strong>: учётные данные, которые я до этого создал для ресурсов Яндекса</p></li><li><p><strong>Tool</strong>: <strong>From list</strong> &gt; <strong>GetPageById</strong></p></li><li><p><strong>Page Id</strong>: ID нужной страницы</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/37/14/ae/3714ae37aa111c7c1bd7ba39b9fbdd3b.png\" alt=\"Настройка MCP Client\" title=\"Настройка MCP Client\" width=\"1816\" height=\"797\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/37/14/ae/3714ae37aa111c7c1bd7ba39b9fbdd3b.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/37/14/ae/3714ae37aa111c7c1bd7ba39b9fbdd3b.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Настройка MCP Client</figcaption></div></figure><p>Получить ID страницы можно только через API вики. Делаю это командой:</p><pre><code class=\"bash\">curl -s \"https://api.wiki.yandex.net/v1/pages?slug=СЛАГ_СТРАНИЦЫ\" -H \"Authorization: OAuth ТОКЕН\" -H \"X-Cloud-Org-ID: ИДЕНТИФИКАТОР\"\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Здесь нужно заменить:</p><ul><li><p><strong>ТОКЕН</strong> на токен, созданный приложением Яндекса</p></li><li><p><strong>ИДЕНТИФИКАТОР</strong> на идентификатор организации</p></li><li><p>при необходимости — <code>X-Cloud-Org-ID</code> на <code>X-Org-ID</code></p></li><li><p><strong>СЛАГ_СТРАНИЦЫ</strong> на слаг — например, для страницы <a href=\"https://wiki.yandex.ru/users/username/demo\"><code>https://wiki.yandex.ru/users/username/demo</code></a> слаг будет <code>users/username/demo</code></p></li></ul><h3>5. Сборка воркфлоу</h3><p>Основные ноды заработали, теперь из них можно собрать рабочий процесс. Правила здесь такие:</p><ul><li><p>Каждая нода, отработав, передаёт свой вывод следующим нодам через JSON. </p></li><li><p>Получить доступ к выводу предшествующей ноды можно через <code>$json.имя_переменной</code>.</p></li><li><p>Узнать имена переменных, которые возвращает нода, можно, выполнив воркфлоу (неважно, успешно или нет) и открыв выполнение во вкладке <strong>Executions</strong> проекта. Там в каждой ноде прописаны её переменные:</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/90/ae/d6/90aed63e33f8323394abdcc3e3d640a2.png\" alt=\"Вывод ноды после выполнения воркфлоу\" title=\"Вывод ноды после выполнения воркфлоу\" width=\"1814\" height=\"800\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/90/ae/d6/90aed63e33f8323394abdcc3e3d640a2.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/90/ae/d6/90aed63e33f8323394abdcc3e3d640a2.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Вывод ноды после выполнения воркфлоу</figcaption></div></figure><p>Выполнение можно как угодно ветвить и делать с данными всё, что придёт на ум. </p><p>Я решил написать воркфлоу с такой логикой:</p><ul><li><p>Агент ждёт юз-кейс от пользователя в чате Пачки</p></li><li><p>Агент через форму запрашивает URL страницы с требованием комментарием к сообщению с юз-кейсом</p></li><li><p>Агент передаёт юз-кейс и требование модели</p></li><li><p>Агент возвращает ответ модели в тред юз-кейса</p></li></ul><p>Выглядит этот воркфлоу так:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/58/8f/fa/588ffa20ce1944f829b82a1b19dae9cf.png\" alt=\"Готовый воркфлоу\" title=\"Готовый воркфлоу\" width=\"1485\" height=\"524\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/58/8f/fa/588ffa20ce1944f829b82a1b19dae9cf.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/58/8f/fa/588ffa20ce1944f829b82a1b19dae9cf.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Готовый воркфлоу</figcaption></div></figure><p>В JSON его можно скачать <a href=\"https://github.com/rattus-aristarchus/n8n-test-case-demo\">с моего Гитхаба</a>. Публикую, отправляю юз-кейс в чате Пачки и в итоге получаю тест-кейс:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/53/c0/8f/53c08f57f73babec3a0ed156fe4ee368.png\" alt=\"Диалог с ботом в Пачке\" title=\"Диалог с ботом в Пачке\" width=\"1918\" height=\"980\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/53/c0/8f/53c08f57f73babec3a0ed156fe4ee368.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/53/c0/8f/53c08f57f73babec3a0ed156fe4ee368.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Диалог с ботом в Пачке</figcaption></div></figure><h3>6. Что дальше: подводные камни</h3><p>Казалось бы, какой бы ни был стек у организации, с n8n можно собрать воркфлоу под любые нужды за несколько вечеров — или за несколько часов с нейросетью.</p><p>Но, как обычно, всё не так просто. Каким бы гибким ни был инструмент, он не достанет требования для тест-кейсов, если они живут только в голове у заказчика, не избавит от галлюцинаций и необходимости ручных проверок. В этих подводных камнях я постараюсь разобраться в следующей статье. </p></div>",
+  "tags": [
+    {
+      "titleHtml": "ии-агенты"
+    },
+    {
+      "titleHtml": "нейросети"
+    },
+    {
+      "titleHtml": "тестирование"
+    },
+    {
+      "titleHtml": "генерация тест-кейсов"
+    },
+    {
+      "titleHtml": "n8n"
+    },
+    {
+      "titleHtml": "пачка"
+    },
+    {
+      "titleHtml": "яндекс вики"
+    },
+    {
+      "titleHtml": "mcp"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105814/59a1087747437fa46cd5dc6c284e8875/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105814/59a1087747437fa46cd5dc6c284e8875/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/testops_tms\\/articles\\/1105814\\/\"},\"headline\":\"Генерируем тест-кейсы с n8n: как подружить Пачку, Яндекс Вики и ИИ\",\"datePublished\":\"2026-11-10T13:46:43+03:00\",\"dateModified\":\"2026-11-11T19:40:53+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Генерация тест-кейсов нейросетями — на удивление неочевидная задача. Уже давно было понятно, что нельзя просто закинуть юз-кейс в чат-бот без обвязки. Баги...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/testops_tms\\/articles\\/1105814\\/#post-content-body\",\"about\":[\"c_testops_tms\",\"h_it_testing\",\"h_artificial_intelligence\",\"h_open_source\",\"h_yandex_api\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/30\\/b4\\/f1\\/30b4f1cb7fa34b84bf24edb02094cb97.png\",\"https:\\/\\/habrastorage.org\\/extt\\/dc\\/9c\\/8d\\/dc9c8d8dec478e511b39d0304a9ee08e.png\",\"https:\\/\\/habrastorage.org\\/extt\\/ef\\/3c\\/cc\\/ef3ccc4427dc193067018283b02be63c.png\",\"https:\\/\\/habrastorage.org\\/extt\\/52\\/f7\\/2b\\/52f72b08c1f0e9007fb2f8235efe7a38.png\",\"https:\\/\\/habrastorage.org\\/extt\\/7c\\/f9\\/11\\/7cf911910ede4ee3a022a27be0be867f.png\",\"https:\\/\\/habrastorage.org\\/extt\\/88\\/8e\\/47\\/888e476359d0e33645894b6e31979733.png\",\"https:\\/\\/habrastorage.org\\/extt\\/fb\\/a6\\/c5\\/fba6c5d4c3b476f29d95f4a83aca3df7.png\",\"https:\\/\\/habrastorage.org\\/extt\\/8a\\/91\\/cb\\/8a91cbdac3ce5c992aa5b09d5040d226.png\",\"https:\\/\\/habrastorage.org\\/extt\\/3a\\/b4\\/1e\\/3ab41e6501bbc368858916d0c5b378c4.png\",\"https:\\/\\/habrastorage.org\\/extt\\/9b\\/98\\/56\\/9b9856ac5670763b9fee745c8645d4d2.png\",\"https:\\/\\/habrastorage.org\\/extt\\/09\\/db\\/0a\\/09db0aabcc2db1d128afe6d133524f35.png\",\"https:\\/\\/habrastorage.org\\/extt\\/3b\\/00\\/95\\/3b0095fcded6a5db607a3742e3ebe076.png\",\"https:\\/\\/habrastorage.org\\/extt\\/58\\/9a\\/85\\/589a8560141e3689c376881dc78ffdbb.png\",\"https:\\/\\/habrastorage.org\\/extt\\/c2\\/bb\\/26\\/c2bb26532880d18123524be85c815dd3.png\",\"https:\\/\\/habrastorage.org\\/extt\\/b4\\/c1\\/a1\\/b4c1a10721bffce2054248ec6db9c267.png\",\"https:\\/\\/habrastorage.org\\/extt\\/9b\\/15\\/79\\/9b1579719b1f7bda3649a532df9b191a.png\",\"https:\\/\\/habrastorage.org\\/extt\\/6e\\/8b\\/d2\\/6e8bd2a7e40bb122735b94dda2ac1a74.png\",\"https:\\/\\/habrastorage.org\\/extt\\/ee\\/e8\\/45\\/eee845b4c8e40aa65e68f4cb1fd511ae.png\",\"https:\\/\\/habrastorage.org\\/extt\\/37\\/14\\/ae\\/3714ae37aa111c7c1bd7ba39b9fbdd3b.png\",\"https:\\/\\/habrastorage.org\\/extt\\/90\\/ae\\/d6\\/90aed63e33f8323394abdcc3e3d640a2.png\",\"https:\\/\\/habrastorage.org\\/extt\\/58\\/8f\\/fa\\/588ffa20ce1944f829b82a1b19dae9cf.png\",\"https:\\/\\/habrastorage.org\\/extt\\/53\\/c0\\/8f\\/53c08f57f73babec3a0ed156fe4ee368.png\"]}",
+    "metaDescription": "Генерация тест-кейсов нейросетями — на удивление неочевидная задача. Уже давно было понятно, что нельзя просто закинуть юз-кейс в чат-бот без обвязки. Баги всегда прячутся в деталях, и чтобы их...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "tutorial",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 6,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "18",
+    "title": "Тестирование",
+    "alias": "quality_assurance"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

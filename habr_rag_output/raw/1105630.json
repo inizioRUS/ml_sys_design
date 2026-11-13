@@ -1,0 +1,180 @@
+{
+  "id": "1105630",
+  "timePublished": "2026-11-09T16:46:13+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Один слот, два покупателя: как избежать двойной брони в Telegram-боте",
+  "leadData": {
+    "textHtml": "<p>На консультацию осталось одно место, а кнопку «Оплатить» нажали двое. Покажу, как зарезервировать слот до оплаты в Telegram Stars, проверить блокировку в двух сессиях PostgreSQL и обработать платёж, который пришёл после истечения резерва.</p>",
+    "imageUrl": null,
+    "buttonTextHtml": "Читать далее",
+    "image": null
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "6055100",
+    "alias": "Torrmenad",
+    "fullname": "Фёдор Дядюнюк",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 4,
+      "votesCount": 4
+    },
+    "rating": 2.8,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 3,
+    "readingCount": 240,
+    "score": 1,
+    "votesCount": 5,
+    "votesCountPlus": 3,
+    "votesCountMinus": 2,
+    "reach": 7077,
+    "readers": 173
+  },
+  "hubs": [
+    {
+      "id": "92",
+      "alias": "instant_messaging",
+      "type": "collective",
+      "title": "Мессенджеры",
+      "titleHtml": "Мессенджеры",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "358",
+      "alias": "postgresql",
+      "type": "collective",
+      "title": "PostgreSQL",
+      "titleHtml": "PostgreSQL",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "233",
+      "alias": "pay_system",
+      "type": "collective",
+      "title": "Платежные системы",
+      "titleHtml": "Платежные системы",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>У бота остался один слот на онлайн-консультацию: четверг, 18:00. Два клиента нажимают «Оплатить» почти одновременно. Оба обработчика видят в базе свободный слот и разрешают оплату. Telegram не знает, что за двумя счетами стоит одна запись в календаре. Проверить наличие места и временно занять его должен сам бот.</p><p>Разберём разовую оплату цифровой услуги внутри бота через Telegram Stars. У слота может быть несколько попыток покупки, но только одна подтверждённая бронь. В этой схеме на каждую новую попытку после истечения резерва создаём новый заказ и новый счёт. Это нужно, чтобы запоздалая оплата старого счёта не подтвердила новый резерв, даже если его занял тот же человек.</p><h3>Что должно успеть до оплаты</h3><p>Передаём в счёт идентификатор заказа в поле <code>payload</code>. В <code>pre_checkout_query</code> Telegram возвращает его как <code>invoice_payload</code>. По нему бот находит запись, проверяет плательщика, сумму и валюту <code>XTR</code>, затем пытается временно занять связанный слот. Если слот уже занят, бот отвечает <code>ok: false</code> и объясняет причину: «Это время уже заняли. Выберите другой слот».</p><p>Бот должен успеть ответить через <code>answerPreCheckoutQuery</code> за 10 секунд с момента, когда Telegram отправил запрос. В этот бюджет входят доставка обновления, работа базы и вызов API. Поэтому синхронизацию с внешним календарём и уведомления выносим за пределы проверки. Если база не успела подтвердить резерв, не отправляем <code>ok: true</code>; короткий тайм-аут блокировки помогает оставить время на явный отказ.</p><h3>Резервируем слот под блокировкой строки</h3><p>У каждого слота одна строка. Внутри короткой транзакции в PostgreSQL сначала блокируем её через <code>SELECT … FOR UPDATE</code>, затем отдельной командой пытаемся поставить резерв. Вторая команда выполняется только если первая нашла слот. Условие разрешает занять свободный слот или заменить истёкший резерв, пока окончательной брони ещё нет.</p><pre><code class=\"sql\">SELECT id FROM slots WHERE id = $1 FOR UPDATE;</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><pre><code class=\"sql\">UPDATE slots\nSET hold_order_id = $1,\n    hold_until = statement_timestamp() + interval '5 minutes'\nWHERE id = $2\n  AND booked_order_id IS NULL\n  AND (hold_order_id IS NULL OR hold_until &lt;= statement_timestamp())\nRETURNING id, hold_until;</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>В <code>SELECT</code> передаём только ID слота. В <code>UPDATE</code> <code>$1</code> — ID заказа, <code>$2</code> — ID слота. В режиме <code>READ COMMITTED</code> второй покупатель дождётся завершения первой транзакции, увидит действующий резерв и не получит строки из <code>RETURNING</code>. В рабочем боте нужно также проверить, что время консультации ещё не наступило.</p><p>Почему две отдельные команды? <code>statement_timestamp()</code> фиксируется при получении команды сервером. Если взять это время до ожидания блокировки, решение о сроке резерва может опираться на устаревшие часы. Здесь время берётся после захвата строки, а одно и то же значение используется и для проверки срока, и для расчёта нового. Пять минут — условный срок резерва в приложении; это не срок доставки платежа, обещанный Telegram.</p><p>В той же транзакции сохраняем результат под уникальным <code>pre_checkout_query.id</code>. В полной схеме сначала блокируем заказ, затем слот; этого порядка придерживаемся и при подтверждении оплаты. Резерв может получить только заказ, по которому ещё не было одобрения. Повтор того же запроса читает сохранённое решение и не продлевает резерв. Положительный ответ можно повторить, только пока резерв действителен и ответ ещё имеет смысл в пределах срока Telegram. Другой запрос с тем же заказом не захватывает слот повторно. Если резерв истёк, покупателю нужен новый счёт, даже если слот снова свободен.</p><p>Сначала фиксируем резерв и решение в базе, затем отвечаем Telegram. При тайм-ауте ответа бот не знает, получил ли Telegram подтверждение. Не освобождаем резерв досрочно только из-за этого тайм-аута. Если платёж придёт после его истечения, обрабатываем его по отдельному правилу.</p><h3>Окончательно бронируем по successful_payment</h3><p><code>ok: true</code> разрешает продолжить оплату, но ещё не означает, что она прошла. Когда приходит <code>message.successful_payment</code>, снова сверяем заказ, сумму, валюту и плательщика. При расхождении сохраняем факт оплаты для ручной сверки, бронь не выдаём. Запись платежа по уникальному <code>telegram_payment_charge_id</code> (в общей таблице — вместе с ID бота) и решение по брони сохраняем в одной транзакции. Повтор того же платежа не создаёт вторую бронь или вторую задачу на возврат.</p><p>Под блокировкой заказа и слота проверяем, что действующий резерв всё ещё принадлежит этому заказу и у него нет принятой оплаты. Срок проверяем по времени базы после захвата блокировки. Если условия выполнены, резерв становится бронью. Платёж с другим ID по уже оплаченному заказу — отдельное списание, его обрабатываем как переплату. Платёж по истёкшему резерву записываем на возврат, даже если слот снова свободен. Это выбранное правило примера: оно упрощает поддержку и не позволяет старой оплате забрать место у нового покупателя.</p><p>Задачу на возврат сохраняем в той же транзакции, что и платёж, а <code>refundStarPayment</code> вызываем после коммита по ID плательщика и платежа. При тайм-ауте держим статус «возврат проверяется». Сверить результат можно по записи возврата в <code>getStarTransactions</code>: у неё тот же ID, что у исходной операции, поэтому одного совпадения ID мало — нужно проверить, что это именно исходящий возврат. Пользователю показываем «Возврат завершён» после подтверждения.</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Событие</p></th><th><p align=\"left\">Ожидаемый результат</p></th></tr><tr><td><p align=\"left\">Два разных заказа одновременно проходят <code>pre_checkout_query</code> для одного слота</p></td><td><p align=\"left\">Только один получает действующий резерв; второй получает отказ</p></td></tr><tr><td><p align=\"left\">То же обновление доставлено дважды</p></td><td><p align=\"left\">Повтор не создаёт новый резерв и не увеличивает срок старого</p></td></tr><tr><td><p align=\"left\"><code>successful_payment</code> приходит дважды для одного платежа</p></td><td><p align=\"left\">Одна запись оплаты, одно решение по брони</p></td></tr><tr><td><p align=\"left\">У первого заказа истёк резерв, второй уже занял слот, затем пришла оплата первого</p></td><td><p align=\"left\">Бронь второго сохранена; оплата первого зафиксирована для возврата</p></td></tr><tr><td><p align=\"left\">Первый покупатель забронировал тот же слот новым заказом, затем прошла оплата старого</p></td><td><p align=\"left\">Старый платёж не подтверждает новый резерв</p></td></tr><tr><td><p align=\"left\">Вызов <code>answerPreCheckoutQuery</code> оборвался по тайм-ауту</p></td><td><p align=\"left\">Резерв не снимается досрочно; система ждёт платёж или истечение срока</p></td></tr></tbody></table></div></div><h3>Как воспроизвести гонку в двух сессиях</h3><p>В отдельной тестовой базе создадим общую для двух сессий таблицу и одну строку. <code>TEMP TABLE</code> здесь не подойдёт: вторая сессия её не увидит.</p><pre><code class=\"sql\">CREATE TABLE slots (\n    id bigint PRIMARY KEY,\n    hold_order_id bigint,\n    hold_until timestamptz,\n    booked_order_id bigint\n);\nINSERT INTO slots (id) VALUES (1);</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><ol><li><p>В сессии A выполните <code>BEGIN ISOLATION LEVEL READ COMMITTED;</code>, затем <code>SELECT id FROM slots WHERE id = 1 FOR UPDATE;</code> и <code>UPDATE</code> из примера с <code>$1 = 101</code>, <code>$2 = 1</code>. Запрос вернёт одну строку. Пока не делайте коммит.</p></li><li><p>В сессии B откройте такую же транзакцию и запустите тот же <code>SELECT … FOR UPDATE</code>. Он будет ждать. Сделайте <code>COMMIT;</code> в A. Теперь запрос в B завершится, и B получит блокировку.</p></li><li><p>В B выполните <code>UPDATE</code> с <code>$1 = 102</code>, <code>$2 = 1</code>. Пока резерв A действует, <code>RETURNING</code> вернёт ноль строк. Закройте транзакцию в B. Если подставляете значения вручную в <code>psql</code>, замените <code>$1</code> и <code>$2</code> числами перед выполнением.</p></li></ol><p>Этот опыт проверяет конкуренцию за слот без реальных списаний. Позднюю оплату проверяем отдельно: заводим два заказа на один слот, переводим резерв с первого на второй после истечения срока и отправляем тестовое событие по старому <code>invoice_payload</code>. Ожидаем, что второй резерв останется цел, а первый платёж попадёт в очередь на возврат.</p><p><strong>Источники:</strong> <a href=\"https://core.telegram.org/bots/payments-stars\" rel=\"noopener nofollow\">Telegram: платежи за цифровые услуги</a>, <a href=\"https://core.telegram.org/bots/api#answerprecheckoutquery\" rel=\"noopener nofollow\"><code>answerPreCheckoutQuery</code></a>, <a href=\"https://core.telegram.org/bots/api#successfulpayment\" rel=\"noopener nofollow\"><code>SuccessfulPayment</code></a>, <a href=\"https://core.telegram.org/bots/api#refundstarpayment\" rel=\"noopener nofollow\"><code>refundStarPayment</code></a>, <a href=\"https://core.telegram.org/bots/api#startransaction\" rel=\"noopener nofollow\"><code>StarTransaction</code></a>, <a href=\"https://www.postgresql.org/docs/current/explicit-locking.html#LOCKING-ROWS\" rel=\"noopener nofollow\">PostgreSQL: блокировки строк</a>, <a href=\"https://www.postgresql.org/docs/current/functions-datetime.html#FUNCTIONS-DATETIME-CURRENT\" rel=\"noopener nofollow\">PostgreSQL: функции времени</a>.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "Telegram Bot API"
+    },
+    {
+      "titleHtml": "Telegram Stars"
+    },
+    {
+      "titleHtml": "PostgreSQL"
+    },
+    {
+      "titleHtml": "бронирование"
+    },
+    {
+      "titleHtml": "блокировка строк"
+    },
+    {
+      "titleHtml": "платежи"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105630/5484d10fc06361048352ecc3613473af/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105630/5484d10fc06361048352ecc3613473af/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105630\\/\"},\"headline\":\"Один слот, два покупателя: как избежать двойной брони в Telegram-боте\",\"datePublished\":\"2026-11-09T19:46:13+03:00\",\"dateModified\":\"2026-11-10T18:52:37+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"У бота остался один слот на онлайн-консультацию: четверг, 18:00. Два клиента нажимают «Оплатить» почти одновременно. Оба обработчика видят в базе свободный слот...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105630\\/#post-content-body\",\"about\":[\"h_instant_messaging\",\"h_postgresql\",\"h_pay_system\",\"f_develop\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105630\\/5484d10fc06361048352ecc3613473af\\/\"]}",
+    "metaDescription": "У бота остался один слот на онлайн-консультацию: четверг, 18:00. Два клиента нажимают «Оплатить» почти одновременно. Оба обработчика видят в базе свободный слот и разрешают оплату. Telegram не знает,...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

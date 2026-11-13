@@ -1,0 +1,185 @@
+{
+  "id": "1105390",
+  "timePublished": "2026-11-09T09:18:30+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "VK Education запустил курс‑сериал про старт карьеры в IT",
+  "leadData": {
+    "textHtml": "<p>VK Education запускает бесплатный <a href=\"https://education.vk.company/it_series/\" rel=\"noopener nofollow\">асинхронный курс‑сериал</a> для&nbsp;студентов. Он познакомит с&nbsp;разработкой, искусственным интеллектом и продакт‑менеджментом. После просмотра серий студенты смогут закрепить знания на&nbsp;практике и попробовать свои силы в&nbsp;решении реальных задач, рассказали Хабру в&nbsp;пресс‑службе компании.</p>",
+    "imageUrl": "https://habrastorage.org/extt/9f/73/66/9f736682f65432593326fe5642c3ee8c.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/9f/73/66/9f736682f65432593326fe5642c3ee8c.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3000027",
+    "alias": "LizzieSimpson",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/87d/321/950/87d321950490400be5d296976a5747d0.png",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 97,
+      "votesCount": 429
+    },
+    "rating": 320.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 3,
+    "readingCount": 560,
+    "score": 2,
+    "votesCount": 2,
+    "votesCountPlus": 1,
+    "votesCountMinus": 1,
+    "reach": 5913,
+    "readers": 448
+  },
+  "hubs": [
+    {
+      "id": "20696",
+      "alias": "study",
+      "type": "collective",
+      "title": "Учебный процесс в IT",
+      "titleHtml": "Учебный процесс в IT",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20740",
+      "alias": "career",
+      "type": "collective",
+      "title": "Карьера в IT-индустрии",
+      "titleHtml": "Карьера в IT-индустрии",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22026",
+      "alias": "itcompanies",
+      "type": "collective",
+      "title": "IT-компании",
+      "titleHtml": "IT-компании",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/9f/73/66/9f736682f65432593326fe5642c3ee8c.jpg\" width=\"1700\" height=\"956\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/9f/73/66/9f736682f65432593326fe5642c3ee8c.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/9f/73/66/9f736682f65432593326fe5642c3ee8c.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>VK Education запускает бесплатный <a href=\"https://education.vk.company/it_series/\" rel=\"noopener nofollow\">асинхронный курс‑сериал</a> для студентов. Он познакомит с разработкой, искусственным интеллектом и продакт‑менеджментом. После просмотра серий студенты смогут закрепить знания на практике и попробовать свои силы в решении реальных задач, рассказали Хабру в пресс‑службе компании.</p><p>Курс‑сериал «Лабиринт возможностей» рассказывает истории трёх студентов, которые решают создать AI‑ассистента для улучшения резюме. Каждый отвечает за своё направление и вместе с экспертами работает над частью общего цифрового продукта. В каждой серии специалисты VK разбирают реальные бизнес‑задачи и объясняют подходы к их решению. Участники смогут закрепить знания на практике, выполнить задания и проверить себя с помощью интерактивных тестов. По итогам курса они смогут создать собственный проект для портфолио и получить представление о работе IT‑команд.</p><p>«Мы соединили формат сериала с практическими заданиями, чтобы студенты могли увидеть, как разработчики, специалисты по искусственному интеллекту и продакты решают реальные бизнес‑задачи, и попробовать свои силы в каждом из этих направлений. Мы рассчитываем, что такой формат курса‑сериала найдёт живой отклик у студентов», — отметил руководитель направления образовательных проектов VK Кирилл Богатырёв.</p><p>Присоединиться к просмотру и выполнению заданий можно в любое время. Регистрация <a href=\"https://vk.cc/d3Bx7L\" rel=\"noopener nofollow\">доступна</a> на платформе VK Education.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "vk"
+    },
+    {
+      "titleHtml": "vk education"
+    },
+    {
+      "titleHtml": "карьера ит-специалиста"
+    },
+    {
+      "titleHtml": "карьера в it"
+    },
+    {
+      "titleHtml": "карьера в it-индустрии"
+    },
+    {
+      "titleHtml": "учебный процесс в ит"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105390/cbe1a8bbadf676892b25e1c0c3a74262/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105390/cbe1a8bbadf676892b25e1c0c3a74262/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105390\\/\"},\"headline\":\"VK Education запустил курс‑сериал про старт карьеры в IT\",\"datePublished\":\"2026-11-09T12:18:30+03:00\",\"dateModified\":\"2026-11-09T13:05:19+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"VK Education запускает бесплатный асинхронный курс‑сериал для&nbsp;студентов. Он познакомит с&nbsp;разработкой, искусственным интеллектом и...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105390\\/#post-content-body\",\"about\":[\"h_study\",\"h_career\",\"h_itcompanies\",\"f_management\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/9f\\/73\\/66\\/9f736682f65432593326fe5642c3ee8c.jpg\"]}",
+    "metaDescription": "VK Education запускает бесплатный асинхронный курс‑сериал для&nbsp;студентов. Он познакомит с&nbsp;разработкой, искусственным интеллектом и продакт‑менеджментом. После просмотра серий студенты смогут...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

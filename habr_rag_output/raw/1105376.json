@@ -1,0 +1,176 @@
+{
+  "id": "1105376",
+  "timePublished": "2026-11-09T13:46:43+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "На Хабре теперь одна лента для статей, новостей и постов",
+  "leadData": {
+    "textHtml": "<p>Привет, Хабр!</p><p>Мы объединяем статьи, новости и посты в&nbsp;один тип публикации&nbsp;— статью. Отдельные ленты уступают место общей, а&nbsp;различать материалы и выбирать, что&nbsp;читать, помогут форматы.</p><p>Рассказываем, зачем это понадобилось и как&nbsp;теперь будут устроены публикации.</p>",
+    "imageUrl": "https://habrastorage.org/extt/65/92/fd/6592fd99d99bf5ed966bf908f0733fa2.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/65/92/fd/6592fd99d99bf5ed966bf908f0733fa2.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "1524559",
+    "alias": "Nomad_77",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/5bb/0cf/1b8/5bb0cf1b8624f0f430f8b77e64750dc7.jpg",
+    "speciality": "Product manager at habr.com",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 173,
+      "votesCount": 215
+    },
+    "rating": 2.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": {
+      "careerProfileLink": "https://career.habr.com/nomad_77?utm_source=habr&utm_medium=profile_header&utm_campaign=button_habr_career",
+      "expertProfileLink": "https://career.habr.com/nomad_77?utm_source=habr&utm_medium=profile_header&utm_campaign=button_experts"
+    },
+    "isShowScores": true,
+    "reach": "64K+"
+  },
+  "statistics": {
+    "commentsCount": 167,
+    "favoritesCount": 17,
+    "readingCount": 7949,
+    "score": 3,
+    "votesCount": 83,
+    "votesCountPlus": 27,
+    "votesCountMinus": 56,
+    "reach": 94017,
+    "readers": 4118
+  },
+  "hubs": [
+    {
+      "id": "5402",
+      "alias": "habr",
+      "type": "corporative",
+      "title": "Блог компании Хабр",
+      "titleHtml": "Блог компании Хабр",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "161",
+      "alias": "habr",
+      "type": "collective",
+      "title": "Habr",
+      "titleHtml": "Habr",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "4",
+      "alias": "marketing",
+      "title": "Маркетинг",
+      "titleHtml": "Маркетинг"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/9a/db/62/9adb62f950ee2bca533dbef25e4f13a9.png\" width=\"1672\" height=\"941\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/9a/db/62/9adb62f950ee2bca533dbef25e4f13a9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/9a/db/62/9adb62f950ee2bca533dbef25e4f13a9.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Привет, Хабр!</p><p>Мы объединяем статьи, новости и посты в один тип публикации — статью. Отдельные ленты уступают место общей, а различать материалы и выбирать, что читать, помогут форматы.</p><p>Рассказываем, зачем это понадобилось и как теперь будут устроены публикации.</p><h3>Почему мы решили их объединить</h3><p>Раньше перед публикацией автору нужно было ответить на вопрос: «Это статья, новость или пост?» Иногда ответ очевиден. Но что выбрать, если вы рассказываете о новом релизе и добавляете собственные выводы? Или делитесь коротким решением технической задачи? А если новость требует подробного разбора?</p><p>Границы между типами оказались размытыми. Авторам приходилось разбираться в устройстве Хабра, чтобы выбрать место для своего текста. Читателям — переключаться между лентами, хотя интересующая их тема могла обсуждаться в каждой из них.</p><p>Мы хотим сделать этот путь проще: вы пишете материал, он появляется в общей ленте, а формат помогает понять, что ждёт читателя.</p><h3>Один тип публикации, разные форматы</h3><p>Теперь статья — общее название для публикаций на Хабре. Она может быть короткой заметкой, пошаговой инструкцией, подробным разбором или рассказом о собственном опыте.</p><p>Для этих различий есть форматы. Кейс поможет обозначить рассказ о решённой задаче, туториал — инструкцию, обзор — разбор инструмента или продукта, мнение — авторскую позицию. Также остаются роадмэп, ретроспектива, FAQ, интервью, дайджест, репортаж и аналитика.</p><p>К ним добавляется <strong>пост — формат для материалов, которые можно быстро прочитать</strong>.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/85/51/22/855122e9664b72dbcf882c822e84b614.png\" width=\"920\" height=\"446\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/85/51/22/855122e9664b72dbcf882c822e84b614.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/85/51/22/855122e9664b72dbcf882c822e84b614.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Что теперь считается постом</h3><p>Постом может стать короткое сообщение о событии, наблюдение, небольшой разбор или полезная находка. Главный признак этого формата — небольшой объём и время чтения.</p><p>Формат «Пост» определяется автоматически. Автору не нужно отдельно выбирать его перед публикацией: система учитывает объём текста и расчётное время чтения. При редактировании материала формат пересматривается.</p><p>Поэтому большинство текстов, которые раньше выходили как новости, в новой системе станут постами. При этом подробный материал о событии может быть обзором, аналитикой или другим подходящим форматом.</p><h3>Куда денутся новости</h3><p>О событиях, релизах, открытиях и изменениях в индустрии по‑прежнему можно будет писать на Хабре. Исчезает отдельный тип публикации «Новость» и отдельная лента для него.</p><p>Короткое сообщение о выходе новой версии библиотеки станет постом. Подробный разбор изменений и их влияния на ваш проект сможет выйти в формате обзора. Выбирать между новостью и статьёй перед началом работы больше не потребуется.</p><h3>Как выбирать, что читать</h3><p>Материалы будут собраны в общей ленте. В ней появится фильтр по форматам: можно оставить посты для быстрого чтения, выбрать туториалы и кейсы или смотреть всё вместе.</p><p>Так читатель сможет настроить ленту под свои интересы и время, а автор — сосредоточиться на том, чем хочет поделиться.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ab/a7/eb/aba7eb9a7b8c10ac7111a3991a10605e.png\" width=\"1552\" height=\"1062\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ab/a7/eb/aba7eb9a7b8c10ac7111a3991a10605e.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ab/a7/eb/aba7eb9a7b8c10ac7111a3991a10605e.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>На момент публикации мы ещё завершаем миграции для постов, так что старые посты ещё какое‑то время могут отображаться по‑старому</p><p>Попробуйте новый подход и расскажите в комментариях, стало ли проще публиковать материалы и находить интересное.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "хабр"
+    },
+    {
+      "titleHtml": "статьи"
+    },
+    {
+      "titleHtml": "посты"
+    },
+    {
+      "titleHtml": "ленты"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105376/a89392096d0b407894c16880e95439c5/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105376/a89392096d0b407894c16880e95439c5/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/habr\\/articles\\/1105376\\/\"},\"headline\":\"На Хабре теперь одна лента для статей, новостей и постов\",\"datePublished\":\"2026-11-09T16:46:43+03:00\",\"dateModified\":\"2026-11-09T16:54:55+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Привет, Хабр! Мы объединяем статьи, новости и посты в&nbsp;один тип публикации&nbsp;— статью. Отдельные ленты уступают место общей, а&nbsp;различать материалы и...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/habr\\/articles\\/1105376\\/#post-content-body\",\"about\":[\"c_habr\",\"h_habr\",\"f_marketing\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/9a\\/db\\/62\\/9adb62f950ee2bca533dbef25e4f13a9.png\",\"https:\\/\\/habrastorage.org\\/extt\\/85\\/51\\/22\\/855122e9664b72dbcf882c822e84b614.png\",\"https:\\/\\/habrastorage.org\\/extt\\/ab\\/a7\\/eb\\/aba7eb9a7b8c10ac7111a3991a10605e.png\"]}",
+    "metaDescription": "Привет, Хабр! Мы объединяем статьи, новости и посты в&nbsp;один тип публикации&nbsp;— статью. Отдельные ленты уступают место общей, а&nbsp;различать материалы и выбирать, что&nbsp;читать, помогут...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": true,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

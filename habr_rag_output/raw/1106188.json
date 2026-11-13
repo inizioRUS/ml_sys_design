@@ -1,0 +1,200 @@
+{
+  "id": "1106188",
+  "timePublished": "2026-11-10T14:46:30+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Маскот для Claude Code: как узнать, что ассистент ждёт ответа, и не пропустить уведомление на Windows",
+  "leadData": {
+    "textHtml": "<p>Я часто даю Claude Code длинную задачу и ухожу в соседнее окно. Через десять-пятнадцать минут возвращаюсь и вижу, что он давно упёрся в вопрос «можно выполнить эту команду?» и всё это время просто ждал. Системное уведомление Windows, конечно, показывалось, но на пять секунд в углу, пока я смотрел в другую сторону.</p><p>Подсказывать себе таймером не хотелось, нужна была штука, которую невозможно не заметить. В итоге получился маскот: маленький оранжевый человечек, который выглядывает из правого нижнего угла экрана, а если его игнорировать, выходит целиком, краснеет и начинает топать по панели задач. Ниже расскажу, как это устроено. Основные сложности оказались не в анимации, а в двух вещах: как вообще узнать, что Claude ждёт, и как нарисовать окно, которое видно поверх всего, но ничему не мешает.</p>",
+    "imageUrl": "https://habrastorage.org/extt/f1/2b/7e/f12b7e501fb6662c6cf594a1d43b811f.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/f1/2b/7e/f12b7e501fb6662c6cf594a1d43b811f.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "1256690",
+    "alias": "OlegChe77",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/extt/cf/fd/60/cffd60f2eebedc14484f08b76522f4ba.png",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 5,
+      "votesCount": 7
+    },
+    "rating": 50,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 8,
+    "readingCount": 360,
+    "score": 6,
+    "votesCount": 3,
+    "votesCountPlus": 3,
+    "votesCountMinus": 0,
+    "reach": 9014,
+    "readers": 273
+  },
+  "hubs": [
+    {
+      "id": "21456",
+      "alias": "win_dev",
+      "type": "collective",
+      "title": "Windows",
+      "titleHtml": "Windows",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17110",
+      "alias": "nodejs",
+      "type": "collective",
+      "title": "Node.JS",
+      "titleHtml": "Node.JS",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Я часто даю Claude Code длинную задачу и ухожу в соседнее окно. Через десять-пятнадцать минут возвращаюсь и вижу, что он давно упёрся в вопрос «можно выполнить эту команду?» и всё это время просто ждал. Системное уведомление Windows, конечно, показывалось, но на пять секунд в углу, пока я смотрел в другую сторону.</p><p>Подсказывать себе таймером не хотелось, нужна была штука, которую невозможно не заметить. В итоге получился маскот: маленький оранжевый человечек, который выглядывает из правого нижнего угла экрана, а если его игнорировать, выходит целиком, краснеет и начинает топать по панели задач. Ниже расскажу, как это устроено. Основные сложности оказались не в анимации, а в двух вещах: как вообще узнать, что Claude ждёт, и как нарисовать окно, которое видно поверх всего, но ничему не мешает.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/extt/00/b0/45/00b045f86b6ccff69af543170858c4b3.gif\" width=\"640\" height=\"253\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/extt/00/b0/45/00b045f86b6ccff69af543170858c4b3.gif 780w,&#10;       https://habrastorage.org/extt/00/b0/45/00b045f86b6ccff69af543170858c4b3.gif 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Код открыт, MIT: <a href=\"https://github.com/OlegChe77/claude-mascot\" rel=\"noopener nofollow\">https://github.com/OlegChe77/claude-mascot</a>. Стек: Electron и немного WinAPI через koffi.</p><h3>Как узнать, что Claude ждёт</h3><p>Это главный вопрос, и ответ зависит от того, чем вы пользуетесь.</p><h4>Claude Code в терминале: хуки</h4><p>У Claude Code есть хуки: в ~/.claude/settings.json можно описать команду, которую запустят на определённом событии, а на stdin ей придёт JSON с описанием. Нужное событие называется Notification: оно срабатывает, когда Claude хочет привлечь внимание. Хук можно сделать совсем лёгким:</p><pre><code class=\"json\">{\n  \"hooks\": {\n    \"Notification\": [\n      { \"hooks\": [ { \"type\": \"command\",\n        \"command\": \"curl -s -m 2 --data-binary @- http://127.0.0.1:47821/hook || exit 0\" } ] }\n    ]\n  }\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Программа слушает HTTP на 127.0.0.1:47821, и хук просто отправляет ей то, что пришло на stdin. Часть || exit 0 нужна для того, чтобы при незапущенном маскоте команда молча завершалась с нулём: иначе у Claude Code на каждом событии вылезала бы ошибка хука. Заодно такая команда одинаково работает и в bash, и в cmd.</p><p>Запросы с заголовком Origin сервер отбрасывает. Это защита от того, чтобы произвольная веб-страница в браузере не могла постучаться в локальный порт и вызвать маскота. Ничего критичного там нет, но привычка проверять такие вещи не повредила.</p><h4>Десктопный Claude: события, которых нет</h4><p>С терминальной версией всё просто. Десктопное приложение (вкладка Code) устроено хитрее: когда оно просит разрешение на инструмент или задаёт вопрос, событие Notification оно не отправляет. Об этом я узнал не сразу, потому что в терминале всё работало, а на десктопе маскот молчал.</p><p>Пришлось добавить ещё два события. PermissionRequest ловит запрос разрешения, а PreToolUse с matcher AskUserQuestion|ExitPlanMode ловит инструменты, которые сами задают вопрос или просят утвердить план. Есть и необязательный Stop, он срабатывает после каждого ответа, кому-то это нужно.</p><p>Хуки маскот ставит сам при запуске. Перед записью он кладёт рядом копию settings.json.mascot-*.bak (хранятся пять последних) и не трогает чужие хуки. Ещё нюанс: уже открытые сессии могут не подхватить новые хуки до перезапуска, поэтому для десктопа нужен второй источник сигнала.</p><h4>Уведомления Windows как источник правды</h4><p>Второй источник — сами уведомления. Windows пишет каждую всплывающую плашку в SQLite-базу %LOCALAPPDATA%\\Microsoft\\Windows\\Notifications\\wpndatabase.db. Достаточно раз в секунду открывать её на чтение и смотреть, не появилась ли запись с идентификатором приложения вида Claude_*!Claude:</p><pre><code class=\"javascript\">const { DatabaseSync } = require('node:sqlite');\nconst db = new DatabaseSync(DB, { readOnly: true });\nconst ids = db.prepare(\n  \"select PrimaryId as id from NotificationHandler where PrimaryId glob 'Claude_*!Claude'\"\n).all();</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Модуль node:sqlite встроен в Node, поэтому нативных зависимостей и сборки не потребовалось. Такой способ работает и для уже запущенного Claude, ничего в него не внедряя.</p><h3>Окно, которое видно, но не мешает</h3><p>Это вторая половина задачи. Нужно окно, которое:</p><ul><li><p>прозрачное и без рамки;</p></li><li><p>лежит поверх всех окон, в том числе полноэкранных приложений;</p></li><li><p>не появляется в панели задач;</p></li><li><p>не забирает фокус (иначе во время набора текста ввод уйдёт в маскота);</p></li><li><p>пропускает клики на всё, кроме самого маскота.</p></li></ul><p>В Electron большая часть этого — настройки BrowserWindow:</p><pre><code class=\"javascript\">win = new BrowserWindow({\n  frame: false, transparent: true, backgroundColor: '#00000000', hasShadow: false,\n  skipTaskbar: true, alwaysOnTop: true, focusable: false,\n  /* ... */\n});\nwin.setAlwaysOnTop(true, 'screen-saver');\nwin.setIgnoreMouseEvents(true, { forward: true });</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Самое интересное — последняя строка. setIgnoreMouseEvents(true, { forward: true }) делает окно «прозрачным» для кликов, но продолжает пересылать события движения мыши странице. Поэтому страница узнаёт, что курсор наведён на маскота (событие mouseenter), и тогда клики включаются обратно; когда курсор уходит, снова выключаются. Без этого пришлось бы вычислять форму окна вручную.</p><p>Окно растянуто на всю ширину рабочей области и имеет высоту 190 пикселей над панелью задач. Маскот просто «стоит» на панели задач, а сама анимация с топаньем и паром из головы — обычный SVG и CSS. Звук тоже ничего не весит: через WebAudio синтезируется «бормотание», а рот открывается по слогам. Чтобы звук играл без жеста пользователя, пришлось включить autoplayPolicy: 'no-user-gesture-required'.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0f/fb/fd/0ffbfdaab227097a8094961ac7e857f4.png\" width=\"760\" height=\"300\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0f/fb/fd/0ffbfdaab227097a8094961ac7e857f4.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0f/fb/fd/0ffbfdaab227097a8094961ac7e857f4.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h4>Что делает koffi</h4><p>Чтобы понять, активно ли окно Claude, и вернуть его на передний план по клику, нужен WinAPI: GetForegroundWindow, поиск окна, SetForegroundWindow. Для этого я взял koffi: он вызывает функции из user32.dll без нативной сборки и без node-gyp. Правило «Claude активен» простое: процесс claude.exe или слово «claude» в заголовке окна. Если оно спрятано в трей, клик запускает claude.exe ещё раз, и приложение разворачивает существующее окно.</p><p>Активное окно опрашивается каждые 300 мс. Для таймера такой частоты нагрузка незаметна.</p><h3>Уведомления Windows мешают сами себе</h3><p>Если маскот показывается, а Windows параллельно рисует обычную плашку, получается два напоминания сразу, и это раздражает. Поэтому есть опция «Заменять плашку Claude маскотом», включённая по умолчанию. Она выключает баннеры только для Claude. Для этого в реестре ставится ShowBanner = 0 в HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Notifications\\Settings\\&lt;AUMID&gt;. Записи в центре уведомлений при этом остаются, и база wpndatabase.db продолжает пополняться, так что маскот их по-прежнему видит.</p><p>Тут важно вернуть всё как было. Прежнее значение (или факт, что значения не было) сохраняется в конфиге и возвращается при выключении опции, при выходе, при завершении сеанса Windows и при следующем старте, если программа до этого упала. Прямо в реестр я пишу через reg.exe, так проще, чем тянуть ещё одну зависимость.</p><h3>Поведение</h3><p>Сценарий взят из небольшого HTML-демо, которое я нарисовал раньше самой программы, чтобы отладить характер:</p><ol><li><p>Три выглядывания из угла, в каждом по три фразы, пауза между выглядываниями 7 секунд. В первых двух маскот спокоен, на третьем хмурится.</p></li><li><p>Потом он выходит целиком на 20 секунд: краснеет, ходит по низу экрана, топает, трясёт кулаками.</p></li><li><p>Уходит и повторяет всё заново, пока пользователь не откликнется.</p></li><li><p>Как только окно Claude стало активным или вы кликнули по маскоту, он убегает, цикл сбрасывается.</p></li></ol><p>Фразы выбираются случайно, без повторов подряд.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/extt/4f/6f/7c/4f6f7c166b495c2225c72419b2407f71.gif\" width=\"960\" height=\"150\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/extt/4f/6f/7c/4f6f7c166b495c2225c72419b2407f71.gif 780w,&#10;       https://habrastorage.org/extt/4f/6f/7c/4f6f7c166b495c2225c72419b2407f71.gif 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Обновления</h3><p>Программа собирается electron-builder в установщик NSIS и portable-файл. Установщик использует electron-updater с GitHub Releases: проверка через 15 секунд после запуска и потом раз в 6 часов, новая версия скачивается в фоне и ставится при перезапуске. Portable заменить себя не может (он запущен из временной распаковки), поэтому только сообщает о новой версии и открывает страницу выпуска.</p><p>Выпуск делается тегом v&lt;версия&gt;: GitHub Actions собирает и публикует релиз. Тут была своя ловушка: electron-builder загружает файлы параллельно и иногда создаёт дубли релиза, так что workflow сначала создаёт релиз командой gh release create, а потом уже отправляет файлы.</p><p>Автозапуск для portable тоже оказался с подвохом: process.execPath указывает на временную папку распаковки, поэтому путь берётся из переменной PORTABLE_EXECUTABLE_FILE и перерегистрируется при каждом старте.</p><h3>Что в меню</h3><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/b0/77/c3/b077c39fb9907ce151cb13a97091a825.png\" width=\"400\" height=\"430\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b0/77/c3/b077c39fb9907ce151cb13a97091a825.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/b0/77/c3/b077c39fb9907ce151cb13a97091a825.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Размер (1, 1.5, 2; по умолчанию 1.5), звук, автозапуск, язык (русский, английский или как в Windows), все переключатели сигналов, проверка обновлений. Для страховки есть пункт «Показать тест».</p><h3>Установка</h3><p>Ставить нужно либо установщик, либо один portable-файл. Оба на странице релиза:</p><ul><li><p><a href=\"https://github.com/OlegChe77/claude-mascot/releases/latest\" rel=\"noopener nofollow\">https://github.com/OlegChe77/claude-mascot/releases/latest</a></p></li><li><p>исходники: <a href=\"https://github.com/OlegChe77/claude-mascot\" rel=\"noopener nofollow\">https://github.com/OlegChe77/claude-mascot</a></p></li></ul><p>Программа бесплатная, MIT. Если у вас есть идеи, какие ещё события Claude стоит ловить или какие фразы добавить, пишите в комментариях или создавайте Issue.</p><ul><li></li></ul></div>",
+  "tags": [
+    {
+      "titleHtml": "electron"
+    },
+    {
+      "titleHtml": "claude"
+    },
+    {
+      "titleHtml": "claudecode"
+    },
+    {
+      "titleHtml": "windows"
+    },
+    {
+      "titleHtml": "уведомления"
+    },
+    {
+      "titleHtml": "sqlite"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106188/7eb4db51ec9b90f3124dab138dfc3ba6/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106188/7eb4db51ec9b90f3124dab138dfc3ba6/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106188\\/\"},\"headline\":\"Маскот для Claude Code: как узнать, что ассистент ждёт ответа, и не пропустить уведомление на Windows\",\"datePublished\":\"2026-11-10T17:46:30+03:00\",\"dateModified\":\"2026-11-10T17:46:30+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Я часто даю Claude Code длинную задачу и ухожу в соседнее окно. Через десять-пятнадцать минут возвращаюсь и вижу, что он давно упёрся в вопрос «можно выполнить...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106188\\/#post-content-body\",\"about\":[\"h_win_dev\",\"h_nodejs\",\"h_open_source\",\"h_artificial_intelligence\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/00\\/b0\\/45\\/00b045f86b6ccff69af543170858c4b3.gif\",\"https:\\/\\/habrastorage.org\\/extt\\/0f\\/fb\\/fd\\/0ffbfdaab227097a8094961ac7e857f4.png\",\"https:\\/\\/habrastorage.org\\/extt\\/4f\\/6f\\/7c\\/4f6f7c166b495c2225c72419b2407f71.gif\",\"https:\\/\\/habrastorage.org\\/extt\\/b0\\/77\\/c3\\/b077c39fb9907ce151cb13a97091a825.png\"]}",
+    "metaDescription": "Я часто даю Claude Code длинную задачу и ухожу в соседнее окно. Через десять-пятнадцать минут возвращаюсь и вижу, что он давно упёрся в вопрос «можно выполнить эту команду?» и всё это время просто...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,182 @@
+{
+  "id": "1106232",
+  "timePublished": "2026-11-10T16:41:51+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Алгоритм поиска областей по точкам в 2D-пространстве",
+  "leadData": {
+    "textHtml": "<p>Изначальной задачей являлось определение конкретной области 2-х мерного пространства, которой принадлежит произвольная заданная точка, при условии наличия некоторой коллекции таких областей. Каждая область определяется двумя точками: начальной – P0, и конечной – P1 (рисунок 1). Вопрос заключался в том, каким образом организовать хранение и навигацию по данной коллекции для минимизации издержек и повышения производительности. Дополнительным условием, немного упрощающим реализацию алгоритма, являлась однозначность соответствия точек и областей, иными словами – области не пересекаются.</p><p>Наивная реализация предполагает создание массива, по которому можно осуществить поиск через простой перебор областей до момента нахождения искомой. Более продвинутая реализация, позволяющая сэкономить вычислительные ресурсы, в свою очередь, может базироваться на концепции KD-деревьев, о чем и будет рассказано в данной статье. </p>",
+    "imageUrl": "https://habrastorage.org/extt/b3/84/d0/b384d087051da2a0d5219eb7ac18c069.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/b3/84/d0/b384d087051da2a0d5219eb7ac18c069.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2956667",
+    "alias": "DemiEljar",
+    "fullname": "Илья Кобрунов",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/08f/0a8/cd8/08f0a8cd8dc1196d209f030fda002a42.jpg",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 2,
+      "votesCount": 2
+    },
+    "rating": -2,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "4K+"
+  },
+  "statistics": {
+    "commentsCount": 3,
+    "favoritesCount": 2,
+    "readingCount": 334,
+    "score": -2,
+    "votesCount": 4,
+    "votesCountPlus": 1,
+    "votesCountMinus": 3,
+    "reach": 6567,
+    "readers": 221
+  },
+  "hubs": [
+    {
+      "id": "8000",
+      "alias": "algorithms",
+      "type": "collective",
+      "title": "Алгоритмы",
+      "titleHtml": "Алгоритмы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "7504",
+      "alias": "refactoring",
+      "type": "collective",
+      "title": "Проектирование и рефакторинг",
+      "titleHtml": "Проектирование и рефакторинг",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/b3/84/d0/b384d087051da2a0d5219eb7ac18c069.png\" width=\"1100\" height=\"1119\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b3/84/d0/b384d087051da2a0d5219eb7ac18c069.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/b3/84/d0/b384d087051da2a0d5219eb7ac18c069.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h2>Описание изначальной предметной области    </h2><p>Изначальной задачей являлось определение конкретной области 2-х мерного пространства, которой принадлежит произвольная заданная точка, при условии наличия некоторой коллекции таких областей. Каждая область определяется двумя точками: начальной – P0, и конечной – P1 (рисунок 1). Вопрос заключался в том, каким образом организовать хранение и навигацию по данной коллекции для минимизации издержек и повышения производительности. Дополнительным условием, немного упрощающим реализацию алгоритма, являлась однозначность соответствия точек и областей, иными словами – области не пересекаются.</p><p>Наивная реализация предполагает создание массива, по которому можно осуществить поиск через простой перебор областей до момента нахождения искомой. Более продвинутая реализация, позволяющая сэкономить вычислительные ресурсы, в свою очередь, может базироваться на концепции KD-деревьев, о чем и будет рассказано в данной статье. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/b0/84/11/b084117de264097349ff77e150ef2df2.png\" alt=\"Рисунок 1 – Задание области пространства    \" title=\"Рисунок 1 – Задание области пространства    \" width=\"1044\" height=\"431\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b0/84/11/b084117de264097349ff77e150ef2df2.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/b0/84/11/b084117de264097349ff77e150ef2df2.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Рисунок 1 – Задание области пространства    </figcaption></div></figure><p><strong>Пара слов о KD-деревьях</strong></p><p>KD-дерево [<a href=\"https://neerc.ifmo.ru/wiki/index.php?title=%D0%9A-d_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D1%8C%D1%8F_%D0%B8_%D0%BF%D0%B5%D1%80%D0%B5%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D1%82%D0%BE%D1%87%D0%B5%D0%BA_%D0%B2_%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC_%D0%BF%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%B5_(%D1%81%D1%82%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)\" rel=\"noopener nofollow\">1</a>] – структура данных, позволяющая организовать хранение некоторой коллекции объектов (например, точек) N-мерного пространства через последовательную циклическую классификацию (разбиение) на подпространства по каждому из измерений. На рисунке 2 приведено облако точек, разделяющих общее пространство на подпространства, и их организация в виде дерева. Конкретные координаты каждой точки в данном примере не имеют значения, важны лишь их последовательность и относительное расположение.  Классическая реализация предполагает применение бинарного разбиения с введением дополнительных параметров размерности для каждого выделяемого поддерева, что позволяет на этапе обхода выбирать только те узлы (ветви), которые потенциально могут содержать в себе искомый объект, а также осуществлять выборку по предельным расстояниям до искомого объекта.    </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/65/06/a2/6506a235adc2082fadd1be235a0d413f.png\" alt=\"Рисунок 2 – Пример организации KD-дерева\" title=\"Рисунок 2 – Пример организации KD-дерева\" width=\"1531\" height=\"853\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/65/06/a2/6506a235adc2082fadd1be235a0d413f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/65/06/a2/6506a235adc2082fadd1be235a0d413f.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Рисунок 2 – Пример организации KD-дерева</figcaption></div></figure><h2>Суть алгоритмов формирования и обхода деревьев    </h2><p>В отличие от классического KD-дерева, где многомерность исходного пространства проецируется в дереве путем последовательного чередования измерений при переходе между слоями, а сама топология дерева остается бинарной (двумерной), так как единичные координаты точек представляют из себя 0-мерные характеристики, взаимные расположения которых могут быть классифицированы двумя возможными случаями (рисунок 3); - предлагаемый алгоритм предполагает расширение дерева до 6-ти измерений, где каждой ветви потомков (Ак) конкретного узла (Ai) ставится в соответствие один из вариантов взаимного расположения отрезков в измерении S (X или Y, в зависимости от слоя), что обусловливается повышением размерности характеристик: отрезок определяется двумя точками (рисунок 4).    </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a1/08/b8/a108b8ceb0e063fff08ecefa8a585187.png\" alt=\"Рисунок 3 – Структура бинарного дерева на примере отдельного элемента    \" title=\"Рисунок 3 – Структура бинарного дерева на примере отдельного элемента    \" width=\"994\" height=\"706\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a1/08/b8/a108b8ceb0e063fff08ecefa8a585187.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/a1/08/b8/a108b8ceb0e063fff08ecefa8a585187.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Рисунок 3 – Структура бинарного дерева на примере отдельного элемента    </figcaption></div></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/3c/07/86/3c0786ff6b1c7078ac5cecd101759cf9.png\" alt=\"Рисунок 4 – Структура расширенного дерева на примере отдельного элемента\" title=\"Рисунок 4 – Структура расширенного дерева на примере отдельного элемента\" width=\"1853\" height=\"706\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3c/07/86/3c0786ff6b1c7078ac5cecd101759cf9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/3c/07/86/3c0786ff6b1c7078ac5cecd101759cf9.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Рисунок 4 – Структура расширенного дерева на примере отдельного элемента</figcaption></div></figure><p>Классификация была осуществлена относительно расположения начальной точки (P0) второго сопоставляемого отрезка (рисунок 5), где принадлежность конкретному подклассу определяется положением его конечной точки. Из-за специфики невозможности задания отрицательной длины (в противном случае, точки, фактически, поменяются местами), количество возможных вариантов сужается при движении начальной точки от меньшего к большему значению, при условии фиксации положения базового отрезка (родительского), относительно которого осуществляется классификация на конкретном шаге. Фактические условия соответствий взаимных расположений классам также указаны на рисунке 5.</p><p>Обход дерева при поиске области, которой принадлежит заданная точка (P), требует перехода к дочерним узлам по подмножеству ветвей, обусловленному положением точки по отношению к базовому отрезку. На рисунке схематично видно, что это подмножество определяется через опускание мнимой линии с поиском пересечений с ранее выделенными классами. При заходе в конкретный узел осуществляется проверка условия принадлежности точки области (нахождение в подпространстве, ограниченном точками P0 и P1), выполнение которого обусловливает терминацию работы алгоритма поиска и возврат найденной области, в противном случае происходит переход к следующим узлам. Необходимо учитывать, что в случае, если топология пространства предполагает пересечение областей, то поиск будет осуществляться до достижения нижнего уровня дерева с возвратом коллекции найденных областей.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/98/27/08/982708744f9a495120f8acc4e8972765.png\" alt=\"Рисунок 5 – Алгоритмы выбора ветвей при формировании и обхода дерева    \" title=\"Рисунок 5 – Алгоритмы выбора ветвей при формировании и обхода дерева    \" width=\"2472\" height=\"766\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/98/27/08/982708744f9a495120f8acc4e8972765.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/98/27/08/982708744f9a495120f8acc4e8972765.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Рисунок 5 – Алгоритмы выбора ветвей при формировании и обхода дерева    </figcaption></div></figure><p><strong>Применение алгоритма на практике</strong></p><p>В качестве иллюстрационного примера ниже представлены пространство (8x8 клеток), разделенное между 21-ой областью (рисунок 6), и полученное на его основе дерево поиска (рисунок 7), где над ветвями указываются их классы взаимного расположения. Использовалось замощение пространства без пропусков (выполнение этого условия не является обязательным). При формировании дерева брались области в последовательности, соответствующей их индексам.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d4/1d/11/d41d11151f34ef9cd17940018f48ab78.png\" alt=\"Рисунок 6 – Структура пространства\" title=\"Рисунок 6 – Структура пространства\" width=\"1100\" height=\"1119\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d4/1d/11/d41d11151f34ef9cd17940018f48ab78.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d4/1d/11/d41d11151f34ef9cd17940018f48ab78.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Рисунок 6 – Структура пространства</figcaption></div></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/14/47/a4/1447a487b33668c01b2a963c2a71c358.png\" alt=\"Рисунок 7 – Полученное дерево областей пространства\" title=\"Рисунок 7 – Полученное дерево областей пространства\" width=\"1453\" height=\"1000\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/14/47/a4/1447a487b33668c01b2a963c2a71c358.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/14/47/a4/1447a487b33668c01b2a963c2a71c358.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Рисунок 7 – Полученное дерево областей пространства</figcaption></div></figure><p>В качестве примера предлагаю рассмотреть поиск области для точки P (X = 7, Y = 1), обход дерева при котором представлен на рисунке 8. Обход при поиске осуществляется с заходом в поддеревья с учетом классификации взаимного расположения и при условии наличия узлов в соответствующих ветках. Цветом выделяются узлы, в которые был произведен заход. В результате алгоритм определил, что искомая область – под индексом 17, в чем можно удостовериться при взгляде на рисунок 6. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/cc/4b/9e/cc4b9ee245ba40f0fe432119a4248821.png\" alt=\"Рисунок 8 – Пример поиска области выбранной точки\" title=\"Рисунок 8 – Пример поиска области выбранной точки\" width=\"2328\" height=\"1000\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/cc/4b/9e/cc4b9ee245ba40f0fe432119a4248821.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/cc/4b/9e/cc4b9ee245ba40f0fe432119a4248821.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Рисунок 8 – Пример поиска области выбранной точки</figcaption></div></figure><p><strong>Результаты тестирования</strong></p><p>При тестировании использовалась метрика количества проверок принадлежности точек областям. В качестве базового алгоритма выступила наивная реализация поиска областей через последовательный перебор массива (M1). Представленный в данной статье алгоритм – М2. В таблице 1 содержатся результаты тестирования. Можно заметить, что фактический выигрыш в производительности во многом зависит от размерности коллекции областей. Сценарием тестирования выступил последовательный поиск областей всех точек пространства. Стоит отметить, что фактическое время выполнения сценариев в первую очередь зависит от мощности вычислительной системы и от потенциального распараллеливания процесса поиска.</p><div><div class=\"table\"><table><tbody><tr><td><p align=\"left\"><strong>Размер пространства</strong>    </p></td><td><p align=\"left\"><strong>Кол-во областей</strong>    </p></td><td data-colwidth=\"148\" width=\"148\"><p align=\"left\"><strong>M1</strong></p></td><td data-colwidth=\"148\" width=\"148\"><p align=\"left\"><strong>M2</strong></p></td><td><p align=\"left\"><strong>M2/M1</strong></p></td></tr><tr><td><p align=\"left\">8x8    </p></td><td><p align=\"left\">21    </p></td><td data-colwidth=\"148\" width=\"148\"><p align=\"left\">685    </p></td><td data-colwidth=\"148\" width=\"148\"><p align=\"left\">273    </p></td><td><p align=\"left\">39.8 %    </p></td></tr><tr><td><p align=\"left\">30x30    </p></td><td><p align=\"left\">124    </p></td><td data-colwidth=\"148\" width=\"148\"><p align=\"left\">55328    </p></td><td data-colwidth=\"148\" width=\"148\"><p align=\"left\">7841    </p></td><td><p align=\"left\">14.1 %    </p></td></tr><tr><td><p align=\"left\">100x100    </p></td><td><p align=\"left\">1366    </p></td><td data-colwidth=\"148\" width=\"148\"><p align=\"left\">6801705    </p></td><td data-colwidth=\"148\" width=\"148\"><p align=\"left\">370722    </p></td><td><p align=\"left\">5.4 %    </p></td></tr></tbody></table></div></div><p><strong>Послесловие</strong></p><p>Автор данной статьи не заявляет исключительные интеллектуальные права на описанный алгоритм. В случае, если он уже был описан в профильной литературе, изложенный материал может быть рассмотрен в качестве дополнительной иллюстрации и будет принят во внимание искушенными читателями. Недостатком данного алгоритма является отсутствующая масштабируемость при изменении размерности пространства, тогда как обычные бинарные деревья являются универсальными.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "kd-дерево"
+    },
+    {
+      "titleHtml": "2d"
+    },
+    {
+      "titleHtml": "структуры данных"
+    },
+    {
+      "titleHtml": "алгоритмы"
+    },
+    {
+      "titleHtml": "алгоритмы поиска"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106232/764ecfe39943108ff874596319ad7c20/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106232/764ecfe39943108ff874596319ad7c20/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106232\\/\"},\"headline\":\"Алгоритм поиска областей по точкам в 2D-пространстве\",\"datePublished\":\"2026-11-10T19:41:51+03:00\",\"dateModified\":\"2026-11-11T17:36:38+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Описание изначальной предметной области Изначальной задачей являлось определение конкретной области 2-х мерного пространства, которой принадлежит произвольная...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106232\\/#post-content-body\",\"about\":[\"h_algorithms\",\"h_programming\",\"h_refactoring\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/b3\\/84\\/d0\\/b384d087051da2a0d5219eb7ac18c069.png\",\"https:\\/\\/habrastorage.org\\/extt\\/b0\\/84\\/11\\/b084117de264097349ff77e150ef2df2.png\",\"https:\\/\\/habrastorage.org\\/extt\\/65\\/06\\/a2\\/6506a235adc2082fadd1be235a0d413f.png\",\"https:\\/\\/habrastorage.org\\/extt\\/a1\\/08\\/b8\\/a108b8ceb0e063fff08ecefa8a585187.png\",\"https:\\/\\/habrastorage.org\\/extt\\/3c\\/07\\/86\\/3c0786ff6b1c7078ac5cecd101759cf9.png\",\"https:\\/\\/habrastorage.org\\/extt\\/98\\/27\\/08\\/982708744f9a495120f8acc4e8972765.png\",\"https:\\/\\/habrastorage.org\\/extt\\/d4\\/1d\\/11\\/d41d11151f34ef9cd17940018f48ab78.png\",\"https:\\/\\/habrastorage.org\\/extt\\/14\\/47\\/a4\\/1447a487b33668c01b2a963c2a71c358.png\",\"https:\\/\\/habrastorage.org\\/extt\\/cc\\/4b\\/9e\\/cc4b9ee245ba40f0fe432119a4248821.png\"]}",
+    "metaDescription": "Описание изначальной предметной области Изначальной задачей являлось определение конкретной области 2-х мерного пространства, которой принадлежит произвольная заданная точка, при условии наличия...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

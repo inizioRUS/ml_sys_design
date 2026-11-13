@@ -1,0 +1,209 @@
+{
+  "id": "1105758",
+  "timePublished": "2026-11-10T06:10:29+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Владельцев ЦОД могут обязать отключать неприоритетных клиентов ради сервисов из «белых списков»",
+  "leadData": {
+    "textHtml": "<p>Резерв в&nbsp;размере 10% площадей и мощностей центров обработки данных (ЦОДов) предполагается использовать для&nbsp;информационных систем из «белого списка». Об&nbsp;этом глава Минцифры Максут Шадаев сообщил на&nbsp;совещании с&nbsp;операторами 6&nbsp;ноября 2026&nbsp;года. Содержание выступления министра <a href=\"https://www.vedomosti.ru/newspaper/articles/2026/11/09/1243857-rezervi-v-tsodah\" rel=\"noopener nofollow\">подтвердили</a> три источника «Ведомостей»: один из&nbsp;участников совещания, а&nbsp;также собеседник в&nbsp;облачном провайдере и представитель отраслевого объединения, знакомые с&nbsp;ходом обсуждения реализации <a href=\"https://habr.com/ru/news/1102910/\" rel=\"noopener nofollow\">президентского указа</a>.</p>",
+    "imageUrl": "https://habrastorage.org/extt/a7/b2/67/a7b26703f3ab84852f988025eedbbaf3.webp",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/a7/b2/67/a7b26703f3ab84852f988025eedbbaf3.webp",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3000027",
+    "alias": "LizzieSimpson",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/87d/321/950/87d321950490400be5d296976a5747d0.png",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 97,
+      "votesCount": 429
+    },
+    "rating": 320.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 20,
+    "favoritesCount": 5,
+    "readingCount": 4313,
+    "score": 27,
+    "votesCount": 17,
+    "votesCountPlus": 17,
+    "votesCountMinus": 0,
+    "reach": 10574,
+    "readers": 3293
+  },
+  "hubs": [
+    {
+      "id": "21958",
+      "alias": "network_hardware",
+      "type": "collective",
+      "title": "Сетевое оборудование",
+      "titleHtml": "Сетевое оборудование",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "17123",
+      "alias": "network_technologies",
+      "type": "collective",
+      "title": "Сетевые технологии",
+      "titleHtml": "Сетевые технологии",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21470",
+      "alias": "cloud_services",
+      "type": "collective",
+      "title": "Облачные сервисы",
+      "titleHtml": "Облачные сервисы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19197",
+      "alias": "dwh",
+      "type": "collective",
+      "title": "Хранение данных",
+      "titleHtml": "Хранение данных",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "6398",
+      "alias": "it-infrastructure",
+      "type": "collective",
+      "title": "IT-инфраструктура",
+      "titleHtml": "IT-инфраструктура",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a7/b2/67/a7b26703f3ab84852f988025eedbbaf3.webp\" width=\"640\" height=\"360\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a7/b2/67/a7b26703f3ab84852f988025eedbbaf3.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/a7/b2/67/a7b26703f3ab84852f988025eedbbaf3.webp 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Резерв в размере 10% площадей и мощностей центров обработки данных (ЦОДов) предполагается использовать для информационных систем из «белого списка». Об этом глава Минцифры Максут Шадаев сообщил на совещании с операторами 6 ноября 2026 года. Содержание выступления министра <a href=\"https://www.vedomosti.ru/newspaper/articles/2026/11/09/1243857-rezervi-v-tsodah\" rel=\"noopener nofollow\">подтвердили</a> три источника «Ведомостей»: один из участников совещания, а также собеседник в облачном провайдере и представитель отраслевого объединения, знакомые с ходом обсуждения реализации <a href=\"https://habr.com/ru/news/1102910/\" rel=\"noopener nofollow\">президентского указа</a>. </p><p>В Минцифры не прокомментировали конкретные меры, которые обсуждались на встрече. Представитель ведомства сообщил, что они находятся в проработке, и заявил, что все требования будут формироваться совместно с экспертами и участниками рынка.</p><p>Если 10% мощностей в резерве не окажется, операторам ЦОД придётся отключать действующих клиентов, разъяснил Шадаев на встрече с бизнесом. Для этого компаниям нужно заранее определить менее приоритетных заказчиков. Освобождённые мощности предложили не сдавать в аренду. А если вычислительные ресурсы всё же сдаются, то оператор должен предупредить клиента, что вынужден будет освободить площадку в течение 24 часов.</p><p>Если договор на размещение ресурсов заказчиков уже заключён, но оборудование под них ещё не установлено, его рекомендуют расторгнуть. По словам собеседника в отраслевом объединении, Минцифры готовит официальные разъяснения о том, что действия операторов по освобождению площадей будут относиться к форс‑мажору.</p><p>Корпоративные ЦОДы для собственных нужд, в частности, банковские, под требование о резервировании мощностей также не подпадают, рассказал «Ведомостям» собеседник в облачном провайдере со ссылкой на изложенную на совещании позицию Шадаева. Требования распространяются только на коммерческие ЦОДы, то есть принадлежащие специализированным операторам, которые зарабатывают на сдаче площадей в аренду.</p><p>В то же время если ЦОД частично используется для собственных нужд, частично — для оказания услуг, 10% предлагается считать от суммы этих ресурсов. Например, площадку дочерней компании, оказывающей услуги группе по договорам, будут считать коммерческой, говорит собеседник.</p><p>В случае неисполнения требований до 12 ноября операторам грозит ответственность по указу президента № 604 от 24 августа, подчеркнули в Минцифры. Указ допускает введение временного управления имуществом компаний, которые не обеспечивают безопасность объектов критической инфраструктуры (КИИ), создают угрозу их работе или несвоевременно восстанавливают их функционирование. К объектам КИИ относятся в том числе и ЦОДы. Решение принимает правительство на основании поручения президента РФ Владимира Путина. Временным управляющим выступает Росимущество, если в установленном порядке не назначено другое лицо. Мера может затронуть всё или часть имущества компании, принадлежащие ей ценные бумаги, доли в российских юрлицах и имущественные права, говорится в указе.</p><p>Резерв можно рассчитать совокупно по всем площадкам: выделять 10% на каждой не требуется, отметил участник совещания. Конкретный ЦОД выбирает сама компания. При расчёте резерва предлагается учитывать помещения со стойко‑местами, обеспеченными электроэнергией, и данные о ресурсах на балансе. Если на балансе оператора есть вычислительные мощности для предоставления облачной инфраструктуры как услуги (IaaS), 10% следует резервировать и от них. В тезисах отдельно оговаривается разница между IT‑мощностью и мощностью технологического присоединения: ориентироваться предполагается на первую, проверять данные по второй, учитывая потребление инженерной инфраструктуры.</p><p>Если резерв придётся постоянно исключать из продаж, для реализации прежнего объёма услуг потребуется дополнительное строительство дата‑центров, считает партнёр практики «Цифровая трансформация» Strategy Partners Сергей Кудряшов. При окупаемости строительство ЦОДа в 7–8 лет часть проектов без мер поддержки может сдвинуться, прогнозирует он. К примеру, для поддержки портала «Госуслуги», входящего в «белый список», может потребоваться 900 стоек, оценил собеседник «Ведомостей» в компании‑облачном провайдере.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "цод"
+    },
+    {
+      "titleHtml": "цоды"
+    },
+    {
+      "titleHtml": "хранение данных"
+    },
+    {
+      "titleHtml": "сетевые технологии"
+    },
+    {
+      "titleHtml": "сетевое оборудование"
+    },
+    {
+      "titleHtml": "сетевая инфраструктура"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105758/dd97329c21e37b889fde0182551b3eaf/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105758/dd97329c21e37b889fde0182551b3eaf/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105758\\/\"},\"headline\":\"Владельцев ЦОД могут обязать отключать неприоритетных клиентов ради сервисов из «белых списков»\",\"datePublished\":\"2026-11-10T09:10:29+03:00\",\"dateModified\":\"2026-11-10T10:14:08+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Резерв в&nbsp;размере 10% площадей и мощностей центров обработки данных (ЦОДов) предполагается использовать для&nbsp;информационных систем из «белого списка»....\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105758\\/#post-content-body\",\"about\":[\"h_network_hardware\",\"h_network_technologies\",\"h_cloud_services\",\"h_dwh\",\"h_it-infrastructure\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/a7\\/b2\\/67\\/a7b26703f3ab84852f988025eedbbaf3.webp\"]}",
+    "metaDescription": "Резерв в&nbsp;размере 10% площадей и мощностей центров обработки данных (ЦОДов) предполагается использовать для&nbsp;информационных систем из «белого списка». Об&nbsp;этом глава Минцифры Максут Шадаев...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

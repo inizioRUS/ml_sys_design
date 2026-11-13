@@ -1,0 +1,207 @@
+{
+  "id": "1105694",
+  "timePublished": "2026-11-10T08:13:38+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Большое тихоокеанское мусорное пятно меняет цвет океана",
+  "leadData": {
+    "textHtml": "<p>Большое тихоокеанское мусорное пятно, область Тихого океана, где естественным образом скапливается мусор, переполнено мельчайшими частицами пластика. Настолько переполнено, что, по‑видимому, начинает менять цвет океана.</p><p>Океан, как&nbsp;известно, имеет голубой цвет. Вода рассеивает свет с&nbsp;более короткими длинами волн, который мы воспринимаем как&nbsp;голубой, и поглощает свет с&nbsp;более длинными волнами. Примеси в&nbsp;океанской воде, включая фитопланктон, водоросли и взвешенные частицы осадочных пород, могут влиять на&nbsp;её цвет.</p><p>Микропластик тоже способен изменять цвет океана. Как&nbsp;объясняет Даниэль Кёстнер, научный сотрудник Бергенского университета в&nbsp;Норвегии, микропластик может состоять из&nbsp;самых разных материалов, включая полистирол, полипропилен, полиэстер и другие. При&nbsp;этом он обычно рассеивает больше света, чем органические вещества в&nbsp;океане.</p><p>Чтобы лучше понять, как&nbsp;микропластик мог повлиять на&nbsp;цвет океана, Кёстнер и его коллеги изучили спутниковые данные за 20&nbsp;лет, полученные над областью океана, где, возможно, содержится больше всего пластика, Большим тихоокеанским мусорным пятном. Это зона между Гавайями и Калифорнией, где накапливается мусор, удерживаемый океанскими течениями.</p><p>Исследователи обнаружили, что&nbsp;в&nbsp;период с 2002&nbsp;по 2022&nbsp;год вода в&nbsp;районе мусорного пятна стала ярче как&nbsp;в&nbsp;синем, так и в&nbsp;зелёном диапазонах спектра по&nbsp;сравнению с&nbsp;окружающими областями. Результаты, <a href=\"https://www.nature.com/articles/s43247-026-04071-0\" rel=\"noopener nofollow\">опубликованные</a> в&nbsp;журнале Communications Earth &amp; Environment, пока не&nbsp;доказывают, что&nbsp;именно микропластик непосредственно вызвал увеличение яркости океана, подчёркивают исследователи, хотя их выводы подтверждаются лабораторными экспериментами с&nbsp;микропластиком. Однако без&nbsp;непосредственного отбора проб океанской воды трудно с&nbsp;уверенностью установить причину изменения её цвета.</p>",
+    "imageUrl": "https://habrastorage.org/extt/ca/6f/22/ca6f22e8caf34c31342918bbfde114da.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/ca/6f/22/ca6f22e8caf34c31342918bbfde114da.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "60351",
+    "alias": "SLY_G",
+    "fullname": "Вячеслав Голованов",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/329/fc8/9e5/329fc89e55a9132bf200ff315065f3f7.jpg",
+    "speciality": "Научпоп. Проповедую в храме науки.",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1143,
+      "votesCount": 2477
+    },
+    "rating": 236.9,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "ВКонтакте",
+        "url": "https://vk.com/slygol",
+        "value": "slygol",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "ВКонтакте",
+        "url": "https://vk.com/slygol",
+        "value": "slygol",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": "4100138219633",
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": "wallets",
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 0,
+    "readingCount": 807,
+    "score": 6,
+    "votesCount": 4,
+    "votesCountPlus": 3,
+    "votesCountMinus": 1,
+    "reach": 6981,
+    "readers": 648
+  },
+  "hubs": [
+    {
+      "id": "21910",
+      "alias": "popular_science",
+      "type": "collective",
+      "title": "Научно-популярное",
+      "titleHtml": "Научно-популярное",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22012",
+      "alias": "Ecology",
+      "type": "collective",
+      "title": "Экология",
+      "titleHtml": "Экология",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22024",
+      "alias": "urban",
+      "type": "collective",
+      "title": "Урбанизм",
+      "titleHtml": "Урбанизм",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22014",
+      "alias": "futurenow",
+      "type": "collective",
+      "title": "Будущее здесь",
+      "titleHtml": "Будущее здесь",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ca/6f/22/ca6f22e8caf34c31342918bbfde114da.jpg\" width=\"1200\" height=\"675\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ca/6f/22/ca6f22e8caf34c31342918bbfde114da.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/ca/6f/22/ca6f22e8caf34c31342918bbfde114da.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Большое тихоокеанское мусорное пятно, область Тихого океана, где естественным образом скапливается мусор, переполнено мельчайшими частицами пластика. Настолько переполнено, что, по‑видимому, начинает менять цвет океана.</p><p>Океан, как известно, имеет голубой цвет. Вода рассеивает свет с более короткими длинами волн, который мы воспринимаем как голубой, и поглощает свет с более длинными волнами. Примеси в океанской воде, включая фитопланктон, водоросли и взвешенные частицы осадочных пород, могут влиять на её цвет.</p><p>Микропластик тоже способен изменять цвет океана. Как объясняет Даниэль Кёстнер, научный сотрудник Бергенского университета в Норвегии, микропластик может состоять из самых разных материалов, включая полистирол, полипропилен, полиэстер и другие. При этом он обычно рассеивает больше света, чем органические вещества в океане.</p><p>Чтобы лучше понять, как микропластик мог повлиять на цвет океана, Кёстнер и его коллеги изучили спутниковые данные за 20 лет, полученные над областью океана, где, возможно, содержится больше всего пластика, Большим тихоокеанским мусорным пятном. Это зона между Гавайями и Калифорнией, где накапливается мусор, удерживаемый океанскими течениями.</p><p>Исследователи обнаружили, что в период с 2002 по 2022 год вода в районе мусорного пятна стала ярче как в синем, так и в зелёном диапазонах спектра по сравнению с окружающими областями. Результаты, <a href=\"https://www.nature.com/articles/s43247-026-04071-0\" rel=\"noopener nofollow\">опубликованные</a> в журнале Communications Earth &amp; Environment, пока не доказывают, что именно микропластик непосредственно вызвал увеличение яркости океана, подчёркивают исследователи, хотя их выводы подтверждаются лабораторными экспериментами с микропластиком. Однако без непосредственного отбора проб океанской воды трудно с уверенностью установить причину изменения её цвета.</p><p>«Нам остаётся сделать ещё один шаг, чтобы окончательно доказать, что именно микропластик вызывает наблюдаемое нами изменение цвета, — добавляет соавтор исследования Ши Читем, аспирант Бергенского университета. — Нам просто нужно отправиться туда [в район мусорного пятна] и всё проверить».</p><p>Тем не менее результаты подчёркивают, насколько повсеместно распространены эти загрязнители.</p><p>Предыдущие исследования показали, что микропластик, например, может вредить морским микроорганизмам и изменять поведение рыб. Он также накапливается в морепродуктах, которые мы употребляем в пищу.</p><p>Если предложенный исследователями метод удастся подтвердить, Кёстнер надеется, что его можно будет использовать для выявления других районов мира, где скопился микропластик. «Это означало бы, что у нас появились бы конкретные участки, на которых можно сосредоточить усилия по очистке», — говорит он.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "большое мусорное пятно"
+    },
+    {
+      "titleHtml": "микропластик"
+    },
+    {
+      "titleHtml": "океан"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба хабра"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105694/2580a43e589b5a698ea408d1b0d722d7/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105694/2580a43e589b5a698ea408d1b0d722d7/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105694\\/\"},\"headline\":\"Большое тихоокеанское мусорное пятно меняет цвет океана\",\"datePublished\":\"2026-11-10T11:13:38+03:00\",\"dateModified\":\"2026-11-10T11:50:09+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Большое тихоокеанское мусорное пятно, область Тихого океана, где естественным образом скапливается мусор, переполнено мельчайшими частицами пластика. Настолько...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105694\\/#post-content-body\",\"about\":[\"h_popular_science\",\"h_Ecology\",\"h_urban\",\"h_futurenow\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/ca\\/6f\\/22\\/ca6f22e8caf34c31342918bbfde114da.jpg\"]}",
+    "metaDescription": "Большое тихоокеанское мусорное пятно, область Тихого океана, где естественным образом скапливается мусор, переполнено мельчайшими частицами пластика. Настолько переполнено, что, по‑видимому, начинает...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": "low",
+  "isEditorial": true,
+  "flowNew": {
+    "id": "48",
+    "title": "Научпоп",
+    "alias": "popsci"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

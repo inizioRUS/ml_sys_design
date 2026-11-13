@@ -1,0 +1,222 @@
+{
+  "id": "1106200",
+  "timePublished": "2026-11-10T15:09:58+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Flipper One готов к запуску на Kickstarter",
+  "leadData": {
+    "textHtml": "<p>В команде Flipper Devices Inc. <a href=\"https://t.me/zhovner_hub/2308\" rel=\"noopener nofollow\">объявили</a> о скором запуске проекта <a href=\"https://www.kickstarter.com/projects/flipper-devices/flipper-one\" rel=\"noopener nofollow\">Flipper One на Kickstarter</a>. «Прошли верификацию на&nbsp;стороне кикстартера и платёжек. Осталось нажать одну кнопку для&nbsp;старта. Можете пока зарегаться и актуализировать свои кредитки. Кикстартер будет по&nbsp;этой ссылке: kickstarter.com/projects/flipper‑devices/flipper‑one. Доставка будет в 🇺🇸USA, 🇪🇺EU, 🇬🇧UK, 🇨🇦CA, 🇦🇺 AU. Держатели купонов с&nbsp;предзаказами получат на&nbsp;почту инструкцию с&nbsp;датами и подробной информацией»,&nbsp;— рассказал основатель Flipper Devices Inc. и автор проекта Flipper Zero Павел Жовнер.</p>",
+    "imageUrl": "https://habrastorage.org/extt/bf/da/79/bfda79d5aabb28ef94be3dab68023f80.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/bf/da/79/bfda79d5aabb28ef94be3dab68023f80.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "780987",
+    "alias": "denis-19",
+    "fullname": "Денис",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/6a0/f31/235/6a0f31235bb26134f3c7a741c03e4efb.jpg",
+    "speciality": "Информационная служба Хабра, без использования ИИ",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1069,
+      "votesCount": 2027
+    },
+    "rating": 881.5,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "1024K+"
+  },
+  "statistics": {
+    "commentsCount": 11,
+    "favoritesCount": 7,
+    "readingCount": 2703,
+    "score": 19,
+    "votesCount": 21,
+    "votesCountPlus": 16,
+    "votesCountMinus": 5,
+    "reach": 11788,
+    "readers": 2060
+  },
+  "hubs": [
+    {
+      "id": "21898",
+      "alias": "hardware",
+      "type": "collective",
+      "title": "Компьютерное железо",
+      "titleHtml": "Компьютерное железо",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21894",
+      "alias": "gadgets",
+      "type": "collective",
+      "title": "Гаджеты",
+      "titleHtml": "Гаджеты",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21958",
+      "alias": "network_hardware",
+      "type": "collective",
+      "title": "Сетевое оборудование",
+      "titleHtml": "Сетевое оборудование",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/72/6c/19/726c19ced6fa63ab1a4599f49c635c50.png\" width=\"1465\" height=\"773\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/72/6c/19/726c19ced6fa63ab1a4599f49c635c50.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/72/6c/19/726c19ced6fa63ab1a4599f49c635c50.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В команде Flipper Devices Inc. <a href=\"https://t.me/zhovner_hub/2308\" rel=\"noopener nofollow\">объявили</a> о скором запуске проекта <a href=\"https://www.kickstarter.com/projects/flipper-devices/flipper-one\" rel=\"noopener nofollow\">Flipper One на Kickstarter</a>. «Прошли верификацию на стороне кикстартера и платёжек. Осталось нажать одну кнопку для старта. Можете пока зарегаться и актуализировать свои кредитки. Кикстартер будет по этой ссылке: kickstarter.com/projects/flipper‑devices/flipper‑one. Доставка будет в 🇺🇸USA, 🇪🇺EU, 🇬🇧UK, 🇨🇦CA, 🇦🇺 AU. Держатели купонов с предзаказами получат на почту инструкцию с датами и подробной информацией», — рассказал основатель Flipper Devices Inc. и автор проекта Flipper Zero Павел Жовнер.</p><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af4050b382d141339f6ecd3\" data-style=\"\" id=\"6af4050b382d141339f6ecd3\" width=\"\" data-habr-games=\"\"></div><p>В начале ноября 2026 года в команде продвинутого тамагочи для хакеров под названием Flipper One (это ARM‑компьютер на Linux на базе процессора RK3576 с 8 ГБ LPDDR5 ОЗУ и накопителем 64 ГБ UFS 2.2) <a href=\"https://habr.com/ru/articles/1103106/\" rel=\"noopener nofollow\">открыли</a> предзаказы на этот гаджет (запустили резервирование места в ограниченной партии для Kickstarter). <a href=\"https://flipper.net/pages/flipper-one\" rel=\"noopener nofollow\">Доставка будет</a> только в США, ЕС, Великобританию, Канаду и Австралию. Не оформляйте предзаказ, если вы не в этих странах.</p><figure class=\"\"><img src=\"https://habrastorage.org/extt/6a/15/3b/6a153b4f39b2670aa212df33da0dec5e.gif\" width=\"512\" height=\"288\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/extt/6a/15/3b/6a153b4f39b2670aa212df33da0dec5e.gif 780w,&#10;       https://habrastorage.org/extt/6a/15/3b/6a153b4f39b2670aa212df33da0dec5e.gif 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>«Из‑за бешеных цен на память, мы придумали этот проект с купонами, чтобы понимать заранее, собираем ли мы нужные объёмы. Маржинальность этого проекта близка к нулю, и нам остаётся надеяться на прибыль с продаж уже после Кикстартера. При этом непонятно, когда память подешевеет, завтра или через 3 года. Важно: доставка будет только в США, ЕС, Великобританию, Канаду и Австралию. Не оформляйте предзаказ, если вы не в этих странах», — <a href=\"https://t.me/zhovner_hub/2299\" rel=\"noopener nofollow\">пояснил</a> основатель Flipper Devices Inc. и автор проекта Flipper Zero Павел Жовнер.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/32/03/a3/3203a3ca1e89dd9e03a6b6ec456220bd.png\" width=\"1077\" height=\"816\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/32/03/a3/3203a3ca1e89dd9e03a6b6ec456220bd.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/32/03/a3/3203a3ca1e89dd9e03a6b6ec456220bd.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>На сайте проекта <a href=\"https://flipper.net/products/flipper-one-preorder\" rel=\"noopener nofollow\">указано</a>, что стоимость Flipper One составит от $379 + стоимость купона. «Приобретите купон на предзаказ за $20, чтобы получить доступ к специальной цене ещё до запуска кампании на Kickstarter», — предложили в Flipper Devices Inc.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/5c/9a/6e/5c9a6e77bde22d75801b51959cd3f2c6.jpg\" width=\"642\" height=\"227\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/5c/9a/6e/5c9a6e77bde22d75801b51959cd3f2c6.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/5c/9a/6e/5c9a6e77bde22d75801b51959cd3f2c6.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Основные моменты такого ограниченного предзаказа:</p><ul><li><p>купон на резервирование: место можно зарезервировать за $20 один купон на пользователя в рамках предзаказа, который зафиксирует раннюю цену для предстоящей кампании на Kickstarter.</p></li><li><p>срок запуска: планировалось на ноябрь 2026 года на Kickstarter (сроки не гарантированы).    </p></li><li><p>условия возврата: деньги можно полностью вернуть в любое время до использования купона на резервирование. Если купон не будет использован до окончания кампании, деньги вернут автоматически.    </p></li><li><p>почему сейчас? В команде сообщили, что продолжающийся мировой дефицит оперативной памяти и рост производственных затрат требуют заранее закупать компоненты и планировать объёмы производства — до запуска кампании на Kickstarter.</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c8/c9/0f/c8c90fbd15638edb648074931e0ba622.png\" width=\"1093\" height=\"497\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c8/c9/0f/c8c90fbd15638edb648074931e0ba622.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c8/c9/0f/c8c90fbd15638edb648074931e0ba622.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>«$20 выбраны как психологическая отметка серьёзности намерений. Потому что конверсия из купона в итоговую покупку все равно не будет 100%, то есть часть просто не используют свой купон. Обычно это от 20% до 40%. Чем ниже цена купона, тем выше этот процент, например если сделать купон по $1, то процент шума может быть больше половины», — <a href=\"https://habr.com/ru/articles/1103106/#comment_30600462\" rel=\"noopener nofollow\">пояснил</a> Хабру Павел Жовнер.</p><p>21 мая 2026 года в команде Flipper Devices Inc. <a href=\"https://habr.com/ru/news/1037480/\" rel=\"noopener nofollow\">анонсировали</a> проект продвинутого тамагочи для хакеров под названием Flipper One. «Это очень сложный проект как экономически, так и технически. Поэтому сегодня мы выходим в паблик не с триумфальным анонсом, а чтобы рассказать все как есть. Скажем честно — нам тупо страшно и нам нужна ваша помощь», — заявили в команде проекта в <a href=\"https://habr.com/ru/companies/flipperdevices/articles/1033162/\" rel=\"noopener nofollow\">развёрнутой технической публикации</a> на Хабре про анонс Flipper One. Репозиторий с <a href=\"https://github.com/flipperdevices/flipperone-ui\" rel=\"noopener nofollow\">дизайном наработок проекта</a> Flipper One (элементы дизайна, иллюстрации и исходные графические файлы).</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/getpro/habr/upload_files/427/22d/c56/42722dc56c306fee8cd9d5372f5f06f6.jpg\" width=\"1560\" height=\"713\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/getpro/habr/upload_files/427/22d/c56/42722dc56c306fee8cd9d5372f5f06f6.jpg 780w,&#10;       https://habrastorage.org/r/w1560/getpro/habr/upload_files/427/22d/c56/42722dc56c306fee8cd9d5372f5f06f6.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В июле 2026 года в Flipper Devices Inc. <a href=\"https://habr.com/ru/news/1063764/\" rel=\"noopener nofollow\">объявили</a> об опциональной возможности добавить во Flipper One сим‑карту с продвинутыми возможностями.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/getpro/habr/upload_files/074/0ff/f28/0740fff28673e4fa23288dde604f4213.jpg\" width=\"1280\" height=\"948\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/getpro/habr/upload_files/074/0ff/f28/0740fff28673e4fa23288dde604f4213.jpg 780w,&#10;       https://habrastorage.org/r/w1560/getpro/habr/upload_files/074/0ff/f28/0740fff28673e4fa23288dde604f4213.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Ранее во Flipper Devices Inc. <a href=\"https://blog.flipper.net/future-of-flipper-zero-development/\" rel=\"noopener nofollow\">рассказали</a> в своём техническом блоге про будущее развитие прошивки Flipper Zero. Разработка этого проекта <a href=\"https://habr.com/ru/news/1054580/\" rel=\"noopener nofollow\">не заброшена</a>, как некоторые думают, а подход развития проекта был пересмотрен. В сентябре 2024 года команда разработчиков Flipper Zero <a href=\"https://blog.flipper.net/released-firmware-1/\" rel=\"noopener nofollow\">рассказала</a> о релизе прошивки версии 1.0. Это первое мажорное обновление за три года. Обновление включает в себя поддержку пользовательских приложений, JavaScript и улучшенную подсистему NFC.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/getpro/habr/upload_files/f19/ab7/aba/f19ab7abaf268be579325461d7d1e119.png\" width=\"1560\" height=\"879\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/getpro/habr/upload_files/f19/ab7/aba/f19ab7abaf268be579325461d7d1e119.png 780w,&#10;       https://habrastorage.org/r/w1560/getpro/habr/upload_files/f19/ab7/aba/f19ab7abaf268be579325461d7d1e119.png 781w\" loading=\"lazy\" decode=\"async\"/></figure></div>",
+  "tags": [
+    {
+      "titleHtml": "flipper one"
+    },
+    {
+      "titleHtml": "kickstarter"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106200/2c14e9647df706045ad45f866aab59d3/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106200/2c14e9647df706045ad45f866aab59d3/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106200\\/\"},\"headline\":\"Flipper One готов к запуску на Kickstarter\",\"datePublished\":\"2026-11-10T18:09:58+03:00\",\"dateModified\":\"2026-11-11T09:08:39+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В команде Flipper Devices Inc. объявили о скором запуске проекта Flipper One на Kickstarter . «Прошли верификацию на&nbsp;стороне кикстартера и платёжек....\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106200\\/#post-content-body\",\"about\":[\"h_hardware\",\"h_infosecurity\",\"h_gadgets\",\"h_network_hardware\",\"h_sys_admin\",\"f_develop\",\"f_admin\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/72\\/6c\\/19\\/726c19ced6fa63ab1a4599f49c635c50.png\",\"https:\\/\\/habrastorage.org\\/extt\\/6a\\/15\\/3b\\/6a153b4f39b2670aa212df33da0dec5e.gif\",\"https:\\/\\/habrastorage.org\\/r\\/w1560\\/extt\\/32\\/03\\/a3\\/3203a3ca1e89dd9e03a6b6ec456220bd.png\",\"https:\\/\\/habrastorage.org\\/r\\/w1560\\/extt\\/5c\\/9a\\/6e\\/5c9a6e77bde22d75801b51959cd3f2c6.jpg\",\"https:\\/\\/habrastorage.org\\/r\\/w1560\\/extt\\/c8\\/c9\\/0f\\/c8c90fbd15638edb648074931e0ba622.png\",\"https:\\/\\/habrastorage.org\\/r\\/w1560\\/getpro\\/habr\\/upload_files\\/427\\/22d\\/c56\\/42722dc56c306fee8cd9d5372f5f06f6.jpg\",\"https:\\/\\/habrastorage.org\\/r\\/w1560\\/getpro\\/habr\\/upload_files\\/074\\/0ff\\/f28\\/0740fff28673e4fa23288dde604f4213.jpg\",\"https:\\/\\/habrastorage.org\\/r\\/w1560\\/getpro\\/habr\\/upload_files\\/f19\\/ab7\\/aba\\/f19ab7abaf268be579325461d7d1e119.png\"]}",
+    "metaDescription": "В команде Flipper Devices Inc. объявили о скором запуске проекта Flipper One на Kickstarter . «Прошли верификацию на&nbsp;стороне кикстартера и платёжек. Осталось нажать одну кнопку для&nbsp;старта....",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "42",
+    "title": "Железо и гаджеты",
+    "alias": "hardware_and_gadgets"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

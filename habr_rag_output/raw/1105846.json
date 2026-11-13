@@ -1,0 +1,257 @@
+{
+  "id": "1105846",
+  "timePublished": "2026-11-10T08:38:40+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Почему 200 OK врёт: что я переделал в проверке доступности сайтов",
+  "leadData": {
+    "textHtml": "<p>Задача казалась простой: раз в минуту сходить на сайт и сказать, работает он или нет. Первая версия уместилась в десяток строк: GET, проверка кода ответа, уведомление в Telegram. Через неделю оказалось, что почти каждая из этих строк врёт.</p><p>Рассказываю, что пришлось переделать: как отличить «сайт упал» от «у меня сломалась сеть», почему код 200 ещё не значит «работает», как убрать ложные тревоги и не опоздать с настоящей аварией и как не дать проверке ходить во внутреннюю сеть через редиректы.</p>",
+    "imageUrl": "https://habrastorage.org/extt/ed/de/0c/edde0cb85ab552fe4bfca8f289fbbdce.png",
+    "buttonTextHtml": "Где ещё врёт простая проверка",
+    "image": {
+      "url": "https://habrastorage.org/extt/ed/de/0c/edde0cb85ab552fe4bfca8f289fbbdce.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "sandbox",
+      "typeOf": "system",
+      "title": "Из песочницы",
+      "data": {
+        "url": null
+      }
+    }
+  ],
+  "author": {
+    "id": "6053948",
+    "alias": "irlme",
+    "fullname": "Pavel",
+    "avatarUrl": "//habrastorage.org/extt/d1/02/4e/d1024eee1363498042a0715901272505.jpg",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 2,
+      "votesCount": 2
+    },
+    "rating": 4,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Сайт",
+        "url": "https://statuseye.ru",
+        "value": "https://statuseye.ru",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Сайт",
+        "url": "https://irlme.ru",
+        "value": "https://irlme.ru",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Сайт",
+        "url": "https://statuseye.ru",
+        "value": "https://statuseye.ru",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Сайт",
+        "url": "https://irlme.ru",
+        "value": "https://irlme.ru",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 5,
+    "readingCount": 338,
+    "score": 4,
+    "votesCount": 3,
+    "votesCountPlus": 3,
+    "votesCountMinus": 0,
+    "reach": 5995,
+    "readers": 220
+  },
+  "hubs": [
+    {
+      "id": "340",
+      "alias": "python",
+      "type": "collective",
+      "title": "Python",
+      "titleHtml": "Python",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "91",
+      "alias": "webdev",
+      "type": "collective",
+      "title": "Веб-разработка",
+      "titleHtml": "Веб-разработка",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Задача казалась простой: раз в минуту сходить на сайт и сказать, работает он или нет. Первая версия уместилась в десяток строк. Делаем <code>GET</code>, смотрим на код ответа, если не 200, шлём уведомление в Telegram. Через неделю я понял, что почти каждая из этих строк врёт.</p><p>Расскажу, что пришлось переделать и почему. Пишу на Python (httpx, asyncio, SQLite), но грабли тут от языка не зависят.</p><h3>«Не ответил» не всегда значит «сайт упал»</h3><p>Первая версия считала аварией любую ошибку. Уведомления сыпались, когда у самого сервера проверки моргала сеть, отваливался прокси или DNS думал дольше обычного. Сайт в это время спокойно работал.</p><p>В итоге у проверки стало четыре исхода вместо двух. С <code>ok</code> всё понятно. <code>fail</code> значит, что сайт ответил, но плохо: 5xx, 4xx, пустое тело, нет нужного текста, или соединение открылось, а ответа мы так и не дождались. Только после него монитор уходит в DOWN. <code>infra_error</code> я ставлю, когда сломалось что-то у меня: умер прокси, кончились соединения в пуле, не получилось подключиться через прокси. Статус тогда не трогаю и проверяю ещё раз через минуту. И <code>unknown</code>: по ответу ничего нельзя сказать, статус тоже остаётся прежним.</p><p>Отсюда правило, которое я стараюсь не нарушать: <code><strong>infra_error</strong></code><strong> и </strong><code><strong>unknown</strong></code><strong> никогда не превращаются в DOWN</strong>. Пусть лучше одна проверка пропадёт, чем человек проснётся ночью из-за моей же поломки.</p><p>Труднее всего было понять, где чья ошибка. В httpx это видно по типу исключения:</p><pre><code class=\"python\">if isinstance(exc, httpx.ProxyError):\n    return make(RESULT_INFRA, REASON_PROXY_DEAD)\n\nif isinstance(exc, httpx.TimeoutException):\n    # Соединение уже есть, ждали ответ, значит «сайт не ответил».\n    if headers_received or isinstance(exc, (httpx.ReadTimeout, httpx.WriteTimeout)):\n        return make(RESULT_FAIL, REASON_TIMEOUT)\n    return make(RESULT_INFRA, REASON_CONNECT)\n\nif isinstance(exc, httpx.RemoteProtocolError):\n    # Сайт прислал пустой или битый ответ, это его проблема.\n    return make(RESULT_FAIL, REASON_EMPTY_BODY)\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Если TCP-соединение открылось, а потом сайт замолчал, виноват сайт. Если не удалось даже подключиться, виноват может быть и сайт, и наш маршрут до него. С этим случаем я до сих пор не разобрался до конца: «соединение отклонено» выдаёт и лежащий сервер, и сломанный прокси. Это место я ещё дорабатываю.</p><p>И ещё одна вещь, на которую я наткнулся не сразу. Таймаут в httpx ограничивает отдельные операции (подключение, чтение очередного куска), а не весь запрос целиком. Сайт, который отдаёт по байту в секунду, может «отвечать» вечно. Поэтому всю проверку я обернул в общий лимит:</p><pre><code class=\"python\">return await asyncio.wait_for(_perform(), timeout=CHECK_TIMEOUT)  # 10 с\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>200 OK ещё не значит «работает»</h3><p>Хуже всего поломки, при которых сервер отдаёт <code>200</code>. После обновления шаблона пропала форма заявки, а страница при этом открывается. Вместо сайта висит «Сайт на техническом обслуживании» или «Error establishing a database connection», и многие CMS отдают такие страницы с кодом 200. Хостинг подсунул свою заглушку. Выгрузка сломалась, и из карточек товаров исчезли цены. Если смотреть только на код ответа, все эти сайты работают.</p><p>Помогает проверка содержимого. Пользователь указывает фразу, которая точно есть на рабочей странице, а проверка ищет её в ответе. Казалось бы, <code>if text in body</code>, и всё. Не всё.</p><p>Во-первых, ответ может быть огромным. Кто-нибудь поставит на мониторинг ссылку на файл в 2 ГБ, и проверка начнёт его качать. Поэтому я читаю тело потоком и останавливаюсь на 256 КБ:</p><pre><code class=\"python\">async for chunk in resp.aiter_bytes():\n    remaining = BODY_MAX_BYTES - len(data)\n    if len(chunk) &gt; remaining:\n        data.extend(chunk[:remaining])\n        truncated = True\n        break\n    data.extend(chunk)\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Но если тело обрезано, отсутствие фразы ещё ничего не доказывает. Страница длиннее, и фраза может быть дальше. Такой случай я помечаю как <code>unknown</code>, а не <code>fail</code>. Поэтому фразу лучше брать из верхней части страницы, например кнопку на первом экране или заголовок, а не что-то из футера.</p><p>Во-вторых, регистр и пробелы. На экране написано «Оставить заявку», а в HTML это может быть <code>Оставить\\n        заявку</code> с переносом и отступами из вёрстки или вообще «ОСТАВИТЬ ЗАЯВКУ». Поэтому и фразу, и страницу я перед сравнением привожу к одному виду:</p><pre><code class=\"python\">_WS_RE = re.compile(r\"\\s+\")\n\ndef _normalize_text(text: str) -&gt; str:\n    return _WS_RE.sub(\" \", str(text or \"\")).strip().casefold()\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><code>casefold()</code> стоит вместо <code>lower()</code>, чтобы сравнение работало и в языках, где с регистром всё сложнее, чем в русском и английском.</p><p>С кодировкой было проще. Тело декодируется по кодировке из заголовков, а если не вышло, битые символы заменяются (<code>errors=\"replace\"</code>), и проверка не падает. Сайты на <code>windows-1251</code> до сих пор попадаются.</p><p>А вот JavaScript проверка не выполняет, и с этим ничего не сделать. Она видит исходный HTML, как в «Просмотре кода страницы», а не то, что потом нарисовал скрипт. Если форма собирается на React, её текста в HTML может просто не быть. Так что фразу стоит сначала поискать в исходном коде страницы.</p><h3>Ложные тревоги: повторять, но не ждать</h3><p>У частых проверок есть обратная сторона. Сеть моргнула на секунду, и в три часа ночи приходит «САЙТ УПАЛ». После пары таких ночей уведомления перестают читать и пропускают уже настоящую аварию.</p><p>Обычно делают так: DOWN объявляют только после нескольких неудачных проверок подряд. Мне это не подошло. При интервале в 2 минуты три проверки займут 6 минут, и за это время о падении тебе скорее напишет клиент.</p><p>Я сделал по-другому: неудачная проверка <strong>сразу повторяется</strong>, без паузы. Проверки идут через пул прокси, и для повтора я беру другой прокси, если он есть. Так отсекается сбой конкретного маршрута. Вторая попытка прошла? Значит, это был сбой по дороге. Обе неудачные? DOWN объявляется в ту же минуту.</p><p>Второе, что убрало шум: уведомление привязано к смене состояния, а не к каждой проверке. Сайт лежал час, проверок прошло тридцать, а сообщение о падении пришло одно. «Сайт снова работает» приходит, только если перед этим было «сайт упал». Иначе каждый новый сайт присылал бы бессмысленное «UP» сразу после добавления. И отметку «уведомление отправлено» я ставлю, только когда Telegram подтвердил доставку. Если он был недоступен или сервис перезапустился посреди отправки, уведомление уйдёт на следующей проверке. Отдельная очередь сообщений для этого не понадобилась.</p><pre><code class=\"python\">if last_alert_status == status:\n    return  # об этом состоянии уже сообщили\nif status == 1 and last_alert_status != 0:\n    return  # UP без предшествующего DOWN не шлём\n\nsent = await deliver_alert(...)\nif not sent:\n    return  # last_alert_status не трогаем, повторим на следующей проверке\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Пользователь даёт URL, сервер делает запрос. Это SSRF</h3><p>Мониторинг по своей природе ходит по адресам, которые ему прислали. Если их не проверять, кто-нибудь добавит <code>http://127.0.0.1:8080/admin</code> или <code>http://169.254.169.254/</code> (адрес метаданных облака, откуда можно вытащить ключи) и будет читать ответы через сервис.</p><p>Начал я с простого: разрешил только <code>http</code> и <code>https</code> и запретил служебные порты вроде SSH, почты и баз данных. Но по схеме и порту не скажешь, куда на самом деле уйдёт запрос. Поэтому имя хоста я резолвлю сам, ещё до запроса, и сверяю все полученные адреса со списком запрещённых сетей: loopback, приватные диапазоны, link-local, CGNAT, multicast, адреса метаданных.</p><p>Сначала я резолвил адрес один раз, когда монитор добавляли. Это была ошибка. Владелец домена может указать нормальный IP, дождаться добавления и переключить DNS на <code>127.0.0.1</code> (это называется DNS rebinding). Теперь резолв идёт на каждой проверке. Результат кэшируется, но ненадолго: до 5 минут для нормальных адресов и до минуты для запрещённых.</p><p>Отдельно пришлось разбираться с <strong>редиректами</strong>. С <code>follow_redirects=True</code> httpx проверяет только исходный URL, а сайт вполне может ответить <code>302 Location: http://127.0.0.1/</code>. Поэтому редиректы я обрабатываю вручную, и каждый новый адрес проходит ту же проверку до следующего запроса:</p><pre><code class=\"python\">async with client.stream(\"GET\", current, follow_redirects=False) as resp:\n    location = resp.headers.get(\"location\")\n    if resp.status_code in redirect_codes and location:\n        if redirects &gt;= MAX_REDIRECTS:   # 5\n            return too_many_redirects()\n        target = urljoin(current, location.strip())\n        blocked = await _blocked_target_result(target, ...)\n        if blocked is not None:\n            return blocked\n        current = target\n        continue\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Полной защитой от SSRF это не назовёшь, тонкостей там много. Но самые очевидные дыры закрыты.</p><h3>Планировщик на SQLite</h3><p>Брокера очередей у меня нет. Расписание лежит прямо в таблице мониторов, в поле <code>next_check_at</code>. Раз в несколько секунд планировщик выбирает просроченные записи и забирает их себе условным <code>UPDATE</code>:</p><pre><code class=\"sql\">UPDATE monitors SET next_check_at = :lease_until   -- сейчас + 60 с\nWHERE id = :id\n  AND (next_check_at IS NULL OR next_check_at &lt;= :now)\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Изменил <code>UPDATE</code> строку, значит монитор наш. Не изменил, значит его уже забрал соседний цикл. 60 секунд заметно больше самой долгой проверки. Если процесс упадёт посреди проверки, через минуту монитор снова окажется просроченным и проверится заново.</p><p>Главный урок с этой схемой: сеть должна быть вне транзакций. Транзакция забирает пачку мониторов, потом другая записывает результат, а запросы к сайтам идут между ними. Если держать блокировку SQLite, пока медленный сайт думает 10 секунд, встанет вообще всё.</p><p>Пригодились и две мелочи. К интервалу добавляется случайный разброс ±10%. Без него мониторы, добавленные в одну минуту, так и проверялись бы в одну секунду, и нагрузка шла бы пиками. А число одновременных проверок ограничено семафором, чтобы тысяча просроченных мониторов не превратилась в тысячу соединений разом.</p><h3>Итого</h3><p>Если бы я начинал заново, то с первого дня заложил бы несколько вещей. Отделять «сайт не ответил» от «у меня сломалась сеть» и никогда не превращать второе в аварию. Смотреть на содержимое страницы, а не только на код ответа, и сразу ограничить, сколько тела читать. С ложными тревогами бороться быстрым повтором, а не ожиданием нескольких неудачных проверок подряд: так не теряются минуты настоящей аварии. И проверять каждый адрес, включая адреса из редиректов, до запроса, а не один раз при добавлении.</p><p>Самыми дорогими ошибками у меня оказались не сложные, а очевидные задним числом: доверие к коду 200, резолв адреса один раз и <code>follow_redirects=True</code> по умолчанию.</p><p>Открытыми для меня остаются два вопроса. Как надёжно отличить «сайт лёг» от «у нас сеть», когда соединение просто отклонено? И какие ещё обходы стоит учесть в защите от SSRF, если сервис ходит по чужим URL? Если у вас есть опыт с этим, он точно пригодится.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "мониторинг сайтов"
+    },
+    {
+      "titleHtml": "проверка доступности"
+    },
+    {
+      "titleHtml": "httpx"
+    },
+    {
+      "titleHtml": "asyncio"
+    },
+    {
+      "titleHtml": "SSRF"
+    },
+    {
+      "titleHtml": "DNS rebinding"
+    },
+    {
+      "titleHtml": "ложные срабатывания"
+    },
+    {
+      "titleHtml": "SQLite"
+    },
+    {
+      "titleHtml": "Python"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105846/5a1509af0fd1063b86788e62332e187f/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105846/5a1509af0fd1063b86788e62332e187f/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105846\\/\"},\"headline\":\"Почему 200 OK врёт: что я переделал в проверке доступности сайтов\",\"datePublished\":\"2026-11-10T11:38:40+03:00\",\"dateModified\":\"2026-11-10T11:38:40+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Задача казалась простой: раз в минуту сходить на сайт и сказать, работает он или нет. Первая версия уместилась в десяток строк. Делаем GET , смотрим на код...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105846\\/#post-content-body\",\"about\":[\"h_python\",\"h_infosecurity\",\"h_webdev\",\"h_sys_admin\",\"h_programming\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105846\\/5a1509af0fd1063b86788e62332e187f\\/\"]}",
+    "metaDescription": "Задача казалась простой: раз в минуту сходить на сайт и сказать, работает он или нет. Первая версия уместилась в десяток строк. Делаем GET , смотрим на код ответа, если не 200, шлём уведомление в...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 6,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

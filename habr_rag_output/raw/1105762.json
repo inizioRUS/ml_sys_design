@@ -1,0 +1,203 @@
+{
+  "id": "1105762",
+  "timePublished": "2026-11-10T06:28:07+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Microsoft предлагает баллы программы Rewards пользователям New Outlook",
+  "leadData": {
+    "textHtml": "<p>В&nbsp;попытке «пересадить» пользователей с&nbsp;классической версии Outlook на&nbsp;новую Microsoft будет предлагать баллы программы Rewards. Значок программы появится в&nbsp;строке заголовка Outlook, при&nbsp;нажатии он будет открывать доступные задания.</p><p>По <a href=\"https://www.windowslatest.com/2026/11/08/microsoft-is-begging-you-to-ditch-outlook-classic-and-now-its-handing-out-rewards-points-to-try-new-outlook-on-windows-11/\" rel=\"noopener nofollow\">данным </a>Windows Latest, стартовые задания касаются простого ознакомления с&nbsp;функциями, которые присутствуют в&nbsp;New Outlook. Так, первое задание «Автоответы, пока вас нет» (Out of office, covered) открывает настройки автоматических ответов в&nbsp;Outlook. Задание засчитывается как&nbsp;выполненное, даже если пользователь не&nbsp;активирует саму функцию, а&nbsp;только открывает настройки.</p>",
+    "imageUrl": "https://habrastorage.org/extt/3e/3e/04/3e3e043f77764af67bce0e42e24806dc.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/3e/3e/04/3e3e043f77764af67bce0e42e24806dc.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2082889",
+    "alias": "AnnieBronson",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/bec/8ce/91c/bec8ce91c2b3aeef404907f97367d517.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 200,
+      "votesCount": 842
+    },
+    "rating": 291.8,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 193,
+    "score": 9,
+    "votesCount": 3,
+    "votesCountPlus": 3,
+    "votesCountMinus": 0,
+    "reach": 5935,
+    "readers": 156
+  },
+  "hubs": [
+    {
+      "id": "21918",
+      "alias": "soft",
+      "type": "collective",
+      "title": "Софт",
+      "titleHtml": "Софт",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20726",
+      "alias": "productpm",
+      "type": "collective",
+      "title": "Управление продуктом",
+      "titleHtml": "Управление продуктом",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20686",
+      "alias": "community_management",
+      "type": "collective",
+      "title": "Управление сообществом",
+      "titleHtml": "Управление сообществом",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19681",
+      "alias": "office365dev",
+      "type": "collective",
+      "title": "Office 365",
+      "titleHtml": "Office 365",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>В попытке «пересадить» пользователей с классической версии Outlook на новую Microsoft будет предлагать баллы программы Rewards. Значок программы появится в строке заголовка Outlook, при нажатии он будет открывать доступные задания.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/db/ed/03/dbed03ab4a43227956dd6d81411bc980.jpg\" width=\"1839\" height=\"1185\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/db/ed/03/dbed03ab4a43227956dd6d81411bc980.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/db/ed/03/dbed03ab4a43227956dd6d81411bc980.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>По <a href=\"https://www.windowslatest.com/2026/11/08/microsoft-is-begging-you-to-ditch-outlook-classic-and-now-its-handing-out-rewards-points-to-try-new-outlook-on-windows-11/\" rel=\"noopener nofollow\">данным </a>Windows Latest, стартовые задания касаются простого ознакомления с функциями, которые присутствуют в New Outlook. Так, первое задание «Автоответы, пока вас нет» (Out of office, covered) открывает настройки автоматических ответов в Outlook. Задание засчитывается как выполненное, даже если пользователь не активирует саму функцию, а только открывает настройки.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/1a/97/15/1a971584be5b254e894673822f3520a4.jpg\" width=\"1434\" height=\"920\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1a/97/15/1a971584be5b254e894673822f3520a4.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/1a/97/15/1a971584be5b254e894673822f3520a4.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Второе задание, «Входящие без лишнего шума» (An inbox without the noise), открывает страницу с ценами на подписку Microsoft 365 (даже для пользователей, у которых подписка уже есть). Третье задание «Сделайте каждый день чуть проще» (Make every day a little smoother) представляет собой поисковый запрос «повысьте эффективность работы в Outlook» (boost your Outlook efficiency) в поисковой системе Bing. Баллы начисляются за открытие результатов поиска.</p><p>За выполнение первых трёх заданий можно получить 30 баллов Rewards. Новые задания будут появляться каждый день. Предполагается, что все они будут связаны с освоением New Outlook.</p><p>С точки зрения Microsoft, классическая версия Outlook постепенно уходит в прошлое. Хотя поддержка существующих установок продлится как минимум до 2029 года, этап отказа от старой версии начнется в 2027 году: корпоративных пользователей начнут автоматически переводить на New Outlook (если администраторы не заблокируют этот процесс). При этом у пользователей останется возможность вернуться к классическому Outlook. На следующем этапе — окончательном переходе — возможность возврата к старой версии будет полностью удалена. </p><p>Ранее Microsoft <a href=\"https://support.microsoft.com/en-gb/support/known-issues/classic-outlook-issues-with-service-assisted-search-for-shared-mailboxes\" rel=\"noopener nofollow\">признала</a>, что в классическом Outlook результаты поиска могут не обновляться после перемещения или изменения элементов почтового ящика. Компания предложила временное решение с использованием службы Windows Desktop Search. </p></div>",
+  "tags": [
+    {
+      "titleHtml": "microsoft"
+    },
+    {
+      "titleHtml": "outlook"
+    },
+    {
+      "titleHtml": "microsoft rewards"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба хабра"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105762/5a3bec5d967132f74a56f2c4d5c929d4/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105762/5a3bec5d967132f74a56f2c4d5c929d4/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105762\\/\"},\"headline\":\"Microsoft предлагает баллы программы Rewards пользователям New Outlook\",\"datePublished\":\"2026-11-10T09:28:07+03:00\",\"dateModified\":\"2026-11-10T10:14:58+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В&nbsp;попытке «пересадить» пользователей с&nbsp;классической версии Outlook на&nbsp;новую Microsoft будет предлагать баллы программы Rewards. Значок программы...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105762\\/#post-content-body\",\"about\":[\"h_soft\",\"h_productpm\",\"h_community_management\",\"h_office365dev\",\"f_develop\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/db\\/ed\\/03\\/dbed03ab4a43227956dd6d81411bc980.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/1a\\/97\\/15\\/1a971584be5b254e894673822f3520a4.jpg\"]}",
+    "metaDescription": "В&nbsp;попытке «пересадить» пользователей с&nbsp;классической версии Outlook на&nbsp;новую Microsoft будет предлагать баллы программы Rewards. Значок программы появится в&nbsp;строке заголовка...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

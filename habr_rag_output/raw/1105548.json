@@ -1,0 +1,203 @@
+{
+  "id": "1105548",
+  "timePublished": "2026-11-09T14:33:46+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Как я написал ботов для мафии, которые подозревают, оправдываются и блефуют",
+  "leadData": {
+    "textHtml": "<p>Онлайн-мафия ломается о простую вещь: нужно 6–10 человек одновременно. Я сделал мини-приложение для Telegram и MAX, где пустые места занимают боты. Рассказываю, как устроен их «мозг», почему он не видит лишнего, как боты-мафия врут и как я подбирал баланс, прогоняя тысячи партий одних ботов.</p>",
+    "imageUrl": "https://habrastorage.org/extt/fd/ab/8b/fdab8bc187953af73d2aa450122048d6.webp",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/fd/ab/8b/fdab8bc187953af73d2aa450122048d6.webp",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "sandbox",
+      "typeOf": "system",
+      "title": "Из песочницы",
+      "data": {
+        "url": null
+      }
+    }
+  ],
+  "author": {
+    "id": "6072146",
+    "alias": "Daysema",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 2,
+      "votesCount": 2
+    },
+    "rating": 1,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "4K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 4,
+    "readingCount": 284,
+    "score": 1,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 6762,
+    "readers": 211
+  },
+  "hubs": [
+    {
+      "id": "7773",
+      "alias": "gamedev",
+      "type": "collective",
+      "title": "Разработка игр",
+      "titleHtml": "Разработка игр",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21370",
+      "alias": "typescript",
+      "type": "collective",
+      "title": "TypeScript",
+      "titleHtml": "TypeScript",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "8000",
+      "alias": "algorithms",
+      "type": "collective",
+      "title": "Алгоритмы",
+      "titleHtml": "Алгоритмы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17110",
+      "alias": "nodejs",
+      "type": "collective",
+      "title": "Node.JS",
+      "titleHtml": "Node.JS",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Онлайн-мафия ломается о простую вещь: нужно 6–10 человек одновременно. Я сделал мини-приложение для Telegram и MAX, где пустые места занимают боты. Рассказываю, как устроен их «мозг», почему он не видит лишнего, как боты-мафия врут и как я подбирал баланс, прогоняя тысячи партий одних ботов.</p><h3>Требования к боту</h3><p>Бот должен быть не умнее и не глупее среднего игрока. Слишком умный бот — скучно (он всегда прав), слишком глупый — ломает партию людям (голосует наугад и топит город). Я записал характер прямо в шапку модуля: «не агрессивные, но и не тупые».</p><p>Три правила:</p><ol><li><p><strong>Бот видит только то, что положено его роли.</strong> Никаких подглядываний в движок. Бот получает тот же <code>viewFor(playerId)</code>, что и клиент живого игрока: свою роль, свои результаты ночных действий, открытые события стола, открытые голоса.</p></li><li><p><strong>Подозрения — только из фактов.</strong> Проверки комиссара, вскрытые роли выбывших, кто за кого голосовал.</p></li><li><p><strong>Ведёт себя по-человечески.</strong> Ходит с задержкой, в чат пишет коротко и нечасто, иногда пропускает голосование.</p></li></ol><h3>Память бота</h3><pre><code>interface Memory {\n  sus: Map&lt;string, number&gt;;    // кто → насколько похож на мафию (≥3 — уверен, &lt;0 — доверяет)\n  known: Map&lt;string, Role&gt;;    // точно известные роли: свои проверки, вскрытия, признания\n  seenEvents: number;          // сколько событий стола уже учтено\n  saidRound: number;           // говорил ли уже сегодня\n  revealed: Set&lt;string&gt;;       // о ком комиссар уже рассказал городу\n  bluffed?: boolean;           // мафия уже блефовала в этой партии\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Перед каждым решением бот «досматривает» новые события стола и свои результаты:</p><pre><code>private learnResult(m: Memory, r: ActionResult): void {\n  if (r.type === 'check') {\n    m.known.set(r.targetId, r.role);\n    m.sus.set(r.targetId, ['don', 'mafia', 'maniac'].includes(r.role) ? 10 : -5);\n  } else if (r.type === 'don_check' &amp;&amp; r.isCommissar) {\n    m.known.set(r.targetId, 'commissar');\n  }\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Голоса как улики</h3><p>Самый богатый источник информации у города — открытые голоса. Когда кого-то изгоняют и его роль вскрывается, каждый бот пересчитывает подозрения:</p><ul><li><p>изгнали мирного → все, кто голосовал за него, становятся подозрительнее;</p></li><li><p>изгнали мафию, а кто-то голосовал за другого → тоже чуть подозрительно.</p></li></ul><p>Плюс мелкие сигналы: публичное обвинение добавляет цели +0.4, шёпот — немного обоим. Ни один сигнал сам по себе не решающий — бот не должен «прозревать» от одной фразы.</p><p>Ведущий (тоже бот) пользуется теми же открытыми данными и иногда подсказывает людям: «X уже трижды голосовал за изгнание мирных. Совпадение?»</p><h3>Общая шина слухов</h3><p>Боты за одним столом не общаются тайно — но слышат одно и то же. Когда бот говорит в чат что-то значимое, он кладёт в общую шину «слух» с весом:</p><pre><code>this.env.broadcast({ about: found, delta: 3 });                       // «проверил X — это мафия»\nthis.env.broadcast({ about: bot.id, delta: -4, role: 'commissar' });  // и раскрылся сам\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Каждый бот добавляет <code>delta</code> к своему подозрению. Это грубая модель «насколько стол поверил словам», но её хватает, чтобы город начал действовать как город.</p><h3>Комиссар не раскрывается сразу</h3><p>Если комиссар-бот всегда сразу кричит «нашёл мафию!», мафия убивает его следующей же ночью — и город остаётся слепым. Поэтому раскрытие вероятностное: комиссар рискует не каждый день. Доктор, в свою очередь, часто (но не всегда) лечит раскрывшегося комиссара — иначе мафии вообще не пробиться.</p><h3>Как врёт мафия</h3><p>Бот-мафиози:</p><ul><li><p>на обвинение отвечает «я мирный» и переводит стрелки;</p></li><li><p>днём обвиняет того, кто сам выглядит подозрительно, — чтобы увести внимание;</p></li><li><p>ночью идёт за выбором семьи (иначе голоса мафии рассыпаются);</p></li><li><p>изредка идёт ва-банк: «Я комиссар, проверил Анну — это мафия!» — <strong>теми же словами</strong>, что и настоящий комиссар.</p></li></ul><p>Последнее оказалось самым опасным для баланса. В первой версии блеф выдавался с той же силой, что и настоящее раскрытие, — и мафия-боты начали выигрывать большинство партий: город раз за разом казнил своих. Пришлось сделать блеф редким и «менее убедительным» для остальных ботов — как в жизни: заявлению без подтверждения верят меньше.</p><h3>Баланс: тысячи партий одних ботов</h3><p>Чтобы не гадать, я написал скрипт: стол из ботов от 6 до 24 мест, тысячи партий, каждая — с детерминированным генератором случайных чисел (seed), чтобы любую странную партию можно было повторить.</p><pre><code>function makeRng(seed: number) {\n  let x = seed &gt;&gt;&gt; 0 || 1;\n  return () =&gt; ((x = (Math.imul(x, 1103515245) + 12345) &gt;&gt;&gt; 0) / 2 ** 32);\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Партии независимы, поэтому скрипт форкает процесс на каждое ядро — 10 000 партий проходят примерно за секунду. На выходе — таблица по размерам стола: кто выигрывает, сколько длится партия, как часто город изгоняет именно злодеев.</p><p>Что нашлось таким способом:</p><ul><li><p><strong>Баг в самом прогоне.</strong> Фаза иногда «перещёлкивалась» дважды: все боты походили (движок сам перешёл к утру), а скрипт ещё раз вызывал <code>advance()</code>. Лечится сравнением ключа фазы <code>round:phase</code> до и после.</p></li><li><p><strong>Маньяк был слишком сильным</strong> на больших столах. Бот-маньяк теперь голосует как живой: идёт за толпой или против тех, кому город доверяет, — и этим постепенно себя выдаёт.</p></li><li><p><strong>Первая ночь — лотерея.</strong> Игроки жаловались, что мафия в первую ночь стреляет наугад. Сделал «ночь знакомства»: мафия только узнаёт своих, дон ищет комиссара, комиссар уже проверяет. Мафия потеряла один выстрел — и симуляция сразу показала перекос в пользу города. Компенсировал одним мафиози сверху на столах от 6 мест.</p></li></ul><p>Важно: симуляция ботов ≠ игра людей. Но она отлично ловит грубые перекосы и регрессии — прогон стал обязательным перед каждым изменением правил.</p><h3>Один стол на Telegram и MAX</h3><p>Игра — веб-приложение (React + Fastify + Postgres), открытое как мини-приложение в обоих мессенджерах. Оба передают <code>initData</code>, подписанную HMAC-SHA256 от токена бота по одной и той же схеме:</p><pre><code>const secret = createHmac('sha256', 'WebAppData').update(botToken).digest();\nconst expected = createHmac('sha256', secret).update(pairs.join('\\n')).digest();\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Отличия мелкие: у MAX SDK строка приходит дополнительно закодированной, поэтому проверяем оба варианта. Пользователь получает id вида <code>tg:123</code> или <code>max:456</code>, а дальше это просто игрок за общим столом. Ссылки-приглашения строятся под платформу того, кто приглашает, а приглашение в «чужой» мессенджер — второй кнопкой.</p><h3>Что бы я сделал иначе</h3><ul><li><p>Сразу писать движок как чистую функцию от состояния и времени (<code>advance(now)</code>), без таймеров внутри — это и сделало возможными быстрые симуляции и тесты.</p></li><li><p>Раньше выделить «что видит игрок» (<code>viewFor</code>) в одно место: тогда боты автоматически не могут подглядывать.</p></li></ul><p>Если хотите посмотреть, как это играется: игра бесплатная, без доната — <a href=\"https://mafnight.ru/?src=habr\" rel=\"noopener nofollow\">https://mafnight.ru/?src=habr</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "мафия"
+    },
+    {
+      "titleHtml": "игровой ИИ"
+    },
+    {
+      "titleHtml": "боты"
+    },
+    {
+      "titleHtml": "telegram mini apps"
+    },
+    {
+      "titleHtml": "симуляция"
+    },
+    {
+      "titleHtml": "typescript"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105548/a561518a41219fa00d8456d4148a0a02/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105548/a561518a41219fa00d8456d4148a0a02/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105548\\/\"},\"headline\":\"Как я написал ботов для мафии, которые подозревают, оправдываются и блефуют\",\"datePublished\":\"2026-11-09T17:33:46+03:00\",\"dateModified\":\"2026-11-09T17:33:46+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Онлайн-мафия ломается о простую вещь: нужно 6–10 человек одновременно. Я сделал мини-приложение для Telegram и MAX, где пустые места занимают боты. Рассказываю,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105548\\/#post-content-body\",\"about\":[\"h_gamedev\",\"h_typescript\",\"h_algorithms\",\"h_nodejs\",\"f_develop\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105548\\/a561518a41219fa00d8456d4148a0a02\\/\"]}",
+    "metaDescription": "Онлайн-мафия ломается о простую вещь: нужно 6–10 человек одновременно. Я сделал мини-приложение для Telegram и MAX, где пустые места занимают боты. Рассказываю, как устроен их «мозг», почему он не...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "16",
+    "title": "Геймдев",
+    "alias": "gamedev"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

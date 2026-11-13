@@ -1,0 +1,215 @@
+{
+  "id": "1105822",
+  "timePublished": "2026-11-10T08:27:39+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "В Boston Dynamics поставили робота Atlas на колёса",
+  "leadData": {
+    "textHtml": "<p>В&nbsp;Boston Dynamics <a href=\"https://bostondynamics.com/blog/atlas-on-a-roll\" rel=\"noopener nofollow\">рассказали</a>, как&nbsp;поставили своего робота Atlas на&nbsp;колёса. Это позволило испытать приводы в&nbsp;самых жёстких режимах работы.</p>",
+    "imageUrl": "https://habrastorage.org/extt/79/f4/84/79f484c63f98d2e80a3ec2579098749d.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/79/f4/84/79f484c63f98d2e80a3ec2579098749d.jpg",
+      "fit": "cover",
+      "positionY": 58,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2176401",
+    "alias": "maybe_elf",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/592/11d/4bc/59211d4bcd7f9afdadaef515b2b0706d.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 345,
+      "votesCount": 1085
+    },
+    "rating": 467.6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 488,
+    "score": 7,
+    "votesCount": 3,
+    "votesCountPlus": 3,
+    "votesCountMinus": 0,
+    "reach": 6085,
+    "readers": 378
+  },
+  "hubs": [
+    {
+      "id": "21902",
+      "alias": "robot",
+      "type": "collective",
+      "title": "Робототехника",
+      "titleHtml": "Робототехника",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20726",
+      "alias": "productpm",
+      "type": "collective",
+      "title": "Управление продуктом",
+      "titleHtml": "Управление продуктом",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>В Boston Dynamics <a href=\"https://bostondynamics.com/blog/atlas-on-a-roll\" rel=\"noopener nofollow\">рассказали</a>, как поставили своего робота Atlas на колёса. Это позволило испытать приводы в самых жёстких режимах работы.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/79/f4/84/79f484c63f98d2e80a3ec2579098749d.jpg\" width=\"2048\" height=\"1445\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/79/f4/84/79f484c63f98d2e80a3ec2579098749d.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/79/f4/84/79f484c63f98d2e80a3ec2579098749d.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Atlas на колёсах работает как исследовательская платформа. Цель проекта — проверить, насколько эффективно обученный алгоритм управления всем телом (whole‑body controller) взаимодействует с реальными приводами, особенно когда те работают на грани своих технических характеристик.</p><p>Компании требовался сценарий, в котором двигатели должны постоянно развивать высокий крутящий момент и поддерживать высокую скорость, при этом непрерывно неся на себе реальную нагрузку. Передвижение на колёсах подходит для этого идеально: каждое начало движения, поворот или остановка заставляют моторы работать во всем диапазоне их крутящего момента и скорости.</p><p>Процесс переоборудования оказался простым. С помощью одного специально изготовленного адаптера стандартный обод от самоката закрепили на штатном узле «лодыжки» робота — это единственная новая деталь во всей конструкции. Поскольку Atlas изначально проектировался с расчётом на серийное производство и простоту обслуживания, такая модификация оказалась не сложнее замены колеса на обычном велосипеде.</p><p>Программная часть также не вызвала трудностей. Каждое колесо было представлено в модели как «лодыжка», способная вращаться непрерывно.</p><p>Цель состояла в том, чтобы алгоритм обучался в условиях, максимально приближенных к тем, с которыми он столкнется при работе на реальном роботе.</p><p>Переход к обучению с подкреплением потребовал адаптации уже существующих подходов к разработке стратегий управления. Внесение точечных изменений — в структуру функции вознаграждения, диапазон команд, на которых обучается алгоритм, и способы поддержания позы — позволило роботу самостоятельно освоить плавное перекатывание, сохраняя при этом устойчивость и простоту управления.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d2/d7/c1/d2d7c1ef052f4e000417e4d950400f47.jpg\" width=\"1024\" height=\"576\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d2/d7/c1/d2d7c1ef052f4e000417e4d950400f47.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/d2/d7/c1/d2d7c1ef052f4e000417e4d950400f47.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Некоторые движения были взяты из библиотеки данных захвата движений человека с активным скольжением ног. Там, где человек проскальзывал бы ногами, алгоритм управления «научился» поворачивать колёса и преодолевать участок за счёт качения.</p><p>Прыжок с разворотом на 360 градусов на деле оказался довольно безопасным манёвром. Алгоритм здесь работает по принципу отслеживания траектории, повторяя записанные движения человека, — и всё получилось с первой же попытки. Примечательно, что способ использования сцепления с поверхностью здесь оказался совсем иным, чем у робота Atlas, передвигающегося на «ногах». Например, на этапе подготовки к прыжку нижняя часть корпуса быстро перемещается в нужное положение за счёт качения, чтобы подготовиться к рывку вверх.</p><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af350492a2228dac471ab26\" data-style=\"\" id=\"6af350492a2228dac471ab26\" width=\"\" data-habr-games=\"\"></div><p>Отмечается, что первые наработки проекта уже внедряют в стандартную конфигурацию. </p><p>Ранее в Boston Dynamics <a href=\"https://habr.com/ru/articles/1090100/\" rel=\"noopener nofollow\">представили</a> новую конструкцию кистей рук для Atlas. Четырёхпалая кисть способна эффективно манипулировать объектами подобно человеческой. Она предлагает 13 степеней свободы (DOF), имеет прямой привод, конструкцию, оптимизированную для высокоточного моделирования и изначально создана для выполнения сложных физических манипуляций. </p></div>",
+  "tags": [
+    {
+      "titleHtml": "boston dynamics"
+    },
+    {
+      "titleHtml": "atlas"
+    },
+    {
+      "titleHtml": "человекоподобные роботы"
+    },
+    {
+      "titleHtml": "колеса"
+    },
+    {
+      "titleHtml": "машинное обучение"
+    },
+    {
+      "titleHtml": "роботы"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    },
+    {
+      "titleHtml": "инфослужба хабра"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105822/9388c8529fa334ba4954f5a4e22a1cd7/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105822/9388c8529fa334ba4954f5a4e22a1cd7/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105822\\/\"},\"headline\":\"В Boston Dynamics поставили робота Atlas на колёса\",\"datePublished\":\"2026-11-10T11:27:39+03:00\",\"dateModified\":\"2026-11-10T20:11:44+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В&nbsp;Boston Dynamics рассказали , как&nbsp;поставили своего робота Atlas на&nbsp;колёса. Это позволило испытать приводы в&nbsp;самых жёстких режимах работы....\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105822\\/#post-content-body\",\"about\":[\"h_robot\",\"h_productpm\",\"h_artificial_intelligence\",\"h_machine_learning\",\"f_develop\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/79\\/f4\\/84\\/79f484c63f98d2e80a3ec2579098749d.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/d2\\/d7\\/c1\\/d2d7c1ef052f4e000417e4d950400f47.jpg\"]}",
+    "metaDescription": "В&nbsp;Boston Dynamics рассказали , как&nbsp;поставили своего робота Atlas на&nbsp;колёса. Это позволило испытать приводы в&nbsp;самых жёстких режимах работы. Atlas на&nbsp;колёсах работает...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "14",
+    "title": "Промышленная инженерия",
+    "alias": "industrial_engineering"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

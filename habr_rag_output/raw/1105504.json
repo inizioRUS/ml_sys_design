@@ -1,0 +1,216 @@
+{
+  "id": "1105504",
+  "timePublished": "2026-11-09T13:34:17+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "В Asahi Linux объявили о переходе с использования пермиссивной лицензии MIT на копилефт-лицензию GPLv2+",
+  "leadData": {
+    "textHtml": "<p>Разработчики проекта <a href=\"https://asahilinux.org/\" rel=\"noopener nofollow\">Asahi Linux</a> (открытый проект по портированию Linux на компьютеры Mac с ARM-чипами Apple Silicon) <a href=\"https://asahilinux.org/2026/11/progress-report-7-3/#learning-from-history\" rel=\"noopener nofollow\">объявили</a> о переходе с использования пермиссивной лицензии <a href=\"https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT\" rel=\"noopener nofollow\">MIT</a> на копилефт-лицензию <a href=\"https://ru.wikipedia.org/wiki/GNU_General_Public_License\" rel=\"noopener nofollow\">GPLv2+</a>. </p><p>Такое решение в команде приняли из-за попыток сторонних разработчиков присвоения трудов Asahi Linux в корыстных целях. Некоторые недобросовестные производители злоупотребляли правами, предоставляемыми лицензией MIT, и заимствуют наработки Asahi для вытеснения оригинального проекта и агрессивной монетизации Linux на системах с чипами Apple Silicon. </p>",
+    "imageUrl": "https://habrastorage.org/extt/43/4b/b0/434bb0d201475886911a820e4ad181d8.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/43/4b/b0/434bb0d201475886911a820e4ad181d8.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "780987",
+    "alias": "denis-19",
+    "fullname": "Денис",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/6a0/f31/235/6a0f31235bb26134f3c7a741c03e4efb.jpg",
+    "speciality": "Информационная служба Хабра, без использования ИИ",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1069,
+      "votesCount": 2027
+    },
+    "rating": 880.5,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "1024K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 1,
+    "readingCount": 569,
+    "score": 5,
+    "votesCount": 4,
+    "votesCountPlus": 3,
+    "votesCountMinus": 1,
+    "reach": 7876,
+    "readers": 466
+  },
+  "hubs": [
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19727",
+      "alias": "linux_dev",
+      "type": "collective",
+      "title": "Linux",
+      "titleHtml": "Linux",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "36",
+      "alias": "linux",
+      "type": "collective",
+      "title": "Настройка Linux",
+      "titleHtml": "Настройка Linux",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20726",
+      "alias": "productpm",
+      "type": "collective",
+      "title": "Управление продуктом",
+      "titleHtml": "Управление продуктом",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19583",
+      "alias": "dev_management",
+      "type": "collective",
+      "title": "Управление разработкой",
+      "titleHtml": "Управление разработкой",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Разработчики проекта <a href=\"https://asahilinux.org/\" rel=\"noopener nofollow\">Asahi Linux</a> (открытый проект по портированию Linux на компьютеры Mac с ARM-чипами Apple Silicon) <a href=\"https://asahilinux.org/2026/11/progress-report-7-3/#learning-from-history\" rel=\"noopener nofollow\">объявили</a> о переходе с использования пермиссивной лицензии <a href=\"https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT\" rel=\"noopener nofollow\">MIT</a> на копилефт-лицензию <a href=\"https://ru.wikipedia.org/wiki/GNU_General_Public_License\" rel=\"noopener nofollow\">GPLv2+</a>. </p><p>Такое решение в команде приняли из-за попыток сторонних разработчиков присвоения трудов Asahi Linux в корыстных целях. Некоторые недобросовестные производители злоупотребляли правами, предоставляемыми лицензией MIT, и заимствовали наработки Asahi для вытеснения оригинального проекта и агрессивной монетизации Linux на системах с чипами Apple Silicon. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/43/4b/b0/434bb0d201475886911a820e4ad181d8.png\" width=\"984\" height=\"520\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/43/4b/b0/434bb0d201475886911a820e4ad181d8.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/43/4b/b0/434bb0d201475886911a820e4ad181d8.png 781w\" loading=\"lazy\" decode=\"async\"/></figure></div>",
+  "tags": [
+    {
+      "titleHtml": "asahi linux"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105504/09ea8a5a6e5ecf7e5450fc7062d8e20f/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105504/09ea8a5a6e5ecf7e5450fc7062d8e20f/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105504\\/\"},\"headline\":\"В Asahi Linux объявили о переходе с использования пермиссивной лицензии MIT на копилефт-лицензию GPLv2+\",\"datePublished\":\"2026-11-09T16:34:17+03:00\",\"dateModified\":\"2026-11-09T16:48:03+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Разработчики проекта Asahi Linux (открытый проект по портированию Linux на компьютеры Mac с ARM-чипами Apple Silicon) объявили о переходе с использования...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105504\\/#post-content-body\",\"about\":[\"h_open_source\",\"h_linux_dev\",\"h_linux\",\"h_productpm\",\"h_dev_management\",\"f_develop\",\"f_admin\",\"f_management\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/43\\/4b\\/b0\\/434bb0d201475886911a820e4ad181d8.png\"]}",
+    "metaDescription": "Разработчики проекта Asahi Linux (открытый проект по портированию Linux на компьютеры Mac с ARM-чипами Apple Silicon) объявили о переходе с использования пермиссивной лицензии MIT на копилефт-лицензию...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

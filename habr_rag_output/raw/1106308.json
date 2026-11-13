@@ -1,0 +1,194 @@
+{
+  "id": "1106308",
+  "timePublished": "2026-11-11T04:38:02+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "CPU простаивает, а Linux показывает 80% давления. Как я нашёл причину в одном контейнере",
+  "leadData": {
+    "textHtml": "<p>Недавно решил проверить, сколько изолированных Linux-окружений сможет одновременно обслуживать мой VPS.</p><p>Конфигурация довольно скромная: 3 vCPU, 6 ГБ RAM и Docker. На сервере работает <a href=\"https://habr.com/ru/articles/1099036/\" rel=\"noopener nofollow\">учебный проект</a>, который создаёт отдельные Linux-окружения с заранее подготовленными неисправностями. Изоляция реализована через gVisor.</p><p>Изначально хотел выяснить, выдержит ли сервер девять одновременно работающих стендов.</p><p>Но в процессе обнаружил кое-что интереснее.</p><p><strong>CPU на сервере большую часть времени простаивал, а Linux показывал почти 80% процессорного давления.</strong></p><p>Пришлось разбираться, как такое вообще возможно.</p>",
+    "imageUrl": "https://habrastorage.org/extt/2e/4f/18/2e4f18175eb1bd35dbddd7ef2d20bded.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/2e/4f/18/2e4f18175eb1bd35dbddd7ef2d20bded.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "6041974",
+    "alias": "verin_is",
+    "fullname": "Верин Игорь",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 11
+    },
+    "rating": 55,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 3,
+    "readingCount": 780,
+    "score": -3,
+    "votesCount": 3,
+    "votesCountPlus": 0,
+    "votesCountMinus": 3,
+    "reach": 7215,
+    "readers": 618
+  },
+  "hubs": [
+    {
+      "id": "20788",
+      "alias": "devops",
+      "type": "collective",
+      "title": "DevOps",
+      "titleHtml": "DevOps",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19727",
+      "alias": "linux_dev",
+      "type": "collective",
+      "title": "Linux",
+      "titleHtml": "Linux",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "36",
+      "alias": "linux",
+      "type": "collective",
+      "title": "Настройка Linux",
+      "titleHtml": "Настройка Linux",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Недавно решил проверить, сколько изолированных Linux-окружений сможет одновременно обслуживать мой VPS.</p><p>Конфигурация довольно скромная: 3 vCPU, 6 ГБ RAM и Docker. На сервере работает <a href=\"https://habr.com/ru/articles/1099036/\" rel=\"noopener nofollow\">учебный проект</a>, который создаёт отдельные Linux-окружения с заранее подготовленными неисправностями. Изоляция реализована через gVisor.</p><p>Изначально хотел выяснить, выдержит ли сервер девять одновременно работающих стендов.</p><p>Но в процессе обнаружил кое-что интереснее.</p><p><strong>CPU на сервере большую часть времени простаивал, а Linux показывал почти 80% процессорного давления.</strong></p><p>Пришлось разбираться, как такое вообще возможно.</p><h3>Всё начиналось нормально</h3><p>Сначала посмотрел на состояние VPS без игровых окружений.</p><pre><code>free -h\nvmstat 1 6</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Доступно около 5 ГБ оперативной памяти. Процессор в последних секундных интервалах простаивал на 98–100%.</p><p>Затем запустил один игровой контейнер и оставил терминал бездействовать.</p><p>Через <code>docker stats</code> увидел, что после запуска потребление ресурсов стабилизировалось:</p><pre><code>CPU:       0.00%\nMemory:    80.19 MiB / 512 MiB\nPIDs:      50</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>В течение нескольких измерений память практически не менялась, процессор не нагружался.</p><p>Пока всё выглядело ожидаемо.</p><p>Затем запустил ещё два сценария. Первый к этому моменту уже завершился, поэтому одновременно работали два контейнера.</p><p>Один воспроизводил проблему с запуском приложения, второй — высокую нагрузку на CPU.</p><p>И вот тут началось интересное.</p><h3>Откуда взялись 80%?</h3><p>Контейнер с высокой нагрузкой стабильно потреблял около 25% одного CPU.</p><p>При этом общая загрузка сервера оставалась сравнительно небольшой. <code>vmstat</code> показывал от 61% до 91% простоя CPU на секундных интервалах.</p><p>Но стоило открыть:</p><pre><code>cat /proc/pressure/cpu</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>как я увидел:</p><pre><code>some avg10=79.71</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Позже показатель доходил до 81,78%.</p><p>Для контекста: PSI (Pressure Stall Information) показывает не загрузку процессора, а время, в течение которого задачи испытывали ожидание ресурсов.</p><p>То есть <strong>80% CPU PSI - не то же самое, что 80% загрузки CPU</strong>.</p><p>Но почему задачи так часто ждут процессор, когда сам VPS далеко не перегружен?</p><p>Первым делом я проверил ограничения контейнеров:</p><pre><code>docker inspect scenario-3-u2 \\\n  --format '{{.HostConfig.CpuQuota}} {{.HostConfig.CpuPeriod}}'</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Получил:</p><pre><code>25000 100000</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Вот и первая зацепка.</p><p>Контейнеру разрешено использовать 25 000 микросекунд процессорного времени за период 100 000 микросекунд.</p><p>Иными словами, его лимит — <strong>0,25 CPU</strong>.</p><p>А теперь вспомним <code>docker stats</code>: контейнер практически постоянно потреблял ровно четверть ядра.</p><p>Похоже, он упирался в собственное ограничение.</p><h3>Проверяем CPU throttling</h3><p>Чтобы подтвердить гипотезу, я посмотрел статистику cgroup v2.</p><p>Нужные данные находятся в <code>cpu.stat</code> и <code>cpu.pressure</code> соответствующей cgroup.</p><p>Сделал два замера с интервалом примерно 11 секунд.</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Метрика</p></th><th><p align=\"left\">Первый замер</p></th><th><p align=\"left\">Второй замер</p></th></tr><tr><td><p align=\"left\"><code>nr_periods</code></p></td><td><p align=\"left\">3096</p></td><td><p align=\"left\">3199</p></td></tr><tr><td><p align=\"left\"><code>nr_throttled</code></p></td><td><p align=\"left\">3089</p></td><td><p align=\"left\">3192</p></td></tr><tr><td><p align=\"left\"><code>usage_usec</code></p></td><td><p align=\"left\">77 805 989</p></td><td><p align=\"left\">80 369 498</p></td></tr></tbody></table></div></div><p>Получилось довольно показательно.</p><p>За время наблюдения прошло 103 периода процессорной квоты, и во всех 103 периодах происходил throttling.</p><p>Контейнер использовал примерно 2,56 секунды процессорного времени за 11 секунд реального времени - около 0,23 CPU в среднем.</p><p>То есть он практически постоянно расходовал разрешённую квоту.</p><p>Внутри самой cgroup PSI показывал:</p><pre><code>some avg10=78.89\nfull avg10=73.84</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>А на уровне всего VPS:</p><pre><code>some avg10=79.61</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>И вот здесь картина стала понятнее.</p><p>У сервера есть свободные вычислительные ресурсы, но конкретный контейнер не может ими воспользоваться из-за установленного ограничения.</p><p>Его задачи готовы продолжать выполнение, однако процессорная квота уже исчерпана.</p><p>Свободное CPU-время на хосте не означает, что его может получить любой контейнер.</p><p>Оставалось проверить, действительно ли именно этот сценарий создаёт основную часть наблюдаемого давления.</p><h3>Останавливаем контейнер</h3><p>Я завершил сценарий с высокой нагрузкой обычным способом через приложение.</p><p>Второй контейнер продолжил работать.</p><p>После остановки снова проверил PSI:</p><pre><code>cat /proc/pressure/cpu</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Результат:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Показатель</p></th><th><p align=\"left\">До остановки</p></th><th><p align=\"left\">После</p></th></tr><tr><td><p align=\"left\">CPU PSI <code>some avg10</code></p></td><td><p align=\"left\">79,61%</p></td><td><p align=\"left\">11,89%</p></td></tr></tbody></table></div></div><p><strong>Падение на 67,72 процентного пункта.</strong></p><p>При этом процессор VPS по-прежнему большую часть времени простаивал.</p><p>Более длительные показатели <code>avg60</code> и <code>avg300</code> оставались повышенными, поскольку учитывали предыдущую нагрузку.</p><p>Полученные результаты хорошо подтвердили гипотезу: основным источником высокого CPU pressure был сценарий, который практически постоянно достигал своей процессорной квоты.</p><h3>Так может, нужно увеличить CPU-квоту?</h3><p>В моём случае - нет.</p><p>Ограничение было установлено намеренно.</p><p>Игровой сценарий специально создаёт высокую нагрузку на процессор. Пользователь должен разобраться в причинах и исправить неисправность.</p><p>Но если разрешить такому окружению бесконтрольно использовать ресурсы VPS, оно может начать мешать другим игрокам.</p><p>Поэтому CPU throttling здесь — ожидаемое следствие защитного ограничения, а не обязательно ошибка, которую требуется устранить.</p><p>Другое дело, что подобные ограничения нужно учитывать при мониторинге. Высокий PSI сам по себе ещё не говорит, что всему серверу требуется больше процессорных ядер.</p><p>Важно выяснить, кто именно ждёт CPU и почему.</p><p>И отдельно проверять, насколько такое ожидание влияет на реальные действия пользователя — например, на отзывчивость терминала.</p><h3>А сколько окружений всё-таки выдержал VPS?</h3><p>Забавно, но до девяти окружений я так и не добрался.</p><p>После нескольких запусков сработала собственная защита приложения от слишком частых запросов с одного IP.</p><p>Вместо очередного терминала я получил сообщение:</p><p>«Слишком много запусков с твоего адреса. Подожди несколько минут».</p><p>Хотел проверить пределы инфраструктуры, а первым меня остановил собственный rate limiter.</p><p>Так что предел по количеству одновременно работающих окружений ещё предстоит измерить отдельно.</p><p>Зато в ходе исследования выяснилась куда более интересная вещь.</p><p>CPU utilization и CPU pressure могут рассказывать совершенно разные истории.</p><p>В моём случае:</p><ul><li><p>CPU на VPS оставался преимущественно свободным.</p></li><li><p>Один контейнер был ограничен квотой 0,25 CPU.</p></li><li><p>Его задачи регулярно попадали под throttling.</p></li><li><p>CPU PSI достигал почти 80%.</p></li><li><p>После остановки контейнера показатель резко снизился.</p></li></ul><p>Если бы я ориентировался только на загрузку процессора, эту особенность легко было бы пропустить.</p><p>Поэтому при диагностике контейнерных нагрузок полезно смотреть не только <code>top</code> и <code>docker stats</code>, но и <code>cpu.max</code>, <code>cpu.stat</code> и <code>cpu.pressure</code>.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "docker"
+    },
+    {
+      "titleHtml": "linux"
+    },
+    {
+      "titleHtml": "sre"
+    },
+    {
+      "titleHtml": "sysadmin"
+    },
+    {
+      "titleHtml": "cgroups"
+    },
+    {
+      "titleHtml": "cgroup v2"
+    },
+    {
+      "titleHtml": "devops"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106308/81c3486aa823f159a5f818151acee9f0/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106308/81c3486aa823f159a5f818151acee9f0/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106308\\/\"},\"headline\":\"CPU простаивает, а Linux показывает 80% давления. Как я нашёл причину в одном контейнере\",\"datePublished\":\"2026-11-11T07:38:02+03:00\",\"dateModified\":\"2026-11-11T16:36:04+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Недавно решил проверить, сколько изолированных Linux-окружений сможет одновременно обслуживать мой VPS. Конфигурация довольно скромная: 3 vCPU, 6 ГБ RAM и...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106308\\/#post-content-body\",\"about\":[\"h_devops\",\"h_linux_dev\",\"h_linux\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1106308\\/81c3486aa823f159a5f818151acee9f0\\/\"]}",
+    "metaDescription": "Недавно решил проверить, сколько изолированных Linux-окружений сможет одновременно обслуживать мой VPS. Конфигурация довольно скромная: 3 vCPU, 6 ГБ RAM и Docker. На сервере работает учебный проект ,...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "analytics",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

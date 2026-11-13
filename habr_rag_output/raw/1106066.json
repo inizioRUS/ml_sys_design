@@ -1,0 +1,222 @@
+{
+  "id": "1106066",
+  "timePublished": "2026-11-11T05:34:52+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Вышло обновление RapidRAW 1.6.9 — открытого редактора изображений RAW",
+  "leadData": {
+    "textHtml": "<p><a href=\"https://github.com/CyberTimon/RapidRAW/releases#release-v1.6.9\" rel=\"noopener nofollow\">Состоялся</a> выпуск обновления открытого мультиплатформенного редактора изображений RapidRAW 1.6.9. Проект предлагает простой способ обработки изображений RAW с&nbsp;помощью GPU. Решение использует лёгкую (~30&nbsp;МБ) и эффективную кодовую базу, созданную на&nbsp;основе Rust, React и Tauri. </p>",
+    "imageUrl": "https://habrastorage.org/extt/1b/15/7f/1b157f5e65c8b0faceb8a984abb25905.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/1b/15/7f/1b157f5e65c8b0faceb8a984abb25905.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "780987",
+    "alias": "denis-19",
+    "fullname": "Денис",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/6a0/f31/235/6a0f31235bb26134f3c7a741c03e4efb.jpg",
+    "speciality": "Информационная служба Хабра, без использования ИИ",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1069,
+      "votesCount": 2027
+    },
+    "rating": 881.5,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "1024K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 3,
+    "readingCount": 290,
+    "score": 3,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 6969,
+    "readers": 198
+  },
+  "hubs": [
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "18961",
+      "alias": "rust",
+      "type": "collective",
+      "title": "Rust",
+      "titleHtml": "Rust",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17175",
+      "alias": "image_processing",
+      "type": "collective",
+      "title": "Обработка изображений",
+      "titleHtml": "Обработка изображений",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21918",
+      "alias": "soft",
+      "type": "collective",
+      "title": "Софт",
+      "titleHtml": "Софт",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/1b/15/7f/1b157f5e65c8b0faceb8a984abb25905.jpg\" width=\"1560\" height=\"903\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1b/15/7f/1b157f5e65c8b0faceb8a984abb25905.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/1b/15/7f/1b157f5e65c8b0faceb8a984abb25905.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><a href=\"https://github.com/CyberTimon/RapidRAW/releases#release-v1.6.9\" rel=\"noopener nofollow\">Состоялся</a> выпуск обновления открытого мультиплатформенного редактора изображений RapidRAW 1.6.9. Проект предлагает простой способ обработки изображений RAW с помощью GPU. Решение использует лёгкую (~30 МБ) и эффективную кодовую базу, созданную на основе Rust, React и Tauri. </p><p>Исходный код решения RapidRAW написан на Rust и JavaScript и <a href=\"https://github.com/CyberTimon/RapidRAW\" rel=\"noopener nofollow\">опубликован</a> на GitHub под лицензией GNU Affero General Public License v3.0. RapidRAW — современная высокопроизводительная альтернатива Lightroom с продуманным пользовательским интерфейсом и креативными инструментами, предлагающая мощные возможности редактирования фотографий для пользователей, которым нужна скорость, отзывчивая обратная связь от графического процессора и оптимизированные рабочие процессы.</p><p>В проекте RapidRAW предлагается широкий набор инструментов редактирования: экспозиция, контрастность, блики, тени, соотношение белого и чёрного, тоновые кривые, микшер HSL, удаление дымки, виньетирование, зернистость плёнки, резкость, чёткость и шумоподавление — всё это обрабатывается в режиме реального времени на графическом процессоре.</p><p>Обновление RapidRAW 1.6.9 направлено на улучшение основных функций просмотра и общей производительности. </p><p>«Представьте, что вы редактируете всю фотосессию, не касаясь ни одного ползунка. С новой функцией Speed Edit вы удерживаете клавишу W, перетаскиваете изображение и переходите к следующему снимку одним нажатием. Это лишь одна из особенностей этого обновления. В RapidRAW теперь есть настоящий чёрно-белый режим с классическими эффектами плёночной фотографии и тонированием, а также эффект размытия в движении, который считывает глубину сцены, превращая статичное фото в панорамный снимок. Функции Clone &amp; Heal, Liquify и Retouch были переработаны с нуля, а новая кисть Match Brush рисует маски, которые следуют за цветами и текстурами, которые вы трогаете. Вы также можете открыть отредактированное изображение во втором окне, отправлять фотографии внешним редакторам, просматривать глубину сцены в 3D и работать быстрее с сетевых дисков», — пояснил автор проекта.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/getpro/habr/upload_files/4c3/827/233/4c3827233686365e7aaef3e85aaf3727.jpg\" width=\"780\" height=\"438\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/getpro/habr/upload_files/4c3/827/233/4c3827233686365e7aaef3e85aaf3727.jpg 780w,&#10;       https://habrastorage.org/r/w1560/getpro/habr/upload_files/4c3/827/233/4c3827233686365e7aaef3e85aaf3727.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Основные изменения и <a href=\"https://github.com/CyberTimon/RapidRAW/releases#release-v1.6.9\" rel=\"noopener nofollow\">дополнения</a> в RapidRAW 1.6.9: </p><ul><li><p>добавлен специальный чёрно-белый режим с эффектами плёночной фотографии, цветовыми фильтрами, микшированием каналов и параметрами тонирования, включая сепию, селен, золото и цианотипию;</p></li><li><p>добавлено размытие в движении с эффектами линейного, масштабируемого, вращательного и плавного изменения, элементами управления маской и размытием с учётом глубины;</p></li><li><p>добавлено быстрое редактирование, позволяющее пользователям регулировать ползунки непосредственно на фотографии с помощью сочетаний клавиш;</p></li><li><p>переработаны инструменты «Клонирование», «Лечение», «Пластика» и «Ретушь», улучшены выбор источника, смешивание, деформация и сглаживание кожи;</p></li><li><p>добавлена кисть «Совпадение» для создания масок на основе похожих цветов, тонов и текстур;</p></li><li><p>добавлено второе окно редактирования с независимыми элементами управления масштабированием и панорамированием, идеально подходящее для многомониторных конфигураций;</p></li><li><p>добавлена интеграция с внешним редактором, поддерживающая отправку оригинальных RAW-файлов или отредактированных 16-битных TIFF-файлов в другие приложения;</p></li><li><p>улучшен цветовой микшер с выбором цвета на изображении и расширенными элементами управления;</p></li><li><p>добавлены интерактивные 3D-виды глубины для размытия объектива, тумана, переосвещения, размытия в движении и масок глубины ИИ;</p></li><li><p>переработаны эффекты свечения, гашения и бликов с использованием нового светового движка, а также улучшена зернистость плёнки для более реалистичного отображения;</p></li><li><p>переработана коррекция искажений линз в соответствии с Lensfun, улучшены искажения, хроматическая аберрация, виньетирование и автоматическая обрезка;</p></li><li><p>перенесено больше задач обработки на графический процессор, включая Relight, Fog, Lens Blur, коррекцию линз, перспективу, вращение и обрезку;</p></li><li><p>улучшена загрузка изображений с фоновой предварительной загрузкой, более быстрый доступ к сетевым дискам и предварительный просмотр слайдеров до трех раз быстрее в Linux и Android;</p></li><li><p>расширена интеграция с Immich с сортировкой альбомов, созданием альбомов, отображением неназначенных изображений и улучшенной организацией;</p></li><li><p>добавлен экспериментальный прямой рендерер GPU для Linux Wayland;</p></li><li><p>добавлено масштабирование интерфейса, скрываемые свёрнутые панели и более понятные записи истории редактирования;</p></li><li><p>улучшен экспорт с параметрами исходного файла, корректной обработкой встроенного цветового профиля, метаданными TIFF, более быстрым JPEG XL без потерь и новым значением по умолчанию 96 DPI;</p></li><li><p>добавлено более безопасное сохранение пресетов, альбомов и настроек, а также исправления для сетевых дисков, контекстных меню macOS и подключений к серверу Android;</p></li><li><p>доработана документация и обновлены переводы;</p></li><li><p>повышена общая стабильность и производительность, исправлен ряд ошибок.</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/60/a3/c5/60a3c5fc578f477cfc5fd145d9cec759.png\" width=\"850\" height=\"430\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/60/a3/c5/60a3c5fc578f477cfc5fd145d9cec759.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/60/a3/c5/60a3c5fc578f477cfc5fd145d9cec759.png 781w\" loading=\"lazy\" decode=\"async\"/></figure></div>",
+  "tags": [
+    {
+      "titleHtml": "rapidraw"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106066/dc5da1b209d24604fcdc0f5e3d78bbb3/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106066/dc5da1b209d24604fcdc0f5e3d78bbb3/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106066\\/\"},\"headline\":\"Вышло обновление RapidRAW 1.6.9 — открытого редактора изображений RAW\",\"datePublished\":\"2026-11-11T08:34:52+03:00\",\"dateModified\":\"2026-11-11T10:32:11+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Состоялся выпуск обновления открытого мультиплатформенного редактора изображений RapidRAW 1.6.9. Проект предлагает простой способ обработки изображений RAW...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106066\\/#post-content-body\",\"about\":[\"h_open_source\",\"h_rust\",\"h_image_processing\",\"h_soft\",\"h_sys_admin\",\"f_develop\",\"f_admin\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/1b\\/15\\/7f\\/1b157f5e65c8b0faceb8a984abb25905.jpg\",\"https:\\/\\/habrastorage.org\\/r\\/w1560\\/getpro\\/habr\\/upload_files\\/4c3\\/827\\/233\\/4c3827233686365e7aaef3e85aaf3727.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/60\\/a3\\/c5\\/60a3c5fc578f477cfc5fd145d9cec759.png\"]}",
+    "metaDescription": "Состоялся выпуск обновления открытого мультиплатформенного редактора изображений RapidRAW 1.6.9. Проект предлагает простой способ обработки изображений RAW с&nbsp;помощью GPU. Решение использует...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,212 @@
+{
+  "id": "1105862",
+  "timePublished": "2026-11-10T09:47:47+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "В Firefox появится функция ускоренного запуска приложений",
+  "leadData": {
+    "textHtml": "<p>Microsoft представила в&nbsp;Windows 11&nbsp;функцию «ускоренного запуска приложений» (Accelerated App Launches)&nbsp;— новый механизм, призванный ускорить открытие программ, процессы которых уже запущены в&nbsp;фоновом режиме. Теперь Mozilla <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=2087194\" rel=\"noopener nofollow\">планирует внедрить</a> эту технологию в&nbsp;Firefox.</p>",
+    "imageUrl": "https://habrastorage.org/extt/fd/4f/03/fd4f0337c07e382a9f7e2dceb1d2a233.JPG",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/fd/4f/03/fd4f0337c07e382a9f7e2dceb1d2a233.JPG",
+      "fit": "cover",
+      "positionY": 3,
+      "positionX": 35
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2176401",
+    "alias": "maybe_elf",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/592/11d/4bc/59211d4bcd7f9afdadaef515b2b0706d.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 345,
+      "votesCount": 1085
+    },
+    "rating": 467.6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 1,
+    "readingCount": 494,
+    "score": 4,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 5373,
+    "readers": 383
+  },
+  "hubs": [
+    {
+      "id": "19257",
+      "alias": "browsers",
+      "type": "collective",
+      "title": "Браузеры",
+      "titleHtml": "Браузеры",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "49",
+      "alias": "firefox",
+      "type": "collective",
+      "title": "Firefox",
+      "titleHtml": "Firefox",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21456",
+      "alias": "win_dev",
+      "type": "collective",
+      "title": "Windows",
+      "titleHtml": "Windows",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20726",
+      "alias": "productpm",
+      "type": "collective",
+      "title": "Управление продуктом",
+      "titleHtml": "Управление продуктом",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Microsoft представила в Windows 11 функцию «ускоренного запуска приложений» (Accelerated App Launches) — новый механизм, призванный ускорить открытие программ, процессы которых уже запущены в фоновом режиме. Теперь Mozilla <a href=\"https://bugzilla.mozilla.org/show_bug.cgi?id=2087194\" rel=\"noopener nofollow\">планирует внедрить</a> эту технологию в Firefox.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/fd/4f/03/fd4f0337c07e382a9f7e2dceb1d2a233.JPG\" width=\"1011\" height=\"584\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/fd/4f/03/fd4f0337c07e382a9f7e2dceb1d2a233.JPG 780w,&#10;       https://habrastorage.org/r/w1560/extt/fd/4f/03/fd4f0337c07e382a9f7e2dceb1d2a233.JPG 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Информация об этом появилась в системе отслеживания ошибок Bugzilla: менеджер по продукту Firefox Дэвид Рубино создал новый запрос, посвященный потенциальной реализации данной функции. По словам Рубино, специалистам Mozilla уже удалось получить доступ к API ускоренного запуска от Microsoft, используя тот же ключ, который Firefox применяет для закрепления ярлыков на панели задач. Первые результаты выглядят многообещающе: в ходе экспресс‑теста локальной сборки Firefox запрос доставлялся к уже запущенному экземпляру браузера примерно за 3 мс — против 70 мс, требовавшихся ранее. Кроме того, при запуске через меню «Пуск» команда теперь передается напрямую в уже работающий браузер. Это не означает, что Firefox станет запускаться в 20 с лишним раз быстрее: приведённые цифры отражают лишь скорость передачи запроса к уже открытому приложению и получены в рамках одного локального теста. </p><p>Работа над внедрением продолжается. В экспериментальный патч Mozilla добавлен параметр <code>widget.windows.accelerated_launch.enabled</code>, который по умолчанию отключён. Рубино также отметил, что разработчикам предстоит решить, как функция должна вести себя в ситуациях, когда одновременно используется несколько профилей Firefox. </p><p>Механизм ускоренного запуска позволяет Windows направлять запросы на открытие приложения непосредственно в тот процесс, который уже работает в системе. В обычном режиме Windows создает дополнительный процесс, который перенаправляет запрос существующему экземпляру программы, а затем завершает свою работу. Новый подход от Microsoft исключает этот промежуточный этап, что должно сделать запуск приложений из меню «Пуск» или с панели задач заметно быстрее. Для сравнения: по данным Microsoft, функция Accelerated App Launches делает запуск браузера Edge примерно на 15% быстрее для большинства пользователей, а при повышенной нагрузке на систему прирост скорости может достигать 33%. Эта функция поддерживается в Windows 11 (версии 25H2, 26H1 и 26H2) при условии установки обновления от октября 2026 года или позднее.</p><p>Кроме того, Microsoft предоставляет реализацию технологии «ускоренного запуска приложений» проекту Chromium. Благодаря этому в будущем данную функцию могут внедрить и другие браузеры на базе Chromium — например, Chrome, Brave или Opera.</p><p>Между тем <a href=\"https://habr.com/ru/articles/1104514/\" rel=\"noopener nofollow\">состоялся</a> релиз стабильной версии Firefox 160.0. В нём появилась функция «Мини‑окно» (Mini Window), позволяющая перенести вкладку или выделенный фрагмент страницы в отдельное окно, которое всегда остаётся поверх других окон; добавлена ​​настройка скорости воспроизведения для режима «Картинка в картинке» (от 0,25 x до 2,0 x) и реализована поддержка воспроизведения файлов формата Matroska (MKV) с аудиодорожками в форматах FLAC, MP3 или PCM, а также внедрены другие функции.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "microsoft"
+    },
+    {
+      "titleHtml": "windows 11"
+    },
+    {
+      "titleHtml": "mozilla"
+    },
+    {
+      "titleHtml": "firefox"
+    },
+    {
+      "titleHtml": "браузеры"
+    },
+    {
+      "titleHtml": "запуск приложений"
+    },
+    {
+      "titleHtml": "фоновые приложения"
+    },
+    {
+      "titleHtml": "ускорение загрузки"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105862/552fb9d93df4c95febb99968c2986a2a/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105862/552fb9d93df4c95febb99968c2986a2a/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105862\\/\"},\"headline\":\"В Firefox появится функция ускоренного запуска приложений\",\"datePublished\":\"2026-11-10T12:47:47+03:00\",\"dateModified\":\"2026-11-10T13:06:47+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Microsoft представила в&nbsp;Windows 11&nbsp;функцию «ускоренного запуска приложений» (Accelerated App Launches)&nbsp;— новый механизм, призванный ускорить...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105862\\/#post-content-body\",\"about\":[\"h_browsers\",\"h_firefox\",\"h_win_dev\",\"h_productpm\",\"f_develop\",\"f_management\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/fd\\/4f\\/03\\/fd4f0337c07e382a9f7e2dceb1d2a233.JPG\"]}",
+    "metaDescription": "Microsoft представила в&nbsp;Windows 11&nbsp;функцию «ускоренного запуска приложений» (Accelerated App Launches)&nbsp;— новый механизм, призванный ускорить открытие программ, процессы которых уже...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

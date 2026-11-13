@@ -1,0 +1,195 @@
+{
+  "id": "1105854",
+  "timePublished": "2026-11-10T12:52:40+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Что теперь умеют сообщения в Telegram: кнопки, анимации и свой JavaScript",
+  "leadData": {
+    "textHtml": "<p>В Telegram теперь можно отправить работающую веб-страничку прямо сообщением. Вы задаёте её внешний вид и пишете JavaScript, а получатель пользуется интерфейсом прямо в переписке, без открытия Mini App.</p><p>Для эксперимента я собрал игру с падающими этажами и отправил себе как HTML-виджет. Нажимаешь на сообщение, этаж падает, башня растёт. Весь код занял чуть больше 3 КБ после сжатия.</p><p>Бот может обновлять виджет данными с бэкенда. Но на HTML, CSS и JavaScript дают всего 4 КБ, без доступа к сети и привычных полей ввода. Я посмотрел, что при таких условиях реально собрать и какую часть приложения теперь можно оставить внутри сообщения.</p>",
+    "imageUrl": "https://habrastorage.org/extt/99/33/14/993314a5842c982b489f93447392f4fa.png",
+    "buttonTextHtml": "Посмотреть виджеты",
+    "image": {
+      "url": "https://habrastorage.org/extt/99/33/14/993314a5842c982b489f93447392f4fa.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3607327",
+    "alias": "ituzov",
+    "fullname": "Илья Тузов",
+    "avatarUrl": "//habrastorage.org/extt/14/7e/f1/147ef1c3682b25ff8ee22383ad0b93c6.jpg",
+    "speciality": "Фулстек-разработчик. Экспериментирую с AI",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 5
+    },
+    "rating": 9,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/ituzov_fun",
+        "value": "ituzov_fun",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/ituzov_fun",
+        "value": "ituzov_fun",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 4,
+    "favoritesCount": 6,
+    "readingCount": 1446,
+    "score": 5,
+    "votesCount": 4,
+    "votesCountPlus": 4,
+    "votesCountMinus": 0,
+    "reach": 8187,
+    "readers": 1076
+  },
+  "hubs": [
+    {
+      "id": "357",
+      "alias": "javascript",
+      "type": "collective",
+      "title": "JavaScript",
+      "titleHtml": "JavaScript",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "92",
+      "alias": "instant_messaging",
+      "type": "collective",
+      "title": "Мессенджеры",
+      "titleHtml": "Мессенджеры",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "91",
+      "alias": "webdev",
+      "type": "collective",
+      "title": "Веб-разработка",
+      "titleHtml": "Веб-разработка",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>В сообщение Telegram теперь можно засунуть небольшую веб-страницу со своим JavaScript. Получатель открывает чат и сразу может с ней взаимодействовать: нажимать кнопки, двигать элементы, играть. Код выполняется прямо внутри сообщения, а HTML и стили бот отправляет вместе с ним.</p><p>Это новые HTML-виджеты. На весь код дают всего 4 КБ после сжатия, и мне стало интересно, что в них вообще поместится. Оказалось, даже игра.</p><p>Для эксперимента я собрал башню: нажимаешь на сообщение, очередной этаж падает вниз. Если поставил криво, торчащий кусок отваливается. Отправил её себе в Telegram, потыкал. Вся игра заняла чуть больше 3 КБ после сжатия.</p><figure class=\"\"><img src=\"https://habrastorage.org/webt/21/d8/78/21d878b58f0eeaa3535d140171634db2.gif\" alt=\"Игра с башней работает внутри сообщения Telegram\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/webt/21/d8/78/21d878b58f0eeaa3535d140171634db2.gif 780w,&#10;       https://habrastorage.org/webt/21/d8/78/21d878b58f0eeaa3535d140171634db2.gif 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Игра с башней работает внутри сообщения Telegram</figcaption></div></figure><p>Бот может прислать новые данные в уже отправленный виджет. Скрипт получит их и обновит текст или другие элементы сообщения, если заранее написать для этого обработчик.</p><h3>Одна пиццерия, три интерфейса</h3><p>Давайте возьмём классический пример: пиццерия принимает заказы через Telegram. Банально, зато на нём удобно сравнить обычные сообщения бота, Mini App и новые виджеты.</p><p>Покупатель выбрал «Маргариту», решил взять две и хочет увидеть итоговую сумму.</p><h4>Сообщение бота</h4><p>Кнопка «Добавить в заказ» стоит под сообщением. Когда на неё нажимают, бот получает событие. Если нужно показать новую сумму, бот редактирует сообщение или присылает следующее.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/36/89/d8/3689d86d05fe343f05e66c3b047586e0.png\" alt=\"Сообщение бота с ценой и кнопкой «Добавить в заказ»\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/36/89/d8/3689d86d05fe343f05e66c3b047586e0.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/36/89/d8/3689d86d05fe343f05e66c3b047586e0.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Сообщение бота с ценой и кнопкой «Добавить в заказ»</figcaption></div></figure><h4>Mini App</h4><p>Mini App по сути открывает ваш сайт во встроенном браузере Telegram, на отдельном экране. Вы размещаете страницу на сервере, а Telegram загружает её по URL. Для нашей пиццерии это может быть каталог с корзиной и формой доставки.</p><p>У Mini Apps есть API для интеграции с Telegram: можно получить данные пользователя, подстроить цвета под тему мессенджера или использовать его кнопки. Сам интерфейс вы пишете на привычных HTML, CSS и JavaScript.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/04/0c/d3/040cd38c58b54e54d8689560272a296b.png\" alt=\"Каталог пиццерии в Mini App с переходом в корзину\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/04/0c/d3/040cd38c58b54e54d8689560272a296b.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/04/0c/d3/040cd38c58b54e54d8689560272a296b.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Каталог пиццерии в Mini App с переходом в корзину</figcaption></div></figure><h4>HTML-виджет</h4><p>Жмёте «+», и сумма меняется прямо в карточке. Её пересчитывает скрипт внутри сообщения. Когда нажмёте «Оформить заказ», виджет обратится к боту, чтобы тот записал заказ на сервере.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/d3/89/ee/d389eef407bea8530ff7ec931aa943b2.png\" alt=\"HTML-виджет в сообщении с выбором количества и пересчётом суммы\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/d3/89/ee/d389eef407bea8530ff7ec931aa943b2.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/d3/89/ee/d389eef407bea8530ff7ec931aa943b2.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>HTML-виджет в сообщении с выбором количества и пересчётом суммы</figcaption></div></figure><h3>Как меняется статус в уже отправленной карточке</h3><p>Обновление с сервера я пока не пробовал, поэтому этот пример разобрал по документации Telegram. Допустим, покупатель оформил заказ. Бэкенд пиццерии сохранил его под номером 42 со статусом «Принят», и теперь бот отправляет покупателю карточку.</p><h4>Карточка заказа</h4><p>Карточка хранится в файле <code>order-widget.html</code>. В разметке есть поля для номера и статуса заказа. JavaScript внутри <code>&lt;script&gt;</code> заполняет эти поля при открытии виджета и обновляет их, когда бот присылает новые данные.</p><pre><code class=\"xml\">&lt;p&gt;Заказ №&lt;span id=\"order-id\"&gt;…&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;Статус: &lt;strong id=\"order-status\"&gt;Загрузка…&lt;/strong&gt;&lt;/p&gt;\n\n&lt;script&gt;\n  const widget = window.TelegramWidget;\n  const orderId = document.getElementById('order-id');\n  const orderStatus = document.getElementById('order-status');\n\n  function renderOrder() {\n    try {\n      const order = JSON.parse(widget.chatData || 'null');\n      orderId.textContent = order?.id ?? '—';\n      orderStatus.textContent = order?.status ?? 'Нет данных';\n    } catch {\n      orderStatus.textContent = 'Ошибка данных';\n    }\n  }\n\n  widget.onEvent('chatDataChanged', renderOrder);\n  renderOrder();\n&lt;/script&gt;\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Объект <code>window.TelegramWidget</code> предоставляет Telegram. Его свойство <code>chatData</code> содержит строку с данными этого сообщения. Функция <code>renderOrder()</code> разбирает JSON и записывает номер заказа в <code>order-id</code>, а статус в <code>order-status</code>. В конце скрипт подписывается на событие <code>chatDataChanged</code> и вызывает <code>renderOrder()</code> первый раз, чтобы сразу показать заказ.</p><h4>Бот отправляет карточку покупателю</h4><p>В нашем примере бэкенд написан на Node.js. Он читает HTML из файла, а токен бота из переменной окружения <code>TELEGRAM_BOT_TOKEN</code>. Покупатель общается с ботом в личном чате с условным ID <code>123456789</code>. Его заказ №42 уже принят.</p><pre><code class=\"javascript\">import { readFile } from 'node:fs/promises';\n\nconst token = process.env.TELEGRAM_BOT_TOKEN;\nconst html = await readFile('./order-widget.html', 'utf8');\n\nasync function callTelegram(method, params) {\n  const response = await fetch(\n    `https://api.telegram.org/bot${token}/${method}`,\n    {\n      method: 'POST',\n      headers: { 'Content-Type': 'application/json' },\n      body: JSON.stringify(params),\n    },\n  );\n  const data = await response.json();\n  if (!response.ok || !data.ok) {\n    throw new Error(data.description || 'Ошибка Telegram API');\n  }\n  return data.result;\n}\n\nasync function sendOrderWidget(chatId, order) {\n  return callTelegram('sendWidget', {\n    chat_id: chatId,\n    html,\n    chat_data: JSON.stringify(order),\n  });\n}\n\n// Пример заказа, который бэкенд уже принял.\nconst order = { id: 42, status: 'Принят' };\nconst chatId = 123456789; // Условный ID чата покупателя.\nconst message = await sendOrderWidget(chatId, order);\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Функция <code>sendOrderWidget()</code> отправляет в Telegram разметку в поле <code>html</code> и строку <code>{\"id\":42,\"status\":\"Принят\"}</code> в поле <code>chat_data</code>. Статус «Принят» задан в объекте <code>order</code> на сервере. JavaScript в виджете прочитает его через <code>widget.chatData</code> и покажет покупателю.</p><p>Telegram возвращает отправленное сообщение, и код сохраняет его в <code>message</code>. Поля <code>message.chat.id</code> и <code>message.message_id</code> указывают, где находится карточка заказа №42. По ним бот найдёт её при обновлении статуса.</p><h4>Кухня начала готовить</h4><p>Кухня взяла заказ в работу. Бэкенд меняет статус в <code>order</code> на «Готовится» и вызывает <code>editMessageWidgetData</code> через функцию <code>callTelegram</code>. ID чата и сообщения он берёт из сохранённого <code>message</code>.</p><pre><code class=\"javascript\">// Позже, когда кухня взяла этот заказ в работу.\norder.status = 'Готовится';\n\nawait callTelegram('editMessageWidgetData', {\n  chat_id: message.chat.id,\n  message_id: message.message_id,\n  chat_data: JSON.stringify(order),\n});\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Telegram обновляет <code>chatData</code> у выбранного сообщения и вызывает событие <code>chatDataChanged</code>. Наш JavaScript снова запускает <code>renderOrder()</code>, и надпись меняется на «Готовится». HTML-файл повторно отправлять не нужно. Чтобы изменить сам код виджета, придётся прислать новый.</p><h3>Какие ограничения есть у виджетов</h3><p>Вся разметка, стили и JavaScript должны уложиться в 32 768 байт исходника и 4 096 байт после сжатия. Поэтому к карточке пиццы уже не так просто добавить фотографии. Загрузить их по URL нельзя, а встроенные в HTML изображения тоже занимают место в этих четырёх килобайтах.</p><p>JavaScript выполняется в QuickJS без доступа к сети. Например, скрипт карточки не сможет сам запросить актуальную цену через <code>fetch</code>. За внешними данными ему придётся обращаться к боту. Это повлияет на то, какую логику пиццерия сможет перенести в сообщение.</p><p>С вводом адреса доставки тоже возникнет проблема. Telegram удаляет из разметки <code>input</code>, <code>textarea</code> и <code>select</code>, а клавиатура внутри виджета недоступна. Количество пицц можно выбрать кнопками, но для ввода улицы и номера квартиры понадобится другой интерфейс. В нашем примере форму доставки можно оставить в Mini App, а в переписке показывать карточку заказа со статусом.</p><h3>Где это можно попробовать</h3><p>Когда башня заработала, я попытался переслать её в канал. Telegram не дал. В публичном Bot API виджеты пока работают в личке с ботом, а пересылка отключена. Если хотите потыкать свой HTML в чате, отправьте его себе через <code>sendWidget</code>. Подписчикам канала пока можно показать запись или дать ссылку на бота.</p><p>Мне не терпится увидеть, что люди с этим сделают. Уже хочется открывать чужие эксперименты, тыкать во всё подряд и разбираться, как это вообще уместили в одном сообщении.</p><p><a href=\"https://core.telegram.org/bots/widgets\" rel=\"noopener nofollow\">Документация по виджетам</a> · <a href=\"https://core.telegram.org/bots/api#sendwidget\" rel=\"noopener nofollow\">Метод sendWidget в Bot API</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "telegram"
+    },
+    {
+      "titleHtml": "bot api"
+    },
+    {
+      "titleHtml": "html"
+    },
+    {
+      "titleHtml": "javascript"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105854/fc76fe278fc5d1526dafc3be9c421be5/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105854/fc76fe278fc5d1526dafc3be9c421be5/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105854\\/\"},\"headline\":\"Что теперь умеют сообщения в Telegram: кнопки, анимации и свой JavaScript\",\"datePublished\":\"2026-11-10T15:52:40+03:00\",\"dateModified\":\"2026-11-10T15:53:30+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В сообщение Telegram теперь можно засунуть небольшую веб-страницу со своим JavaScript. Получатель открывает чат и сразу может с ней взаимодействовать: нажимать...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105854\\/#post-content-body\",\"about\":[\"h_javascript\",\"h_instant_messaging\",\"h_webdev\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/webt\\/21\\/d8\\/78\\/21d878b58f0eeaa3535d140171634db2.gif\",\"https:\\/\\/habrastorage.org\\/webt\\/36\\/89\\/d8\\/3689d86d05fe343f05e66c3b047586e0.png\",\"https:\\/\\/habrastorage.org\\/webt\\/04\\/0c\\/d3\\/040cd38c58b54e54d8689560272a296b.png\",\"https:\\/\\/habrastorage.org\\/webt\\/d3\\/89\\/ee\\/d389eef407bea8530ff7ec931aa943b2.png\"]}",
+    "metaDescription": "В сообщение Telegram теперь можно засунуть небольшую веб-страницу со своим JavaScript. Получатель открывает чат и сразу может с ней взаимодействовать: нажимать кнопки, двигать элементы, играть. Код...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "4",
+    "title": "Фронтенд",
+    "alias": "frontend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,194 @@
+{
+  "id": "1105778",
+  "timePublished": "2026-11-10T07:22:24+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "От COM-интеграций к централизованной схеме: как проверить новую интеграционную архитектуру до промышленного внедрения",
+  "leadData": {
+    "textHtml": "<p><em>На связи Анна Астахова, директор по развитию ИТ-интегратора «Белый код». Почти всегда тем, кто обращается к нам с вопросом о выборе шины, мы говорим, что надо проверять на реальной задаче. Пилотный проект — хорошая возможность оценить, насколько вашей архитектуре и вашим требованиям подходит конкретная интеграционная платформа. Расскажу на примере. Для одного из заказчиков мы реализовали три интеграционных потока, и это помогло увидеть реальную пользу DATAREON Platform.</em></p>",
+    "imageUrl": "https://habrastorage.org/extt/db/be/1c/dbbe1c7a4c3df7f8e226933e8acc2eb1.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/db/be/1c/dbbe1c7a4c3df7f8e226933e8acc2eb1.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "4407050",
+    "alias": "AstahovaAnna",
+    "fullname": "Анна Астахова",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/c5d/59e/ce8/c5d59ece8f5fadace8e4f7ecdd08ed4e.jpg",
+    "speciality": "директор по развитию ИТ-интегратора «Белый код»",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 6,
+      "votesCount": 24
+    },
+    "rating": 3,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 1,
+    "readingCount": 104,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 5173,
+    "readers": 79
+  },
+  "hubs": [
+    {
+      "id": "23668",
+      "alias": "w_code",
+      "type": "corporative",
+      "title": "Блог компании ИТ-интегратор Белый код",
+      "titleHtml": "Блог компании ИТ-интегратор Белый код",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22026",
+      "alias": "itcompanies",
+      "type": "collective",
+      "title": "IT-компании",
+      "titleHtml": "IT-компании",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22624",
+      "alias": "1C",
+      "type": "collective",
+      "title": "1С",
+      "titleHtml": "1С",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/db/be/1c/dbbe1c7a4c3df7f8e226933e8acc2eb1.png\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/db/be/1c/dbbe1c7a4c3df7f8e226933e8acc2eb1.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/db/be/1c/dbbe1c7a4c3df7f8e226933e8acc2eb1.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><em>На связи Анна Астахова, директор по развитию ИТ-интегратора «Белый код». Почти всегда тем, кто обращается к нам с вопросом о выборе шины, мы говорим, что надо проверять на реальной задаче. Пилотный проект — хорошая возможность оценить, насколько вашей архитектуре и вашим требованиям подходит конкретная интеграционная платформа. Расскажу на примере. Для одного из заказчиков мы реализовали три интеграционных потока, и это помогло увидеть реальную пользу DATAREON Platform.</em></p><p><strong>Заказчик:</strong> инжиниринговый холдинг. </p><p><strong>Задача:</strong> проверить на пилотном контуре централизованную схему интеграции, в которой «1С:Документооборот» становится единым источником данных по объекту «Проект», а обмен между системами выполняется через DATAREON Platform.</p><h3>О компании</h3><p>Один из российских инжиниринговых холдингов. Компания строит промышленные объекты и имеет подтвержденные положительные результаты работы действующих производств.</p><h3>С чем обратился заказчик</h3><p>На момент старта проекта обмен данными между системами был построен через COM-взаимодействие.</p><p>Процесс работы с объектом «Проект» выглядел так:</p><ul><li><p>проект создавался в «1С:Документооборот»;</p></li><li><p>затем через COM передавался в «БИТ.ФИНАНС»;</p></li><li><p>в «1С БИТ» создавалась связанная номенклатурная группа;</p></li><li><p>после этого проект и номенклатурная группа передавались в «1С:ЗУП» также через COM.</p></li></ul><p>Основная сложность этой схемы заключалась в том, что «1С:ЗУП» получала данные о проекте не напрямую из исходной системы, а через «БИТ.ФИНАНС». Из-за этого целевой обмен зависел от промежуточной системы, а происхождение данных было менее прозрачным.</p><p>Заказчик хотел проверить другую модель: определить «1С:Документооборот» как единый источник данных по проектам и организовать передачу информации через централизованный интеграционный слой DATAREON Platform. В интеграционном контуре пилотного проекта использовались три системы: «1С:Документооборот», «БИТ.ФИНАНС» и «1С:ЗУП». </p><h3>Что сделали</h3><p>В рамках пилота мы реализовали три интеграционных потока:</p><ol><li><p>«1С:Документооборот» → «БИТ.ФИНАНС» — передача справочника «Проекты».</p></li><li><p>«1С:Документооборот» → «1С:ЗУП» — передача справочника «Проекты».</p></li><li><p>«БИТ.ФИНАНС» → «1С:ЗУП» — передача справочника «Номенклатурные группы».</p></li></ol><p>Ключевое изменение по сравнению с исходной схемой — проект стал поступать в «1С:ЗУП» напрямую из «1С:Документооборот», а не через «БИТ.ФИНАНС».</p><p>При этом роль «БИТ.ФИНАНС» сохранилась: после получения проекта в системе формируется связанная номенклатурная группа, которая затем передается в «1С:ЗУП».</p><p>DATAREON Platform использовалась как единый интеграционный слой пилотного решения.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/be/c1/c3/bec1c3fa279720171dbb0d43cc81e1bc.png\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/be/c1/c3/bec1c3fa279720171dbb0d43cc81e1bc.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/be/c1/c3/bec1c3fa279720171dbb0d43cc81e1bc.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Дополнительно объекты «Проект» и «Номенклатурная группа» в процессе обмена записывались в Банк данных DATAREON. Отдельного создания объектов внутри Банка данных не предусматривалось: объект проходит через него, а в Банке данных сохраняется его текущая версия. История изменений и версионирование в границы пилота не входили.</p><p>Сам пилот был намеренно ограничен по объему. В него не входили:</p><ul><li><p>передача табличных частей;</p></li><li><p>перенос потоков на промышленный контур;</p></li><li><p>дополнительные справочники, документы и бизнес-процессы;</p></li><li><p>промышленная эксплуатация и регламентное сопровождение;</p></li><li><p>тиражирование решения за пределы пилотного контура.</p></li></ul><p>Такой подход позволил проверить саму архитектурную модель, не расширяя проект на смежные процессы.</p><h3>Результат</h3><p>По итогам пилота удалось проверить работу централизованной схемы обмена через DATAREON Platform.</p><p>В пилотном контуре:</p><ul><li><p>реализованы и настроены три целевых интеграционных потока;</p></li><li><p>«1С:Документооборот» выступает единым источником данных по объекту «Проект»;</p></li><li><p>проект передается из «1С:Документооборот» в «БИТ.ФИНАНС»;</p></li><li><p>проект передается из «1С:Документооборот» напрямую в «1С:ЗУП»;</p></li><li><p>номенклатурная группа передается из «БИТ.ФИНАНС» в «1С:ЗУП»;</p></li><li><p>проверена передача объектов по каждому потоку;</p></li><li><p>подтверждено соблюдение ограничений пилота, в том числе исключение табличных частей из обмена.</p></li></ul><p>Заказчик получил возможность оценить целевую архитектуру до принятия решения о дальнейшем развитии и переносе интеграций в промышленную среду.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "интеграция"
+    },
+    {
+      "titleHtml": "шины данных"
+    },
+    {
+      "titleHtml": "esb"
+    },
+    {
+      "titleHtml": "datareon"
+    },
+    {
+      "titleHtml": "datareon platform"
+    },
+    {
+      "titleHtml": "интеграции 1с"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105778/ffe5c1a1e38b526b6f62d9e689895c64/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105778/ffe5c1a1e38b526b6f62d9e689895c64/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/w_code\\/articles\\/1105778\\/\"},\"headline\":\"От COM-интеграций к централизованной схеме: как проверить новую интеграционную архитектуру до промышленного внедрения\",\"datePublished\":\"2026-11-10T10:22:24+03:00\",\"dateModified\":\"2026-11-11T18:47:26+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"На связи Анна Астахова, директор по развитию ИТ-интегратора «Белый код». Почти всегда тем, кто обращается к нам с вопросом о выборе шины, мы говорим, что надо...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/w_code\\/articles\\/1105778\\/#post-content-body\",\"about\":[\"c_w_code\",\"h_itcompanies\",\"h_1C\",\"f_develop\",\"f_management\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/db\\/be\\/1c\\/dbbe1c7a4c3df7f8e226933e8acc2eb1.png\",\"https:\\/\\/habrastorage.org\\/extt\\/be\\/c1\\/c3\\/bec1c3fa279720171dbb0d43cc81e1bc.png\"]}",
+    "metaDescription": "На связи Анна Астахова, директор по развитию ИТ-интегратора «Белый код». Почти всегда тем, кто обращается к нам с вопросом о выборе шины, мы говорим, что надо проверять на реальной задаче. Пилотный...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "28",
+    "title": "Топ-менеджмент",
+    "alias": "top_management"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

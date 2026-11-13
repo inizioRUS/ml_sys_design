@@ -1,0 +1,173 @@
+{
+  "id": "1105666",
+  "timePublished": "2026-11-09T18:18:45+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Охота на Гуся",
+  "leadData": {
+    "textHtml": "<p>Проект <a href=\"https://aardappel.github.io/goose/\" rel=\"noopener nofollow\">“Гусь”</a> обречён на холивар. Шутка ли: ИИ написал язык программирования, который быстрее C++ и Rust. Холивар – это в основном про зрелища, и так ясно, who is whoosh. Однако на полях сражений в виде “хлеба” остаются поучительные артефакты, парочку из которых предлагаю рассмотреть.</p>",
+    "imageUrl": "https://habrastorage.org/extt/d0/e7/ee/d0e7ee40651310d105a4b48f5eaf8a6e.webp",
+    "buttonTextHtml": "Невероятно? Невероятно💎",
+    "image": {
+      "url": "https://habrastorage.org/extt/d0/e7/ee/d0e7ee40651310d105a4b48f5eaf8a6e.webp",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "56693",
+    "alias": "maxim_ge",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/9e0/b09/139/9e0b091395a17ca3502c8e414824b658.jpg",
+    "speciality": "Пользователь",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 95,
+      "votesCount": 155
+    },
+    "rating": 5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 13,
+    "favoritesCount": 4,
+    "readingCount": 1109,
+    "score": 0,
+    "votesCount": 2,
+    "votesCountPlus": 1,
+    "votesCountMinus": 1,
+    "reach": 8502,
+    "readers": 829
+  },
+  "hubs": [
+    {
+      "id": "5767",
+      "alias": "system_programming",
+      "type": "collective",
+      "title": "Системное программирование",
+      "titleHtml": "Системное программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17188",
+      "alias": "compilers",
+      "type": "collective",
+      "title": "Компиляторы",
+      "titleHtml": "Компиляторы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Контекст</h3><p>Проект <a href=\"https://aardappel.github.io/goose/\" rel=\"noopener nofollow\">“Гусь”</a> обречён на холивар. Шутка ли: ИИ написал язык программирования, который быстрее C++ и Rust. Холивар – это в основном про зрелища. Однако на полях сражений в виде “хлеба” остаются поучительные артефакты, парочку из которых предлагаю рассмотреть.</p><p>Узнав про Гуся, я заинтересовался, как эта штука работает. Интересовала именно архитектура, т.е. ключевые компоненты, лежащие в основе системы, и их взаимосвязи. Свой взгляд на гусиную архитектуру я довольно нудно изложил в статье \"<a href=\"https://habr.com/ru/articles/1102376/\" rel=\"noopener nofollow\">Ты не бойся, это Goose</a>\". В комментариях коллега по цеху <a class=\"mention\" href=\"/users/nin-jin\">@nin-jin</a> оставил “артефакт”, сопроводив его лаконичным “я просто оставлю это здесь”. Т.е. как бы, а вот, тут пишут… автор, разберись.</p><p>Разбираю.</p><h3>Артефакт</h3><p>В двух роликах MrTeamlead последовательно и эффектно рвёт этого самого Гуся. Во втором, сказав “смотрите за руками”, он берёт бенчмарк <a href=\"https://github.com/aardappel/goose/blob/963a79811c241928a296d3036f18d5be4c896c69/bench/goose/records_fixed.goose\" rel=\"noopener nofollow\">records_fixed.goose</a>, в котором Goose выигрывает у <a href=\"https://github.com/aardappel/goose/blob/963a79811c241928a296d3036f18d5be4c896c69/bench/rust/records.rs\" rel=\"noopener nofollow\">records.rs</a> по памяти в 1,8 раза, по скорости в 1,9 раза, и показывает, как заблейзить Rust-версию в 6,7 раза (с распараллеливанием). Исходные (Goose repository) бенчи по <a href=\"https://github.com/aardappel/goose/blob/963a79811c241928a296d3036f18d5be4c896c69/bench/results.md#records\" rel=\"noopener nofollow\">records</a>.</p><p>Невероятно? Невероятно.</p><p>Допустим, всё так и есть, как утверждает ув. MrTeamlead. Т.е. ИИ написал для бенчмарка говнокод на Rust, который а) проигрывает Гусю и б) поддаётся оптимизации.</p><p>Rust заслуженно несёт лавры AI language of the Future, так как он ещё до запуска отсекает целые классы ошибок (гонки данных, null, use-after-free), даёт агенту точную подсказку, что исправить и при этом работает быстро. И вот, в таком подходе, когда агент пишет код, у Rust появляется конкурент, ибо “гусиный” код тоже получается быстрым, безопасным, легко читаемым (тут на любителя). А на review и оптимизацию в <a href=\"https://www.google.com/search?q=AI+Coding+Made+Code+Review+the+Bottleneck\" rel=\"noopener nofollow\">большинстве случаев времени не будет особо</a>.</p><p>Есть, однако, кейсы, где надо быстро и экономно по памяти, и при этом “за ценой не постоим” – т.е. код пишется в значительной степени руками. Здесь we need to go deeper и need посмотреть, как работает Гусь. Три картинки.</p><h3>Гусь в разрезе</h3><p><strong>Картинка номер раз</strong>. Для работы с памятью Гусь использует структуры, которые называются data stacks. Их количество <strong>вычисляется на этапе компиляции</strong>.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/fb/43/0d/fb430d6d4ee512731bbfe40a91163023.png\" alt=\"Компилятор считает N, runtime резервирует N областей адресного пространства\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/fb/43/0d/fb430d6d4ee512731bbfe40a91163023.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/fb/43/0d/fb430d6d4ee512731bbfe40a91163023.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Компилятор считает N, runtime резервирует N областей адресного пространства</figcaption></div></figure><p>Тут надо обратить внимание, что:</p><ul><li><p>Это НЕ стеки вызовов: в них нет кадров функций, только данные. Но освобождаются они как стек – при выходе из области видимости вершина просто сдвигается назад.</p></li><li><p>Память резервируется, но не подключается сразу к процессу (ленивая аллокация).</p></li></ul><p><strong>Картинка номер два</strong>. Структуры data stacks распределяются между функциями на этапе компиляции.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/d0/69/a3/d069a3b0621130e62b7f9a843ffabf51.png\" alt=\"Семь функций, три data stacks: N не зависит от числа функций\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/d0/69/a3/d069a3b0621130e62b7f9a843ffabf51.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/d0/69/a3/d069a3b0621130e62b7f9a843ffabf51.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Семь функций, три data stacks: N не зависит от числа функций</figcaption></div></figure><p>Семь функций, три data stacks. Количество data stacks компилятор считает по самой глубокой цепочке вызовов в программе, причём учитываются только функции, которые держат растущие массивы: N – это максимум таких массивов, живых одновременно. Во время работы новые data stacks не появляются. Отдельный data stack нужен каждому растущему массиву, пока он жив, т.е. если функция создаёт несколько растущих массивов, у каждого из них будет свой data stack. Когда функция завершается, её data stacks достаются следующим вызовам: на картинке fn0, fn2, fn4 и fn5 по очереди берут data stack 1.</p><p>Такой подход, конечно, накладывает ограничения на рекурсивные функции: в момент рекурсивного вызова у функции не должно быть живых растущих массивов, иначе каждому уровню рекурсии понадобился бы свой data stack. Всё, что должно пережить вызов, создаётся снаружи и передаётся внутрь по ссылке.</p><p><strong>Картинка номер три</strong>. Упаковка данных.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/82/d8/8f/82d88fde4c7cde3c515e65d9ff2fa34d.png\" alt=\"модель, раскладка Goose и раскладка Rust\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/82/d8/8f/82d88fde4c7cde3c515e65d9ff2fa34d.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/82/d8/8f/82d88fde4c7cde3c515e65d9ff2fa34d.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>модель, раскладка Goose и раскладка Rust</figcaption></div></figure><p>Вот такая структура:</p><pre><code class=\"rust\">struct Item  { sku: u8[varint], qty: varint, cents: varint }\nstruct Order { id: varint, customer: u8[varint], items: Item[varint] }\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Заполняется такими данными:</p><pre><code class=\"json\">{\n  \"id\": 1001,\n  \"customer\": \"alice\",\n  \"items\": [\n    { \"sku\": \"SKU-441\", \"qty\": 2, \"cents\": 1999 },\n    { \"sku\": \"SKU-7\", \"qty\": 1, \"cents\": 500 }\n  ]\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><a href=\"https://github.com/maxim-ge/goose/blob/mrteamlead/bench/mrteamlead/layout/results.md\" rel=\"noopener nofollow\">Результат</a> (в моём форке на GitHub):</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Язык</p></th><th><p align=\"left\">Байт на заказ</p></th><th><p align=\"left\">Выделений в куче</p></th></tr><tr><td><p align=\"left\">Goose</p></td><td><p align=\"left\">29</p></td><td><p align=\"left\">0</p></td></tr><tr><td><p align=\"left\">C++</p></td><td><p align=\"left\">160</p></td><td><p align=\"left\">1</p></td></tr><tr><td><p align=\"left\">Rust</p></td><td><p align=\"left\">233 / 153</p></td><td><p align=\"left\">4</p></td></tr></tbody></table></div></div><p>Для Rust 233 байта получается, если собрать товары через <code>collect</code> (вектор с запасом на 4 элемента), 153 – если подогнать ёмкость точно под 2 элемента (<code>shrink_to_fit()</code>), как в таблице туториала.</p><p>Подробнее <a href=\"https://github.com/maxim-ge/goose/blob/mrteamlead/bench/mrteamlead/layout/README.md\" rel=\"noopener nofollow\">тут</a>.</p><h3>Who is whoosh?</h3><p>Итак, значения в Гусе не живут в куче и сложные структуры укладываются по возможности последовательно.</p><p>Можно ли в C сделать так же? Конечно. У Гуся же транспайлер, вот <a href=\"https://github.com/maxim-ge/goose/blob/mrteamlead/bench/mrteamlead/layout/order.goose.rs#L27\" rel=\"noopener nofollow\">исходник на Goose</a> (сделано order.goose.rs, чтобы GitHub подсвечивал синтаксис), вот его <a href=\"https://github.com/maxim-ge/goose/blob/mrteamlead/bench/mrteamlead/layout/order.goose.c#L4102\" rel=\"noopener nofollow\">аналог на C</a>. Смотреть можно, менять опасно.</p><p>Поскольку значения не живут в куче, Гусь уже сейчас быстрее языков с “кучей” там, где много выделений памяти и работа производится в одном потоке.</p><p>Полное “доминирование” пока частично потенция, а не кинетика. Чтобы сравняться с другими языками по способностям именно к вычислениям, нужно реализовать ряд фич, например параллельные циклы по потокам (<code>par for</code>) и векторизацию циклов (<code>simd for</code>):</p><blockquote><p>The question […] is how a Goose program can split work over a large array across cores <em>without copying the array</em> […]. The second question is how such threads combine with the SIMD-level <code>par for</code> […]</p><p><a href=\"https://github.com/aardappel/goose/blob/master/docs/design/child_threads.md\" rel=\"noopener nofollow\">Child threads: fork-join over shared memory inside one program, and how it meets par for</a></p></blockquote><p>Для масштаба: Гусю меньше трёх месяцев (репозиторий появился в августе 2026-го), а Rust шёл до rayon пять с половиной лет, с июня 2010-го до декабря 2015-го.</p><h3>Смотрим за руками</h3><p>Я совершенно согласен с MrTeamlead, что бенчи у Гуся заточены именно на то, чтобы продемонстрировать преимущество Гуся в сценариях с интенсивным использованием памяти и минимальными вычислениями. С этой точки зрения никакого смысла оптимизировать измеряемый код в бенчмарках нет.</p><p>Но посмотрим. Опять в моём форке Goose.</p><p><a href=\"https://github.com/maxim-ge/goose/commit/deba5247d8e79481723fae5c41c88ad4128f67c1\" rel=\"noopener nofollow\">Изменение 1</a>. Было <code>Vec::new()</code>, стало <code>Vec::with_capacity(N as usize)</code>.</p><p>Ну, такое. Бенч моделирует ситуацию – на нас валится поток событий, мы их собираем и обрабатываем. Сколько событий – мы не знаем заранее. <code>N</code> – это параметр бенчмарка (500 000 у автора, 2 000 000 в видео), и для кода, который тестируется, это число, по идее, неизвестно.</p><p><a href=\"https://github.com/maxim-ge/goose/commit/8ba4434d922e2684935f2b371bc1ca9c96c78441\" rel=\"noopener nofollow\">Изменение 2</a>. Был String, стал MyString. В данном случае, кстати, сравнительная оптимизация оправдана, ибо <a href=\"https://github.com/aardappel/goose/blob/963a79811c241928a296d3036f18d5be4c896c69/bench/goose/records_fixed.goose#L16\" rel=\"noopener nofollow\">аналог в Гусе, records_fixed.goose</a> тоже использует фиксированный размер.</p><p>Комментарий к records_fixed.goose гласит:</p><pre><code class=\"rust\">// The same event log in fixed mode, which is the only mode Rust and C++ can\n// express.\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>То есть это якобы то, как те же события хранил бы Rust. Но в records.rs текст лежит в куче (<code>String</code>), а в records_fixed.goose – прямо внутри события (до 15 символов). Раскладки разные, и сравнивать их напрямую нечестно. Когда MrTeamlead кладёт текст в Rust так же, внутрь события, разница исчезает: 46,7 против 46,5 мс в видео. По сути, он и написал недостающий records_fixed.rs.</p><p>Однако у Гуся есть ещё один бенч, <a href=\"https://github.com/aardappel/goose/blob/963a79811c241928a296d3036f18d5be4c896c69/bench/goose/records_var.goose#L19\" rel=\"noopener nofollow\">records_var.goose</a>, и вот тут уже нет смысла (в рамках бенчмарка) делать фиксированный размер. A word of 4…15 letters – это параметр генерации данных для бенчмарка, а не заранее известный для обрабатывающего кода размер строки. И <a href=\"https://github.com/aardappel/goose/blob/963a79811c241928a296d3036f18d5be4c896c69/bench/rust/records.rs\" rel=\"noopener nofollow\">records.rs</a> – нормальная пара для него, которая иллюстрирует тип кейсов, в которых Goose хорош.</p><p>К слову, пока писал статью, обнаружил, что автору Гуся рассказали <a href=\"https://github.com/aardappel/goose/issues/195\" rel=\"noopener nofollow\">про критический разбор</a>. Автор ответил, что records_fixed.goose был лишь иллюстрацией, а настоящий бенчмарк – records_var.goose, и убрал records_fixed.goose из репозитория…</p><h3>Заключение</h3><p>Рассмотренные артефакты неплохо показывают возможности по оптимизации программ на Rust, но никак не умаляют преимущества (частично потенциального) Goose в ситуациях, которые моделируют бенчмарки Goose.</p><p>Несколько лет назад Goose был бы просто прикольным пет-проектом, для развития которого потребовались бы годы. Сейчас ситуация иная. Наш CEO мне как-то сказал: вот, мол, пользуюсь Orca для трекинга документов по бизнесу. Посмотрел я на эту Орку… Старт в марте 2026, почти 17 тысяч коммитов, более шести миллионов строк кода (с тестами)… Так что чёрные гуси-лебеди возможны как никогда. <a href=\"https://github.com/aardappel/goose/blob/963a79811c241928a296d3036f18d5be4c896c69/docs/tutorial.md#18-limitations\" rel=\"noopener nofollow\">Фундаментальные проблемы Гуся</a>, впрочем, остаются, и их никто не отменял.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "rust"
+    },
+    {
+      "titleHtml": "goose"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105666/3d1fd5ad8ac95c045d66394fcdf349ea/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105666/3d1fd5ad8ac95c045d66394fcdf349ea/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105666\\/\"},\"headline\":\"Охота на Гуся\",\"datePublished\":\"2026-11-09T21:18:45+03:00\",\"dateModified\":\"2026-11-10T14:35:04+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Контекст Проект “Гусь” обречён на холивар. Шутка ли: ИИ написал язык программирования, который быстрее C++ и Rust. Холивар – это в основном про зрелища. Однако...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105666\\/#post-content-body\",\"about\":[\"h_system_programming\",\"h_compilers\",\"h_programming\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/webt\\/fb\\/43\\/0d\\/fb430d6d4ee512731bbfe40a91163023.png\",\"https:\\/\\/habrastorage.org\\/webt\\/d0\\/69\\/a3\\/d069a3b0621130e62b7f9a843ffabf51.png\",\"https:\\/\\/habrastorage.org\\/webt\\/82\\/d8\\/8f\\/82d88fde4c7cde3c515e65d9ff2fa34d.png\"]}",
+    "metaDescription": "Контекст Проект “Гусь” обречён на холивар. Шутка ли: ИИ написал язык программирования, который быстрее C++ и Rust. Холивар – это в основном про зрелища. Однако на полях сражений в виде “хлеба”...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "analytics",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

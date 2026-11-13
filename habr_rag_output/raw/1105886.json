@@ -1,0 +1,230 @@
+{
+  "id": "1105886",
+  "timePublished": "2026-11-10T10:27:50+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Microsoft создаст единый центр обновлений для приложений в Windows 11",
+  "leadData": {
+    "textHtml": "<p>Microsoft <a href=\"https://www.windowslatest.com/2026/11/09/for-20-years-windows-apps-like-java-have-nagged-you-with-their-own-update-pop-ups-and-windows-11-now-wants-to-end-it/\" rel=\"noopener nofollow\">планирует разработать</a> для&nbsp;Windows единый центр обновления всех установленных программ. Большинство сторонних сервисов, распространяемых вне Microsoft Store, сейчас используют собственные установщики.</p>",
+    "imageUrl": "https://habrastorage.org/extt/6d/96/6c/6d966cd4cf1485daf4d0c63919d1cf43.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/6d/96/6c/6d966cd4cf1485daf4d0c63919d1cf43.jpg",
+      "fit": "cover",
+      "positionY": 69,
+      "positionX": 10
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2176401",
+    "alias": "maybe_elf",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/592/11d/4bc/59211d4bcd7f9afdadaef515b2b0706d.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 345,
+      "votesCount": 1085
+    },
+    "rating": 467.6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 3,
+    "favoritesCount": 1,
+    "readingCount": 622,
+    "score": 7,
+    "votesCount": 3,
+    "votesCountPlus": 3,
+    "votesCountMinus": 0,
+    "reach": 5840,
+    "readers": 500
+  },
+  "hubs": [
+    {
+      "id": "23270",
+      "alias": "os",
+      "type": "collective",
+      "title": "Операционные системы",
+      "titleHtml": "Операционные системы",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21456",
+      "alias": "win_dev",
+      "type": "collective",
+      "title": "Windows",
+      "titleHtml": "Windows",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20726",
+      "alias": "productpm",
+      "type": "collective",
+      "title": "Управление продуктом",
+      "titleHtml": "Управление продуктом",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21918",
+      "alias": "soft",
+      "type": "collective",
+      "title": "Софт",
+      "titleHtml": "Софт",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Microsoft <a href=\"https://www.windowslatest.com/2026/11/09/for-20-years-windows-apps-like-java-have-nagged-you-with-their-own-update-pop-ups-and-windows-11-now-wants-to-end-it/\" rel=\"noopener nofollow\">планирует разработать</a> для Windows единый центр обновления всех установленных программ. Большинство сторонних сервисов, распространяемых вне Microsoft Store, сейчас используют собственные установщики.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/6d/96/6c/6d966cd4cf1485daf4d0c63919d1cf43.jpg\" width=\"1919\" height=\"1199\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/6d/96/6c/6d966cd4cf1485daf4d0c63919d1cf43.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/6d/96/6c/6d966cd4cf1485daf4d0c63919d1cf43.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Microsoft планирует сделать процесс обновления приложений менее разрозненным. Ещё в декабре 2025 года появился раздел «Обновления приложений» (App updates) в меню «Параметры» &gt; «Приложения», а недавно он снова появился в предварительной сборке Windows 11 26H2 — это намекает на полноценный запуск функции.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/4f/20/fc/4f20fc582a1814185e4a9f59950d47b2.jpg\" width=\"1512\" height=\"419\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/4f/20/fc/4f20fc582a1814185e4a9f59950d47b2.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/4f/20/fc/4f20fc582a1814185e4a9f59950d47b2.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Microsoft рассчитывает, что разработчики зарегистрируют свои программы в системе единых обновлений Windows 11, и это позволит управлять ими через специальный раздел в «Параметрах». </p><p>В 2025 году компания уже представила концепцию под названием «Платформа оркестрации обновлений Windows» (Windows Update Orchestration Platform, UOP). Она позволяет разработчикам регистрировать обновления своих приложений в Windows 11 в качестве «поставщиков» (providers). Благодаря этому Windows сможет периодически проверять наличие обновлений для таких программ и координировать их установку.</p><p>Microsoft не стремится заставить разработчиков отказываться от уже существующих механизмов обновления: сторонним приложениям не нужно менять свои серверы обновлений или логику установки. Она лишь предоставляет уровень оркестрации. «Эта платформа, построенная на базе стека обновлений Windows, призвана предоставить разработчикам и командам по созданию приложений и инструментов управления специальный API для интеграции обновлений, учитывающий особенности их собственных установщиков», — поясняется в документе Microsoft, опубликованном в прошлом году.</p><p>«Оркестратор будет координировать обновления для всех зарегистрированных в системе продуктов, — добавляют в Microsoft. — Он будет поддерживать как форматы MSIX/APPX, так и приложения с собственной реализацией механизма обновлений, например, Win32-программы».</p><p>Таким образом, система единых обновлений в Windows 11 будет охватывать практически любые приложения, включая форматы MSIX, APPX и Win32. Разумеется, это станет возможным только в том случае, если разработчик сам зарегистрируется в системе и выполнит все необходимые процедуры.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/6b/39/84/6b3984d19a4db62aeff4728ac1e97072.jpg\" width=\"1919\" height=\"1199\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/6b/39/84/6b3984d19a4db62aeff4728ac1e97072.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/6b/39/84/6b3984d19a4db62aeff4728ac1e97072.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Microsoft планирует использовать ту же технологию интеллектуального планирования, которая уже применяется для системных обновлений. В частности, при определении времени установки обновлений для сторонних приложений Windows будет учитывать активность пользователя, уровень заряда аккумулятора, состояние сети и общее состояние системы. Цель состоит в том, чтобы обновления не мешали в процессе работы за компьютером. По умолчанию проверка выполняется каждые 22 часа, однако разработчики могут задать иной интервал.</p><p>На данный момент система унифицированных обновлений приложений в Windows 11 находится на финальной стадии тестирования.</p><p>Весной Microsoft <a href=\"https://habr.com/ru/articles/1028018/\" rel=\"noopener nofollow\">внедрила</a> улучшения в Windows Update, чтобы предоставить пользователям больше контроля над процессом установки обновлений, одновременно уменьшая сбои, вызванные частыми или несвоевременными перезагрузками.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "microsoft"
+    },
+    {
+      "titleHtml": "windows 11"
+    },
+    {
+      "titleHtml": "центр обновлений"
+    },
+    {
+      "titleHtml": "центр обновления windows"
+    },
+    {
+      "titleHtml": "приложения"
+    },
+    {
+      "titleHtml": "системное администрирование"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    },
+    {
+      "titleHtml": "инфослужба хабра"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105886/b6e3cc19a22e1a3bd56f92a7e071ba58/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105886/b6e3cc19a22e1a3bd56f92a7e071ba58/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105886\\/\"},\"headline\":\"Microsoft создаст единый центр обновлений для приложений в Windows 11\",\"datePublished\":\"2026-11-10T13:27:50+03:00\",\"dateModified\":\"2026-11-10T13:35:37+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Microsoft планирует разработать для&nbsp;Windows единый центр обновления всех установленных программ. Большинство сторонних сервисов, распространяемых вне...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105886\\/#post-content-body\",\"about\":[\"h_os\",\"h_win_dev\",\"h_productpm\",\"h_soft\",\"h_sys_admin\",\"f_develop\",\"f_admin\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/6d\\/96\\/6c\\/6d966cd4cf1485daf4d0c63919d1cf43.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/4f\\/20\\/fc\\/4f20fc582a1814185e4a9f59950d47b2.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/6b\\/39\\/84\\/6b3984d19a4db62aeff4728ac1e97072.jpg\"]}",
+    "metaDescription": "Microsoft планирует разработать для&nbsp;Windows единый центр обновления всех установленных программ. Большинство сторонних сервисов, распространяемых вне Microsoft Store, сейчас используют...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "4",
+    "title": "Фронтенд",
+    "alias": "frontend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

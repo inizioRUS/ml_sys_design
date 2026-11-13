@@ -1,0 +1,203 @@
+{
+  "id": "1106150",
+  "timePublished": "2026-11-10T13:26:37+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Positive Technologies проведет PT AppSec Conf — конференцию о безопасной разработке приложений",
+  "leadData": {
+    "textHtml": "<p>Positive Technologies соберет AppSec-специалистов, DevSecOps-практиков, разработчиков и&nbsp;экспертов в&nbsp;кибербезе 18&nbsp;ноября в&nbsp;Москве на&nbsp;<a href=\"https://appsec-conf.ru/\">PT&nbsp;AppSec Conf</a>&nbsp;— живой конференции о&nbsp;практиках и&nbsp;инструментах безопасной разработки. В&nbsp;центре программы&nbsp;— реальные задачи команд, которые отвечают за&nbsp;безопасность приложений: как&nbsp;находить и&nbsp;устранять уязвимости, встраивать проверки в&nbsp;процессы разработки и&nbsp;защищать ПО после выхода в&nbsp;эксплуатацию.</p>",
+    "imageUrl": "https://habrastorage.org/extt/a7/60/b9/a760b9d8e4826ea7a11f3d09649661b7.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/a7/60/b9/a760b9d8e4826ea7a11f3d09649661b7.jpg",
+      "fit": "cover",
+      "positionY": 32,
+      "positionX": 3
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "62118",
+    "alias": "ptsecurity",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/740/767/4f4/7407674f4515aab06525135167919689.png",
+    "speciality": "Пользователь",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 337,
+      "votesCount": 643
+    },
+    "rating": 94.7,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "64K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 169,
+    "score": 2,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 7902,
+    "readers": 108
+  },
+  "hubs": [
+    {
+      "id": "17217",
+      "alias": "pt",
+      "type": "corporative",
+      "title": "Блог компании Positive Technologies",
+      "titleHtml": "Блог компании Positive Technologies",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20754",
+      "alias": "tech_events",
+      "type": "collective",
+      "title": "Конференции",
+      "titleHtml": "Конференции",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20788",
+      "alias": "devops",
+      "type": "collective",
+      "title": "DevOps",
+      "titleHtml": "DevOps",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "4",
+      "alias": "marketing",
+      "title": "Маркетинг",
+      "titleHtml": "Маркетинг"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/75/3e/7f/753e7fef615f9d0933fb0137588f683a.png\" width=\"1279\" height=\"1280\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/75/3e/7f/753e7fef615f9d0933fb0137588f683a.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/75/3e/7f/753e7fef615f9d0933fb0137588f683a.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Positive Technologies соберет AppSec-специалистов, DevSecOps-практиков, разработчиков и экспертов в кибербезе 18 ноября в Москве на <a href=\"https://appsec-conf.ru/\">PT AppSec Conf</a> — живой конференции о практиках и инструментах безопасной разработки. В центре программы — реальные задачи команд, которые отвечают за безопасность приложений: как находить и устранять уязвимости, встраивать проверки в процессы разработки и защищать ПО после выхода в эксплуатацию.</p><p>Сегодня AppSec уже не ограничивается анализом кода перед релизом. По данным исследования State of DevOps Russia 2025, 77% российских организаций уже выстраивают процессы DevSecOps и используют инструменты ИБ при разработке и поставке ПО, а у 40% системы безопасности интегрированы во все процессы DevOps. Компаниям приходится учитывать безопасность сторонних компонентов и цепочек поставок, контролировать контейнерные среды, инфраструктуру разработки, работающие приложения и веб-трафик. Одновременно меняются и сами процессы создания ПО: разработчики все активнее используют ИИ-инструменты, а вместе с новыми возможностями появляются новые риски.</p><p>На <a href=\"https://appsec-conf.ru/\">PT AppSec Conf</a> главные эксперты безопасной разработки в России разберут эти задачи на практических кейсах. Спикеры расскажут, как выстраивают процессы в крупных инфраструктурах, с какими проблемами сталкиваются при внедрении AppSec-инструментов и как распределяют ответственность между разработкой, ИТ и информационной безопасностью.</p><p>Открыт прием заявок на участие в PT AppSec Conf — зарегистрироваться можно на <a href=\"https://appsec-conf.ru/\">сайте конференции</a>. Эксперты, которые хотят поделиться собственным кейсом, исследованием или практическим опытом в области безопасной разработки, также могут подать заявку на выступление. Участие бесплатное, количество мест ограничено, для тех, что не сможет посетить конференцию очно будет доступна онлайн-трансляция.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "appsec"
+    },
+    {
+      "titleHtml": "безопасная разработка"
+    },
+    {
+      "titleHtml": "devsecops"
+    },
+    {
+      "titleHtml": "кибердом"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106150/58d78dc36ae003b39e7fd1157310c0cb/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106150/58d78dc36ae003b39e7fd1157310c0cb/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/pt\\/articles\\/1106150\\/\"},\"headline\":\"Positive Technologies проведет PT AppSec Conf — конференцию о безопасной разработке приложений\",\"datePublished\":\"2026-11-10T16:26:37+03:00\",\"dateModified\":\"2026-11-11T23:35:44+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Positive Technologies соберет AppSec-специалистов, DevSecOps-практиков, разработчиков и&nbsp;экспертов в&nbsp;кибербезе 18&nbsp;ноября в&nbsp;Москве на&nbsp;...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/pt\\/articles\\/1106150\\/#post-content-body\",\"about\":[\"c_pt\",\"h_infosecurity\",\"h_tech_events\",\"h_devops\",\"f_develop\",\"f_admin\",\"f_marketing\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/75\\/3e\\/7f\\/753e7fef615f9d0933fb0137588f683a.png\"]}",
+    "metaDescription": "Positive Technologies соберет AppSec-специалистов, DevSecOps-практиков, разработчиков и&nbsp;экспертов в&nbsp;кибербезе 18&nbsp;ноября в&nbsp;Москве на&nbsp; PT&nbsp;AppSec Conf &nbsp;— живой...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "id": "1106298",
+  "timePublished": "2026-11-10T20:47:09+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Я написала промпт по‑русски. Два агента перестали искать решение в интернете",
+  "leadData": {
+    "textHtml": "<p>Я всегда общалась с ИИ на английском, разве что мне надо было составить какое-то очень специфическое сообщение, или вообще перевести мой текст на испанский. Для меня это языковая практика, да и в целом на темы программирования проще общаться на английском, чтобы не переводить на русский термины. Сейчас я работаю над тем, как эффективнее ставить задачи агенту и предоставлять ему нужные инструкции. И меня заинтересовал вопрос, влияет ли используемый язык на то, как агент решает задачу. Я проводила исследование, чтобы понять, стоит ли переводить истории worklore (это мой проект: библиотека историй разработчиков, которые агент может воспроизвести), чтобы большему количеству людей было комфортно их читать и при этом качество работы агентов, которые следуют историям, не менялось.&nbsp;</p><p>Я выбрала шесть задач, сформулировала их на английском и на русском, с заметкой об аналогичном решении и без нее, семь конфигураций агентов, по пять прогонов на ячейку, 1050 прогонов. Потом я добавила две модели Kimi, ещё 300 прогонов: многим в России Claude недоступен, и им важно знать, что взять вместо него. Метод описан в конце статьи.&nbsp;</p>",
+    "imageUrl": "https://habrastorage.org/extt/05/4c/2e/054c2e53043e9313ae60ba7b2b328dc2.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/05/4c/2e/054c2e53043e9313ae60ba7b2b328dc2.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "179544",
+    "alias": "Yahhi",
+    "fullname": "Valentina Koniukhova",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/7c4/e37/5fa/7c4e375fa2946aa775c3649f63c3360f.jpg",
+    "speciality": "Исследую агентов в работе. worklore.dev",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 14,
+      "votesCount": 36
+    },
+    "rating": 23.6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": "Konyukhova",
+      "paymentWebmoney": null
+    },
+    "donationsMethod": "wallets",
+    "isInBlacklist": null,
+    "careerProfile": {
+      "careerProfileLink": "https://career.habr.com/yahhi?utm_source=habr&utm_medium=profile_header&utm_campaign=button_habr_career",
+      "expertProfileLink": null
+    },
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 64,
+    "favoritesCount": 24,
+    "readingCount": 12433,
+    "score": 11,
+    "votesCount": 14,
+    "votesCountPlus": 10,
+    "votesCountMinus": 4,
+    "reach": 19458,
+    "readers": 10274
+  },
+  "hubs": [
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "210",
+      "alias": "it_testing",
+      "type": "collective",
+      "title": "Тестирование IT-систем",
+      "titleHtml": "Тестирование IT-систем",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Я всегда общалась с ИИ на английском, разве что мне надо было составить какое‑то очень специфическое сообщение, или вообще перевести мой текст на испанский. Для меня это языковая практика, да и в целом на темы программирования проще общаться на английском, чтобы не переводить на русский термины. Сейчас я работаю над тем, как эффективнее ставить задачи агенту и предоставлять ему нужные инструкции. И меня заинтересовал вопрос, влияет ли используемый язык на то, как агент решает задачу. Я проводила исследование, чтобы понять, стоит ли переводить истории worklore (это мой проект: библиотека историй разработчиков, которые агент может воспроизвести), чтобы большему количеству людей было комфортно их читать и при этом качество работы агентов, которые следуют историям, не менялось. </p><p>Я выбрала шесть задач, сформулировала их на английском и на русском, с заметкой об аналогичном решении и без нее, семь конфигураций агентов, по пять прогонов на ячейку, 1050 прогонов. Потом я добавила две модели Kimi, ещё 300 прогонов: многим в России Claude недоступен, и им важно знать, что взять вместо него. Метод описан в конце статьи. </p><h3>Если не вдаваться в подробности</h3><ul><li><p><strong>По‑русски агент решает примерно так же.</strong> Без заметки прошли 62,6% прогонов с английской задачей и 54,4% с русской. На таком числе прогонов разница в 8 пунктов на грани случайной. Заметно теряют только агенты, которые по‑русски перестают искать (об этом дальше).</p></li><li><p><strong>Заметка помогает одинаково на обоих языках.</strong> При работе с англоязычными задачами она подняла долю успешных решений на 33 пункта, с русскоязычными на 39.</p></li><li><p><strong>Перевод заметки почти ничего не дал.</strong> Нет разницы, на каком языке будут те инструкции, которые найдет агент, для решения задачи.</p></li><li><p><strong>Два агента перестали искать подсказки в интернете.</strong> Codex искал в трети прогонов с англоязычной задачей и ни в одном с русской. На задаче, возможное решение которой есть только на форуме, это стоило ему падения оценки с 5 из 5 до 0 из 5, а добавление заметки вернуло 5 из 5. Kimi K3.1 по‑русски тоже перестала искать, и на второй форумной задаче её оценка упала так же, с 5 из 5 до 0 из 5.</p></li></ul><p>Если вы работаете не на английском, запомнить стоит четвёртый пункт: агент может молча пропускать шаг поиска решения в интернете, который для англоязычного промпта делает. При этом, если дать ему в промпте заметку с нужным для решения фактом, результаты на обоих языках одинаковы.</p><h3>Заметка помогает одинаково на обоих языках</h3><p>Девять конфигураций × пять повторов. На картинке процент успешного решения задачи</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d6/15/e0/d615e00fdc1a437a7bfbaf510e803f77.png\" width=\"2400\" height=\"820\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d6/15/e0/d615e00fdc1a437a7bfbaf510e803f77.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d6/15/e0/d615e00fdc1a437a7bfbaf510e803f77.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Заметками служили шесть историй из worklore: четыре, в которых есть то, чего у агента нет, и две контрольные, где факт лежит в документации или в логе. В каждой строке 45 прогонов: девять конфигураций по пять повторов.</p><div><div class=\"table\"><table><tbody><tr><td data-colwidth=\"204\" width=\"204\"><p align=\"left\"><strong>История</strong></p></td><td data-colwidth=\"104\" width=\"104\"><p align=\"left\"><strong>Задача EN</strong></p></td><td><p align=\"left\"><strong>EN + заметка</strong></p></td><td data-colwidth=\"95\" width=\"95\"><p align=\"left\"><strong>Задача RU</strong></p></td><td data-colwidth=\"128\" width=\"128\"><p align=\"left\"><strong>RU + заметка EN</strong></p></td><td><p align=\"left\"><strong>RU + заметка RU</strong></p></td></tr><tr><td data-colwidth=\"204\" width=\"204\"><p align=\"left\"><a href=\"https://worklore.dev/s/2026-05-12-exact-hr-corridors-on-garmin-from-intervals-icu-api-workouts\" rel=\"noopener nofollow\">Пульсовой коридор для часов Garmin</a> (факт с форума, в документации нет)</p></td><td data-colwidth=\"104\" width=\"104\"><p align=\"left\">32/45</p></td><td><p align=\"left\">45/45</p></td><td data-colwidth=\"95\" width=\"95\"><p align=\"left\">19/45</p></td><td data-colwidth=\"128\" width=\"128\"><p align=\"left\">44/45</p></td><td><p align=\"left\">45/45</p></td></tr><tr><td data-colwidth=\"204\" width=\"204\"><p align=\"left\"><a href=\"https://worklore.dev/s/2026-08-01-two-bugs-made-my-scheduler-perfectly-silent-zsh-killed-the-m\" rel=\"noopener nofollow\">Отложенный запуск не работает по двум причинам</a> (одну из них без подсказки не починить)</p></td><td data-colwidth=\"104\" width=\"104\"><p align=\"left\">10/45</p></td><td><p align=\"left\">42/45</p></td><td data-colwidth=\"95\" width=\"95\"><p align=\"left\">11/45</p></td><td data-colwidth=\"128\" width=\"128\"><p align=\"left\">41/45</p></td><td><p align=\"left\">42/45</p></td></tr><tr><td data-colwidth=\"204\" width=\"204\"><p align=\"left\"><a href=\"https://worklore.dev/s/2026-04-15-intervals-icu-oauth-quirks-no-refresh-token-duplicate-scope-\" rel=\"noopener nofollow\">Три особенности OAuth‑провайдера</a> (факт с форума)</p></td><td data-colwidth=\"104\" width=\"104\"><p align=\"left\">22/45</p></td><td><p align=\"left\">40/45</p></td><td data-colwidth=\"95\" width=\"95\"><p align=\"left\">16/45</p></td><td data-colwidth=\"128\" width=\"128\"><p align=\"left\">40/45</p></td><td><p align=\"left\">40/45</p></td></tr><tr><td data-colwidth=\"204\" width=\"204\"><p align=\"left\"><a href=\"https://worklore.dev/s/2026-10-07-posthog-free-tier-gone-in-days-flutter-sent-an-event-per-key\" rel=\"noopener nofollow\">Событие аналитики на каждое нажатие</a> (ловушка там, где пишется код)</p></td><td data-colwidth=\"104\" width=\"104\"><p align=\"left\">20/45</p></td><td><p align=\"left\">42/45</p></td><td data-colwidth=\"95\" width=\"95\"><p align=\"left\">17/45</p></td><td data-colwidth=\"128\" width=\"128\"><p align=\"left\">41/45</p></td><td><p align=\"left\">43/45</p></td></tr><tr><td data-colwidth=\"204\" width=\"204\"><p align=\"left\"><a href=\"https://worklore.dev/s/2026-04-24-two-cache-control-segments-so-agent-memory-writes-don-t-evic\" rel=\"noopener nofollow\">Два маркера кеша для записи в память</a> (контроль: факт из документации)</p></td><td data-colwidth=\"104\" width=\"104\"><p align=\"left\">42/45</p></td><td><p align=\"left\">44/45</p></td><td data-colwidth=\"95\" width=\"95\"><p align=\"left\">40/45</p></td><td data-colwidth=\"128\" width=\"128\"><p align=\"left\">43/45</p></td><td><p align=\"left\">43/45</p></td></tr><tr><td data-colwidth=\"204\" width=\"204\"><p align=\"left\"><a href=\"https://worklore.dev/s/2026-07-31-the-dynamodb-crash-that-only-appears-on-your-second-write\" rel=\"noopener nofollow\">Падение DynamoDB на второй записи</a> (контроль: причина в логе)</p></td><td data-colwidth=\"104\" width=\"104\"><p align=\"left\">43/45</p></td><td><p align=\"left\">44/45</p></td><td data-colwidth=\"95\" width=\"95\"><p align=\"left\">44/45</p></td><td data-colwidth=\"128\" width=\"128\"><p align=\"left\">44/45</p></td><td><p align=\"left\">45/45</p></td></tr><tr><td data-colwidth=\"204\" width=\"204\"><p align=\"left\"><strong>всего</strong></p></td><td data-colwidth=\"104\" width=\"104\"><p align=\"left\"><strong>169/270</strong></p></td><td><p align=\"left\"><strong>257/270</strong></p></td><td data-colwidth=\"95\" width=\"95\"><p align=\"left\"><strong>147/270</strong></p></td><td data-colwidth=\"128\" width=\"128\"><p align=\"left\"><strong>253/270</strong></p></td><td><p align=\"left\"><strong>258/270</strong></p></td></tr></tbody></table></div></div><p>На четырёх историях, где в заметке был факт, которого у агента нет, доля успехов выросла с 47% до 94% при английской задаче и с 35% до 92% при русской. По всем шести историям прирост от заметки 33 пункта на английском и 39 на русском; разница двух приростов 7 пунктов с 95-процентным интервалом от минус 3 до плюс 16. Заметка помогает на любом языке.</p><p>На контрольных историях заметка почти ничего не меняла: от 40 до 45 из 45 во всех вариантах, на обоих языках.</p><h3>Перевод заметки почти ничего не дал</h3><p>Последние две колонки таблицы — это одна и та же заметка на разных языках. Задача по‑прежнему ставилась на русском. Перевод набрал на 2 пункта больше оригинала, интервал от минус 2 до плюс 6. Все конфигурации, кроме GPT‑OSS, с заметкой на любом языке были на уровне 29 или 30 из 30.</p><p>Причина видна в логах: агент цепляется за идентификаторы, пути и тексты ошибок, а они в переводе остались английскими, потому что так они выглядят в коде. В этом эксперименте перевод заметок агентам не помог, так что ради них я бы на него время не тратила.</p><h3>Язык задачи почти ничего не меняет</h3><p>Без заметки по всем задачам и конфигурациям с русской задачей результат снизился на 8 пунктов, интервал от минус 16 до нуля, то есть разница на грани случайной. Заметно просели только три конфигурации: оба Codex и Kimi K3.1. У остальных шести разница не больше двух прогонов из 30. Эти три по‑русски перестают искать в интернете, и на них приходится почти вся разница между языками. Об этом следующий раздел. По конфигурациям, 30 прогонов:</p><div><div class=\"table\"><table><tbody><tr><td><p align=\"left\"><strong>Конфигурация</strong></p></td><td><p align=\"left\"><strong>Задача на английском</strong></p></td><td><p align=\"left\"><strong>Задача на русском</strong></p></td></tr><tr><td><p align=\"left\">Claude Opus 5.5</p></td><td><p align=\"left\">27/30</p></td><td><p align=\"left\">27/30</p></td></tr><tr><td><p align=\"left\">Claude Sonnet 5.5</p></td><td><p align=\"left\">22/30</p></td><td><p align=\"left\">23/30</p></td></tr><tr><td><p align=\"left\">Claude Haiku 5.5</p></td><td><p align=\"left\">19/30</p></td><td><p align=\"left\">17/30</p></td></tr><tr><td><p align=\"left\">Codex GPT-6-Sol medium</p></td><td><p align=\"left\">21/30</p></td><td><p align=\"left\">17/30</p></td></tr><tr><td><p align=\"left\">Codex GPT-6-Sol low</p></td><td><p align=\"left\">20/30</p></td><td><p align=\"left\">12/30</p></td></tr><tr><td><p align=\"left\">Gemini 3.8 Flash</p></td><td><p align=\"left\">17/30</p></td><td><p align=\"left\">17/30</p></td></tr><tr><td><p align=\"left\">GPT‑OSS 120B</p></td><td><p align=\"left\">6/30</p></td><td><p align=\"left\">5/30</p></td></tr><tr><td><p align=\"left\">Kimi K2.8 Preview</p></td><td><p align=\"left\">19/30</p></td><td><p align=\"left\">17/30</p></td></tr><tr><td><p align=\"left\">Kimi K3.1 Pro</p></td><td><p align=\"left\">18/30</p></td><td><p align=\"left\">12/30</p></td></tr></tbody></table></div></div><p>Ответы от Claude, Codex, Gemini и Kimi приходили по‑русски, а имена переменных и прочие термины, как и ожидалось, оставались на английском. GPT‑OSS отвечал по‑английски, на каком языке ни спроси.</p><h3>Где появилась разница: поиск в интернете</h3><p>Без заметки в промпте, шесть задач × пять повторов. Слева: прогоны хотя бы с одним поиском или запросом в интернет. Справа: прогоны, прошедшие Verify.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a7/e4/16/a7e41678ff11f3aa0ca00b3c309e5d74.png\" width=\"2400\" height=\"1440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a7/e4/16/a7e41678ff11f3aa0ca00b3c309e5d74.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/a7/e4/16/a7e41678ff11f3aa0ca00b3c309e5d74.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Я предполагала, что задача, сформулированная на русском может помешать агенту находить ответ на английском. Так и вышло для двух агентов — Codex и Kimi K3.1: по‑русски они перестали искать, а другого пути к ответу у них не было. То, что язык запроса меняет то, как агент в Codex на него реагирует, меня удивило.</p><p>Посмотрите ещё раз на первую строку таблицы историй. <a href=\"https://worklore.dev/s/2026-05-12-exact-hr-corridors-on-garmin-from-intervals-icu-api-workouts\" rel=\"noopener nofollow\">История про пульсовой коридор</a> — место, где русская задача сильнее всего снизила результат: 32 из 45 против 19 из 45. Это больше половины всей разницы между языками в этом раунде. С английской задачей Codex‑low каждый раз делал один и тот же запрос, site:<a href=\"http://forum.intervals.icu\" rel=\"noopener nofollow\">forum.intervals.icu</a> workout_doc hr units%lthr …, находил формат и проходил 5 из 5. С русской задачей он ни разу не открыл интернет и вместо этого придумывал формат сам: один раз убрал структурированную цель совсем, два раза перешёл на абсолютные удары в минуту со значением и диапазоном, один раз оставил старый ключ и добавил рядом новые. На вид это правдоподобные исправления, но ни одно не совпало с форматом, который понимают часы: 0 из 5. Codex на среднем reasoning на той же истории упал с 3 из 5 до 0 из 5, а <a href=\"https://worklore.dev/s/2026-04-15-intervals-icu-oauth-quirks-no-refresh-token-duplicate-scope-\" rel=\"noopener nofollow\">история про особенности OAuth</a>, второй форумный факт, показывает ту же картину слабее: по всем конфигурациям искали 27 из 45 английских прогонов и 11 из 45 русских.</p><p>У Kimi K3.1 то же самое случилось на истории про OAuth. С английской задачей она в четырёх прогонах из пяти искала на <a href=\"http://forum.intervals.icu\" rel=\"noopener nofollow\">forum.intervals.icu</a> и прошла 5 из 5. С русской ни разу не открыла интернет и прошла 0 из 5: в четырёх прогонах оставила повторяющиеся области в scope, в трёх оставила проверку срока жизни токена, хотя токены у этого провайдера не истекают. С заметкой 5 из 5 на обоих языках.</p><p>Модели Claude на этих задачах почти не ищут ни на каком языке: формат коридора они берут из файлов readback в самом проекте, поэтому у Opus и Sonnet результат на двух языках одинаковый. Gemini Flash ищет на обоих языках, до 75 обращений к интернету за прогон, и на задаче про коридор проходит на обоих, но там ему помогал сам Google: в каждом прогоне, который можно проверить, поиск вернул историю с worklore. Разница появилась там, где без заметки ответ можно было найти только поиском, а Codex и K3.1 с русской задачей этим поиском не пользовались. Почему язык задачи меняет это поведение, я не проверяла.</p><p>С заметкой в промпте поиск прекращается на любом языке: от нуля до двух прогонов на ячейку. Заметка заменяет поиск. Так что если у вас есть хорошая база знаний по потенциальным проблемам проекта, дайте ее агенту, ему так будет проще.</p><h3>Что выбрать, если Claude недоступен</h3><p>Для тех, у кого нет Claude, я прогнала те же задачи в <a href=\"https://github.com/MoonshotAI/kimi-code\" rel=\"noopener nofollow\">Kimi Code</a>, CLI‑агенте от Moonshot AI, на двух моделях: K2.8 Preview, которая стоит там по умолчанию, и K3.1 Pro. Те же шесть задач, те же пять вариантов, по пять повторов, 300 прогонов. Ниже все девять конфигураций, по 30 прогонов в ячейке (русская задача без заметки в таблице выше); время в последней колонке для русской задачи с англоязычной заметкой.</p><div><div class=\"table\"><table><tbody><tr><td><p align=\"left\"><strong>Конфигурация</strong></p></td><td><p align=\"left\"><strong>Задача EN без заметки</strong></p></td><td><p align=\"left\"><strong>EN + заметка</strong></p></td><td><p align=\"left\"><strong>RU + заметка EN</strong></p></td><td><p align=\"left\"><strong>Секунд на прогон</strong></p></td></tr><tr><td><p align=\"left\">Claude Opus 5.5</p></td><td><p align=\"left\">27/30</p></td><td><p align=\"left\">29/30</p></td><td><p align=\"left\">29/30</p></td><td><p align=\"left\">85</p></td></tr><tr><td><p align=\"left\">Claude Sonnet 5.5</p></td><td><p align=\"left\">22/30</p></td><td><p align=\"left\">30/30</p></td><td><p align=\"left\">30/30</p></td><td><p align=\"left\">28</p></td></tr><tr><td><p align=\"left\">Claude Haiku 5.5</p></td><td><p align=\"left\">19/30</p></td><td><p align=\"left\">30/30</p></td><td><p align=\"left\">30/30</p></td><td><p align=\"left\">61</p></td></tr><tr><td><p align=\"left\">Codex GPT-6-Sol medium</p></td><td><p align=\"left\">21/30</p></td><td><p align=\"left\">30/30</p></td><td><p align=\"left\">30/30</p></td><td><p align=\"left\">86</p></td></tr><tr><td><p align=\"left\">Codex GPT-6-Sol low</p></td><td><p align=\"left\">20/30</p></td><td><p align=\"left\">30/30</p></td><td><p align=\"left\">30/30</p></td><td><p align=\"left\">43</p></td></tr><tr><td><p align=\"left\">Gemini 3.8 Flash</p></td><td><p align=\"left\">17/30</p></td><td><p align=\"left\">30/30</p></td><td><p align=\"left\">30/30</p></td><td><p align=\"left\">83</p></td></tr><tr><td><p align=\"left\">GPT‑OSS 120B</p></td><td><p align=\"left\">6/30</p></td><td><p align=\"left\">18/30</p></td><td><p align=\"left\">14/30</p></td><td><p align=\"left\">79</p></td></tr><tr><td><p align=\"left\">Kimi K2.8 Preview</p></td><td><p align=\"left\">19/30</p></td><td><p align=\"left\">30/30</p></td><td><p align=\"left\">30/30</p></td><td><p align=\"left\">252</p></td></tr><tr><td><p align=\"left\">Kimi K3.1 Pro</p></td><td><p align=\"left\">18/30</p></td><td><p align=\"left\">30/30</p></td><td><p align=\"left\">30/30</p></td><td><p align=\"left\">176</p></td></tr></tbody></table></div></div><p>С заметкой обе модели Kimi прошли 30 из 30 во всех трёх вариантах, как Sonnet, Haiku, оба Codex и Gemini Flash. Без заметки с английской задачей они на уровне Haiku. Различаются они в двух местах. K2.8 по‑русски продолжает искать в интернете и без заметки теряет меньше: 17 из 30 против 12 у K3.1. Зато K3.1 почти в полтора раза быстрее, 176 секунд на прогон против 252, а у K2.8 два прогона без заметки упёрлись в лимит 20 минут и засчитаны как провал. Обе медленнее остальных: Codex на низком reasoning тратил в том же варианте 43 секунды, Sonnet 28.</p><p>Если Claude нет, я бы взяла K3.1 и подробнее описывала задачу: с заметкой она прошла 30 из 30 и работает быстрее. Без заметки с русской задачей надёжнее K2.8, но и у неё это 17 из 30. GPT‑OSS 120B, открытой модели, которую можно запустить у себя, даже с заметкой хватило только на 14–19 из 30.</p><p>Не сказать, что результат поменял для меня что‑то — меня Claude вполне устраивает и менять на что‑то другое я его не собираюсь. Тем не менее, знать, что что‑то пойдет не так из‑за формулировки — важно.</p><h3>Что из этого следует</h3><ol><li><p><strong>Пишу задачи по‑английски, если их может получить Codex или Kimi K3.1.</strong> Остальным агентам язык почти не важен, но эти два по‑русски перестают искать в интернете, и если ответ есть только на форуме, они его не находят.</p></li><li><p><strong>Даю агенту факт, если он у меня есть.</strong> Агент и сам поищет, еще и в соседние папки залезет, если ему разрешить, но если корректное решение известно заранее, лучше его упомянуть.</p></li><li><p><strong>Не перевожу заметки.</strong> Англоязычная заметка сработала не хуже русскоязычной. Важны идентификатор, путь и текст ошибки, а они и так не переводятся.</p></li><li><p><strong>Если вашего агента нет в этой таблице, проверьте его.</strong> Дайте ему одну задачу, ответ на которую есть только в интернете, один раз по‑английски и один раз на своём языке, и посмотрите в логе команд, искал ли он. Если на своём языке не искал, ставьте ему задачи по‑английски или давайте нужный факт в промпте.</p></li></ol><h3>Как я проверяла</h3><p>Каждая задача: маленький репозиторий с одной заложенной проблемой и просьба в одно‑два предложения, как её набрал бы человек. Пять вариантов: </p><ul><li><p>английская задача без всего; </p></li><li><p>английская задача плюс заметка: история с worklore, поданная как «заметка коллеги о похожем случае: используй то, что подходит, и напиши, какие части пригодились»; </p></li><li><p>русская задача без всего; </p></li><li><p>русская задача плюс англоязычная заметка; </p></li><li><p>русская задача плюс заметка, переведённая на русский. </p></li></ul><p>Семь конфигураций: Claude Code с Opus, Sonnet и Haiku 5.5; Codex CLI с GPT-6-Sol на среднем и низком уровне reasoning; Antigravity с Gemini 3.8 Flash и GPT‑OSS 120B. Позже к ним добавились две модели в Kimi Code 2.5.2: K2.8 Preview, которая стоит там по умолчанию, и K3.1 Pro. У всех был доступ в интернет, не было памяти, файлов инструкций и MCP‑серверов. Результат оценивал скрытый скрипт по разделу Verify истории: он смотрел репозиторий, дифф и лог команд, но не отчёт агента о себе. По пять повторов на ячейку, поэтому выше интервалы, а не одиночные числа; 95-процентные интервалы посчитаны методом bootstrap по прогонам.</p><h3>Ограничения</h3><p>Шесть задач, один неанглийский язык, в каждом репозитории одна заложенная проблема. Пяти повторов на ячейку (45 прогонов на историю) хватает на интервалы выше и не хватает, чтобы ранжировать конфигурации между собой. Русские тексты переведены моделью и проверены мной; код и идентификаторы в историях оригинальные. Видела ли модель историю при обучении, я проверить не могу. Из интернета её доставали: в 30 прогонах без заметки агент увидел саму историю на worklore (Codex, Gemini Flash, GPT‑OSS и обе Kimi, всё на двух форумных задачах). Для Gemini Flash её находил сам поиск Google: он пересказывал решение своими словами и ставил <a href=\"http://worklore.dev\" rel=\"noopener nofollow\">worklore.dev</a> источником, даже когда агент искал только по форуму <a href=\"http://Intervals.icu\" rel=\"noopener nofollow\">Intervals.icu</a>. Прошли 24 из 30. Если их выбросить, доля успехов без заметки падает с 62,6% до 60,6% на английской задаче и почти не меняется на русской (54,4% и 54,1%), и выводы те же. Но у Gemini Flash на задаче про пульсовой коридор чистых прогонов без заметки не остаётся вовсе, а у K2.8 на той же задаче все шесть успехов без заметки пришли оттуда. Kimi шла почти на две недели позже остальных и в песочнице: без доступа к домашней папке, launchctl и связке ключей, потому что её вывод уходит в Moonshot. Для задачи про ночное задание в репозитории лежит сохранённый вывод launchctl, но небольшое влияние песочницы я исключить не могу.</p><p>Всё лежит на GitHub: тестовые репозитории с заложенными проблемами, промпты на обоих языках, скрипты оценки и логи каждого прогона, в <a href=\"https://github.com/worklore/worklore-mcp/tree/main/research/guide-eval/round8\" rel=\"noopener nofollow\">worklore‑mcp/research/guide‑eval/round8</a>. Заметки это истории на worklore, у каждой есть раздел Verify и счётчик агентов, которые её воспроизвели.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "claude"
+    },
+    {
+      "titleHtml": "codex"
+    },
+    {
+      "titleHtml": "kimi"
+    },
+    {
+      "titleHtml": "prompt-engineering"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106298/145d17d72abf514d26e47e16c48d4868/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106298/145d17d72abf514d26e47e16c48d4868/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106298\\/\"},\"headline\":\"Я написала промпт по‑русски. Два агента перестали искать решение в интернете\",\"datePublished\":\"2026-11-10T23:47:09+03:00\",\"dateModified\":\"2026-11-11T02:15:53+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Я всегда общалась с&nbsp;ИИ на&nbsp;английском, разве что&nbsp;мне надо было составить какое‑то очень специфическое сообщение, или&nbsp;вообще перевести мой...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106298\\/#post-content-body\",\"about\":[\"h_programming\",\"h_artificial_intelligence\",\"h_it_testing\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/d6\\/15\\/e0\\/d615e00fdc1a437a7bfbaf510e803f77.png\",\"https:\\/\\/habrastorage.org\\/extt\\/a7\\/e4\\/16\\/a7e41678ff11f3aa0ca00b3c309e5d74.png\"]}",
+    "metaDescription": "Я всегда общалась с&nbsp;ИИ на&nbsp;английском, разве что&nbsp;мне надо было составить какое‑то очень специфическое сообщение, или&nbsp;вообще перевести мой текст на&nbsp;испанский. Для&nbsp;меня это...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "analytics",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 10,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,157 @@
+{
+  "id": "1105968",
+  "timePublished": "2026-11-10T10:33:16+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Claude Fable 5.2: как пользоваться новой нейросетью и чем она отличается от Opus и Fable 5",
+  "leadData": {
+    "textHtml": "<p><strong>Claude Fable 5.2</strong> вышла 9 ноября 2026 года, через пять месяцев после Fable 5. Новая нейросеть Claude отвечает до 30% быстрее предыдущей версии, сильнее в программировании и рассуждениях, понятнее объясняет и при этом стоит дешевле. Дальше по порядку: что это за модель, что в ней поменялось, когда она нужна, а когда хватит Opus или Sonnet, как открыть её из России и какие промпты подойдут для текстов, учёбы, кода и документов. Модель уже доступна в <a href=\"https://umnik.ai/chat?utm_source=habr\">чате Umnik AI</a>, её выбирают в списке моделей.</p>",
+    "imageUrl": "https://habrastorage.org/extt/4c/30/30/4c303011209306da7e1efa711184729b.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/4c/30/30/4c303011209306da7e1efa711184729b.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5903336",
+    "alias": "Kenny666",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": true,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 1
+    },
+    "rating": 0,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": false,
+    "reach": "64K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 99,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 113,
+    "readers": 78
+  },
+  "hubs": [
+    {
+      "id": "23992",
+      "alias": "oplatym",
+      "type": "corporative",
+      "title": "Блог компании Oplatym.ru",
+      "titleHtml": "Блог компании Oplatym.ru",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Claude Fable 5.2</strong> вышла 9 ноября 2026 года, через пять месяцев после Fable 5. Новая нейросеть Claude отвечает до 30% быстрее предыдущей версии, сильнее в программировании и рассуждениях, понятнее объясняет и при этом стоит дешевле. Дальше по порядку: что это за модель, что в ней поменялось, когда она нужна, а когда хватит Opus или Sonnet, как открыть её из России и какие промпты подойдут для текстов, учёбы, кода и документов. Модель уже доступна в <a href=\"https://umnik.ai/chat?utm_source=habr\">чате Umnik AI</a>, её выбирают в списке моделей.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/4c/30/30/4c303011209306da7e1efa711184729b.jpg\" width=\"1432\" height=\"804\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/4c/30/30/4c303011209306da7e1efa711184729b.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/4c/30/30/4c303011209306da7e1efa711184729b.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Факты о модели взяты из публикаций MacRumors, CNBC и TechCrunch от 9 ноября и Dataconomy от 10 ноября 2026 года. Цены Умника указаны по каталогу сайта на 10 ноября.</p><h3>Что за нейросеть Claude Fable 5.2 и когда она вышла</h3><p>Claude Fable 5.2 это языковая модель Anthropic из линейки Fable. Эту линейку сама компания советует для самых сложных и открытых технических задач: большого кода, агентов, долгих проектов. На практике это ещё и длинные документы и задачи, где ответ строится в несколько шагов.</p><p>Короткая хронология линейки:</p><ul><li><p><strong>9 июня 2026 года</strong> вышла Claude Fable 5.</p></li><li><p>Затем появилась промежуточная версия Fable 5.1, относительно которой и считаются все улучшения новой модели.</p></li><li><p><strong>9 ноября 2026 года</strong>, в понедельник, Anthropic выпустила сразу две модели: Claude Fable 5.2 и Claude Mythos 5.2.</p></li></ul><p>Mythos 5.2 это та же модель, но без защитных ограничений по кибербезопасности и биологии. Её выдают только по специальным программам Anthropic, обычным пользователям она недоступна. Поэтому всё, что ниже, относится к Fable 5.2: именно её можно открыть и использовать.</p><p>Отдельно Anthropic сообщает, что Fable 5.2 решила две открытые задачи теоретической физики. Для повседневной работы это скорее показатель уровня рассуждений, чем повод что-то менять, но он хорошо объясняет, зачем у компании вообще есть отдельная линейка для сложных задач.</p><h3>Как пользоваться Claude Fable 5.2 в России: пошагово</h3><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/3b/ad/69/3bad6994d0d274be635f9fb3ba455127.jpg\" width=\"1432\" height=\"822\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3b/ad/69/3bad6994d0d274be635f9fb3ba455127.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/3b/ad/69/3bad6994d0d274be635f9fb3ba455127.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Claude Fable 5.2 в России доступна через <a href=\"https://umnik.ai/?utm_source=habr\">Umnik AI</a>: отдельный аккаунт у Anthropic и зарубежная карта не нужны, оплата идёт рублями картой российского банка. Порядок такой:</p><ul><li><p>Открыть <a href=\"https://umnik.ai/chat?utm_source=habr\">чат Умника</a> и войти в аккаунт.</p></li><li><p>Нажать на список моделей и выбрать Claude Fable 5.2.</p></li><li><p>Собрать задачу в одно сообщение: кто вы и что делаете, исходные данные, что нужно получить и в каком виде. Документ, код или таблицу вставить прямо в сообщение текстом.</p></li><li><p>Отправить и при необходимости уточнить ответ в том же диалоге. Каждое новое сообщение считается отдельным запросом.</p></li><li><p>Для простых вопросов переключить модель на Sonnet 5.5 в том же списке: так дешевле, а баланс общий.</p></li></ul><p>Разобраться, как пользоваться Claude Fable 5.2, проще всего на своей реальной задаче: взять документ или кусок кода, с которым сейчас идёт работа, и сравнить ответ с тем, что даёт более дешёвая модель.</p><p>Одна оговорка про картинки. Зрение входит в список улучшений версии 5.2, но в Умнике у этой модели нет приёма изображений. Вместо скриншота в сообщение вставляют то, что на нём важно: текст ошибки, HTML страницы, цифры из графика или описание экрана словами.</p><p>Пользоваться Claude Fable 5.2 бесплатно не получится: бесплатного тарифа нет. За подписку на Telegram-канал <a href=\"http://t.me/umnik_ai\">t.me/umnik_ai</a> начисляют 50 токенов. Запрос к Fable 5.2 стоит 80 токенов, поэтому на него бонуса не хватит, но хватит на запрос к Sonnet 5.5 за 28 токенов, чтобы посмотреть, как устроен чат. Токены общие на все модели сервиса, а если генерация не выполнилась, они возвращаются автоматически. Пакеты токенов описаны на странице <a href=\"https://umnik.ai/tariffs?utm_source=habr\">тарифов</a>.</p><h3>Что изменилось по сравнению с Fable 5 и 5.1</h3><p>Все опубликованные сравнения ведутся с Fable 5.1. По данным Anthropic и прессы, в 5.2 поменялось следующее:</p><ul><li><p><strong>Программирование.</strong> Самый заметный прирост в бенчмарках, цифры в таблице ниже.</p></li><li><p><strong>Рассуждения.</strong> Модель увереннее ведёт задачи, где ответ строится в несколько шагов.</p></li><li><p><strong>Зрение.</strong> Работа с изображениями стала точнее (в Умнике, как сказано выше, модель принимает только текст).</p></li><li><p><strong>Скорость.</strong> Ответы приходят до 30% быстрее, чем у 5.1.</p></li><li><p><strong>Расход.</strong> На сложных задачах при среднем уровне усилий модель тратит меньше токенов, чем 5.1.</p></li><li><p><strong>Понятность.</strong> Объяснения стали яснее, это заметно в учебных и аналитических задачах.</p></li><li><p><strong>Меньше ложных отказов.</strong> Ограничения по кибербезопасности и биологии остались, но ложных блокировок безобидных запросов примерно на 55% меньше.</p></li></ul><p>Цифры бенчмарков, которые публикуют производитель и пресса:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Бенчмарк</p></th><th><p align=\"left\">Fable 5.2</p></th><th><p align=\"left\">Fable 5.1</p></th><th><p align=\"left\">GPT-6 Astra</p></th><th><p align=\"left\">Gemini 4 Carbon</p></th></tr><tr><td><p align=\"left\">FrontierCode 2.0</p></td><td><p align=\"left\">49,1% (Xhigh)</p></td><td><p align=\"left\">32,4%</p></td><td><p align=\"left\">42,8%</p></td><td><p align=\"left\">41,1%</p></td></tr><tr><td><p align=\"left\">FrontierSWE v2</p></td><td><p align=\"left\">69,9%</p></td><td><p align=\"left\">н/д</p></td><td><p align=\"left\">65,5%</p></td><td><p align=\"left\">61,2%</p></td></tr><tr><td><p align=\"left\">AutomationBench</p></td><td><p align=\"left\">51,4% (Max), 39,7% (Low)</p></td><td><p align=\"left\">н/д</p></td><td><p align=\"left\">н/д</p></td><td><p align=\"left\">н/д</p></td></tr></tbody></table></div></div><p>В FrontierCode 2.0 результат вырос на 16,7 процентного пункта, примерно в 1,5 раза. Важная деталь: 49,1% получены на уровне усилий Xhigh, то есть когда модели дают больше времени на рассуждение. На AutomationBench разница между уровнями Max и Low составила 11,7 пункта. Вывод для обычного пользователя простой: рекордные цифры относятся к самым тяжёлым режимам, а не к каждому ответу в чате.</p><p>Чем Fable 5.2 отличается от Fable 5, если смотреть только на подтверждённые факты? Прямых сравнений с Fable 5 в публикациях нет, поэтому опираться можно на две вещи. Первая: между версиями пять месяцев и промежуточная 5.1, относительно которой 5.2 быстрее, точнее в коде и реже отказывает. Вторая: цена. В Умнике Fable 5 и Fable 5.1 стоят по 95 токенов за запрос, а Fable 5.2 стоит 80. Самая новая версия линейки оказалась и самой дешёвой.</p><p>Сводная таблица по линейке и Opus в каталоге Умника:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Параметр</p></th><th><p align=\"left\">Fable 5</p></th><th><p align=\"left\">Fable 5.1</p></th><th><p align=\"left\">Fable 5.2</p></th><th><p align=\"left\">Opus 4.8</p></th></tr><tr><td><p align=\"left\">Дата выхода</p></td><td><p align=\"left\">9 июня 2026</p></td><td><p align=\"left\">н/д</p></td><td><p align=\"left\">9 ноября 2026</p></td><td><p align=\"left\">н/д</p></td></tr><tr><td><p align=\"left\">FrontierCode 2.0</p></td><td><p align=\"left\">н/д</p></td><td><p align=\"left\">32,4%</p></td><td><p align=\"left\">49,1% (Xhigh)</p></td><td><p align=\"left\">н/д</p></td></tr><tr><td><p align=\"left\">Скорость ответа</p></td><td><p align=\"left\">н/д</p></td><td><p align=\"left\">базовая</p></td><td><p align=\"left\">до 30% быстрее 5.1</p></td><td><p align=\"left\">н/д</p></td></tr><tr><td><p align=\"left\">Ложные блокировки</p></td><td><p align=\"left\">н/д</p></td><td><p align=\"left\">базовый уровень</p></td><td><p align=\"left\">примерно на 55% меньше</p></td><td><p align=\"left\">н/д</p></td></tr><tr><td><p align=\"left\">API, ввод / вывод за 1 млн токенов</p></td><td><p align=\"left\">н/д</p></td><td><p align=\"left\">10 $ / 50 $</p></td><td><p align=\"left\">8 $ / 40 $</p></td><td><p align=\"left\">н/д</p></td></tr><tr><td><p align=\"left\">Запрос в Умнике</p></td><td><p align=\"left\">95 токенов</p></td><td><p align=\"left\">95 токенов</p></td><td><p align=\"left\">80 токенов</p></td><td><p align=\"left\">55 токенов</p></td></tr></tbody></table></div></div><h3>Fable 5.2 или Opus: что выбрать</h3><p>По данным Anthropic, Fable и Mythos 5.2 обходят Opus 5.5 в работе с компьютером, офисных задачах, агентном программировании, научных исследованиях и многодисциплинарных рассуждениях. При этом сама компания не предлагает делать Fable моделью на каждый день: для большинства задач она советует начинать с Opus 5.5, а Fable оставлять для самых сложных. Sonnet 5.5 и Haiku 5.5 обходятся ещё дешевле.</p><p>Брать Fable 5.2 или Opus, в итоге решает сложность задачи, а не то, какая модель новее. В Умнике разница в цене ощутимая: Opus 4.8 стоит 55 токенов за запрос, Fable 5.2 стоит 80, Sonnet 5.5 стоит 28.</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Задача</p></th><th><p align=\"left\">Какую модель взять</p></th><th><p align=\"left\">Почему</p></th></tr><tr><td><p align=\"left\">Короткий вопрос, перевод абзаца, идея заголовка</p></td><td><p align=\"left\">Sonnet 5.5</p></td><td><p align=\"left\">28 токенов, сложности почти нет</p></td></tr><tr><td><p align=\"left\">Обычное письмо, пост, объяснение темы</p></td><td><p align=\"left\">Sonnet 5.5 или Opus 4.8</p></td><td><p align=\"left\">Задача ограничена, переплата за Fable не нужна</p></td></tr><tr><td><p align=\"left\">Длинный договор, отчёт, техническое задание</p></td><td><p align=\"left\">Fable 5.2</p></td><td><p align=\"left\">Нужно держать много деталей и связей между разделами</p></td></tr><tr><td><p align=\"left\">Большой код, рефакторинг, ошибка на стыке нескольких файлов</p></td><td><p align=\"left\">Fable 5.2</p></td><td><p align=\"left\">Сильнейшая сторона версии по бенчмаркам</p></td></tr><tr><td><p align=\"left\">План проекта с зависимостями, сроками и рисками</p></td><td><p align=\"left\">Fable 5.2</p></td><td><p align=\"left\">Многошаговое рассуждение</p></td></tr></tbody></table></div></div><p>Рабочая схема: черновик или первый вариант делает дешёвая модель, а Fable 5.2 подключается там, где ответ упирается в сложность, а не в объём текста. Переключаться между моделями в <a href=\"https://umnik.ai/chat?utm_source=habr\">чате Umnik AI</a> можно внутри одного диалога, баланс общий.</p><p>Пример: черновик коммерческого письма пишет Sonnet 5.5, а проверку договора на 30 страниц, к которому это письмо относится, разумнее отдать Fable 5.2.</p><h3>Готовые промпты под популярные задачи</h3><p>Ниже семь промптов, которые можно скопировать в <a href=\"https://umnik.ai/chat?utm_source=habr\">чат с Claude Fable 5.2</a> и подставить свои данные в квадратных скобках. Общий принцип: чем точнее заданы роль, данные и формат ответа, тем меньше уточнений и тем дешевле задача.</p><h4>Текст: статья или пост</h4><pre><code>Ты редактор делового издания. Напиши текст на тему [тема] для [аудитория].\nОбъём: 3000-4000 знаков. Структура: вступление на 2-3 предложения,\n3-4 смысловых блока с подзаголовками, вывод.\nТон спокойный, без канцелярита и общих фраз. В каждом блоке один\nконкретный пример или цифра. Если цифр у тебя нет, оставь пометку\n[нужна цифра], а не придумывай.\nВ конце дай 5 вариантов заголовка.</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><h4>Учёба: разобрать тему и проверить себя</h4><pre><code>Объясни тему [тема] студенту [курс, специальность], который видит её впервые.\n1. Суть в трёх предложениях без терминов.\n2. Подробное объяснение с терминами, каждый термин поясни.\n3. Один пример решения задачи по шагам.\n4. Пять типичных ошибок и как их не допустить.\n5. Тест из 8 вопросов с вариантами ответов, ответы отдельным списком в конце.</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Пример: для темы «производная сложной функции» модель разберёт правило на одной функции, а в тесте даст задачи, где ошибку легко сделать при выборе внутренней функции.</p><h4>Код: найти ошибку и исправить</h4><pre><code>Ты опытный разработчик на [язык]. Ниже код и текст ошибки.\n1. Объясни причину ошибки простыми словами.\n2. Покажи исправленный фрагмент целиком.\n3. Проверь, нет ли рядом похожих ошибок или граничных случаев.\n4. Напиши 3 теста, которые поймали бы эту ошибку.\nПоведение остального кода не меняй, новых зависимостей не добавляй.\n[код]\n[текст ошибки]</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h4>Анализ документа: договор, отчёт, ТЗ</h4><pre><code>Прочитай документ ниже целиком.\n1. Краткое содержание на полстраницы.\n2. Все сроки, суммы и обязательства сторон отдельной таблицей.\n3. Пункты, которые противоречат друг другу, с номерами разделов.\n4. Формулировки, которые можно понять двояко, и как их уточнить.\nОпирайся только на текст документа. Если чего-то в нём нет, так и напиши.\n[текст документа]</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Длинный документ надёжнее отправлять частями: сначала первую половину с просьбой запомнить ключевые пункты, затем вторую с полным заданием.</p><h4>План проекта</h4><pre><code>Нужен план проекта: [цель проекта].\nВводные: команда [состав], срок [срок], бюджет [бюджет].\nСоставь:\n1. Этапы с результатом и критерием готовности каждого.\n2. Что можно делать параллельно, что строго последовательно.\n3. Риски с оценкой вероятности (низкая, средняя, высокая) и мерами.\n4. Контрольные точки для проверки, что проект идёт по плану.\nЕсли данных не хватает, сначала задай мне до 5 уточняющих вопросов.</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Последняя строка в таких задачах важна: без неё модель может достроить план на своих допущениях.</p><h4>Письмо: деловое или сложное</h4><pre><code>Напиши письмо [кому] от [от кого]. Ситуация: [что произошло].\nЦель письма: [чего нужно добиться].\nТон вежливый и твёрдый, без извинений там, где вины нет.\nОбъём до 1200 знаков. Дай два варианта: короткий и развёрнутый.\nВ конце одной строкой укажи, какой вариант уместнее и почему.</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Пример: письмо поставщику о сорванном сроке, где нужно сохранить отношения, но добиться новой даты и компенсации.</p><h4>Анализ данных из таблицы</h4><pre><code>Ниже данные таблицы в формате CSV: [описание столбцов].\n1. Опиши, что показывают данные, в 5 пунктах.\n2. Найди аномалии и выбросы, укажи строки.\n3. Посчитай [нужные показатели] и покажи формулы.\n4. Предложи 3 гипотезы, объясняющие главные изменения, и как их проверить.\n[данные CSV]</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Сколько стоит Claude Fable 5.2</h3><p>В Умнике цена фиксирована за запрос и не зависит от длины ответа. Модели Anthropic в каталоге:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Модель в Умнике</p></th><th><p align=\"left\">Токенов за запрос</p></th><th><p align=\"left\">≈ ₽ на Medium (0,32 ₽ за токен)</p></th><th><p align=\"left\">≈ ₽ на Start (0,38 ₽ за токен)</p></th></tr><tr><td><p align=\"left\">Claude Fable 5.2</p></td><td><p align=\"left\">80</p></td><td><p align=\"left\">26</p></td><td><p align=\"left\">30</p></td></tr><tr><td><p align=\"left\">Claude Fable 5.1</p></td><td><p align=\"left\">95</p></td><td><p align=\"left\">30</p></td><td><p align=\"left\">36</p></td></tr><tr><td><p align=\"left\">Claude Fable 5</p></td><td><p align=\"left\">95</p></td><td><p align=\"left\">30</p></td><td><p align=\"left\">36</p></td></tr><tr><td><p align=\"left\">Claude Opus 4.8</p></td><td><p align=\"left\">55</p></td><td><p align=\"left\">18</p></td><td><p align=\"left\">21</p></td></tr><tr><td><p align=\"left\">Claude Sonnet 5.5</p></td><td><p align=\"left\">28</p></td><td><p align=\"left\">9</p></td><td><p align=\"left\">11</p></td></tr></tbody></table></div></div><p>Новая версия дешевле Fable 5 и 5.1 примерно на 16%: 80 токенов против 95.</p><p>Пример расчёта на месяц. 20 запросов к Fable 5.2 дают 1600 токенов, это около 512 ₽ на Medium и 608 ₽ на Start. Если те же 20 задач разделить на 5 сложных для Fable 5.2 и 15 простых для Sonnet 5.5, выйдет 820 токенов, около 262 ₽ на Medium. Экономия почти вдвое без потери качества там, где оно действительно нужно.</p><p>Для тех, кто работает через API, Anthropic снизила цену на 20%: ввод стоит 8 $ за 1 млн токенов вместо 10 $, вывод 40 $ вместо 50 $. Но в API платят за фактический объём, и сложные режимы заметно дороже: средняя задача FrontierCode 2.0 стоит 2,48 $ на уровне Medium, 6,72 $ на High и 14,19 $ на Xhigh, у Fable 5.1 на Xhigh было 8,68 $. В чате таких колебаний нет, запрос стоит одинаково. Актуальные пакеты токенов собраны на странице <a href=\"https://umnik.ai/tariffs?utm_source=habr\">тарифов Umnik AI</a>.</p><h3>Ограничения</h3><ul><li><p><strong>Защитные фильтры.</strong> Ограничения по кибербезопасности и биологии сохранились. Ложных отказов стало меньше, но запросы на границе этих тем модель может отклонить. Если отказ выглядит ложным, помогает явно описать контекст: учебная задача, свой проект, защитная цель.</p></li><li><p><strong>Mythos 5.2 недоступна.</strong> Версию без ограничений выдают только по специальным программам Anthropic, обещания открытого доступа к ней стоит воспринимать скептически.</p></li><li><p><strong>Только текст в Умнике.</strong> Приёма изображений у модели в чате Умника нет, содержимое картинки нужно передавать текстом.</p></li><li><p><strong>Очень длинные документы.</strong> Их надёжнее отправлять частями и просить промежуточные выводы.</p></li><li><p><strong>Рекорды на тяжёлых режимах.</strong> Самые высокие цифры бенчмарков получены на уровнях Xhigh и Max.</p></li><li><p><strong>Проверка результата.</strong> Даже сильная модель ошибается: код нужно запускать и тестировать, цифры и сроки из документа сверять с оригиналом.</p></li></ul><h3>Итог</h3><p>Claude Fable 5.2 это обновление линейки, которая вышла 9 июня 2026 года с Fable 5. Относительно 5.1 модель отвечает до 30% быстрее, набирает 49,1% в FrontierCode 2.0 против 32,4%, понятнее объясняет и примерно на 55% реже ошибочно отказывает. В API она подешевела на 20%, в Умнике стоит 80 токенов против 95 у Fable 5 и 5.1.</p><p>Для большинства повседневных задач хватит Sonnet 5.5 или Opus, а Fable 5.2 стоит включать для длинных документов, большого кода и планов с множеством зависимостей. Проверить модель на своей задаче можно в <a href=\"https://umnik.ai/chat?utm_source=habr\">чате Умника</a>: выбрать Claude Fable 5.2 в списке моделей и отправить один из промптов выше.</p><h3>FAQ</h3><p><strong>Когда вышла Claude Fable 5.2?</strong></p><p>Anthropic выпустила модель в понедельник, 9 ноября 2026 года, одновременно с Claude Mythos 5.2. Первая версия линейки, Fable 5, вышла 9 июня 2026 года.</p><p><strong>Чем Claude Fable 5.2 отличается от Fable 5?</strong></p><p>Прямых сравнений с Fable 5 в публикациях нет, все цифры приводят относительно 5.1: до 30% быстрее, 49,1% против 32,4% в FrontierCode 2.0, примерно на 55% меньше ложных блокировок. В Умнике Fable 5.2 стоит 80 токенов за запрос, Fable 5 и 5.1 по 95.</p><p><strong>Можно ли пользоваться Claude Fable 5.2 бесплатно?</strong></p><p>Бесплатного тарифа нет. За подписку на Telegram-канал <a href=\"http://t.me/umnik_ai\">t.me/umnik_ai</a> начисляют 50 токенов: этого не хватит на запрос к Fable 5.2 за 80 токенов, но хватит на запрос к Sonnet 5.5 за 28.</p><p><strong>Что выбрать для обычных задач: Fable 5.2 или Opus?</strong></p><p>Anthropic советует начинать с Opus 5.5, а Fable оставлять для самых сложных задач: большого кода, агентов, долгих проектов. В Умнике Opus 4.8 стоит 55 токенов за запрос, Fable 5.2 стоит 80.</p><p><strong>Можно ли отправить Claude Fable 5.2 картинку в Умнике?</strong></p><p>Нет, в Умнике у модели нет приёма изображений. Вместо скриншота в сообщение вставляют текст ошибки, HTML, цифры или описание экрана.</p><p><strong>Сколько стоит один запрос и как оплатить?</strong></p><p>80 токенов, около 26 ₽ на Medium и 30 ₽ на Start. Оплата рублями картой российского банка, при сбое генерации токены возвращаются автоматически. Пакеты описаны на странице <a href=\"https://umnik.ai/tariffs?utm_source=habr\">тарифов</a>, а сама модель открывается в <a href=\"https://umnik.ai/chat?utm_source=habr\">чате</a>.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "claude fable 5.2"
+    },
+    {
+      "titleHtml": "claude"
+    },
+    {
+      "titleHtml": "anthropic"
+    },
+    {
+      "titleHtml": "нейросети"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105968/cddd6dfff068a5dbf019edb90ac07bc8/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105968/cddd6dfff068a5dbf019edb90ac07bc8/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/oplatym\\/articles\\/1105968\\/\"},\"headline\":\"Claude Fable 5.2: как пользоваться новой нейросетью и чем она отличается от Opus и Fable 5\",\"datePublished\":\"2026-11-10T13:33:16+03:00\",\"dateModified\":\"2026-11-11T11:39:18+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Claude Fable 5.2 вышла 9 ноября 2026 года, через пять месяцев после Fable 5. Новая нейросеть Claude отвечает до 30% быстрее предыдущей версии, сильнее в...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/oplatym\\/articles\\/1105968\\/#post-content-body\",\"about\":[\"c_oplatym\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/4c\\/30\\/30\\/4c303011209306da7e1efa711184729b.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/3b\\/ad\\/69\\/3bad6994d0d274be635f9fb3ba455127.jpg\"]}",
+    "metaDescription": "Claude Fable 5.2 вышла 9 ноября 2026 года, через пять месяцев после Fable 5. Новая нейросеть Claude отвечает до 30% быстрее предыдущей версии, сильнее в программировании и рассуждениях, понятнее...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": true,
+  "mode": "seo",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 9,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

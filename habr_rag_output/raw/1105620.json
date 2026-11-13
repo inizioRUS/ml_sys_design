@@ -1,0 +1,171 @@
+{
+  "id": "1105620",
+  "timePublished": "2026-11-09T16:18:11+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Как защитить статус оплаты в React от запоздалых ответов",
+  "leadData": {
+    "textHtml": "<p>Пользователь уже оплатил подписку, но React снова показывает «Ожидаем оплату». Оба запроса вернули HTTP 200 — просто старый ответ пришёл последним. Разберём, как воспроизвести эту гонку и не дать запоздалому ответу перезаписать актуальный статус заказа.</p>",
+    "imageUrl": null,
+    "buttonTextHtml": "Читать далее",
+    "image": null
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5902462",
+    "alias": "amenner",
+    "fullname": "Алексей",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 6,
+      "votesCount": 6
+    },
+    "rating": 8.7,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 3,
+    "readingCount": 241,
+    "score": 1,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 6956,
+    "readers": 176
+  },
+  "hubs": [
+    {
+      "id": "19327",
+      "alias": "reactjs",
+      "type": "collective",
+      "title": "ReactJS",
+      "titleHtml": "ReactJS",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "357",
+      "alias": "javascript",
+      "type": "collective",
+      "title": "JavaScript",
+      "titleHtml": "JavaScript",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>На экране оплаты подписки на закрытый Telegram‑канал статус обновляется автоматически. Есть и кнопка «Проверить оплату». Пользователь нажимает её, пока фоновый запрос ещё выполняется. Интерфейс показывает «Оплачено», а через полсекунды возвращается к «Ожидаем оплату». В Network у обоих ответов HTTP 200: ошибка видна только в данных и порядке их прихода.</p><p>Фоновый запрос прочитал заказ до оплаты, но его ответ задержался. Ручная проверка прочитала заказ уже после оплаты и ответила первой. Если обработчик вызывает <code>setSnapshot(next)</code> для каждого ответа, версия 7 перезаписывает уже показанную версию 8.</p><h3>Какой ответ считать свежим</h3><p>Время отправки запроса, момент чтения в базе и порядок прихода ответов могут расходиться. Например, последний отправленный запрос может попасть на отстающую реплику и вернуть более старый статус. Поэтому сравниваем версии данных, которые прочитал сервер.</p><p>Эндпоинт возвращает <code>orderId</code>, <code>revision</code>, <code>payment</code> и <code>access</code>. В примере <code>revision</code> — положительное целое число в безопасном диапазоне JavaScript. Сервер хранит статус и его версию вместе: при принятом изменении платежа или доступа обновляет поля и увеличивает версию атомарно. Один и тот же номер версии в рамках заказа всегда означает один и тот же снимок. Если исходные данные приходят из разных систем, такой снимок можно хранить в отдельной таблице для экрана заказа.</p><p>Версия защищает от устаревших ответов на чтение. Она не исправляет ситуацию, в которой сам сервер применил запоздалое платёжное событие и присвоил неверному состоянию новый номер. На бэкенде всё равно нужно проверять, допустим ли переход статуса, и не применять один платёж дважды.</p><p>Оплата и доступ меняются не одновременно. На <code>paid / pending</code> показываем «Платёж получен, готовим доступ». Кнопка входа появляется на <code>paid / ready</code> и скрывается после подтверждённого возврата, даже если отзыв доступа ещё выполняется. Сам редирект с платёжной страницы не меняет эти статусы. Скрытие кнопки тоже не отзывает доступ: это отдельная операция на сервере.</p><h3>Правило обновления состояния</h3><p>Функция сравнивает входящий снимок с уже принятым. В ней перечислены только статусы учебного API; у реального эндпоинта этот список должен совпадать с его схемой.</p><pre><code>function mergeSnapshot(orderId, current, next) {\n  if (\n    next == null ||\n    next.orderId !== orderId ||\n    !Number.isSafeInteger(next.revision) || next.revision &lt; 1 ||\n    ![\"awaiting_payment\", \"paid\", \"refunded\"].includes(next.payment) ||\n    ![\"pending\", \"ready\", \"revoked\"].includes(next.access)\n  ) {\n    return current;\n  }\n  if (current &amp;&amp; next.revision &lt;= current.revision) return current;\n  return next;\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>После проверки HTTP‑ответа и разбора JSON оба обработчика вызывают <code>setSnapshot(current =&gt; mergeSnapshot(orderId, current, next))</code>. React передаёт актуальное значение из очереди обновлений, поэтому два почти одновременных ответа не сравниваются с одним и тем же устаревшим <code>snapshot</code>. Повреждённый ответ полезно зафиксировать на границе API как ошибку контракта; последнее корректное состояние при этом сохраняется.</p><p>Если экран переключается между заказами, задайте компоненту <code>key={orderId}</code>: заказ B начнёт с собственного состояния, даже если последняя версия заказа A была 99, а у B пока только версия 1. В очистке эффекта останавливайте таймер и отменяйте или игнорируйте незавершённые запросы опроса. Для запросов к одному заказу проверка версий по‑прежнему нужна. Ошибка опроса хранится отдельно: можно показать «Не удалось обновить статус», сохранив уже полученное «Оплачено».</p><h3>Что проверить на стенде</h3><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Порядок прихода ответов</p></th><th><p align=\"left\">Что останется на экране</p></th></tr><tr><td><p align=\"left\"><code>paid / pending</code>, v8 → <code>awaiting_payment / pending</code>, v7</p></td><td><p align=\"left\">v8: оплата получена, доступ ещё готовится</p></td></tr><tr><td><p align=\"left\"><code>paid / pending</code>, v8 → повтор v8</p></td><td><p align=\"left\">Тот же снимок; повтор ничего не меняет</p></td></tr><tr><td><p align=\"left\"><code>paid / pending</code>, v8 → <code>paid / ready</code>, v9</p></td><td><p align=\"left\">v9: появилась кнопка входа</p></td></tr><tr><td><p align=\"left\"><code>paid / ready</code>, v9 → <code>refunded / revoked</code>, v10</p></td><td><p align=\"left\">v10: возврат, доступ закрыт</p></td></tr><tr><td><p align=\"left\"><code>paid / ready</code>, v9 → <code>refunded / ready</code>, v10</p></td><td><p align=\"left\">v10: возврат, кнопка скрыта; отзыв доступа ещё не подтверждён</p></td></tr><tr><td><p align=\"left\">На экране заказ B, пришёл заказ A, v99</p></td><td><p align=\"left\">Снимок заказа B не меняется</p></td></tr><tr><td><p align=\"left\">После v8 сервер вернул <code>null</code> или неизвестный статус</p></td><td><p align=\"left\">v8 сохраняется</p></td></tr></tbody></table></div></div><p>Чтобы воспроизвести ошибку, настройте мок‑сервер: первый GET возвращает <code>awaiting_payment</code> с версией 7 через 800 мс, второй — <code>paid</code> с версией 8 через 50 мс. Запустите второй запрос, пока первый ещё в работе. С прямым <code>setSnapshot(next)</code> экран сначала покажет версию 8, потом версию 7. После правки он останется на версии 8. Затем верните <code>paid / ready</code> с версией 9: кнопка должна появиться. Так тест проверит и защиту от отката, и нормальное обновление.</p><p>Если API не отдаёт версию, сначала стоит выяснить, можно ли читать состояние из одного согласованного источника и держать не более одного запроса в работе. Это уберёт часть гонок. Но последовательный опрос сам по себе не защитит от отстающей реплики, а <code>cache: \"no-store\"</code> касается HTTP‑кеша, а не актуальности данных в базе.</p><p><strong>Источники:</strong> <a href=\"https://react.dev/reference/react/useState#updating-state-based-on-the-previous-state\" rel=\"noopener nofollow\">React: обновление состояния по предыдущему значению</a>, <a href=\"https://react.dev/reference/react/useEffect#fetching-data-with-effects\" rel=\"noopener nofollow\">React: загрузка данных и очистка эффекта</a>, <a href=\"https://react.dev/learn/preserving-and-resetting-state#resetting-state-with-a-key\" rel=\"noopener nofollow\">React: сброс состояния с помощью ключа</a>.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "React"
+    },
+    {
+      "titleHtml": "JavaScript"
+    },
+    {
+      "titleHtml": "асинхронные запросы"
+    },
+    {
+      "titleHtml": "состояние интерфейса"
+    },
+    {
+      "titleHtml": "race condition"
+    },
+    {
+      "titleHtml": "статус оплаты"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105620/2ce3fc4c2d58de4c8123159c5a16b526/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105620/2ce3fc4c2d58de4c8123159c5a16b526/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105620\\/\"},\"headline\":\"Как защитить статус оплаты в React от запоздалых ответов\",\"datePublished\":\"2026-11-09T19:18:11+03:00\",\"dateModified\":\"2026-11-10T02:26:51+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"На&nbsp;экране оплаты подписки на&nbsp;закрытый Telegram‑канал статус обновляется автоматически. Есть и кнопка «Проверить оплату». Пользователь нажимает её,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105620\\/#post-content-body\",\"about\":[\"h_reactjs\",\"h_javascript\",\"f_develop\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105620\\/2ce3fc4c2d58de4c8123159c5a16b526\\/\"]}",
+    "metaDescription": "На&nbsp;экране оплаты подписки на&nbsp;закрытый Telegram‑канал статус обновляется автоматически. Есть и кнопка «Проверить оплату». Пользователь нажимает её, пока фоновый запрос ещё выполняется....",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "4",
+    "title": "Фронтенд",
+    "alias": "frontend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

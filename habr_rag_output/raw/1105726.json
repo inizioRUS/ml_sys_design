@@ -1,0 +1,229 @@
+{
+  "id": "1105726",
+  "timePublished": "2026-11-11T07:02:14+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Fail2ban: ошибки настройки, из-за которых защита не работает",
+  "leadData": {
+    "textHtml": "<p>Fail2ban ставят на сервер, когда тот получает белый IP, но зачастую дальше установки дело не идёт. Получается, что сервис запущен и джейл sshd включен, но конфиг был дефолтный, бан длится по десять минут, логи читаются не из того места, а половина открытых сервисов вообще находится вне поля зрения. Под катом разберу ошибки и покажу настройки.&nbsp;</p>",
+    "imageUrl": "https://habrastorage.org/extt/a4/ea/7f/a4ea7fd63a12edb67519eb9ea42b952b.png",
+    "buttonTextHtml": "Читать",
+    "image": {
+      "url": "https://habrastorage.org/extt/a4/ea/7f/a4ea7fd63a12edb67519eb9ea42b952b.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "4946885",
+    "alias": "SrvTrantor",
+    "fullname": "Гэри Сэлдон",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/58a/c98/83c/58ac9883cc6ec618a7dc30622619850d.jpeg",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 96,
+      "votesCount": 142
+    },
+    "rating": 264,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "64K+"
+  },
+  "statistics": {
+    "commentsCount": 9,
+    "favoritesCount": 130,
+    "readingCount": 8408,
+    "score": 57,
+    "votesCount": 46,
+    "votesCountPlus": 44,
+    "votesCountMinus": 2,
+    "reach": 85155,
+    "readers": 5513
+  },
+  "hubs": [
+    {
+      "id": "19791",
+      "alias": "ruvds",
+      "type": "corporative",
+      "title": "Блог компании RUVDS.com",
+      "titleHtml": "Блог компании RUVDS.com",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17350",
+      "alias": "s_admin",
+      "type": "collective",
+      "title": "Серверное администрирование",
+      "titleHtml": "Серверное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20",
+      "alias": "hosting",
+      "type": "collective",
+      "title": "Хостинг",
+      "titleHtml": "Хостинг",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19727",
+      "alias": "linux_dev",
+      "type": "collective",
+      "title": "Linux",
+      "titleHtml": "Linux",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a4/ea/7f/a4ea7fd63a12edb67519eb9ea42b952b.png\" width=\"1200\" height=\"630\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a4/ea/7f/a4ea7fd63a12edb67519eb9ea42b952b.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/a4/ea/7f/a4ea7fd63a12edb67519eb9ea42b952b.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Fail2ban ставят на сервер, когда тот получает белый IP, но зачастую дальше установки дело не идёт. Получается, что сервис запущен и джейл sshd включен, но конфиг был дефолтный, бан длится по десять минут, логи читаются не из того места, а половина открытых сервисов вообще находится вне поля зрения. Под катом разберу ошибки и покажу настройки. </p><p>Для тех, кто с fail2ban дела не имел, — это демон, который читает логи сервисов, находит в них строки про неудачные попытки входа и после нескольких повторов с одного адреса добавляет этот адрес в файрвол на определённое время. На Debian и Ubuntu ставится стандартно:</p><pre><code class=\"bash\">sudo apt update\n\nsudo apt install fail2ban\n\nsudo systemctl enable --now fail2ban</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>После установки первым делом нужно проверить, что сервис вообще стартовал:</p><pre><code class=\"bash\">sudo systemctl status fail2ban\n\nsudo fail2ban-client status</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Если вторая команда показывает только Number of jail: 0, Fail2ban запущен, но пока ничего не защищает. Дьявол, как обычно, в настройках...</p><h3>Ошибка 1. Дефолтный конфиг считается рабочим</h3><p>Откройте свежий jail.conf и посмотрите на цифры по умолчанию — maxretry 5, findtime 10 минут, bantime 10 минут. Переведу, если в течение десяти минут ботнет совершил пять попыток подбора, то его отстраняют от входа на десять минут, а потом можно возвращаться (обратите на это внимание, ведь и тут бывают ошибки с maxretry). </p><p>Сейчас ботнеты и не думают долбиться в одну дверь, они перебирают данные по одной-две попытки с адреса в час, и дефолтный findtime раз в десять минут такую атаку может не заметить, ведь каждая попытка выглядит как первая. А если бан всё же случился, через десять минут бот начинает, всё начинается заново, и такая история может длиться вечно.</p><p>На основе этого, первое, что нужно сделать на новой машине — это унести параметры в разумные пределы и включить прогрессивный бан, который растит срок с каждым новым нарушением одного и того же адреса:</p><blockquote><p># /etc/fail2ban/jail.local</p><p>[DEFAULT]</p><p>maxretry = 3</p><p>findtime = 1d</p><p>bantime  = 1h</p><p>bantime.increment = true</p><p>bantime.factor    = 24</p><p>bantime.maxtime   = 5w</p></blockquote><p>Три ошибки за сутки дают первый бан на час. Если тот же адрес снова добирается до порога после разблокировки, следующий бан вырастет до суток, затем до двух, четырёх и дальше по экспоненте, пока не упрётся в пять недель.</p><h3>Ошибка 2. Правки в jail.conf</h3><p>Классика жанра — настроили все прямо в /etc/fail2ban/jail.conf, а потом получили конфликт с новой версией файла при обновлении пакета. Тут правило простое, jail.conf — файл поставщика, ваши настройки должны жить в jail.local или в отдельных файлах, ведь они перекрывают дефолт: </p><pre><code class=\"bash\">sudo nano /etc/fail2ban/jail.d/sshd.local</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Туда же можно добавить: </p><blockquote><p>[sshd]</p><p>enabled = true</p></blockquote><p>С помощью второй команды проще понять, что вы поменяли сами, а что приехало из пакета. Проверить, что реально применилось, можно командой:</p><pre><code class=\"bash\">sudo fail2ban-client -t</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Она проверит конфигурацию и поймает ошибки до перезапуска. Если нужно посмотреть итоговую конфигурацию после объединения файлов, используйте: </p><pre><code class=\"bash\">sudo fail2ban-client --dump-pretty</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>После этого перезапускаем: </p><pre><code class=\"bash\">sudo systemctl restart fail2ban</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Ошибка 3. Демон смотрит не в те логи</h3><p>Самая коварная ошибка — Fail2ban умеет читать события из текстовых файлов и из журнала systemd, и выбор определяется параметром backend. </p><p>На Debian и Ubuntu логи SSH пишутся в /var/log/auth.log, на RHEL-подобных в /var/log/secure, а на системах, где rsyslog не стоит вовсе, обоих файлов просто не существует, sshd пишет только в journald. </p><p>Джейл со стандартным logpath в такой системе либо показывает ошибку при старте, либо, что хуже, не видит ни одной попытки входа. Диагностируется командой:</p><pre><code class=\"bash\">sudo fail2ban-client status sshd</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Она покажет состояние джейла и статистику срабатываний. А источник событий лучше проверить отдельно: </p><pre><code class=\"bash\">sudo fail2ban-client get sshd logpath\n\nsudo fail2ban-client get sshd journalmatch</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Если в выводе пустой список файлов или строчки про journal, которых нет, починить это можно явным указанием источника:</p><blockquote><p>[sshd]</p><p>enabled = true</p><p>backend = systemd</p></blockquote><p>Сами события SSH тоже проверьте отдельно:</p><pre><code class=\"bash\">journalctl -u ssh -u sshd --since \"1 hour ago\"</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Обратная ситуация симметрична — если в системе есть и файлы, и журнал, а бэкенд выставлен в systemd глобально, то джейл для приложения, пишущего в свой собственный файл, журнала также не увидит. Каждому джейлу нужен свой источник, универсальный бэкенд — это миф, в который некоторые до сих пор верят.</p><h3>Ошибка 4. Docker сводит баны на нет</h3><p>Если сервисы крутятся в контейнерах, стандартный fail2ban может промахиваться. Тут есть две ситуации.   </p><p>Первая проблема в логах — контейнер пишет в stdout/stderr, а дальше место хранения зависит от logging driver Docker. При journald сообщения можно читать через backend = systemd и фильтровать по полям вроде CONTAINER_NAME. При стандартном json-file в systemd journal этих сообщений не будет. Проверяется через:</p><pre><code class=\"bash\">docker info --format '{{.LoggingDriver}}'\n\ndocker inspect --format '{{.HostConfig.LogConfig.Type}}' ИМЯ_КОНТЕЙНЕРА</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Вторая в пути пакета — при бэкенде через iptables опубликованные контейнерные порты идут через forwarding и Docker-цепочки, а fail2ban по умолчанию банит в INPUT. В этом случае можно использовать DOCKER-USER вместе с iptables-action, который умеет работать с указанной цепочкой. </p><h3>Ошибка 5. Под защитой один SSH или его поменяли</h3><p>Зачастую в свежем сервере из коробки включен только джейл sshd. Но у fail2ban есть готовые фильтры для Nginx, Postfix, Dovecot и других сервисов, которые включаются с помощью:</p><blockquote><p>[nginx-limit-req]</p><p>enabled = true</p><p>[postfix]</p><p>enabled = true</p><p>mode = aggressive</p></blockquote><p>Режим aggressive у postfix-фильтра ловит не только ошибки аутентификации, но и мусорные сессии. Если на сервере живёт WordPress, стоит <a href=\"https://github.com/fail2ban/fail2ban/wiki/Best-practices\">поднять</a> джейл под него. Про базовую гигиену вокруг я, кстати, уже<a href=\"https://habr.com/ru/companies/ruvds/articles/953008/\"> писал</a>, fail2ban там один из многих.</p><p>Если SSH переехал с 22-го порта на 2222, Fail2ban может видеть неудачные логины, но будет блокировать стандартный 22. В этом случае в джейл укажите реальный порт:</p><blockquote><p>[sshd]</p><p>enabled = true</p><p>backend = systemd</p><p>port = 2222</p></blockquote><p>И после перезапуска проверьте:</p><pre><code class=\"bash\">sudo fail2ban-client status sshd</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Если используете nftables, посмотрите и правила:</p><pre><code class=\"bash\">sudo nft list ruleset</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>У штатного nftables action Fail2ban используется отдельная таблица f2b-table — цепочка f2b-chain и sets с заблокированными адресами. Точные имена можно переопределять, поэтому лучше смотреть фактический ruleset. </p><h3>Ошибка 6. Рецидивисты гуляют свободно</h3><p>Иногда забаненные ранее боты возвращаются и заново пытаются попасть в систему. Fail2ban умеет с такими работать через джейл recidive, который читает собственный лог fail2ban: </p><blockquote><p>[recidive]</p><p>enabled   = true</p><p>logpath   = /var/log/fail2ban.log</p><p>banaction = %(banaction_allports)s</p><p>bantime   = 1w</p><p>findtime  = 1d</p><p>maxretry  = 3</p></blockquote><p>Но есть правила — во-первых, увеличивая bantime свыше суток, увеличьте и dbpurgeage в fail2ban.local, иначе база забудет старые нарушения. Во-вторых, держите loglevel ниже DEBUG, иначе recidive будет учитывать собственный шум. </p><h3>Ошибка 7. Fail2ban вместо ключей</h3><p>Если на SSH открыт вход по паролю, против целевой атаки с подбором fail2ban бессилен. От брутфорса лучше использовать комплексную защиту:</p><ul><li><p>вход только по ключам,</p></li><li><p>PermitRootLogin no,</p></li><li><p>PasswordAuthentication no.</p></li></ul><p>Также держите у себя прописанный ignoreip со своим статическим адресом, иначе однажды вы сами забанитесь:</p><blockquote><p>[DEFAULT]</p><p>ignoreip = 127.0.0.1/8 ::1 203.0.113.15</p></blockquote><p>Текущий список исключений проверяйте через сам Fail2ban:</p><pre><code class=\"bash\">sudo fail2ban-client get sshd ignoreip</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Ошибка 8. Бан не в тот файрвол</h3><p>Fail2ban сам пакеты не фильтрует, он вызывает выбранный banaction, поэтому выясните, соответствует ли он файрволу. В актуальной конфигурации для Debian он по умолчанию использует nftables, но лучше проверить:</p><pre><code class=\"bash\">iptables -V\n\nsudo nft list ruleset</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Поддержку IPv6 тоже смотрите отдельно. Штатные actions Fail2ban для iptables и nftables умеют работать и с IPv6, но иногда сервер закрыт по IPv4 и при этом остаётся доступным по IPv6 из-за конфига файрвола.</p><h3>Ошибка 9. Regex проверяется на проде</h3><p>С кастомными сервисами всё ещё веселее. Если вы нашли в интернете failregex = .*Failed.*&lt;HOST&gt;.* и хотите перезапустить Fail2ban, то так делать не стоит. Первое — regex может не совпасть с вашим форматом лога. Второе — если пользователь способен подставить произвольный текст туда, откуда regex затем вытащит &lt;HOST&gt;, атакующий может заставить Fail2ban заблокировать чужой IP. В связи с этим сначала проверьте:</p><pre><code class=\"bash\">sudo fail2ban-regex /var/log/myapp/auth.log /etc/fail2ban/filter.d/myapp.conf</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Если работаете через systemd journal:</p><pre><code class=\"bash\">sudo fail2ban-regex systemd-journal sshd</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Смотрите не только на количество Matched, но и Missed. Иногда фильтр идеально ловит один вид ошибки и полностью пропускает другой.</p><h3>Ошибка 10. Fail2ban банит proxy</h3><p>В случае, если nginx или приложение стоит за HAProxy, Cloudflare, ingress-контроллером или другим reverse proxy, в журнале может оказаться именно IP-адрес прокси. Fail2ban увидит пять неудачных попыток и заблокирует его. После этого доступ к сайту потеряют ваши пользователи. </p><p>Здесь сначала нужно понять, какой адрес реально попадает в лог:</p><pre><code class=\"bash\">tail -f /var/log/nginx/access.log</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>или:</p><pre><code class=\"bash\">journalctl -f -u nginx</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>И если сервис всё-таки работает за прокси, настройте корректное получение реального IP-адреса устройства и убедитесь, что доверяете XFF или PROXY protocol-у. </p><h3>Как проверить, что защита живая</h3><p>Сначала настройте:</p><blockquote><p># /etc/fail2ban/jail.d/sshd.local</p><p>[DEFAULT]</p><p>bantime = 30m</p><p>findtime = 10m</p><p>maxretry = 5</p><p>bantime.increment = true</p><p>bantime.factor = 2</p><p>bantime.maxtime = 1d</p><p>ignoreip = 127.0.0.1/8 ::1</p><p>[sshd]</p><p>enabled = true</p><p>backend = systemd</p><p>port = 22</p></blockquote><p>Если SSH работает на другом порту, меняем его. После этого:</p><pre><code class=\"bash\">sudo fail2ban-client -t\n\nsudo systemctl restart fail2ban\n\nsudo fail2ban-client status\n\nsudo fail2ban-client status sshd</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Затем фильтр проверяйте на реальном логе, без запуска демона:</p><pre><code class=\"bash\">sudo fail2ban-regex systemd-journal sshd</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Утилита покажет, сколько строк лога поймал фильтр, и если там ноль при очевидных неудачных логинах, то проблема в регэкспе или в logpath. Дальше смотрите статус джейлов и список текущих банов:</p><pre><code class=\"bash\">sudo fail2ban-client status\n\nsudo fail2ban-client status sshd</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Финальный тест проводите с другой машины или через мобильную сеть — сделайте столько неудачных попыток входа, сколько задано в maxretry, в пределах findtime, и проверьте появление адреса в списке банов и в правилах файрвола. Разбанить себя после эксперимента можно без перезапуска:</p><pre><code class=\"bash\">sudo fail2ban-client set sshd unbanip ВАШ_IP</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>И последнее, смотрим:</p><pre><code class=\"bash\">sudo nft list ruleset</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Если что-то из этой цепочки не сработало, возвращайтесь к разделам про бэкенд и action. Когда защита работает, раз в месяц всё равно прогоняйте сервер на предмет того, что она могла пропустить. Об этом рассказал <a href=\"https://habr.com/ru/companies/ruvds/articles/1085206/\">тут</a>. </p><p><em>Пишите в комментариях, на какие ошибки в Fail2ban натыкались вы, и случался ли у вас самобан. Что делали в этих случаях?</em></p><p>© 2026 ООО «МТ ФИНАНС» </p></div>",
+  "tags": [
+    {
+      "titleHtml": "Fail2ban"
+    },
+    {
+      "titleHtml": "Linux"
+    },
+    {
+      "titleHtml": "SSH"
+    },
+    {
+      "titleHtml": "VDS"
+    },
+    {
+      "titleHtml": "безопасность сервера"
+    },
+    {
+      "titleHtml": "защита от брутфорса"
+    },
+    {
+      "titleHtml": "nftables"
+    },
+    {
+      "titleHtml": "системное администрирование"
+    },
+    {
+      "titleHtml": "хостинг"
+    },
+    {
+      "titleHtml": "ruvds_статьи"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105726/661e9944a5ff26abf976041281e3fda1/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105726/661e9944a5ff26abf976041281e3fda1/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/ruvds\\/articles\\/1105726\\/\"},\"headline\":\"Fail2ban: ошибки настройки, из-за которых защита не работает\",\"datePublished\":\"2026-11-11T10:02:14+03:00\",\"dateModified\":\"2026-11-11T13:53:09+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Fail2ban ставят на сервер, когда тот получает белый IP, но зачастую дальше установки дело не идёт. Получается, что сервис запущен и джейл sshd включен, но...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/ruvds\\/articles\\/1105726\\/#post-content-body\",\"about\":[\"c_ruvds\",\"h_sys_admin\",\"h_s_admin\",\"h_hosting\",\"h_linux_dev\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/a4\\/ea\\/7f\\/a4ea7fd63a12edb67519eb9ea42b952b.png\"]}",
+    "metaDescription": "Fail2ban ставят на сервер, когда тот получает белый IP, но зачастую дальше установки дело не идёт. Получается, что сервис запущен и джейл sshd включен, но конфиг был дефолтный, бан длится по десять...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "opinion",
+  "banner": {
+    "url": "https://ruvds.com/ru/baremetal_start/?utm_source=habr&utm_medium=banner&utm_campaign=promo&utm_content=link&erid=LjN8KAR3S",
+    "desktopImageUrl": "//habrastorage.org/getpro/habr/company/post_desktop/967/2cf/471/9672cf47118495964f55dd6f07259705.png",
+    "mobileImageUrl": "//habrastorage.org/getpro/habr/company/post_mobile/976/dd3/988/976dd3988b6f333b10582970deaeed44.png",
+    "uuid": "01a06277-85d6-7238-b15f-2c93593bec27"
+  },
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 7,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

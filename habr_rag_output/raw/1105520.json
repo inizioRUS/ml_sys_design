@@ -1,0 +1,200 @@
+{
+  "id": "1105520",
+  "timePublished": "2026-11-09T14:42:46+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "В США родители подали в суд на Google из‑за рисков, связанных с использованием ИИ на школьных Chromebook",
+  "leadData": {
+    "textHtml": "<p>В&nbsp;Верховный суд Калифорнии поступил иск против Google, в&nbsp;котором утверждается, что 13-летняя ученица спланировала самоубийство спустя несколько месяцев после начала общения с&nbsp;искусственным интеллектом компании на&nbsp;выданном школой ноутбуке Chromebook, <a href=\"https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html\" rel=\"noopener nofollow\">пишет</a> New York Times.</p>",
+    "imageUrl": "https://habrastorage.org/extt/c9/7b/44/c97b44dcd520c9fccd96e40064a3aaa2.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/c9/7b/44/c97b44dcd520c9fccd96e40064a3aaa2.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "1782611",
+    "alias": "Travis_Macrif",
+    "fullname": "Руслан",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/9af/987/8b0/9af9878b02f82d2e0864184d83479017.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 175,
+      "votesCount": 607
+    },
+    "rating": 377.2,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 1,
+    "readingCount": 420,
+    "score": 6,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 6761,
+    "readers": 326
+  },
+  "hubs": [
+    {
+      "id": "20738",
+      "alias": "business-laws",
+      "type": "collective",
+      "title": "Законодательство в IT",
+      "titleHtml": "Законодательство в IT",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20732",
+      "alias": "edu",
+      "type": "collective",
+      "title": "Образование за рубежом",
+      "titleHtml": "Образование за рубежом",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20696",
+      "alias": "study",
+      "type": "collective",
+      "title": "Учебный процесс в IT",
+      "titleHtml": "Учебный процесс в IT",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>В Верховный суд Калифорнии поступил иск против Google, в котором утверждается, что 13-летняя ученица спланировала самоубийство спустя несколько месяцев после начала общения с искусственным интеллектом компании на выданном школой ноутбуке Chromebook, <a href=\"https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html\" rel=\"noopener nofollow\">пишет</a> New York Times.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c9/7b/44/c97b44dcd520c9fccd96e40064a3aaa2.jpg\" width=\"1200\" height=\"675\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c9/7b/44/c97b44dcd520c9fccd96e40064a3aaa2.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/c9/7b/44/c97b44dcd520c9fccd96e40064a3aaa2.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В иске девочка фигурирует под именем Эмма. Родители узнали о доступе их ребёнка к ИИ от Google в середине марта после того, как школа прислала уведомление о том, что девочка находится в «непосредственной опасности» причинения вреда себе. Мать Эммы вошла в школьный аккаунт Google и обнаружила, что её дочь пишет предсмертную записку в Google Docs. Родители немедленно отвезли школьницу на экстренную психиатрическую экспертизу, теперь она каждую неделю посещает сеансы терапии.</p><p>Из судебных документов следует, что Эмма — ученица седьмого класса из города Шарлотт, штат Северная Каролина. После взаимодействия с ИИ‑режимом в поисковике Google девочка убедилась в наличии у неё нескольких расстройств психики. Она также искала в интернете информацию о том, «что такое предсмертная записка». Кроме того, Эмма писала ИИ, что «планирует собственные похороны».</p><p>Истцы утверждают, что Google «поспешно интегрировала» ИИ‑функции в корпоративные приложения, используемые на Chromebook, без уведомления родителей о потенциальных рисках.</p><p>Представитель Google Хосе Кастаньеда заявил, что компания тесно сотрудничала с экспертами в области здравоохранения для разработки функций, помогающих молодым людям находить экстренную помощь. Сейчас корпорация рассматривает претензии, изложенные в иске.</p><p>«В течение многих лет мы [Google] отображали информацию о горячих линиях прямо в результатах поиска, когда кто‑то мог испытывать кризис психического здоровья. Мы встроили те же самые механизмы защиты в функции искусственного интеллекта поисковика, чтобы связать людей с реальной поддержкой», — написал Кастаньеда.</p><p>«Разветвлённая цифровая экосистема» Google позволила компании распространять чат‑бот Gemini в государственных школах, а также включить по умолчанию доступ к ИИ‑функциям для некоторых учеников без ведома и разрешения родителей. Хотя школьные администраторы могут включать и выключать YouTube, Gemini и другие приложения, Google не позволяет деактивировать ИИ‑режим и AI Overviews, встроенные в Google Search.</p><p>В начале текущего месяца Google <a href=\"https://habr.com/ru/news/1103430/\" rel=\"noopener nofollow\">объявила</a> о планах разрешить начальным и средним школам отключать ИИ‑инструменты, если руководство учебного заведения согласно с этим. Однако в таком случае школы лишатся доступа к Google Search, поскольку ИИ‑функции интегрированы в поисковик. На этом фоне свои услуги школам <a href=\"https://habr.com/ru/news/1103772/\" rel=\"noopener nofollow\">предложила</a> DuckDuckGo.</p><p>Летом этого года Meta* <a href=\"https://habr.com/ru/news/1075004/\" rel=\"noopener nofollow\">урегулировала</a> ряд споров в рамках судебного процесса по вопросам безопасности детей в интернете. Корпорация выплатит $17,1 млрд 48 американским штатам и на десять лет ограничит подросткам использование Facebook** и Instagram**. При этом Meta отрицает какие‑либо правонарушения. Несколько родителей также <a href=\"https://habr.com/ru/news/970758/\" rel=\"noopener nofollow\">подали</a> в суд на ИИ‑компании, <a href=\"https://habr.com/ru/news/964500/\" rel=\"noopener nofollow\">обвинив</a> в том, что их дети покончили жизнь самоубийством после взаимодействия с чат‑ботами.</p><p>В последнем иске родители Эммы приводят аргументы, аналогичные тем, которые недавно использовались против Meta — продукты Google нанесли вред девочке. По их словам, несовершеннолетняя имела ограниченный доступ к ноутбукам и приложениям дома, а также не пыталась использовать ИИ на выданном Chromebook. Однако поисковик Google перенаправлял Эмму в ИИ‑режим. В результате чат‑бот убедил девочку доверять ему больше, чем родителям и психологам, настаивают истцы.</p><p>Они отметили, что система Google не уведомила школу или родителей Эммы о рисках причинения вреда. Школа пользовалась услугами мониторинга сторонней компании, которая и обратила внимание на план самоубийства в Google Docs.</p><p><em><sub>Meta Platforms*, а также принадлежащие ей продукты Facebook** и Instagram**:</sub></em><br/><em><sub>* признана экстремистской организацией, её деятельность в России запрещена;</sub></em><br/><em><sub>** запрещены в России</sub></em></p></div>",
+  "tags": [
+    {
+      "titleHtml": "gemini"
+    },
+    {
+      "titleHtml": "google"
+    },
+    {
+      "titleHtml": "ии"
+    },
+    {
+      "titleHtml": "суд"
+    },
+    {
+      "titleHtml": "иск"
+    },
+    {
+      "titleHtml": "самоубийство"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105520/6d9be7e723f44ca210c95efc6e1c368a/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105520/6d9be7e723f44ca210c95efc6e1c368a/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105520\\/\"},\"headline\":\"В США родители подали в суд на Google из‑за рисков, связанных с использованием ИИ на школьных Chromebook\",\"datePublished\":\"2026-11-09T17:42:46+03:00\",\"dateModified\":\"2026-11-09T18:03:10+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В&nbsp;Верховный суд Калифорнии поступил иск против Google, в&nbsp;котором утверждается, что 13-летняя ученица спланировала самоубийство спустя несколько...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105520\\/#post-content-body\",\"about\":[\"h_business-laws\",\"h_artificial_intelligence\",\"h_edu\",\"h_study\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/c9\\/7b\\/44\\/c97b44dcd520c9fccd96e40064a3aaa2.jpg\"]}",
+    "metaDescription": "В&nbsp;Верховный суд Калифорнии поступил иск против Google, в&nbsp;котором утверждается, что 13-летняя ученица спланировала самоубийство спустя несколько месяцев после начала общения...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,185 @@
+{
+  "id": "1105806",
+  "timePublished": "2026-11-10T07:56:07+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Пакетные запросы к LLM: очередь, стоимость и обработка ошибок",
+  "leadData": {
+    "textHtml": "<p>Представьте, что вашему LLM-сервису нужно обработать, допустим, 50 000 договоров или товаров. Можно пойти через синхронный путь — посылать запросы к LLM. Но такой путь через некоторое время упирается и в деньги, и в лимиты. И ограничения с проблемами растут в геометрической прогрессии от количества запросов.</p><p>Вот тут нам и помогает Batch API — она появилась не вчера, но стала отраслевым стандартом отправки батчей, групп запросов. OpenAI, Anthropic и Google дают асинхронную пакетную обработку со скидкой и окном завершения до 24 часов. То бишь вы собираете все задачи в один файл, отправляете его провайдеру и ждёте.</p><p>Но это не абуз на дешёвый API. Платите, да, меньше, но получаете вместо мгновенного ответа обещание вернуть результат в течение суток. Вместе с этим приходят другие проблемы — пул токенов, ожидание результата, ошибки внутри батча.</p><p>В этой статье разберём, из чего эта очередь состоит, как считать деньги и почему обрабатывать ошибки в батче — значит обрабатывать новые классы ошибок.</p>",
+    "imageUrl": "https://habrastorage.org/extt/b5/a5/c4/b5a5c45cc24f06d6cb1d4fb59cbf54fe.jpeg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/b5/a5/c4/b5a5c45cc24f06d6cb1d4fb59cbf54fe.jpeg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3880302",
+    "alias": "DrArgentum",
+    "fullname": "Алексеев Бронислав",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/044/11f/629/04411f62911b031aee4b342d0f32a0ee.jpg",
+    "speciality": "Изучаю науку, историю, программирование",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 105,
+      "votesCount": 149
+    },
+    "rating": 58,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": {
+      "careerProfileLink": "https://career.habr.com/drargentum?utm_source=habr&utm_medium=profile_header&utm_campaign=button_habr_career",
+      "expertProfileLink": null
+    },
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 192,
+    "score": 2,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 5026,
+    "readers": 134
+  },
+  "hubs": [
+    {
+      "id": "23256",
+      "alias": "bothub",
+      "type": "corporative",
+      "title": "Блог компании BotHub",
+      "titleHtml": "Блог компании BotHub",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Представьте, что вашему LLM-сервису нужно обработать, допустим, 50 000 договоров или товаров. Можно пойти через синхронный путь — посылать запросы к LLM. Но такой путь через некоторое время упирается и в деньги, и в лимиты. И ограничения с проблемами растут в геометрической прогрессии от количества запросов.</p><p>Вот тут нам и помогает Batch API — она появилась не вчера, но стала отраслевым стандартом отправки батчей, групп запросов. OpenAI, Anthropic и Google дают асинхронную пакетную обработку со скидкой и окном завершения до 24 часов. То бишь вы собираете все задачи в один файл, отправляете его провайдеру и ждёте.</p><p>Но это не абуз на дешёвый API. Платите, да, меньше, но получаете вместо мгновенного ответа обещание вернуть результат в течение суток. Вместе с этим приходят другие проблемы — пул токенов, ожидание результата, ошибки внутри батча.</p><p>В этой статье разберём, из чего эта очередь состоит, как считать деньги и почему обрабатывать ошибки в батче — значит обрабатывать новые классы ошибок.</p><hr/><p>Синхронный API устроен просто: стоит отправить запрос — получил ответ. Пока запросов десяток или сотня, всё хорошо. Но чем ближе к тысячам, тем чаще вы упираетесь в TPM и RPM, а большие контекстные запросы начинают отваливаться ещё до того, как дело доходит до генерации. Батч идёт по отдельному пулу лимитов, и соответственно можно отправить 50 тысяч запросов одним файлом, не выедая себе синхронную квоту. Правда, у этого пула есть свой потолок, в виде того что если новый пакет выводит организацию за лимит enqueued-токенов, API возвращает <code>token_limit_exceeded</code> и просто отказывается создавать джобу.</p><p>Поэтому и нужно считать бюджет токенов до отправки, разбирать результат, а также решить, что делать с expired-запросами в батче, отправлять их или нет.</p><p>Кстати, если не хочется строить этот пайплайн с нуля — валидацию JSONL, семафор на enqueued-токены, разбор <code>errored</code> и <code>expired</code>, повторную отправку — имеет смысл посмотреть на OpenAI-совместимые шлюзы. <a href=\"https://bothub.chat/?invitedBy=zx7xIePYIOcWHhTfgg6-O\">Bothub</a>, в частности, принимает тот же JSONL и те же параметры пакета. Архитектура полностью совместима со спецификацией OpenAI Batch API. Эндпоинт — <code>https://openai.bothub.chat/v1</code>, оплата российской картой, без VPN. По <a href=\"https://bothub.chat/?invitedBy=zx7xIePYIOcWHhTfgg6-O\">реферальной ссылке</a> доступно 300 000 CAPS, так что можно потрогать батч на своих задачах ещё до того, как писать свой первый семафор. Заявленная экономия — 45% на генерациях.</p><h3>Как устроена очередь</h3><p>Когда отправляешь пакет в Batch API, поначалу кажется, что дальше можно просто закрыть ноутбук и ждать письма. Ну, отправил файл, провайдер сам разберётся. Но, увы, очередь устроена чуть сложнее, если не уметь, то можно и потерять деньги или данные. Давайте разберём.</p><p>Первый уровень — сам пакет, джоба. Вы формируете файл, где каждая строка это отдельный запрос с уникальным <code>custom_id</code>, и загружаете его через Files API. <code>purpose</code> всегда должен быть <code>\"batch\"</code>. Дальше создаётся задача, и результаты приходят не в том порядке, в котором вы отправляли запросы. <code>custom_id</code> позволяет отсортировать вывод.</p><p>Второй уровень — пул enqueued-токенов. Вот тут начинается самое неприятное, потому что лимит считается не по файлам, а по общему объёму токенов во всех незавершённых пакетах сразу. У OpenAI это tier-зависимая история — чем выше tier, тем больше токенов можно держать в очереди одновременно. Если новый пакет выводит организацию за этот потолок, API возвращает <code>token_limit_exceeded</code> и просто отказывается создавать джобу.</p><p>Третий уровень — окно завершения. 24 часа это SLA, обещание, а не оценка. Внутри окна провайдер сам решает, когда запускать пакет, и обычно это 2–6 часов, потому что батчи стараются ставить в окно низкой загрузки GPU. Anthropic, например, пишет, что большинство пакетов завершается меньше чем за час, но максимальный срок всё равно 24.</p><p>У OpenAI незавершённые запросы отменяются, но за уже завершённые деньги списываются.</p><p>Вот пример структуры JSONL, который показывает сразу два запроса с разными задачами — перевод и генерация хокку:</p><pre><code class=\"json\">{\"custom_id\": \"task-translate-001\", \"method\": \"POST\", \"url\": \"/v1/chat/completions\", \"body\": {\"model\": \"claude-opus-4.6\", \"messages\": [{\"role\": \"system\", \"content\": \"Переведи текст на французский язык.\"}, {\"role\": \"user\", \"content\": \"Привет, как дела?\"}], \"max_tokens\": 100}}\n{\"custom_id\": \"task-generate-003\", \"method\": \"POST\", \"url\": \"/v1/chat/completions\", \"body\": {\"model\": \"claude-opus-4.6\", \"messages\": [{\"role\": \"user\", \"content\": \"Напиши короткое хокку про нейросети.\"}], \"max_tokens\": 50}}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Формат простой: <code>custom_id</code>, <code>method</code>, <code>url</code> и <code>body</code> с моделью и сообщениями. Выглядит почти как обычный запрос к Chat Completions, только упакованный в строку. Вот как это выглядит в Python, если использовать официальный SDK OpenAI с <code>baseURL</code> на Bothub:</p><pre><code class=\"python\">from openai import OpenAI\n\nclient = OpenAI(\n    api_key='ВАШ_API_КЛЮЧ_BOTHUB',\n    base_url='https://openai.bothub.chat/v1'\n)\n\nfile = client.files.create(\n    file=open(\"my_tasks.jsonl\", \"rb\"),\n    purpose=\"batch\"\n)\nprint(file.id)  # сохраните этот ID\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Это ровно тот же код, что и для OpenAI Batch API, — архитектура Bothub полностью совместима со спецификацией, поэтому SDK не нужно переписывать. Дальше создаётся сам batch:</p><pre><code class=\"python\">batch = client.batches.create(\n    input_file_id=file.id,\n    endpoint=\"/v1/chat/completions\",\n    completion_window=\"24h\"\n)\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><code>completion_window</code> пока всегда <code>\"24h\"</code>, других вариантов нет. После создания остаётся поллинг — периодически дёргать статус, пока <code>status</code> не станет <code>completed</code> или <code>failed</code>. Для пакетов до 1000 строк опрашивать раз в 30 секунд, для крупных — раз в 2–5 минут. Если проверять статус каждые пять секунд, можно поймать 429 на сам polling, и это будет выглядеть как «пакет ещё не готов», хотя на самом деле вы просто упёрлись в rate limit на чтение.</p><p>И вот тут самое время вспомнить про третий уровень, окно. Потому что когда пакет завершается, вы скачиваете output-файл, и в нём может быть не всё. Часть строк будет с <code>result.type = \"succeeded\"</code>, часть с <code>\"errored\"</code>, часть с <code>\"expired\"</code>. Если ваш пайплайн просто читает <code>content</code> из каждой строки и складывает в базу, строки с ошибками молча выпадут.</p><p>Решить можно примерно так:</p><pre><code class=\"python\">results = client.files.content(batch.output_file_id)\n\nfor line in results.text.strip().split(\"\\n\"):\n    row = json.loads(line)\n    custom_id = row[\"custom_id\"]\n\n    if row[\"result\"][\"type\"] == \"succeeded\":\n        content = row[\"result\"][\"message\"][\"content\"]\n        save(custom_id, content)\n    elif row[\"result\"][\"type\"] == \"errored\":\n        # разбираем ошибку и решаем, повторять или чинить запрос\n        handle_error(custom_id, row[\"result\"][\"error\"])\n    elif row[\"result\"][\"type\"] == \"expired\":\n        # запрос не успел выполниться — только в новый пакет\n        retry_later(custom_id, row[\"body\"])\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><code>custom_id</code> здесь работает как первичный ключ: по нему вы находите исходный запрос, чтобы понять, что именно чинить или переотправлять.</p><p>Для отслеживания подробных расходов по операции передавайте флаг <code>include_usage=true</code> в строке запроса:</p><pre><code class=\"python\">batch = client.batches.retrieve(\"АЙДИ_БАТЧА\")\nprint(\"Текущий статус:\", batch.status)\n\nif batch.status == \"completed\":\n    print(\"ID готового файла:\", batch.output_file_id)\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>А чтобы скачать результат, используйте идентификатор файла из поля output_file_id, чтобы получить итоговый документ.</p><pre><code class=\"python\">import requests\n\ndef get_result():\n    response = requests.get(\n        \"https://openai.bothub.chat/v1/files/АЙДИ_ФАЙЛА\",\n        headers={\"Authorization\": \"Bearer ВАШ_API_КЛЮЧ_BOTHUB\"}\n    )\n\n    link = response.text\n    print(link)\n\nget_result()\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Можно отменить батч через функцию <code>client.batches.cancel(\"АЙДИ_БАТЧА\")</code>, а получить список всех пакетов — через функцию <code>batches = client.batches.list(limit=20)</code>.</p><h3>Обработка ошибок</h3><p>В случае батчей лучше сразу задуматься об обработке ошибок, тут она разительно отличается от синхронных запросов.</p><h4>Ошибки до создания пакета</h4><p>Пакет не создаётся или сразу падает в <code>failed</code>. Причины скучные — лишняя запятая в JSONL, неэкранированный символ, забытый <code>custom_id</code>, неверный <code>endpoint</code>, файл больше лимита. У Anthropic, кстати, параметры запроса проверяются только после завершения всего пакета — то бишь вы можете отправить 100 тысяч строк, прождать час и узнать, что в трёх из них кривой <code>max_tokens</code>. У OpenAI формат проверяется до запуска.</p><p>Нужно валидировать JSONL локально, до загрузки. Это дешевле, чем ловить <code>failed</code> через API. Минимальная проверка — распарсить каждую строку, убедиться, что <code>custom_id</code> уникален и не пустой, а <code>body</code> содержит <code>model</code> и <code>messages</code>.</p><pre><code class=\"python\">import json\n\nseen = set()\nwith open(\"my_tasks.jsonl\") as f:\n    for i, line in enumerate(f, 1):\n        row = json.loads(line)  # упадёт на кривом JSON — и хорошо\n        cid = row.get(\"custom_id\")\n        if not cid or cid in seen:\n            raise ValueError(f\"строка {i}: пустой или повторный custom_id\")\n        seen.add(cid)\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Можно воспользоваться Pydantic-моделями для валидации DTO.</p><h4>Ошибки на уровне очереди</h4><p>Пакет не стартует или стартует частично, <code>token_limit_exceeded</code>. Вы отправили новую джобу, а он выводит организацию за потолок enqueued-токенов, и API отказывается его создавать.</p><p>Считать бюджет токенов до отправки. Если бюджет не влезает — ставить пакеты в собственную очередь на стороне приложения или ждать, пока завершатся предыдущие.</p><pre><code class=\"python\">import time\n\ndef submit_with_backoff(client, file_id, max_attempts=5):\n    delay = 30\n    for attempt in range(max_attempts):\n        try:\n            return client.batches.create(\n                input_file_id=file_id,\n                endpoint=\"/v1/chat/completions\",\n                completion_window=\"24h\"\n            )\n        except Exception as e:\n            if \"token_limit_exceeded\" not in str(e):\n                raise\n            if attempt == max_attempts - 1:\n                raise\n            time.sleep(delay)\n            delay *= 2  # 30 → 60 → 120 → ...\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h4>Ошибки внутри пакета</h4><p>Самая коварная категория. Пакет <code>completed</code>, вы скачиваете output, а там часть строк с <code>result.type = \"succeeded\"</code>, часть с <code>\"errored\"</code>, часть с <code>\"expired\"</code>. У Anthropic счётчики <code>errored</code>, <code>canceled</code> и <code>expired</code> в <code>request_counts</code> показывают ноль, пока обработка всего пакета не завершится — то бишь до последней строки вы не узнаете, сколько именно провалилось.</p><p>У OpenAI ошибки пишутся в отдельный error-файл, у Anthropic — в тот же results_url, но с <code>type: \"errored\"</code> и объектом ошибки внутри.</p><p>В таком случае можно парсить каждую (или не каждую, не стоит забывать про оптимизацию) строку и раскладывать по трём корзинам. <code>invalid_request</code> — чинить запрос и переотправлять только его; <code>server error</code> — повторять с задержкой; <code>expired</code> — только в новый пакет, потому что окно уже закрыто. И не переотправлять весь пакет из-за трёх упавших строк: успешные вы уже оплатили.</p><pre><code class=\"python\">import json\n\ndef triage_results(raw_text):\n    done, retry, fix = [], [], []\n    for line in raw_text.strip().split(\"\\n\"):\n        row = json.loads(line)\n        cid = row[\"custom_id\"]\n        rtype = row[\"result\"][\"type\"]\n\n        if rtype == \"succeeded\":\n            done.append((cid, row[\"result\"][\"message\"][\"content\"]))\n        elif rtype == \"errored\":\n            err_type = row[\"result\"][\"error\"][\"type\"]\n            if err_type == \"invalid_request_error\":\n                fix.append((cid, row[\"result\"][\"error\"]))\n            else:  # rate_limit, timeout, api_error и прочее\n                retry.append(cid)\n        elif rtype == \"expired\":\n            retry.append(cid)\n    return done, retry, fix\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><code>custom_id</code> здесь работает как первичный ключ.</p><h4>Ошибки опроса статуса</h4><p>Отдельная ловушка, о которой в туториалах молчат. Если дёргать статус пакета каждые пять секунд, можно поймать 429 — и наивный retry-цикл решит, что «пакет ещё не готов», хотя на самом деле вы упёрлись в rate limit на сам polling. Выглядит одинаково, лечится по-разному.</p><p>Тут стоит заводить экспоненциальный backoff на polling. Для пакетов до 1000 строк разумно начинать с 30 секунд, для крупных — с 2–5 минут. И логировать <code>created_at</code> пакета, коли он висит дольше нескольких часов, стоит проверить, не застрял ли он в <code>validating</code>.</p><h3>Заключение</h3><p>Батч — это другой контракт. Вы платите меньше, но получаете не мгновенный ответ, а обещание вернуть результат в течение суток. Вместе с этим обещанием приходит обязанность самому разбирать, что вернулось: <code>succeeded</code>, <code>errored</code> или <code>expired</code>. Синхронный API такой обязанности не накладывает — там ошибка видна сразу.</p><p>Очередь — это ресурс с лимитом. Enqueued-токены, количество одновременных пакетов, окно завершения — вещи которые нужно изучить заранее.</p><p>50% скидки — это потолок. Настоящая цифра зависит от того, сколько запросов ушло в <code>expired</code>, сколько вы переотправили и был ли кеш системного промпта. В хорошем сценарии экономия глубже, чем 50%, потому что cached-input тоже дешевеет. В плохом — вы платите дважды за одни и те же строки.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "batches api"
+    },
+    {
+      "titleHtml": "openai"
+    },
+    {
+      "titleHtml": "batches"
+    },
+    {
+      "titleHtml": "llm"
+    },
+    {
+      "titleHtml": "openai api"
+    },
+    {
+      "titleHtml": "искуственный интеллект"
+    },
+    {
+      "titleHtml": "нейросеть"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105806/5a4f42e7252f11f7d899f6dda5a1725e/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105806/5a4f42e7252f11f7d899f6dda5a1725e/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/bothub\\/articles\\/1105806\\/\"},\"headline\":\"Пакетные запросы к LLM: очередь, стоимость и обработка ошибок\",\"datePublished\":\"2026-11-10T10:56:07+03:00\",\"dateModified\":\"2026-11-11T17:49:41+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Представьте, что вашему LLM-сервису нужно обработать, допустим, 50 000 договоров или товаров. Можно пойти через синхронный путь — посылать запросы к LLM. Но...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/bothub\\/articles\\/1105806\\/#post-content-body\",\"about\":[\"c_bothub\",\"h_artificial_intelligence\",\"f_popsci\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105806\\/5a4f42e7252f11f7d899f6dda5a1725e\\/\"]}",
+    "metaDescription": "Представьте, что вашему LLM-сервису нужно обработать, допустим, 50 000 договоров или товаров. Можно пойти через синхронный путь — посылать запросы к LLM. Но такой путь через некоторое время упирается...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "tutorial",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 7,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

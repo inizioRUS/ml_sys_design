@@ -1,0 +1,224 @@
+{
+  "id": "1105990",
+  "timePublished": "2026-11-11T12:30:43+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Установка и подключение GitLab Runner для CI/CD-пайплайнов",
+  "leadData": {
+    "textHtml": "<p>Разработка программного обеспечения — многоступенчатый процесс проектирования, написания кода и тестирования продукта. Часть шагов можно автоматизировать с помощью процессов непрерывной интеграции (CI) и непрерывной доставки (CD).&nbsp;</p><p>В этой статье расскажем про установку Gitlab Runner — исполнителя пайплайнов в среде совместной разработки Gitlab.</p>",
+    "imageUrl": "https://habrastorage.org/extt/8a/6e/c4/8a6ec43ced61a79185013d5d93292f43.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/8a/6e/c4/8a6ec43ced61a79185013d5d93292f43.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5174463",
+    "alias": "TrexSelectel",
+    "fullname": "Самый зубастый автор",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/351/c2c/d04/351c2cd0454796adab40bb11c60d4a49.png",
+    "speciality": "Тирекс Академии Selectel: https://selectel.ru/blog",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 68,
+      "votesCount": 156
+    },
+    "rating": 289,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 3,
+    "favoritesCount": 22,
+    "readingCount": 1362,
+    "score": 27,
+    "votesCount": 16,
+    "votesCountPlus": 16,
+    "votesCountMinus": 0,
+    "reach": 9724,
+    "readers": 1018
+  },
+  "hubs": [
+    {
+      "id": "14740",
+      "alias": "selectel",
+      "type": "corporative",
+      "title": "Блог компании Selectel",
+      "titleHtml": "Блог компании Selectel",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "20788",
+      "alias": "devops",
+      "type": "collective",
+      "title": "DevOps",
+      "titleHtml": "DevOps",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "7151",
+      "alias": "git",
+      "type": "collective",
+      "title": "Git",
+      "titleHtml": "Git",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ba/ae/69/baae6901d4ccf8086cb5f0ca4978a3a4.jpg\" width=\"1560\" height=\"880\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ba/ae/69/baae6901d4ccf8086cb5f0ca4978a3a4.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/ba/ae/69/baae6901d4ccf8086cb5f0ca4978a3a4.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Разработка программного обеспечения — многоступенчатый процесс проектирования, написания кода и тестирования продукта. Часть шагов можно автоматизировать с помощью процессов непрерывной интеграции (CI) и непрерывной доставки (CD). </p><p>В этой статье расскажем про установку Gitlab Runner — исполнителя пайплайнов в среде совместной разработки Gitlab.</p><p>Gitlab — это платформа для совместной разработки ПО, в основе которой лежат Git-репозитории. Помимо простого управления репозиториями, Gitlab позволяет выполнять автоматические однотипные действия, например, собирать «ночные сборки» программного обеспечения и выполнять автотесты для каждого коммита. За это отвечает компонент GitLab CI/CD. Последовательность действий в CI/CD называется пайплайном (pipeline), а один шаг пайплайна – джобой (job).</p><p>По умолчанию Gitlab использует собственное оборудование для запуска пайплайнов. В бесплатном тарифном плане ежемесячно дается 400 минут вычислительного времени, а премиум-подписка расширяет это ограничение до 10 000 минут в месяц.</p><p>Если этого недостаточно, есть альтернатива — развернуть собственный сервер и запустить GitLab Runner. В этом случае число пайплайнов ограничено только вычислительной мощностью вашего сервера.</p><p>GitLab Runner можно подключить как к <a href=\"http://gitlab.com\">gitlab.com</a>, так и к self-hosted версиям GitLab. В этой статье рассмотрим подключение к облачному GitLab.</p><h2>Подготовка инфраструктуры</h2><p>Gitlab Runner не предъявляет особых требований к аппаратному обеспечению сервера. Выбор конфигурации напрямую зависит от сложности пайплайнов и количества параллельных задач. </p><p>Более того, Gitlab Runner запускается не только на Linux, но и на macOS, FreeBSD, Windows и z/OS. Также поддерживаются восемь архитектур, от ожидаемых x86 и AMD64 до ARM, RISC-V и даже IBM-мейнфреймов.</p><blockquote><p>В облаке Selectel действует модель оплаты Pay-as-You-Go — средства списываются только за фактическое потребление ресурсов, поэтому брать их «про запас» нет смысла. В любой момент можно добрать необходимое за пару кликов в панели управления. </p><p>Масштабирование работает и в обратную сторону: если нагрузка спадет, можно вернуть неиспользуемые ресурсы в облако и не переплачивать.</p></blockquote><p>Начнем с сервера конфигурации 1 vCPU, 2 GB RAM, 50 GB SSD. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/b0/c7/c3/b0c7c320a1d48c9c177fead5034275c4.png\" alt=\"Заказ сервера.\" title=\"Заказ сервера.\" width=\"1854\" height=\"959\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b0/c7/c3/b0c7c320a1d48c9c177fead5034275c4.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/b0/c7/c3/b0c7c320a1d48c9c177fead5034275c4.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Заказ сервера.</em></figcaption></div></figure><p>Заходим <a href=\"https://my.selectel.ru/?utm_source=habr.com&amp;utm_medium=referral&amp;utm_campaign=myselectel_article_cicdgit_111126_content\">в панель управления Selectel</a>: <strong>Продукты</strong> → <strong>Облачные серверы</strong> → <strong>Создать сервер</strong>. Выбираем 1 vCPU, 2 GB RAM, 50 GB Универсальный SSD и Ubuntu 26.04 в Санкт-Петербурге, ru-9a.</p><p>В этой версии Ubuntu SSH-ключ обязателен, поэтому добавляем свой ключ. Когда вся информация заполнена, нажимаем <strong>Создать сервер</strong>. После появления сервера в его карточке будет инструкция по подключению. Проверяем.</p><pre><code class=\"bash\">$ ssh root@136.234.X.X\n\n# Удалено для краткости\n\nWelcome to Ubuntu 26.04.1 LTS (GNU/Linux 7.0.0-38-generic x86_64)\n\n# Удалено для краткости\n\nroot@runner:~# </code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Сервер доступен.</p><div class=\"floating-image\"><figure class=\"float \"><img src=\"https://habrastorage.org/getpro/habr/upload_files/064/e95/0dd/064e950dd739abadf6110cc0c86d59d3.gif\" alt=\"\" title=\"\" width=\"144\" height=\"144\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/getpro/habr/upload_files/064/e95/0dd/064e950dd739abadf6110cc0c86d59d3.gif 780w,&#10;       https://habrastorage.org/getpro/habr/upload_files/064/e95/0dd/064e950dd739abadf6110cc0c86d59d3.gif 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Облачная инфраструктура для ваших проектов</strong></p><p>Виртуальные машины в Москве, Санкт‑Петербурге и Новосибирске с оплатой по потреблению.</p><p><a href=\"https://selectel.ru/services/cloud/servers/?utm_source=habr.com&amp;utm_medium=referral&amp;utm_campaign=cloud_article_cicdgit_111126_banner_ord\"><strong>Подробнее →</strong></a></p></div><h2>Развертывание Gitlab Runner</h2><p>Runner можно развернуть «на железе» и в контейнерах. Для развертывания «на железе» доступна установка <a href=\"https://docs.gitlab.com/runner/install/linux-manually/\">отдельного пакета</a> или установка <a href=\"https://docs.gitlab.com/runner/install/linux-repository/\">через репозитории</a>. Для контейнеризации доступны <a href=\"https://docs.gitlab.com/runner/install/docker/\">Docker-контейнер</a>, <a href=\"https://docs.gitlab.com/runner/install/kubernetes/\">Helm Chart</a>, <a href=\"https://docs.gitlab.com/runner/install/kubernetes-agent/\">Agent</a> и <a href=\"https://docs.gitlab.com/runner/install/operator/\">Operator</a> для Kubernetes.</p><p>Для демонстрации простоты установки выберем наименее автоматизированный путь — установку отдельного пакета. При заказе сервера отмечено, что конфигурации на процессорах AMD, отсюда понимаем, что архитектура процессора — amd64. Иногда ее называют x86_64 (это значение видно в выводе команды <code>uname -a</code>), но GitLab понимает только amd64.</p><p>Скачиваем пакет, подставляя архитектуру по шаблону <code>gitlab-runner_${arch}.deb</code>:</p><pre><code class=\"bash\">curl -LJO \"https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/latest/deb/gitlab-runner-helper-images.deb\"\ncurl -LJO \"https://s3.dualstack.us-east-1.amazonaws.com/gitlab-runner-downloads/latest/deb/gitlab-runner_amd64.deb\"</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Устанавливаем скачанные пакеты:</p><pre><code class=\"bash\">dpkg -i gitlab-runner-helper-images.deb gitlab-runner_amd64.deb</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Для работы GitLab Runner нужна единственная зависимость — git. Если она уже есть в системе, то пакеты успешно установятся. Если же ее нет, то пакетный менеджер сообщит об этом:</p><pre><code class=\"bash\">dpkg: dependency problems prevent configuration of gitlab-runner:\n gitlab-runner depends on git; however:\n  Package git is not installed.</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Ошибка исправляется одной командой:</p><pre><code class=\"bash\">apt --fix-broken install</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>GitLab Runner установлен. Осталось связать его с проектом в GitLab.</p><h2>Подключение к Gitlab</h2><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e5/c3/b3/e5c3b3aa780269ba71359bdc49d7d464.png\" alt=\"Список runner’ов.\" title=\"Список runner’ов.\" width=\"1854\" height=\"961\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e5/c3/b3/e5c3b3aa780269ba71359bdc49d7d464.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/e5/c3/b3/e5c3b3aa780269ba71359bdc49d7d464.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Список runner’ов.</em></figcaption></div></figure><p>В левом меню переходим в <strong>Build </strong>→ <strong>Runners </strong>в левом меню и нажимаем <strong>Create Group Runner</strong>.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/16/bd/93/16bd93e434eeeb5bfff0e224b7737aa7.png\" alt=\"Меню добавления runner’а.\" title=\"Меню добавления runner’а.\" width=\"1854\" height=\"961\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/16/bd/93/16bd93e434eeeb5bfff0e224b7737aa7.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/16/bd/93/16bd93e434eeeb5bfff0e224b7737aa7.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Меню добавления runner’а.</em></figcaption></div></figure><p>Настройки раннера минимальны: можно задать теги, по которым runner будет выбирать себе задания, или разрешить принимать неразмеченные задания. Также можно сделать выделенный runner для защищенных веток или вовсе временно приостановить его работу при создании, чтобы он не брал джобы до завершения настройки.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/60/45/04/604504eb98918581db7d0a65c25393ef.png\" alt=\"Окно регистрации.\" title=\"Окно регистрации.\" width=\"1854\" height=\"961\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/60/45/04/604504eb98918581db7d0a65c25393ef.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/60/45/04/604504eb98918581db7d0a65c25393ef.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Окно регистрации.</em></figcaption></div></figure><p>После создания «карточки» нужно связать процесс на сервере с GitLab. Для этого выполняем команду, которая передает URL сервера и секретный токен (команда указана на странице регистрации). Токен не следует передавать третьим лицам, поэтому в статье он обрезан:</p><pre><code class=\"bash\">gitlab-runner register  --url https://gitlab.com  --token glrt-Ogchk0qL9W...</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>При выполнении этой команды <code>gitlab-runner</code> попросит уточнить конфигурацию.</p><pre><code class=\"bash\">root@runner:~# gitlab-runner register  --url https://gitlab.com  --token glrt-Ogchk0qL9WM…\nRuntime platform                                    arch=amd64 os=linux pid=1681 revision=66ad5002 version=19.5.2\nRunning in system-mode.                            \n                                                   \nEnter the GitLab instance URL (for example, https://gitlab.com/):\n[https://gitlab.com]: \nVerifying runner... is valid                        correlation_id=a542785d8994de0d-HEL runner=Ogchk0qL9 runner_name=runner\nEnter a name for the runner. This is stored only in the local config.toml file:\n[runner]: runner-vm\nEnter an executor: parallels, custom, instance, docker-windows, virtualbox, shell, docker, docker-autoscaler, docker+machine, kubernetes, ssh:\nshell\nRunner registered successfully. Feel free to start it, but if it's running already the config should be automatically reloaded!\n \nConfiguration (with the authentication token) was saved in \"/etc/gitlab-runner/config.toml\" </code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Наиболее важный параметр конфигурации — <a href=\"https://docs.gitlab.com/runner/executors/\">режим выполнения (executor)</a>. Он определяет, в каком окружении будут выполняться задания из GitLab. В статье выбран <code>shell</code>, в этом случае все команды исполняются непосредственно в операционной системе, где установлен gitlab-runner. </p><p><code>shell</code> является наиболее простым и понятным режимом запуска заданий, однако исполняемые задания имеют доступ к серверу и слабо изолированы друг от друга. Это может привести к конфликтам при параллельном выполнении. Этот способ подходит для сборки ОС-специфическими инструментами, например, на Windows или macOS.</p><p>Второй «простой» режим выполнения — <code>docker</code>. Каждое задание будет изолированно запускаться в собственном контейнере. Однако это потребует <a href=\"https://selectel.ru/blog/docker-install-ubuntu/?utm_source=habr.com&amp;utm_medium=referral&amp;utm_campaign=server_article_cicdgit_111126_content\">установки Docker на сервер</a>. Несмотря на удобство изоляции, Docker-контейнеры ограничены ОС Linux, а запуск Docker внутри задания в этом режиме потребует настойки Docker-in-Docker (DinD).</p><p>Универсального режима нет: выбор полностью зависит от выполняемых задач и действующих политик безопасности.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/22/03/d2/2203d27c5af9542ffaa7c1ab7aa9ffc9.png\" alt=\"Успешно запущенный раннер.\" title=\"Успешно запущенный раннер.\" width=\"1854\" height=\"961\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/22/03/d2/2203d27c5af9542ffaa7c1ab7aa9ffc9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/22/03/d2/2203d27c5af9542ffaa7c1ab7aa9ffc9.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Успешно запущенный раннер.</em></figcaption></div></figure><p>После регистрации статус раннера можно увидеть на странице <strong>Build </strong>→ <strong>Runners</strong>. Обратите внимание на идентификатор <code>#58254123 (Ogchk0qL)</code>, это пригодится позже.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/54/53/8f/54538fa10302717a0f250b5daf1aca86.png\" alt=\"Отключение «публичных» раннеров.\" title=\"Отключение «публичных» раннеров.\" width=\"1854\" height=\"961\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/54/53/8f/54538fa10302717a0f250b5daf1aca86.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/54/53/8f/54538fa10302717a0f250b5daf1aca86.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Отключение «публичных» раннеров.</em></figcaption></div></figure><p>Теперь заходим в настройки проекта: <strong>Settings </strong>→ <strong>CI/CD</strong> и отключаем переключатель <strong>Enable instance runners for this group</strong>. Этим действием мы отказываемся от «официальных» раннеров GitLab. Воспользоваться ими все равно не получится: GitLab требует идентификацию по иностранному номеру телефона.</p><p>Теперь можем проверить работоспособность.</p><h2>Тестирование</h2><p>Создаем в корне репозитория файл <code>.gitlab-ci.yml</code> такого содержания.</p><pre><code class=\"yaml\">stages:\n  - test\n  - build\n\n\ntest:\n  stage: test\n  script:\n    - echo \"Hello from GitLab Runner!\"\n    - echo \"Runner is working!\"\n    - echo \"Hostname:\"\n    - hostname\n    - echo \"Test passed!\"\n\n\nbuild:\n  stage: build\n  script:\n    - echo \"Starting build...\"\n    - mkdir -p dist\n    - echo \"Hello GitLab CI\" &gt; dist/result.txt\n    - cat dist/result.txt\n    - echo \"Build completed!\"\n  artifacts:\n    paths:\n      - dist/\n    expire_in: 1 day\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Выполняем <code>git commit</code> и <code>git push</code>.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0f/0d/2a/0f0d2a9c1ccfb347c262f8681ad1199f.png\" alt=\"Успешно выполненное задание.\" title=\"Успешно выполненное задание.\" width=\"1854\" height=\"961\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0f/0d/2a/0f0d2a9c1ccfb347c262f8681ad1199f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0f/0d/2a/0f0d2a9c1ccfb347c262f8681ad1199f.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption><em>Успешно выполненное задание.</em></figcaption></div></figure><p>Если все сделано правильно, задания пайплайна будут выполнены на развернутом нами GitLab Runner. Это идентифицируется по имени хоста (<code>hostname</code>) runner и по идентификатору <code>#58254123 (Ogchk0qL)</code> в правом меню.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "selectel"
+    },
+    {
+      "titleHtml": "gitlab runner"
+    },
+    {
+      "titleHtml": "cicd"
+    },
+    {
+      "titleHtml": "gitlab"
+    },
+    {
+      "titleHtml": "devops"
+    },
+    {
+      "titleHtml": "ubuntu"
+    },
+    {
+      "titleHtml": "облачный сервер"
+    },
+    {
+      "titleHtml": "ssh"
+    },
+    {
+      "titleHtml": "open source"
+    },
+    {
+      "titleHtml": "управление процессами"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105990/37d2b1cfab4b80c074e27c63336d9008/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105990/37d2b1cfab4b80c074e27c63336d9008/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/selectel\\/articles\\/1105990\\/\"},\"headline\":\"Установка и подключение GitLab Runner для CI\\/CD-пайплайнов\",\"datePublished\":\"2026-11-11T15:30:43+03:00\",\"dateModified\":\"2026-11-12T19:50:29+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Разработка программного обеспечения — многоступенчатый процесс проектирования, написания кода и тестирования продукта. Часть шагов можно автоматизировать с...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/selectel\\/articles\\/1105990\\/#post-content-body\",\"about\":[\"c_selectel\",\"h_devops\",\"h_git\",\"h_sys_admin\",\"h_open_source\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/ba\\/ae\\/69\\/baae6901d4ccf8086cb5f0ca4978a3a4.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/b0\\/c7\\/c3\\/b0c7c320a1d48c9c177fead5034275c4.png\",\"https:\\/\\/habrastorage.org\\/getpro\\/habr\\/upload_files\\/064\\/e95\\/0dd\\/064e950dd739abadf6110cc0c86d59d3.gif\",\"https:\\/\\/habrastorage.org\\/extt\\/e5\\/c3\\/b3\\/e5c3b3aa780269ba71359bdc49d7d464.png\",\"https:\\/\\/habrastorage.org\\/extt\\/16\\/bd\\/93\\/16bd93e434eeeb5bfff0e224b7737aa7.png\",\"https:\\/\\/habrastorage.org\\/extt\\/60\\/45\\/04\\/604504eb98918581db7d0a65c25393ef.png\",\"https:\\/\\/habrastorage.org\\/extt\\/22\\/03\\/d2\\/2203d27c5af9542ffaa7c1ab7aa9ffc9.png\",\"https:\\/\\/habrastorage.org\\/extt\\/54\\/53\\/8f\\/54538fa10302717a0f250b5daf1aca86.png\",\"https:\\/\\/habrastorage.org\\/extt\\/0f\\/0d\\/2a\\/0f0d2a9c1ccfb347c262f8681ad1199f.png\"]}",
+    "metaDescription": "Разработка программного обеспечения — многоступенчатый процесс проектирования, написания кода и тестирования продукта. Часть шагов можно автоматизировать с помощью процессов непрерывной интеграции...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "tutorial",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

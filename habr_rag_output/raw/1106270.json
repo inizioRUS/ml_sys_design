@@ -1,0 +1,200 @@
+{
+  "id": "1106270",
+  "timePublished": "2026-11-10T17:57:13+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Как я на 4-й день пентеста чуть не принял 500-ку за RCE",
+  "leadData": {
+    "textHtml": "<p>Здравствуйте, дорогие читатели! Это моя первая и надеюсь, что&nbsp;не&nbsp;последняя, публикация на&nbsp;Habr. Буду очень рад возможной конструктивной критике и обратной связи. Эта статья стала итогом моего первого раунда реального пентестирования на&nbsp;живом сайте, поэтому спешу поделиться опытом. Раньше занимался только разработкой, поэтому это был крайне интересным опытом. Людям, которые только хотят вливаться в&nbsp;пентестирование или&nbsp;идти в&nbsp;него из&nbsp;разработки, как&nbsp;я, эта статья может быть крайне полезна. А&nbsp;более профессиональные пентестеры и программисты, возможно, смогут чутка похихикать с&nbsp;неё и узнать себя в&nbsp;начале карьерного пути. В&nbsp;общем, надеюсь, что&nbsp;статья не&nbsp;оставит вас равнодушной. Не&nbsp;буду тянуть и приятного прочтения!</p><p><strong>TL;DR.</strong> Теперь кратко и по&nbsp;делу. Нашёл на&nbsp;одном сайте (легально, с&nbsp;разрешения владельца, само собой) 500-ю ошибку от&nbsp;одного HTTP‑заголовка. Сначала подумал&nbsp;— баг десериализации, может, RCE. Потом сел, собрал стенд, намерил&nbsp;— и находка усохла до&nbsp;аккуратного «500&nbsp;вместо 400». По&nbsp;дороге я один раз испугался, что&nbsp;уронил чужой прод (оказалось&nbsp;— перепутал окна терминала). В&nbsp;общем, я заспойлерил всё в&nbsp;самом начале, но&nbsp;история от&nbsp;этого, надеюсь, вышла не&nbsp;менее интересная.</p>",
+    "imageUrl": "https://habrastorage.org/extt/0e/68/00/0e680008c0f105aa79de8a6d61c43890.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/0e/68/00/0e680008c0f105aa79de8a6d61c43890.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "sandbox",
+      "typeOf": "system",
+      "title": "Из песочницы",
+      "data": {
+        "url": null
+      }
+    }
+  ],
+  "author": {
+    "id": "6066876",
+    "alias": "ArtemLid4444",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 0,
+      "votesCount": 2
+    },
+    "rating": -1,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 4,
+    "readingCount": 348,
+    "score": -1,
+    "votesCount": 1,
+    "votesCountPlus": 0,
+    "votesCountMinus": 1,
+    "reach": 8610,
+    "readers": 251
+  },
+  "hubs": [
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19327",
+      "alias": "reactjs",
+      "type": "collective",
+      "title": "ReactJS",
+      "titleHtml": "ReactJS",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17110",
+      "alias": "nodejs",
+      "type": "collective",
+      "title": "Node.JS",
+      "titleHtml": "Node.JS",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Здравствуйте, дорогие читатели! Это моя первая и надеюсь, что не последняя, публикация на Habr. Буду очень рад возможной конструктивной критике и обратной связи. Эта статья стала итогом моего первого раунда реального пентестирования на живом сайте, поэтому спешу поделиться опытом. Раньше занимался только разработкой, поэтому это был крайне интересным опытом. Людям, которые только хотят вливаться в пентестирование или идти в него из разработки, как я, эта статья может быть крайне полезна. А более профессиональные пентестеры и программисты, возможно, смогут чутка похихикать с неё и узнать себя в начале карьерного пути. В общем, надеюсь, что статья не оставит вас равнодушной. Не буду тянуть и приятного прочтения!</p><p><strong>TL;DR.</strong> Теперь кратко и по делу. Нашёл на одном сайте (легально, с разрешения владельца, само собой) 500-ю ошибку от одного HTTP‑заголовка. Сначала подумал — баг десериализации, может, RCE. Потом сел, собрал стенд, намерил — и находка усохла до аккуратного «500 вместо 400». По дороге я один раз испугался, что уронил чужой прод (оказалось — перепутал окна терминала). В общем, я заспойлерил всё в самом начале, но история от этого, надеюсь, вышла не менее интересная.</p><p>Минимальное воспроизведение, которое можно запустить самому: <a href=\"https://github.com/Artpardsur/next-rsc-400-repro\" rel=\"noopener nofollow\"><strong>https://github.com/Artpardsur/next‑rsc-400-repro</strong></a></p><h3>Предыстория: три дня, за которые я не нашёл ничего</h3><p>Начнём с того как я вообще оказался на этом «4-м дне пентестирования». 500-ка не свалилась с неба: ей предшествовали три дня, за которые я не нашёл ни одной серьёзной дыры. И это важная часть истории — именно поэтому, когда наконец мелькнул 500-й код, меня так потянуло сделать из неё целую сенсацию вселенского масштаба.</p><p>Всё началось с тестового задания. Знакомый — глава ИБ‑компании — дал мне добро проверить его боевой сайт, за что ему крайне благодарен. Для меня это был шанс показать себя, так что хотелось не просто прогнать сканер, а сработать на совесть: тихо и не спеша, по одному запросу. Тем более что сайт был непростой — на периметре Cloudflare, за ним SOC с ИИ, honeypot’ы и система, которая на шумный скан автоматически шлёт abuse‑жалобу провайдеру атакующего. Один неосторожный <code>nmap</code> — и сгорел бы мой VPN‑адрес. «Громко» было нельзя чисто физически.</p><p><strong>День 1 — разведка.</strong> Пассивно: заголовки, сертификаты, DNS, публичная документация. Стек — Next.js и headless‑CMS за Cloudflare. В задании была приписка «найти PHP» — и это оказалось первой проверкой на вшивость: PHP на сайте не было вообще, я убедился в этом четырьмя независимыми способами (сканеры, CT‑логи, заголовки, клиентский JS). Будь я понаивнее — пошёл бы перебирать <code>/shell.php</code> и угодил бы ровно в honeypot. Ещё полдня я искал реальный IP origin‑сервера за Cloudflare — Censys, Shodan, <a href=\"http://crt.sh\" rel=\"noopener nofollow\">crt.sh</a>, история DNS. Не нашёл нигде. Вывод первого дня: инфраструктуру спрятали грамотно.</p><p><strong>День 2 — первый аккуратный активный пентест.</strong> robots.txt, sitemap, API с легально полученным токеном. И тут я впервые упёрся носом в стекло: один чуть «грязный» запрос — и Cloudflare отдал 403, до приложения даже не дошло. Урок был не про сайт, а про меня: <strong>пока я сижу на неразрешённом IP, я тестирую не приложение владельца, а его Cloudflare.</strong> Я остановился и согласовал правила игры, вместо того чтобы вслепую менять адреса, — слепая ротация IP выглядит как настоящая атака, и защита владельца так её и прочитала бы.</p><p><strong>День 3 — верификация.</strong> Вот тут я копал всерьёз: открытый прокси‑эндпоинт (единственная реальная находка дня — без аутентификации и без лимита), проверка на SSRF (нет), на обход авторизации в API (нет), на инъекции в CMS (нет), прощупал даже телеграм‑бота с LLM внутри на prompt‑injection — тот оказался парсером, а не исполнителем, чисто. К вечеру картина сложилась неуютная: <strong>сайт просто хорошо сделан.</strong> Отчёт вырисовывался честный и скучный — «критичных уязвимостей нет, пара замечаний по харденингу». Для настоящего пентеста это нормальный результат. Но внутри свербело: задание‑то тестовое, хочется принести что‑то весомее, чем «у вас всё в порядке».</p><p><strong>День 4.</strong> И вот на фоне трёх дней сплошного «всё крепко» я тыкаю битым заголовком в динамическую страницу — и получаю <strong>500</strong>. После семидесяти двух часов идеальных 200-к и 403-к серверная ошибка ударила по нервам как джекпот! Я прям ликовал и подумал в тот момент: «Наконец‑то что‑то настоящее». Ровно здесь и начинается самое опасное — желание, чтобы находка оказалась крупной, было у меня в тот момент максимальным за всю неделю. Дальше — о том, как я с этим желанием справлялся.</p><h3>С чего всё началось</h3><p>Боевой сайт на Next.js. Обычный GET отдаёт 200. А вот такой запрос:</p><pre><code>GET / HTTP/1.1\nRSC: 1\nNext-Router-State-Tree: xyzzy\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>возвращает не 400, как я ожидал от «кривого ввода», а <strong>500 Internal Server Error</strong>. Перед origin стоит Cloudflare, и цепочка была <code>307 → 500</code>. Владелец сайта полез в логи: тело ответа — 21 байт. То есть не портянка со стеком, а какой‑то generic‑ответ.</p><p><code>RSC: 1</code> и <code>Next-Router-State-Tree</code> — это внутренняя кухня React Server Components: по этим заголовкам Next понимает, что у него просят не целую HTML‑страницу, а «флайт»‑поток для навигации, и <code>Next-Router-State-Tree</code> описывает, в каком состоянии сейчас роутер клиента. Логично, что сервер его парсит. А раз парсит — значит, может подавиться.</p><h3>И тут из мухи резко вырос слон</h3><p>В голове сразу всплыла свежая GHSA про desync в обработке RSC‑запросов, где кривое состояние роутера приводило к рассинхрону и потенциально к RCE. Схожий заголовок, схожая 500-ка. Очень захотелось, чтобы это был тот самый класс.</p><p>Вот тут — первый важный момент. <strong>Когда очень хочется, чтобы находка была крупной, — это ровно тот момент, когда надо замедлиться.</strong> Я замедлился.</p><h3>Первое отрезвление</h3><p>Я поднял чистый Next.js 16.4.1 локально и начал кормить <code>Next-Router-State-Tree</code> разным мусором:</p><ul><li><p><code>xyzzy</code> — просто строка</p></li><li><p><code>{\"a\":1}</code> — валидный JSON, но не та структура</p></li><li><p>пустая строка</p></li><li><p><code>[\"\",{</code> — обломанный массив</p></li><li><p>8 КБ случайных байт</p></li></ul><p><strong>Все до одного</strong> давали одинаковую 500-ку. А если бы это был специфический desync под конкретную структуру массивов из GHSA — падало бы только на определённой форме, а не на любом хламе. Раз падает на всём подряд — это <strong>не</strong> та уязвимость. Это generic‑обработчик ошибки парсинга. Гипотезу RCE можно закрывать.</p><h3>Воспроизводимый стенд</h3><p>Дальше я взял за правило: не «кручу запросы руками и смотрю глазами», а меряю скриптом, который снимает <strong>и результат, и эталон</strong> одними и теми же числами. Написал маленький Node‑замерщик (без зависимостей, на голом <code>fetch</code>), который на любую цель делает:</p><ol><li><p>эталон — обычный GET (ждём 200);</p></li><li><p>эталон с <code>RSC: 1</code>, но без битого заголовка;</p></li><li><p>пять вариантов битого <code>Next-Router-State-Tree</code> — для каждого код ответа, размер тела, content‑type и проверку тела на признаки стек‑трейса;</p></li><li><p>нагрузку — сотни запросов с битым заголовком, чтобы поймать обрывы соединений (крэш) и рост задержки (утечку).</p></li></ol><p>И главное — весь прогон печатает таблицу и короткий вердикт. Конечно, вердикт иногда приходилось правильно интерпретировать, так как не все скрипты выходило писать идеально с первого раза, но до истины я всё же докопался.</p><blockquote><p>Весь стенд и замерщик лежат в репозитории: <a href=\"https://github.com/Artpardsur/next-rsc-400-repro\" rel=\"noopener nofollow\">https://github.com/Artpardsur/next‑rsc-400-repro</a> — <code>npm install &amp;&amp; npm run build &amp;&amp; npm start</code>, и можно повторить всё из статьи.</p></blockquote><p>Только перед истиной был вообще очень интересный «инцидент», о котором далее.</p><h3>Как я чуть не «уронил прод» (а на деле перепутал терминалы)</h3><p>Проверяя прод‑режим, я в какой‑то момент получил от curl код <code>000</code>. Для тех, кто не сталкивался: <code>000</code> — это не HTTP‑код, это «ответа по HTTP не пришло вообще». Соединение оборвалось. Сердце ёкнуло: неужели один запрос положил сервер? Это же сразу другой класс — DoS.</p><p>Стал проверять — даже обычный GET на <code>/</code> даёт <code>000</code>. Сервер мёртв?</p><p>Нет. Сервер был жив. Просто я запускал curl в терминале, который «сидел» в домашней папке <code>C:\\Users\\home</code>, а сервер крутился в другом окне, в папке проекта. Выдало меня вот это при попытке перезапустить:</p><pre><code>Need to install the following packages:\nnext@16.4.3\nOk to proceed? (y)\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Если бы я был в папке проекта, <code>next</code> взялся бы локальный (16.4.1) и ничего бы не спрашивал. А он полез скачивать чужую версию — значит, проекта тут нет, значит, я не в том окне. Весь «DoS» был фантомом из‑за путаницы окон.</p><p><strong>Очередной урок, который я вынес из этого факапа:</strong> прежде чем делать вывод по результату — убедись, <em>как именно</em> ты этот результат получаешь. Половина «сенсаций» новичка — это артефакты стенда, а не поведение цели. К сожалению, понял это не своём примере, но хотя бы рад, что смог вовремя заметить ошибки и остановить поток когнитивных искажений своего утомлённого мозга. После этого завёл себе железное правило: одно окно — только сервер, другое — только запросы, и никогда не путать.</p><h3>Изолируем настоящее условие</h3><p>Когда я перемерил начисто, 500-ка… пропала. На <code>/</code> в проде стабильно <code>307 → 200</code>, никакого 500. Это сбивало с толку ровно до тех пор, пока я не посмотрел на сборку:</p><pre><code>Route (app)\n┌ ○ /\n└ ○ /_not-found\n○  (Static)  prerendered as static content\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Все маршруты — <strong>статические</strong>. Для статической страницы RSC‑ответ берётся из готового кэша, и <code>Next-Router-State-Tree</code> даже не разбирается — сервер просто редиректит на закэшированный результат. Парсеру, который падал, тут нечего делать.</p><p>А на боевом сайте страницы были <strong>динамические</strong>. Вот она, недостающая переменная. Добавил в стенд один динамический маршрут:</p><pre><code>// app/dyn/[slug]/page.tsx\nimport { Suspense } from 'react';\nimport { connection } from 'next/server';\n\nasync function Dynamic({ params }: { params: Promise&lt;{ slug: string }&gt; }) {\n  await connection();              // опт-ин в динамический рендер\n  const { slug } = await params;\n  return &lt;div&gt;dyn {slug}&lt;/div&gt;;\n}\n\nexport default function Page({ params }: { params: Promise&lt;{ slug: string }&gt; }) {\n  return &lt;Suspense fallback={&lt;div&gt;loading…&lt;/div&gt;}&gt;&lt;Dynamic params={params} /&gt;&lt;/Suspense&gt;;\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Пересобрал, стрельнул битым заголовком по <code>/dyn/test</code> — и вот оно. На динамике 500, на статике 200:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0e/68/00/0e680008c0f105aa79de8a6d61c43890.png\" alt=\"\" title=\"\" width=\"2120\" height=\"660\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0e/68/00/0e680008c0f105aa79de8a6d61c43890.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0e/68/00/0e680008c0f105aa79de8a6d61c43890.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Воспроизведение: динамика → 500, статика → 200</figcaption></div></figure><p>Условие точное: <strong>динамический маршрут + RSC‑запрос, доведённый до обработчика + невалидный </strong><code><strong>Next-Router-State-Tree</strong></code>.</p><h3>Что это на самом деле за баг</h3><p>Заглянул в консоль сервера в момент 500:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/8c/cb/d8/8ccbd8d2466579bda581e5fac34cbe4b.png\" alt=\"\" title=\"\" width=\"2120\" height=\"800\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/8c/cb/d8/8ccbd8d2466579bda581e5fac34cbe4b.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/8c/cb/d8/8ccbd8d2466579bda581e5fac34cbe4b.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Консоль сервера в момент 500</figcaption></div></figure><p>И вот это ставит всё на места. Next <strong>намеренно</strong> проверяет заголовок и, если не может разобрать, бросает <strong>именованную</strong> ошибку «router state header … could not be parsed». То есть это не случайное падение где‑то в кишках — это штатная, предусмотренная ветка. Проблема ровно одна: эту ошибку на заведомо клиентский кривой ввод Next отдаёт как <strong>500 (ошибка сервера)</strong>, тогда как по смыслу это <strong>400 (ошибка клиента)</strong>.</p><p>Прогнал финальный замер по динамике, чтобы охарактеризовать до конца:</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/6e/12/36/6e1236293ce79ad2ce9b6118e4730342.png\" alt=\"Полный замер замерщиком: все варианты → 500, утечки нет, сервер держится\" title=\"Полный замер замерщиком: все варианты → 500, утечки нет, сервер держится\" width=\"1840\" height=\"1200\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/6e/12/36/6e1236293ce79ad2ce9b6118e4730342.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/6e/12/36/6e1236293ce79ad2ce9b6118e4730342.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Полный замер замерщиком: все варианты → 500, утечки нет, сервер держится</figcaption></div></figure><p>21 байт — то самое generic‑тело, что видел владелец. <strong>Стек наружу не уходит</strong> (он только в консоли сервера). Сервер <strong>не падает</strong> и под нагрузкой держится.</p><h3>Честный вердикт</h3><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Критерий</p></th><th><p align=\"left\">Результат</p></th></tr><tr><td><p align=\"left\">Воспроизводимость</p></td><td><p align=\"left\">✅ 100%, минимальный стенд</p></td></tr><tr><td><p align=\"left\">RCE / desync</p></td><td><p align=\"left\">❌ нет — падает на любом мусоре, а не на спец‑структуре</p></td></tr><tr><td><p align=\"left\">Утечка данных / стека</p></td><td><p align=\"left\">❌ нет — тело 21 байт, generic</p></td></tr><tr><td><p align=\"left\">Отказ в обслуживании</p></td><td><p align=\"left\">❌ нет — сервер жив, ресурсы не текут</p></td></tr><tr><td><p align=\"left\">Суть</p></td><td><p align=\"left\">⚠️ <strong>500 вместо 400</strong> на невалидный клиентский заголовок, динамический маршрут</p></td></tr></tbody></table></div></div><p>Это <strong>подтверждённый, но Low / informational</strong> баг — некорректный класс кода ответа. Не уязвимость в смысле «можно что‑то украсть или положить».</p><h3>Нести ли это в Bug Bounty?</h3><p>Когда я только начал раскручивать эту историю у себя в голове, то в какой‑то момент реально начал грезить о Bug Bounty, не в силах поверить в такую удачу. И, наверное, мой скептицизм как раз и помог всё расставить по полочкам. И хоть насчёт баунти можно сказать чёткое <strong>нет</strong>, в апстрим как issue эту находку вполне было можно послать, что я и в итоге и сделал.</p><p>Аккуратный GitHub‑issue в сам фреймворк с минимальным воспроизведением и предложением «возвращать 400» — нормальный добросовестный вклад, как по мне. Поэтому находке я всё равно жутко рад и это был супер крутой опыт всего за первые 4 дня пентестирования на реальном сайте!</p><p>Не став потом тратить время, я перед написанием статьи завёл issue в апстрим с ссылкой на минимальное репро: <a href=\"https://github.com/vercel/next.js/issues/100856\" rel=\"noopener nofollow\">https://github.com/vercel/next.js/issues/100856</a>.</p><p>Граница, которую я для себя провёл: error‑handling становится <strong>уязвимостью</strong> только когда ошибка что‑то <strong>выдаёт</strong> (стек, пути, данные), чем‑то <strong>управляет</strong> (разное поведение как оракул) или что‑то <strong>ломает</strong> (крэш, утечка, DoS). Я проверил все три — ни одной. Значит, это корректность, а не безопасность.</p><h3>Что я унёс с собой на 4-й день</h3><ol><li><p><strong>Когда очень хочется, чтобы это был RCE, — замедлись.</strong> Желание крупной находки искажает интерпретацию сильнее любого бага.</p></li><li><p><strong>Меряй эталон и результат одним кодом.</strong> «Кажется, 500» и «500 на всех пяти вариантах, тело 21 байт, сервер жив» — это разного качества знание.</p></li><li><p><strong>Сначала разберись, как ты смотришь результат.</strong> Мой «DoS» был перепутанным окном терминала.</p></li><li><p><strong>Меняй по одному фактору за раз.</strong> Статика/динамика оказалась той самой переменной — я бы её не увидел, меняя всё сразу.</p></li><li><p><strong>Находка, которая не воспроизводится в чистых условиях, — ещё не находка.</strong></p></li></ol><p>Ценность пентестера — не в количестве «сенсаций», а в дисциплине отбраковки. Иногда лучший результат исследования — честное «это не то, чем казалось, и вот почему».</p></div>",
+  "tags": [
+    {
+      "titleHtml": "пентест"
+    },
+    {
+      "titleHtml": "информационная безопасность"
+    },
+    {
+      "titleHtml": "Next.js"
+    },
+    {
+      "titleHtml": "React Server Components"
+    },
+    {
+      "titleHtml": "веб-безопасность"
+    },
+    {
+      "titleHtml": "bug bounty"
+    },
+    {
+      "titleHtml": "HTTP"
+    },
+    {
+      "titleHtml": "ошибка 500"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106270/19ddccb09c61f1ff3a82f6b9887b1ca7/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106270/19ddccb09c61f1ff3a82f6b9887b1ca7/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106270\\/\"},\"headline\":\"Как я на 4-й день пентеста чуть не принял 500-ку за RCE\",\"datePublished\":\"2026-11-10T20:57:13+03:00\",\"dateModified\":\"2026-11-10T20:57:13+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Здравствуйте, дорогие читатели! Это моя первая и надеюсь, что&nbsp;не&nbsp;последняя, публикация на&nbsp;Habr. Буду очень рад возможной конструктивной критике и...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106270\\/#post-content-body\",\"about\":[\"h_infosecurity\",\"h_reactjs\",\"h_nodejs\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/0e\\/68\\/00\\/0e680008c0f105aa79de8a6d61c43890.png\",\"https:\\/\\/habrastorage.org\\/extt\\/8c\\/cb\\/d8\\/8ccbd8d2466579bda581e5fac34cbe4b.png\",\"https:\\/\\/habrastorage.org\\/extt\\/6e\\/12\\/36\\/6e1236293ce79ad2ce9b6118e4730342.png\"]}",
+    "metaDescription": "Здравствуйте, дорогие читатели! Это моя первая и надеюсь, что&nbsp;не&nbsp;последняя, публикация на&nbsp;Habr. Буду очень рад возможной конструктивной критике и обратной связи. Эта статья стала итогом...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 9,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

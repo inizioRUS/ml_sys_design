@@ -1,0 +1,167 @@
+{
+  "id": "1106274",
+  "timePublished": "2026-11-10T18:04:31+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Как рисовать BPMN диаграммы для процессов LLM оптимизации",
+  "leadData": {
+    "textHtml": "<p>Я работаю в Альфа-Банке в команде, которая пытается оптимизировать валютный контроль. За время проекта я отрисовал страшно много диаграмм, и вот пара лайфхаков, которые я для себя выделил.<br></p>",
+    "imageUrl": "https://habrastorage.org/extt/dc/e3/3f/dce33fda6681ba9a90b2748efae24a32.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/dc/e3/3f/dce33fda6681ba9a90b2748efae24a32.png",
+      "fit": "cover",
+      "positionY": 1,
+      "positionX": 100
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3915692",
+    "alias": "N3VERZzz",
+    "fullname": "Темченко Сергей",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/e99/05e/47d/e9905e47dee63ceb33ca7a28da64884e.png",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 2,
+      "votesCount": 26
+    },
+    "rating": -0.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 6,
+    "favoritesCount": 1,
+    "readingCount": 454,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 8167,
+    "readers": 335
+  },
+  "hubs": [
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Я работаю в Альфа Банке в команде, которая пытается оптимизировать валютный контроль. За время проекта, я с экспертом отрисовал большое кол‑во диаграмм и вот пару лайфхаков, которые я понял.<br/></p><p><strong>AS IS</strong><br/><br/>Рисуем AS IS. На данном этапе пока что ничего не меняется. Мы как и в обычном проекте пытаем максимально точно описать существующий процесс.<br/></p><p><strong>TO BE</strong></p><p>Здесь уже начинаются свои приколы. Прежде всего мы должны разделять каким способ выполнятеся нода — LLM и КОД. (Всё, что можно сделать кодом, надо делать кодом). Я предлагю добавить на диаграмму легенду и выделять узлы реализованые<strong> </strong>LLMкой и КОДом разными цветами. </p><p><strong>1. Для нод которые реализуются </strong>LLM мы также прописываем:</p><p>— вход</p><p>— выход</p><p>— что именно происходит внутри</p><p>Это немного загрязняет диаграмму, но нам без этого не обойтись. </p><p><strong>2. Ищем параллельные ветки.</strong></p><p>Если несколько блоков работают с одинаковыми входными данными, их можно запускать параллельно. (Это напрямую влияет на скорость ответа системы.)</p><p><strong>Например</strong></p><p>В данном примере частично описан валютный контроль. Запросы последовательные, потому что выход прошлой ноды используется в следующей. Первый запрос достает атрибуты из контракта (такие как: сумма, валюта, тип сделки и тд), используя эти данные мы определяем вид сделки (их очень много, но допустим, что мы работаем с импорт экспортом товаров и услуг), исходя из этих признаков далее мы определяем УНК или контракт (контракт ставится на УНК, при условии больше 3 млн экспорт, и больше 10 млн для импорта.) </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f3/72/77/f3727733075f86a5b3653a9f112c9aab.png\" alt=\"Обычная BPMN\" title=\"Обычная BPMN\" width=\"3200\" height=\"980\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f3/72/77/f3727733075f86a5b3653a9f112c9aab.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/f3/72/77/f3727733075f86a5b3653a9f112c9aab.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Обычная BPMN</figcaption></div></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0f/89/d8/0f89d892528bcfe9e58472fbd063037f.png\" alt=\"BPMN для LLM проекта\" title=\"BPMN для LLM проекта\" width=\"3200\" height=\"1446\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0f/89/d8/0f89d892528bcfe9e58472fbd063037f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0f/89/d8/0f89d892528bcfe9e58472fbd063037f.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>BPMN для LLM проекта</figcaption></div></figure><hr/><p>Я собираю знания в методологию, еще будет много полезного, чтобы не потеряться — подпишитесь на тг <a href=\"https://t.me/s/Gpt_budni\" rel=\"noopener nofollow\">https://t.me/s/Gpt_budni</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "ai"
+    },
+    {
+      "titleHtml": "llm"
+    },
+    {
+      "titleHtml": "ии"
+    },
+    {
+      "titleHtml": "бизнес-процессы"
+    },
+    {
+      "titleHtml": "бизнес-анализ"
+    },
+    {
+      "titleHtml": "bpmn"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106274/6a8836cd11d46ef950ff4e00dfe83338/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106274/6a8836cd11d46ef950ff4e00dfe83338/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106274\\/\"},\"headline\":\"Как рисовать BPMN диаграммы для процессов LLM оптимизации\",\"datePublished\":\"2026-11-10T21:04:31+03:00\",\"dateModified\":\"2026-11-11T02:20:01+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Я работаю в&nbsp;Альфа Банке в&nbsp;команде, которая пытается оптимизировать валютный контроль. За&nbsp;время проекта, я с&nbsp;экспертом отрисовал большое...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106274\\/#post-content-body\",\"about\":[\"h_machine_learning\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/f3\\/72\\/77\\/f3727733075f86a5b3653a9f112c9aab.png\",\"https:\\/\\/habrastorage.org\\/extt\\/0f\\/89\\/d8\\/0f89d892528bcfe9e58472fbd063037f.png\"]}",
+    "metaDescription": "Я работаю в&nbsp;Альфа Банке в&nbsp;команде, которая пытается оптимизировать валютный контроль. За&nbsp;время проекта, я с&nbsp;экспертом отрисовал большое кол‑во диаграмм и вот пару лайфхаков,...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

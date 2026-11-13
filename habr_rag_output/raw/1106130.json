@@ -1,0 +1,191 @@
+{
+  "id": "1106130",
+  "timePublished": "2026-11-10T13:09:41+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Disney начала испытания роботов‑помощников с ИИ для помощи в поиске парковочных мест в своих парках развлечений",
+  "leadData": {
+    "textHtml": "<p>Компания Walt Disney <a href=\"https://www.carscoops.com/2311179/disney-testing-ai-powered-parking-assistants-cars/\" rel=\"noopener nofollow\">начала тестирование</a> роботов‑помощников с&nbsp;искусственным интеллектом для&nbsp;помощи в&nbsp;поиске парковочных мест в&nbsp;своих парках развлечений. Дизайн этих роботов вдохновлён персонажами мультфильмов «ВАЛЛ‑И» и «Тачки».</p>",
+    "imageUrl": "https://habrastorage.org/extt/b3/28/e5/b328e50b9c1739a19b7781ed3b12bdcc.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/b3/28/e5/b328e50b9c1739a19b7781ed3b12bdcc.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "1782611",
+    "alias": "Travis_Macrif",
+    "fullname": "Руслан",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/9af/987/8b0/9af9878b02f82d2e0864184d83479017.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 175,
+      "votesCount": 607
+    },
+    "rating": 377.2,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 1,
+    "readingCount": 293,
+    "score": 4,
+    "votesCount": 2,
+    "votesCountPlus": 2,
+    "votesCountMinus": 0,
+    "reach": 8026,
+    "readers": 230
+  },
+  "hubs": [
+    {
+      "id": "21902",
+      "alias": "robot",
+      "type": "collective",
+      "title": "Робототехника",
+      "titleHtml": "Робототехника",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Компания Walt Disney <a href=\"https://www.carscoops.com/2311179/disney-testing-ai-powered-parking-assistants-cars/\" rel=\"noopener nofollow\">начала тестирование</a> роботов‑помощников с искусственным интеллектом для помощи в поиске парковочных мест в своих парках развлечений. Дизайн этих роботов вдохновлён персонажами мультфильмов «ВАЛЛ‑И» и «Тачки».</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/b3/28/e5/b328e50b9c1739a19b7781ed3b12bdcc.jpg\" width=\"1037\" height=\"583\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b3/28/e5/b328e50b9c1739a19b7781ed3b12bdcc.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/b3/28/e5/b328e50b9c1739a19b7781ed3b12bdcc.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Роботов тестируют в партнёрстве с компанией Field AI. В 2023 году Field AI основали бывшие сотрудники Google DeepMind, НАСА, Nvidia, Tesla и других компаний. </p><p>Представленные роботы — это небольшие четырёхколёсные автомобили, похожие на некоторых беспилотных роботов для доставки еды. Один из таких роботов окрашен в оранжевый цвет с жёлтыми акцентами, имитирующими флуоресцентный жилет. Робот оснащён большим экраном, подвижными глазами и активными веками, как у персонажей из «Тачек».</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/bd/df/48/bddf4863d66b0582e2a61446184b0d70.jpg\" width=\"1200\" height=\"800\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/bd/df/48/bddf4863d66b0582e2a61446184b0d70.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/bd/df/48/bddf4863d66b0582e2a61446184b0d70.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>На крыше автономного робота расположен меняющийся знак, указывающий водителям направление к парковочному месту. Кроме того, робот оборудован двумя небольшими манипуляторами с красными огнями, которые также направляют водителей.</p><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af31739beb0cddb1d382857\" data-style=\"\" id=\"6af31739beb0cddb1d382857\" width=\"\" data-habr-games=\"\"></div><p>Disney не озвучила сроков внедрения этих роботизированных парковщиков и не гарантировала, что они действительно будут установлены в Диснейлендах. </p><p>Хотя эти роботы могут быть менее склонны к ошибкам, чем парковщики‑люди, первоначальные затраты на них будут высокими, полагают в CarScoops. Наличие подобных роботов может повысить стоимость входных билетов в парки развлечений. Сейчас средняя стоимость посещения Диснейленда семьёй из четырёх человек варьируется от $476 до $836.</p><p>Весной этого года в калифорнийских парках Disney <a href=\"https://habr.com/ru/articles/1028336/\" rel=\"noopener nofollow\">заработала</a> технология распознавания лиц. Она появилась на одном из входов, но посетители не обязаны её использовать.</p><p>Летом Walt Disney Imagineering и Adobe <a href=\"https://habr.com/ru/articles/1048612/\" rel=\"noopener nofollow\">представили</a> систему генеративного ИИ, которая предназначена для проектирования тематических парков Disney. В основе системы лежат кастомные модели на базе Adobe Firefly Foundry, обученные на каталоге Walt Disney Imagineering.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "disney"
+    },
+    {
+      "titleHtml": "disneyland"
+    },
+    {
+      "titleHtml": "диснейленд"
+    },
+    {
+      "titleHtml": "роботы"
+    },
+    {
+      "titleHtml": "парковка"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106130/460a82652940ad19d66241811b0d51f5/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106130/460a82652940ad19d66241811b0d51f5/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106130\\/\"},\"headline\":\"Disney начала испытания роботов‑помощников с ИИ для помощи в поиске парковочных мест в своих парках развлечений\",\"datePublished\":\"2026-11-10T16:09:41+03:00\",\"dateModified\":\"2026-11-10T16:24:31+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Компания Walt Disney начала тестирование роботов‑помощников с&nbsp;искусственным интеллектом для&nbsp;помощи в&nbsp;поиске парковочных мест в&nbsp;своих парках...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106130\\/#post-content-body\",\"about\":[\"h_robot\",\"h_artificial_intelligence\",\"h_machine_learning\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/b3\\/28\\/e5\\/b328e50b9c1739a19b7781ed3b12bdcc.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/bd\\/df\\/48\\/bddf4863d66b0582e2a61446184b0d70.jpg\"]}",
+    "metaDescription": "Компания Walt Disney начала тестирование роботов‑помощников с&nbsp;искусственным интеллектом для&nbsp;помощи в&nbsp;поиске парковочных мест в&nbsp;своих парках развлечений. Дизайн этих роботов...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

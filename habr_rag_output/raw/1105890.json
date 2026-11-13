@@ -1,0 +1,182 @@
+{
+  "id": "1105890",
+  "timePublished": "2026-11-10T09:29:47+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Системные сертификаты обновили, а pip — нет: проверяем окружения после инцидента eMudhra",
+  "leadData": {
+    "textHtml": "<p>20 октября раскрыли слабо сгенерированные ключи промежуточных УЦ eMudhra. Браузеры и системное хранилище уже починили, но официальный pip по-прежнему доверяет встроенному бандлу certifi: одного обновления ОС недостаточно. На стенде сравниваю пакетный pip из Debian 13, Python 3.15.1 и 3.15.2, certifi 2026.10.19 и 2026.10.23 и проверяю, есть ли в интерпретаторе блоклист ssl из CVE-2026-115557. Весь вывод — с локальной машины.</p>",
+    "imageUrl": "https://habrastorage.org/extt/32/cf/6e/32cf6e0350b0d221f44a3e06d860722e.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/32/cf/6e/32cf6e0350b0d221f44a3e06d860722e.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5903928",
+    "alias": "nikita-practice",
+    "fullname": "Субконто",
+    "avatarUrl": "//habrastorage.org/extt/11/db/b4/11dbb407232afa31ce36170cd61d31cc.png",
+    "speciality": "Разработка на 1С, Битрикс24 и веб · Субконто",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 2,
+      "votesCount": 6
+    },
+    "rating": 17,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 1,
+    "readingCount": 313,
+    "score": 1,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 5979,
+    "readers": 226
+  },
+  "hubs": [
+    {
+      "id": "340",
+      "alias": "python",
+      "type": "collective",
+      "title": "Python",
+      "titleHtml": "Python",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>20 октября 2026 года для пользователей Python опубликовали предупреждение: у восьми промежуточных удостоверяющих центров eMudhra / emSign оказались слабо сгенерированные ключи. Браузеры и системные хранилища начали отзывать доверие почти сразу. Но в экосистеме Python этого недостаточно. Официальный <code>pip</code> доверяет встроенной копии бандла <code>certifi</code>, и, как отдельно подчеркнули в официальном обсуждении, системное хранилище этот встроенный бандл не отключает.</p><p>Ниже проверяю реальные окружения на одном Linux-стенде: пакетный <code>pip</code> из Debian 13, интерпретаторы Python 3.15.1 и 3.15.2, пакетный <code>certifi</code> 2026.10.23 и <code>pip</code> 26.3 от 2 ноября. Смотрю, куда указывает <code>certifi.where()</code>, какие корни emSign остались в бандле, и есть ли в интерпретаторе блоклист модуля <code>ssl</code> из CVE-2026-115557. Весь вывод — с этой машины: Python 3.13.5 / 3.15.1 / 3.15.2, <code>pip</code> 25.1.1 / 26.2.2 / 26.3, <code>uv</code> 0.13.7.</p><h3>Что именно сломалось</h3><p>Цепочка TLS устроена так: сервер показывает сертификат, его подписывает промежуточный УЦ, того подписывает корневой. Клиент принимает соединение, только если цепочка заканчивается корнем из его списка доверия.</p><p>Если закрытый ключ промежуточного УЦ можно восстановить по открытому сертификату, обладатель этого ключа может выпускать сертификаты на чужие имена. В официальном обсуждении инцидента разработчик стандартной библиотеки Python отметил, что у всех восьми затронутых промежуточных ключей значение <code>d</code> оказалось меньше 256.</p><p>Для браузера обычно хватает обновления системного хранилища или самого браузера. У Python свой путь. Библиотеки вроде <code>requests</code> по умолчанию берут бандл из пакета <code>certifi</code>. <code>pip</code> этот бандл ещё и встраивает в себя. Обновили <code>ca-certificates</code> в системе — а <code>pip</code> продолжит ходить со своей копией, пока не обновлён сам <code>pip</code>.</p><p>Исправления выходили слоями:</p><ul><li><p>20 октября вышел <code>pip</code> 26.2.2: во встроенном <code>certifi</code> стоит версия 2026.10.19. В объявлении для пользователей Python именно эту версию <code>certifi</code> назвали минимально рекомендованной (релиз 2026.10.18 снял затронутые корни, следующий вернул совместимые).</p></li><li><p>21 октября вышли Python 3.15.1, 3.14.9 и 3.13.17 с этим <code>pip</code> внутри.</p></li><li><p>26 октября вышли Python 3.15.2, 3.14.10, 3.13.18, 3.12.16 и 3.11.18. В модуль <code>ssl</code> добавили блоклист скомпрометированных промежуточных ключей (CVE-2026-115557): он срабатывает при проверке цепочки, даже если в бандле ещё лежит соответствующий корень. В этих же выпусках закрыли обход фильтра в <code>tarfile</code> (CVE-2026-114583).</p></li><li><p>2 ноября вышел <code>pip</code> 26.3: встроенный <code>certifi</code> обновлён до 2026.10.23.</p></li></ul><p>Для <code>uv</code> в том же объявлении рекомендовали версию 0.13.6 или новее. Python 3.10 и старше к тому моменту уже не получали исправлений: последним выпуском 3.10 была 3.10.22 от 1 октября 2026 года.</p><h3>Учебный скрипт</h3><p>Один файл, стандартная библиотека плюс то, что уже стоит: <code>pip</code> и, если есть, пакет <code>certifi</code>. Сохраните как <code>check_trust.py</code>. Скрипт не ходит в сеть и не подделывает сертификаты. Версию интерпретатора сверяет со списком выпусков от 26 октября, бандл читает как текст, а блоклист <code>ssl</code> ищет по символу <code>_cert_has_distrusted_spki</code> в бинарнике интерпретатора или в расширении <code>_ssl</code>. Этот символ есть в Python 3.15.2 и отсутствует в 3.15.1 — я сравнивал оба файла на стенде.</p><pre><code class=\"python\">#!/usr/bin/env python3\n\"\"\"Проверка окружения после инцидента eMudhra / emSign (октябрь 2026).\"\"\"\n\nfrom __future__ import annotations\n\nimport pathlib\nimport sys\n\n# Версии интерпретатора, в которых модуль ssl отклоняет\n# скомпрометированные промежуточные ключи (CVE-2026-115557).\nSSL_FIXED = {\n    (3, 15, 2),\n    (3, 14, 10),\n    (3, 13, 18),\n    (3, 12, 16),\n    (3, 11, 18),\n}\n\nEMSIGN_MARKERS = (\"emSign\", \"eMudhra\", \"emudhra\")\n\n\ndef python_version() -&gt; tuple[int, int, int]:\n    v = sys.version_info\n    return (v.major, v.minor, v.micro)\n\n\ndef interpreter_has_spki_denylist() -&gt; tuple[bool, list[str]]:\n    \"\"\"Ищем символ _cert_has_distrusted_spki в бинарнике интерпретатора\n    или в расширении _ssl. Так можно отличить 3.15.2 от 3.15.1\n    без подделки сертификатов.\n    \"\"\"\n    marker = b\"_cert_has_distrusted_spki\"\n    checked: list[str] = []\n    candidates = [pathlib.Path(sys.executable).resolve()]\n    try:\n        import _ssl\n\n        so = getattr(_ssl, \"__file__\", None)\n        if so:\n            candidates.append(pathlib.Path(so).resolve())\n    except ImportError:\n        pass\n    seen: set[pathlib.Path] = set()\n    for path in candidates:\n        if path in seen or not path.is_file():\n            continue\n        seen.add(path)\n        checked.append(str(path))\n        if marker in path.read_bytes():\n            return True, checked\n    return False, checked\n\n\ndef emsign_labels(pem_text: str) -&gt; list[str]:\n    labels: list[str] = []\n    for line in pem_text.splitlines():\n        if \"Label:\" in line and any(m in line for m in EMSIGN_MARKERS):\n            label = line.split(\"Label:\", 1)[1].strip().strip('\"')\n            labels.append(label)\n    return labels\n\n\ndef read_bundle(path: pathlib.Path) -&gt; str:\n    return path.read_text(errors=\"replace\")\n\n\ndef main() -&gt; int:\n    ver = python_version()\n    ver_s = \".\".join(map(str, ver))\n    print(f\"Python: {ver_s} ({sys.executable})\")\n    print(f\"ssl denylist expected by version: {'yes' if ver in SSL_FIXED else 'no'}\")\n\n    has_marker, checked = interpreter_has_spki_denylist()\n    print(f\"ssl denylist symbol in binary: {'yes' if has_marker else 'no'}\")\n    for item in checked:\n        print(f\"  scanned: {item}\")\n\n    try:\n        import pip\n        from importlib.metadata import version as pkg_version\n\n        pip_ver = pkg_version(\"pip\")\n        pip_loc = pathlib.Path(pip.__file__).resolve().parent\n        print(f\"pip: {pip_ver} ({pip_loc})\")\n    except Exception as exc:\n        print(f\"pip: unavailable ({exc})\")\n\n    try:\n        import pip._vendor.certifi as vcert\n\n        where = pathlib.Path(vcert.where())\n        v_ver = getattr(vcert, \"__version__\", \"?\")\n        print(f\"pip vendored certifi version attr: {v_ver}\")\n        print(f\"pip certifi.where(): {where}\")\n        if where.is_file():\n            used = emsign_labels(read_bundle(where))\n            print(\"emSign roots in the bundle actually used:\")\n            if used:\n                for name in used:\n                    print(f\"  - {name}\")\n            else:\n                print(\"  (none)\")\n        vendored_pem = pathlib.Path(vcert.__file__).with_name(\"cacert.pem\")\n        if vendored_pem.exists() and vendored_pem.resolve() != where.resolve():\n            leftover = emsign_labels(read_bundle(vendored_pem))\n            print(\"UNUSED vendored cacert.pem still contains:\")\n            if leftover:\n                for name in leftover:\n                    print(f\"  - {name}\")\n            else:\n                print(\"  (none)\")\n    except Exception as exc:\n        print(f\"pip vendored certifi: unavailable ({exc})\")\n\n    try:\n        import certifi\n\n        c_ver = getattr(certifi, \"__version__\", \"?\")\n        c_where = pathlib.Path(certifi.where())\n        print(f\"standalone certifi: {c_ver} ({c_where})\")\n        if c_where.is_file():\n            used = emsign_labels(read_bundle(c_where))\n            print(\"emSign roots in standalone certifi:\")\n            if used:\n                for name in used:\n                    print(f\"  - {name}\")\n            else:\n                print(\"  (none)\")\n    except ImportError:\n        print(\"standalone certifi: not installed\")\n\n    return 0\n\n\nif __name__ == \"__main__\":\n    raise SystemExit(main())\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Запуск:</p><pre><code class=\"bash\">python check_trust.py\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Прогоните его каждым интерпретатором, который реально используете: системным, из менеджера версий, из виртуального окружения.</p><h3>Что показал стенд</h3><p>Системный Python 3.13.5 и пакетный <code>pip</code> 25.1.1 из Debian 13:</p><pre><code>Python: 3.13.5 (/usr/bin/python3)\nssl denylist expected by version: no\nssl denylist symbol in binary: no\n  scanned: /usr/bin/python3.13\n  scanned: /usr/lib/python3.13/lib-dynload/_ssl.cpython-313-x86_64-linux-gnu.so\npip: 25.1.1 (/usr/lib/python3/dist-packages/pip)\npip vendored certifi version attr: 2025.01.31\npip certifi.where(): /etc/ssl/certs/ca-certificates.crt\nemSign roots in the bundle actually used:\n  (none)\nUNUSED vendored cacert.pem still contains:\n  - emSign Root CA - G1\n  - emSign ECC Root CA - G3\n  - emSign Root CA - C1\n  - emSign ECC Root CA - C3\nstandalone certifi: 2026.10.23 (/usr/local/lib/python3.13/dist-packages/certifi/cacert.pem)\nemSign roots in standalone certifi:\n  - emSign Root CA - G1\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Здесь две важные детали. Первая: <code>where()</code> смотрит в системное хранилище, и корней emSign в нём уже нет. Этот пакетный <code>pip</code> Debian патчит. Вторая: рядом всё ещё лежит неиспользуемый <code>cacert.pem</code> встроенного <code>certifi</code> 2025.01.31 со всеми четырьмя корнями. Если судить только по номеру <code>pip</code> 25.1.1, можно решить, что окружение уязвимо. Если судить только по системному хранилищу, можно пропустить официальный <code>pip</code> в соседнем <code>venv</code>, который этим патчем не пользуется.</p><p>Отдельный пакет <code>certifi</code> 2026.10.23 на этой же машине уже оставляет только <code>emSign Root CA - G1</code>. Это не отменяет проверку самого <code>pip</code>: приложения, которые импортируют <code>certifi</code> напрямую, и инструменты, которые возят бандл внутри себя, — разные копии.</p><p>Python 3.15.1 — как раз выпуск от 21 октября, в нём уже <code>pip</code> 26.2.2:</p><pre><code>Python: 3.15.1 (/home/box/.local/share/uv/python/cpython-3.15.1-linux-x86_64-gnu/bin/python3.15)\nssl denylist expected by version: no\nssl denylist symbol in binary: no\n  scanned: /home/box/.local/share/uv/python/cpython-3.15.1-linux-x86_64-gnu/bin/python3.15\npip: 26.2.2 (/home/box/.local/share/uv/python/cpython-3.15.1-linux-x86_64-gnu/lib/python3.15/site-packages/pip)\npip vendored certifi version attr: 2026.10.19\npip certifi.where(): /home/box/.local/share/uv/python/cpython-3.15.1-linux-x86_64-gnu/lib/python3.15/site-packages/pip/_vendor/certifi/cacert.pem\nemSign roots in the bundle actually used:\n  - emSign Root CA - G1\n  - emSign Root CA - C1\n  - emSign ECC Root CA - C3\nstandalone certifi: not installed\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><code>pip</code> обновлён до минимально рекомендованной версии, но блоклиста в <code>ssl</code> ещё нет. Во встроенном бандле 2026.10.19 остались три корня emSign: сняли <code>emSign ECC Root CA - G3</code>, остальные на месте.</p><p>Python 3.15.2 — выпуск от 26 октября. Встроенный <code>pip</code> тот же, 26.2.2, бандл тот же, 2026.10.19, те же три корня. Меняется одно:</p><pre><code>Python: 3.15.2 (/home/box/.local/share/uv/python/cpython-3.15.2-linux-x86_64-gnu/bin/python3.15)\nssl denylist expected by version: yes\nssl denylist symbol in binary: yes\n  scanned: /home/box/.local/share/uv/python/cpython-3.15.2-linux-x86_64-gnu/bin/python3.15\npip: 26.2.2 (/home/box/.local/share/uv/python/cpython-3.15.2-linux-x86_64-gnu/lib/python3.15/site-packages/pip)\npip vendored certifi version attr: 2026.10.19\npip certifi.where(): /home/box/.local/share/uv/python/cpython-3.15.2-linux-x86_64-gnu/lib/python3.15/site-packages/pip/_vendor/certifi/cacert.pem\nemSign roots in the bundle actually used:\n  - emSign Root CA - G1\n  - emSign Root CA - C1\n  - emSign ECC Root CA - C3\nstandalone certifi: not installed\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Символ <code>_cert_has_distrusted_spki</code> в бинарнике есть. Это как раз «последний рубеж» из объявления от 26 октября: промежуточные ключи отклоняются при проверке цепочки, даже если корень из бандла ещё не убрали. Сам бандл <code>pip</code> при этом не сжался.</p><h3>Как закрыть и что перепроверить</h3><p>На этом стенде я поставил Python 3.15.2 и в отдельном виртуальном окружении обновил <code>pip</code>:</p><pre><code class=\"bash\">python -m pip install -U 'pip&gt;=26.3'\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>После обновления:</p><pre><code>Python: 3.15.2 (/tmp/emudhra-venv/bin/python)\nssl denylist expected by version: yes\nssl denylist symbol in binary: yes\n  scanned: /home/box/.local/share/uv/python/cpython-3.15.2-linux-x86_64-gnu/bin/python3.15\npip: 26.3 (/tmp/emudhra-venv/lib/python3.15/site-packages/pip)\npip vendored certifi version attr: 2026.10.23\npip certifi.where(): /tmp/emudhra-venv/lib/python3.15/site-packages/pip/_vendor/certifi/cacert.pem\nemSign roots in the bundle actually used:\n  - emSign Root CA - G1\nstandalone certifi: not installed\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Встроенный <code>certifi</code> стал 2026.10.23, как в журнале изменений <code>pip</code> 26.3, и в бандле остался один корень — тот же, что и в отдельном пакете 2026.10.23 на системном Python. Вместе с блоклистом в <code>ssl</code> это уже полная картина для этого интерпретатора.</p><p>Практический порядок такой:</p><ol><li><p>Обновить сам интерпретатор до 3.15.2, 3.14.10, 3.13.18, 3.12.16 или 3.11.18 — в зависимости от ветки. Виртуальные окружения продолжают указывать на тот интерпретатор, с которым их создали: после замены его лучше пересоздать.</p></li><li><p>В каждом окружении обновить <code>pip</code> хотя бы до 26.2.2, а лучше до 26.3, и пакет <code>certifi</code> — до 2026.10.23. В объявлении от 20–21 октября отдельно советовали ставить <code>pip</code> 26.2.2 колесом с фиксированной суммой SHA-256, если текущий <code>pip</code> ещё может доверять скомпрометированным ключам.</p></li><li><p>Если пользуетесь <code>uv</code>, обновите его до 0.13.6 или новее. На стенде уже 0.13.7.</p></li><li><p>Образы контейнеров пересоберите без кеша слоёв, иначе внутри останется старый <code>pip</code>.</p></li></ol><p>Несколько ловушек, которые на стенде были не гипотетическими. Номер <code>pip</code> сам по себе не говорит, каким бандлом он пользуется: в Debian 13 пакет 25.1.1 смотрит в систему, а официальный 26.2.2 — в свой <code>cacert.pem</code>. Обновлённый пакет <code>certifi</code> не чинит встроенную копию внутри <code>pip</code>. Выпуск 3.15.1 закрывает историю с бандлом <code>pip</code>, но не содержит блоклиста <code>ssl</code>. А Python 3.10 и старше блоклиста в интерпретаторе уже не получат.</p><p>Как вы инвентаризируете <code>pip</code> и интерпретатор во всех виртуальных окружениях и образах? Находили ли ещё официальный <code>pip</code> старше 26.2.2 или ветку 3.15.1 без блоклиста в <code>ssl</code>?</p></div>",
+  "tags": [
+    {
+      "titleHtml": "Python"
+    },
+    {
+      "titleHtml": "pip"
+    },
+    {
+      "titleHtml": "certifi"
+    },
+    {
+      "titleHtml": "ssl"
+    },
+    {
+      "titleHtml": "TLS"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105890/e1ee120caa308e756a4ca6c118ff8d33/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105890/e1ee120caa308e756a4ca6c118ff8d33/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105890\\/\"},\"headline\":\"Системные сертификаты обновили, а pip — нет: проверяем окружения после инцидента eMudhra\",\"datePublished\":\"2026-11-10T12:29:47+03:00\",\"dateModified\":\"2026-11-11T13:38:27+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"20 октября 2026 года для пользователей Python опубликовали предупреждение: у восьми промежуточных удостоверяющих центров eMudhra \\/ emSign оказались слабо...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105890\\/#post-content-body\",\"about\":[\"h_python\",\"h_infosecurity\",\"h_programming\",\"f_develop\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105890\\/e1ee120caa308e756a4ca6c118ff8d33\\/\"]}",
+    "metaDescription": "20 октября 2026 года для пользователей Python опубликовали предупреждение: у восьми промежуточных удостоверяющих центров eMudhra / emSign оказались слабо сгенерированные ключи. Браузеры и системные...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 8,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

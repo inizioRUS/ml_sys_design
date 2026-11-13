@@ -1,0 +1,160 @@
+{
+  "id": "1106254",
+  "timePublished": "2026-11-10T17:16:51+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Цена решает? Похоже, что да",
+  "leadData": {
+    "textHtml": "<p><strong>Для 83% участников опроса м стоимость лицензий и эксплуатации — один из главных критериев выбора СУБД.</strong> Еще 76% отметили простоту внедрения и миграции, а 68% — совместимость с приложениями.</p><p>23 октября эксперты обсудили, как меняется российский рынок СУБД, что мешает компаниям переходить на новые решения и какие технологии будут востребованы в ближайшие годы.</p><p>В дискуссии участвовал Руслан Галиев, руководитель команды коробочных продуктов Tarantool в VK Tech.</p><p><strong><em>👉 </em><a href=\"https://amlive.ru/am-live/rossijskie-subd-4/\">Смотреть эфир AM Live</a></strong><br><br>👉 Подписывайтесь на каналы Tarantool в <a href=\"https://t.me/+PapwMCY6vuNkMWIy\">Telegram</a> и <a href=\"https://max.ru/tarantool_news\">МАХ</a></p>",
+    "imageUrl": "https://habrastorage.org/extt/fb/c9/f8/fbc9f8babff95b789175641a497d6a67.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/fb/c9/f8/fbc9f8babff95b789175641a497d6a67.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2829699",
+    "alias": "Zoran-1975",
+    "fullname": "Роман",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": -1,
+      "votesCount": 45
+    },
+    "rating": 7.2,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 1,
+    "readingCount": 387,
+    "score": 4,
+    "votesCount": 4,
+    "votesCountPlus": 2,
+    "votesCountMinus": 2,
+    "reach": 6807,
+    "readers": 307
+  },
+  "hubs": [
+    {
+      "id": "23638",
+      "alias": "vktech",
+      "type": "corporative",
+      "title": "Блог компании VK Tech",
+      "titleHtml": "Блог компании VK Tech",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/fb/c9/f8/fbc9f8babff95b789175641a497d6a67.jpg\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/fb/c9/f8/fbc9f8babff95b789175641a497d6a67.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/fb/c9/f8/fbc9f8babff95b789175641a497d6a67.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p><strong>Для 83% участников опроса AM Live стоимость лицензий и эксплуатации — один из главных критериев выбора СУБД.</strong> Еще 76% отметили простоту внедрения и миграции, а 68% — совместимость с приложениями.</p><p>23 октября эксперты обсудили, как меняется российский рынок СУБД, что мешает компаниям переходить на новые решения и какие технологии будут востребованы в ближайшие годы.</p><p>В дискуссии участвовал Руслан Галиев, руководитель команды коробочных продуктов Tarantool в VK Tech.</p><p><strong><em>👉 </em></strong><a href=\"https://amlive.ru/am-live/rossijskie-subd-4/\"><strong>Смотреть эфир AM Live</strong></a><br/><br/>👉 Подписывайтесь на каналы Tarantool в <a href=\"https://t.me/+PapwMCY6vuNkMWIy\">Telegram</a> и <a href=\"https://max.ru/tarantool_news\">МАХ</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "СУБД"
+    },
+    {
+      "titleHtml": "AM Live"
+    },
+    {
+      "titleHtml": "опрос"
+    },
+    {
+      "titleHtml": "VK Tech"
+    },
+    {
+      "titleHtml": "Tarantool"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106254/18d927d6c7567d156057a20b0df0c96b/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106254/18d927d6c7567d156057a20b0df0c96b/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/vktech\\/articles\\/1106254\\/\"},\"headline\":\"Цена решает? Похоже, что да\",\"datePublished\":\"2026-11-10T20:16:51+03:00\",\"dateModified\":\"2026-11-11T14:10:06+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Для 83% участников опроса AM Live стоимость лицензий и эксплуатации — один из главных критериев выбора СУБД. Еще 76% отметили простоту внедрения и миграции, а...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/vktech\\/articles\\/1106254\\/#post-content-body\",\"about\":[\"c_vktech\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/fb\\/c9\\/f8\\/fbc9f8babff95b789175641a497d6a67.jpg\"]}",
+    "metaDescription": "Для 83% участников опроса AM Live стоимость лицензий и эксплуатации — один из главных критериев выбора СУБД. Еще 76% отметили простоту внедрения и миграции, а 68% — совместимость с приложениями. 23...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

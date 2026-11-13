@@ -1,0 +1,175 @@
+{
+  "id": "1106196",
+  "timePublished": "2026-11-10T14:58:40+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Gemini Omni 1.2 Flash: видеомодель Google научилась держать персонажа в кадре и стала дешевле на 30%",
+  "leadData": {
+    "textHtml": "<p>Gemini Omni 1.2 Flash создаёт видео по тексту, картинкам, коротким видеофрагментам и аудио. Она же правит готовый ролик: меняет фон, свет, погоду, товар в кадре или формат кадра. </p>",
+    "imageUrl": "https://habrastorage.org/extt/3d/c3/68/3dc36876d7ea6c1225ba84071641e438.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/3d/c3/68/3dc36876d7ea6c1225ba84071641e438.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5674151",
+    "alias": "TSNIS",
+    "fullname": "ЦНИС",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": true,
+    "scoreStats": {
+      "score": -4,
+      "votesCount": 10
+    },
+    "rating": 0,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": false,
+    "reach": "64K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 26,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 39,
+    "readers": 17
+  },
+  "hubs": [
+    {
+      "id": "23906",
+      "alias": "tsnis",
+      "type": "corporative",
+      "title": "Блог компании ЦНИС",
+      "titleHtml": "Блог компании ЦНИС",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Google DeepMind выпустила Gemini Omni 1.2 Flash. Это модель для генерации и редактирования видео, наследница Omni 1.1. Разработчики обещают клипы до 15 секунд вместо прежних 10, управление длительностью по секундам, меньше «плывущих» лиц и дешёвую цену: $0,07 за секунду видео в 720p.</p><p>Разберём, что изменилось по сравнению с прошлой версией, как модель работает с референсами и правками, сколько стоит и где ей пока рано доверять. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c7/51/51/c751518415a5ea4319a02fa25038dfcf.jpg\" width=\"780\" height=\"440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c7/51/51/c751518415a5ea4319a02fa25038dfcf.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/c7/51/51/c751518415a5ea4319a02fa25038dfcf.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Что это за модель</h3><p>Gemini Omni 1.2 Flash создаёт видео по тексту, картинкам, коротким видеофрагментам и аудио. Она же правит готовый ролик: меняет фон, свет, погоду, товар в кадре или формат кадра. Идентификатор в Gemini API: gemini-omni-1.2-flash.</p><p>Модель доступна через Google AI Studio и Gemini API, в консоли Google Cloud (Vertex AI Studio) и через корпоративный API с Provisioned Throughput. Из продуктов Google она подключена к Flow, Google Vids, Google Ads и приложению Gemini. В приложении доступ раскатывают постепенно, сначала для подписчиков Google AI Ultra.</p><p>Если вы хотите сравнить подход Google с другими видеомоделями, не открывая пять сервисов подряд, посмотрите, как устроена <a href=\"https://speshu.ai/studio/chat?tab=video&amp;utm_source=media&amp;utm_medium=habr&amp;utm_campaign=gemini-omni-1-2-flash\">Студия Спешу АИ</a>: там видео, фото и аудио собраны в одном интерфейсе, а для типовых задач есть готовые пресеты.</p><h3>Что нового по сравнению с Omni 1.1</h3><p>Список изменений из анонса, без украшений:</p><ul><li><p>длина клипа выросла с 10 до 15 секунд;</p></li><li><p>длительность задаётся с шагом в одну секунду, от 3 до 15;</p></li><li><p>цена за секунду в 720p снижена на 30%;</p></li><li><p>лучше держится внешность персонажей, одежда, надписи на упаковке и фирменные цвета при смене ракурса;</p></li><li><p>речь звучит естественнее, губы двигаются точнее, голоса распределяются между несколькими героями;</p></li><li><p>сложные движения камеры получаются с меньшим числом нежелательных склеек.</p></li></ul><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a0/09/fd/a009fdcb52039d9dedbedf2a1ee82f3b.png\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a0/09/fd/a009fdcb52039d9dedbedf2a1ee82f3b.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/a0/09/fd/a009fdcb52039d9dedbedf2a1ee82f3b.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Длина клипа и контроль длительности</h3><p>Десять секунд хватало на рекламную вставку или короткую сцену, но для сюжета с репликами нужно больше. Пятнадцать секунд позволяют уложить в один ролик завязку, действие и реплику героя без склейки двух генераций.</p><p>Шаг в секунду пригодится тем, кто собирает видео под конкретный хронометраж. Например, под слот рекламы на 6 секунд или под вертикальный ролик на 12. Раньше приходилось генерировать с запасом и обрезать, теперь можно сразу заказать нужную длину и не платить за лишнее: цена считается за секунду.</p><h3>Референсы: персонаж, товар, стиль</h3><p>Модель принимает три вида референсов:</p><ol><li><p>картинки с персонажем, товаром или стилем;</p></li><li><p>короткие видеофрагменты движения, до трёх секунд;</p></li><li><p>аудио: голосовые образцы и звуковые подсказки.</p></li></ol><p>По заявлению Google, лица, одежда, типографика на упаковке и бренд-цвета остаются узнаваемыми при смене ракурса камеры. Для рекламы и каталожных роликов это самое важное свойство: товар, у которого на втором плане поплыл логотип, в работу не пойдёт.</p><p>Примеры из анонса:</p><ul><li><p>примерка одежды на 15 секунд по одному фото модели и снимкам трёх образов спереди и сзади;</p></li><li><p>анимация постера слой за слоем, причём Google пишет, что совпадение с референсом стало точнее, чем в 1.1;</p></li><li><p>сцена на 15 секунд с четырьмя персонажами по референсам и односекундными образцами голосов.</p></li></ul><p>Все примеры показаны самим Google. Как модель поведёт себя на вашем каталоге или вашем персонаже, нужно проверять руками.</p><h3>Правка без перегенерации</h3><p>В Omni 1.2 Flash можно вести диалог с готовым роликом. Вы пишете, что изменить, и модель правит клип целиком, не создавая его заново с нуля. Google называет такие сценарии:</p><ul><li><p>заменить товар в руках героя;</p></li><li><p>сменить фон или время суток;</p></li><li><p>поменять освещение или погоду;</p></li><li><p>перевести ролик в другой формат кадра.</p></li></ul><p>Правки работают на полных 15-секундных клипах. Для сравнения: обычный путь у видеомоделей такой. Вы перегенерируете ролик с исправленным промптом и каждый раз получаете чуть другого героя и чуть другую сцену. Здесь заявлена именно правка, которая не ломает остальное.</p><p>Пример запроса для такой правки (промпты лучше писать на английском, модели лучше понимают формулировки и ничего не теряется при переводе):</p><p>Keep the same character, outfit and camera movement.<br/>Change the background to a rainy evening street with neon reflections on the asphalt.<br/>Keep the product label sharp and readable.</p><p>Ещё одна заявка: стабильность от первого кадра до последнего. Модель умеет интерполировать между ключевыми кадрами и продлевать готовый клип, а дрейф и «морфинг» (когда один предмет в кадре плавно превращается в другой) стали случаться реже. Насколько реже, Google в цифрах не указывает.</p><h3>Речь и звук</h3><p>Для роликов с говорящими героями Google улучшил три вещи: естественность диалога, синхронизацию губ и многоголосые сцены. Раньше при двух героях в кадре голоса легко перепутать, и реплика звучала не из тех уст. В Omni 1.2 Flash каждый голос привязан к своему персонажу.</p><p>На практике это значит, что короткий диалог двух героев можно собрать в одном клипе, не накладывая озвучку отдельно. Качество синхронизации Google демонстрирует примерами, независимых тестов в анонсе нет.</p><h3>Камера</h3><ul><li><p>непрерывный пролёт FPV-дрона без единой склейки;</p></li><li><p>резкий отъезд от крупного плана береговой линии к виду с высоты, 10 секунд;</p></li><li><p>облёт вокруг объекта.</p></li></ul><p>Раньше модели любили «подрезать» длинное движение жёсткой склейкой, и пролёт превращался в монтаж из трёх кусков. Если Google не преувеличивает, это пригодится для презентаций недвижимости, туристических роликов и демонстраций товара.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/00/bb/54/00bb540169a145a46d6bde0754113966.png\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/00/bb/54/00bb540169a145a46d6bde0754113966.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/00/bb/54/00bb540169a145a46d6bde0754113966.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Рабочий процесс: черновик в низком разрешении, финал в высоком</h3><ol><li><p>сгенерировать черновик в 360p или 720p;</p></li><li><p>внести правки в диалоге;</p></li><li><p>когда всё устраивает, увеличить ролик до 1080p или 4K.</p></li></ol><p>Подход разумный и по деньгам: проверять идею на дешёвом разрешении, а за 4K платить один раз. Если вы уже делаете видео по такой схеме в других сервисах, привычка сохранится.</p><h3>Сколько это стоит</h3><p>Цена в Gemini API: $0,07 за секунду видео в 720p. Это на 30% дешевле, чем было в Omni 1.1, то есть прежняя ставка по расчёту составляла около $0,10 за секунду.</p><p>Посчитаем:</p><ul><li><p>ролик на 15 секунд в 720p: 15 × $0,07 = $1,05;</p></li><li><p>ролик на 6 секунд: $0,42;</p></li><li><p>десять черновиков по 15 секунд: $10,50.</p></li></ul><p>Цены на 1080p и 4K в анонсе не приведены, смотрите их на странице тарифов Gemini API. В Google Vids клипы на 15 секунд создаются без дополнительной платы при наличии аккаунта Google или подписки Google Workspace.</p><p>Для самого частого сценария, пробы идеи, такая цена приемлема. А вот тот, кто собирает рекламную кампанию на сотни роликов с десятками итераций каждый, быстро увидит в смете крупную строку. Поэтому полезно считать не цену одной секунды, а стоимость готового ролика с учётом всех правок.</p><h3>Для кого подходит</h3><ul><li><p>рекламные ролики и карточки товаров с одним и тем же предметом в разных сценах;</p></li><li><p>виртуальная примерка одежды;</p></li><li><p>анимация постеров и иллюстраций;</p></li><li><p>короткие диалоги героев;</p></li><li><p>презентационные пролёты камеры.</p></li></ul><p>Для видео с быстрым экшеном, спортивных сцен и динамичной физики лучше сделать пробу заранее и сравнить с другими генераторами.</p><h3>Как не переплачивать за видеомодели</h3><p>У многих сегодня подписки на несколько нейросетей одновременно. ChatGPT стоит $30, Claude ещё $30, Kling или Seedance ещё $40. Выходит почти 10 000 рублей в месяц, хотя при нормальном использовании хватило бы 500 ₽. Дело в том, что подписка списывает деньги за доступ, а пользуетесь вы не каждой моделью каждый день.</p><p><a href=\"https://speshu.ai/?utm_source=media&amp;utm_medium=habr&amp;utm_campaign=Gemini-Omni-1.2-Flash-videomodel-Google-nauchilas-derzhat-personazha-v-kadre-i-stala-deshevle-na-30%\">Спешу АИ</a> работает по принципу pay-as-you-go: вы платите за то, что реально сгенерировали, а не за абстрактный пакет. Попробовать видео-модели можно с помощью пресетов Студии, а для новых пользователей действует скидка 50% на подписку по промокоду <strong>HABRSPESHUAI</strong> . </p><p>Подробнее о том, как собирать ролики по шагам, есть в бесплатном <a href=\"https://cdn.speshu.ai/%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81_%D0%9A%D1%8D%D0%BC%D0%B5%D1%80%D0%BE%D0%BD_%D0%B2%D0%B0%D0%BC_%D0%BF%D0%BE%D0%B7%D0%B0%D0%B2%D0%B8%D0%B4%D1%83%D0%B5%D1%82_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_%D0%BF%D0%BE_%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE_%D0%BD%D0%B5%D0%B9%D1%80%D0%BE%D1%81%D0%B5%D1%82%D1%8F%D0%BC.pdf\">гайде по генерации видео</a>.</p><h3>Итог</h3><p>Omni 1.2 Flash добавляет то, чего видеомоделям не хватало для рабочих задач: 15 секунд, правки поверх готового ролика и внятный контроль внешности героев. Цена $0,07 за секунду делает пробы недорогими. Остаётся проверить заявленное самостоятельно: независимых замеров пока нет.</p><p>Если хотите разбираться в видеомоделях и промптах дальше, в нашем <a href=\"https://t.me/+-3jM3rOkhAM4NzYy\">телеграм-канале</a> собрано больше 100 готовых промптов и гайдов для новичков и профи, а в <a href=\"https://t.me/+u7uYVr-AD3M3Mzhi\">комьюнити</a> почти 20 000 участников обсуждают, что у них получается.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "gemini"
+    },
+    {
+      "titleHtml": "google"
+    },
+    {
+      "titleHtml": "генерация видео"
+    },
+    {
+      "titleHtml": "gemini omni 1.2 flash"
+    },
+    {
+      "titleHtml": "ии-модели"
+    },
+    {
+      "titleHtml": "нейросети"
+    },
+    {
+      "titleHtml": "gemini omni"
+    },
+    {
+      "titleHtml": "gemini omni 1.1 flash"
+    },
+    {
+      "titleHtml": "gemini omni flash"
+    },
+    {
+      "titleHtml": "google api"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106196/b4f4a3d9875f9773450c7d9d4a062e30/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106196/b4f4a3d9875f9773450c7d9d4a062e30/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/tsnis\\/articles\\/1106196\\/\"},\"headline\":\"Gemini Omni 1.2 Flash: видеомодель Google научилась держать персонажа в кадре и стала дешевле на 30%\",\"datePublished\":\"2026-11-10T17:58:40+03:00\",\"dateModified\":\"2026-11-11T11:05:35+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Google DeepMind выпустила Gemini Omni 1.2 Flash. Это модель для генерации и редактирования видео, наследница Omni 1.1. Разработчики обещают клипы до 15 секунд...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/tsnis\\/articles\\/1106196\\/#post-content-body\",\"about\":[\"c_tsnis\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/c7\\/51\\/51\\/c751518415a5ea4319a02fa25038dfcf.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/a0\\/09\\/fd\\/a009fdcb52039d9dedbedf2a1ee82f3b.png\",\"https:\\/\\/habrastorage.org\\/extt\\/00\\/bb\\/54\\/00bb540169a145a46d6bde0754113966.png\"]}",
+    "metaDescription": "Google DeepMind выпустила Gemini Omni 1.2 Flash. Это модель для генерации и редактирования видео, наследница Omni 1.1. Разработчики обещают клипы до 15 секунд вместо прежних 10, управление...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": true,
+  "mode": "seo",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

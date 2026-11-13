@@ -1,0 +1,219 @@
+{
+  "id": "1106212",
+  "timePublished": "2026-11-10T16:10:22+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Разложил 512-битный RSA-ключ за 8,5 часа и вернул режим разработчика в T-Mobile Sidekick",
+  "leadData": {
+    "textHtml": "<p>Sidekick запускал только код, подписанный Danger или оператором. Ключи разработчика выдавали через веб-форму, но в 2010 году программу закрыли, а в 2011-м отключили и сами серверы. Автор нашёл в заводских прошивках самоподписанный сертификат Danger Developer Program с 512-битным RSA-ключом, которому доверяли все проверенные им поколения, от Hiptop 1 до Sidekick 3. За ночь 220 ядер на семи машинах разложили его модуль с помощью CADO-NFS: около 1175 ядро-часов и 8,5 часа реального времени. Собственная программа подписи с восстановленным закрытым ключом пересобрала официальный файл Danger байт в байт, а Sidekick 3 при загрузке написал «DEVELOPER BUILD». Дальше — интерпретатор Java на JavaScript, который запускает DangerOS в браузере, и Re:Danger: самодельные серверы Danger, которые уже отдают симулятору время, сообщения и веб-страницы.</p>",
+    "imageUrl": "https://habrastorage.org/extt/60/21/f0/6021f0cc5186b2b20bd469de25a090fa.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/60/21/f0/6021f0cc5186b2b20bd469de25a090fa.jpg",
+      "fit": null,
+      "positionY": null,
+      "positionX": null
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "translation",
+      "typeOf": "system",
+      "title": "Перевод",
+      "data": {
+        "originalAuthorName": "x86.cx",
+        "originalUrl": "https://x86.cx/blog/redanger"
+      }
+    }
+  ],
+  "author": {
+    "id": "57486",
+    "alias": "opium",
+    "fullname": "Puma",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/d81/2c5/86d/d812c586d5d94b955a3d091cd8d8de86.jpg",
+    "speciality": "Проверка автоматизации и системные эксперименты",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 45,
+      "votesCount": 141
+    },
+    "rating": 280.7,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 10,
+    "readingCount": 1217,
+    "score": 18,
+    "votesCount": 13,
+    "votesCountPlus": 13,
+    "votesCountMinus": 0,
+    "reach": 9532,
+    "readers": 956
+  },
+  "hubs": [
+    {
+      "id": "21930",
+      "alias": "antikvariat",
+      "type": "collective",
+      "title": "Старое железо",
+      "titleHtml": "Старое железо",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19011",
+      "alias": "reverse-engineering",
+      "type": "collective",
+      "title": "Реверс-инжиниринг",
+      "titleHtml": "Реверс-инжиниринг",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "118",
+      "alias": "crypto",
+      "type": "collective",
+      "title": "Криптография",
+      "titleHtml": "Криптография",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21906",
+      "alias": "history",
+      "type": "collective",
+      "title": "История IT",
+      "titleHtml": "История IT",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Автор оригинала: x86.cx</p><p>Danger Hiptop, больше известный как T-Mobile Sidekick, вышел в 2002 году. У него была полноценная QWERTY-клавиатура, встроенные AIM и Yahoo Messenger и push-уведомления, и всё это в годы, когда большинство телефонов с трудом справлялись с SMS. Работало всё на DangerOS, собственной Java-операционке Danger.</p><p>Sidekick был облачным устройством ещё до того, как слово «облако» стало привычным. Всё хранилось на серверах Danger: контакты, сообщения, фотографии, настройки. Большинство владельцев понятия не имели, что их телефон, по сути, тонкий клиент, целиком зависящий от бэкенда, о котором они никогда не задумывались. Он просто работал, и этого хватало. В 2008 году Danger купила Microsoft, в 2009-м случилась <a href=\"https://en.wikipedia.org/wiki/2009_Sidekick_data_loss\" rel=\"noopener nofollow\">катастрофическая потеря данных</a>, стёршая у пользователей контакты, фотографии и личные файлы, а в 2011-м сервис закрыли окончательно. Телефону, который держал всё на чужих серверах, стало не с кем разговаривать.</p><h3>Разрешение на запуск</h3><p>Danger давно нет, и я начал копаться в том, что от неё осталось. В итоге нашёл на archive.org копию SDK[1]: в нём было всё, что нужно для разработки под устройство, — документация, примеры, симулятор и набор JAR-файлов. Я закинул эти JAR-ы в JADX, и декомпиляция показала, как устройство работает изнутри.</p><p>Мне хотелось запустить собственный код на настоящем Sidekick, а значит, предстояло разобраться с моделью безопасности Danger. DangerOS запускает только программы, подписанные Danger или оператором. Разработчики обходили это с помощью ключа разработчика. Прошиваешь его в телефон, и тот переходит в режим разработчика: принимает приложения по USB и включает htconsole, отладочную консоль Danger.</p><p>Когда-то получить такой ключ было на удивление просто. В 2003 году Danger сама отбирала первых разработчиков и рассылала ключи по почте поштучно, и некоторые ждали ответа неделями.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/1c/c7/97/1cc7979e270cd3e78087d3aecbb5ca82.webp\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1c/c7/97/1cc7979e270cd3e78087d3aecbb5ca82.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/1c/c7/97/1cc7979e270cd3e78087d3aecbb5ca82.webp 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>К концу года появилась веб-форма для самообслуживания: вводишь номер счёта T-Mobile и IMEI, соглашаешься отказаться от поддержки оператора, и подписанный ключ приходит на почту. Так продолжалось до сентября 2010 года, когда Danger сообщила разработчикам, что перестаёт принимать новые приложения[2], а через несколько недель закрыла сайт для разработчиков — единственное место, где можно было получить ключ. Ключи больше никто не выдаёт, так что если он мне нужен, придётся сделать его самому.</p><p>На фоне открытого Android необходимость спрашивать у производителя разрешения просто чтобы запустить свой код звучит дико. А может, и нет: Google как раз <a href=\"https://developer.android.com/blog/posts/android-developer-verification-rolling-out-to-all-developers-on-play-console-and-android-developer-console\" rel=\"noopener nofollow\">вводит верификацию разработчиков</a>, и скоро приложение от разработчика, не зарегистрированного в Google, можно будет поставить только через adb или через запрятанный «расширенный сценарий».</p><h3>Ищем ключ</h3><p>Ключ разработчика Sidekick крошечный: одна настройка конфигурации, <code>lock_to_imei_0</code>, со значением IMEI телефона, и подпись Danger над ней. Бывает он в двух видах. Старые Hiptop принимали его как небольшой файл <code>.sq</code>, а Sidekick 3 — как <code>.jar</code>, устроенный как подписанное Java-приложение и устанавливаемый из режима восстановления. Подписаны оба одинаково, а единственный настоящий ключ, который мне удалось найти, был в формате <code>.sq</code>.</p><p>С настройкой всё просто. А чтобы сделать подпись, нужно знать, каким ключом телефон её проверяет, и этот ключ должен был где-то лежать в прошивке. Когда-то один студент получил полный JTAG-доступ к старому Sidekick и снял дамп его флеш-памяти[3], но для этого нужно железо, которого у меня нет, а его ссылки на скачивание давно мертвы.</p><p>К счастью, на archive.org сохранилась ServiceProgrammer — программа Danger для перепрошивки Sidekick II[4]. В ней лежат полные заводские образы ОС. Я прошёлся по всем образам в поисках всего, что похоже на сертификат или открытый ключ, и вытащил несколько десятков: сертификаты для подписи от разных операторов — T-Mobile, Fido, KPN и других, — заводские корневые сертификаты и несколько публичных корневых сертификатов TLS. Закрытых ключей, конечно, не было. Большинство ключей были 1024-битными RSA, но один сертификат выделялся:</p><pre><code>CN=Danger Developer Program, OU=Developer, O=Danger\nE=&lt;адрес сотрудника Danger, о нём ниже&gt;\nNot Before: Sep 17 2003\nNot After:  Apr 11 2006\nPublic Key: RSA (512 bit)\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Самоподписанный корневой сертификат программы для разработчиков, которому ОС доверяла на всех поколениях, что я проверил, от Hiptop 1 до Sidekick 3. Чтобы убедиться, что именно этим ключом подписаны ключи разработчика, нужен был настоящий ключ для сверки. Старый сайт Danger для разработчиков тоже сохранился на archive.org[5], и на нём до сих пор лежит <code>null-device-key.sq</code> — ключ без привязки к IMEI, который телефон принимает и тут же удаляет. Danger раздавала его, чтобы можно было выйти из режима разработчика. Его подпись сошлась с ключом Developer Program. Это был он.</p><h3>512 бит</h3><p>В 1999 году группа исследователей разложила на множители <a href=\"https://en.wikipedia.org/wiki/RSA_numbers#RSA-155\" rel=\"noopener nofollow\">RSA-155</a> — 512-битное число, то есть нашла два простых числа, произведение которых его даёт. Больше ничего для взлома RSA-ключа и не нужно: в каждом открытом ключе есть такое число, и двух его простых множителей достаточно, чтобы восстановить закрытый ключ. У исследователей это заняло около семи месяцев на сотнях компьютеров. С тех пор 512-битный RSA перестал считаться безопасным, а Danger выпустила этот сертификат четырьмя годами позже. Справедливости ради, в 2003 году разложение 512-битного ключа всё ещё было исследовательским проектом, а этот ключ охранял всего лишь режим разработчика. Никто не стал бы арендовать вычислительные мощности целого университета, чтобы ставить свои приложения на Sidekick.</p><p>В 2026 году это работа на одну ночь, если ядер хватает.</p><p>Стандартный инструмент для этого — <a href=\"https://gitlab.inria.fr/cado-nfs/cado-nfs\" rel=\"noopener nofollow\">CADO-NFS</a>, открытая реализация <a href=\"https://en.wikipedia.org/wiki/General_number_field_sieve\" rel=\"noopener nofollow\">общего метода решета числового поля</a>. Основная часть работы — просеивание, оно делится на независимые рабочие единицы и потому масштабируется на сколько угодно машин.</p><p>Одной моей рабочей станции, Ryzen 9 9950X3D, понадобилось бы около полутора суток, и то если ничего не сломается. К счастью, у меня было несколько серверов, которые особо ничем не были заняты. В CADO-NFS центральный сервер раздаёт рабочие единицы по HTTP, а клиенты просеивают и загружают результаты обратно. Я написал небольшой скрипт, который копировал пакет клиента на каждый узел, запускал там десятки клиентов с низким приоритетом и пробрасывал всё к рабочей станции через SSH-туннель. Всего над задачей работали 220 процессорных ядер (436 потоков) на семи машинах. Я запустил расчёт чуть позже девяти вечера.</p><p>Без сбоев не обошлось. Около одиннадцати вечера разом отвалились все узлы, а позже сервер захлебнулся, когда 200 клиентов одновременно попытались загрузить результаты. Оба раза я всё подлатал и запустил заново. И всё же в 6:09 утра CADO-NFS выдал два 78-значных простых числа:</p><pre><code>p = 104491666572898294264047880744514595625924491114579942567545554396922436316211\nq = 110787645499676419929932206845243986470558771418524609420578927381066743957279\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Перемножьте их — и получите n, 155-значное число из открытого ключа Danger:</p><pre><code>n = 11576385713948644711688861097066027618113758646736035007798668946285132955940594207257263351308819380417615195922932748143994263878857883771956785119149869\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Этап</p></th><th><p align=\"left\">Затраты</p></th></tr><tr><td><p align=\"left\">Выбор полинома</p></td><td><p align=\"left\">~63 ядро-часа</p></td></tr><tr><td><p align=\"left\">Просеивание</p></td><td><p align=\"left\">~578 ядро-часов, 204,5 млн соотношений</p></td></tr><tr><td><p align=\"left\">Фильтрация</p></td><td><p align=\"left\">~2 ядро-часа</p></td></tr><tr><td><p align=\"left\">Линейная алгебра</p></td><td><p align=\"left\">~35 ядро-часов, 2,5 часа на одной машине</p></td></tr><tr><td><p align=\"left\">Квадратный корень</p></td><td><p align=\"left\">около минуты</p></td></tr><tr><td><p align=\"left\">Итого</p></td><td><p align=\"left\">~1175 ядро-часов (около 49 ядро-суток), 8,5 часа реального времени</p></td></tr></tbody></table></div></div><p>Дальше восстановить закрытый ключ можно в несколько строк на Python. Для проверки я написал свою программу подписи и с её помощью заново собрал <code>null-device-key.sq</code> от Danger. Результат совпал с оригинальным файлом байт в байт. Спустя больше двадцати лет я мог подписывать ключи разработчика так же, как это делала Danger.</p><p>Для Sidekick 3 я положил настройку с IMEI в <code>.jar</code>, подписал его и прошил из режима восстановления. Режим восстановления проверяет, что разрешено подписавшему сертификату: сертификат оператора мог заменить ОС целиком, а сертификат Developer Program — только установить настройку разработчика. Больше мне и не требовалось. При следующей загрузке в логе появились две строки, за которыми я охотился:</p><pre><code>Config: Override w/key IMEI found.\nConfig: DEVELOPER BUILD\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Class of '09</h3><p>Первым делом я запустил на разблокированном Sidekick 3 порт <a href=\"https://en.wikipedia.org/wiki/Class_of_%2709_(franchise)\" rel=\"noopener nofollow\">Class of '09</a> — визуальной новеллы, действие которой происходит в 2007 году, а у главной героини как раз Sidekick. Порт представляет собой небольшой движок на Java, который проигрывает сценарий, графику, озвучку и ролики игры из пакета данных на карте памяти, ужатого с 1080p до экрана 240×160. Концовки приходят настоящими текстовыми уведомлениями Sidekick через эмулированный модем. Об этом стоит написать отдельный пост.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/1b/7a/e9/1b7ae95e48e86b8dbff4829ead2bebff.webp\" alt=\"Class of '09 на Sidekick 3\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1b/7a/e9/1b7ae95e48e86b8dbff4829ead2bebff.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/1b/7a/e9/1b7ae95e48e86b8dbff4829ead2bebff.webp 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Class of '09 на Sidekick 3</figcaption></div></figure><h3>Симулятор в браузере</h3><p><em>Прим. пер.: в оригинале статьи в самом начале страницы встроен работающий Sidekick — о нём и идёт речь в этом разделе.</em></p><p>Sidekick в начале оригинальной страницы — это настоящая DangerOS, тот же байт-код, что и в симуляторе из SDK, только запущенный в браузере. Симулятор Danger — настольное Java-приложение, а привычные способы запустить Java на веб-странице тащат за собой целую JVM. DangerOS столько не нужно, поэтому я написал небольшой интерпретатор Java на JavaScript. Он загружает ОС прямо из SDK, без изменений, поверх стандартной библиотеки классов Java. Переписал я только то, что касалось десктопа: экран, клавиатуру, файлы и звук.</p><p>Со звуком вышло особенно. Sidekick 3 не декодирует MP3 программно: телефон передаёт их своему звуковому железу. Симулятору Danger передавать их было некому, поэтому MP3 он не играл вообще. Он знал только MIDI, WAV и ещё пару форматов, и музыкальный плеер из SDK показывал список песен, а потом играл тишину. В браузере MP3 уходят во встроенный декодер браузера, который подменяет железо. Поэтому плеер здесь работает. Сети нет, так что всё ведёт себя как телефон без сигнала: лаунчер, игры и плеер работают, а всё, что требует интернета, нет. Все изменения сохраняются в браузере до следующего раза.</p><p>Это телефон целиком, так что осмотритесь. Кнопка Jump (или F8) возвращает на главный экран откуда угодно. Помните адрес на том сертификате? Он принадлежит Брайану Светланду (Brian Swetland), который работал над операционной системой Hiptop, а потом руководил работой над ядром Android. На его сайте есть галерея фотографий из офиса Danger 2001 года, <a href=\"https://frotz.net/pics/dangerous-people-2001/\" rel=\"noopener nofollow\">Dangerous People 2001</a>, и они есть на этом Sidekick: откройте приложение Camera и выберите альбом. Остальные фотографии там я снял на свой Sidekick 3 в Японии. В разделе Games уже установлена Class of '09. Попробуйте!</p><h3>Re:Danger</h3><p>Без серверов Danger Sidekick — только половина телефона, поэтому я ещё и восстанавливаю их по декомпилированному коду. Проект называется <a href=\"https://github.com/iridium/redanger\" rel=\"noopener nofollow\">Re:Danger</a>. Пока он общается только с симулятором. Вот что уже есть:</p><p><strong>Часы.</strong> Первое, что заработало. После рукопожатия и входа сервер сообщил телефону, который час, и часы в строке состояния переключились. Это был первый ответ, который Sidekick получил от бэкенда с 2011 года.</p><p><strong>Сообщения.</strong> Sidekick никогда не подключался к AIM, Yahoo или MSN сам. Серверы Danger оставались залогинены от вашего имени и отправляли каждое сообщение на телефон в момент его прихода — за годы до того, как push-уведомления появились у iPhone. Этих сервисов больше нет, поэтому Re:Danger пересылает сообщения в Discord.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/b2/e9/d3/b2e9d30871c2b7fe9bc0cae98602740f.png\" alt=\"Сообщения через Re:Danger\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b2/e9/d3/b2e9d30871c2b7fe9bc0cae98602740f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/b2/e9/d3/b2e9d30871c2b7fe9bc0cae98602740f.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Сообщения через Re:Danger</figcaption></div></figure><p><strong>Веб.</strong> Телефон никогда не загружал страницы сам: прокси Danger скачивал страницу, верстал её и отправлял телефону уже свёрстанную страницу, которую оставалось только отрисовать. Это значило, что Danger видела каждую страницу, которую вы открывали. Впрочем, это мало что меняло: большая часть веба тогда всё равно не шифровалась. В Re:Danger есть маленькая версия такого прокси — её хватает, чтобы читать Hacker News на Sidekick.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/1b/32/8d/1b328d5df45c8ff84504d4cc4a846078.png\" alt=\"Hacker News на Sidekick через прокси Re:Danger\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1b/32/8d/1b328d5df45c8ff84504d4cc4a846078.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/1b/32/8d/1b328d5df45c8ff84504d4cc4a846078.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Hacker News на Sidekick через прокси Re:Danger</figcaption></div></figure><h3>Что дальше</h3><p><strong>Настоящее железо.</strong> Настоящий Sidekick к серверу Re:Danger ещё ни разу не подключался. Я пытался направить на него свой телефон через переопределение конфигурации и через сеть по USB, и телефон отказался в обоих случаях. Следующий шаг — поднять собственную GSM-сеть: Sidekick 3 — телефон GSM/EDGE, так что SDR с <a href=\"https://osmocom.org/\" rel=\"noopener nofollow\">Osmocom</a> может заменить вышки T-Mobile, передавать его данные и отправлять их в Re:Danger вместо Danger.</p><p><strong>Всё остальное.</strong> Почта, подключение к возрождённым серверам AIM по протоколу OSCAR, каталог загрузок Download Catalog и синхронизация фотографий — всё это ещё в списке.</p><p>Если у вас есть Sidekick 3, <a href=\"https://github.com/iridium/redanger#making-a-key\" rel=\"noopener nofollow\">сделайте для него ключ разработчика</a> и запустите свой код.</p><p>Если у вас есть Hiptop 1 или 2, мне интересно, работает ли ещё оригинальная процедура прошивки от Danger. Проверить её я не смог.</p><h3>Примечания</h3><ol><li><p>Hiptop SDK: <a href=\"https://archive.org/details/hiptop_sdk\" rel=\"noopener nofollow\">https://archive.org/details/hiptop_sdk</a></p></li><li><p>«Danger Closing Developer Program», Hiptop3.com, 2010: <a href=\"http://www.hiptop3.com/archives/danger-closing-developer-program\" rel=\"noopener nofollow\">http://www.hiptop3.com/archives/danger-closing-developer-program</a></p></li><li><p>Заметки о JTAG и дампе флеш-памяти Sidekick II (архив): <a href=\"https://web.archive.org/web/20160628162439/http://www.cs.umb.edu:80/~bazz/learn/independent/sidekick2/\" rel=\"noopener nofollow\">https://web.archive.org/web/20160628162439/http://www.cs.umb.edu:80/~bazz/learn/independent/sidekick2/</a></p></li><li><p>Прошивки Danger Hiptop2: <a href=\"https://archive.org/details/danger_hiptop2_firmware\" rel=\"noopener nofollow\">https://archive.org/details/danger_hiptop2_firmware</a></p></li><li><p>Архив материалов для разработчиков Danger Hiptop: <a href=\"https://archive.org/details/danger-hiptop\" rel=\"noopener nofollow\">https://archive.org/details/danger-hiptop</a></p></li></ol></div>",
+  "tags": [
+    {
+      "titleHtml": "T-Mobile Sidekick"
+    },
+    {
+      "titleHtml": "Danger Hiptop"
+    },
+    {
+      "titleHtml": "RSA"
+    },
+    {
+      "titleHtml": "факторизация"
+    },
+    {
+      "titleHtml": "CADO-NFS"
+    },
+    {
+      "titleHtml": "реверс-инжиниринг"
+    },
+    {
+      "titleHtml": "ретро-телефоны"
+    },
+    {
+      "titleHtml": "DangerOS"
+    },
+    {
+      "titleHtml": "Osmocom"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106212/dad88f786f17d42016954887ee9150f0/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106212/dad88f786f17d42016954887ee9150f0/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106212\\/\"},\"headline\":\"Разложил 512-битный RSA-ключ за 8,5 часа и вернул режим разработчика в T-Mobile Sidekick\",\"datePublished\":\"2026-11-10T19:10:22+03:00\",\"dateModified\":\"2026-11-11T18:15:12+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Автор оригинала: x86.cx Danger Hiptop, больше известный как T-Mobile Sidekick, вышел в 2002 году. У него была полноценная QWERTY-клавиатура, встроенные AIM и...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106212\\/#post-content-body\",\"about\":[\"h_antikvariat\",\"h_reverse-engineering\",\"h_crypto\",\"h_history\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/1c\\/c7\\/97\\/1cc7979e270cd3e78087d3aecbb5ca82.webp\",\"https:\\/\\/habrastorage.org\\/extt\\/1b\\/7a\\/e9\\/1b7ae95e48e86b8dbff4829ead2bebff.webp\",\"https:\\/\\/habrastorage.org\\/extt\\/b2\\/e9\\/d3\\/b2e9d30871c2b7fe9bc0cae98602740f.png\",\"https:\\/\\/habrastorage.org\\/extt\\/1b\\/32\\/8d\\/1b328d5df45c8ff84504d4cc4a846078.png\"]}",
+    "metaDescription": "Автор оригинала: x86.cx Danger Hiptop, больше известный как T-Mobile Sidekick, вышел в 2002 году. У него была полноценная QWERTY-клавиатура, встроенные AIM и Yahoo Messenger и push-уведомления, и всё...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 8,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

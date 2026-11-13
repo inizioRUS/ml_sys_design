@@ -1,0 +1,160 @@
+{
+  "id": "1105584",
+  "timePublished": "2026-11-09T14:56:44+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "От бизнес-задач к работающей IBP-системе: как спроектировать процессы планирования и воплотить их в IT-решении",
+  "leadData": {
+    "textHtml": "<p>Прогнозирование спроса, планирование закупок и управление запасами напрямую влияют на финансовые результаты компании, но на практике эти процессы нередко развиваются независимо друг от друга: подразделения используют разные данные, руководствуются собственными показателями и планируют в разных горизонтах. В результате прогноз спроса не всегда учитывается при планировании пополнения, а решения по запасам могут расходиться с общими бизнес-целями.</p><p>Автоматизация отдельных участков не гарантирует, что ситуация изменится. Если процессы не согласованы, ответственность между подразделениями не распределена, а требования к системе сформулированы без учета реальных задач бизнеса, компания рискует просто перенести существующий хаос в цифровую среду.</p><p><strong>24 ноября в 11:00 (МСК)</strong> эксперты Novo BI и ROXIT (входит в ГК «Корус Консалтинг») проведут вебинар о том, как связать бизнес-цели, процессы, регламенты и IT-систему в единую модель планирования, ориентированную на измеримый результат. </p>",
+    "imageUrl": "https://habrastorage.org/extt/e7/71/d3/e771d35f801dd90c2f9e0ca77cc69461.png",
+    "buttonTextHtml": "Подробнее о вебинаре",
+    "image": {
+      "url": "https://habrastorage.org/extt/e7/71/d3/e771d35f801dd90c2f9e0ca77cc69461.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "4561955",
+    "alias": "yegriban",
+    "fullname": "Елена",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/676/6b0/e5d/6766b0e5d4fd67ed65bfb1b8b5536853.jpg",
+    "speciality": "Разновидность маркетолога",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 2,
+      "votesCount": 2
+    },
+    "rating": -0.6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 164,
+    "score": -1,
+    "votesCount": 1,
+    "votesCountPlus": 0,
+    "votesCountMinus": 1,
+    "reach": 6535,
+    "readers": 108
+  },
+  "hubs": [
+    {
+      "id": "23522",
+      "alias": "korus_consulting",
+      "type": "corporative",
+      "title": "Блог компании КОРУС Консалтинг",
+      "titleHtml": "Блог компании КОРУС Консалтинг",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Прогнозирование спроса, планирование закупок и управление запасами напрямую влияют на финансовые результаты компании, но на практике эти процессы нередко развиваются независимо друг от друга: подразделения используют разные данные, руководствуются собственными показателями и планируют в разных горизонтах. В результате прогноз спроса не всегда учитывается при планировании пополнения, а решения по запасам могут расходиться с общими бизнес-целями.</p><p>Автоматизация отдельных участков не гарантирует, что ситуация изменится. Если процессы не согласованы, ответственность между подразделениями не распределена, а требования к системе сформулированы без учета реальных задач бизнеса, компания рискует просто перенести существующий хаос в цифровую среду.</p><p><strong>24 ноября в 11:00 (МСК)</strong> эксперты Novo BI и ROXIT (входит в ГК «Корус Консалтинг») проведут вебинар о том, как связать бизнес-цели, процессы, регламенты и IT-систему в единую модель планирования, ориентированную на измеримый результат. </p><p><strong>Вы узнаете:</strong></p><ul><li><p>Как определить целевые показатели и связать их с требованиями к планированию.</p></li><li><p>Как обследовать текущие процессы, выявить разрывы и спроектировать целевую модель.</p></li><li><p>Как закрепить процессы в регламентах, распределить ответственность и организовать взаимодействие подразделений. </p></li><li><p>Как связать прогнозирование спроса с планированием пополнения и управлением запасами. </p></li><li><p>Как реализовать процессы в IT-решении: от данных и расчётов до алертов, согласований и контроля исполнения. </p></li><li><p>Как организовать внедрение и измерять результат через показатели эффективности. </p></li></ul><p><strong>Кому будет полезно</strong></p><p>Вебинар ориентирован на руководителей цепей поставок, директоров по логистике и закупкам, руководителей планирования, владельцев бизнес-процессов, ИТ-директоров и участников проектов цифровой трансформации.</p><p>➡️  <a href=\"https://my.mts-link.ru/j/KORUSKonsulting/27160822157?utm_source=habr\"><strong>Участие бесплатное, требуется предварительная регистрация</strong></a><strong> </strong></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/29/3a/52/293a5234a9b5a8ab84b61d845483ec87.png\" width=\"1920\" height=\"1080\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/29/3a/52/293a5234a9b5a8ab84b61d845483ec87.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/29/3a/52/293a5234a9b5a8ab84b61d845483ec87.png 781w\" loading=\"lazy\" decode=\"async\"/></figure></div>",
+  "tags": [
+    {
+      "titleHtml": "бизнес-планирование"
+    },
+    {
+      "titleHtml": "управление запасами"
+    },
+    {
+      "titleHtml": "цифровизация"
+    },
+    {
+      "titleHtml": "IBP"
+    },
+    {
+      "titleHtml": "NovoBI"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105584/f53cac89fd7aa6b1eca9f7f49653af6a/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105584/f53cac89fd7aa6b1eca9f7f49653af6a/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/korus_consulting\\/articles\\/1105584\\/\"},\"headline\":\"От бизнес-задач к работающей IBP-системе: как спроектировать процессы планирования и воплотить их в IT-решении\",\"datePublished\":\"2026-11-09T17:56:44+03:00\",\"dateModified\":\"2026-11-11T14:31:25+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Прогнозирование спроса, планирование закупок и управление запасами напрямую влияют на финансовые результаты компании, но на практике эти процессы нередко...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/korus_consulting\\/articles\\/1105584\\/#post-content-body\",\"about\":[\"c_korus_consulting\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/29\\/3a\\/52\\/293a5234a9b5a8ab84b61d845483ec87.png\"]}",
+    "metaDescription": "Прогнозирование спроса, планирование закупок и управление запасами напрямую влияют на финансовые результаты компании, но на практике эти процессы нередко развиваются независимо друг от друга:...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "26",
+    "title": "Менеджмент",
+    "alias": "management"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

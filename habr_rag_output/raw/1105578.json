@@ -1,0 +1,182 @@
+{
+  "id": "1105578",
+  "timePublished": "2026-11-09T16:11:49+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Частотомер с БИХ-фильтром НЧ в 1 Кбайте на ATtiny13 и на что способен этот «малыш»",
+  "leadData": {
+    "textHtml": "<p>Появилась необходимость сделать частотомер для настройки бензинового генератора. Т.е. сама по себе задача простая: измерить частоту синусоидального напряжения в пределах 40..70 Гц с точностью около ±0.1 Гц, но при условии больших шумов и искажений, которые возникают при работе генератора. Для этого уже сделаны много вариантов приборов, но был «спортивный интерес» и азарт. На макетке был установлен один из самых простых и легких микроконтроллеров ATtiny13.</p>",
+    "imageUrl": "https://habrastorage.org/extt/c7/e7/91/c7e7913af998490b7d7fe5f17dd742d0.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/c7/e7/91/c7e7913af998490b7d7fe5f17dd742d0.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "6054094",
+    "alias": "Andrey_314",
+    "fullname": "Андрей Подшивалов",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 8,
+      "votesCount": 8
+    },
+    "rating": 27,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 15,
+    "favoritesCount": 23,
+    "readingCount": 1706,
+    "score": 16,
+    "votesCount": 13,
+    "votesCountPlus": 13,
+    "votesCountMinus": 0,
+    "reach": 10350,
+    "readers": 1237
+  },
+  "hubs": [
+    {
+      "id": "21976",
+      "alias": "DIY",
+      "type": "collective",
+      "title": "DIY или Сделай сам",
+      "titleHtml": "DIY или Сделай сам",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19737",
+      "alias": "controllers",
+      "type": "collective",
+      "title": "Программирование микроконтроллеров",
+      "titleHtml": "Программирование микроконтроллеров",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "595",
+      "alias": "assembler",
+      "type": "collective",
+      "title": "Assembler",
+      "titleHtml": "Assembler",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Появилась необходимость сделать частотомер для настройки бензинового генератора. Т.е. сама по себе задача простая: измерить частоту синусоидального напряжения в пределах 40..70 Гц с точностью около ±0.1 Гц, но при условии больших шумов и искажений, которые возникают при работе генератора. Для этого уже сделаны много вариантов приборов, но был «спортивный интерес» и азарт. На макетке был установлен один из самых простых и легких микроконтроллеров ATtiny13. От предыдущих проектов на нем уже был сделан индикатор на 3 7-сегментных разряда с использованием одного сдвигового регистра 74HC164 (код написан под 74HC595, но на практике справляется и более простой сдвиговый регистр).</p><p>Изначально была уже готовая макетная плата для экспериментов, но начал с создания симуляции прибора в симуляторе SimulIDE (отдельная благодарность создателям такого прекрасного инструмента). Обратите внимание на то, что в симуляторе сразу внесена помеха \"пила\" амплитудой 1 В и частотой 130 Гц. Чтобы увидеть и оценить работу фильтра (форма полученного напряжения на осциллографе).</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c7/e7/91/c7e7913af998490b7d7fe5f17dd742d0.png\" width=\"1252\" height=\"708\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c7/e7/91/c7e7913af998490b7d7fe5f17dd742d0.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c7/e7/91/c7e7913af998490b7d7fe5f17dd742d0.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Понятно, что писать такие инструменты на Си не вариант. Так что, весь проект создавался в ассемблере. Изначально, представлялся простой АЦП, небольшая математика фильтра НЧ и счетчика продолжительности периода синусоиды, а также динамическая индикация 3-х разрядов частоты (2 – десятки, единицы и 1 десятые).</p><p>Для стабильной работы частотомера был применен внешний генератор на кварцевом резонаторе 8МГц. Соответственно, для работы микроконтроллера надо изменить фьюзы: 1. убрать фьюз CKDIV8 (чтобы тактовая частота не делилась на 8); 2. убрать фьюзы CKSEL1..0 в \"00\" (внешний генератор, БУДЬТЕ БДИТЕЛЬНЫ! если у Вас не будет внешнего генератора - то не сможете более \"достучаться\" до микроконтроллера). Фьюзы отвечающие за старт микроконтроллера BODLELVEL1..0 и SUT1..0 на свое усмотрение.</p><p>Начну с выбора частоты и режима работы таймера. Планировалось делать выборки АЦП на частоте 8 кГц, чтобы получить точность измерения частоты ±0.1Гц. Т.е. продолжительность одного такта таймера T = 1/8000 Гц = 125 мкс и в период синусоиды 50 Гц (20000 мкс) вошло бы 160 тактов. Это значение отлично помещается в 8-ми битный регистр и обеспечило бы желаемую точность.</p><p>Кибернетику я подзабыл, с далекого 90-го года, поэтому обратился за помощью к ИИ-Gemini обитающему в Google Chrome. В результате был создан код БИХ-фильтра с коэффициентами в степенях 2-ки и целочисленной 16-ти битной математикой. По-другому на ATtiny13 не получится, потому что аппаратного умножения нет и действий с плавающей запятой тоже.  Скоро выяснилось, что при дискретизации синусоиды на частоте 8 кГц, фильтр то «возбуждался», то «затухал» совсем, вел себя нестабильно. Пришлось понижать частоту дискретизации и был выбран режим таймера CTC (Clear Timer on Compare - счетчик доходит до значения в компараторе A, обнуляется и начинает новый цикл) с пред делителем 8: Ft = 8МГц (Fosc) / 8 / 213 (значение компаратора A) = 4687,5 Гц. На этой частоте удалось подобрать коэффициенты фильтра, которые устойчиво фильтровали входную синусоиду в интервале 40..70 Гц от более высоких частотных искажений.</p><p>И так, приступим:</p><pre><code class=\"assembly\">; ATtiny13_Freq_new.asm\n; Created: 08.10.2026 15:32:29\n; Author : Андрей П.\n;\nОписал используемые регистр, константы и макросы.\n.def ZER\t=\tr3\t\t; Всегда НОЛЬ для всяких операция\n.def tmp_0\t=   r16\t\t; Регистр для временных данных 0\n.def tmp_1\t=   r17\t\t; Регистр для временных данных 1\n.def r_tens\t=   r22\t\t; Регистр для десятых частоты\n.def obnov\t=   r23\t\t; Регистр пред делитель сглаживания за 32 измерения\n.def pseg\t=   r24\t\t; Регистр отображаемого разряда\n.def rdis\t=   r25\t\t; Регистр пред делителя частоты дисплея\n\n.equ DAT\t= PB2\t\t; PB2 (ножка 7 чипа) / она же разряд 1 \n.equ SH\t\t= PB0\t\t; PB0 (ножка 5 чипа) / она же разряд 0 \n.equ LC\t\t= PB1\t\t; PB1 (ножка 6 чипа) / она же разряд 2\n.equ P_ADC\t= (1&lt;&lt;MUX1)\t; ADC2 (ножка 3 чипа) вход АЦП\n\n.equ period_disp = 31\t; частота дисплея f = 4687,5 / 31 = 151 Гц\n.equ Disp_new = $20\t\t; 32 - периода синусоиды на обновление результата\n.equ calibr = -2\t\t; Калибровка полученная опытным путем со знаком минус для subi\n\n.MACRO DISP_HIGH\t\t; Макросы «дрыга» пином DAT регистра сдвига \n\tsbi\t\tPORTB, DAT\t; для простого изменения индикатора\n.ENDM\t\t\t\t    ; с общим катодом/анодом\n.MACRO DISP_LOW\n\tcbi\t\tPORTB, DAT\n.ENDM</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Таблица векторов прерываний:</p><pre><code class=\"assembly\">.cseg\n.org 0x0000\t\t; Прерывание Reset при старте работы\n    rjmp\tInit\n.org OVF0addr\t\t; Прерывание по совпадению компаратора A\n\trjmp\tTimer_tick</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Обработчик прерывания Reset – инициализация режимов микроконтроллера:</p><pre><code class=\"assembly\">.org 0x000a\nInit:\n\tсli\n\tldi\t\ttmp_0, LOW(RAMEND)\n\tout\t\tSPL, tmp_0\n\t\n\tclr\t\tZER\n; Настройка портов\t\n\tout\t\tPortB, ZER\n\tldi\t\ttmp_0, (1&lt;&lt;DAT|1&lt;&lt;SH|1&lt;&lt;LC)  \n    out\t\tDDRB, tmp_0\n\n; Настройка таймера\n\tldi\t\ttmp_0, $00\t\t\n\tout\t\tTCCR0A, tmp_0\n\tldi\t\ttmp_0, (1&lt;&lt;CS01)\t; Fпрерывания = f / 8 / 256 = 4687,5 Гц Tt = 213 мкс (В периоде синуса 50Гц примерно 94 такта).\n\tout\t\tTCCR0B, tmp_0\n\n    ldi\t\ttmp_0, 213\n\tout\t\tOCR0A, tmp_0\n\n    ldi\t\ttmp_0, (1&lt;&lt;OCIE0A)\t; Разрешение прерывания при совпадении компаратора A\n\tout\t\tTIMSK0, tmp_0\n\n; --- НАСТРОЙКА АЦП (С автоматическим триггером от Таймера 0) ---\n; REFS0 = 0 -&gt; Опорное напряжение VCC\n; MUX1:0 = 00 -&gt; Вход ADC2 (пин PB4)\n\tldi\t\ttmp_0, P_ADC                      \n\tout\t\tADMUX, tmp_0\n\n; ADATE = 1 -&gt; Включить автотриггер\n; ADPS2:0 = 110 -&gt; Делитель частоты АЦП на 64 (9.6 МГц / 64 = 150 кГц)\n; Одно преобразование займет 13 тактов АЦП = 87 мкс\n\tldi\t\ttmp_0, (1&lt;&lt;ADEN|1&lt;&lt;ADATE|1&lt;&lt;ADSC|1&lt;&lt;ADPS2|1&lt;&lt;ADPS1)\n\tout\t\tADCSRA, tmp_0\n\n; ADCSRB: TS2:0 = 011 -&gt; Источник триггера: переполнение таймера\n; Как только таймер дойдет до CompA, АЦП сам начнет замер, без участия программы!\n\tldi\t\ttmp_0, (1&lt;&lt;ADTS1|1&lt;&lt;ADTS0)\n\tout\t\tADCSRB, tmp_0\n; Ну и наконец исходные значения переменных\n\tldi\t\trdis, period_disp\n\tldi\t\tpseg, 2\n\tldi\t\tobnov, Disp_new\n\n\tclr\t\txl\n\n\tsts\t\tSmooth_l, ZER\n\tsts\t\tSmooth_h, ZER\n\tsei\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Сама программа, пустой цикл:</p><pre><code class=\"assembly\">Loop:\n    rjmp\tLoop</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Теперь, обработчик прерывания единственного таймера при срабатывании компаратора A:</p><pre><code class=\"assembly\">; Прерывание по тику таймера    \nTimer_tick:\n\t\n\t; Читаем АЦП\n\tin\tr20, ADCL\n\tin\tr21, ADCH\n\tsubi\tr21, $02      ; Центрируем АЦП - 512 (r21:r20 = X0)\n\n; Запускаем выполнение БИХ-фильтра синусоиды 40-70Гц\n; На входе x0 - r21:r20\n; На выходе y1 - r21:r20, y0 - r17:r16\n\trcall\tfilter_tick\n\n; Расчет частоты в случае перехода синусоиды через ноль снизу в верх\n; На входе все те же y1 - r21:r20, y0 - r17:r16\n\trcall\tCount_freq\n\n\tdec\trdis\t\t; Уменьшаем предделитель для индикации на 150 Гц (50 Гц * 3 разряда)\n\tbrne\tEnd\t\t; Пока не достигнут 0 не трогаем дисплей\n\tldi\trdis, period_disp\t;Восстанавливаем значение пред делителя индикации\n\n\t; Установим на дисплее разряд pseg\n\trcall\tDisp\n\n\tdec\t\tpseg\t; Переходим к меньшему разряду\n    brpl\tEnd\t    ; Если положительное, то закончим\n\tldi\t\tpseg, 2 ; Иначе вернемся к разряду 2\n\t\nEnd:\n\treti</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Динамическая индикация на 3 разряда требует для своей работы таймера не ниже 150 Гц (3 * 50Гц). Поэтому был сразу выделен регистр rdis, как пред делитель частоты для работы индикатора. Чтобы получить нужный делитель, делим 4687,5 Гц на 150 Гц и получаем приблизительно 31 такт. Зафиксировали это значение константой period_disp. Преобразования АЦП запускаются по таймеру при совпадении компаратора A. Это удобно потому, что на начало прерывания уже наверняка есть сформированное значение напряжения с предыдущего цикла. Да, это сдвиг фазы синусоиды на 213 мкс, но на измерение периода сигнала никак не влияет.</p><p>Подпрограмма отображения разряда на индикаторе:</p><pre><code class=\"assembly\">Disp:\n; На входе регистр pseg = разряду, который будет показываться\n; В адресе Flash Pos -  два байта с двоично-десятичными данными индикатора в формате:  10  х2 \n\n\tldi yh, HIGH(Pos)\t; Заполняем регистр Y ссылкой на значение частоты\n\tldi yl, LOW(Pos)\n\n\tmov tmp_0, pseg\t; tmp_0 = разряд\n\tlsr tmp_0\t\t; tmp_0 = разряд / 2\n\n\tadd yl, tmp_0\t\t; Сдвигаем ссылку на разряд / 2 (в одном байте два разряда)\n\tadc yh, ZER\n\tld tmp_0, y\t\t    ; tmp_0 = байту из двух разрядов для отображения\n\n\tsbrc pseg, 0\t\t; Если разряд нечетный, то продолжаем\n\tswap\ttmp_0\t\t; иначе меняем местами полубайты\n\tandi tmp_0, $0f\t    ; Убираем старший ненужный  полубайт.\n\t\n\tldi zh, HIGH(Dig*2)\t; Заполняем регистр Z ссылкой на знакогенератор\n\tldi zl, LOW(Dig*2)\n\tadd zl, tmp_0\t\t; Смещаем ссылку на символ с кодом для отображения\n\tadc zh, ZER\n\tlpm tmp_0, z\t\t; Получаем матрицу для 7 сегментного индикатора нужного символа\n\n; Всегда рисуем точку в среднем сегменте\t\n\tcpi\tpseg, 1\n\tbrne\two_point\n\tsbr\ttmp_0, $08\n\n; Продвинем биты из tmp_0 в 164/595 регистр \nwo_point:\n\tcbi PortB, LC\t; Убираем сигнал продвижения байта на выход для 595 регистра\n\tldi tmp_1, 8\t; Цикл на 8 тактов\nNextS:\n\tcbi PortB, SH\t; Убираем сигнал сдвига с регистра 595\n\tsbrc tmp_0, 7\t; Выставляем значение DAT по 7-мо биту\n\trjmp SetBit\n\tDISP_LOW\n\trjmp Shift\nSetBit:\n\tDISP_HIGH\nShift:\n\tsbi\tPortB, SH\t; Выставляем строб сдвига регистра 595\n\tlsl tmp_0\t\t; Сдвигаем данные на 1 бит влево\n\tdec tmp_1\t\t; уменьшаем значение счетчика\n\tbrne NextS\t\t; если не 0, то повторяем цикл\n\tsbi PortB, LC\t\t; Продвигаем байт 595 регистра на выход\n\n; А вот тепрь установим сигналы управления разрядами\n\tcpi pseg, 2\t; Если разряд != 2, то переходим к разряду 1\n\tbrne Vis1\t; иначе включаем разряд 2\n;\tsbi PortB, LC\t; Разряд 2 не трогаем, экономим. При передаче сигнал остался в 1\n\tcbi PortB, SH\t; Гасим разряд 0 \n\tcbi PortB, DAT\t; Гасим разряд 1\n\trjmp EndDisp\nVis1:\n\tcpi pseg, 1\t; Если разряд != 1, то переходим к разряду 0\n\tbrne Vis0\t; иначе включаем разряд 1\n\tsbi PortB, DAT\t; Включаем разряд 1\n\tcbi PortB, LC\t; Гасим разряд 2\n\tcbi PortB, SH\t; Гасим разряд 0\n\trjmp EndDisp\nVis0:\n    cpi pseg, 0\t; Если разряд != 0 – что-то пошло не так! Разряд = 2\n\tbreq Vis2\t; иначе включаем разряд 0\n\tldi\tpseg, $02\nVis2:\n;\tsbi PortB, SH\t\t; Разряд 0 не трогаем, экономим. При передаче сигнал остался в 1\n\tcbi PortB, DAT\t\t; Гасим разряд 1\n\tcbi PortB, LC\t\t; Гасим разряд 2\nret\n; ======== Знакогенератор =========\nDig:\n\t.db\t$e7, $21, $d3, $73\t\t; 0 1 2 3\n\t.db\t$35, $76, $f6, $23\t\t; 4 5 6 7\n\t.db\t$f7, $77, $00, $f0, $17\t\t; 8 9 Пробел min max\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>В последствии, под руку попался гибридный генератор на кварце 20 МГц в одном корпусе с 4-мя выводами и программа с легкостью приспособилась и под него. Изменился только пред делитель с 8 на 64 (1&lt;&lt;CS01|1&lt;&lt;CS00), и регистр OCR0A (с 213 на 66).</p><p>На этом заканчивается логика и начинается математика:</p><pre><code class=\"assembly\">; Подпрограмма выполнения БИХ-фильтра\nfilter_tick:\n\n\t; === КАСКАД 1: Y1 = Y1 + (X0 - Y1) &gt;&gt; 4 ===\n\tlds\tr18, Y1_L\n\tlds\tr19, Y1_H     ; Достали старый Y1\n\n\tmovw\tr17:r16, r21:r20  ; Копируем X0\n\tsub\tr20, r18\n\tsbc\tr21, r19      ; r21:r20 = (X0 - Y1)\n\n\t; Сдвиг на 4 (деление на 16)\n    asr\tr21\n    ror\tr20\n    asr\tr21\n    ror\tr20\n    asr\tr21\n    ror\tr20\n    asr\tr21\n    ror\tr20\n\n\tadd\tr18, r20\n\tadc\tr19, r21          ; r19:r18 = Новый Y1\n\n    ; ===--- ЛИМИТЕР ДЛЯ Y1 (защита от высокочастотного возбуждения) ---===\n    cpi   r19, $02\n    brge  reset_y1        ; Если старший байт &gt;= 2, улетели вверх\n    cpi   r19, $fd\n    brlt  reset_y1        ; Если старший байт &lt; 0xFD (-3), улетели вниз\n    rjmp  save_y1\n\nreset_y1:\n    mov   r18, ZER        ; Насильно гасим автоколебания в ноль\n    mov   r19, ZER\n\nsave_y1:\n\tsts\tY1_L, r18\n\tsts\tY1_H, r19\n\n\t; === КАСКАД 2: Y2 = Y2 + (Y1 - Y2) &gt;&gt; 4 ===\n\tlds\tr20, Y2_L\n\tlds\tr21, Y2_H     ; Достали старый Y2\n\n\tmovw\tr17:r16, r19:r18 ; Берем результат первого каскада (Y1)\n\tsub\tr16, r20\n\tsbc\tr17, r21      ; r17:r16 = (Y1 - Y2)\n\n\t; Сдвиг на 4 (деление на 16)\n    asr\tr17\n    ror\tr16\n    asr\tr17\n    ror\tr16\n    asr\tr17\n    ror\tr16\n    asr\tr17\n    ror\tr16\n\n\tadd\tr20, r16\n\tadc\tr21, r17      ; r21:r20 = Новый Y2 (Финальный выход фильтра!)\n\n\t; ===--- ЛИМИТЕР ДЛЯ Y2 (защита от высокочастотного возбуждения) ---===\n    cpi   r21, $02\n    brge  reset_y2\n    cpi   r21, $fd\n    brlt  reset_y2\n    rjmp  save_y2\n\nreset_y2:\n    mov   r20, ZER        ; Если второй каскад пошел в разнос — гасим его\n    mov   r21, ZER\n\nsave_y2:\n\tlds\tr16, Y2_L\n\tlds\tr17, Y2_H\n\tsts\tY2_L, r20\n\tsts\tY2_H, r21\n\n\t; На выходе: в r21:r20 находится y1 (текущий отфильтрованный отсчет)\n    ;              r17:r16 находится y2 (предыдущий отфильтрованный отсчет)\n\tret</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Полученные значения y2 (предыдущее) и y1 (текущее) являются 16-ти битными знаковыми значениями отфильтрованного входного сигнала. И теперь можно определять момент когда y2 &lt; 0, а y1 &gt; 0, который и является отсчетом одного периода синусоиды. Однако, один такт таймера - это 213 мкс. При частоте 50 Гц имеем 1 / 50 Гц / 0.000213 с = 94 такта, а в случае 93 тактов получим частоту  1/(0.000213 с * 93) = 50.4 Гц. Т.е. точность всего ±0.2 Гц и с увеличением частоты точность будет еще уменьшаться.</p><p>И тут опять пришлось призывать на помощь математику. На отрезке синусоиды, максимально приближённой к точке перехода через 0, функция очень близка к линейной y=k*x. Т.е. отношению |Y2| к Y1 будет пропорционально X2 к X1. Этим я и воспользовался для увеличения точности расчета. Теперь умножив полученное количество тактов на 4, увеличив произведение на уточненный \"перелет\" нуля на старте периода и уменьшив его на уточненный \"перелет\" в конце периода, получаем значение продолжительности периода в 4 раза точнее. И вот это уже обеспечивает желаемую точность.</p><p>Значение продолжительности периода получено. Но, т.к., измерение проводятся на каждом периоде синусоиды, то и значения могут «скакать» с частотой 50 Гц. Чтобы этого избежать в течении 32-х измерений значения складываются и на каждом 32-ом такте делятся на 32 (путем сдвига в право на 5).</p><p>Вот мы и добрались до преобразования длительности периода синусоиды в частоту… В этом месте пришлось отложить математику и вернутся к обычной логике. Возможности ATtiny13 сильно ограничивают в расчете функции F=1/T. Поэтому было принято решение сделать табличное преобразование. Но и тут не все гладко. Все значения по условию задачи – это 3 разряда десятки, единицы и десятые герц. Для индикатора они подаются 3-мя полубайтами в двоично-десятичном формате. Адресация в такой таблице сразу усложняется умножением на 1.5 (можно и на, 2 но это сильно увеличивает таблицу). Поэтому было принято решение урезать таблицу до единиц и десятых герца. А значения десятков 4..6 (от 40.0 до 69.9) получать сравнением диапазонов полученного значения.</p><p>При таком решении каждый байт таблицы - это однозначное преобразование из продолжительности периода в частоту. А для приведения адресации к начальному адресу 0, из полученного значения продолжительности вычитается продолжительность периода в 70 Гц (268).</p><pre><code class=\"assembly\">; Вход:  y1 - r21:r20, y0 - r17:r16\t\n; --- Расчет частоты синусоиды при переходе через ноль снизу в верх\nCount_freq:\n\tinc\txl\t\t\t\t\t; ticks++\n\tbrne\tnext_if\t\t\t; Если не произошло переполнение счетчика продолжим выполнение\n\trjmp\ttoo_little\t\t; в противном случае индикация малой частоты\nnext_if:\n; --- Проверка перехода через ноль (снизу вверх) ---\n    sbrs r21, 7             ; Проверяем знаковый (7-й) бит старшего байта y1. Если 1 (минус) — идем дальше\n    rjmp\tend_zero_cross  ; Если y1 &gt;= 0, перехода снизу вверх быть не может\n    \n    sbrc r17, 7             ; Проверяем знаковый бит y0. Если 0 (плюс) — переход есть\n    rjmp\tend_zero_cross  ; Если y0 &lt; 0, мы все еще в минусе\n\nnext_count:\n; === ПЕРЕХОД ЧЕРЕЗ НОЛЬ ЗАФИКСИРОВАН ===\n; Теперь увеличим точность обнаружения 0, разделив обнаруженный интервал на 4\n; Нам нужны модули: |y1| и |y0|. \n; Так как y1 гарантированно отрицательный, его модуль — это инверсия + 1\n\tcom r20\n\tcom r21\n\tsubi r20, -1             ; Вычесть -1 означает прибавить 1\n\tsbci r21, -1\n\n; Вычисляем знаменатель: dy = (|y1| + |y0|). y0 положительный, берем как есть.\n    movw r19:r18, r17:r16   ; r19:r18 = |y0|\n    add  r18, r20\n    adc  r19, r21           ; r19:r18 = Знаменатель dy = (|y1| + |y0|)\n\n; Вычисляем числитель: y0 * 4\n    lsl  r16\n    rol  r17                ; * 2\n    lsl  r16\n    rol  r17                ; * 4 (теперь r21:r20 = Числитель y0 * 4 )\n\n; Быстрое деление числителя на знаменатель через вычитание (результат от 0 до 3 в r22)\n    clr  r20                ; Инициализируем суб-тик = 0\ndiv_loop:\n    cp   r16, r18\n    cpc  r17, r19           ; Сравниваем числитель со знаменателем\n    brlt div_done           ; Если числитель меньше, деление окончено\n    sub  r16, r18\n    sbc  r17, r19           ; Числитель -= Знаменатель\n    inc  r20                ; суб-тик++\n    cpi  r20, 3\n    brne div_loop           ; Ограничение цикла (макс 3)\ndiv_done:\t\t\t\t\t; dx = y0 * 4 / dy\n\n\tclr xh\n; Вычисляем финальный T_quad для текущего измерения:\n; T_quad = (ticks * 4) - r20 (текущий суб-тик) + остаток от прошлого шага\n\n    lsl  xl\n    rol  xh\n    lsl  xl\n    rol  xh\t\t\t\t   ; xh:xl = ticks * 4\n    \n    sub  xl, r20           ; Вычитаем \"перелет\" (текущий суб-тик) из общего кол-ва тиков\n    sbc  xh, ZER\n\n\tlds\tr21, RPE\t; Считываем \"перелет\" с прошлого шага\n    add  xl, r21\t; Добавляем накопленный остаток от прошлого периода\n    adc  xh, ZER    ; Теперь xh:xl — абсолютно точный T_quad!\n\n    sts\tRPE, r20\t; Сохраним текущий \"перелет\" для следущего шага\n\n    subi   xl, calibr ; Точка калибровки (тут не совсем верно, но для нашего случая прокатит)\n    adc   xh, ZER     ; Прибавляем старший байт знака с учетом переноса\n\n; --- СДВИГ ШКАЛЫ В НОЛЬ  ---\n    subi xl, low(268)\t\t; Сдвиг шкалы на 0 для 70 Гц\n    sbci xh, high(268)\n    brcs too_much\t\t    ; Если перенос (С=1), T_quad был меньше 268 (частота &gt; 70 Гц)\n\n; Измерение успешно! В xl у нас чистый 8-битный индекс для таблицы Freq_Table.\n; Теперь в xl находится чистый Индекс = T_quad - 268\n; ===========================================================================\n\n; --- УЛЬТРА-ЛЕГКИЙ ФИЛЬТР СГЛАЖИВАНИЯ ПОКАЗАНИЙ ---\n; На входе: xl = свежий вычисленный индекс (0..201)\n; Получаем среднее значение за 32 цикла измерения\n\n\tlds\tr18, Smooth_l\n\tlds\tr19, Smooth_h\n\tadd\txl, r18\n\tadc\txh, r19\n\n\tdec\tobnov\n\tbreq\tnext_sr\n\n\tsts\tSmooth_l, xl\n\tsts\tSmooth_h, xh\n\trjmp\tend_step\n\nnext_sr:\t\t; Если 32-ой измерение, то делим результат на 32 и на индикатор\n\tldi obnov, Disp_new\t    ; Восстанавливаем счетчик циклов измерения\n\tsts\tSmooth_l, ZER\t\t; Очищаем память под накопительное значение\n\tsts\tSmooth_h, ZER\n\n\tlsr   xh\t\t\t\t; Делим накопленное значение на 32\n\tror   xl\t; /2\n\tlsr   xh\n\tror   xl\t; /4\n\tlsr   xh\n\tror   xl\t; /8\n\tlsr   xh\n\tror   xl\t; /16\n\tlsr   xh\n\tror   xl\t; /32\n; ============================================================================\n; И вот теперь мы имеем измеренную продолжительность периода синусоиды\n; --- ОПРЕДЕЛЕНИЕ ДЕСЯТКОВ ---\n    cpi  xl, $2d          ; Проверяем границу 60 Гц \n    brsh check_50\n    ldi  r_tens, $a6        ; Индекс 0..44 -&gt; частота 60..70 Гц\n    rjmp\tset_disp\n\ncheck_50:\n    cpi  xl, $6c         ; Проверяем границу 50 Гц \n    brsh check_40\n    ldi  r_tens, $a5        ; Индекс 45..106 -&gt; частота 50..60 Гц\n    rjmp\tset_disp\n\ncheck_40:\n    ; Так как мы уже проверили верхнюю границу при вычитании, \n    ; здесь гарантированно диапазон 40..50 Гц (Индекс 107..201)\n    cpi\txl, $c9\n    brsh too_little\t\t      ; Если старший байт не 0, T_quad &gt; 268+255 (частота &lt; 40 Гц)\n    ldi  r_tens, $a4\n\trjmp\tset_disp\n\n; === Индикация выхода за границы измерений\ntoo_little:\n\tldi  xl, $c9\n\trjmp\tout_of_bounds\ntoo_much:\n\tldi  xl, $ca\nout_of_bounds:\n\tldi  r_tens, $aa\n\nset_disp:\n;\tЗдесь надо xl и r_tens перенести в показания индикатора\n\n\tldi yh, HIGH(Pos)\n\tldi yl, LOW(Pos)\n\n\tldi zh, HIGH(Freq_Table*2)\t; Ссылка на таблицу частот\n\tldi zl, LOW(Freq_Table*2)\n\n\tadd zl, xl\t\t\t; Сдвигаем ссылку на измеренное значение\n\tadc\tzh, ZER\n\tlpm\ttmp_1, Z\n\n\tst\tY+, tmp_1\t\t;Сохраняем полученную частоту для индикации\n\tst\tY, r_tens\n\nend_step:\n    clr  xl\n    clr  xh                ; Сбрасываем основной счетчик `ticks` в 0\n\nend_zero_cross:\n\tret\n; --- Упакованная BCD Таблица единиц и десятых частот\nFreq_Table:\n    .db $99, $97, $94, $92, $89, $87, $84, $82\t; 000 60+ (0..2c)\n    .db $79, $77, $74, $72, $70, $67, $65, $63\t; 008\n    .db $60, $58, $56, $53, $51, $49, $47, $44\t; 010\n    .db $42, $40, $38, $36, $33, $31, $29, $27\t; 018\n    .db $25, $23, $21, $19, $17, $15, $13, $11\t; 020\n    .db $09, $07, $05, $03, $01, $99, $97, $95\t; 028 60+ ; 50+ (2d..6b)\n    .db $93, $91, $90, $88, $86, $84, $82, $80\t; 030\n    .db $79, $77, $75, $73, $72, $70, $68, $66\t; 038\n    .db $65, $63, $61, $60, $58, $56, $55, $53\t; 040\n    .db $51, $50, $48, $47, $45, $43, $42, $40\t; 048\n    .db $39, $37, $36, $34, $33, $31, $30, $28\t; 050\n    .db $27, $25, $24, $22, $21, $19, $18, $17\t; 058\n    .db $15, $14, $12, $11, $10, $08, $07, $05\t; 060\n    .db $04, $03, $01, $00, $99, $97, $96, $95\t; 068 50+ ; 40+ (6c..c8)\n    .db $93, $92, $91, $90, $88, $87, $86, $84\t; 070\n    .db $83, $82, $81, $80, $78, $77, $76, $75\t; 078\n    .db $73, $72, $71, $70, $69, $68, $66, $65\t; 080\n    .db $64, $63, $62, $61, $60, $58, $57, $56\t; 088\n    .db $55, $54, $53, $52, $51, $50, $49, $47\t; 090\n    .db $46, $45, $44, $43, $42, $41, $40, $39\t; 098\n    .db $38, $37, $36, $35, $34, $33, $32, $31\t; 0a0\n    .db $30, $29, $28, $27, $26, $25, $24, $23\t; 0a8\n    .db $22, $21, $20, $19, $19, $18, $17, $16\t; 0b0\n    .db $15, $14, $13, $12, $11, $10, $09, $08\t; 0b8\n    .db $08, $07, $06, $05, $04, $03, $02, $01\t; 0c0 \n    .db $00, $ba, $cc\t\t\t\t\t\t\t; 0c8 40+ (... c8) min max\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Потерял расположение переменных в SRAM:</p><pre><code class=\"assembly\">.dseg\nPos:\t.byte 2\t\t; 3 знакоместа в двоично десятичном формате байт 0 - 01, байт 1 - x2\nY1_L:\t.byte 1\nY1_H:\t.byte 1\nY2_L:\t.byte 1\nY2_H:\t.byte 1\nRPE:\t.byte 1\t\t; Корекция ошибки с апроксимацией на последнем шаге.\nSmooth_l: .byte 1\nSmooth_h:  .byte 1</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Предвижу критику на тему точности. Да, точность ±0.1 Гц достигнута только в области 40..55 Гц, далее начинает прихрамывать. Но мне этого достаточно.</p><p>Вот теперь проект закончен. Реализован в «железе», на останках сгоревшего китайского вольтметра. Удалось даже ограничить ток в сегментах 1кОм резисторами и избавиться от буферных транзисторов, ну и конечно, инвертировать логику отображения разряда. Дальнейшие труды в попытке заставить работать проект на внутреннем RC-генераторе с компенсацией температурного дрейфа в предыдущей статье <a href=\"https://habr.com/ru/articles/1104396/\" rel=\"noopener nofollow\">https://habr.com/ru/articles/1104396/</a>.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "частотомер"
+    },
+    {
+      "titleHtml": "attiny13"
+    },
+    {
+      "titleHtml": "бих-фильтр"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105578/d1ed42bdd164dbc95fe65990639d11c9/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105578/d1ed42bdd164dbc95fe65990639d11c9/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105578\\/\"},\"headline\":\"Частотомер с БИХ-фильтром НЧ в 1 Кбайте на ATtiny13 и на что способен этот «малыш»\",\"datePublished\":\"2026-11-09T19:11:49+03:00\",\"dateModified\":\"2026-11-11T13:46:43+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Появилась необходимость сделать частотомер для настройки бензинового генератора. Т.е. сама по себе задача простая: измерить частоту синусоидального напряжения в...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105578\\/#post-content-body\",\"about\":[\"h_DIY\",\"h_controllers\",\"h_assembler\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/c7\\/e7\\/91\\/c7e7913af998490b7d7fe5f17dd742d0.png\"]}",
+    "metaDescription": "Появилась необходимость сделать частотомер для настройки бензинового генератора. Т.е. сама по себе задача простая: измерить частоту синусоидального напряжения в пределах 40..70 Гц с точностью около...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 12,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "44",
+    "title": "DIY",
+    "alias": "diy"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

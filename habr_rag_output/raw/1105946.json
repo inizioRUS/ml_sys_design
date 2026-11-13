@@ -1,0 +1,171 @@
+{
+  "id": "1105946",
+  "timePublished": "2026-11-10T10:21:09+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Почему вчерашние подписки рано сравнивать с прошлой неделей",
+  "leadData": {
+    "textHtml": "<p>Утром в отчёте 25% продлений за вчера, но у части подписчиков ещё есть время на оплату. На примере PostgreSQL покажу, как сравнивать дни с полным 48-часовым окном, засчитывать предоплату и обрабатывать платёж ровно на границе срока.</p>",
+    "imageUrl": null,
+    "buttonTextHtml": "Читать далее",
+    "image": null
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "6049066",
+    "alias": "Eryomencar",
+    "fullname": "Александр Ерёменко",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 4,
+      "votesCount": 6
+    },
+    "rating": 10.3,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 1,
+    "readingCount": 128,
+    "score": 0,
+    "votesCount": 4,
+    "votesCountPlus": 2,
+    "votesCountMinus": 2,
+    "reach": 4613,
+    "readers": 92
+  },
+  "hubs": [
+    {
+      "id": "358",
+      "alias": "postgresql",
+      "type": "collective",
+      "title": "PostgreSQL",
+      "titleHtml": "PostgreSQL",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "594",
+      "alias": "sql",
+      "type": "collective",
+      "title": "SQL",
+      "titleHtml": "SQL",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Вчера у четырёх подписок наступил срок продления. К утру оплатили одну. В отчёте уже стоит 25%, хотя у остальных ещё есть время. Для подписок с прошлой недели окно оплаты уже закрылось. Если поставить эти цифры рядом, на графике легко увидеть падение раньше, чем его можно измерить.</p><p>Я бы считал долю от числа подписок, у которых <strong>по графику наступил срок продления в этот день</strong>. Засчитываем оплату за следующий период, если она прошла до истечения 48 часов с планового срока. Предоплата тоже считается продлением. Платёж ровно на границе 48 часов считаем поздним. Границу стоит явно записать в правилах отчёта.</p><p>В исходных данных нужна одна строка на ожидаемое продление. В ней хранятся плановый срок и время первой успешной оплаты именно за этот период. Если после предоплаты поле <code>expires_at</code> в текущей подписке сдвигается вперёд, старый срок для отчёта придётся брать из истории. Иначе предоплата может исчезнуть из нужного дня целиком.</p><p>Вот пример с данными, полными за время до 11 ноября, 00:00 UTC. День определяется по плановому сроку продления. Строка за 9 ноября уже оплачена, но у остальных подписок этого дня 48 часов могли ещё не пройти. Поэтому в отчёт попадут 7 и 8 ноября целиком, а 9 ноября пока подождёт.</p><pre><code class=\"sql\">WITH renewals(id, due_at, paid_at) AS (\n    VALUES\n        (101, timestamptz '2026-11-07 09:00+00', timestamptz '2026-11-06 18:00+00'),\n        (102, timestamptz '2026-11-07 10:00+00', timestamptz '2026-11-09 10:00+00'),\n        (103, timestamptz '2026-11-07 11:00+00', timestamptz '2026-11-08 12:00+00'),\n        (104, timestamptz '2026-11-08 11:00+00', NULL),\n        (105, timestamptz '2026-11-08 18:00+00', timestamptz '2026-11-10 17:00+00'),\n        (106, timestamptz '2026-11-09 09:00+00', timestamptz '2026-11-09 09:30+00')\n),\ndays(cohort_date) AS (\n    VALUES (date '2026-11-07'), (date '2026-11-08'), (date '2026-11-09')\n),\nbounds AS (\n    SELECT cohort_date,\n           CAST(cohort_date AS timestamp) AT TIME ZONE 'UTC' AS starts_at,\n           CAST(cohort_date + 1 AS timestamp) AT TIME ZONE 'UTC' AS ends_at\n    FROM days\n),\ncounts AS (\n    SELECT b.cohort_date,\n           count(r.id) AS due,\n           count(r.id) FILTER (\n               WHERE r.paid_at &lt; r.due_at + interval '48 hours'\n           ) AS renewed\n    FROM bounds b\n    LEFT JOIN renewals r\n        ON r.due_at &gt;= b.starts_at AND r.due_at &lt; b.ends_at\n    WHERE b.ends_at + interval '48 hours' &lt;= timestamptz '2026-11-11 00:00+00'\n    GROUP BY b.cohort_date\n)\nSELECT cohort_date, due, renewed,\n       round(100.0 * renewed / nullif(due, 0), 1) AS renewal_pct\nFROM counts\nORDER BY cohort_date;\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Плановая дата продления</p></th><th><p align=\"left\">Подписок к продлению</p></th><th><p align=\"left\">Продлили</p></th><th><p align=\"left\">Доля</p></th></tr><tr><td><p align=\"left\">7 ноября</p></td><td><p align=\"left\">3</p></td><td><p align=\"left\">2</p></td><td><p align=\"left\">66,7%</p></td></tr><tr><td><p align=\"left\">8 ноября</p></td><td><p align=\"left\">2</p></td><td><p align=\"left\">1</p></td><td><p align=\"left\">50,0%</p></td></tr></tbody></table></div></div><p>За 7 ноября засчитались предоплата по записи 101 и оплата после окончания периода по записи 103. Платёж по записи 102 прошёл ровно через 48 часов и оказался вне окна. За 8 ноября платёж по записи 105 прошёл за час до границы. Если в закрытом дне вообще не было подписок к продлению, <code>LEFT JOIN</code> сохранит этот день, а доля будет <code>NULL</code>. В отчёте такую строку можно подписать «не было подписок к продлению».</p><p>В рабочем отчёте границу полноты лучше брать из загрузки данных. Если сейчас 11 ноября, но платежи загружены только до полудня 10 ноября, 8 ноября ещё рано выводить как завершённый день.</p><p>Сравнивайте дни, когда у всех подписок в группе уже прошло 48 часов с планового срока продления и данные об оплатах за это время загружены. Рядом с процентом показывайте, сколько подписок продлили и сколько всего ждали продления. Так 50% из двух подписок легко отличить от 50% из двух тысяч.</p><p><a href=\"https://www.postgresql.org/docs/current/sql-expressions.html#SYNTAX-AGGREGATES\" rel=\"noopener nofollow\">Документация PostgreSQL по агрегатам и FILTER</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "PostgreSQL"
+    },
+    {
+      "titleHtml": "SQL"
+    },
+    {
+      "titleHtml": "продление подписок"
+    },
+    {
+      "titleHtml": "когортный анализ"
+    },
+    {
+      "titleHtml": "продуктовая аналитика"
+    },
+    {
+      "titleHtml": "качество данных"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105946/aa0313474abb8e0b14786b7776115c69/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105946/aa0313474abb8e0b14786b7776115c69/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105946\\/\"},\"headline\":\"Почему вчерашние подписки рано сравнивать с прошлой неделей\",\"datePublished\":\"2026-11-10T13:21:09+03:00\",\"dateModified\":\"2026-11-11T13:46:12+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Вчера у четырёх подписок наступил срок продления. К утру оплатили одну. В отчёте уже стоит 25%, хотя у остальных ещё есть время. Для подписок с прошлой недели...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105946\\/#post-content-body\",\"about\":[\"h_postgresql\",\"h_sql\",\"f_develop\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105946\\/aa0313474abb8e0b14786b7776115c69\\/\"]}",
+    "metaDescription": "Вчера у четырёх подписок наступил срок продления. К утру оплатили одну. В отчёте уже стоит 25%, хотя у остальных ещё есть время. Для подписок с прошлой недели окно оплаты уже закрылось. Если поставить...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "22",
+    "title": "Системный и бизнес-анализ",
+    "alias": "analytics"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

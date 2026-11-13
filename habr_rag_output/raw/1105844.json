@@ -1,0 +1,203 @@
+{
+  "id": "1105844",
+  "timePublished": "2026-11-10T08:38:22+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "ИТ-Одиссея: зовём на «Проектную исповедь» — конференцию, где честно разбирают проектные ошибки",
+  "leadData": {
+    "textHtml": "<p>Появляются новые технологии, неожиданные ограничения, противоречивые данные. Сигналов всё больше, важное теряется в шуме — и даже опыт не всегда подсказывает, как поступить дальше.<br>\n<strong>18 ноября 2026 года в 11:00 МСК</strong> «Ростелеком» проведёт <a href=\"https://rt-odyssey.ru/?utm_source=pr-habr&amp;utm_medium=post&amp;utm_campaign=it-odyssey\">онлайн-конференцию «Проектная исповедь». </a><br>\nТема этого года — <strong>«ИТ-Одиссея»</strong>: о реальных ИТ-кейсах и о том, как принимать решения, когда готового маршрута нет. В программе 10 спикеров, 5 часов докладов, интерактивов и живого обсуждения и одна общая игра, где выбор участников влияет на маршрут и финальную дискуссию.</p><p><strong>Не разовое мероприятие, а проект с историей</strong> «Проектная исповедь» — ежегодная конференция «Ростелекома» для ИТ и продуктовых команд. Это развивающийся профессиональный проект с собственной историей, узнаваемой концепцией и устойчивым интересом со стороны технологического и продуктового сообщества. Здесь честно разбирают проектные ошибки в ИТ-индустрии и вместе находят пути, как с ними справляться. </p>",
+    "imageUrl": "https://habrastorage.org/extt/76/b5/aa/76b5aacdb5db5a77365068a88fc3db58.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/76/b5/aa/76b5aacdb5db5a77365068a88fc3db58.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3501637",
+    "alias": "AlexandraPurits",
+    "fullname": "Александра Пуриц",
+    "avatarUrl": "//habrastorage.org/extt/92/b6/ef/92b6eff79e81ee090eb3fadf416e1e43.jpg",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 0,
+      "votesCount": 0
+    },
+    "rating": 0,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "4K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 84,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 4302,
+    "readers": 58
+  },
+  "hubs": [
+    {
+      "id": "17466",
+      "alias": "rostelecom",
+      "type": "corporative",
+      "title": "Блог компании Ростелеком",
+      "titleHtml": "Блог компании Ростелеком",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19583",
+      "alias": "dev_management",
+      "type": "collective",
+      "title": "Управление разработкой",
+      "titleHtml": "Управление разработкой",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20682",
+      "alias": "pm",
+      "type": "collective",
+      "title": "Управление проектами",
+      "titleHtml": "Управление проектами",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20726",
+      "alias": "productpm",
+      "type": "collective",
+      "title": "Управление продуктом",
+      "titleHtml": "Управление продуктом",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Появляются новые технологии, неожиданные ограничения, противоречивые данные. Сигналов всё больше, важное теряется в шуме — и даже опыт не всегда подсказывает, как поступить дальше.<br/>\n<strong>18 ноября 2026 года в 11:00 МСК</strong> «Ростелеком» проведёт <a href=\"https://rt-odyssey.ru/?utm_source=pr-habr&amp;utm_medium=post&amp;utm_campaign=it-odyssey\">онлайн-конференцию «Проектная исповедь». </a><br/>\nТема этого года — <strong>«ИТ-Одиссея»</strong>: о реальных ИТ-кейсах и о том, как принимать решения, когда готового маршрута нет. В программе 10 спикеров, 5 часов докладов, интерактивов и живого обсуждения и одна общая игра, где выбор участников влияет на маршрут и финальную дискуссию.</p><p><strong>Не разовое мероприятие, а проект с историей</strong> «Проектная исповедь» — ежегодная конференция «Ростелекома» для ИТ и продуктовых команд. Это развивающийся профессиональный проект с собственной историей, узнаваемой концепцией и устойчивым интересом со стороны технологического и продуктового сообщества. Здесь честно разбирают проектные ошибки в ИТ-индустрии и вместе находят пути, как с ними справляться. </p><ul><li><p><strong>2019</strong> год. Первая офлайн-конференция в историческом здании Центрального телеграфа, больше 200 участников. «Ростелеком» задал тренд на честный разговор о неидеальном опыте и первым в России стал открыто обсуждать проблемные кейсы в формате профессиональной конференции.</p></li><li><p><strong>2020–2024</strong> годы. Переход в онлайн-формат: география расширилась, участвовать смогли специалисты из разных городов и стран. </p></li><li><p><strong>2025</strong> год. «Проектная исповедь: Лабиринт бесконечных ИТ-дилемм» прошла онлайн 13 ноября и длилась 5 часов без перерыва. Съемку выступлений спикеров вели в студии, зрители могли подключиться по ссылке на странице мероприятия. Яркой частью программы стали дебаты представителей Сбербанка vs Wink vs ПИК и выступления спикеров из Yandex Cloud Marketplace, «Ростелекома», AGIMA, АНО «Агентство цифрового развития», Т1, BetBoom и «Фазум».                 </p></li></ul><p><strong>Немного статистики:</strong> </p><ul><li><p>Проект насчитывает более <strong>5 000 участников.</strong></p></li><li><p><strong>География</strong>: Россия и ещё 6 стран, среди них: США, Великобритания и Германия.</p></li><li><p><strong>10 инфопартнёров:</strong> среди них «Коммерсантъ», Habr, Сколково, Basis, школа дизайн-мышления «Икра», РТК-ЦОД и AGIMA.</p></li><li><p><strong>19+ млн охвата и 100+ упоминаний </strong>во внешних каналах коммуникации. </p></li></ul><p><strong>2026: маршрут рождается в пути </strong></p><p>В этом году отправляемся в «ИТ-Одиссею», чтобы найти опору для собственных решений. Впереди — честные истории о моментах, когда привычный курс уже не работал, а нового ещё не было. Вместе исследуем ошибки, сложные выборы и повороты, за которыми открывались неизведанные горизонты. </p><p><strong>За что зрители ценят «Исповедь» </strong></p><ul><li><p><em>\"В чужой истории узнать свою. Когда рассказывали гости про себя и свой опыт, ловила себя на мысли — реально, и мне такое присуще :)\" </em>— Ольга, старший руководитель проектов </p></li><li><p><em>\"Не отсчитывать минуты до конца. Выступления спикеров были классными и не сухими, как замученная теория, а с уходом в личные истории и юмор\" </em>— Анна, главный специалист офиса трансформации </p></li><li><p><em>\"Когда информации много, а слушать легко. Столько сочной, отборной информации, поданной в такой лёгкой форме и непринуждённой атмосфере, я давно не встречал\"</em> — Артём, директор технического департамента </p></li><li><p><em>\"Выйти за пределы своей роли. Посмотреть на свою работу со стороны других специалистов и, тем более, из опыта в других компаниях — это дорого стоит\" </em>— Дмитрий, системный аналитик </p></li></ul><p><strong>Присоединяйтесь к путешествию в «ИТ-Одиссею»</strong></p><ul><li><p><strong>Когда</strong>: 18 ноября 2026, с 11:00 до 16:00 по МСК. </p></li><li><p><strong>Формат</strong>: онлайн. </p></li><li><p><strong>Программа и форма регистрации:</strong> на сайте «Проектной исповеди». </p></li></ul><p>Пока мы все с нетерпением ждём начала конференции, на сайте можно пройти первое испытание. Партнёры конференции — Wink, Ростелеком ИТ, «Лукоморье», TData. </p><p>Регистрация на ИТ конференцию ПАО «Ростелеком», «Проектная исповедь» — <a href=\"https://rt-odyssey.ru/?utm_source=pr-habr&amp;utm_medium=post&amp;utm_campaign=it-odyssey\">по ссылке</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "ИТ-Одиссея"
+    },
+    {
+      "titleHtml": "Проектная исповыедь"
+    },
+    {
+      "titleHtml": "ростелеком"
+    },
+    {
+      "titleHtml": "Ростелеком ИТ"
+    },
+    {
+      "titleHtml": "лукоморье"
+    },
+    {
+      "titleHtml": "ТДата"
+    },
+    {
+      "titleHtml": "wink"
+    },
+    {
+      "titleHtml": "ит-конференция"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105844/9418412d828176c184a6ea010be1f1aa/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105844/9418412d828176c184a6ea010be1f1aa/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/rostelecom\\/articles\\/1105844\\/\"},\"headline\":\"ИТ-Одиссея: зовём на «Проектную исповедь» — конференцию, где честно разбирают проектные ошибки\",\"datePublished\":\"2026-11-10T11:38:22+03:00\",\"dateModified\":\"2026-11-11T18:30:53+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Появляются новые технологии, неожиданные ограничения, противоречивые данные. Сигналов всё больше, важное теряется в шуме — и даже опыт не всегда подсказывает,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/rostelecom\\/articles\\/1105844\\/#post-content-body\",\"about\":[\"c_rostelecom\",\"h_dev_management\",\"h_pm\",\"h_productpm\",\"f_management\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105844\\/9418412d828176c184a6ea010be1f1aa\\/\"]}",
+    "metaDescription": "Появляются новые технологии, неожиданные ограничения, противоречивые данные. Сигналов всё больше, важное теряется в шуме — и даже опыт не всегда подсказывает, как поступить дальше. 18 ноября 2026 года...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "26",
+    "title": "Менеджмент",
+    "alias": "management"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

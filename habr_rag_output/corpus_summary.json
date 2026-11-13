@@ -1,0 +1,17 @@
+{
+  "articles": 432,
+  "total_tokens": 2556930,
+  "total_chars": 5482263,
+  "median_tokens": 4546.5,
+  "p90_tokens": 12694.900000000003,
+  "p95_tokens": 15162.15,
+  "articles_with_code_pct": 25.69,
+  "articles_with_tables_pct": 28.24,
+  "articles_with_images_pct": 85.42,
+  "empty_articles": 0,
+  "exact_duplicate_articles": 0,
+  "near_duplicate_pairs": 0,
+  "near_duplicates_checked_articles": 432,
+  "unique_hubs": 304,
+  "unique_tags": 2286
+}

@@ -1,0 +1,221 @@
+{
+  "id": "1105878",
+  "timePublished": "2026-11-10T09:13:43+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "В Китае на фоне распродаж завирусилось мини‑приложение для борьбы с импульсивными покупками",
+  "leadData": {
+    "textHtml": "<p>В&nbsp;преддверии китайского шопинг‑фестиваля «11.11» (Double 11) в&nbsp;мессенджере WeChat завирусилось мини‑приложение Wallet, Please Wait. Оно помогает потребителям сдерживать импульсивные покупки, делегируя решение другим людям, <a href=\"https://www.scmp.com/news/people-culture/trending-china/article/3373558/viral-chinese-app-lets-strangers-vote-purchases-stop-impulse-buying\" rel=\"noopener nofollow\">пишет </a>South China Morning Post.</p><p>Приложение работает следующим образом: пользователь создаёт «заявку на&nbsp;покупку», где указывает товар, цену, причины для&nbsp;покупки, а&nbsp;также дешёвые альтернативы при&nbsp;возможности. Заявкой можно поделиться с&nbsp;близкими или&nbsp;опубликовать её на&nbsp;общедоступной площадке, где за&nbsp;неё (или против) проголосуют другие пользователи. При&nbsp;голосовании участники должны обосновать своё решение.</p>",
+    "imageUrl": "https://habrastorage.org/extt/11/f8/0e/11f80e6cabf4169d548a45ed0fb334cf.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/11/f8/0e/11f80e6cabf4169d548a45ed0fb334cf.jpg",
+      "fit": "cover",
+      "positionY": 68,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2082889",
+    "alias": "AnnieBronson",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/bec/8ce/91c/bec8ce91c2b3aeef404907f97367d517.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 200,
+      "votesCount": 842
+    },
+    "rating": 291.8,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 1,
+    "readingCount": 387,
+    "score": 9,
+    "votesCount": 3,
+    "votesCountPlus": 3,
+    "votesCountMinus": 0,
+    "reach": 5543,
+    "readers": 299
+  },
+  "hubs": [
+    {
+      "id": "92",
+      "alias": "instant_messaging",
+      "type": "collective",
+      "title": "Мессенджеры",
+      "titleHtml": "Мессенджеры",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21924",
+      "alias": "social_networks",
+      "type": "collective",
+      "title": "Социальные сети",
+      "titleHtml": "Социальные сети",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21928",
+      "alias": "finance",
+      "type": "collective",
+      "title": "Финансы в IT",
+      "titleHtml": "Финансы в IT",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19465",
+      "alias": "apps_design",
+      "type": "collective",
+      "title": "Дизайн мобильных приложений",
+      "titleHtml": "Дизайн мобильных приложений",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20728",
+      "alias": "sales",
+      "type": "collective",
+      "title": "Управление продажами",
+      "titleHtml": "Управление продажами",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "2",
+      "alias": "design",
+      "title": "Дизайн",
+      "titleHtml": "Дизайн"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/11/f8/0e/11f80e6cabf4169d548a45ed0fb334cf.jpg\" width=\"1150\" height=\"844\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/11/f8/0e/11f80e6cabf4169d548a45ed0fb334cf.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/11/f8/0e/11f80e6cabf4169d548a45ed0fb334cf.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>В преддверии китайского шопинг‑фестиваля «11.11» (Double 11) в мессенджере WeChat завирусилось мини‑приложение Wallet, Please Wait. Оно помогает потребителям сдерживать импульсивные покупки, делегируя решение другим людям, <a href=\"https://www.scmp.com/news/people-culture/trending-china/article/3373558/viral-chinese-app-lets-strangers-vote-purchases-stop-impulse-buying\" rel=\"noopener nofollow\">пишет </a>South China Morning Post.</p><p>Приложение работает следующим образом: пользователь создаёт «заявку на покупку», где указывает товар, цену, причины для покупки, а также дешёвые альтернативы при возможности. Заявкой можно поделиться с близкими или опубликовать её на общедоступной площадке, где за неё (или против) проголосуют другие пользователи. При голосовании участники должны обосновать своё решение.</p><p>Как отмечает SCMP, не всегда покупки оказываются спорными. Чаще всего пользователи не могут сойтись во мнении, когда речь идёт о предметах роскоши. Например, заявку на покупку нового iPhone стоимостью около $2200 одобрили и отклонили равное количество пользователей, и покупателю пришлось принимать решение самому. В то же время запросы на покупку товаров, необходимых для безопасности (например, датчика угарного газа) одобряются за минуты.</p><p>Благодаря простоте механики мини‑программа быстро привлекла к себе внимание. По данным SCMP, всего через девять часов после запуска число пользователей превысило 10 000, а в течение следующих несколько дней проект привлёк более 300 000 человек, которые подали около 370 000 заявок на покупку.</p><p>Приложение создала за неделю продакт‑менеджер из Шанхая под псевдонимом Huoshan. По её словам, идея проекта возникла из её собственного опыта: она часто покупала вещи, без которых вполне могла бы обойтись, а потом жалела об этом. Как отмечает Huoshan, сам процесс заполнения заявки создаёт паузу, которая помогает умерить сиюминутное желание совершить покупку.</p><p>Фестиваль Double 11 представляет собой большую ежегодную распродажу; он запущен платформой Taobao и проходит ежегодно с 2009 года. В прошлом году объём онлайн‑продаж в рамках фестиваля достиг $239 млрд.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "wechat"
+    },
+    {
+      "titleHtml": "китай"
+    },
+    {
+      "titleHtml": "taobao"
+    },
+    {
+      "titleHtml": "онлайн-покупки"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105878/073796fac74433667c8f0ec43a8513df/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105878/073796fac74433667c8f0ec43a8513df/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105878\\/\"},\"headline\":\"В Китае на фоне распродаж завирусилось мини‑приложение для борьбы с импульсивными покупками\",\"datePublished\":\"2026-11-10T12:13:43+03:00\",\"dateModified\":\"2026-11-10T12:39:21+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В&nbsp;преддверии китайского шопинг‑фестиваля «11.11» (Double 11) в&nbsp;мессенджере WeChat завирусилось мини‑приложение Wallet, Please Wait. Оно помогает...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105878\\/#post-content-body\",\"about\":[\"h_instant_messaging\",\"h_social_networks\",\"h_finance\",\"h_apps_design\",\"h_sales\",\"f_develop\",\"f_design\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/11\\/f8\\/0e\\/11f80e6cabf4169d548a45ed0fb334cf.jpg\"]}",
+    "metaDescription": "В&nbsp;преддверии китайского шопинг‑фестиваля «11.11» (Double 11) в&nbsp;мессенджере WeChat завирусилось мини‑приложение Wallet, Please Wait. Оно помогает потребителям сдерживать импульсивные покупки,...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

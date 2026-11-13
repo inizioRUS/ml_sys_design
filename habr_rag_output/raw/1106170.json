@@ -1,0 +1,206 @@
+{
+  "id": "1106170",
+  "timePublished": "2026-11-10T13:56:56+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "«Запретить копирование» в Telegram: что на самом деле защищает новая кнопка",
+  "leadData": {
+    "textHtml": "<p>1 марта 2026 года Telegram добавил в личные чаты кнопку «Запретить копирование». Нажал — и собеседник больше не может переслать, скопировать или сохранить ваши сообщения. По крайней мере, так это выглядит для пользователя.</p><p>Я разрабатываю сервис для выгрузки переписок и файлов из Telegram, который работает через сессию самого пользователя. Поэтому после мартовского обновления мне пришлось разобраться, что эта кнопка делает, а что нет. Я открыл исходники Telegram Desktop (ветка dev, <a href=\"https://github.com/telegramdesktop/tdesktop/tree/3a2a9a34e833d3243a13787215b8a7cdcf5dc3c3\" rel=\"noopener nofollow\">коммит 3a2a9a3 от 4 ноября 2026</a>) и прошёл весь путь: от флага в API до того, что исчезает в меню.</p><p>Короткий ответ: запрет копирования — это флаг, который официальные приложения добросовестно соблюдают. Шифрования или DRM за ним нет. От случайной пересылки он защищает хорошо, от целенаправленного сохранения — нет. Ниже — подробно, с кодом.</p>",
+    "imageUrl": "https://habrastorage.org/extt/5b/24/8c/5b248cf970779b153347d404485f22ea.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/5b/24/8c/5b248cf970779b153347d404485f22ea.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "sandbox",
+      "typeOf": "system",
+      "title": "Из песочницы",
+      "data": {
+        "url": null
+      }
+    }
+  ],
+  "author": {
+    "id": "2358557",
+    "alias": "Dinakdz",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 3
+    },
+    "rating": 5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 3,
+    "favoritesCount": 3,
+    "readingCount": 1463,
+    "score": 5,
+    "votesCount": 5,
+    "votesCountPlus": 4,
+    "votesCountMinus": 1,
+    "reach": 10557,
+    "readers": 1126
+  },
+  "hubs": [
+    {
+      "id": "92",
+      "alias": "instant_messaging",
+      "type": "collective",
+      "title": "Мессенджеры",
+      "titleHtml": "Мессенджеры",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19011",
+      "alias": "reverse-engineering",
+      "type": "collective",
+      "title": "Реверс-инжиниринг",
+      "titleHtml": "Реверс-инжиниринг",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/5b/24/8c/5b248cf970779b153347d404485f22ea.png\" width=\"2400\" height=\"1260\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/5b/24/8c/5b248cf970779b153347d404485f22ea.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/5b/24/8c/5b248cf970779b153347d404485f22ea.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>1 марта 2026 года Telegram добавил в личные чаты кнопку «Запретить копирование». Нажал — и собеседник больше не может переслать, скопировать или сохранить ваши сообщения. По крайней мере, так это выглядит для пользователя.</p><p>Я разрабатываю сервис для выгрузки переписок и файлов из Telegram, который работает через сессию самого пользователя. Поэтому после мартовского обновления мне пришлось разобраться, что эта кнопка делает, а что нет. Я открыл исходники Telegram Desktop (ветка dev, <a href=\"https://github.com/telegramdesktop/tdesktop/tree/3a2a9a34e833d3243a13787215b8a7cdcf5dc3c3\" rel=\"noopener nofollow\">коммит 3a2a9a3 от 4 ноября 2026</a>) и прошёл весь путь: от флага в API до того, что исчезает в меню.</p><p>Короткий ответ: запрет копирования — это флаг, который официальные приложения добросовестно соблюдают. Шифрования или DRM за ним нет. От случайной пересылки он защищает хорошо, от целенаправленного сохранения — нет. Ниже — подробно, с кодом.</p><h3>Что появилось в марте</h3><p>В группах и каналах запрет копирования есть с декабря 2021 года: в changelog Telegram Desktop 3.3 от 7 декабря это названо так: авторы контента могут ограничить сохранение медиа и пересылку. Админ ставит галочку — и никто из участников уже не перешлёт пост.</p><p>1 марта 2026 года то же самое пришло в личные чаты. Включить запрет может только пользователь с Telegram Premium: профиль собеседника → «⋯» → «Запретить копирование». По словам самого Telegram, после этого собеседник не может пересылать и копировать сообщения, делать снимки экрана и сохранять медиа. В чате появляется служебное сообщение вроде «Анна запретила копирование в этом чате», так что тайно включить его нельзя.</p><h3>Два флага вместо одного</h3><p>В группе всё просто: у чата есть один флаг <code>noforwards</code>, и ставит его админ. В личном чате два равноправных участника, поэтому флагов два. В схеме API они лежат в объекте <code>userFull</code>:</p><pre><code>userFull#b90c2afd flags:# ...\n    noforwards_my_enabled:flags2.23?true\n    noforwards_peer_enabled:flags2.24?true\n    ...</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Первый означает «запрет включил я», второй — «запрет включил собеседник». Клиент складывает их в свои флаги пользователя, а дальше всё сводится к одной функции:</p><pre><code class=\"cpp\">// Telegram/SourceFiles/data/data_user.cpp\nbool UserData::allowsForwarding() const {\n\treturn !(flags() &amp; Flag::NoForwardsMyEnabled)\n\t\t&amp;&amp; !(flags() &amp; Flag::NoForwardsPeerEnabled);\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Хватает любого из двух флагов, чтобы чат стал «защищённым» для обоих. Вы включили запрет — вы тоже не сможете переслать сообщения собеседника.</p><p>Кроме флага на чате, есть флаг <code>noforwards</code> на отдельном сообщении. Им пользуются, например, боты, когда отправляют защищённый контент. Итоговая проверка «можно ли переслать это сообщение» смотрит на оба уровня:</p><pre><code class=\"cpp\">// Telegram/SourceFiles/history/history_item.cpp\nbool HistoryItem::allowsForward() const {\n\treturn !isService()\n\t\t&amp;&amp; (isRegular() || isEphemeral())\n\t\t&amp;&amp; !forbidsForward()                     // флаг на сообщении\n\t\t&amp;&amp; history()-&gt;peer-&gt;allowsForwarding()   // флаги на чате\n\t\t&amp;&amp; (!_media || _media-&gt;allowsForward());\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Обратите внимание: все эти проверки живут в клиенте. Сервер сообщает приложению «здесь запрет», а уже приложение решает, какие кнопки спрятать.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/7d/5f/82/7d5f82766fcd7a7c68baca319c03b8a1.png\" width=\"2400\" height=\"1400\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/7d/5f/82/7d5f82766fcd7a7c68baca319c03b8a1.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/7d/5f/82/7d5f82766fcd7a7c68baca319c03b8a1.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Что именно выключается</h3><p>Один и тот же флаг проверяется по всему клиенту: <code>allowsForwarding()</code> на этом коммите встречается в исходниках 28 раз в 21 файле. Вот что из этого видит пользователь Telegram Desktop:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Действие</p></th><th><p align=\"left\">Где проверяется</p></th><th><p align=\"left\">Что происходит</p></th></tr><tr><td><p align=\"left\">Переслать</p></td><td><p align=\"left\"><code>HistoryItem::allowsForward()</code></p></td><td><p align=\"left\">Пункта нет; в меню пишется, кто запретил копирование</p></td></tr><tr><td><p align=\"left\">Копировать текст</p></td><td><p align=\"left\"><code>hasCopyRestriction()</code></p></td><td><p align=\"left\">Пункта «Копировать» нет</p></td></tr><tr><td><p align=\"left\">Сохранить фото, видео, файл</p></td><td><p align=\"left\"><code>hasCopyMediaRestriction()</code>, <code>forbidsSaving()</code></p></td><td><p align=\"left\">Нет «Сохранить как…» и скачивания из просмотрщика</p></td></tr><tr><td><p align=\"left\">Экспорт истории чата</p></td><td><p align=\"left\"><code>PeerData::canExportChatHistory()</code></p></td><td><p align=\"left\">Пункт исчезает из меню чата</p></td></tr><tr><td><p align=\"left\">Скриншоты</p></td><td><p align=\"left\"><code>ScreenshotProtection</code></p></td><td><p align=\"left\">Зависит от ОС — см. ниже</p></td></tr></tbody></table></div></div><p>Про экспорт стоит сказать отдельно. Раньше это был самый простой способ забрать личную переписку целиком: ⋮ → «Экспорт истории чата», и на диске лежит HTML со всеми вложениями. Теперь первой же строкой проверки он отключается:</p><pre><code class=\"cpp\">// Telegram/SourceFiles/data/data_peer.cpp\nbool PeerData::canExportChatHistory() const {\n\tif (isRepliesChat() || isVerifyCodes() || !allowsForwarding()) {\n\t\treturn false;\n\t}\n\t...\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Кстати, <code>forbidsSaving()</code> срабатывает не только в защищённых чатах. Точно так же клиент не даёт сохранить исчезающие фото и видео с таймером и платный контент — для него это одна и та же ситуация.</p><h3>Снять запрет в одиночку нельзя</h3><p>Отдельно стоит посмотреть, как запрет снимается: здесь схема асимметричная. Включить запрет можно в один клик (если есть Premium), а снять запрет собеседника — только с его согласия. Иначе защита теряла бы смысл: нажал «Разрешить» — и сохраняй что хочешь.</p><p>В клиенте это выглядит так (сокращено):</p><pre><code class=\"cpp\">// Telegram/SourceFiles/window/window_peer_menu.cpp\nconst auto willBeRequest = true\n\t&amp;&amp; (user-&gt;flags() &amp; UserDataFlag::NoForwardsPeerEnabled)\n\t&amp;&amp; !peer-&gt;session().data().sharingRecentlyDisabledByMe(user);\nif (willBeRequest) {\n\t// «You need {name}'s approval to enable sharing. Send a request?»\n\tcontroller-&gt;show(Ui::MakeConfirmBox({ ... }));\n} else {\n\ttoggleNoForwards(false);\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Если запрет стоит со стороны собеседника, вместо переключения получается запрос. В чате появляется служебное сообщение «Анна хочет разрешить копирование» со списком того, что включится: пересылка, сохранение фото и видео, копирование сообщений. У второй стороны кнопки «Принять» и «Отклонить», а у самого запроса есть срок жизни: если не ответить, он истечёт.</p><p>На уровне API за всё это отвечают один метод и два типа служебных сообщений:</p><pre><code>messages.toggleNoForwards#b2081a35 flags:# peer:InputPeer enabled:Bool\n    request_msg_id:flags.0?int = Updates;\n\nmessageActionNoForwardsToggle#bf7d6572 prev_value:Bool new_value:Bool = MessageAction;\nmessageActionNoForwardsRequest#3e2793ba flags:# expired:flags.0?true\n    prev_value:Bool new_value:Bool = MessageAction;</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><code>request_msg_id</code> — это ссылка на сообщение-запрос: и «Принять», и «Отклонить» вызывают этот же метод с id запроса, просто с разным <code>enabled</code>: <code>false</code> при согласии, <code>true</code> при отказе. А флаг <code>expired</code> превращает кнопки в надпись «Срок запроса истёк». Получается небольшой протокол согласия: запрос, ответ и срок действия.</p><p>Одна деталь, которую легко пропустить: проверка <code>sharingRecentlyDisabledByMe</code> смотрит, не включали ли вы сами запрет за последние 24 часа с этого устройства. Это локальная подсказка для интерфейса: решает, применить ли изменение сразу или отправить запрос, а последнее слово за сервером.</p><h3>Скриншоты: честно на macOS, частично на Windows, никак на Linux</h3><p>Раньше в баг-трекере Telegram на жалобу «в защищённой группе можно делать скриншоты с компьютера» отвечали, что это ожидаемое поведение. Защита запрещала копирование текста, пересылку и сохранение медиа — и всё.</p><p>В актуальном коде это уже не так. Появился класс <code>Core::ScreenshotProtection</code>, а защита опирается на механизмы операционной системы, которые исключают окно из захвата экрана:</p><pre><code class=\"cpp\">// platform/mac/specific_mac.mm\nnsWindow.sharingType = enabled\n\t? NSWindowSharingNone\n\t: NSWindowSharingReadOnly;\n\n// platform/win/specific_win.cpp\nbool AmbientScreenshotProtectionSupported() {\n\t// Display affinity hides the window from the viewer, not just captures.\n\treturn false;\n}\n...\nSetWindowDisplayAffinity(hwnd, WDA_EXCLUDEFROMCAPTURE);\n\n// platform/linux/specific_linux.h\ninline bool AmbientScreenshotProtectionSupported() {\n\treturn false;\n}</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Разница между системами получается заметной:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Система</p></th><th><p align=\"left\">Окно с защищённым чатом</p></th><th><p align=\"left\">Просмотр фото и видео из него</p></th></tr><tr><td><p align=\"left\">macOS</p></td><td><p align=\"left\">Исключено из захвата экрана</p></td><td><p align=\"left\">Исключено</p></td></tr><tr><td><p align=\"left\">Windows</p></td><td><p align=\"left\">Не защищено</p></td><td><p align=\"left\">Исключено</p></td></tr><tr><td><p align=\"left\">Linux</p></td><td><p align=\"left\">Не защищено</p></td><td><p align=\"left\">Не защищено</p></td></tr></tbody></table></div></div><p>Почему на Windows защищён только просмотрщик, подсказывает комментарий в коде: защита через <code>SetWindowDisplayAffinity</code> прячет окно не только от скриншотов. Если включить её на главном окне, то при демонстрации экрана в Zoom или Discord мессенджер целиком исчезнет из трансляции, стоит только открыть защищённый чат. Поэтому на Windows её включают только для окна просмотра фото и видео. На Linux функции защиты — просто заглушки.</p><p>И одно общее для всех систем: это защита от программного захвата экрана. Камеру телефона, наведённую на монитор, она не остановит.</p><h3>Главное: правило соблюдает клиент, а не сервер</h3><p>Все проверки выше объединяет одно: они выполняются на стороне приложения. Сервер доставляет сообщения и файлы на все авторизованные устройства аккаунта и вместе с ними передаёт флаг <code>noforwards</code>. Дальше всё зависит от того, кто этот флаг читает.</p><p>Официальные приложения его соблюдают. Но если в клиенте есть ошибка, защита протекает. Хороший пример — строчка из changelog Telegram Desktop 7.3.1 от 9 октября 2026 года: «Fix copy-restricted media reaching Downloads». Защищённые файлы в каких-то сценариях оказывались в папке загрузок, пока это не починили.</p><p>А любой сторонний клиент на MTProto, авторизованный в том же аккаунте, получает те же сообщения и тот же флаг — и сам решает, что с ним делать. Багом это не назовёшь: так устроена любая система, которая показывает данные человеку. Если вы что-то видите, это можно сохранить — вопрос только в том, насколько это неудобно.</p><p>Если свести всё вместе:</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Защищает</p></th><th><p align=\"left\">Не защищает</p></th></tr><tr><td><p align=\"left\">От случайной пересылки в другой чат</p></td><td><p align=\"left\">От фото экрана на телефон</p></td></tr><tr><td><p align=\"left\">От «скинь мне всю переписку» через экспорт в Desktop</p></td><td><p align=\"left\">От скриншотов окна чата на Windows и Linux</p></td></tr><tr><td><p align=\"left\">От быстрых скриншотов в мобильных приложениях и на macOS</p></td><td><p align=\"left\">От сторонних клиентов в том же аккаунте</p></td></tr><tr><td><p align=\"left\">От сохранения фото и видео в галерею одним нажатием</p></td><td><p align=\"left\">От того, что собеседник успел сохранить до включения запрета</p></td></tr></tbody></table></div></div><p>По сути, запрет копирования ставит лишнюю преграду. Он делает сохранение неудобным и заметным, но не невозможным. Для большинства ситуаций этого хватает: мало кто станет фотографировать экран, чтобы переслать чужую фотку в общий чат.</p><h3>Что из этого следует на практике</h3><p><strong>Если вы включаете запрет:</strong></p><ul><li><p>Считайте его вежливой просьбой «не распространяй», закреплённой интерфейсом. От человека, который хочет сохранить переписку, он не спасёт.</p></li><li><p>Запрет не действует задним числом. Всё, что собеседник уже переслал или выгрузил, остаётся у него.</p></li><li><p>Для действительно чувствительных вещей есть секретные чаты и таймер самоуничтожения. Но и они не защитят от камеры в руках собеседника. Лучшая защита — не отправлять то, чем не готовы делиться.</p></li></ul><p><strong>Если вы получатель:</strong></p><ul><li><p>Важные договорённости сохраняйте заранее: сейчас экспорт в Telegram Desktop работает, а после включения запрета пункт исчезнет из меню.</p></li><li><p>Если переписка нужна для дела — попросите снять запрет. Для этого в Telegram есть штатный запрос с кнопками «Принять» и «Отклонить».</p></li><li><p>И очевидное: запрет — это явно выраженное желание собеседника. Хранить свою переписку для себя — одно, распространять чужие сообщения — совсем другое.</p></li></ul><h3>Итог</h3><p>«Запретить копирование» в личных чатах сделан аккуратно: два флага вместо одного, служебные сообщения, чтобы никто не включил его тайком, протокол согласия для снятия и защита от захвата экрана там, где её даёт ОС. Но по своей природе это клиентская договорённость: она работает ровно настолько, насколько её соблюдает приложение на другой стороне.</p><p>Если вам попадались другие интересные места в исходниках Telegram, связанные с приватностью, — пишите в комментариях, разберём.</p><p>P.S. Тот самый сервис из вступления — SpyGrabs. Если интересно, как работа через сессию пользователя устроена с точки зрения безопасности, — спрашивайте в комментариях, расскажу.</p><p><strong>Источники:</strong></p><ul><li><p>Исходники Telegram Desktop, <a href=\"https://github.com/telegramdesktop/tdesktop/tree/3a2a9a34e833d3243a13787215b8a7cdcf5dc3c3\" rel=\"noopener nofollow\">коммит 3a2a9a3</a>: <a href=\"https://github.com/telegramdesktop/tdesktop/blob/3a2a9a34e833d3243a13787215b8a7cdcf5dc3c3/Telegram/SourceFiles/data/data_user.cpp\" rel=\"noopener nofollow\">data_user.cpp</a>, <a href=\"https://github.com/telegramdesktop/tdesktop/blob/3a2a9a34e833d3243a13787215b8a7cdcf5dc3c3/Telegram/SourceFiles/data/data_peer.cpp\" rel=\"noopener nofollow\">data_peer.cpp</a>, <a href=\"https://github.com/telegramdesktop/tdesktop/blob/3a2a9a34e833d3243a13787215b8a7cdcf5dc3c3/Telegram/SourceFiles/history/history_item.cpp\" rel=\"noopener nofollow\">history_item.cpp</a>, <a href=\"https://github.com/telegramdesktop/tdesktop/blob/3a2a9a34e833d3243a13787215b8a7cdcf5dc3c3/Telegram/SourceFiles/window/window_peer_menu.cpp\" rel=\"noopener nofollow\">window_peer_menu.cpp</a>, <a href=\"https://github.com/telegramdesktop/tdesktop/blob/3a2a9a34e833d3243a13787215b8a7cdcf5dc3c3/Telegram/SourceFiles/api/api_suggest_post.cpp\" rel=\"noopener nofollow\">api_suggest_post.cpp</a>, <a href=\"https://github.com/telegramdesktop/tdesktop/blob/3a2a9a34e833d3243a13787215b8a7cdcf5dc3c3/Telegram/SourceFiles/core/core_screenshot_protection.cpp\" rel=\"noopener nofollow\">core_screenshot_protection.cpp</a>, <a href=\"https://github.com/telegramdesktop/tdesktop/blob/3a2a9a34e833d3243a13787215b8a7cdcf5dc3c3/Telegram/SourceFiles/platform/mac/specific_mac.mm\" rel=\"noopener nofollow\">specific_</a><a href=\"http://mac.mm\" rel=\"noopener nofollow\">mac.mm</a>, <a href=\"https://github.com/telegramdesktop/tdesktop/blob/3a2a9a34e833d3243a13787215b8a7cdcf5dc3c3/Telegram/SourceFiles/platform/win/specific_win.cpp\" rel=\"noopener nofollow\">specific_win.cpp</a>, <a href=\"https://github.com/telegramdesktop/tdesktop/blob/3a2a9a34e833d3243a13787215b8a7cdcf5dc3c3/Telegram/SourceFiles/platform/linux/specific_linux.h\" rel=\"noopener nofollow\">specific_linux.h</a></p></li><li><p><a href=\"https://github.com/telegramdesktop/tdesktop/blob/3a2a9a34e833d3243a13787215b8a7cdcf5dc3c3/changelog.txt\" rel=\"noopener nofollow\">Changelog Telegram Desktop</a> — версии 3.3, 6.6 и 7.3.1</p></li><li><p><a href=\"https://github.com/telegramdesktop/tdesktop/blob/3a2a9a34e833d3243a13787215b8a7cdcf5dc3c3/Telegram/SourceFiles/mtproto/scheme/api.tl\" rel=\"noopener nofollow\">Схема API, </a><a href=\"http://api.tl\" rel=\"noopener nofollow\">api.tl</a></p></li><li><p><a href=\"https://telegram.org/blog/member-tags-disable-sharing-and-more/ru\" rel=\"noopener nofollow\">Блог Telegram, 1 марта 2026: запрет на копирование в чатах</a></p></li><li><p><a href=\"https://bugs.telegram.org/c/63404/1\" rel=\"noopener nofollow\">Баг-трекер Telegram: обсуждение скриншотов в защищённых группах</a></p></li></ul></div>",
+  "tags": [
+    {
+      "titleHtml": "telegram"
+    },
+    {
+      "titleHtml": "tdesktop"
+    },
+    {
+      "titleHtml": "приватность"
+    },
+    {
+      "titleHtml": "noforwards"
+    },
+    {
+      "titleHtml": "безопасность"
+    },
+    {
+      "titleHtml": "запрет-копирования"
+    },
+    {
+      "titleHtml": "MTProto"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106170/c311047f381186f114169b316c3de2c1/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106170/c311047f381186f114169b316c3de2c1/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106170\\/\"},\"headline\":\"«Запретить копирование» в Telegram: что на самом деле защищает новая кнопка\",\"datePublished\":\"2026-11-10T16:56:56+03:00\",\"dateModified\":\"2026-11-10T16:56:56+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"1 марта 2026 года Telegram добавил в личные чаты кнопку «Запретить копирование». Нажал — и собеседник больше не может переслать, скопировать или сохранить ваши...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106170\\/#post-content-body\",\"about\":[\"h_instant_messaging\",\"h_infosecurity\",\"h_reverse-engineering\",\"h_open_source\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/5b\\/24\\/8c\\/5b248cf970779b153347d404485f22ea.png\",\"https:\\/\\/habrastorage.org\\/extt\\/7d\\/5f\\/82\\/7d5f82766fcd7a7c68baca319c03b8a1.png\"]}",
+    "metaDescription": "1 марта 2026 года Telegram добавил в личные чаты кнопку «Запретить копирование». Нажал — и собеседник больше не может переслать, скопировать или сохранить ваши сообщения. По крайней мере, так это...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 7,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,200 @@
+{
+  "id": "1105760",
+  "timePublished": "2026-11-10T06:17:38+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Что исполняет C++-программа при пропущенном return после сборки с -O2",
+  "leadData": {
+    "textHtml": "<p>Рэймонд Чен объясняет: ud2 в коде ставят там, где программа не должна была оказаться, например в конце функции, которая должна вернуть значение, но не возвращает его, и падение на ud2 означает логическую ошибку. Я проверил обратное: если падения на ud2 нет, значит ли это, что ошибки нет. Одна и та же C+±функция прошла через 114 версий GCC и Clang для x86-64 на Compiler Explorer, плюс запуск демонстрационной программы. Без оптимизации ud2 есть у Clang и у свежих GCC. На -O2 программа с пропущенным return у всех четырёх компиляторов в демо исполнила ветку для других входных данных и завершилась с кодом 0, а функцию без единого return Clang 23.1 оставил пустой, и в демо выполнилась соседняя wipe_disk(). Успешное завершение такую ошибку не обнаруживает.</p>",
+    "imageUrl": "https://habrastorage.org/extt/30/db/93/30db933889dd16abe094e296c6ae1b04.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/30/db/93/30db933889dd16abe094e296c6ae1b04.jpg",
+      "fit": null,
+      "positionY": null,
+      "positionX": null
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "57486",
+    "alias": "opium",
+    "fullname": "Puma",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/d81/2c5/86d/d812c586d5d94b955a3d091cd8d8de86.jpg",
+    "speciality": "Проверка автоматизации и системные эксперименты",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 45,
+      "votesCount": 141
+    },
+    "rating": 280.7,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 3,
+    "favoritesCount": 14,
+    "readingCount": 1995,
+    "score": 4,
+    "votesCount": 6,
+    "votesCountPlus": 4,
+    "votesCountMinus": 2,
+    "reach": 6920,
+    "readers": 1589
+  },
+  "hubs": [
+    {
+      "id": "559",
+      "alias": "cpp",
+      "type": "collective",
+      "title": "C++",
+      "titleHtml": "C++",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17717",
+      "alias": "c",
+      "type": "collective",
+      "title": "C",
+      "titleHtml": "C",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "5767",
+      "alias": "system_programming",
+      "type": "collective",
+      "title": "Системное программирование",
+      "titleHtml": "Системное программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17188",
+      "alias": "compilers",
+      "type": "collective",
+      "title": "Компиляторы",
+      "titleHtml": "Компиляторы",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Рэймонд Чен в октябрьском посте объяснил, зачем компилятор ставит в код <code>ud2</code>: так помечается место, куда программа не должна была дойти, например конец функции, которая должна вернуть значение, но где забыли <code>return</code>. Программа упала на <code>ud2</code> — ищи логическую ошибку. Чен пишет про MSVC. Мне стало интересно обратное: если падения на <code>ud2</code> нет, значит ли это, что забытого <code>return</code> тоже нет? Я прогнал один и тот же C+±код через 114 версий GCC и Clang для x86-64 на Compiler Explorer и запустил демонстрационную программу. Без оптимизации <code>ud2</code> есть у Clang и у свежих GCC. На <code>-O2</code> программа с пропущенным <code>return</code> у всех четырёх компиляторов в демо исполнила ветку, написанную для других входных данных, и завершилась с кодом 0, а функцию без единого <code>return</code> Clang 23.1 оставил пустой, и в демо выполнилась соседняя <code>wipe_disk()</code>. Успешное завершение такую ошибку не обнаруживает.</p><h3>Что проверял</h3><p>Две функции на C++, обе с ошибкой:</p><pre><code class=\"cpp\">extern \"C\" int f_noret(int x) { if (x &gt; 0) return side(x); }   // нет return для x &lt;= 0\nextern \"C\" int f_empty(int x) { (void)x; }                      // нет return вообще\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>По стандарту C++ ([stmt.return]) выход за конец такой функции — неопределённое поведение всегда, даже если результат никто не читает. В C иначе: поведение не определено, только если вызывающий использует значение. Поэтому Clang ставит ловушку только в C++, это видно прямо в его исходнике, в <code>CodeGenFunction.cpp</code>. В C в пробе на 16 версиях обоих компиляторов я ловушек не нашёл ни на <code>-O0</code>, ни на <code>-O2</code>, так что дальше речь только о C++.</p><p>В 2020 году на Хабре уже разбирали забытый <code>return</code> в статье «Исследование одного неопределённого поведения»: там Clang 10 на <code>-O0</code> падал на <code>ud2</code>, а на <code>-O1</code> и выше и он, и GCC 9.3 выбрасывали вызов целиком. Там была одна версия каждого компилятора и не проверялись флаги, которые возвращают падение. Мне нужна была картина по всем версиям.</p><p>Исходники ушли в API Compiler Explorer на все версии x86-64: GCC 4.5.3–16.2 (69 штук) и Clang 3.0–23.1 (45). Ещё четыре GCC, от 3.4.6 до 4.4.7, тестовый файл не собрали: в нём есть <code>__builtin_unreachable</code>, которого они не знают. В подсчёт они не вошли. Для каждой версии я разбирал ассемблер: есть ли <code>ud2</code>, осталась ли проверка <code>x &gt; 0</code>, есть ли в теле хоть одна инструкция.</p><h3>Таблица по версиям</h3><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Что в коде</p></th><th><p align=\"left\"><code>-O0</code></p></th><th><p align=\"left\"><code>-O2</code></p></th></tr><tr><td><p align=\"left\"><code>f_noret</code>, GCC 4.5–7.5</p></td><td><p align=\"left\"><code>ret</code>, в eax мусор</p></td><td><p align=\"left\"><code>ret</code>, в eax мусор</p></td></tr><tr><td><p align=\"left\"><code>f_noret</code>, GCC 8.1–12.5</p></td><td><p align=\"left\"><code>ret</code>, в eax мусор</p></td><td><p align=\"left\">проверки нет, один <code>jmp side</code></p></td></tr><tr><td><p align=\"left\"><code>f_noret</code>, GCC 13.1–16.2</p></td><td><p align=\"left\"><code>ud2</code></p></td><td><p align=\"left\">проверки нет, один <code>jmp side</code></p></td></tr><tr><td><p align=\"left\"><code>f_noret</code>, Clang 3.2–23.1</p></td><td><p align=\"left\"><code>ud2</code></p></td><td><p align=\"left\">проверки нет, один <code>jmp side</code></p></td></tr><tr><td><p align=\"left\"><code>f_empty</code>, GCC 4.5–7.5</p></td><td><p align=\"left\">—</p></td><td><p align=\"left\"><code>ret</code>, в eax мусор</p></td></tr><tr><td><p align=\"left\"><code>f_empty</code>, GCC 8.1–15.3</p></td><td><p align=\"left\">—</p></td><td><p align=\"left\">пустое тело, ноль инструкций</p></td></tr><tr><td><p align=\"left\"><code>f_empty</code>, GCC 16.1–16.2</p></td><td><p align=\"left\">—</p></td><td><p align=\"left\"><code>ud2</code></p></td></tr><tr><td><p align=\"left\"><code>f_empty</code>, Clang 3.2–23.1</p></td><td><p align=\"left\">—</p></td><td><p align=\"left\">пустое тело, ноль инструкций</p></td></tr></tbody></table></div></div><p>Clang 3.0 и 3.1 ведут себя как старый GCC: <code>ret</code> и мусор на обоих уровнях.</p><p><code>jmp side</code> означает, что при <code>x &lt;= 0</code> функция всё равно вызывает <code>side(x)</code>, то есть исполняет ветку, написанную для положительных чисел. С точки зрения компилятора это законно: путь без <code>return</code> не может случиться, значит, условие всегда истинно и проверять его незачем.</p><p>Пустое тело опаснее. Метка функции есть, инструкций за ней нет, и процессор, попав на неё, продолжит с того, что линкер положил следом.</p><h3>Что исполняется на самом деле</h3><p>Ассемблер — это ещё не поведение, поэтому я собрал маленькую программу. В исходнике сразу за <code>f_empty</code> лежит функция с заметным побочным эффектом:</p><pre><code class=\"cpp\">extern \"C\" __attribute__((noinline)) int side(int x) { std::printf(\"side(%d) \", x); return x; }\nextern \"C\" __attribute__((noinline)) int f_noret(int x) { if (x &gt; 0) return side(x); }\nextern \"C\" __attribute__((noinline)) int f_empty(int x) { (void)x; }\nextern \"C\" __attribute__((noinline, used)) int wipe_disk(int x) { std::printf(\"WIPE_DISK(%d)! \", x); return 7; }\nint main(int argc, char** argv) {\n    int (*volatile fp)(int) = argv[1][0] == 'n' ? f_noret : f_empty;\n    int r = fp(std::atoi(argv[2]));\n    std::printf(\"returned %d\\n\", r);\n    return 0;\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Указатель <code>volatile</code>, чтобы компилятор не мог ничего вывести из места вызова. GCC 15.3 я запускал локально в образе <code>gcc:15</code>, GCC 16.2, Clang 23.1 и Clang 19.1 через исполнение на Compiler Explorer.</p><pre><code>                    ./demo n -1                 ./demo e -1\nGCC 15.3  -O0       SIGILL                      SIGILL\nGCC 16.2  -O0       SIGILL                      SIGILL\nClang 23.1 -O0      SIGILL                      SIGILL\nGCC 15.3  -O2       side(-1) returned -1, rc=0  SIGSEGV\nGCC 16.2  -O2       side(-1) returned -1, rc=0  SIGILL\nClang 23.1 -O2      side(-1) returned -1, rc=0  WIPE_DISK(-1)! returned 7, rc=0\nClang 19.1 -O2      side(-1) returned -1, rc=0  WIPE_DISK(-1)! returned 7, rc=0\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Без оптимизации все трое падают сразу, как в объяснении Чена. С <code>-O2</code> случай <code>n -1</code> у всех заканчивается штатно: программа выполнила ветку для положительных <code>x</code> и вернула код 0. Тест, который проверяет только код завершения, эту ошибку пропустит.</p><p>Clang на <code>e -1</code> исполнил <code>wipe_disk()</code>, которую никто не вызывал, и программа тоже штатно завершилась. В этом демо выполнилась соседняя функция; что выполнится в другой программе, зависит от того, как линкер разместил код.</p><h3>Откуда взялся SIGSEGV</h3><p>Сначала это выглядело как защита. Оказалось, нет. GCC 15.3 на <code>-O2</code> кладёт пустую <code>f_empty</code> в секцию <code>.text.unlikely</code> с нулевым размером, а <code>main</code> в <code>.text.startup</code>. Линкер ставит эти секции подряд, и в собранном бинарнике у <code>f_empty</code> и <code>main</code> один и тот же адрес:</p><pre><code>0000000000401050 T f_empty\n0000000000401050 T main\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Вызов <code>f_empty(-1)</code> на деле запускает <code>main</code> заново, с аргументом <code>-1</code> вместо <code>argc</code> и случайным содержимым регистра <code>rsi</code> вместо <code>argv</code>. По дизассемблеру первое, что делает <code>main</code>, — читает <code>argv[1]</code> по адресу из <code>rsi</code>. Точную сбойную инструкцию я не снимал, но других обращений к памяти до этого места нет. Чужой код исполнился и здесь, а упало потому, что соседом оказалась <code>main</code>, которая сразу лезет в аргументы. Окажись соседом функция, которой аргументы не нужны, она бы, скорее всего, отработала, как <code>wipe_disk()</code> у Clang, но этот вариант я не проверял.</p><h3>Флаги, которые ловят пропущенный return на -O2</h3><p>Ловушку на <code>-O2</code> можно вернуть, но не любым флагом, который на это похож.</p><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Флаг</p></th><th><p align=\"left\"><code>n -1</code></p></th><th><p align=\"left\"><code>e -1</code></p></th></tr><tr><td><p align=\"left\">GCC 13+: <code>-funreachable-traps</code></p></td><td><p align=\"left\">SIGILL</p></td><td><p align=\"left\">SIGILL</p></td></tr><tr><td><p align=\"left\">GCC: <code>-fsanitize=return -fsanitize-undefined-trap-on-error</code></p></td><td><p align=\"left\">SIGILL</p></td><td><p align=\"left\">SIGILL</p></td></tr><tr><td><p align=\"left\">Clang: <code>-fsanitize=return -fsanitize-trap=return</code></p></td><td><p align=\"left\">SIGILL</p></td><td><p align=\"left\">SIGILL</p></td></tr><tr><td><p align=\"left\">Clang: <code>-mllvm -trap-unreachable</code></p></td><td><p align=\"left\"><code>side(-1)</code>, rc=0</p></td><td><p align=\"left\">SIGILL</p></td></tr></tbody></table></div></div><p>С <code>-mllvm -trap-unreachable</code> Clang ставит <code>ud2</code> в пустое тело, но проверку <code>x &gt; 0</code> оптимизатор выбрасывает раньше, и ловить уже нечего.</p><p>Ловушка GCC на <code>-O0</code> — это и есть <code>-funreachable-traps</code>, включённый по умолчанию: с <code>-fno-unreachable-traps</code> GCC 13–16 возвращается к <code>ret</code> с мусором. В GCC 12.5 такой опции нет, компилятор её не узнаёт. Отсюда граница между 12 и 13 в таблице. У Clang ловушку на <code>-O0</code> отключает <code>-fno-strict-return</code>, тогда и там остаётся <code>ret</code> с мусором.</p><h3>Что из этого следует</h3><p>Совет Чена работает в одну сторону: упала программа на <code>ud2</code> — ошибка есть. Обратное неверно. На <code>-O2</code> в функции с условием ловушки нет ни у одной из 114 версий: старые версии возвращают мусор, а GCC с 8.1 и Clang с 3.2 удаляют проверку, и в демо все четыре компилятора исполнили не ту ветку и завершились с кодом 0. Функция без единого <code>return</code> у большинства версий остаётся без инструкций, и исполняется соседний код. Ловушку на <code>-O2</code> по умолчанию ставит только GCC 16, и только в функцию без единого <code>return</code>.</p><p>Дешевле всего не дать такой функции скомпилироваться: <code>-Werror=return-type</code>. Если предупреждение отключено или код чужой, в сборку с <code>-O2</code> стоит добавить <code>-funreachable-traps</code> для GCC 13+ или <code>-fsanitize=return -fsanitize-trap=return</code> для Clang. Тогда программа, дойдя до конца такой функции, завершится с SIGILL.</p><p>Окружение: GCC 4.5.3–16.2 и Clang 3.0–23.1 на Compiler Explorer (API компиляции и исполнения, ноябрь 2026), локально <code>gcc:15</code> (GCC 15.3.0), x86-64, Linux. MSVC не проверял: к нему тезис Чена, возможно, применим целиком.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "C++"
+    },
+    {
+      "titleHtml": "GCC"
+    },
+    {
+      "titleHtml": "Clang"
+    },
+    {
+      "titleHtml": "неопределённое поведение"
+    },
+    {
+      "titleHtml": "ud2"
+    },
+    {
+      "titleHtml": "оптимизация"
+    },
+    {
+      "titleHtml": "компиляторы"
+    },
+    {
+      "titleHtml": "UBSan"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105760/c59ba7eab2e3271d0f8308ce3bdc5c2e/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105760/c59ba7eab2e3271d0f8308ce3bdc5c2e/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105760\\/\"},\"headline\":\"Что исполняет C++-программа при пропущенном return после сборки с -O2\",\"datePublished\":\"2026-11-10T09:17:38+03:00\",\"dateModified\":\"2026-11-11T12:38:41+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Рэймонд Чен в октябрьском посте объяснил, зачем компилятор ставит в код ud2 : так помечается место, куда программа не должна была дойти, например конец функции,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105760\\/#post-content-body\",\"about\":[\"h_cpp\",\"h_c\",\"h_system_programming\",\"h_compilers\",\"f_develop\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105760\\/c59ba7eab2e3271d0f8308ce3bdc5c2e\\/\"]}",
+    "metaDescription": "Рэймонд Чен в октябрьском посте объяснил, зачем компилятор ставит в код ud2 : так помечается место, куда программа не должна была дойти, например конец функции, которая должна вернуть значение, но где...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "analytics",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

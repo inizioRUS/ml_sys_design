@@ -1,0 +1,215 @@
+{
+  "id": "1106206",
+  "timePublished": "2026-11-12T14:10:18+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Сонный SSH: устраняем задержки на этапе handshake",
+  "leadData": {
+    "textHtml": "<p>Сеть работает, пинг до&nbsp;сервера проходит без&nbsp;задержек, но&nbsp;SSH‑подключение занимает 10–30&nbsp;секунд. Такая пауза раздражает при&nbsp;ручной работе, а&nbsp;в&nbsp;Ansible и CI/CD может приводить к&nbsp;таймаутам и сбоям автоматизации. Разберём, как&nbsp;с&nbsp;помощью <code>ssh -vvv</code> найти проблемный этап подключения, проверить влияние GSSAPI и UseDNS и устранить задержку без&nbsp;риска потерять доступ к&nbsp;серверу.</p>",
+    "imageUrl": "https://habrastorage.org/extt/5e/44/bc/5e44bc12e1b6fd71bde9947c891beccd.png",
+    "buttonTextHtml": "Ускорить SSH",
+    "image": {
+      "url": "https://habrastorage.org/extt/5e/44/bc/5e44bc12e1b6fd71bde9947c891beccd.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3009287",
+    "alias": "Andrey_Biryukov",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 32,
+      "votesCount": 240
+    },
+    "rating": 36.4,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "64K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 5,
+    "readingCount": 274,
+    "score": 2,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 4323,
+    "readers": 216
+  },
+  "hubs": [
+    {
+      "id": "21052",
+      "alias": "otus",
+      "type": "corporative",
+      "title": "Блог компании OTUS",
+      "titleHtml": "Блог компании OTUS",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19727",
+      "alias": "linux_dev",
+      "type": "collective",
+      "title": "Linux",
+      "titleHtml": "Linux",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17123",
+      "alias": "network_technologies",
+      "type": "collective",
+      "title": "Сетевые технологии",
+      "titleHtml": "Сетевые технологии",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Привет, Хабр!</p><p>Меня зовут Андрей Бирюков. Я — независимый эксперт в области ИТ и ИБ, преподаю в учебных центрах и пишу статьи и книги.</p><p>Думаю, многим <a href=\"https://otus.pw/c4xR/\">администраторам</a> знакома ситуация, когда сеть работает (в смысле нормально работает), пинг до сервера летает, ключи на месте, но при этом <code>ssh user@host</code> упорно висит десять, двадцать, а то и тридцать секунд, прежде чем показать приглашение.</p><p>Если при выполнении интерактивных задач это просто раздражает, то в продуктиве это становится настоящей проблемой. Так, Ansible‑плейбуки упираются в таймауты, CI‑пайплайны «залипают» на этапе деплоя, а дежурный, пытающийся зайти на упавший сервер, теряет драгоценные минуты.</p><p>Тезис сегодняшней статьи довольно простой и заключается в том, что в подавляющем большинстве случаев виноваты два параметра: <code>GSSAPIAuthentication</code> на стороне клиента и <code>UseDNS</code> на стороне сервера.</p><p>Но чтобы это доказать, а не угадать, нужна методичная диагностика, и далее в этой статье представлен воспроизводимый алгоритм, позволяющий найти «висящую» стадию handshake, подтвердить гипотезу и исправить проблему, не сломав при этом то, что работает.</p><h3>SSH‑handshake изнутри</h3><p>Для начала давайте разберёмся с тем, как устроен SSH‑handshake и где он может зависать. </p><p>И для начала давайте вспомним матчасть, а именно из каких этапов состоит подключение по SSH:</p><ol><li><p>TCP‑connect — установка соединения на порт 22.</p></li><li><p>Обмен данными и согласование параметров.</p></li><li><p>Обмен ключами (Key Exchange).</p></li><li><p>Аутентификация.</p></li><li><p>Установление защищённого канала.</p></li></ol><p> </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/cf/ac/ef/cfacefd1740b643c4ee5b8e41c6e7dc2.png\" width=\"598\" height=\"684\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/cf/ac/ef/cfacefd1740b643c4ee5b8e41c6e7dc2.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/cf/ac/ef/cfacefd1740b643c4ee5b8e41c6e7dc2.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Здесь важно понимать, что задержка почти всегда локализована в одном конкретном этапе, и запуск подробного вывода <code>ssh -vvv</code> показывает, в каком именно.</p><ul><li><p>Если пауза возникает до строки <code>debug1: SSH2_MSG_KEXINIT</code>, то это означает, что почти наверняка клиент пытается достучаться до Kerberos KDC.</p></li><li><p>Если же пауза после начала аутентификации, то сервер, скорее всего, делает обратный DNS‑запрос.</p></li><li><p>А зависание прямо на этапе <code>Connection established</code> говорит о проблеме в сети или фаерволе, который молча дропает пакеты вместо того, чтобы ответить RST.</p></li></ul><p>И дальше наша задача сводится к тому, чтобы аккуратно замерить, где именно теряется время.</p><h3>Подробный вывод и чтение лога</h3><p>Для начала нам по традиции нужно посмотреть лог на стороне клиента. Запускать его лучше с таймингами, чтобы видеть паузы между строками, а не гадать на глазок:</p><pre><code class=\"bash\">ssh -vvv user@host 2&gt;&amp;1 | ts '%.s'</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ea/f9/0f/eaf90f1f790eaea8fb2bdc2c95ab30d2.png\" width=\"1445\" height=\"627\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ea/f9/0f/eaf90f1f790eaea8fb2bdc2c95ab30d2.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ea/f9/0f/eaf90f1f790eaea8fb2bdc2c95ab30d2.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Утилита <code>ts</code> из пакета <code>moreutils</code> проставляет секунды перед каждой строкой, и здесь мы можем сразу увидеть, где задержка.</p><p>Если <code>ts</code> нет, то можно писать лог в файл и смотреть на него через <code>less</code>:</p><pre><code class=\"bash\">ssh -vvv -E /tmp/ssh-debug.log user@host\nless /tmp/ssh-debug.log</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>В «медленном» логе вы увидите примерно такую картину: последняя строка перед паузой — что‑то вроде <code>debug1: Authenticating to host:22 as 'user'</code>, а следующая появляется через полминуты.</p><p>Именно эти две строки и есть границы нашей проблемы. Дальше остаётся только сопоставить их с этапами handshake из предыдущего раздела.</p><p>На практике лучше всего сохранить «медленный» лог, затем применить изменения конфигурации, снять «быстрый» лог и выполнить их сравнение.</p><blockquote><p>Разница в таймингах будет лучшим доказательством того, что вы нашли настоящую причину, а не случайное совпадение.</p></blockquote><h3>Причина первая: GSSAPI/Kerberos на клиенте</h3><p>Реализация OpenSSH на многих дистрибутивах (особенно в корпоративных сборках и на RHEL‑подобных системах) по умолчанию включает параметр <code>GSSAPIAuthentication yes</code>.</p><p>Это означает, что клиент при подключении пытается получить билет Kerberos у KDC, причём даже если вы подключаетесь по обычному ключу к серверу, не имеющему к Kerberos никакого отношения.</p><p>Если KDC недоступен или отвечает медленно, клиент терпеливо ждёт таймаута, и именно эти секунды вы наблюдаете.</p><p>В таком случае диагностика начинается с проверки текущих билетов, которые можно увидеть с помощью команды <code>klist</code> и трассировки GSSAPI:</p><pre><code class=\"bash\">klist\nKRB5_TRACE=/dev/stderr ssh user@host</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/b6/3e/f2/b63ef2dc282aabeeb580741b88420917.png\" width=\"1318\" height=\"362\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b6/3e/f2/b63ef2dc282aabeeb580741b88420917.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/b6/3e/f2/b63ef2dc282aabeeb580741b88420917.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Если klist показывает пустой список, а трассировка полна попыток достучаться до несуществующего <a href=\"http://kdc.example.com\"><code>kdc.example.com</code></a>, диагноз подтверждён. </p><p>Дополнительно можно посмотреть, что именно настроено:</p><pre><code class=\"bash\">ssh -G user@host | grep -i gssapi</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/06/f8/49/06f8492e228211dc6b3d19f691a2ddf0.png\" width=\"1367\" height=\"120\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/06/f8/49/06f8492e228211dc6b3d19f691a2ddf0.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/06/f8/49/06f8492e228211dc6b3d19f691a2ddf0.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Здесь решение будет достаточно простое отключить GSSAPI там, где он не нужен. Для этого в клиентском файле конфига <code>~/.ssh/config</code> просто отключим GSSAPI:</p><pre><code>Host *\n    GSSAPIAuthentication no</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Однако, если GSSAPI нужен только для конкретных корпоративных хостов, лучше не отключать его глобально, а сделать наоборот — включить точечно для отдельного домена:</p><pre><code>Host *.corp.example.com\n    GSSAPIAuthentication yes\n\nHost *\n    GSSAPIAuthentication no</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Но здесь важно понимать, что в корпоративной среде, где SSH‑доступ построен на SSO с использованием Kerberos, отключать GSSAPI по понятным причинам нельзя.</p><p>Вместо этого нужно чинить доступность KDC и корректность параметров в файле <code>krb5.conf</code>.</p><blockquote><p>Отключение GSSAPI здесь является лечением симптома, а не болезни.</p></blockquote><h3>Причина вторая: UseDNS yes на сервере</h3><p>Ещё одной классической причиной задержек является использование параметра <code>UseDNS</code> в <code>sshd_config</code>.</p><p>Когда он включён (а в некоторых дистрибутивах это значение по умолчанию), демон <code>sshd</code> при каждом подключении делает обратный DNS‑запрос по IP‑адресу клиента.</p><p>Ему нужно получить PTR‑запись для логирования осмысленного имени хоста и, при необходимости, применения правила вида <code>AllowUsers user@*.</code><a href=\"http://example.com\"><code>example.com</code></a>.</p><p>Если резолвер медленный, перегруженный или вообще недоступен из сетевого сегмента сервера, каждый такой запрос упирается в таймаут — те самые 10–30 секунд.</p><p>Проверить текущее значение достаточно просто:</p><pre><code class=\"bash\">sudo sshd -T | grep -i usedns</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Если вы видите <code>usedns yes</code>, то это первый подозреваемый.</p><p>Также дополнительно стоит посмотреть, что происходит в момент подключения, в логах демона:</p><pre><code class=\"bash\">sudo journalctl -u ssh -f</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/8e/99/f0/8e99f0aa32242318f96434747835bdf9.png\" width=\"947\" height=\"145\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/8e/99/f0/8e99f0aa32242318f96434747835bdf9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/8e/99/f0/8e99f0aa32242318f96434747835bdf9.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>И проверить, резолвится ли адрес клиента с самого сервера:</p><pre><code class=\"bash\">dig -x &lt;client_ip&gt;</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/3e/5e/b7/3e5eb722420b7c3ffe7ea1e2bb104132.png\" alt=\"\" title=\"\" width=\"1209\" height=\"413\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3e/5e/b7/3e5eb722420b7c3ffe7ea1e2bb104132.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/3e/5e/b7/3e5eb722420b7c3ffe7ea1e2bb104132.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Наличие статуса <code>NXDOMAIN</code> и пустая секция <code>ANSWER</code> означают отсутствие записи.</p><p>Сам по себе такой ответ быстрый (3 мс), и <code>sshd</code> с параметром <code>UseDNS yes</code> на нём не зависнет надолго, так как он просто залогирует <code>reverse mapping checking getaddrinfo for … failed</code> и пойдёт дальше.</p><p>Но если резолвер, к которому обращается <code>sshd</code>, настроен на <code>forward-only</code> (без рекурсии в обратные зоны) или сам тормозит, то ответ придёт не за 3 мс, а за 10–30 секунд — и вот это уже причина задержки.</p><p>Для исправления отредактируйте файл <code>/etc/ssh/sshd_config</code>:</p><pre><code>UseDNS no</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>После правки обязательно проверьте конфиг на синтаксис и перезагрузите демон без разрыва существующих сессий:</p><pre><code class=\"bash\">sudo sshd -t\nsudo systemctl reload sshd</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Но здесь есть важный нюанс, о котором часто забывают.</p><p>После применения <code>UseDNS no</code> перестают работать правила <code>AllowUsers</code>, <code>DenyUsers</code>, <code>AllowGroups</code> и <code>DenyGroups</code>, заданные по имени хоста, и остаются только IP‑адреса и шаблоны.</p><p>Если у вас в конфиге есть что‑то вроде <code>AllowUsers admin@*.</code><a href=\"http://corp.example.com\"><code>corp.example.com</code></a>, то после отключения DNS это правило перестанет срабатывать, и вы можете случайно отрезать себе доступ.</p><p>Поэтому перед правкой всегда проверяйте наличие соответствующих правил:</p><pre><code class=\"bash\">sudo sshd -T | grep -E 'allowusers|denyusers|allowgroups|denygroups'</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>И если такие правила есть, то переписывайте их на IP‑подсети заранее, до <code>reload</code>.</p><h3>Некоторые менее очевидные причины</h3><p>Мы рассмотрели две наиболее распространённые причины, но не всё сводится к описанным параметрам. Если после правок выше подключение всё ещё медленное, то стоит проверить ещё несколько параметров, представленных далее.</p><h4>CanonicalizeHostname и Match exec</h4><p>Начнём с <code>CanonicalizeHostname</code> и <code>Match exec</code> в клиентском конфиге.</p><p>Если в <code>~/.ssh/config</code> включены канонические имена или используются блоки <code>Match exec</code> с внешними командами, каждая такая команда выполняется при подключении.</p><p>Медленный скрипт внутри <code>Match exec</code> даёт ровно такой же эффект, как GSSAPI.</p><p>Всё это легко проверяется через <code>ssh -G host</code>, там видно итоговый конфиг после всех подстановок.</p><h4>ProxyCommand/ProxyJump</h4><p>Ещё один подозреваемый — это параметр <code>ProxyCommand/ProxyJump</code> с медленным первым хопом.</p><p>Если подключение идёт через бастион, задержка может быть на стороне jump‑хоста, особенно если он сам страдает от <code>UseDNS</code> или GSSAPI.</p><p>Проверяйте тайминги по цепочке: сначала напрямую на бастион, потом уже через него.</p><h4>PAM‑модули с сетевыми вызовами</h4><p>Отдельного внимания требуют PAM‑модули с сетевыми вызовами.</p><p>На этапе аутентификации <code>sshd</code> может ходить в <code>pam_sss</code> или <code>pam_ldap</code>, которые, в свою очередь, обращаются к внешнему каталогу.</p><p>Если каталог недоступен, а таймауты большие, вы получите задержку уже после обмена ключами.</p><p>Для выявления данной проблемы нужно смотреть логи в <code>journalctl -u ssh</code> и в <code>/var/log/auth.log</code>: там будут сообщения от PAM с указанием модуля.</p><h4>Лимит MaxStartups</h4><p>Если сервер принимает много одновременных подключений (например, из Ansible‑инвентаря, содержащего сотни хостов), <code>sshd</code> может начинать дропать часть попыток по достижении лимита <code>MaxStartups</code>.</p><p>Со стороны клиента это выглядит как случайные задержки и повторы.</p><p>Для проверки нужно воспользоваться командой:</p><pre><code class=\"bash\">sshd -T | grep maxstartups</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>И мониторингом количества сессий.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/83/59/ea/8359ea3ff3acbb27d867633df8ab9010.png\" width=\"562\" height=\"45\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/83/59/ea/8359ea3ff3acbb27d867633df8ab9010.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/83/59/ea/8359ea3ff3acbb27d867633df8ab9010.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Здесь «проблема» не в синтаксисе, а в значении 10 в третьей позиции. Это означает, что <code>sshd</code> полностью прекращает принимать новые подключения, как только число неаутентифицированных сессий достигает 10.</p><h4>MTU, фрагментация и «тихие» фаерволы</h4><p>Ну и не стоит забывать о сетевой инфраструктуре, а именно об MTU, фрагментации и «тихих» фаерволах.</p><p>Если межсетевой экран настроен на <code>DROP</code>, а не <code>REJECT</code>, клиент будет ждать полного TCP‑таймаута вместо быстрого отказа.</p><p>Классическим признаком здесь является зависание ровно на строке <code>Connection established</code> ещё до обмена баннерами.</p><p>Проверяется через <code>tcpdump</code> на обеих сторонах: если SYN уходит, а SYN‑ACK не приходит, то вопрос к сетевой инфраструктуре.</p><h3>Массовое лечение</h3><p>Когда серверов десятки или сотни, руками править <code>sshd_config</code> — идея, мягко говоря, сомнительная.</p><p>Гораздо лучше использовать идемпотентный playbook с валидацией конфига перед перезагрузкой.</p><p>Минимальный playbook здесь будет иметь следующий вид:</p><pre><code class=\"yaml\">- hosts: all\n  become: true\n\n  tasks:\n    - name: Ensure UseDNS is disabled\n      ansible.builtin.lineinfile:\n        path: /etc/ssh/sshd_config\n        regexp: '^#?UseDNS'\n        line: 'UseDNS no'\n        validate: '/usr/sbin/sshd -t -f %s'\n      notify: reload sshd\n\n    - name: Drop GSSAPI for non-corp hosts on clients\n      ansible.builtin.blockinfile:\n        path: /etc/ssh/ssh_config.d/99-fast.conf\n        create: true\n        block: |\n          Host *\n              GSSAPIAuthentication no\n\n  handlers:\n    - name: reload sshd\n      ansible.builtin.service:\n        name: sshd\n        state: reloaded</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Здесь ключевым параметром является параметр <code>validate</code>. Он прогоняет новый конфиг через <code>sshd -t</code> до применения, и если синтаксис некорректен, файл не будет записан.</p><p>Это спасает от классической ошибки, когда после правки <code>sshd</code> не стартует, и вы остаётесь без доступа к серверу.</p><p>Для применения изменений надо использовать <code>reload</code>, а не <code>restart</code>, так как иначе существующие сессии будут разорваны, что важно при работе в продуктивной среде.</p><p>После раскатки полезно замерить результат до и после, например с помощью представленного ниже способа:</p><pre><code class=\"bash\">time ssh -o BatchMode=yes -o ConnectTimeout=35 user@host true</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Здесь разница в разы будет лучшим результатом, говорящим о том, что всё корректно настроено.</p><h3>Чек‑лист и профилактика</h3><p>В заключение давайте рассмотрим короткий чек-лист для дежурного, столкнувшегося с медленным SSH:</p><ul><li><p>Запустить <code>ssh -vvv</code> с таймингами и найти шаг, на котором происходит задержка.</p></li><li><p>Проверить <code>klist</code> и <code>ssh -G host | grep -i gssapi</code>. Если GSSAPI включён и KDC недоступен, то отключить.</p></li><li><p>Проверить <code>sshd -T | grep -i usedns</code> на сервере и, если <code>yes</code>, то отключить, предварительно убедившись, что нет правил по hostname.</p></li><li><p>Посмотреть <code>journalctl -u ssh</code> на предмет задержек PAM.</p></li><li><p>Проверить, нет ли в клиентском конфиге <code>Match exec</code> или <code>CanonicalizeHostname</code>.</p></li><li><p>Если ничего не помогло, то <code>tcpdump</code> на обеих сторонах и проверка фаервола на <code>DROP</code> vs <code>REJECT</code>.</p></li></ul><p>Для профилактики стоит настроить мониторинг времени установления SSH-сессии, и если p95 выше пары секунд, то нужно разобраться.</p><p>И регулярно проверять, не вернулись ли отключённые параметры после обновления пакетов, особенно если дистрибутив поставляет свои drop-in конфиги.</p><blockquote><p>И главное — это соблюдать баланс, так как, отключая <code>UseDNS</code> и GSSAPI, вы выигрываете в скорости, но теряете часть возможностей.</p></blockquote><p>Например, вы лишитесь возможности использования правил по hostname и корпоративного SSO.</p><p>Поэтому эти функции нужно включать там, где они действительно нужны, и там правильнее чинить инфраструктуру (доступность KDC, скорость резолвера), а не отключать их.</p><p><em>А насколько уверенно вы разбираетесь в других задачах администрирования Linux? Проверить себя и найти пробелы можно во </em><a href=\"https://otus.pw/qUoSP/\"><em>вступительном тесте</em></a><em>.</em></p><h3>Делаем выводы</h3><p>Медленный SSH — это не про какую-то «магию» или глючную сеть. Это конкретная стадия handshake, на которой клиент или сервер ждёт ответа от внешней системы.</p><p>Алгоритм действий в такой ситуации достаточно прост. Нам необходимо сначала получить тайминги в <code>ssh -vvv</code>, потом составить гипотезу о причине, после чего выполнить точечную правку с валидацией конфига.</p><blockquote><p>Не «перезагрузить и посмотреть, что будет», а именно так, методично и воспроизводимо.</p></blockquote><p>Для тренировки полезно поднять стенд из двух контейнеров с OpenSSH, включить на одном <code>UseDNS yes</code> с недоступным резолвером, а на другом GSSAPI с «мёртвым» KDC и пройти весь путь диагностики руками.</p><p>Один раз увидев паузу в логе своими глазами, вы больше никогда не перепутаете её с сетевой проблемой.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0d/de/0b/0dde0b1c89ec0c8bbd29e248ad93fcf9.png\" width=\"2640\" height=\"300\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0d/de/0b/0dde0b1c89ec0c8bbd29e248ad93fcf9.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0d/de/0b/0dde0b1c89ec0c8bbd29e248ad93fcf9.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Когда SSH тормозит, важно не просто устранить задержку, но и разобраться в её причинах, чтобы проблема не повторялась. Развить навыки диагностики, настройки и автоматизации Linux-серверов можно на<abbr class=\"habraabbr\" title=\"С 12 по 26 ноября при покупке курса из специального каталога можно получить курс в записи в подарок из доступного списка. Подробности акции и выбор подарка — через менеджера.\" data-title=\"&lt;p&gt;&lt;strong&gt;С 12 по 26 ноября&lt;/strong&gt; при покупке курса из &lt;a href=&quot;https://otus.pw/pAHmV/&quot; data-mark=&quot;link&quot;&gt;специального каталога&lt;/a&gt; можно получить курс в записи в подарок из доступного списка. &lt;em data-mark=&quot;italic&quot;&gt;Подробности акции и выбор подарка — через менеджера.  &lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;\" data-abbr=\" курсе\"> курсе</abbr> <a href=\"https://otus.pw/2BY2/\">«Администратор Linux. Продвинутый уровень»</a>. </p><p><em>А познакомиться с отдельными темами — на бесплатных открытых уроках</em>:</p><ul><li><p>17 ноября в 20:00. «/proc, /sys, /dev: как Linux превращает железо и процессы в файлы». <a href=\"https://otus.pw/RaiW/\">Записаться</a></p></li><li><p>1 декабря в 19:00. «Ansible: инфраструктура как код на практике». <a href=\"https://otus.pw/KYU8/\">Записаться</a></p></li><li><p>17 декабря в 20:00. «Процессы в Linux: глубокое погружение». <a href=\"https://otus.pw/9eHh/\">Записаться</a></p></li></ul><blockquote><p>Ещё больше открытых уроков — <a href=\"https://otus.pw/Vk19/\">в ноябрьском дайджесте OTUS</a>  </p></blockquote></div>",
+  "tags": [
+    {
+      "titleHtml": "SSH"
+    },
+    {
+      "titleHtml": "OpenSSH"
+    },
+    {
+      "titleHtml": "Linux"
+    },
+    {
+      "titleHtml": "SSH-handshake"
+    },
+    {
+      "titleHtml": "диагностика SSH"
+    },
+    {
+      "titleHtml": "задержки подключения"
+    },
+    {
+      "titleHtml": "GSSAPI"
+    },
+    {
+      "titleHtml": "Kerberos"
+    },
+    {
+      "titleHtml": "UseDNS"
+    },
+    {
+      "titleHtml": "Ansible"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106206/7c0f2ccfb7e9a4e5a8459a2102868ab7/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106206/7c0f2ccfb7e9a4e5a8459a2102868ab7/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/otus\\/articles\\/1106206\\/\"},\"headline\":\"Сонный SSH: устраняем задержки на этапе handshake\",\"datePublished\":\"2026-11-12T17:10:18+03:00\",\"dateModified\":\"2026-11-12T21:34:04+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Привет, Хабр! Меня зовут Андрей Бирюков. Я&nbsp;— независимый эксперт в&nbsp;области ИТ и ИБ, преподаю в&nbsp;учебных центрах и пишу статьи и книги. Думаю,...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/otus\\/articles\\/1106206\\/#post-content-body\",\"about\":[\"c_otus\",\"h_sys_admin\",\"h_linux_dev\",\"h_network_technologies\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/cf\\/ac\\/ef\\/cfacefd1740b643c4ee5b8e41c6e7dc2.png\",\"https:\\/\\/habrastorage.org\\/extt\\/ea\\/f9\\/0f\\/eaf90f1f790eaea8fb2bdc2c95ab30d2.png\",\"https:\\/\\/habrastorage.org\\/extt\\/b6\\/3e\\/f2\\/b63ef2dc282aabeeb580741b88420917.png\",\"https:\\/\\/habrastorage.org\\/extt\\/06\\/f8\\/49\\/06f8492e228211dc6b3d19f691a2ddf0.png\",\"https:\\/\\/habrastorage.org\\/extt\\/8e\\/99\\/f0\\/8e99f0aa32242318f96434747835bdf9.png\",\"https:\\/\\/habrastorage.org\\/extt\\/3e\\/5e\\/b7\\/3e5eb722420b7c3ffe7ea1e2bb104132.png\",\"https:\\/\\/habrastorage.org\\/extt\\/83\\/59\\/ea\\/8359ea3ff3acbb27d867633df8ab9010.png\",\"https:\\/\\/habrastorage.org\\/extt\\/0d\\/de\\/0b\\/0dde0b1c89ec0c8bbd29e248ad93fcf9.png\"]}",
+    "metaDescription": "Привет, Хабр! Меня зовут Андрей Бирюков. Я&nbsp;— независимый эксперт в&nbsp;области ИТ и ИБ, преподаю в&nbsp;учебных центрах и пишу статьи и книги. Думаю, многим администраторам знакома ситуация,...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "tutorial",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 10,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

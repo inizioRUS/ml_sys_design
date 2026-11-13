@@ -1,0 +1,230 @@
+{
+  "id": "1105794",
+  "timePublished": "2026-11-10T13:50:07+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "TDMS Фарватер Web 26.1: дашборды проекта, отчеты и соблюдение требований информационной безопасности",
+  "leadData": {
+    "textHtml": "<p>Компания «Нанософт», ведущий российский разработчик САПР/ТИМ‑решений, объявляет о&nbsp;выходе&nbsp;<a href=\"https://www.nanocad.ru/products/tdms-farvater-web/?utm_source=habr&amp;utm_medium=tdms_farvater_web&amp;utm_campaign=upd_26.1\">TDMS Фарватер Web версии 26.1</a>&nbsp;— технического обновления оснащенной веб‑интерфейсом системы документооборота и управления проектированием в&nbsp;строительстве. Обновление системы повышает безопасность и прозрачность в&nbsp;рамках проектных задач, позволяет работать в&nbsp;XML с&nbsp;ведомостями объемов работ и заданиями на&nbsp;проектирование, а&nbsp;также расширяет интеграционные и аналитические возможности&nbsp;— от&nbsp;отчетов из&nbsp;дашбордов до&nbsp;отправки уведомлений и документов на&nbsp;внешние адреса.</p>",
+    "imageUrl": "https://habrastorage.org/extt/4e/92/69/4e92693e3b59c5a73c50bf442dca764d.webp",
+    "buttonTextHtml": "Узнать о новинках",
+    "image": {
+      "url": "https://habrastorage.org/extt/4e/92/69/4e92693e3b59c5a73c50bf442dca764d.webp",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "52783",
+    "alias": "nanocad",
+    "fullname": "Нанософт",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/dc6/df0/b04/dc6df0b0488d51ab9653d868115cd72f.png",
+    "speciality": "Разработчик инженерного ПО",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 21,
+      "votesCount": 113
+    },
+    "rating": 0,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 3,
+    "readingCount": 120,
+    "score": -2,
+    "votesCount": 2,
+    "votesCountPlus": 0,
+    "votesCountMinus": 2,
+    "reach": 7493,
+    "readers": 85
+  },
+  "hubs": [
+    {
+      "id": "13138",
+      "alias": "nanosoft",
+      "type": "corporative",
+      "title": "Блог компании Нанософт разработка",
+      "titleHtml": "Блог компании Нанософт разработка",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "17698",
+      "alias": "cad_cam",
+      "type": "collective",
+      "title": "CAD/CAM",
+      "titleHtml": "CAD/CAM",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "397",
+      "alias": "analysis_design",
+      "type": "collective",
+      "title": "Анализ и проектирование систем",
+      "titleHtml": "Анализ и проектирование систем",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "22113",
+      "alias": "engineering_systems",
+      "type": "collective",
+      "title": "Инженерные системы",
+      "titleHtml": "Инженерные системы",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "22596",
+      "alias": "technical_writing",
+      "type": "collective",
+      "title": "Подготовка технической документации",
+      "titleHtml": "Подготовка технической документации",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Компания «Нанософт», ведущий российский разработчик САПР/ТИМ‑решений, объявляет о выходе <a href=\"https://www.nanocad.ru/products/tdms-farvater-web/?utm_source=habr&amp;utm_medium=tdms_farvater_web&amp;utm_campaign=upd_26.1\">TDMS Фарватер Web версии 26.1</a> — технического обновления оснащенной веб‑интерфейсом системы документооборота и управления проектированием в строительстве. Обновление системы повышает безопасность и прозрачность в рамках проектных задач, позволяет работать в XML с ведомостями объемов работ и заданиями на проектирование, а также расширяет интеграционные и аналитические возможности — от отчетов из дашбордов до отправки уведомлений и документов на внешние адреса.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/4e/92/69/4e92693e3b59c5a73c50bf442dca764d.webp\" alt=\"Изображение\" width=\"1088\" height=\"600\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/4e/92/69/4e92693e3b59c5a73c50bf442dca764d.webp 780w,&#10;       https://habrastorage.org/r/w1560/extt/4e/92/69/4e92693e3b59c5a73c50bf442dca764d.webp 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Изображение</figcaption></div></figure><p><strong>TDMS Фарватер Web 26.1: новые возможности</strong></p><ul><li><p><strong>Системные уведомления с возможностью отправки на внешний e‑mail</strong></p></li></ul><p>Пользователи могут оперативно получать уведомления системы не только внутри веб‑интерфейса, но и на внешний электронный адрес. Это снижает риск пропуска значимого оповещения и позволяет держать руку на пульсе событий даже вне рабочего места.</p><ul><li><p><strong>Более наглядная и информативная главная страница</strong></p></li></ul><p>Блоки задач на главной странице пользователя теперь отображаются только при наличии активных задач: интерфейс не перегружается лишними элементами. Это экономит время на получение информации и помогает сосредоточиться на действиях.</p><ul><li><p><strong>Дашборды на главной странице проекта </strong></p></li></ul><p>Появились дашборды, отображающие сводную информацию о статусах проектных документов и контроле сроков. Менеджеры и участники проекта получают «живую» картину сводных данных по проекту и могут своевременно реагировать на риски.</p><ul><li><p><strong>Отчеты напрямую из дашбордов</strong></p></li></ul><p>С дашбордов главной страницы проекта можно формировать отчеты по выбранным атрибутам — как по отдельному типу документов, так и по проекту в целом. Отчеты выгружаются в Excel, что упрощает подготовку управленческой отчетности без ручной сверки.</p><ul><li><p><strong>Формирование ведомости объемов работ и задания на проектирование в XML по схеме Минстроя</strong></p></li></ul><p>Появились специализированные инструменты для подготовки и выгрузки обоих документов непосредственно из системы — меньше ручной работы и ошибок.</p><ul><li><p><strong>Прозрачная история изменений и инвентарная книга в «Архиве»</strong></p></li></ul><p>В разделе «Архив» добавлено отображение изменений в структуре проекта, а также реестрах проектных документов и разрешений на внесение изменений с возможностью вести инвентарную книгу. Это повышает прозрачность истории изменений и упрощает аудит проектной продукции.</p><ul><li><p><strong>Расширение интеграции с электронной почтой</strong></p></li></ul><p>Дополнительные задания в подразделения теперь можно выдавать непосредственно из входящего письма электронной почты пользователя, а исходящие документы — напрямую отправлять из системы на внешние электронные адреса. Это ускоряет коммуникацию и сокращает количество переключений между системой документооборота и другими сервисами.</p><ul><li><p><strong>Дополнения карточек пользователя и контрагента</strong></p></li></ul><p>Новые атрибуты автоматизируют заполнение соответствующих полей при формировании раздела ПД «Пояснительная записка», снижая объем ручного ввода и вероятность ошибок. </p><ul><li><p><strong>Создание документов с отметкой «Для служебного пользования»</strong></p></li></ul><p>На документы ОРД и проектные документы можно ставить отметку «ДСП» (для служебного пользования). Такие документы получают гриф ограничения доступа, а также собственный шаблон регистрационных номеров с индивидуальной точкой сброса. Это помогает соблюдать режим конфиденциальности и корректно вести нумерацию документов с ограниченным доступом.</p><ul><li><p><strong>Добавлен реестр внутренних замечаний проекта</strong></p></li></ul><p>Реестр упрощает доступ к внутренним замечаниям проекта, ускоряя подготовку документации.</p><ul><li><p><strong>Обновлен визуальный редактор шаблонов рабочих процессов</strong></p></li></ul><p>Основным инструментом стала визуальная сборка шаблона процесса путем добавления блоков (шагов). Настраивать и корректировать рабочие процессы стало проще и нагляднее.</p><ul><li><p><strong>Назначение рабочего процесса из реестров документов</strong></p></li></ul><p>Рабочий процесс теперь можно назначать непосредственно из реестра проектных документов и документов ОРД, без перехода в их карточки. Это ускоряет запуск процедур и исключает лишние действия.<br/></p><ul><li><p><strong>Расширение возможностей просмотра файлов проектных документов</strong></p></li></ul><p>В дополнение к *.dwg прямо из системы доступны для просмотра файлы форматов IFC, DWT, DWP, DWA и DXF. Пользователи могут теперь ознакомиться с файлами этих типов без установки дополнительного ПО.</p><p>Благодаря этим изменениям TDMS Фарватер Web 26.1 позволяет лучше поддерживать сценарии, где важен оперативный контроль сроков и состояния документов проекта, работать с объемами и замечаниями, соблюдать корпоративные требования ИБ, а также быстро обмениваться данными как внутри системы, так и с внешними адресатами.</p><p><strong>Подробнее узнать о возможностях TDMS Фарватер Web можно на официальном сайте </strong><a href=\"http://nanocad.ru\"><strong>nanocad.ru</strong></a><strong>.</strong></p><p>Перед принятием решения о покупке <a href=\"https://www.nanocad.ru/products/tdms-farvater-web/download/?utm_source=habr&amp;utm_medium=tdms_farvater_web&amp;utm_campaign=upd_26.1\">протестируйте все функции</a> TDMS Фарватер Web бесплатно — доступ к полному функционалу предоставляется на 30 дней.</p><p><strong>Пользователи TDMS Фарватер Web 26 получают TDMS Фарватер Web 26.1 бесплатно.</strong></p><p>Купить годовую сетевую лицензию TDMS Фарватер Web можно через <a href=\"https://www.nanocad.ru/buy/dealers/?utm_source=habr&amp;utm_medium=tdms_farvater_web&amp;utm_campaign=upd_26.1\">авторизованных партнеров</a> в вашем регионе. Действующий прайс‑лист представлен в разделе <a href=\"https://www.nanocad.ru/buy/?utm_source=habr&amp;utm_medium=tdms_farvater_web&amp;utm_campaign=upd_26.1#tdms-farvater-web\">«Цены»</a>.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "cad"
+    },
+    {
+      "titleHtml": "nanocad"
+    },
+    {
+      "titleHtml": "нанософт"
+    },
+    {
+      "titleHtml": "TDMS Фарватер Web"
+    },
+    {
+      "titleHtml": "проектный документооборот"
+    },
+    {
+      "titleHtml": "управление документацией"
+    },
+    {
+      "titleHtml": "инженерные решения"
+    },
+    {
+      "titleHtml": "проектирование"
+    },
+    {
+      "titleHtml": "управление проектированием"
+    },
+    {
+      "titleHtml": "цифровизация проектирования"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105794/f74ddde724f11bc8b4b58162108cdca4/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105794/f74ddde724f11bc8b4b58162108cdca4/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/nanosoft\\/articles\\/1105794\\/\"},\"headline\":\"TDMS Фарватер Web 26.1: дашборды проекта, отчеты и соблюдение требований информационной безопасности\",\"datePublished\":\"2026-11-10T16:50:07+03:00\",\"dateModified\":\"2026-11-12T16:55:44+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Компания «Нанософт», ведущий российский разработчик САПР\\/ТИМ‑решений, объявляет о&nbsp;выходе&nbsp; TDMS Фарватер Web версии 26.1 &nbsp;— технического...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/nanosoft\\/articles\\/1105794\\/#post-content-body\",\"about\":[\"h_cad_cam\",\"c_nanosoft\",\"h_analysis_design\",\"h_engineering_systems\",\"h_technical_writing\",\"f_develop\",\"f_admin\",\"f_management\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/4e\\/92\\/69\\/4e92693e3b59c5a73c50bf442dca764d.webp\"]}",
+    "metaDescription": "Компания «Нанософт», ведущий российский разработчик САПР/ТИМ‑решений, объявляет о&nbsp;выходе&nbsp; TDMS Фарватер Web версии 26.1 &nbsp;— технического обновления оснащенной веб‑интерфейсом системы...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "14",
+    "title": "Промышленная инженерия",
+    "alias": "industrial_engineering"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

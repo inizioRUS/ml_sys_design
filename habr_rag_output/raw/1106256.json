@@ -1,0 +1,218 @@
+{
+  "id": "1106256",
+  "timePublished": "2026-11-10T17:29:42+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Для камер Canon выпустили кастомную прошивку с пресетами цветокоррекции в стиле популярных плёнок",
+  "leadData": {
+    "textHtml": "<p>Разработчик с&nbsp;никнеймом HNGSeries <a href=\"https://github.com/HNGSeries/mfilm-canon-film-simulation\" rel=\"noopener nofollow\">выпустил</a> M‑Film&nbsp;— кастомную прошивку для&nbsp;цифровых камер Canon, которая программно имитирует плёнку и процесс съёмки на&nbsp;неё. Пользователю сначала надо отснять виртуальный рулон плёнки, а&nbsp;потом «проявить» его, чтобы посмотреть кадры и выбрать понравившиеся.</p>",
+    "imageUrl": "https://habrastorage.org/extt/8c/72/e1/8c72e16d6fa5457a4723398c43641a79.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/8c/72/e1/8c72e16d6fa5457a4723398c43641a79.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2320593",
+    "alias": "daniilshat",
+    "fullname": "Даниил Шатухин",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/165/6b8/929/1656b8929300fbfdbb3bbb0b1721ec87.png",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 300,
+      "votesCount": 580
+    },
+    "rating": 280.7,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/daniilshat/",
+        "value": "daniilshat",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/mrshatukhin",
+        "value": "mrshatukhin",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/daniilshat/",
+        "value": "daniilshat",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/mrshatukhin",
+        "value": "mrshatukhin",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": "423039146555"
+    },
+    "donationsMethod": "wallets",
+    "isInBlacklist": null,
+    "careerProfile": {
+      "careerProfileLink": "https://career.habr.com/daniilshat?utm_source=habr&utm_medium=profile_header&utm_campaign=button_habr_career",
+      "expertProfileLink": null
+    },
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 5,
+    "favoritesCount": 6,
+    "readingCount": 1999,
+    "score": 17,
+    "votesCount": 11,
+    "votesCountPlus": 11,
+    "votesCountMinus": 0,
+    "reach": 10629,
+    "readers": 1623
+  },
+  "hubs": [
+    {
+      "id": "21894",
+      "alias": "gadgets",
+      "type": "collective",
+      "title": "Гаджеты",
+      "titleHtml": "Гаджеты",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21932",
+      "alias": "photo",
+      "type": "collective",
+      "title": "Фототехника",
+      "titleHtml": "Фототехника",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Разработчик с никнеймом HNGSeries <a href=\"https://github.com/HNGSeries/mfilm-canon-film-simulation\" rel=\"noopener nofollow\">выпустил</a> M‑Film — кастомную прошивку для цифровых камер Canon, которая программно имитирует плёнку и процесс съёмки на неё. Пользователю сначала надо отснять виртуальный рулон плёнки, а потом «проявить» его, чтобы посмотреть кадры и выбрать понравившиеся.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/8c/72/e1/8c72e16d6fa5457a4723398c43641a79.jpg\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/8c/72/e1/8c72e16d6fa5457a4723398c43641a79.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/8c/72/e1/8c72e16d6fa5457a4723398c43641a79.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Прошивка построена на базе <a href=\"https://www.magiclantern.fm/\" rel=\"noopener nofollow\">Magic Lantern</a> — бесплатной надстройки с открытым кодом, которая расширяет возможности камер Canon. В коллекции 72 профиля, стилизующих снимки под плёнку, включая Kodak Portra 400, Gold 200, Fujichrome Velvia 50, CineStill 800T и Kodak Tri‑X 400. Профили добавляют не только цветокоррекцию, но и имитируют зерно, мягкость изображения и ореолы света вокруг ярких источников.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ed/06/2b/ed062b51142f35f77d1a8222a1415c2c.png\" alt=\"Меню выбора плёнки\" title=\"Меню выбора плёнки\" width=\"720\" height=\"480\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ed/06/2b/ed062b51142f35f77d1a8222a1415c2c.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ed/06/2b/ed062b51142f35f77d1a8222a1415c2c.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Меню выбора плёнки</figcaption></div></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ea/42/17/ea4217212613b5738ea0f365ee23b59a.png\" alt=\"Главный экран\" title=\"Главный экран\" width=\"720\" height=\"480\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ea/42/17/ea4217212613b5738ea0f365ee23b59a.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/ea/42/17/ea4217212613b5738ea0f365ee23b59a.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Главный экран</figcaption></div></figure><p>В интерфейсе можно выбрать виртуальную катушку на 12, 24 или 36 кадров. На экран выводится счётчик кадров и экспонометр, но посмотреть только что снятые фотографии нельзя. Есть режим Realistic, в котором перед проявкой плёнку нужно перемотать. После проявки в память сохраняются как обработанные снимки в JPEG, так и исходные в RAW.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/d0/bb/8f/d0bb8f9765c047937a2c6c2dbe24e28f.png\" alt=\"Счётчик кадров и экспонометр\" title=\"Счётчик кадров и экспонометр\" width=\"720\" height=\"480\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d0/bb/8f/d0bb8f9765c047937a2c6c2dbe24e28f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/d0/bb/8f/d0bb8f9765c047937a2c6c2dbe24e28f.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Счётчик кадров и экспонометр</figcaption></div></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/4f/cf/dc/4fcfdcfd35c02440ee5bcaf7d4d584f0.png\" alt=\"Проявленная плёнка\" title=\"Проявленная плёнка\" width=\"720\" height=\"480\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/4f/cf/dc/4fcfdcfd35c02440ee5bcaf7d4d584f0.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/4f/cf/dc/4fcfdcfd35c02440ee5bcaf7d4d584f0.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Проявленная плёнка</figcaption></div></figure><p>Проект создавали для беззеркальной камеры Canon EOS M. Есть сборки для зеркальных EOS 6D, 60D, 550D, 600D и 650D. Для установки надо, чтобы изначально на камере была установлена подходящая версия стоковой прошивки. EOS R, R5, R6 и M50 пока не поддерживаются.</p><p>Код проекта открыт и <a href=\"https://github.com/HNGSeries/mfilm-canon-film-simulation\" rel=\"noopener nofollow\">опубликован</a> на GitHub по лицензии GPL-2.0.</p><details class=\"spoiler\"><summary>Сравнение одного RAW‑фото на Canon EOS M с разными пресетами M‑Film</summary><div class=\"spoiler__content\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/29/ef/8b/29ef8b90926e58fae0ba43e5ad6cae61.jpg\" alt=\"Kodak Gold 200\" title=\"Kodak Gold 200\" width=\"900\" height=\"601\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/29/ef/8b/29ef8b90926e58fae0ba43e5ad6cae61.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/29/ef/8b/29ef8b90926e58fae0ba43e5ad6cae61.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Kodak Gold 200</figcaption></div></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/f8/83/ee/f883ee8fb7b8db38ce4460b5a867c481.jpg\" alt=\"Kodak Portra 400\" title=\"Kodak Portra 400\" width=\"900\" height=\"601\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f8/83/ee/f883ee8fb7b8db38ce4460b5a867c481.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/f8/83/ee/f883ee8fb7b8db38ce4460b5a867c481.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Kodak Portra 400</figcaption></div></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ef/90/4f/ef904fc827094305c84e8dd19bfc116b.jpg\" alt=\"Kodak Vision 2383\" title=\"Kodak Vision 2383\" width=\"900\" height=\"601\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ef/90/4f/ef904fc827094305c84e8dd19bfc116b.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/ef/90/4f/ef904fc827094305c84e8dd19bfc116b.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Kodak Vision 2383</figcaption></div></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/02/31/10/0231102496fa8f4beb0abd0f44a79303.jpg\" alt=\"Fujifilm Superia 800\" title=\"Fujifilm Superia 800\" width=\"900\" height=\"601\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/02/31/10/0231102496fa8f4beb0abd0f44a79303.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/02/31/10/0231102496fa8f4beb0abd0f44a79303.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Fujifilm Superia 800</figcaption></div></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/5d/df/2e/5ddf2e3eda2c783b02290169f5c4ae29.jpg\" alt=\"Fujichrome Velvia 50\" title=\"Fujichrome Velvia 50\" width=\"900\" height=\"601\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/5d/df/2e/5ddf2e3eda2c783b02290169f5c4ae29.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/5d/df/2e/5ddf2e3eda2c783b02290169f5c4ae29.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Fujichrome Velvia 50</figcaption></div></figure></div></details></div>",
+  "tags": [
+    {
+      "titleHtml": "M-Film"
+    },
+    {
+      "titleHtml": "Canon"
+    },
+    {
+      "titleHtml": "гаджеты"
+    },
+    {
+      "titleHtml": "камеры"
+    },
+    {
+      "titleHtml": "фотокамеры"
+    },
+    {
+      "titleHtml": "фотография"
+    },
+    {
+      "titleHtml": "плёнка"
+    },
+    {
+      "titleHtml": "пленочная фотография"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106256/71e75bb8e7db1fd1af6691af9620a69c/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106256/71e75bb8e7db1fd1af6691af9620a69c/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106256\\/\"},\"headline\":\"Для камер Canon выпустили кастомную прошивку с пресетами цветокоррекции в стиле популярных плёнок\",\"datePublished\":\"2026-11-10T20:29:42+03:00\",\"dateModified\":\"2026-11-11T09:15:28+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Разработчик с&nbsp;никнеймом HNGSeries выпустил M‑Film&nbsp;— кастомную прошивку для&nbsp;цифровых камер Canon, которая программно имитирует плёнку и процесс...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106256\\/#post-content-body\",\"about\":[\"h_gadgets\",\"h_photo\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/8c\\/72\\/e1\\/8c72e16d6fa5457a4723398c43641a79.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/ed\\/06\\/2b\\/ed062b51142f35f77d1a8222a1415c2c.png\",\"https:\\/\\/habrastorage.org\\/extt\\/ea\\/42\\/17\\/ea4217212613b5738ea0f365ee23b59a.png\",\"https:\\/\\/habrastorage.org\\/extt\\/d0\\/bb\\/8f\\/d0bb8f9765c047937a2c6c2dbe24e28f.png\",\"https:\\/\\/habrastorage.org\\/extt\\/4f\\/cf\\/dc\\/4fcfdcfd35c02440ee5bcaf7d4d584f0.png\",\"https:\\/\\/habrastorage.org\\/extt\\/29\\/ef\\/8b\\/29ef8b90926e58fae0ba43e5ad6cae61.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/f8\\/83\\/ee\\/f883ee8fb7b8db38ce4460b5a867c481.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/ef\\/90\\/4f\\/ef904fc827094305c84e8dd19bfc116b.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/02\\/31\\/10\\/0231102496fa8f4beb0abd0f44a79303.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/5d\\/df\\/2e\\/5ddf2e3eda2c783b02290169f5c4ae29.jpg\"]}",
+    "metaDescription": "Разработчик с&nbsp;никнеймом HNGSeries выпустил M‑Film&nbsp;— кастомную прошивку для&nbsp;цифровых камер Canon, которая программно имитирует плёнку и процесс съёмки на&nbsp;неё. Пользователю сначала...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "42",
+    "title": "Железо и гаджеты",
+    "alias": "hardware_and_gadgets"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,209 @@
+{
+  "id": "1105698",
+  "timePublished": "2026-11-09T19:45:40+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Anthropic выпустила Claude Fable 5.2: управление роботами и математика",
+  "leadData": {
+    "textHtml": "<p>Anthropic представила Claude Fable 5.2 и Claude Mythos 5.2 — новые версии моделей для сложных технических задач. Компания заявляет об улучшениях в программировании, рассуждениях и работе с визуальной информацией. <br><br>В предварительных тестах модели помогли решить две открытые задачи по физике чёрных дыр и формализовать доказательство теоремы Ферма. Рассказываю, какие еще есть интересные результаты.</p>",
+    "imageUrl": "https://habrastorage.org/extt/27/64/87/276487b0de68002f74110729c1227a11.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/27/64/87/276487b0de68002f74110729c1227a11.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5177951",
+    "alias": "DashaPasha",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": -2,
+      "votesCount": 120
+    },
+    "rating": 44.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 7,
+    "favoritesCount": 0,
+    "readingCount": 2142,
+    "score": 4,
+    "votesCount": 5,
+    "votesCountPlus": 4,
+    "votesCountMinus": 1,
+    "reach": 11075,
+    "readers": 1647
+  },
+  "hubs": [
+    {
+      "id": "23256",
+      "alias": "bothub",
+      "type": "corporative",
+      "title": "Блог компании BotHub",
+      "titleHtml": "Блог компании BotHub",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "19439",
+      "alias": "machine_learning",
+      "type": "collective",
+      "title": "Машинное обучение",
+      "titleHtml": "Машинное обучение",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "17812",
+      "alias": "maths",
+      "type": "collective",
+      "title": "Математика",
+      "titleHtml": "Математика",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Anthropic представила <a href=\"https://bothub.chat/claude-fable-5.2\">Claude Fable 5.2</a> и Claude Mythos 5.2 — новые версии моделей для сложных технических задач. Компания заявляет об улучшениях в программировании, рассуждениях и работе с визуальной информацией.<br/><br/>В предварительных тестах модели помогли решить две открытые задачи по физике чёрных дыр и формализовать доказательство теоремы Ферма. Рассказываю, какие еще есть интересные результаты.</p><h3>Быстрее и дешевле</h3><p>Fable 5.2 генерирует ответы до 30% быстрее предыдущей версии. Цена API снизилась на 20%: с $10/$50 до $8 за миллион входных и $40 за миллион выходных токенов.</p><p>Есть и быстрый режим: он ускоряет генерацию токенов до 2,5 раза, но стоит вдвое дороже — $16/$80 за миллион токенов.</p><p>В бенчмарках Fable 5.2 опережает Opus 5.5 почти во всех проверенных категориях. Например, на FrontierCode 2.0 модель с High effort набрала 45,3% — практически столько же, сколько Opus 5.5 с Max effort (45,5%). При этом стоимость выполнения задачи оказалась примерно вдвое ниже.</p><p>На Xhigh effort результат Fable 5.2 вырос до 49,1% — это лучший показатель среди выпущенных моделей, проверенных Anthropic. Впрочем, универсального превосходства нет: например, в AutomationBench Fable 5.2 набрала 51,4%, а Gemini 4 Carbon — 53,9%.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/ec/ad/e6/ecade6781538be9f4c58fb39b1dac1e4.jpg\" alt=\"Anthropic всё равно советует начинать обычные задачи с Opus 5.5. Fable 5.2 компания рекомендует подключать для самых сложных проектов, длительной работы и оркестрации других моделей.\" title=\"Anthropic всё равно советует начинать обычные задачи с Opus 5.5. Fable 5.2 компания рекомендует подключать для самых сложных проектов, длительной работы и оркестрации других моделей.\" width=\"960\" height=\"1280\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/ec/ad/e6/ecade6781538be9f4c58fb39b1dac1e4.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/ec/ad/e6/ecade6781538be9f4c58fb39b1dac1e4.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Anthropic всё равно советует начинать обычные задачи с Opus 5.5. Fable 5.2 компания рекомендует подключать для самых сложных проектов, длительной работы и оркестрации других моделей.</figcaption></div></figure><h4>Управление роботами</h4><p>У Fable 5.2 заметно прокачали управление физическими роботами. В демонстрациях роботы под её управлением собирают кубик, откручивают крышку бутылки и рисуют изображение робота. Причём модель справляется и с задачами, на которых её специально не обучали.</p><p>В RoboDojo Sim Fable 5.2 набрала 64,9%. GPT-6 Astra получила 29,8%, Opus 5.5 — 39,4%, а предыдущая Fable 5.1 — 27,6%.</p><h4>Доказательство теоремы Ферма за 30 часов</h4><p>Команда из 1000 агентов Fable 5.2 полностью формализовала доказательство последней теоремы Ферма на Lean за 30 часов и почти без участия человека. Уточню, это не очередное открытие, она перевела уже известное доказательство в формальный вид, который может пошагово проверить компьютер.</p><p>Предыдущая попытка Anthropic на более ранней исследовательской версии Claude заняла 11 дней. Тогда понадобились специально подготовленное окружение и помощь исследователя. В новом эксперименте агенты самостоятельно организовали взаимодействие, работали с минимальными подсказками и использовали список промежуточных утверждений для проверки прогресса.</p><p>На этот раз потребовалась треть от количества action tokens, использованных в первой формализации, а итоговое доказательство оказалось в семь раз короче.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/85/5f/84/855f8424f3ac8c3d08bd90f74ca5e2a9.jpg\" alt=\" Для сравнения, Opus 5.5 с той же конфигурацией из 1000 агентов за 30 часов завершила только 26% работы.\" title=\" Для сравнения, Opus 5.5 с той же конфигурацией из 1000 агентов за 30 часов завершила только 26% работы.\" width=\"800\" height=\"680\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/85/5f/84/855f8424f3ac8c3d08bd90f74ca5e2a9.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/85/5f/84/855f8424f3ac8c3d08bd90f74ca5e2a9.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Для сравнения, Opus 5.5 с той же конфигурацией из 1000 агентов за 30 часов завершила только 26% работы.</figcaption></div></figure><h4>Fable 5.2 написала собственную ОС</h4><p>В другом эксперименте один из инженеров Anthropic поручил модели разработать прототип операционной системы с нуля. Модель координировала работу более 1000 субагентов, которые восемь суток непрерывно писали, тестировали и проверяли код.</p><p>В результате получилась ОС, которая загружается на ноутбуке. В ней есть собственное ядро, драйверы диска, клавиатуры и сети, постоянное файловое хранилище, оконный интерфейс, экран входа, установщик и встроенная функциональность Claude.</p><h3>Две задачи о чёрных дырах</h3><p>Fable 5.2 решила две открытые задачи теоретической физики, связанные с чёрными дырами и попытками объединить общую теорию относительности с квантовой механикой.</p><p>В первой задаче модель завершила расчёт, который физики наметили ещё в 2003 году, но не довели до конца из‑за его сложности. Речь шла о том, сохраняется ли резкий фазовый переход при образовании чёрных дыр в очень маленьких вселенных, где уже нельзя опираться на классическое описание гравитации. Модель получила ответ, что переход остаётся резким.</p><p>Во второй задаче Fable 5.2 нашла точную границу применимости метода, которым физики более 15 лет отбраковывали кандидатов в теории квантовой гравитации для упрощённой модели Вселенной.</p><p>Результаты опубликованы в виде препринтов. В одном из них указано, что физик проверил полученные результаты на нескольких известных частных случаях, а отдельный расчёт другой версии Claude дал тот же ответ.</p><h4>Mythos 5.2 и моделирование белковых оболочек</h4><p>Ещё один результат относится к биологии. Mythos 5.2 разработала новый способ предсказывать структуру капсидов — белковых оболочек аденоассоциированных вирусов. Их используют в качестве носителей для доставки генетического материала при генной терапии.</p><p>Сложность в том, что капсид состоит из десятков белковых цепочек. Модели вроде AlphaFold умеют предсказывать структуру отдельных белков, но собрать из них целую сложную оболочку значительно труднее.</p><p>Mythos 5.2 объединила два открытых инструмента для предсказания структуры белков: запускала их на перекрывающихся группах цепочек, а затем использовала известную симметрию капсида, чтобы собрать общую структуру. В тестах метод позволил корректно смоделировать 28 из 34 проверенных естественных и искусственно созданных капсидов.</p><h3>Доступы</h3><p>Fable 5.2 уже доступна на <a href=\"https://bothub.chat/claude-fable-5.2\">BotHub</a> без VPN и, разумеется, на платформах Anthropic, в облаках AWS, Google Cloud и Microsoft Azure. Mythos 5.2 предназначена для проверенных организаций, работающих с кибербезопасностью и биомедицинскими исследованиями.<br/><br/>До 16 ноября 2026 года подписчики Pro и standard Team seats могут расходовать на Fable до 50% недельного лимита без дополнительной оплаты. После окончания акции использование Fable на этих тарифах перейдёт на кредиты, если они подключены. </p><p>Для Max, Ultra и некоторых мест Team действуют другие условия — дополнительные сбросы лимитов в зависимости от срока подписки.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "Claude Fable 5.2"
+    },
+    {
+      "titleHtml": "Claude Mythos 5.2"
+    },
+    {
+      "titleHtml": "Anthropic"
+    },
+    {
+      "titleHtml": "ИИ-агенты"
+    },
+    {
+      "titleHtml": "большие языковые модели"
+    },
+    {
+      "titleHtml": "робототехника"
+    },
+    {
+      "titleHtml": "Lean"
+    },
+    {
+      "titleHtml": "теорема Ферма"
+    },
+    {
+      "titleHtml": "автоматизация программирования"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105698/9f093919130c7246c4d6b9b31c924834/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105698/9f093919130c7246c4d6b9b31c924834/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/bothub\\/articles\\/1105698\\/\"},\"headline\":\"Anthropic выпустила Claude Fable 5.2: управление роботами и математика\",\"datePublished\":\"2026-11-09T22:45:40+03:00\",\"dateModified\":\"2026-11-11T00:13:53+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Anthropic представила Claude Fable 5.2 &nbsp;и Claude Mythos 5.2&nbsp;— новые версии моделей для&nbsp;сложных технических задач. Компания заявляет...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/bothub\\/articles\\/1105698\\/#post-content-body\",\"about\":[\"c_bothub\",\"h_machine_learning\",\"h_programming\",\"h_maths\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/ec\\/ad\\/e6\\/ecade6781538be9f4c58fb39b1dac1e4.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/85\\/5f\\/84\\/855f8424f3ac8c3d08bd90f74ca5e2a9.jpg\"]}",
+    "metaDescription": "Anthropic представила Claude Fable 5.2 &nbsp;и Claude Mythos 5.2&nbsp;— новые версии моделей для&nbsp;сложных технических задач. Компания заявляет об&nbsp;улучшениях в&nbsp;программировании,...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "digest",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

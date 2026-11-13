@@ -1,0 +1,245 @@
+{
+  "id": "1106336",
+  "timePublished": "2026-11-12T15:21:23+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Что расширение Chrome может узнать о сайте, а что нет: грабли Manifest V3",
+  "leadData": {
+    "textHtml": "<p>Я написал расширение, которое показывает код ответа страницы на значке, а по нажатию: редиректы, время ответа, срок SSL-сертификата и домена. Задача выглядела простой, но половина пунктов упёрлась в ограничения Chrome. Сертификат расширению не отдают, хотя API для этого описан в документации. Срок домена в зоне .ru из браузера не узнать. Фоновый скрипт засыпает через 30 секунд. Рассказываю, что работает, что нет и чем я это заменил.</p>",
+    "imageUrl": "https://habrastorage.org/extt/62/98/98/629898b3454e094e5563c1968367562b.png",
+    "buttonTextHtml": "Что работает, а что нет",
+    "image": {
+      "url": "https://habrastorage.org/extt/62/98/98/629898b3454e094e5563c1968367562b.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "6053948",
+    "alias": "irlme",
+    "fullname": "Pavel",
+    "avatarUrl": "//habrastorage.org/extt/d1/02/4e/d1024eee1363498042a0715901272505.jpg",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 2,
+      "votesCount": 2
+    },
+    "rating": 4,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Сайт",
+        "url": "https://statuseye.ru",
+        "value": "https://statuseye.ru",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Сайт",
+        "url": "https://irlme.ru",
+        "value": "https://irlme.ru",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Сайт",
+        "url": "https://statuseye.ru",
+        "value": "https://statuseye.ru",
+        "siteTitle": null,
+        "favicon": null
+      },
+      {
+        "title": "Сайт",
+        "url": "https://irlme.ru",
+        "value": "https://irlme.ru",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 2,
+    "readingCount": 298,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 5722,
+    "readers": 240
+  },
+  "hubs": [
+    {
+      "id": "18921",
+      "alias": "browser_extensions",
+      "type": "collective",
+      "title": "Расширения для браузеров",
+      "titleHtml": "Расширения для браузеров",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "6103",
+      "alias": "google_chrome",
+      "type": "collective",
+      "title": "Google Chrome",
+      "titleHtml": "Google Chrome",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "357",
+      "alias": "javascript",
+      "type": "collective",
+      "title": "JavaScript",
+      "titleHtml": "JavaScript",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "91",
+      "alias": "webdev",
+      "type": "collective",
+      "title": "Веб-разработка",
+      "titleHtml": "Веб-разработка",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19257",
+      "alias": "browsers",
+      "type": "collective",
+      "title": "Браузеры",
+      "titleHtml": "Браузеры",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Я написал расширение, которое показывает код ответа открытой страницы на значке, а по нажатию: цепочку редиректов, время ответа, срок SSL-сертификата и срок регистрации домена. Задача выглядела простой: у Chrome есть <code>webRequest</code>, он видит все запросы, осталось красиво показать.</p><p>На деле половина пунктов упёрлась в ограничения, о которых документация либо молчит, либо говорит одной строкой. Сертификат сайта расширению не отдают, хотя API для этого есть. Срок домена в зоне .ru из браузера не узнать. Фоновый скрипт засыпает через 30 секунд и забывает всё, что помнил.</p><p>Ниже разбор по пунктам: что работает, что нет и чем я это заменил. Всё проверено на Chromium 156 и по документации Chrome на ноябрь 2026 года.</p><h3>Код ответа и редиректы: работает, но со слепыми зонами</h3><p>Код ответа страницы отдаёт <code>chrome.webRequest</code>, если слушать запросы типа <code>main_frame</code>. В Manifest V3 у обычных расширений отобрали блокировку запросов, но наблюдение осталось, а больше здесь ничего не нужно.</p><pre><code>const MAIN = { urls: [\"http://*/*\", \"https://*/*\"], types: [\"main_frame\"] };\n\nchrome.webRequest.onHeadersReceived.addListener((d) =&gt; {\n  hops(d.requestId).push({ url: d.url, status: d.statusCode, to: null });\n}, MAIN);\n\nchrome.webRequest.onBeforeRedirect.addListener((d) =&gt; {\n  hops(d.requestId).at(-1).to = d.redirectUrl;\n}, MAIN);\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Цепочка серверных редиректов собирается по <code>requestId</code>: он один на все шаги. Редиректы через JavaScript и meta refresh <code>webRequest</code> редиректами не считает, для него это два независимых перехода. Их видно в <code>chrome.webNavigation</code>: у второго перехода в <code>transitionQualifiers</code> стоит <code>client_redirect</code>.</p><p>Два случая в цепочке легко пропустить. Редирект, который браузер взял из кэша, приходит без <code>onHeadersReceived</code>, сразу как <code>onBeforeRedirect</code>. А переход с http на https по HSTS выглядит как «307 Internal Redirect» без IP-адреса: к сайту браузер не обращался, и выдавать этот шаг за ответ сервера нельзя.</p><p>Время ответа я сначала собирался брать из <code>performance</code> в content script. Оказалось, что он не нужен: у каждого события <code>webRequest</code> есть метка времени. Время до первого байта равно <code>onResponseStarted</code> минус <code>onBeforeRequest</code> первого шага цепочки. Минус один скрипт на каждой странице и минус одно разрешение.</p><p>Теперь о том, чего значок не видит.</p><ul><li><p><strong>Кэш в памяти и bfcache.</strong> Если страница поднята из памяти, запроса не было и событий нет. При возврате кнопкой «Назад» не приходит даже <code>onDOMContentLoaded</code>. Честный ответ здесь: серый прочерк, а не вчерашние «200».</p></li><li><p><strong>Service worker самого сайта.</strong> Страницу, которую он отдал из своего кэша, <code>webRequest</code> может не увидеть.</p></li><li><p><strong>Одностраничные приложения.</strong> Переход внутри SPA нового запроса не делает, на значке остаётся код первой загрузки. Смену адреса можно поймать через <code>webNavigation.onHistoryStateUpdated</code>.</p></li><li><p><strong>Предзагрузка.</strong> Chrome запрашивает страницу до того, как её показал. У событий есть поле <code>documentLifecycle</code> (<code>prerender</code>, <code>active</code>), а когда предзагруженная вкладка подменяет текущую, приходит <code>webNavigation.onTabReplaced</code>. Значок надо ставить только для <code>active</code> и переносить при подмене.</p></li><li><p><strong>Порядок событий.</strong> Между <code>webRequest</code> и <code>webNavigation</code> он не определён. Код, который ждёт одно раньше другого, будет работать у вас и ломаться у пользователей.</p></li></ul><p>Отдельно про сам значок. Chrome сбрасывает текст на значке вкладки при переходе и при показе своей страницы с предупреждением о сертификате, причём уже после ваших событий. Документация об этом молчит. Приходится перекрашивать значок при каждом изменении записи и ещё раз в <code>tabs.onUpdated</code>. Разрешение <code>tabs</code> для этого не требуется.</p><h3>SSL-сертификат: API есть, но работает только у разработчика</h3><p>Сертификат сайта расширению не получить, хотя в документации описан способ. В <code>webRequest.onHeadersReceived</code> можно передать <code>securityInfoRawDer</code>, и тогда в событии должно появиться поле <code>securityInfo</code> с сертификатом в формате DER. Остаётся разобрать DER и достать дату окончания.</p><pre><code>chrome.webRequest.onHeadersReceived.addListener(\n  (d) =&gt; {\n    const cert = d.securityInfo?.certificates?.[0]?.rawDER;\n    // разбираем DER, достаём notAfter\n  },\n  { urls: [\"&lt;all_urls&gt;\"], types: [\"main_frame\"] },\n  [\"securityInfoRawDer\"]\n);\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Я собрал прототип и проверил его на Chromium 156. У обычного пользователя это не работает: Chrome принимает параметр, обработчик срабатывает, а поля <code>securityInfo</code> в событии нет.</p><p>Причина нашлась в исходниках Chromium: функция закрыта флагом <code>kWebRequestSecurityInfo</code>, который выключен по умолчанию. В <code>chrome://flags</code> это <code>#web-request-security-info</code>. Стоит его включить, и всё работает как в документации. Сертификат приходит при первом заходе, при повторном по открытому соединению, при ответе 304, на каждом шаге редиректа и даже для <code>fetch</code> из фонового скрипта. Но просить пользователей включать флаг ради расширения нельзя.</p><p>Единственный след у обычного пользователя: строка в журнале ошибок расширения на <code>chrome://extensions</code>.</p><pre><code>ExtraInfoSpec.securityInfo is allowed only with WebRequestSecurityInfo developer flag\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Документация об этом ограничении молчит.</p><p>Без флага расширение видит только один факт о сертификате: если он просрочен, приходит <code>onErrorOccurred</code> с <code>net::ERR_CERT_DATE_INVALID</code>. То есть узнать, что сертификат уже кончился, можно, а что он кончится через неделю, нельзя.</p><p>Решение скучное: срок сертификата проверяет сервер. Расширение по кнопке отправляет ему имя хоста, сервер открывает TLS-соединение и возвращает дату. Без нажатия ничего не уходит: расширение видит каждую открытую страницу, и молча слать адреса на сервер я не хотел.</p><p>Вывод для себя: если API описан в документации, это ещё не значит, что он включён. Прототип на чистом профиле стоит делать до того, как строить на этом функцию.</p><h3>Срок домена: RDAP хорош, пока домен не в зоне .ru</h3><p>Срок регистрации домена можно узнать прямо из браузера по протоколу RDAP, но не для всех зон. RDAP пришёл на смену whois: это обычный HTTPS-запрос с ответом в JSON. Сам whois работает через порт 43, и из браузера к нему не подключиться.</p><p>Адрес RDAP-сервера для зоны берётся из <a href=\"https://data.iana.org/rdap/dns.json\" rel=\"noopener nofollow\">реестра IANA</a>, его разумно кэшировать на сутки.</p><pre><code>const base = rdapServers[tld]; // таблица из реестра IANA\nif (!base) return { status: \"no-rdap\" };\n\nconst json = await getJson(base + \"domain/\" + encodeURIComponent(name));\nconst expires = json.events?.find((e) =&gt; e.eventAction === \"expiration\")?.eventDate ?? null;\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Отдельный вопрос: какое имя спрашивать. Для <code>shop.example.com</code> это <code>example.com</code>, а для <code>example.co.uk</code> всё имя целиком. Список публичных суффиксов я в расширение не клал. Вместо него пробую два варианта по очереди: два последних уровня и три. Если предпоследняя часть короткая (<code>co</code>, <code>com</code>), начинаю с трёх. Ответ 404 значит «такого домена нет», и тогда пробую второй вариант. Ответы кэширую на сутки.</p><p>Для .com, .org, .net и новых зон это работает. А вот «.ru», «.рф» и «.su» в реестре IANA нет, как и .io, .de и ряда других национальных зон. Популярный посредник rdap.org для .ru отвечает 404. Национальные зоны не обязаны поддерживать RDAP, и многие не поддерживают.</p><p>Для таких зон остаётся whois, а значит, снова сервер. У меня это тот же запрос по кнопке, что и для сертификата. Если сервера у вас нет, честнее показать «нет данных», чем молча скрыть строку.</p><p>Есть и тонкость с правилами происхождения. Запросы из content script подчиняются CORS страницы, даже если у расширения есть доступ ко всем сайтам. Запросы к RDAP и к своему серверу надо делать из фонового скрипта или из окна расширения.</p><h3>Фоновые проверки: скрипт, который всё время засыпает</h3><p>В расширении есть список сайтов, которые оно само проверяет раз в несколько минут. В Manifest V3 фоновой страницы больше нет, вместо неё service worker, и живёт он по жёстким правилам:</p><ul><li><p>засыпает через 30 секунд без событий;</p></li><li><p>одно событие может обрабатываться не дольше 5 минут;</p></li><li><p>если ответ на <code>fetch</code> не пришёл за 30 секунд, Chrome гасит скрипт;</p></li><li><p>глобальные переменные при засыпании теряются.</p></li></ul><p>Из этого следуют три правила. Всё состояние хранится в <code>chrome.storage.session</code> (живёт до перезапуска браузера) или <code>chrome.storage.local</code>. Обработчики событий регистрируются синхронно на верхнем уровне скрипта, иначе проснувшийся скрипт событие пропустит. Тайм-аут проверки должен быть заметно меньше 30 секунд.</p><p>Расписание держит <code>chrome.alarms</code>. С ним свои особенности. Пока устройство спит, будильник не срабатывает, а после пробуждения все пропущенные срабатывания схлопываются в одно. Сохранность будильников после перезапуска браузера документация до Chrome 150 называет непредсказуемой, поэтому при каждом старте скрипта проверяю, что будильник на месте.</p><p>Сама проверка: <code>GET</code> без cookie и без кэша, тайм-аут 15 секунд, тело ответа обрываю сразу после заголовков.</p><pre><code>// p.error заполняет обработчик webRequest.onErrorOccurred\ntry {\n  const r = await fetch(url, { redirect: \"follow\", credentials: \"omit\", cache: \"no-store\", signal: ctl.signal });\n  return { status: r.status, error: null };\n} catch (e) {\n  // fetch падает раньше, чем webRequest сообщает причину: ждём её до секунды\n  for (let i = 0; !timedOut &amp;&amp; !p.error &amp;&amp; i &lt; 10; i++) await new Promise((ok) =&gt; setTimeout(ok, 100));\n  return { status: null, error: timedOut ? \"timeout\" : p.error ?? e.message };\n} finally {\n  ctl.abort(); // тело ответа не нужно\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Повтор через 3 секунды делаю только при ошибке сети, чтобы разовый сбой не превращался в ложную тревогу. Ответ сайта с кодом 4xx или 5xx не переспрашиваю. Причина в том, что после ответов 5xx Chrome начинает притормаживать запросы расширения к этому сайту, и лишний запрос только приближает это. Выглядит торможение так: <code>fetch</code> падает, а <code>webRequest</code> молчит, потому что до сети запрос не дошёл. Такую «тихую» ошибку я тоже не повторяю.</p><p>Здесь нашлась самая неочевидная вещь. <code>fetch</code> при ошибке сети говорит только «Failed to fetch», а причину (<code>ERR_NAME_NOT_RESOLVED</code>, <code>ERR_CONNECTION_REFUSED</code>) знает <code>webRequest.onErrorOccurred</code>. Но события <code>webRequest</code> для запроса из service worker приходят позже, чем <code>fetch</code> вернул ответ или бросил ошибку. Если не подождать, причина теряется. Я жду событие до секунды.</p><p>Сопоставлять такие запросы с событиями приходится по адресу: у них <code>tabId: -1</code>, а своего <code>requestId</code> <code>fetch</code> не сообщает. Так же собирается цепочка редиректов: сам <code>fetch</code> отдаёт только итоговый статус и флаг <code>redirected</code>.</p><p>И главное ограничение, которое не обойти: всё это работает, только пока браузер открыт. Расширение не заменяет мониторинг с сервера, и в интерфейсе об этом стоит сказать прямо.</p><h3>Мелочи: шум в ошибках и значок с точкой</h3><p>Список незагрузившихся ресурсов страницы без фильтра бесполезен: почти на каждом сайте он непустой. Вот что я отбрасываю:</p><ul><li><p><code>/favicon.ico</code> с кодом 404: браузер запрашивает его сам;</p></li><li><p>401 на запрос типа <code>xmlhttprequest</code>: так сайты проверяют, вошёл ли пользователь;</p></li><li><p><code>ERR_ABORTED</code>: запрос отменила сама страница;</p></li><li><p><code>ERR_BLOCKED_BY_CLIENT</code> и <code>ERR_BLOCKED_BY_ADMINISTRATOR</code>: запрос заблокировал блокировщик рекламы или политика организации;</p></li><li><p><code>ERR_CACHE_MISS</code>.</p></li></ul><p>Смешанный контент (http-ресурсы на https-странице) я тоже показываю, но срабатывает этот пункт редко. Скрипты Chrome блокирует ещё до сети, а картинки сам переводит на https.</p><p>Со значком была задача: код ответа у каждой вкладки свой, а красная точка «один из ваших сайтов упал» должна быть видна везде. Решается разделением. Текст с кодом ставится через <code>action.setBadgeText</code> с <code>tabId</code>. Картинка с точкой рисуется в service worker на <code>OffscreenCanvas</code> и ставится через <code>action.setIcon</code> без <code>tabId</code>, то есть сразу на все вкладки.</p><p>После перезапуска браузера Chrome эту картинку сбрасывает, так что её надо перерисовывать при старте service worker. На значок влезает около четырёх символов: «200», «404» и «ERR» помещаются, что-то длиннее уже нет.</p><h3>Итог: что можно узнать из расширения</h3><div><div class=\"table\"><table><tbody><tr><th><p align=\"left\">Что нужно</p></th><th><p align=\"left\">Из браузера</p></th><th><p align=\"left\">Как</p></th></tr><tr><td><p align=\"left\">Код ответа страницы</p></td><td><p align=\"left\">Да</p></td><td><p align=\"left\"><code>webRequest</code>, тип <code>main_frame</code></p></td></tr><tr><td><p align=\"left\">Серверные редиректы</p></td><td><p align=\"left\">Да</p></td><td><p align=\"left\"><code>onBeforeRedirect</code> по <code>requestId</code></p></td></tr><tr><td><p align=\"left\">Редиректы через JS и meta refresh</p></td><td><p align=\"left\">Да</p></td><td><p align=\"left\"><code>webNavigation</code>, <code>client_redirect</code></p></td></tr><tr><td><p align=\"left\">Время до первого байта</p></td><td><p align=\"left\">Да</p></td><td><p align=\"left\">метки времени событий <code>webRequest</code></p></td></tr><tr><td><p align=\"left\">Ошибки ресурсов страницы</p></td><td><p align=\"left\">Да, с фильтром шума</p></td><td><p align=\"left\"><code>onCompleted</code> и <code>onErrorOccurred</code></p></td></tr><tr><td><p align=\"left\">Страница из кэша в памяти, bfcache</p></td><td><p align=\"left\">Нет</p></td><td><p align=\"left\">запроса не было, показывать прочерк</p></td></tr><tr><td><p align=\"left\">Сертификат просрочен</p></td><td><p align=\"left\">Да</p></td><td><p align=\"left\"><code>ERR_CERT_DATE_INVALID</code></p></td></tr><tr><td><p align=\"left\">Срок сертификата</p></td><td><p align=\"left\">Нет</p></td><td><p align=\"left\">API за флагом, нужен сервер</p></td></tr><tr><td><p align=\"left\">Срок домена в .com, .org, .net</p></td><td><p align=\"left\">Да</p></td><td><p align=\"left\">RDAP</p></td></tr><tr><td><p align=\"left\">Срок домена в .ru, .рф, .su, .io, .de</p></td><td><p align=\"left\">Нет</p></td><td><p align=\"left\">RDAP нет, нужен whois на сервере</p></td></tr><tr><td><p align=\"left\">Проверка по расписанию</p></td><td><p align=\"left\">Пока открыт браузер</p></td><td><p align=\"left\"><code>alarms</code> и <code>fetch</code> из service worker</p></td></tr></tbody></table></div></div><p>Если вы знаете способ достать сертификат из расширения без флага и без сервера, расскажите в комментариях: я такого не нашёл.</p><p>Источники: документация Chrome по <a href=\"https://developer.chrome.com/docs/extensions/reference/api/webRequest\" rel=\"noopener nofollow\">webRequest</a>, <a href=\"https://developer.chrome.com/docs/extensions/reference/api/webNavigation\" rel=\"noopener nofollow\">webNavigation</a>, <a href=\"https://developer.chrome.com/docs/extensions/reference/api/alarms\" rel=\"noopener nofollow\">alarms</a>, <a href=\"https://developer.chrome.com/docs/extensions/reference/api/action\" rel=\"noopener nofollow\">action</a> и <a href=\"https://developer.chrome.com/docs/extensions/develop/concepts/service-workers/lifecycle\" rel=\"noopener nofollow\">жизненному циклу service worker</a>, <a href=\"https://data.iana.org/rdap/dns.json\" rel=\"noopener nofollow\">реестр RDAP IANA</a>.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "расширения chrome"
+    },
+    {
+      "titleHtml": "manifest v3"
+    },
+    {
+      "titleHtml": "webRequest"
+    },
+    {
+      "titleHtml": "service worker"
+    },
+    {
+      "titleHtml": "chrome extensions"
+    },
+    {
+      "titleHtml": "rdap"
+    },
+    {
+      "titleHtml": "ssl-сертификат"
+    },
+    {
+      "titleHtml": "редиректы"
+    },
+    {
+      "titleHtml": "код ответа"
+    },
+    {
+      "titleHtml": "javascript"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106336/f3fb88a2f92b6ceef89fb19355b6722e/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106336/f3fb88a2f92b6ceef89fb19355b6722e/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106336\\/\"},\"headline\":\"Что расширение Chrome может узнать о сайте, а что нет: грабли Manifest V3\",\"datePublished\":\"2026-11-12T18:21:23+03:00\",\"dateModified\":\"2026-11-12T18:21:23+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Я написал расширение, которое показывает код ответа открытой страницы на значке, а по нажатию: цепочку редиректов, время ответа, срок SSL-сертификата и срок...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106336\\/#post-content-body\",\"about\":[\"h_browser_extensions\",\"h_google_chrome\",\"h_javascript\",\"h_webdev\",\"h_browsers\",\"f_develop\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1106336\\/f3fb88a2f92b6ceef89fb19355b6722e\\/\"]}",
+    "metaDescription": "Я написал расширение, которое показывает код ответа открытой страницы на значке, а по нажатию: цепочку редиректов, время ответа, срок SSL-сертификата и срок регистрации домена. Задача выглядела...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "case",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 8,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "4",
+    "title": "Фронтенд",
+    "alias": "frontend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

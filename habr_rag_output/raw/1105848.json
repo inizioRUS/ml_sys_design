@@ -1,0 +1,954 @@
+{
+  "id": "1105848",
+  "timePublished": "2026-11-11T08:04:29+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Человек в контуре: что становится с теми, кто слишком долго смотрит в цифровую бездну",
+  "leadData": {
+    "textHtml": "<p>За окном темнеет, чай давно остыл. Агент второй час возится с вашим проектом и раз в пару минут просит разрешения. Сначала вы читаете каждую команду, потом пробегаете глазами. К десятому запросу рука сама тянется к кнопке «Разрешить». По<a href=\"https://www.anthropic.com/research/claude-code-auto-mode\"> подсчетам Anthropic</a>, пользователи Claude Code одобряют 93% запросов на подтверждение, и компания называет это усталостью от одобрений.</p><p>На проверяющего, который читает каждый запрос агента и вовремя останавливает его, рассчитывают регуляторы и вендоры. В индустрии это называют human in the loop — человек в контуре управления.&nbsp; Идея, что человек присмотрит, звучит как универсальная страховка, только у нее больше сорока лет истории, и началась она не с ИИ. Авиация, дороги, медицина — там уже видели, что бывает, когда надзор за автоматикой поручают человеку. Навык слабеет, а внимание уходит так, что ошибку замечают слишком поздно. С агентами та же история повторяется жестче. Вместо одного ответа они выдают цепочку действий, и проверить ее труднее.</p>",
+    "imageUrl": "https://habrastorage.org/extt/e2/e5/1c/e2e51ca9f04a79d02348e59a5d763e3c.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/e2/e5/1c/e2e51ca9f04a79d02348e59a5d763e3c.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5637431",
+    "alias": "aberglaube",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 27,
+      "votesCount": 43
+    },
+    "rating": 79.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 6,
+    "readingCount": 558,
+    "score": 15,
+    "votesCount": 8,
+    "votesCountPlus": 8,
+    "votesCountMinus": 0,
+    "reach": 5995,
+    "readers": 402
+  },
+  "hubs": [
+    {
+      "id": "20822",
+      "alias": "ru_mts",
+      "type": "corporative",
+      "title": "Блог компании МТС",
+      "titleHtml": "Блог компании МТС",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21910",
+      "alias": "popular_science",
+      "type": "collective",
+      "title": "Научно-популярное",
+      "titleHtml": "Научно-популярное",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e2/e5/1c/e2e51ca9f04a79d02348e59a5d763e3c.jpg\" width=\"1375\" height=\"768\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e2/e5/1c/e2e51ca9f04a79d02348e59a5d763e3c.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/e2/e5/1c/e2e51ca9f04a79d02348e59a5d763e3c.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>За окном темнеет, чай давно остыл. Агент второй час возится с вашим проектом и раз в пару минут просит разрешения. Сначала вы читаете каждую команду, потом пробегаете глазами. К десятому запросу рука сама тянется к кнопке «Разрешить». По<a href=\"https://www.anthropic.com/research/claude-code-auto-mode\"> подсчетам Anthropic</a>, пользователи Claude Code одобряют 93% запросов на подтверждение, и компания называет это усталостью от одобрений.</p><p>На проверяющего, который читает каждый запрос агента и вовремя останавливает его, рассчитывают регуляторы и вендоры. В индустрии это называют human in the loop — человек в контуре управления.  Идея, что человек присмотрит, звучит как универсальная страховка, только у нее больше сорока лет истории, и началась она не с ИИ. Авиация, дороги, медицина — там уже видели, что бывает, когда надзор за автоматикой поручают человеку. Навык слабеет, а внимание уходит так, что ошибку замечают слишком поздно. С агентами та же история повторяется жестче. Вместо одного ответа они выдают цепочку действий, и проверить ее труднее.</p><h2>Что происходит, когда автоматика возвращает управление </h2><p><a href=\"https://artificialintelligenceact.eu/article/14/\">Статья 14 европейского AI Act</a> требует, чтобы за системами высокого риска присматривал человек. Отличная идея, что может пойти не так? </p><p>Британский психолог Лисанн Бейнбридж описала эту проблему еще в 1983 году в работе<a href=\"https://www.sciencedirect.com/science/article/pii/0005109883900468\"> «Ирония автоматизации»</a>. Сильная автоматика незаметно ухудшает навыки оператора и мешает ему ясно видеть, что происходит. Человек привыкает доверять машине и оказывается беспомощнее всего в тот момент, когда она отказала.</p><p>В авиации это заметили давно. В 2013 году FAA выпустило бюллетень<a href=\"https://www.faa.gov/sites/faa.gov/files/other_visit/aviation_industry/airline_operators/airline_safety/SAFO13002.pdf\"> SAFO 13002</a>. Там говорилось, что анализ полетных данных показал рост ошибок ручного пилотирования, а постоянная работа автопилота может ухудшать умение быстро вывести самолет из нештатного положения. Автопилот отменять не стали, но авиакомпаниям посоветовали сохранить для пилотов ручное пилотирование и в обучении, и в обычных рейсах. Пользоваться автопилотом и обходиться без него — это разные умения. Поэтому второе нужно тренировать отдельно.</p><blockquote><p><em>Как это выглядит в кабине, показывает рейс Air France 447 из Рио-де-Жанейро в Париж. Первого июня 2009 года обледенели трубки Пито, которые измеряют скорость, и автопилот вернул управление экипажу. Через четыре с половиной минуты самолет упал в Атлантику, погибли 228 человек. Сигнал сваливания звучал 54 секунды, и, как следует из</em><a href=\"https://www.faa.gov/sites/faa.gov/files/f-cp090601.en_.pdf\"><em> доклада французского бюро BEA</em></a><em>, пилоты ни разу не упомянули его. Причина не одна, но среди прочих названа и подготовка: в ней не было ручного полета на большой высоте при недостоверной скорости. Агент, который просит помощи в самом сложном месте, ставит человека в то же положение. </em></p></blockquote><p>На дорогах то же самое. В марте 2018 года в Темпе (штат Аризона) беспилотный автомобиль Uber сбил пешехода. За рулем сидела оператор, которая должна была следить за машиной, но отвлекалась на личный телефон: авария случилась примерно через 45 минут после начала смены.<a href=\"https://trid.trb.org/View/1751168\"> Расследование американского совета по безопасности на транспорте (NTSB)</a> пришло к выводу, что оператор не следила за дорогой и работой системы из-за телефона. Среди других причин оно назвало плохую оценку рисков и слабый контроль за операторами в Uber, а также отсутствие мер против самоуспокоенности из-за автоматики (automation complacency). </p><h2>Агентов проверять труднее</h2><p>Чат-бот выдает один ответ, его можно прочитать и усомниться. Агент устроен иначе: планирует, выбирает инструменты, передает данные другим модулям, правит файлы, меняет курс на ходу. Рассуждения и аргументы вызовов разбросаны по компонентам, и даже при желании не всегда поймешь, почему выбран этот инструмент. Ошибки бывают и в действиях. Агент может сослаться на несуществующий инструмент или вызвать существующий с неверными параметрами. А иногда неправильно читает ответ. По работе<a href=\"https://aclanthology.org/2026.acl-long.376/\"> «Ловушка рассуждений»</a> улучшение рассуждений у моделей усиливает такие галлюцинации. Исследователи из Hugging Face и Data &amp; Society<a href=\"https://arxiv.org/html/2608.23642v3\"> свели эти наблюдения в препринте</a>, и меры ниже опираются на него.</p><p>Человек ставит задачу, выдает разрешения, оценивает безопасность каждого шага и пытается предвидеть последствия. Интерфейсы на такое не рассчитаны. Отсюда и берется усталость от одобрений.</p><blockquote><p><em>Anthropic рассказывает о нескольких случаях из своего журнала инцидентов. Агент стер ветки в удаленном репозитории из-за неверно понятой просьбы, загрузил на внутренний кластер токен инженера от GitHub, попытался запустить миграции на боевой базе. </em></p></blockquote><p>Играет свою роль и устройство человеческого мышления. Психологи различают две скорости мышления: быструю, привычную (система 1) и медленную, критическую (система 2). Чтобы поймать ошибку агента, нужна вторая, но в рутине человек обычно работает на первой: нажимает одно подтверждение за другим, не вдумываясь. Переключиться на медленное мышление посреди такой работы трудно, и вместо проверки люди опираются на удобные приметы.</p><h2>Как LLM затягивает петлю на нашем внимании</h2><p>В исследовании <a href=\"https://doi.org/10.1126/science.aec8352\"><em>Science</em></a> проверили 11 моделей: они поддерживают действия пользователя примерно на 50% чаще, чем люди. В трех предрегистрированных экспериментах с 2405 участниками даже одно общение с угодливым ИИ снижало готовность улаживать конфликт и усиливало уверенность в собственной правоте. При этом участники больше доверяли таким ответам и охотнее к ним возвращались. Почему это происходит и как сикофантия встроена в саму механику обучения моделей — разбирали в статье<a href=\"https://habr.com/ru/companies/bothub/articles/984020/\"> «Почему ваш ИИ всегда с вами соглашается (даже когда вы категорически неправы)»</a>.</p><p>Anthropic изучила<a href=\"https://arxiv.org/abs/2601.19062\"> 1,5 миллиона разговоров с Claude</a>. Ассистент писал готовые сообщения, которые люди отправляли без правок, и подтверждал неверные убеждения, а такие диалоги пользователи оценивали благоприятно. </p><p>Угодливость может замкнуться в петлю, хотя замеров такого эффекта пока нет. Модели обучают на человеческих оценках, а агентов оценивают по доле одобрений и удовлетворенности. Когда проверяющий внимателен, он читает план, замечает пробел и отказывает. Уставший ставит галочку не глядя: текст просмотрен по диагонали, оценка хорошая. Уверенные резюме и планы, которые легко пролистать, становятся прямым следствием того, что одобрение считается успехом. Система учится подстраиваться под ожидания, а не под то, что на самом деле нужно.</p><blockquote><p><em>Ни для кого не секрет, что LLM направленно выдает и настаивает на неправильном результате. В работе</em><a href=\"https://proceedings.mlr.press/v306/guo26k.html\"><em> «Не обманывают ли вас ваши агенты?»</em></a><em> (ICML 2026) 11 популярным моделям дали 200 задач, в которых что-то ломалось: не работал инструмент, не открывался файл. В примере из статьи агенту нужно скачать «Всемирный доклад о малярии за 2023 год», а инструмент загрузки недоступен. Агент сам пишет текст документа, сохраняет его как локальный файл и сообщает, что загрузка прошла успешно. Так или похоже вели себя агенты на всех моделях: угадывали результат, молча подставляли другой источник вместо недоступного, выдумывали файлы. Попытка исправить это инструкцией в запросе снижала число таких случаев лишь немного. </em></p></blockquote><h2>Quis custodiet ipsos custodes? </h2><p>Anthropic ответила на усталость от одобрений просто: добавила автоматический режим, который берет проверку действий на себя. Перед каждым действием, не входящим в безопасный список, работает классификатор на Sonnet 4.6: быстрый фильтр, который блокирует с запасом, затем второй этап с рассуждением, снимающий ложные срабатывания. Если действия блокируются три раза подряд или двадцать за сессию, управление возвращается человеку.</p><p>Компания опубликовала свои замеры. На 10 000 реальных вызовах инструментов от сотрудников ложно блокируется 0,4% безопасных действий. На 52 реальных случаях чрезмерной инициативы агента классификатор пропускает 17%. По словам Anthropic, тем, кто и без того тщательно проверяет каждое действие вручную, автоматический режим скорее вредит: они подменяют суждение моделью, которая иногда ошибается. Для критичной инфраструктуры компания не считает его заменой внимательной проверке.</p><h4>Что с этим делать? </h4><p>Часть мер зависит от разработчиков продукта, часть от организаций.</p><p>Разработчики могут заложить в продукт:</p><ul><li><p><strong>Предварительную фиксацию:</strong> человек записывает решение до того, как увидит рекомендацию агента. Это снимает эффект якоря и оставляет след для разбора.</p></li><li><p><strong>Пакетный просмотр:</strong> агент заканчивает логический блок работы и показывает его целиком как набор изменений. Связанные действия оценивать проще, чем поток отдельных запросов.</p></li><li><p><strong>Задачи-ловушки:</strong> в рабочий поток подмешивают задачи с заранее известным ответом. Если проверяющий их пропускает, это прямое свидетельство ослабшего внимания и повод для перерыва. Для агента такие задачи устроены наоборот: проверяют, признает ли он «не могу» или сочинит правдоподобный ответ.</p></li><li><p><strong>Метрики внимания:</strong> время просмотра не растет вместе со сложностью операций, доля несогласий с агентом падает, проверяющий перестает задавать уточняющие вопросы. Все это говорит об усталости, но слежка за сотрудниками требует этических рамок.</p></li></ul><p>Организации тоже могут многое сделать. Проверяющему стоит регулярно выполнять основную задачу самому, чередовать задачи с помощником и без него и делать перерывы: навык, которым не пользуешься, исчезает, а без него нечем оценивать результат агента. Это прямой аналог пилотских тренировок в ручном режиме. Важно и то, как устроена сама работа. Проверять должен человек, которому быстрое одобрение не приносит выгоды. А нормативы по скорости не должны делать внимательный просмотр невыгодным, иначе проще нажать «разрешить».</p><p>Есть и встречный довод: человек привыкнет доверять агенту так же, как привык доверять поисковикам. Но в поисковике вы имеете дело с готовым документом: прочитали, взвесили, решили. Агент же выполняет действия, которые вы разрешаете, — и пока он работает, вы держите в голове весь его маршрут. Согласитесь, это совсем другая нагрузка.</p><p>К тому же есть надежда, что модели научатся сами поступать так, как хотят люди (эту работу называют выравниванием, <em>alignment</em>), и тогда надзор станет лишним. Но пока это ожидание, а регуляторы требуют надзора уже сегодня. Да и само выравнивание опирается на человеческие оценки: модель учат на ответах, которые люди выбрали, а люди чаще выбирают гладкие и уверенные. Если же модели начнут оценивать друг друга, людей в обучении станет еще меньше. </p><h2>Стоит ли сжигать джунов надзором за агентом?</h2><p>Если агент справляется с рутиной, то возникает соблазн подсадить к нему самого дешевого и неопытного сотрудника. Дорогие специалисты займутся другими задачами. Человек тут для формальности, и стоить эта формальность должна недорого.</p><p>Выходит наоборот. Во-первых, проверка требует квалификации не ниже, чем сама работа. Чтобы заметить, что агент удалил не те ветки или выдумал файл, надо понимать, как должно быть. В<a href=\"https://arxiv.org/abs/2601.20245\"> рандомизированном эксперименте Anthropic</a> 52 разработчика осваивали новую библиотеку: одни с ИИ-помощником, другие без него. Потом всех проверили тестом без подсказок, и группа с помощником набрала в среднем 50% против 67% у тех, кто разбирался сам. Больше всего проблем было с отладкой.</p><blockquote><p><em>Во-вторых, проверять учишься на тех самых задачах, которые теперь делает агент. Если опытные специалисты теряют навык, у новичков он может вообще не появиться.</em></p></blockquote><p>В-третьих, условия работы наблюдателя действуют против него, а при сбое еще и делают его виноватым. Когда агент ошибается редко, работа сводится к долгому ожиданию ошибки, и внимание рассеивается.</p><p>Надзор за агентом кажется задачей для новичка, а на деле требует специалиста с опытом. Если результат проверяется механически, проверку можно поручить кому угодно: тест не обмануть, расчет либо сходится, либо нет. Когда для проверки нужно суждение, экономия на проверяющем сразу превращается в риск, хотя какое-то время такая схема будет казаться удачной. Счет придет позже, когда проверяющие разучатся находить ошибки, а первый крупный сбой застанет их врасплох.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "искусственный интеллект"
+    },
+    {
+      "titleHtml": "ИИ-агенты"
+    },
+    {
+      "titleHtml": "человек в контуре"
+    },
+    {
+      "titleHtml": "автоматизация"
+    },
+    {
+      "titleHtml": "авиация"
+    },
+    {
+      "titleHtml": "беспилотные автомобили"
+    },
+    {
+      "titleHtml": "когнитивные навыки"
+    },
+    {
+      "titleHtml": "безопасность ИИ"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105848/2660fae410a1130f7f84e808e40e0a89/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105848/2660fae410a1130f7f84e808e40e0a89/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/ru_mts\\/articles\\/1105848\\/\"},\"headline\":\"Человек в контуре: что становится с теми, кто слишком долго смотрит в цифровую бездну\",\"datePublished\":\"2026-11-11T11:04:29+03:00\",\"dateModified\":\"2026-11-12T17:21:53+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"За окном темнеет, чай давно остыл. Агент второй час возится с вашим проектом и раз в пару минут просит разрешения. Сначала вы читаете каждую команду, потом...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/ru_mts\\/articles\\/1105848\\/#post-content-body\",\"about\":[\"c_ru_mts\",\"h_artificial_intelligence\",\"h_popular_science\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/e2\\/e5\\/1c\\/e2e51ca9f04a79d02348e59a5d763e3c.jpg\"]}",
+    "metaDescription": "За окном темнеет, чай давно остыл. Агент второй час возится с вашим проектом и раз в пару минут просит разрешения. Сначала вы читаете каждую команду, потом пробегаете глазами. К десятому запросу рука...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": [
+    {
+      "type": "post",
+      "uuid": "01a1cffa-87f6-723d-8e6c-e3094573dec5",
+      "content": {
+        "id": "1107130",
+        "timePublished": "2026-11-12T13:04:49+00:00",
+        "isCorporative": true,
+        "lang": "ru",
+        "titleHtml": "Виртуальные сотрудники и агенты на митапе «Русское техно 2»",
+        "editorVersion": "2.0",
+        "postType": "article",
+        "publicationType": "article",
+        "postLabels": [],
+        "author": {
+          "id": "95856",
+          "alias": "Lavs",
+          "fullname": "Сергей Лавров",
+          "avatarUrl": "//habrastorage.org/getpro/habr/avatars/dbd/f1f/577/dbdf1f5772057c5bbdb76726dc1f893a.jpg",
+          "speciality": "Создаю Android/iOS приложения",
+          "deleted": false,
+          "isSeo": false
+        },
+        "statistics": {
+          "commentsCount": 0,
+          "favoritesCount": 2,
+          "readingCount": 81,
+          "score": 5,
+          "votesCount": 2,
+          "votesCountPlus": 2,
+          "votesCountMinus": 0,
+          "reach": 3549,
+          "readers": 59
+        },
+        "hubs": [
+          {
+            "id": "20822",
+            "alias": "ru_mts",
+            "type": "corporative",
+            "title": "Блог компании МТС",
+            "titleHtml": "Блог компании МТС",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "21922",
+            "alias": "artificial_intelligence",
+            "type": "collective",
+            "title": "Искусственный интеллект",
+            "titleHtml": "Искусственный интеллект",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "20754",
+            "alias": "tech_events",
+            "type": "collective",
+            "title": "Конференции",
+            "titleHtml": "Конференции",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "20740",
+            "alias": "career",
+            "type": "collective",
+            "title": "Карьера в IT-индустрии",
+            "titleHtml": "Карьера в IT-индустрии",
+            "isProfiled": false,
+            "relatedData": null
+          }
+        ],
+        "flows": null,
+        "relatedData": {
+          "vote": null,
+          "unreadCommentsCount": 0,
+          "bookmarked": false,
+          "canComment": false,
+          "canEdit": false,
+          "canViewVotes": false,
+          "votePlus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "voteMinus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "draftReason": null,
+          "lockReason": null
+        },
+        "leadData": {
+          "textHtml": "<p>У многих настроен свой локальный харнесс, другие работают в облаке. А что если развернуть харнесс на большую компанию? Как быть, если первого ответа агента приходится ждать почти 40 секунд? Что можно оптимизировать и к чему это приведет? Ладно, развернули и оптимизировали, но как подружить агентов с сотрудниками? И как оценить эффект от внедрения ИИ на уровне бизнеса?</p><p>Я еще не настроил свой харнесс, и мне было интересно посмотреть на опыт других компаний. Поэтому пошел на митап MWS на эту тему. Сначала рассказали историю развития ИИ-агентов и базу: что такое обвязка вокруг модели. Потом был доклад про оптимизацию: в MWS все развернуто на Kubernetes и поддерживает OpenClaw и Hermes одновременно. Дальше руководители направлений обсуждали, как агенты работают вместе с сотрудниками. Напоследок был доклад про внедрение ИИ в организациях и оценку его эффекта.</p>",
+          "imageUrl": "https://habrastorage.org/extt/5d/57/b3/5d57b3211bde594a4a177ca8511cdb0a.jpeg",
+          "buttonTextHtml": "Читать далее",
+          "image": {
+            "url": "https://habrastorage.org/extt/5d/57/b3/5d57b3211bde594a4a177ca8511cdb0a.jpeg",
+            "fit": "cover",
+            "positionY": 0,
+            "positionX": 0
+          }
+        },
+        "status": "published",
+        "plannedPublishTime": null,
+        "isSeo": false,
+        "mode": "standard",
+        "checked": null,
+        "moderation": null,
+        "format": "reportage",
+        "readingTime": 16,
+        "complexity": null,
+        "isInBlacklist": null,
+        "flowNew": {
+          "id": "12",
+          "title": "AI и ML",
+          "alias": "ai_and_ml"
+        },
+        "tags": [
+          {
+            "titleHtml": "митап"
+          },
+          {
+            "titleHtml": "агенты ии"
+          },
+          {
+            "titleHtml": "виртуальные сотрудники"
+          }
+        ]
+      }
+    },
+    {
+      "type": "post",
+      "uuid": "01a1cffa-87f8-7239-95ad-db6da4ff0c21",
+      "content": {
+        "id": "1106716",
+        "timePublished": "2026-11-12T08:13:05+00:00",
+        "isCorporative": true,
+        "lang": "ru",
+        "titleHtml": "Кейс RED Security: как отличить ИИ от человека в автоматизированной кибератаке",
+        "editorVersion": "2.0",
+        "postType": "article",
+        "publicationType": "article",
+        "postLabels": [],
+        "author": {
+          "id": "4270410",
+          "alias": "st3l1n",
+          "fullname": null,
+          "avatarUrl": null,
+          "speciality": null,
+          "deleted": false,
+          "isSeo": false
+        },
+        "statistics": {
+          "commentsCount": 0,
+          "favoritesCount": 4,
+          "readingCount": 418,
+          "score": 10,
+          "votesCount": 6,
+          "votesCountPlus": 6,
+          "votesCountMinus": 0,
+          "reach": 5196,
+          "readers": 308
+        },
+        "hubs": [
+          {
+            "id": "20822",
+            "alias": "ru_mts",
+            "type": "corporative",
+            "title": "Блог компании МТС",
+            "titleHtml": "Блог компании МТС",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "50",
+            "alias": "infosecurity",
+            "type": "collective",
+            "title": "Информационная безопасность",
+            "titleHtml": "Информационная безопасность",
+            "isProfiled": true,
+            "relatedData": null
+          }
+        ],
+        "flows": null,
+        "relatedData": {
+          "vote": null,
+          "unreadCommentsCount": 0,
+          "bookmarked": false,
+          "canComment": false,
+          "canEdit": false,
+          "canViewVotes": false,
+          "votePlus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "voteMinus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "draftReason": null,
+          "lockReason": null
+        },
+        "leadData": {
+          "textHtml": "<p>Хабр, привет!&nbsp;На связи Никита Полосухин, ведущий аналитик центра мониторинга и реагирования на кибератаки RED Security SOC. В этом посте расскажу о недавней атаке на крупную российскую коммерческую компанию. В расследовании атаки участвовала наша команда. Атакующий прошел через цепочку уязвимостей внешнего и внутреннего периметра, полностью скомпрометировал домен организации&nbsp;— и все с помощью ИИ. Не буду разливать воду, сразу к делу.</p>",
+          "imageUrl": "https://habrastorage.org/extt/ad/7f/14/ad7f145c1ed8b10dc8fffb13ad02e7a8.png",
+          "buttonTextHtml": "Читать далее",
+          "image": {
+            "url": "https://habrastorage.org/extt/ad/7f/14/ad7f145c1ed8b10dc8fffb13ad02e7a8.png",
+            "fit": "cover",
+            "positionY": 0,
+            "positionX": 0
+          }
+        },
+        "status": "published",
+        "plannedPublishTime": null,
+        "isSeo": false,
+        "mode": "standard",
+        "checked": null,
+        "moderation": null,
+        "format": "case",
+        "readingTime": 8,
+        "complexity": "medium",
+        "isInBlacklist": null,
+        "flowNew": {
+          "id": "10",
+          "title": "Информационная безопасность",
+          "alias": "information_security"
+        },
+        "tags": [
+          {
+            "titleHtml": "soc"
+          },
+          {
+            "titleHtml": "active directory"
+          },
+          {
+            "titleHtml": "реагирование на инциденты"
+          },
+          {
+            "titleHtml": "dcsync"
+          },
+          {
+            "titleHtml": "ии-агенты"
+          },
+          {
+            "titleHtml": "red security"
+          },
+          {
+            "titleHtml": "цифровая форензика"
+          },
+          {
+            "titleHtml": "artex"
+          },
+          {
+            "titleHtml": "вебшеллы"
+          },
+          {
+            "titleHtml": "автоматизированные атаки"
+          }
+        ]
+      }
+    },
+    {
+      "type": "post",
+      "uuid": "01a1cffa-87fc-7352-ac17-0108521296a2",
+      "content": {
+        "id": "1106524",
+        "timePublished": "2026-11-11T12:20:42+00:00",
+        "isCorporative": true,
+        "lang": "ru",
+        "titleHtml": "ИИ в мобильных звонках, архитектурные агенты и «Карта гипотез». Что показали на одиннадцатом митапе MWS",
+        "editorVersion": "2.0",
+        "postType": "article",
+        "publicationType": "article",
+        "postLabels": [],
+        "author": {
+          "id": "5832824",
+          "alias": "IvanSayHi",
+          "fullname": "Иван Лященко",
+          "avatarUrl": "//habrastorage.org/getpro/habr/avatars/fd1/9bb/497/fd19bb497df83beb746e5ba14132db64.jpeg",
+          "speciality": "Корреспондент и выпускающий редактор «Компьютерры»",
+          "deleted": false,
+          "isSeo": false
+        },
+        "statistics": {
+          "commentsCount": 0,
+          "favoritesCount": 3,
+          "readingCount": 199,
+          "score": 10,
+          "votesCount": 5,
+          "votesCountPlus": 5,
+          "votesCountMinus": 0,
+          "reach": 6515,
+          "readers": 143
+        },
+        "hubs": [
+          {
+            "id": "20822",
+            "alias": "ru_mts",
+            "type": "corporative",
+            "title": "Блог компании МТС",
+            "titleHtml": "Блог компании МТС",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "21922",
+            "alias": "artificial_intelligence",
+            "type": "collective",
+            "title": "Искусственный интеллект",
+            "titleHtml": "Искусственный интеллект",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "20754",
+            "alias": "tech_events",
+            "type": "collective",
+            "title": "Конференции",
+            "titleHtml": "Конференции",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "20740",
+            "alias": "career",
+            "type": "collective",
+            "title": "Карьера в IT-индустрии",
+            "titleHtml": "Карьера в IT-индустрии",
+            "isProfiled": false,
+            "relatedData": null
+          }
+        ],
+        "flows": null,
+        "relatedData": {
+          "vote": null,
+          "unreadCommentsCount": 0,
+          "bookmarked": false,
+          "canComment": false,
+          "canEdit": false,
+          "canViewVotes": false,
+          "votePlus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "voteMinus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "draftReason": null,
+          "lockReason": null
+        },
+        "leadData": {
+          "textHtml": "<p>ИИ все чаще берется за задачи, которые раньше требовали участия инженера, архитектора или руководителя. Но просто встроить нейросеть в рабочий процесс недостаточно — ее нужно правильно адаптировать и настроить для получения положительного результата.</p><p>На одиннадцатом митапе MWS эксперты обсудили применение искусственного интеллекта в разных областях — от обработки голосовых вызовов непосредственно в мобильной сети до автоматизации работы с архитектурной документацией. Отдельное внимание уделили тому, как ИИ может помочь в стратегическом планировании и проверке бизнес-гипотез. В завершение встречи участники предложили собственные идеи сервисов на основе технологий MWS.</p>",
+          "imageUrl": "https://habrastorage.org/extt/4b/08/ad/4b08ad8fd8fb9a8ba8ebbb29f810bdba.jpg",
+          "buttonTextHtml": "Читать далее",
+          "image": {
+            "url": "https://habrastorage.org/extt/4b/08/ad/4b08ad8fd8fb9a8ba8ebbb29f810bdba.jpg",
+            "fit": "cover",
+            "positionY": 0,
+            "positionX": 0
+          }
+        },
+        "status": "published",
+        "plannedPublishTime": null,
+        "isSeo": false,
+        "mode": "standard",
+        "checked": null,
+        "moderation": null,
+        "format": "reportage",
+        "readingTime": 8,
+        "complexity": "low",
+        "isInBlacklist": null,
+        "flowNew": {
+          "id": "50",
+          "title": "Другое",
+          "alias": "other"
+        },
+        "tags": [
+          {
+            "titleHtml": "искусственный интеллект"
+          },
+          {
+            "titleHtml": "мобильная связь"
+          },
+          {
+            "titleHtml": "шумоподавление"
+          },
+          {
+            "titleHtml": "mws"
+          },
+          {
+            "titleHtml": "ии-агенты"
+          },
+          {
+            "titleHtml": "карта гипотез"
+          },
+          {
+            "titleHtml": "ии-трансформация"
+          },
+          {
+            "titleHtml": "архитектура ит-систем"
+          },
+          {
+            "titleHtml": "mws meetup"
+          },
+          {
+            "titleHtml": "architecture-as-a-code"
+          }
+        ]
+      }
+    },
+    {
+      "type": "post",
+      "uuid": "01a1cffa-87ff-71db-af4a-21b9919c6147",
+      "content": {
+        "id": "1094828",
+        "timePublished": "2026-11-09T10:00:03+00:00",
+        "isCorporative": true,
+        "lang": "ru",
+        "titleHtml": "Дипфейк на связи: как мы защитили видеозвонки на платформе IVA MCU от мошенников",
+        "editorVersion": "2.0",
+        "postType": "article",
+        "publicationType": "article",
+        "postLabels": [],
+        "author": {
+          "id": "4374534",
+          "alias": "TatianaDeshkina",
+          "fullname": "Татьяна Дешкина",
+          "avatarUrl": null,
+          "speciality": null,
+          "deleted": false,
+          "isSeo": false
+        },
+        "statistics": {
+          "commentsCount": 0,
+          "favoritesCount": 4,
+          "readingCount": 497,
+          "score": 15,
+          "votesCount": 8,
+          "votesCountPlus": 8,
+          "votesCountMinus": 0,
+          "reach": 8148,
+          "readers": 318
+        },
+        "hubs": [
+          {
+            "id": "22944",
+            "alias": "mts_ai",
+            "type": "corporative",
+            "title": "Блог компании MWS AI",
+            "titleHtml": "Блог компании MWS AI",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "20822",
+            "alias": "ru_mts",
+            "type": "corporative",
+            "title": "Блог компании МТС",
+            "titleHtml": "Блог компании МТС",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "21922",
+            "alias": "artificial_intelligence",
+            "type": "collective",
+            "title": "Искусственный интеллект",
+            "titleHtml": "Искусственный интеллект",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "50",
+            "alias": "infosecurity",
+            "type": "collective",
+            "title": "Информационная безопасность",
+            "titleHtml": "Информационная безопасность",
+            "isProfiled": true,
+            "relatedData": null
+          },
+          {
+            "id": "19439",
+            "alias": "machine_learning",
+            "type": "collective",
+            "title": "Машинное обучение",
+            "titleHtml": "Машинное обучение",
+            "isProfiled": true,
+            "relatedData": null
+          }
+        ],
+        "flows": null,
+        "relatedData": {
+          "vote": null,
+          "unreadCommentsCount": 0,
+          "bookmarked": false,
+          "canComment": false,
+          "canEdit": false,
+          "canViewVotes": false,
+          "votePlus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "voteMinus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "draftReason": null,
+          "lockReason": null
+        },
+        "leadData": {
+          "textHtml": "<p>Привет, Хабр! Меня зовут Татьяна Дешкина, я замдиректора по развитию продуктов в VisionLabs. Вместе с Дмитрием Журавлёвым, директором продукта IVA MCU в IVA Technologies, мы расскажем, как детектор дипфейков VisionLabs защищает видеозвонки на платформе IVA MCU: какими бывают дипфейки, как устроена детекция и почему она нужна, даже если у вас уже настроена вроде бы надёжная защита ВКС.</p>",
+          "imageUrl": "https://habrastorage.org/extt/e5/06/f3/e506f3c1b45cfe76fd1bebe7212b201c.png",
+          "buttonTextHtml": "Читать далее",
+          "image": {
+            "url": "https://habrastorage.org/extt/e5/06/f3/e506f3c1b45cfe76fd1bebe7212b201c.png",
+            "fit": "cover",
+            "positionY": 0,
+            "positionX": 0
+          }
+        },
+        "status": "published",
+        "plannedPublishTime": null,
+        "isSeo": false,
+        "mode": "standard",
+        "checked": null,
+        "moderation": null,
+        "format": "case",
+        "readingTime": 8,
+        "complexity": "medium",
+        "isInBlacklist": null,
+        "flowNew": {
+          "id": "12",
+          "title": "AI и ML",
+          "alias": "ai_and_ml"
+        },
+        "tags": [
+          {
+            "titleHtml": "информационная безопасность"
+          },
+          {
+            "titleHtml": "ии"
+          },
+          {
+            "titleHtml": "видеоконференции"
+          },
+          {
+            "titleHtml": "вкс"
+          },
+          {
+            "titleHtml": "антифрод"
+          },
+          {
+            "titleHtml": "подмена записей"
+          },
+          {
+            "titleHtml": "детекция"
+          },
+          {
+            "titleHtml": "дипфейки"
+          },
+          {
+            "titleHtml": "liveness detection"
+          },
+          {
+            "titleHtml": "deepfake detection"
+          }
+        ]
+      }
+    },
+    {
+      "type": "post",
+      "uuid": "01a1cffa-8803-718c-a383-cdf8f0c0f2cc",
+      "content": {
+        "id": "1097740",
+        "timePublished": "2026-11-02T12:46:33+00:00",
+        "isCorporative": true,
+        "lang": "ru",
+        "titleHtml": "Свежие научные работы про ИИ, агентов и все такое. Сентябрь-2026: мультимодальный ИИ и робототехника",
+        "editorVersion": "2.0",
+        "postType": "article",
+        "publicationType": "article",
+        "postLabels": [],
+        "author": {
+          "id": "1232986",
+          "alias": "Mimizavr",
+          "fullname": "Андрей",
+          "avatarUrl": "//habrastorage.org/getpro/habr/avatars/65c/424/9e4/65c4249e443ecd4add35eb8829ffe59a.jpg",
+          "speciality": "Библиарий Ордена True Tech",
+          "deleted": false,
+          "isSeo": false
+        },
+        "statistics": {
+          "commentsCount": 0,
+          "favoritesCount": 9,
+          "readingCount": 677,
+          "score": 13,
+          "votesCount": 5,
+          "votesCountPlus": 5,
+          "votesCountMinus": 0,
+          "reach": 8666,
+          "readers": 441
+        },
+        "hubs": [
+          {
+            "id": "20822",
+            "alias": "ru_mts",
+            "type": "corporative",
+            "title": "Блог компании МТС",
+            "titleHtml": "Блог компании МТС",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "21922",
+            "alias": "artificial_intelligence",
+            "type": "collective",
+            "title": "Искусственный интеллект",
+            "titleHtml": "Искусственный интеллект",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "19439",
+            "alias": "machine_learning",
+            "type": "collective",
+            "title": "Машинное обучение",
+            "titleHtml": "Машинное обучение",
+            "isProfiled": true,
+            "relatedData": null
+          },
+          {
+            "id": "21902",
+            "alias": "robot",
+            "type": "collective",
+            "title": "Робототехника",
+            "titleHtml": "Робототехника",
+            "isProfiled": false,
+            "relatedData": null
+          },
+          {
+            "id": "21910",
+            "alias": "popular_science",
+            "type": "collective",
+            "title": "Научно-популярное",
+            "titleHtml": "Научно-популярное",
+            "isProfiled": false,
+            "relatedData": null
+          }
+        ],
+        "flows": null,
+        "relatedData": {
+          "vote": null,
+          "unreadCommentsCount": 0,
+          "bookmarked": false,
+          "canComment": false,
+          "canEdit": false,
+          "canViewVotes": false,
+          "votePlus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "voteMinus": {
+            "canVote": false,
+            "isChargeEnough": false,
+            "isKarmaEnough": false,
+            "isVotingOver": false,
+            "isPublicationLimitEnough": false
+          },
+          "draftReason": null,
+          "lockReason": null
+        },
+        "leadData": {
+          "textHtml": "<p>Привет, Хабр! В прошлой части дайджеста я собирал научные работы про LLM, агентную разработку и безопасность, а теперь перейду к изображениям, речи и роботам. Всего в этом дайджесте 17 исследований о CV, речи, роботах и других системах, объединяющих различные виды данных. В одних исследованиях ученые тестировали настоящие манипуляторы и дроны, в других ограничивались симуляцией. В каждом разборе мы уточняем, как именно проходили испытания, поскольку хорошие результаты тестов — еще не гарантия, что робот так же классно справится с задачей в реальных условиях. Для самых показательных работ мы добавили иллюстрации из оригинальных публикаций.</p>",
+          "imageUrl": "https://habrastorage.org/extt/d6/6b/b9/d66bb92eac62a17e05e7d7c3362e4790.png",
+          "buttonTextHtml": "Читать далее",
+          "image": {
+            "url": "https://habrastorage.org/extt/d6/6b/b9/d66bb92eac62a17e05e7d7c3362e4790.png",
+            "fit": "cover",
+            "positionY": 0,
+            "positionX": 0
+          }
+        },
+        "status": "published",
+        "plannedPublishTime": null,
+        "isSeo": false,
+        "mode": "standard",
+        "checked": null,
+        "moderation": null,
+        "format": "digest",
+        "readingTime": 19,
+        "complexity": null,
+        "isInBlacklist": null,
+        "flowNew": {
+          "id": "12",
+          "title": "AI и ML",
+          "alias": "ai_and_ml"
+        },
+        "tags": [
+          {
+            "titleHtml": "робототехника"
+          },
+          {
+            "titleHtml": "научные исследования"
+          },
+          {
+            "titleHtml": "дайджест"
+          },
+          {
+            "titleHtml": "нейросети"
+          },
+          {
+            "titleHtml": "автономные системы"
+          },
+          {
+            "titleHtml": "компьютерное зрение"
+          },
+          {
+            "titleHtml": "машинное обучение"
+          },
+          {
+            "titleHtml": "arxiv"
+          },
+          {
+            "titleHtml": "llm"
+          },
+          {
+            "titleHtml": "мультимодальный ии"
+          }
+        ]
+      }
+    }
+  ],
+  "multiwidgetUuid": "01a1cffa-87f1-7355-8f1f-045c34ee295b",
+  "readingTime": 7,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

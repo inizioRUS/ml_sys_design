@@ -1,0 +1,184 @@
+{
+  "id": "1105952",
+  "timePublished": "2026-11-10T10:23:26+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Утечка: в сеть попал исходный код Half-Life 2: Episode 3 и ранние билды Portal 2",
+  "leadData": {
+    "textHtml": "<p>Архивы разработки Valve снова оказались в открытом доступе. Датамайнеры заполучили фрагменты исходного кода отмененной Half-Life 2: Episode 3, а вдобавок — массив тестовых карт для Portal 2, которые никогда не показывали публике.</p>",
+    "imageUrl": "https://habrastorage.org/extt/a7/16/36/a71636f35524ab4d1f20f3f871e61b23.png",
+    "buttonTextHtml": "Читать новость далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/a7/16/36/a71636f35524ab4d1f20f3f871e61b23.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "4926587",
+    "alias": "ggsel",
+    "fullname": "ggsel",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/f0c/53b/019/f0c53b019b693c8965afc7f30196f336.jpeg",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 0,
+      "votesCount": 180
+    },
+    "rating": 13.7,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 1,
+    "readingCount": 1160,
+    "score": -1,
+    "votesCount": 1,
+    "votesCountPlus": 0,
+    "votesCountMinus": 1,
+    "reach": 5101,
+    "readers": 970
+  },
+  "hubs": [
+    {
+      "id": "23666",
+      "alias": "ggsel",
+      "type": "corporative",
+      "title": "Блог компании ggsel.net",
+      "titleHtml": "Блог компании ggsel.net",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21980",
+      "alias": "games",
+      "type": "collective",
+      "title": "Игры и игровые консоли",
+      "titleHtml": "Игры и игровые консоли",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/a7/16/36/a71636f35524ab4d1f20f3f871e61b23.png\" width=\"1280\" height=\"720\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a7/16/36/a71636f35524ab4d1f20f3f871e61b23.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/a7/16/36/a71636f35524ab4d1f20f3f871e61b23.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Архивы разработки Valve снова оказались в открытом доступе. Датамайнеры заполучили фрагменты исходного кода отмененной Half-Life 2: Episode 3, а вдобавок — массив тестовых карт для Portal 2, которые никогда не показывали публике.</p><p>О распространении архива сообщил известный блогер Gabe Follower. Из найденных данных следует, что на рубеже 2000-х и 2010-х годов разработчики обкатывали фундаментально новые механики. В частности, программисты Valve создавали технологический модуль Blobulator, отвечавший за физику деформации гелеобразных существ и пластичных масс. Кроме того, в файлах обнаружили упоминания экспериментальной пушки Weaponizer и ранее не анонсированных видов противников.</p><p>Параллельно в сеть утекла подборка билдов Portal 2 периода препродакшна — тестовые комнаты и черновики уровней, создававшиеся исключительно для внутренних тестов компании. По версии фанатского сообщества, за сливом стоит тот же источник, который ранее обнародовал исходники F-Stop — закрытого эксперимента Valve с механиками визуальной перспективы и фотоаппаратом.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/fe/e1/b4/fee1b421e7a86875629b2b55cea748c5.png\" width=\"1457\" height=\"1180\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/fe/e1/b4/fee1b421e7a86875629b2b55cea748c5.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/fe/e1/b4/fee1b421e7a86875629b2b55cea748c5.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c2/c9/1a/c2c91a16b93ce5d8687fe37272decd14.png\" width=\"1794\" height=\"1083\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c2/c9/1a/c2c91a16b93ce5d8687fe37272decd14.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c2/c9/1a/c2c91a16b93ce5d8687fe37272decd14.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/af/f4/c4/aff4c49e08ddacb4299c05f92293e877.png\" width=\"752\" height=\"956\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/af/f4/c4/aff4c49e08ddacb4299c05f92293e877.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/af/f4/c4/aff4c49e08ddacb4299c05f92293e877.png 781w\" loading=\"lazy\" decode=\"async\"/></figure></div>",
+  "tags": [
+    {
+      "titleHtml": "утчека"
+    },
+    {
+      "titleHtml": "valve"
+    },
+    {
+      "titleHtml": "игры"
+    },
+    {
+      "titleHtml": "идустрия"
+    },
+    {
+      "titleHtml": "half-life 2"
+    },
+    {
+      "titleHtml": "portal 2"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105952/4a29e9fe88700a5c6b934e41152f1017/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105952/4a29e9fe88700a5c6b934e41152f1017/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/ggsel\\/articles\\/1105952\\/\"},\"headline\":\"Утечка: в сеть попал исходный код Half-Life 2: Episode 3 и ранние билды Portal 2\",\"datePublished\":\"2026-11-10T13:23:26+03:00\",\"dateModified\":\"2026-11-11T19:11:13+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Архивы разработки Valve снова оказались в открытом доступе. Датамайнеры заполучили фрагменты исходного кода отмененной Half-Life 2: Episode 3, а вдобавок —...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/ggsel\\/articles\\/1105952\\/#post-content-body\",\"about\":[\"c_ggsel\",\"h_games\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/a7\\/16\\/36\\/a71636f35524ab4d1f20f3f871e61b23.png\",\"https:\\/\\/habrastorage.org\\/extt\\/fe\\/e1\\/b4\\/fee1b421e7a86875629b2b55cea748c5.png\",\"https:\\/\\/habrastorage.org\\/extt\\/c2\\/c9\\/1a\\/c2c91a16b93ce5d8687fe37272decd14.png\",\"https:\\/\\/habrastorage.org\\/extt\\/af\\/f4\\/c4\\/aff4c49e08ddacb4299c05f92293e877.png\"]}",
+    "metaDescription": "Архивы разработки Valve снова оказались в открытом доступе. Датамайнеры заполучили фрагменты исходного кода отмененной Half-Life 2: Episode 3, а вдобавок — массив тестовых карт для Portal 2, которые...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": {
+    "url": "https://ggsel.net/?utm_source=Articles&utm_medium=habr&utm_campaign=habr-banner&erid=2Vtzqv2AJq1",
+    "desktopImageUrl": "//habrastorage.org/getpro/habr/company/post_desktop/a45/576/7cf/a455767cf93b6e72b5dad85fd441623c.png",
+    "mobileImageUrl": "//habrastorage.org/getpro/habr/company/post_mobile/774/4c7/c92/7744c7c924c8fe9f793ef8c394980f52.jpeg",
+    "uuid": "019caf06-0fa1-7120-a6d3-5dca4bf91f62"
+  },
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "16",
+    "title": "Геймдев",
+    "alias": "gamedev"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

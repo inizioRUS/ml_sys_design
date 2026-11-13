@@ -1,0 +1,179 @@
+{
+  "id": "1106286",
+  "timePublished": "2026-11-10T19:15:48+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Построение карты проходимости на GPU по данным RGB-D камеры &amp; лидара",
+  "leadData": {
+    "textHtml": "<p>Как я переносил CUDA-ядра Elevation Mapping на своего ровера и почему для качественной карты проходимости всё-таки нужны лидары и пакеты SLAM с очисткой облаков точек в реальном времени.</p>",
+    "imageUrl": "https://habrastorage.org/extt/54/c0/91/54c0919a60788ff74eedafb8dafe19e2.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/54/c0/91/54c0919a60788ff74eedafb8dafe19e2.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3838598",
+    "alias": "Sencis",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 11,
+      "votesCount": 13
+    },
+    "rating": 13,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 2,
+    "favoritesCount": 4,
+    "readingCount": 591,
+    "score": 6,
+    "votesCount": 3,
+    "votesCountPlus": 3,
+    "votesCountMinus": 0,
+    "reach": 10279,
+    "readers": 344
+  },
+  "hubs": [
+    {
+      "id": "21902",
+      "alias": "robot",
+      "type": "collective",
+      "title": "Робототехника",
+      "titleHtml": "Робототехника",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "8000",
+      "alias": "algorithms",
+      "type": "collective",
+      "title": "Алгоритмы",
+      "titleHtml": "Алгоритмы",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>По результатам тестов из прошлой <a href=\"https://habr.com/ru/articles/1095506/\" rel=\"noopener nofollow\">статьи</a> выяснилось: из-за дрейфа одометрии (в основном по вертикальной оси, оси Z, у лидарной одометрии), шума датчика глубины и ограничений углов обзора датчиков простой <a href=\"https://github.com/Userpc1010/UGV/tree/0f8d25cc94e164966eec09199059b2cfe2debe24\" rel=\"noopener nofollow\">наивный подход</a> — прямое проецирование точек с камеры на карту — не работает. Шум глубины создаёт на карте артефакты, а скачки и дрейф одометрии усугубляют проблему. Чтобы её исправить, я решил позаимствовать CUDA-ядра обработки точек из пакета <a href=\"https://github.com/leggedrobotics/elevation_mapping_cupy\" rel=\"noopener nofollow\">Elevation Mapping cupy</a>, где эти проблемы были решены с помощью одномерного фильтра Калмана для каждой ячейки, накапливающего измерения датчика в ячейках карты по времени, и алгоритма компенсации дрейфа. В общем виде принцип работы ядер Elevation Mapping cupy (EMC) показан на рисунке; насколько это возможно, он был точно <a href=\"https://github.com/Userpc1010/UGV/blob/master/UGV_Core/cudamap.cu\" rel=\"noopener nofollow\">перенесён на CUDA</a>:</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/de/14/21/de1421dbf2fc290f8339cf94df494298.png\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/de/14/21/de1421dbf2fc290f8339cf94df494298.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/de/14/21/de1421dbf2fc290f8339cf94df494298.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h2>Первый запуск HD-карты в помещении</h2><p>Перед тестом нового визуализатора меша я ещё раз запустил HD-карту из прошлой статьи в помещении:</p><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af3a612beb0cddb1d385bb1\" data-style=\"\" id=\"6af3a612beb0cddb1d385bb1\" width=\"\" data-habr-games=\"\"></div><p>На видео карта высот строится по данным лидара и камеры: лидар в основном направлен на стены и поток, а камера оцифровывает поверхность пола. На лидарной карте, где облако точек окрашено по интенсивности, видно, что лидар видит всю комнату, включая потолок; недоступной остаётся лишь небольшая мёртвая зона — воронка на потолке. Поначалу карта помещения строится нормально, не считая багов с размером стен. Но после начала движения возникает новый баг, связанный с функцией поиска <a href=\"https://find_robot_height_kernel\" rel=\"noopener nofollow\">высоты робота</a> (приоритетного слоя, по которому он движется): удаление потолков даёт сбой, и карта высот <a href=\"https://youtu.be/Rw9dMJbmMJA?t=82\" rel=\"noopener nofollow\">перекрывается потолком</a>. Правда, тогда я не сразу это понял, но это ещё раз подчёркивает, что простые наивные подходы как этот, в котором под роботом (позицией сенсора) ищется поверхность для удаления над ней потолка плохо работает, ведь иногда поверхности может и не быть, что и приводит к сбоям.</p><h2>Как эта проблема решена в EMC</h2><p>В EMC эта проблема решена проще и изящнее. В моём случае робот ищет поверхность, по которой движется, отсчитывает от неё высоту, ищет в этом столбике препятствия и оставляет на карте высот только самое высокое. Это требует обязательного наличия поверхности под роботом для удаления потолка. В EMC сделано проще, над высотой датчика, допустим 1 м, удаляются все точки, <a href=\"https://github.com/Userpc1010/UGV/blob/33707ba7d25bee3e15522163471512a411daa767/UGV_Core/cudamap.cu#L402\" rel=\"noopener nofollow\">включая потолки</a>. Если подобрать эту высоту точно под высоту робота, он сможет проходить под препятствиями выше него (типа стола) точно так-же. Но это позволяет EMC не зависеть от поверхности, что делает алгоритм надёжнее.</p><p>Платой за простоту является ограниченный обзор при заезде на подъём: верхняя планка поля зрения робота буквально упирается в горку и срезает её вершину. Где подход с приоритетным обходом слоёв из HD-карты будет следовать по поверхности подъёма выше в горку. Впрочем в реальности из-за ограниченного поля зрения робота этот не всегда работает ведь вершина может быть банально не от сканирована или в низком разрешении. Однако если облако, загружаемое в EMC, будет не зарегистрированным, то есть находиться в системе координат (СК) корпуса робота, то когда робот заедет на подъём, его вершина перестанет обрезаться. Что-бы имитировать этот эффект можно привязать зону обрезки к углам тангажа и крена робота, чтобы при подъёме в гору зона обрезки огибала рельеф. Это частично компенсирует проблему слепоты робота на подъёме, а учитывая простоту и надёжность подхода, такой компромисс можно назвать лучшим.</p><h2>Наблюдения по ходу видео</h2><p>Дальнейший просмотр можно начать отсюда, <a href=\"https://youtu.be/Rw9dMJbmMJA?t=509\" rel=\"noopener nofollow\">что-бы пропустить попытки</a> разобраться в причинах неправильной работы карты.</p><p>И <a href=\"https://youtu.be/Rw9dMJbmMJA?t=541\" rel=\"noopener nofollow\">тут можно заметить</a> как ведёт себя меш на сыром облаке точек от камеры без фильтрации: все треугольники постоянно двигаются из-за шума измерений, а <a href=\"https://youtu.be/Rw9dMJbmMJA?t=583\" rel=\"noopener nofollow\">карта стоимости</a> из-за этого тоже не является идеально гладкой. Тем не менее в этом шуме ровер хорошо видит предмет, если бросить его прямо под колёса: такие пиксели на карте стоимости окрашиваются зелёным, жёлтым или пурпурным, если высота предмета слишком велика, чтобы его переехать. Ну и на меш-карте его тоже хорошо видно <a href=\"https://youtu.be/Rw9dMJbmMJA?t=599\" rel=\"noopener nofollow\">как бугорок</a>.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/0c/b1/cf/0cb1cfd8f6f9661cc36b5496f4902498.png\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/0c/b1/cf/0cb1cfd8f6f9661cc36b5496f4902498.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/0c/b1/cf/0cb1cfd8f6f9661cc36b5496f4902498.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/49/6a/26/496a2672da499c0d2fb7fd4442d2961e.png\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/49/6a/26/496a2672da499c0d2fb7fd4442d2961e.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/49/6a/26/496a2672da499c0d2fb7fd4442d2961e.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/ff/86/29/ff8629811555fff3d848dafcbbd13dcc.png\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/ff/86/29/ff8629811555fff3d848dafcbbd13dcc.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/ff/86/29/ff8629811555fff3d848dafcbbd13dcc.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Так как амплитуда шума здесь не слишком велика по сравнению с размером предмета, на карте также видно, как <a href=\"https://youtu.be/Rw9dMJbmMJA?t=612\" rel=\"noopener nofollow\">я перемещаю предмет по комнате</a>. Таким образом, в пределах одного скана карта работала, и главной причиной артефактов был именно дрейф одометрии по оси Z, который наивное проецирование точек на карту никак не компенсировало. Далее такой же тест с предметами покрупнее проводился уже с включённой <a href=\"https://youtu.be/Rw9dMJbmMJA?t=759\" rel=\"noopener nofollow\">картой стоимости</a>, и карта правильно визуализировала предмет как непроходимую зону.</p><h2>Замена CUDA-ядер на ядра EMC</h2><p>На этом тест визуализатора карты высот был завершён, и я приступил к замене CUDA-ядер построения воксельной карты на ядра EMC.</p><p>Поскольку ядра добавлялись постепенно, шаг за шагом, первый раз карта была запущена на одном лидаре. Его отрицательные углы склонения не позволяют видеть пол, а ключевые кадры обновляются очень медленно, поэтому карта была построена по обычным кадрам, очищенным от искажений, а ровер приходилось носить приподнятым на 45 градусов вверх за задний мост. Но таким образом удалось построить лидарную карту помещения в EMC:</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/18/ba/74/18ba747020317ec4d351e08314a4f3c8.png\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/18/ba/74/18ba747020317ec4d351e08314a4f3c8.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/18/ba/74/18ba747020317ec4d351e08314a4f3c8.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af3a612f218c91306ac2250\" data-style=\"\" id=\"6af3a612f218c91306ac2250\" width=\"\" data-habr-games=\"\"></div><p>Как можно заметить, лидарная карта построена довольно неплохо: несмотря на то, что облако не очищено от движущихся точек, на карте почти нет артефактов и выбросов! Однако визуализация ещё не до конца исправлена, поэтому модель ровера ездит боком).</p><h2>Объединённое облако лидара и камеры</h2><p>Позднее я добавил объединённое облако точек лидара и камеры. Здесь выбросов на карте стало значительно больше даже в помещении, хотя карта стоимости выглядит почти идеально:</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/b3/3f/35/b33f35a695780857b0f33eedf2bf2c5c.png\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/b3/3f/35/b33f35a695780857b0f33eedf2bf2c5c.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/b3/3f/35/b33f35a695780857b0f33eedf2bf2c5c.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Но реальная причина в том, что в этом тесте чувствительность уклонов карты стоимости сильно занижена: с такой настройкой она даже человека, стоящего перед ровером, не считает значительным препятствием.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/9f/84/0e/9f840e2b228d04fbd25323dc070ffbb9.png\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/9f/84/0e/9f840e2b228d04fbd25323dc070ffbb9.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/9f/84/0e/9f840e2b228d04fbd25323dc070ffbb9.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af3a61292db2fdae94db96d\" data-style=\"\" id=\"6af3a61292db2fdae94db96d\" width=\"\" data-habr-games=\"\"></div><p>На карте появилось большое количество выбросов: их хорошо видно как точки за пределами карты помещения. Это тоже вина RGB-D камеры — даже с фильтрацией и в условиях помещения она продолжает генерировать мусор, с которым фильтры EMC также не справляются. Эти выбросы также нарушают раскраску карты высот, так как растягивают её высоту значительно сильнее, чем она есть на самом деле, как пример: окрас карты, построенной одним лидаром, значительно лучше, ведь на ней нет выбросов:</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/webt/83/da/1b/83da1b84ca5a0724fcf32ce8af39c0c9.png\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/webt/83/da/1b/83da1b84ca5a0724fcf32ce8af39c0c9.png 780w,&#10;       https://habrastorage.org/r/w1560/webt/83/da/1b/83da1b84ca5a0724fcf32ce8af39c0c9.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h2>Финальный тест ядер EMC на улице</h2><p>Ну и финальный тест ядер EMC на улице:</p><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af3a6127ef7fd12ae5d1aa6\" data-style=\"\" id=\"6af3a6127ef7fd12ae5d1aa6\" width=\"\" data-habr-games=\"\"></div><p>Погода идеальная, солнечный день, и в целом карта построена неплохо: артефактов стало где-то раза в два меньше, и по этой карте уже даже можно проехать! Но всё же с фильтром Калмона карта построенная RGB-D камерой не стала идеальной гладкой, артефакты тоже периодически встречаются, создавая на карте фантомные препятствия, перекрывающие дорогу. Часть из них оставлена мной, так как карта по-прежнему строилась не на keyframe’ах, очищенных от движущихся точек, а на обычных лидарных сканах.</p><p>Интересно, что сами ETH Zürich делают пакет карты высот уже много лет:</p><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af3a612397ad9db832d96b6\" data-style=\"\" id=\"6af3a612397ad9db832d96b6\" width=\"\" data-habr-games=\"\"></div><p>И подобные проблемы с <a href=\"https://youtu.be/zXbb6KQ0xV8?list=LL&amp;t=75\" rel=\"noopener nofollow\">выбросами на карте</a> там, где их в принципе не должно быть, бывали и у них:</p><div class=\"tm-iframe_temp\" data-src=\"https://embedd.srv.habr.com/iframe/6af3a612f41be212d3c4631a\" data-style=\"\" id=\"6af3a612f41be212d3c4631a\" width=\"\" data-habr-games=\"\"></div><h2>Выводы</h2><p>По итогу можно сделать вывод: для качественного построения карты проходимости RGB-D камера подходит плохо, нужны лидары, и облако точек лидара должно проходить обработку в пакете одометрии для отделения движущихся и неподвижных точек в реальном времени, чтобы не зависеть от низкой частоты keyframe’ов и получать облако точек аналогичного качества.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "cuda"
+    },
+    {
+      "titleHtml": "машинное зрение"
+    },
+    {
+      "titleHtml": "лидар"
+    },
+    {
+      "titleHtml": "стереозрение"
+    },
+    {
+      "titleHtml": "realsense"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106286/90109e097550e83a71c0d8212132b565/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106286/90109e097550e83a71c0d8212132b565/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106286\\/\"},\"headline\":\"Построение карты проходимости на GPU по данным RGB-D камеры &amp; лидара\",\"datePublished\":\"2026-11-10T22:15:48+03:00\",\"dateModified\":\"2026-11-11T02:17:38+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"По результатам тестов из прошлой статьи выяснилось: из-за дрейфа одометрии (в основном по вертикальной оси, оси Z, у лидарной одометрии), шума датчика глубины и...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106286\\/#post-content-body\",\"about\":[\"h_robot\",\"h_algorithms\",\"f_develop\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/webt\\/de\\/14\\/21\\/de1421dbf2fc290f8339cf94df494298.png\",\"https:\\/\\/habrastorage.org\\/webt\\/0c\\/b1\\/cf\\/0cb1cfd8f6f9661cc36b5496f4902498.png\",\"https:\\/\\/habrastorage.org\\/webt\\/49\\/6a\\/26\\/496a2672da499c0d2fb7fd4442d2961e.png\",\"https:\\/\\/habrastorage.org\\/webt\\/ff\\/86\\/29\\/ff8629811555fff3d848dafcbbd13dcc.png\",\"https:\\/\\/habrastorage.org\\/webt\\/18\\/ba\\/74\\/18ba747020317ec4d351e08314a4f3c8.png\",\"https:\\/\\/habrastorage.org\\/webt\\/b3\\/3f\\/35\\/b33f35a695780857b0f33eedf2bf2c5c.png\",\"https:\\/\\/habrastorage.org\\/webt\\/9f\\/84\\/0e\\/9f840e2b228d04fbd25323dc070ffbb9.png\",\"https:\\/\\/habrastorage.org\\/webt\\/83\\/da\\/1b\\/83da1b84ca5a0724fcf32ce8af39c0c9.png\"]}",
+    "metaDescription": "По результатам тестов из прошлой статьи выяснилось: из-за дрейфа одометрии (в основном по вертикальной оси, оси Z, у лидарной одометрии), шума датчика глубины и ограничений углов обзора датчиков...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

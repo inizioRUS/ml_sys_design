@@ -1,0 +1,211 @@
+{
+  "id": "1105664",
+  "timePublished": "2026-11-09T18:05:11+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "В ESTT завершают восстановление облачной инфраструктуры",
+  "leadData": {
+    "textHtml": "<p>В хостинге ESTT <a href=\"https://t.me/dcestt/277\" rel=\"noopener nofollow\">сообщили</a>, что инженеры компании завершают восстановление облачной инфраструктуры после инцидента. Ранее из-за сбоя пострадали кластеры виртуализации и системы управления облачной инфраструктурой ESTT, что привело к нарушению работы клиентских сервисов.</p>",
+    "imageUrl": null,
+    "buttonTextHtml": "Читать далее",
+    "image": null
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "780987",
+    "alias": "denis-19",
+    "fullname": "Денис",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/6a0/f31/235/6a0f31235bb26134f3c7a741c03e4efb.jpg",
+    "speciality": "Информационная служба Хабра, без использования ИИ",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1069,
+      "votesCount": 2027
+    },
+    "rating": 881.5,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/habr_com_news",
+        "value": "habr_com_news",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "1024K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 1,
+    "readingCount": 650,
+    "score": 3,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 8941,
+    "readers": 507
+  },
+  "hubs": [
+    {
+      "id": "20",
+      "alias": "hosting",
+      "type": "collective",
+      "title": "Хостинг",
+      "titleHtml": "Хостинг",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "50",
+      "alias": "infosecurity",
+      "type": "collective",
+      "title": "Информационная безопасность",
+      "titleHtml": "Информационная безопасность",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21958",
+      "alias": "network_hardware",
+      "type": "collective",
+      "title": "Сетевое оборудование",
+      "titleHtml": "Сетевое оборудование",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "17123",
+      "alias": "network_technologies",
+      "type": "collective",
+      "title": "Сетевые технологии",
+      "titleHtml": "Сетевые технологии",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "6398",
+      "alias": "it-infrastructure",
+      "type": "collective",
+      "title": "IT-инфраструктура",
+      "titleHtml": "IT-инфраструктура",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>В хостинге ESTT <a href=\"https://t.me/dcestt/277\" rel=\"noopener nofollow\">сообщили</a>, что инженеры компании завершают восстановление облачной инфраструктуры после инцидента. Ранее из-за сбоя пострадали кластеры виртуализации и системы управления облачной инфраструктурой ESTT, что привело к нарушению работы клиентских сервисов.</p><blockquote><p>Мы завершаем восстановительные работы после кибератаки 8 ноября.</p><p>На данном этапе восстановлены основные компоненты облачной инфраструктуры, все клиентские виртуальные машины запущены.</p><p>Сейчас лишь небольшая часть VPS остаётся недоступной по сети и требует восстановления сетевых настроек. Однако с учётом большого количества виртуальных серверов в инфраструктуре ESTT даже эта небольшая доля означает значительный объём технических работ.</p><p>Наша задача — как можно быстрее вернуть все клиентские виртуальные серверы в штатный режим работы. Специалисты продолжают работу до полного восстановления инфраструктуры.</p></blockquote><p>Ранее хостинг-провайдер ESTT <a href=\"https://habr.com/ru/articles/1105374/\" rel=\"noopener nofollow\">сообщил</a> о причинах аварии 8 ноября и текущем ходе восстановления сервисов. По предварительным данным, причиной аварии стала кибератака с использованием программы-шифровальщика. В результате пострадали кластеры виртуализации и системы управления облачной инфраструктурой ESTT, что привело к нарушению работы клиентских сервисов.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "estt"
+    },
+    {
+      "titleHtml": "новости"
+    },
+    {
+      "titleHtml": "инфослужба"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105664/cd38e76e96e511bd8df5bfa9ba8dd2e2/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105664/cd38e76e96e511bd8df5bfa9ba8dd2e2/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105664\\/\"},\"headline\":\"В ESTT завершают восстановление облачной инфраструктуры\",\"datePublished\":\"2026-11-09T21:05:11+03:00\",\"dateModified\":\"2026-11-10T09:10:08+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"В хостинге ESTT сообщили , что инженеры компании завершают восстановление облачной инфраструктуры после инцидента. Ранее из-за сбоя пострадали кластеры...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105664\\/#post-content-body\",\"about\":[\"h_hosting\",\"h_infosecurity\",\"h_network_hardware\",\"h_network_technologies\",\"h_it-infrastructure\",\"f_develop\",\"f_admin\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105664\\/cd38e76e96e511bd8df5bfa9ba8dd2e2\\/\"]}",
+    "metaDescription": "В хостинге ESTT сообщили , что инженеры компании завершают восстановление облачной инфраструктуры после инцидента. Ранее из-за сбоя пострадали кластеры виртуализации и системы управления облачной...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

@@ -1,0 +1,227 @@
+{
+  "id": "1105354",
+  "timePublished": "2026-11-09T08:37:54+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Разработчики анонсировали свободную ОС без использования ИИ",
+  "leadData": {
+    "textHtml": "<p>Разработчики <a href=\"https://www.theregister.com/os-platforms/2026/10/30/alpinebsd-announced-an-ai-free-foss-os/5306589\" rel=\"noopener nofollow\">анонсировали</a> выпуск свободной операционной системы <a href=\"https://wiki.alpinebsd.org/\" rel=\"noopener nofollow\">AlpineBSD</a>, в&nbsp;которой планируют по&nbsp;максимуму избегать использования «результатов работы генеративных моделей ИИ». Установочных образов ОС пока нет, хотя выполнить установку можно вручную.&nbsp;</p>",
+    "imageUrl": "https://habrastorage.org/extt/db/6e/41/db6e41a21f6f93691e7aaea2790adee0.JPG",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/db/6e/41/db6e41a21f6f93691e7aaea2790adee0.JPG",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "2176401",
+    "alias": "maybe_elf",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/592/11d/4bc/59211d4bcd7f9afdadaef515b2b0706d.jpg",
+    "speciality": "Информационная служба Хабра",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 345,
+      "votesCount": 1085
+    },
+    "rating": 467.6,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "256K+"
+  },
+  "statistics": {
+    "commentsCount": 7,
+    "favoritesCount": 9,
+    "readingCount": 2075,
+    "score": 14,
+    "votesCount": 8,
+    "votesCountPlus": 8,
+    "votesCountMinus": 0,
+    "reach": 7858,
+    "readers": 1658
+  },
+  "hubs": [
+    {
+      "id": "23270",
+      "alias": "os",
+      "type": "collective",
+      "title": "Операционные системы",
+      "titleHtml": "Операционные системы",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "144",
+      "alias": "open_source",
+      "type": "collective",
+      "title": "Open source",
+      "titleHtml": "Open source",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "20682",
+      "alias": "pm",
+      "type": "collective",
+      "title": "Управление проектами",
+      "titleHtml": "Управление проектами",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "19727",
+      "alias": "linux_dev",
+      "type": "collective",
+      "title": "Linux",
+      "titleHtml": "Linux",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    },
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Разработчики <a href=\"https://www.theregister.com/os-platforms/2026/10/30/alpinebsd-announced-an-ai-free-foss-os/5306589\" rel=\"noopener nofollow\">анонсировали</a> выпуск свободной операционной системы <a href=\"https://wiki.alpinebsd.org/\" rel=\"noopener nofollow\">AlpineBSD</a>, в которой планируют по максимуму избегать использования «результатов работы генеративных моделей ИИ». Установочных образов ОС пока нет, хотя выполнить установку можно вручную. </p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/db/6e/41/db6e41a21f6f93691e7aaea2790adee0.JPG\" width=\"1473\" height=\"871\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/db/6e/41/db6e41a21f6f93691e7aaea2790adee0.JPG 780w,&#10;       https://habrastorage.org/r/w1560/extt/db/6e/41/db6e41a21f6f93691e7aaea2790adee0.JPG 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>«Любое программное обеспечение — будь то исходный код, документация, бинарные файлы или другие компоненты, — которое хотя бы частично содержит результаты работы генеративного ИИ (например, LLM), в рамках нашего проекта считается „скомпрометированным“», — отмечают разработчики.</p><p>Основная идея заключается в том, чтобы объединить ядро ​​NetBSD с пользовательским окружением, вдохновленным Alpine Linux, — и всё это с целью свести к минимуму использование программного обеспечения, созданного с помощью ИИ.</p><p>Ещё в 2024 году проект NetBSD чётко обозначил свою позицию по отношению к ИИ: согласно правилам внесения изменений в код, «код, созданный большой языковой моделью (LLM), считается скомпрометированным».</p><p>Репозиторий портов и исходный код AlpineBSD <a href=\"https://www.netbsd.org/developers/commit-guidelines.html\" rel=\"noopener nofollow\">размещены</a> на платформе Sourcehut в учётной записи пользователя sircmpwn — более известного как Дрю ДеВо (Drew DeVault). В ОС поверх ядра NetBSD выполняется пользовательское окружение на основе наработок дистрибутива Alpine Linux. Помимо ядра из NetBSD в AlpineBSD задействована стандартная Си‑библиотека libc и набор низкоуровневых утилит, таких как mount. Базовый набор утилит сформирован на основе инструментария BusyBox, а пакеты с приложениями по возможности используются из Alpine Linux. Для управления пакетами задействован пакетный менеджер apk, а в качестве системы инициализации используется s6. Инструментарий Alpine подходит для адаптации в других системах. Так, менеджер пакетов APK используется в дистрибутиве Chimera Linux, в котором нет компонентов GNU, зато задействована значительная часть пользовательского окружения FreeBSD, а также в Adélie Linux.</p><p>В июле Линус Торвальдс заявил, что «Linux не относится к числу проектов, выступающих против ИИ». С тех пор проект NetBSD столкнулся с заметным ростом интереса и увеличением объёма пожертвований.</p><p>Ранее <a href=\"https://habr.com/ru/news/1103688/\" rel=\"noopener nofollow\">состоялся</a> выпуск обновления проекта NetBSD 11.1. Проектом поддерживаются 15 различных семейств CPU, 8 первичных портов: amd64, i386, evbarm, evbmips, evbppc, hpcarm, sparc64 и xen, а также 49 вторичных портов, связанных с такими CPU, как alpha, hppa, m68010, m68k, sh3, sparc и vax. </p></div>",
+  "tags": [
+    {
+      "titleHtml": "netbsd"
+    },
+    {
+      "titleHtml": "alpine linux"
+    },
+    {
+      "titleHtml": "alpine"
+    },
+    {
+      "titleHtml": "операционные системы"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    },
+    {
+      "titleHtml": "open source"
+    },
+    {
+      "titleHtml": "linux"
+    },
+    {
+      "titleHtml": "foss"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105354/929013a335b5419dd41a211cc1c26421/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105354/929013a335b5419dd41a211cc1c26421/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105354\\/\"},\"headline\":\"Разработчики анонсировали свободную ОС без использования ИИ\",\"datePublished\":\"2026-11-09T11:37:54+03:00\",\"dateModified\":\"2026-11-09T12:44:10+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Разработчики анонсировали выпуск свободной операционной системы AlpineBSD , в&nbsp;которой планируют по&nbsp;максимуму избегать использования «результатов...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105354\\/#post-content-body\",\"about\":[\"h_os\",\"h_artificial_intelligence\",\"h_open_source\",\"h_pm\",\"h_linux_dev\",\"f_develop\",\"f_admin\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/db\\/6e\\/41\\/db6e41a21f6f93691e7aaea2790adee0.JPG\"]}",
+    "metaDescription": "Разработчики анонсировали выпуск свободной операционной системы AlpineBSD , в&nbsp;которой планируют по&nbsp;максимуму избегать использования «результатов работы генеративных моделей ИИ». Установочных...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

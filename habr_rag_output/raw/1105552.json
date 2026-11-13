@@ -1,0 +1,175 @@
+{
+  "id": "1105552",
+  "timePublished": "2026-11-09T14:40:20+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Google представила TPU 8i Max и 8tx — системы для ИИ-агентов и конфиденциальных вычислений",
+  "leadData": {
+    "textHtml": "<p>Google <a href=\"https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/\">расширила </a>линейку TPU восьмого поколения до четырёх систем. Новинки рассчитаны на разные задачи: TPU 8i Max — на работу с большими контекстами и сложными ИИ-агентами, а TPU 8tx — на защищённые вычисления с чувствительными данными.</p><p><strong>TPU 8i Max</strong> построена на двух объединённых TPU 8i. По сравнению с базовой системой она предлагает вдвое больше вычислительной мощности, SRAM и пропускной способности HBM. Это должно помочь при обработке больших контекстов и работе нескольких агентов с крупными проектами.</p><p><strong>TPU 8tx</strong> предназначена для конфиденциальных вычислений. Система сочетает TPU 8t с процессорами AMD EPYC пятого поколения и аппаратной защитой данных и весов моделей даже во время обработки. Она ориентирована на государственные организации и компании с повышенными требованиями к безопасности. Google также заявляет о снижении задержки до двух раз относительно TPU 8t.</p>",
+    "imageUrl": "https://habrastorage.org/extt/24/0b/22/240b2279b171a1f672e838bfe66f4ea7.webp",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/24/0b/22/240b2279b171a1f672e838bfe66f4ea7.webp",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5177951",
+    "alias": "DashaPasha",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": -2,
+      "votesCount": 120
+    },
+    "rating": 44.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 1,
+    "readingCount": 432,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 5194,
+    "readers": 290
+  },
+  "hubs": [
+    {
+      "id": "23256",
+      "alias": "bothub",
+      "type": "corporative",
+      "title": "Блог компании BotHub",
+      "titleHtml": "Блог компании BotHub",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Google <a href=\"https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/\">расширила </a>линейку TPU восьмого поколения до четырёх систем. Новинки рассчитаны на разные задачи: TPU 8i Max — на работу с большими контекстами и сложными ИИ-агентами, а TPU 8tx — на защищённые вычисления с чувствительными данными.</p><p><strong>TPU 8i Max</strong> построена на двух объединённых TPU 8i. По сравнению с базовой системой она предлагает вдвое больше вычислительной мощности, SRAM и пропускной способности HBM. Это должно помочь при обработке больших контекстов и работе нескольких агентов с крупными проектами.</p><p><strong>TPU 8tx</strong> предназначена для конфиденциальных вычислений. Система сочетает TPU 8t с процессорами AMD EPYC пятого поколения и аппаратной защитой данных и весов моделей даже во время обработки. Она ориентирована на государственные организации и компании с повышенными требованиями к безопасности. Google также заявляет о снижении задержки до двух раз относительно TPU 8t.</p><h3>Обновления программной инфраструктуры</h3><p>Вместе с новыми системами Google представила несколько инструментов для работы с ускорителями. <strong>Agent Compute Engine</strong> приостанавливает простаивающие сессии ИИ-агентов и переносит их рабочую память с ускорителей. Это позволяет не занимать вычислительные ресурсы, пока агент ждёт ответа от инструмента или пользователя. </p><p><strong>TPU Sync</strong> управляет иерархией памяти и переносом KV-кэша между ускорителями, оперативной памятью и хранилищем. По данным Google, технология сокращает задержку передачи KV-кэша и время до первого токена более чем на 90%. </p><p><strong>XLA Serving Engine</strong> — открытый C++-движок для обслуживания моделей на TPU, GPU и CPU.</p><p>Обновили и GKE Dynamic Slicing. Теперь система динамически формирует и перераспределяет группы TPU для вычислительных задач. Google заявляет об ускорении запуска заданий до 5 раз и восстановления после сбоев — до 4,5 раза.</p><h3>Gemini помогает проектировать чипы</h3><p>Google также рассказала, что использует собственные ИИ-инструменты для разработки следующего поколения аппаратного обеспечения. С помощью Gemini компания создаёт chip layouts (схемы размещения компонентов чипов) за часы вместо недель. Для этого задействуют вычислительные мощности TPU и сервисы на базе Gemini. Кроме того, Google применяет AlphaChip — систему на основе обучения с подкреплением для проектирования микросхем.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "Google TPU"
+    },
+    {
+      "titleHtml": "TPU 8i Max"
+    },
+    {
+      "titleHtml": "TPU 8tx"
+    },
+    {
+      "titleHtml": "ИИ-ускорители"
+    },
+    {
+      "titleHtml": "ИИ-агенты"
+    },
+    {
+      "titleHtml": "инфраструктура ИИ"
+    },
+    {
+      "titleHtml": "Gemini"
+    },
+    {
+      "titleHtml": "конфиденциальные вычисления"
+    },
+    {
+      "titleHtml": "KV-cache"
+    },
+    {
+      "titleHtml": "проектирование чипов"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105552/78ab4fc843f6cc0944d5fbf55538625a/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105552/78ab4fc843f6cc0944d5fbf55538625a/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/bothub\\/articles\\/1105552\\/\"},\"headline\":\"Google представила TPU 8i Max и 8tx — системы для ИИ-агентов и конфиденциальных вычислений\",\"datePublished\":\"2026-11-09T17:40:20+03:00\",\"dateModified\":\"2026-11-11T14:32:52+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Google расширила линейку TPU восьмого поколения до четырёх систем. Новинки рассчитаны на разные задачи: TPU 8i Max — на работу с большими контекстами и сложными...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/bothub\\/articles\\/1105552\\/#post-content-body\",\"about\":[\"c_bothub\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1105552\\/78ab4fc843f6cc0944d5fbf55538625a\\/\"]}",
+    "metaDescription": "Google расширила линейку TPU восьмого поколения до четырёх систем. Новинки рассчитаны на разные задачи: TPU 8i Max — на работу с большими контекстами и сложными ИИ-агентами, а TPU 8tx — на защищённые...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 2,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

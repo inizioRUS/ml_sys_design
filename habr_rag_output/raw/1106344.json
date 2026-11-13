@@ -1,0 +1,173 @@
+{
+  "id": "1106344",
+  "timePublished": "2026-11-11T05:46:49+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Python 3.15 включил UTF-8 по умолчанию: что ломается в cp1251 и как это найти до бухгалтерии",
+  "leadData": {
+    "textHtml": "<p>В Python 3.15 open() без encoding читает и пишет UTF-8 независимо от локали (PEP 686). На русской Windows и серверах с ru_RU.CP1251 это значит падения на выгрузках из 1С и, что хуже, тихие кракозябры в файлах для соседних систем. Воспроизводим на 3.14 и 3.15, находим такие места через EncodingWarning и ruff и чиним так, чтобы код одинаково работал на всех версиях.</p>",
+    "imageUrl": "https://habrastorage.org/extt/e7/89/72/e7897241f8f5f513038f3e05962f8bf7.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/e7/89/72/e7897241f8f5f513038f3e05962f8bf7.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5903928",
+    "alias": "nikita-practice",
+    "fullname": "Субконто",
+    "avatarUrl": "//habrastorage.org/extt/11/db/b4/11dbb407232afa31ce36170cd61d31cc.png",
+    "speciality": "Разработка на 1С, Битрикс24 и веб · Субконто",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 2,
+      "votesCount": 6
+    },
+    "rating": 17,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 16,
+    "favoritesCount": 7,
+    "readingCount": 1212,
+    "score": 2,
+    "votesCount": 1,
+    "votesCountPlus": 1,
+    "votesCountMinus": 0,
+    "reach": 6701,
+    "readers": 954
+  },
+  "hubs": [
+    {
+      "id": "340",
+      "alias": "python",
+      "type": "collective",
+      "title": "Python",
+      "titleHtml": "Python",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "359",
+      "alias": "programming",
+      "type": "collective",
+      "title": "Программирование",
+      "titleHtml": "Программирование",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>9 октября вышел Python 3.15, 25 октября подтянулся патч 3.15.2, а 1 октября закончилась поддержка 3.10. Самое время обновлять серверы и CI. В списке изменений 3.15 есть пункт, который легко пролистать: PEP 686, UTF-8 теперь кодировка по умолчанию. Это значит, что <code>open(\"file.txt\")</code> без аргумента <code>encoding</code> читает и пишет UTF-8, какая бы локаль ни стояла в системе.</p><p>Звучит как чистое улучшение, и в целом так и есть. Но если ваш код работает с файлами в cp1251 (выгрузки из 1С, банковские выписки, CSV для Excel, старые утилиты) и где-то забыто <code>encoding=</code>, после обновления он либо упадёт, либо, что хуже, начнёт тихо писать файлы, которые соседняя система прочитает кракозябрами.</p><p>Ниже разбор по схеме «проблема → воспроизведение → исправление → проверка». Все команды и выводы взяты из реального прогона на Python 3.13.5, 3.14.10 и 3.15.2.</p><h3>Кого это касается</h3><p>На Linux с UTF-8-локалью (а это почти любой современный сервер и любой официальный Docker-образ Python) ничего не меняется: там кодировка по умолчанию и так была UTF-8. Под локалью <code>C</code>/<code>POSIX</code> Python ещё с 3.7 сам включал UTF-8-режим.</p><p>Меняется поведение там, где локаль не UTF-8:</p><ul><li><p>русская Windows, где кодировка ANSI равна cp1251. Это машины бухгалтерии, терминальные серверы, планировщик задач с «маленьким скриптом на Python»;</p></li><li><p>старые Linux-серверы, у которых исторически стоит <code>ru_RU.CP1251</code> или <code>ru_RU.KOI8-R</code>, потому что «так было надо для 1С/Samba/чего-то ещё».</p></li></ul><p>Сами файлы на диске при обновлении не меняются. Меняется то, как Python их читает и пишет, если вы не сказали ему явно.</p><h3>Воспроизведение</h3><p>Windows у меня под рукой нет, поэтому воспроизводил на Linux с локалью <code>ru_RU.CP1251</code>. Для <code>open()</code>, <code>subprocess</code> и стандартных потоков механизм тот же: Python берёт кодировку из локали, если не включён UTF-8-режим. Локаль собрал в отдельный каталог через <code>localedef</code> и подключил переменной <code>LOCPATH</code>, чтобы не трогать систему.</p><p>Сначала проверим, что думает каждая версия:</p><pre><code class=\"bash\">export LOCPATH=$PWD/locales LC_ALL=ru_RU.CP1251\nfor v in 3.13 3.14 3.15; do\n  uv run --no-project -p $v python -c \\\n    'import sys,locale; print(sys.version.split()[0], sys.flags.utf8_mode, locale.getpreferredencoding(False))'\ndone\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><pre><code>3.13.5 0 CP1251\n3.14.10 0 CP1251\n3.15.2 1 utf-8\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Вот и всё изменение: <code>sys.flags.utf8_mode</code> стал 1, и <code>locale.getpreferredencoding(False)</code>, на который опирается <code>open()</code>, теперь возвращает <code>utf-8</code>.</p><h4>Сценарий 1. Падение на чтении выгрузки</h4><p>Выгрузка «из 1С» в cp1251, как её обычно и отдают:</p><pre><code class=\"python\"># make_export.py\nrows = [\n    \"Дата;Контрагент;Сумма;Назначение\",\n    \"01.11.2026;ООО «Ромашка»;15000,00;Оплата по счёту №17\",\n    \"05.11.2026;ИП Петров;2300,50;Возврат аванса\",\n]\nwith open(\"export_1c.csv\", \"w\", encoding=\"cp1251\", newline=\"\") as f:\n    f.write(\"\\r\\n\".join(rows) + \"\\r\\n\")\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>И типичный скрипт, который годами работал:</p><pre><code class=\"python\"># report.py\nimport csv\n\ntotal = 0.0\nwith open(\"export_1c.csv\", newline=\"\") as f:          # кодировка не указана\n    for row in csv.DictReader(f, delimiter=\";\"):\n        total += float(row[\"Сумма\"].replace(\",\", \".\"))\n\nwith open(\"report.txt\", \"w\") as out:                  # и здесь тоже\n    out.write(f\"Итого за ноябрь: {total:.2f} руб.\\n\")\nprint(\"ok\", total)\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>На 3.14 он печатает <code>ok 17300.5</code>. На 3.15.2:</p><pre><code>Traceback (most recent call last):\n  File \"report.py\", line 5, in &lt;module&gt;\n    for row in csv.DictReader(f, delimiter=\";\"):\n               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \".../lib/python3.15/csv.py\", line 174, in __next__\n    self.fieldnames\n  File \".../lib/python3.15/csv.py\", line 161, in fieldnames\n    self._fieldnames = next(self.reader)\n                       ~~~~^^^^^^^^^^^^^\n  File \"&lt;frozen codecs&gt;\", line 325, in decode\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 0: invalid continuation byte\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><code>0xc4</code> здесь буква «Д» из слова «Дата» в cp1251. Этот случай ещё хороший: падение заметно сразу.</p><h4>Сценарий 2. Тихие кракозябры на записи</h4><p>Хуже, когда скрипт на 3.15 пишет файл, а читает его кто-то, кто по-прежнему ждёт cp1251: другой скрипт на 3.14, загрузка в учётную систему, макрос в Excel.</p><pre><code class=\"python\"># writer.py — запускаем на 3.15\nwith open(\"report.txt\", \"w\") as out:\n    out.write(\"Сумма за ноябрь: 17300.50 руб.\\n\")\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><pre><code class=\"python\"># reader.py — запускаем на 3.14, как и раньше\nprint(ascii(open(\"report.txt\").read()))\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Ошибки нет ни там, ни там. Но если вывести прочитанное на экран, получится знакомое:</p><pre><code>РЎСѓРјРјР° Р·Р° РЅРѕСЏР±СЂСЊ: 17300.50 СЂСѓР±.\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Исключений нет, логи чистые, отчёт ушёл. Узнаете вы об этом от бухгалтера.</p><p>Есть нюанс: в cp1251 нет символа с кодом <code>0x98</code>, а это второй байт буквы «И» в UTF-8. Поэтому на части текстов старый читатель всё-таки упадёт, а на части молча покажет мусор. Как повезёт с буквами.</p><h4>Сценарий 3. Вывод внешней утилиты</h4><p><code>subprocess.run(..., text=True)</code> декодирует вывод той же кодировкой по умолчанию. Имитируем старую утилиту, которая печатает в cp1251:</p><pre><code>#!/bin/sh\n# legacy_tool.sh\nprintf 'Статус: готово\\n' | iconv -f UTF-8 -t CP1251\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><pre><code class=\"python\"># call_tool.py\nimport subprocess, sys\nr = subprocess.run([\"./legacy_tool.sh\"], capture_output=True, text=True)\nprint(sys.version.split()[0], repr(r.stdout))\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>На 3.14 получаем <code>'Статус: готово\\n'</code>, на 3.15:</p><pre><code>UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd1 in position 0: invalid continuation byte\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h4>Сценарий 4. Ваш скрипт как «старая утилита»</h4><p>Обратная сторона того же: если ваш Python-скрипт кто-то вызывает и читает его stdout через пайп, на 3.15 под cp1251-локалью <code>sys.stdout.encoding</code> стал <code>utf-8</code> вместо <code>cp1251</code>. Вызывающая сторона, которая ждала cp1251, получит те же кракозябры, что и в сценарии 2.</p><h3>Как найти все такие места</h3><p>Есть два инструмента, и они дополняют друг друга.</p><p><strong>1. </strong><code><strong>EncodingWarning</strong></code><strong> (PEP 597, есть с Python 3.10).</strong> Флаг <code>-X warn_default_encoding</code> заставляет интерпретатор предупреждать о каждом открытии текстового потока без <code>encoding</code>:</p><pre><code>$ python3.14 -X warn_default_encoding report.py\nreport.py:4: EncodingWarning: 'encoding' argument not specified\nreport.py:8: EncodingWarning: 'encoding' argument not specified\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Предупреждение срабатывает и на <code>subprocess.run(..., text=True)</code>:</p><pre><code>call_tool.py:2: EncodingWarning: 'encoding' argument not specified.\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>В тестах удобно превратить его в ошибку, тогда CI не пропустит новые такие места:</p><pre><code class=\"bash\">python -X warn_default_encoding -W error::EncodingWarning -m pytest\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Ограничение: ловится только тот код, который реально выполнился. Ветка, которая срабатывает раз в месяц при закрытии периода, может проскочить.</p><p><strong>2. Статический анализ.</strong> В ruff есть правило <code>PLW1514</code> (unspecified-encoding). В ruff 0.17.4 оно пока в preview, без флага <code>--preview</code> ruff пишет, что выбор правила ни на что не влияет:</p><pre><code class=\"bash\">ruff check --preview --select PLW1514 .\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>На моих файлах оно нашло все четыре <code>open()</code> без кодировки, а вот вызов <code>subprocess.run(text=True)</code> не отметило. Поэтому одного линтера мало, флаг <code>-X warn_default_encoding</code> в тестах всё равно нужен.</p><p>Отдельно полезно найти сами данные, которые не являются UTF-8. Самый простой способ: прогнать файл через <code>iconv</code> из UTF-8 в UTF-8. На невалидной последовательности он вернёт ненулевой код:</p><pre><code>#!/bin/sh\n# find_non_utf8.sh\nfind \"${1:-.}\" -type f \\( -name '*.csv' -o -name '*.txt' -o -name '*.xml' -o -name '*.ini' \\) |\nwhile read -r f; do\n  iconv -f UTF-8 -t UTF-8 \"$f\" &gt;/dev/null 2&gt;&amp;1 || echo \"не UTF-8: $f\"\ndone\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><pre><code>$ ./find_non_utf8.sh .\nне UTF-8: ./export_1c.csv\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Исправление</h3><p>Правило простое: <strong>кодировку всегда указывать явно</strong>, и выбирать её по тому, откуда данные.</p><ul><li><p>Чужой файл, кодировку которого вы знаете (выгрузка 1С, выписка банка): <code>encoding=\"cp1251\"</code>.</p></li><li><p>Свои файлы, которые вы и пишете, и читаете: <code>encoding=\"utf-8\"</code> с обеих сторон.</p></li><li><p>Действительно нужна кодировка текущей системы (редко, но бывает): <code>encoding=\"locale\"</code>. Такой вариант есть с Python 3.10 и в 3.15 продолжает возвращать кодировку локали.</p></li><li><p>Вывод внешних программ: <code>encoding=</code> в <code>subprocess.run</code>.</p></li></ul><pre><code class=\"python\"># report_fixed.py\nimport csv\nimport subprocess\n\n# 1. Чужой файл: кодировку знаем, пишем её явно\ntotal = 0.0\nwith open(\"export_1c.csv\", encoding=\"cp1251\", newline=\"\") as f:\n    for row in csv.DictReader(f, delimiter=\";\"):\n        total += float(row[\"Сумма\"].replace(\",\", \".\"))\n\n# 2. Свой файл: фиксируем UTF-8 и на запись, и на чтение\nwith open(\"report.txt\", \"w\", encoding=\"utf-8\") as out:\n    out.write(f\"Сумма за ноябрь: {total:.2f} руб.\\n\")\n\n# 3. Вывод внешней утилиты: тоже явно\nr = subprocess.run([\"./legacy_tool.sh\"], capture_output=True,\n                   text=True, encoding=\"cp1251\")\n\nprint(ascii(r.stdout), total)\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Если ваш скрипт сам отдаёт текст в пайп, а вызывающая сторона ждёт cp1251, задайте кодировку потока явно через <code>PYTHONIOENCODING=cp1251</code> в окружении вызова или через <code>sys.stdout.reconfigure(encoding=\"cp1251\")</code> в начале скрипта.</p><h4>Временный откат</h4><p>Если обновиться нужно сегодня, а исправить всё сразу нельзя, старое поведение возвращается так:</p><pre><code class=\"bash\">PYTHONUTF8=0 python report.py\n# или\npython -X utf8=0 report.py\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Проверил: с любым из этих вариантов <code>report.py</code> на 3.15.2 снова отрабатывает и печатает <code>ok 17300.5</code>. Но это костыль, а не решение. Переменную легко потерять при переезде в другой сервис, юнит systemd или задачу планировщика.</p><h3>Проверка</h3><p>Прогоняем исправленный скрипт на трёх версиях, превращая любое неявное открытие в ошибку, и сравниваем результат побайтно:</p><pre><code class=\"bash\">for v in 3.13 3.14 3.15; do\n  rm -f report.txt\n  uv run --no-project -p $v python -X warn_default_encoding -W error::EncodingWarning report_fixed.py\n  sha256sum report.txt\ndone\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><pre><code>'\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441: \\u0433\\u043e\\u0442\\u043e\\u0432\\u043e\\n' 17300.5\n205bf6ce64db8806e62948be08e34718f7dee508b070a3f095d531d43f4869d5  report.txt\n'\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441: \\u0433\\u043e\\u0442\\u043e\\u0432\\u043e\\n' 17300.5\n205bf6ce64db8806e62948be08e34718f7dee508b070a3f095d531d43f4869d5  report.txt\n'\\u0421\\u0442\\u0430\\u0442\\u0443\\u0441: \\u0433\\u043e\\u0442\\u043e\\u0432\\u043e\\n' 17300.5\n205bf6ce64db8806e62948be08e34718f7dee508b070a3f095d531d43f4869d5  report.txt\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Ни одного <code>EncodingWarning</code>, сумма одна и та же, вывод утилиты читается, а <code>report.txt</code> побайтно совпадает на 3.13, 3.14 и 3.15. Линтер тоже молчит:</p><pre><code>$ ruff check --preview --select PLW1514 report_fixed.py\nAll checks passed!\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Короткий чек-лист перед переходом на 3.15</h3><ol><li><p>Прогнать тесты с <code>-X warn_default_encoding -W error::EncodingWarning</code>.</p></li><li><p>Включить в ruff <code>PLW1514</code> (пока через <code>--preview</code>).</p></li><li><p>Найти во входных данных файлы не в UTF-8 и прописать их кодировку явно.</p></li><li><p>Договориться с соседними системами, в какой кодировке вы отдаёте файлы и stdout, и зафиксировать это в коде, а не в локали сервера.</p></li><li><p><code>PYTHONUTF8=0</code> использовать только как временную меру и с задачей в трекере на его удаление.</p></li></ol><p>А у вас что-нибудь сломалось после перехода на 3.15? Или вы давно пишете <code>encoding=</code> везде и для вас это изменение прошло незаметно? Особенно интересно, сколько cp1251 ещё живёт в ваших интеграциях с 1С и банками.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "python"
+    },
+    {
+      "titleHtml": "python 3.15"
+    },
+    {
+      "titleHtml": "utf-8"
+    },
+    {
+      "titleHtml": "кодировки"
+    },
+    {
+      "titleHtml": "cp1251"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106344/0e6bfa69b0faf8312bcbf775b70b93e6/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106344/0e6bfa69b0faf8312bcbf775b70b93e6/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106344\\/\"},\"headline\":\"Python 3.15 включил UTF-8 по умолчанию: что ломается в cp1251 и как это найти до бухгалтерии\",\"datePublished\":\"2026-11-11T08:46:49+03:00\",\"dateModified\":\"2026-11-11T18:32:58+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"9 октября вышел Python 3.15, 25 октября подтянулся патч 3.15.2, а 1 октября закончилась поддержка 3.10. Самое время обновлять серверы и CI. В списке изменений...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106344\\/#post-content-body\",\"about\":[\"h_python\",\"h_programming\",\"f_develop\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1106344\\/0e6bfa69b0faf8312bcbf775b70b93e6\\/\"]}",
+    "metaDescription": "9 октября вышел Python 3.15, 25 октября подтянулся патч 3.15.2, а 1 октября закончилась поддержка 3.10. Самое время обновлять серверы и CI. В списке изменений 3.15 есть пункт, который легко...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 7,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "2",
+    "title": "Бэкенд",
+    "alias": "backend"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

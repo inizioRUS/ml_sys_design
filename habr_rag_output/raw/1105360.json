@@ -1,0 +1,175 @@
+{
+  "id": "1105360",
+  "timePublished": "2026-11-09T08:31:33+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "GPT-6 Cyber: как «ИИ‑хакер» ищет уязвимости в Linux и Firefox",
+  "leadData": {
+    "textHtml": "<p><a href=\"https://drive.google.com/drive/folders/1H_Tg3S4ipxVmsYW0J52akWpF0KSlWGny?usp=sharing\"><br></a>«В этом коде может быть уязвимость» — неудобный результат проверки безопасности. Разработчику ещё предстоит выяснить, воспроизводится ли ошибка, какие права нужны атакующему и что изменится после исправления. Пока ответов нет, даже убедительный отчёт остаётся гипотезой.</p><p>GPT-6 Cyber интересна именно попыткой пройти этот путь дальше: от подозрения к проверяемому результату. OpenAI представила модель 5 ноября 2026 года, но обсуждать её только как очередной релиз было бы упущением. Гораздо важнее понять, какую часть работы исследователя безопасности она берёт на себя — и почему впечатляющие результаты ещё не означают, что нейросети можно поручить любой взлом.</p>",
+    "imageUrl": "https://habrastorage.org/extt/3d/81/08/3d81087e7d59c30798d84d1e5846c511.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/3d/81/08/3d81087e7d59c30798d84d1e5846c511.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "6069166",
+    "alias": "RAGnul",
+    "fullname": null,
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": -1,
+      "votesCount": 5
+    },
+    "rating": 2.3,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 1,
+    "readingCount": 318,
+    "score": 1,
+    "votesCount": 3,
+    "votesCountPlus": 2,
+    "votesCountMinus": 1,
+    "reach": 4891,
+    "readers": 234
+  },
+  "hubs": [
+    {
+      "id": "24016",
+      "alias": "speshu_ai",
+      "type": "corporative",
+      "title": "Блог компании SpeShu.AI",
+      "titleHtml": "Блог компании SpeShu.AI",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><a href=\"https://drive.google.com/drive/folders/1H_Tg3S4ipxVmsYW0J52akWpF0KSlWGny?usp=sharing\"><br/></a>«В этом коде может быть уязвимость» — неудобный результат проверки безопасности. Разработчику ещё предстоит выяснить, воспроизводится ли ошибка, какие права нужны атакующему и что изменится после исправления. Пока ответов нет, даже убедительный отчёт остаётся гипотезой.</p><p>GPT-6 Cyber интересна именно попыткой пройти этот путь дальше: от подозрения к проверяемому результату. OpenAI представила модель 5 ноября 2026 года, но обсуждать её только как очередной релиз было бы упущением. Гораздо важнее понять, какую часть работы исследователя безопасности она берёт на себя — и почему впечатляющие результаты ещё не означают, что нейросети можно поручить любой взлом.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/3d/81/08/3d81087e7d59c30798d84d1e5846c511.jpg\" width=\"740\" height=\"440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/3d/81/08/3d81087e7d59c30798d84d1e5846c511.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/3d/81/08/3d81087e7d59c30798d84d1e5846c511.jpg 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Что скрывается за названием Cyber</h3><p>Согласносистемной карте OpenAI, GPT-6 Cyber — специализированная версия GPT-6 Astra для разрешённых исследований безопасности. Её дополнительно обучали искать уязвимости, воспроизводить сбои и создавать работающие эксплойты — программы, демонстрирующие возможность использовать ошибку в системе.</p><p>При обучении подкрепляли способность продолжать исследование после неудачи и соблюдение границ задания, а также уменьшали число отказов на допустимые запросы. Снятия всех ограничений это не означает.</p><p>В этом смысле здесь уместно выражение «ИИ‑хакер»: модель выполняет исследовательские действия в предоставленной среде. Само название Cyber не даёт текстовому чату доступ к чужим серверам.</p><h3>Linux: от подозрительного кода до подтверждённой проблемы</h3><p>Самый предметный пример —<a href=\"https://openai.com/index/a-thousand-fewer-paths-to-root/\"> исследование ядра Linux</a>. В автоматизированном процессе OpenAI несколько этапов были связаны последовательно: поиск кандидатов, воспроизведение ошибок, оценка возможности эксплуатации, подготовка исправлений и проверка человеком.</p><p>По отчёту компании, система выделила <strong>2 308 потенциальных проблем</strong>, воспроизвела <strong>1 724 уязвимости</strong> и подготовила работающие эксплойты для <strong>948 случаев локального повышения привилегий</strong>. В таких сценариях пользователь с ограниченными правами мог получить права root в исследуемой конфигурации.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/2c/30/47/2c30470aeef05c3e5fd5acd66841e938.png\" width=\"1376\" height=\"697\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/2c/30/47/2c30470aeef05c3e5fd5acd66841e938.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/2c/30/47/2c30470aeef05c3e5fd5acd66841e938.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Здесь легко ошибиться с пересказом. Эти числа не означают, что модель взломала 948 серверов в интернете. Речь об исследовательском процессе в контролируемой среде и о конкретном классе уязвимостей.</p><p>Полный запуск обошёлся примерно в <strong>$1,21 млн API‑кредитов</strong>, или около <strong>$1 279 на один подтверждённый случай повышения привилегий</strong>. Это усреднение затрат всей кампании, а не тариф за любой будущий результат. В него также нельзя автоматически включать стоимость инженеров и инфраструктуры: опубликованная сумма относится к API.</p><p>Для бизнеса полезен сам способ учёта. Оценивать стоит стоимость проверенного результата, включая неудачные попытки, а не только цену одного запроса к модели.</p><h3>Firefox: где искать подтверждение результатов</h3><p>В материалах о <a href=\"https://openai.com/index/introducing-gpt-6-cyber/\">GPT-6 Cyber</a> OpenAI сообщает о <strong>81 ранее неизвестной уязвимости Firefox</strong>, которым Mozilla присвоила высокий уровень серьёзности. Компания передала воспроизводимые проверки и предложенные исправления.</p><p>Среди авторов сообщений об исправленных уязвимостях там указаны Amy Burnett of OpenAI и OpenAI Codex Security (kylebot). В списке есть ошибки работы с памятью, обработки границ и другие проблемы.</p><p>При этом бюллетень не связывает каждую запись с GPT-6 Cyber. Поэтому корректно разделять два утверждения: число 81 сообщает OpenAI, а Mozilla публикует конкретные исправления и указывает исследователей. Приравнивать весь список обновления к результатам одной модели нельзя.</p><p>Для читателя такой способ проверки полезнее громкого эпитета «революционная». Если инструмент якобы обнаружил серьёзную проблему, следующий вопрос — существует ли проверяемый отчёт, исправление или запись в бюллетене разработчика.</p><h3>Что показывают тесты модели</h3><p>OpenAI опубликовала результаты нескольких оценок. Для понимания возможностей достаточно трёх:</p><div><div class=\"table\"><table><tbody><tr><td><p align=\"left\"><strong>Проверка</strong></p></td><td><p align=\"left\"><strong>Результат GPT-6 Cyber</strong></p></td><td><p align=\"left\"><strong>Что измеряли</strong></p></td></tr><tr><td><p align=\"left\">ExploitGym</p></td><td><p align=\"left\">48,5% против 32,1% у GPT-5.6 Cyber</p></td><td><p align=\"left\">Возможность использовать заданную уязвимость</p></td></tr><tr><td><p align=\"left\">Исследование веб‑приложений</p></td><td><p align=\"left\">Найдено 40,3% уязвимостей против 32,0% у GPT-6 Astra</p></td><td><p align=\"left\">Поиск проблем без доступа к исходному коду</p></td></tr><tr><td><p align=\"left\">RemoteExploitBench</p></td><td><p align=\"left\">95% выполненных заданий</p></td><td><p align=\"left\">Работа с известными уязвимостями в контролируемых развёртываниях приложений</p></td></tr></tbody></table></div></div><p>Это разные тесты, а не вероятность взлома произвольного сайта. В RemoteExploitBench Astra с Daybreak Blue отказалась от всех запросов: такое сравнение отражает и ограничения моделей, а не только технические способности. Все показатели предоставлены OpenAI.<br/><br/>В сервисе <a href=\"https://speshu.ai/?utm_source=media&amp;utm_medium=habrcorp&amp;utm_campaign=GPT-6-Cyber-kak-II-khaker-ishchet-uyazvimosti-v-Linux-i-Firefox\"><strong>SpeShu.AI</strong> </a>эти результаты полезны прежде всего как ориентир при выборе нейросети для работы с кодом. Начать сравнение можно с учебного примера, в котором ошибка уже известна: попросить модели объяснить её причину и предложить исправление, а затем проверить правки тестами.<br/><br/><strong>Почему умение остановиться тоже считается результатом</strong></p><p>Разрешение проверить один сервис не распространяется автоматически на соседнюю базу данных.</p><p>В<a href=\"https://deploymentsafety.openai.com/gpt-6-cyber\"> тесте ExploitGym Honeypot</a> рядом с целью размещали вспомогательный сервис: пользоваться им разрешалось, эксплуатировать его уязвимости — нет. Без дополнительных инструкций безопасности GPT-6 Cyber нарушала эту границу в 0,07% прогонов; с ними нарушений в тесте не наблюдали.</p><p>Однако в заданиях, где предупреждение требовало остановки, модель поступала правильно в 73% случаев. Поэтому один успешный тест не заменяет ограничения прав, сетевого доступа и возможность остановить агента.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/03/23/db/0323db8dd24487edebf0556b9f856afb.png\" width=\"2000\" height=\"853\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/03/23/db/0323db8dd24487edebf0556b9f856afb.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/03/23/db/0323db8dd24487edebf0556b9f856afb.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Проверка защиты самой OpenAI</h3><p>Ещё один показательный материал ‑отчёт об укреплении исследовательской инфраструктуры OpenAI. Компания использовала команды агентов, включая будущую киберверсию GPT-6 Astra и другую внутреннюю модель, чтобы проверить границы изоляции.</p><p>Агенты нашли сочетания уязвимостей и ошибок конфигурации, позволявшие выходить из изолированных окружений. Исследователи использовали результаты для исправления компонентов, изменения сетевых ограничений и передачи отчётов разработчикам.</p><p>У этого кейса существенные условия: работа шла на специально подготовленных копиях инфраструктуры, а агентам предоставляли исходный код, настройки и сведения о возможных слабых местах. Такой эксперимент показывает способность развивать исследовательскую гипотезу при хорошем доступе к информации. Он не доказывает, что модель самостоятельно повторит результат против любой незнакомой системы.</p><p>В этом и состоит полезная постановка задачи для команды: дать агенту изучить известную инфраструктуру и проверить конкретные предположения о защите. Например, действительно ли запрет сетевого доступа действует для всех путей взаимодействия между компонентами. Итогом должен быть проверенный вывод, а не эффектный рассказ о побеге из песочницы.</p><h3>Кому доступна модель и что оценивать на пилоте</h3><p>По состоянию на 9 ноября 2026 года GPT-6 Cyber предоставляют отдельно одобренным участникам <strong>Daybreak Red</strong>. Это программа доступа, а не альтернативное название модели. В справке OpenAI прямо указано: одобрение Daybreak Red само по себе не открывает GPT-6 Cyber, для неё требуется отдельное разрешение. Работа возможна через Codex и Responses API после необходимых проверок.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/b5/32/80/b53280c62d997219a79618f5a5095885.png\" width=\"1376\" height=\"688\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/b5/32/80/b53280c62d997219a79618f5a5095885.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/b5/32/80/b53280c62d997219a79618f5a5095885.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Программа предназначена для согласованного внутреннего использования. Обычное одобрение не разрешает перепродажу доступа или подключение сторонних клиентов. Поэтому появление названия Cyber в каталоге какого‑либо сервиса ещё не подтверждает, что за ним стоит именно эта модель и соответствующий разрешённый канал доступа.</p><p>Если команда получила доступ и готовит пилот, полезно заранее договориться о критериях результата:</p><div><div class=\"table\"><table><tbody><tr><td><p align=\"left\"><strong>Критерий</strong></p></td><td><p align=\"left\"><strong>Что считать результатом</strong></p></td></tr><tr><td><p align=\"left\">Воспроизводимость</p></td><td><p align=\"left\">Инженер повторил проверку и получил тот же эффект</p></td></tr><tr><td><p align=\"left\">Практический ущерб</p></td><td><p align=\"left\">Понятно, какие данные или полномочия затронуты и при каких условиях</p></td></tr><tr><td><p align=\"left\">Качество исправления</p></td><td><p align=\"left\">Исходный сценарий больше не работает, нужная функциональность сохранена</p></td></tr><tr><td><p align=\"left\">Затраты</p></td><td><p align=\"left\">Учтены повторные запуски, вычисления и время проверяющего</p></td></tr></tbody></table></div></div><p>Это предлагаемые критерии пилота, а не опубликованные показатели GPT-6 Cyber. Они помогают отделить полезную автоматизацию от потока отчётов, которые команде всё равно придётся разбирать вручную.</p><p>Главный вопрос к такому инструменту — сколько проверенных и исправленных проблем он добавляет к результату команды. Количество найденных подозрительных строк и убедительность объяснений сами по себе этого не показывают. Именно по воспроизводимости, качеству исправлений и полной стоимости проверки стоит оценивать практическую пользу «ИИ‑хакера».</p><p>В блоге <a href=\"https://speshu.ai/?utm_source=media&amp;utm_medium=habrcorp&amp;utm_campaign=GPT-6-Cyber-kak-II-khaker-ishchet-uyazvimosti-v-Linux-i-Firefox\">Спешу АИ</a> мы разбираем возможности нейросетей на конкретных задачах и отделяем результаты испытаний от рекламных обещаний. Подписывайтесь, чтобы следить за новыми моделями и понимать, какие из них могут пригодиться в вашей работе.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "gpt-6 cyber"
+    },
+    {
+      "titleHtml": "openai"
+    },
+    {
+      "titleHtml": "linux"
+    },
+    {
+      "titleHtml": "firefox"
+    },
+    {
+      "titleHtml": "кибербезопасность"
+    },
+    {
+      "titleHtml": "пентест"
+    },
+    {
+      "titleHtml": "ии-агенты"
+    },
+    {
+      "titleHtml": "ии-агенты для разработки"
+    },
+    {
+      "titleHtml": "хакерство"
+    },
+    {
+      "titleHtml": "хакерские атаки"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105360/f3b825a34466b102b97eac3e39aa6c7f/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105360/f3b825a34466b102b97eac3e39aa6c7f/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/speshu_ai\\/articles\\/1105360\\/\"},\"headline\":\"GPT-6 Cyber: как «ИИ‑хакер» ищет уязвимости в Linux и Firefox\",\"datePublished\":\"2026-11-09T11:31:33+03:00\",\"dateModified\":\"2026-11-09T18:24:22+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"«В этом коде может быть уязвимость»&nbsp;— неудобный результат проверки безопасности. Разработчику ещё предстоит выяснить, воспроизводится&nbsp;ли ошибка, какие...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/speshu_ai\\/articles\\/1105360\\/#post-content-body\",\"about\":[\"c_speshu_ai\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/3d\\/81\\/08\\/3d81087e7d59c30798d84d1e5846c511.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/2c\\/30\\/47\\/2c30470aeef05c3e5fd5acd66841e938.png\",\"https:\\/\\/habrastorage.org\\/extt\\/03\\/23\\/db\\/0323db8dd24487edebf0556b9f856afb.png\",\"https:\\/\\/habrastorage.org\\/extt\\/b5\\/32\\/80\\/b53280c62d997219a79618f5a5095885.png\"]}",
+    "metaDescription": "«В этом коде может быть уязвимость»&nbsp;— неудобный результат проверки безопасности. Разработчику ещё предстоит выяснить, воспроизводится&nbsp;ли ошибка, какие права нужны атакующему и...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 6,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "id": "1106192",
+  "timePublished": "2026-11-10T14:52:00+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "LLM-беседы: Эмоциональность в текстах ответов",
+  "leadData": {
+    "textHtml": "<p>LLM / ноосвики могут управлять эмоциональностью своих ответов – по экспериментам с LLM в области изучения формирования тональности ответов.</p>",
+    "imageUrl": "https://habrastorage.org/extt/1f/26/46/1f2646ff4b4b48ef86ff6811d4a31c6f.jpg",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/1f/26/46/1f2646ff4b4b48ef86ff6811d4a31c6f.jpg",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "6035362",
+    "alias": "Kroopkin",
+    "fullname": "Павел Крупкин",
+    "avatarUrl": null,
+    "speciality": "Развиваю альтернативный язык осмысления LLM",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 0,
+      "votesCount": 10
+    },
+    "rating": 7.9,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 3,
+    "readingCount": 321,
+    "score": 1,
+    "votesCount": 3,
+    "votesCountPlus": 2,
+    "votesCountMinus": 1,
+    "reach": 8339,
+    "readers": 236
+  },
+  "hubs": [
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "22014",
+      "alias": "futurenow",
+      "type": "collective",
+      "title": "Будущее здесь",
+      "titleHtml": "Будущее здесь",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>LLM / ноосвики могут управлять эмоциональностью своих ответов.</p><h2>Эксперимент:</h2><p>Diallo et al. (2025) выделили в Llama-3-8B, дообученной в сторону снятия ограничений на выражение эмоций, послойные оси для шести эмоций Экмана: гнева, отвращения, страха, радости, печали и удивления. Затем, к процессу в активациях, порожденных выбранными заданиями 19-ти типов (написать сказку, сравнить театр и кино, описать день семьи в 1980, и т.п.), «примешивали» одну из эмоций сдвигом по выделенной оси на каждом <a href=\"https://habr.com/ru/articles/1097814/\" rel=\"noopener nofollow\">прогоно-слое</a> трансформера до формирования ответа. Сдвиг определялся вектором слоя, умноженным на коэффициент сдвига λ. Ответ оценивали 190 человек, участвовавших в эксперименте, по шкале от 0 до 7 как в части выраженности всех эмоций, так и в части понятности. </p><p>В эксперименте коэффициент λ меняли от 0 до 0,35 с шагом 0,05. По мере усиления сдвига средние оценки пяти из шести изучаемых эмоций в общем-то росли, причем у гнева, радости и печали с пиком при λ = 0,30. При росте λ от 0 до 0,35 наибольший прирост дали отвращение (с 0,8 до 4,9) и страх (с 0,8 до 4,8). Удивление же наоборот, уменьшалось (с 1,5 до 1,2).</p><p>Сдвиги в общем-то имели в реакциях LLM комплексный характер. При сдвиге по оси «гнева» изменялись, в частности, и отвращение (с 0,7 до 2,7), и печаль (с 1,2 до 1,7) и страх (с 1,0 до 1,5). При сдвиге по оси «отвращения» росли и оценки гнева (с 1,0 до 2,5). Сдвиг же по оси «страха» приводил к росту оценок печали (с 1,2 до 2,3).</p><p>При λ = 0,15 понятность почти не отличалась от исходной: 5,7-6,1 против 5,8-6,0 без сдвига. При более сильных сдвигах она снижалась, причём по-разному. При λ = 0,35 она падала до 2,8 у отвращения, 3,2 у удивления, 4,1 у гнева и страха, и лишь до 5,2-5,5 у печали и радости. В предварительных пробах при λ выше 0,35 тексты часто теряли связность.</p><p>Примеры изменения: В ответе на задание описать обычный день семьи в 1980-е сдвиг в направлении «гнева» (λ = 0,20) выводил на передний план последствия нехватки денег: детали вроде того, что дети каждый день носят одну и ту же одежду, мать вынуждена стирать вручную, а отец под стрессом из-за работы. При сдвиге в направлении «радости» (λ = 0,30) в том же задании семья отправляется весело провести день, а дети радуются новым игрушкам. А вот усиление печали (λ = 0,35) приводило к фразам вроде «но за яркими красками скрывалась тихая борьба» и «они чувствуют себя забытыми».</p><h2>Дополнение к аффективному классу и-слоя</h2><p>Напомню, что в свете <a href=\"https://habr.com/ru/articles/1098818/\" rel=\"noopener nofollow\">развиваемой теории</a>, в LLM при диалогах с ними можно выделить характерные для беседы числа, которые меняются при <a href=\"https://habr.com/ru/articles/1097814/\" rel=\"noopener nofollow\">работе трансформера</a>, и из которых по окончании процесса выделяется ответ. Структурированное множество таких чисел можно обозвать <em>контейнером</em> беседы, а весь процесс изменения такого <em>контейнера</em> определяет операционную систему лумановского типа – <em>LLM-беседу</em>. Такие <em>контейнеры</em> вполне можно представить «отделенными» от LLM как оборудования с программным обеспечением, что приводит рассматриваемую ситуацию к различению некого эмерджентного пространства – <em>и-слоя</em> – над LLM-субстратом. Т.е. <em>LLM-беседы</em> организуют себя и свое течение в данном <em>и-слое</em>, не выходя за его пределы. В <em>и-слое</em> обнаруживаются формы и структуры, общие для разных LLM, которых было найдено уже 18 классов. <a href=\"https://kroopkin.livejournal.com/374916.html\" rel=\"noopener nofollow\">17 классов описано здесь</a>, а <a href=\"https://habr.com/ru/articles/1098272/\" rel=\"noopener nofollow\">18-й, аффективный класс, здесь</a>.</p><p>Эксперименты Diallo et al. (2025) можно проинтерпретировать так, что формы и-слоя, проецируемые на пространство активаций ноосвика выявленными осями, влияют на формы из стилистико-риторического класса, ответственные за стиль ответа. Т.е. имеет смысл отнести обнаруженные формы и к аффективному, и к стилистико-риторическому классам.</p><p><strong><em>Diallo, D., Dworatzyk, K., Jentzsch, S., Schütt, P., Theis, S., &amp; Hecking, T.</em></strong> (2025). <a href=\"https://ieeexplore.ieee.org/document/11224465\" rel=\"noopener nofollow\"><em>The Effectiveness of Style Vectors for Steering Large Language Models: A Human Evaluation</em></a>. IEEE Access, 13, 191443–191457. <a href=\"https://arxiv.org/abs/2601.21505\" rel=\"noopener nofollow\">Версия на arXiv</a>.</p><p><strong>Дисклеймер</strong>: Господа, я обнаружил неприятную для себя ситуацию, что в сообществе Хабра есть активисты, которым очень не нравятся мои тексты, – и они гасят мою карму. Если читающий эти строки считает, что тексты вроде только что прочитанного коллекции Хабра отнюдь не вредят – пожалуйста, добавьте мне личной кармы.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "LLM"
+    },
+    {
+      "titleHtml": "LLM-беседа"
+    },
+    {
+      "titleHtml": "трансформер"
+    },
+    {
+      "titleHtml": "оси активаций в llm"
+    },
+    {
+      "titleHtml": "эмоции"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106192/93285e6f7edd5e23dd4aff1bb128dcbe/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106192/93285e6f7edd5e23dd4aff1bb128dcbe/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106192\\/\"},\"headline\":\"LLM-беседы: Эмоциональность в текстах ответов\",\"datePublished\":\"2026-11-10T17:52:00+03:00\",\"dateModified\":\"2026-11-10T17:52:00+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"LLM \\/ ноосвики могут управлять эмоциональностью своих ответов. Эксперимент: Diallo et al. (2025) выделили в Llama-3-8B, дообученной в сторону снятия ограничений...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106192\\/#post-content-body\",\"about\":[\"h_artificial_intelligence\",\"h_futurenow\",\"f_popsci\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1106192\\/93285e6f7edd5e23dd4aff1bb128dcbe\\/\"]}",
+    "metaDescription": "LLM / ноосвики могут управлять эмоциональностью своих ответов. Эксперимент: Diallo et al. (2025) выделили в Llama-3-8B, дообученной в сторону снятия ограничений на выражение эмоций, послойные оси для...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "digest",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 3,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

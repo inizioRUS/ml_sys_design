@@ -1,0 +1,213 @@
+{
+  "id": "1105646",
+  "timePublished": "2026-11-09T17:01:24+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Мужик с лазером в IDE JetBrains: что у него в очках и откуда взялись эти заставки",
+  "leadData": {
+    "textHtml": "<p>JetBrains обновила заставки IDE: теперь там мужик с лазером, драгоценным камнем и подписью powered with air. В обсуждениях уже требуют вернуть старое оформление, а я пока на стороне тех, кто в восторге.</p><p>Вытащил оригиналы из дистрибутивов и рассмотрел заставки разных IDE. Одна лаборатория, разные цвета, два ракурса и детали, которые легко пропустить при запуске. Заодно разобрался, как JetBrains экспериментировала с нейросетевой графикой ещё с 2020 года и почему новая сцена хорошо попала в переход от чатика к агентам.</p><p>Внутри картинки, история их создания и немного холивара вокруг экранов запуска IDE.</p>",
+    "imageUrl": "https://habrastorage.org/extt/b5/1c/bd/b51cbdeaf44cde26e65b0e7f6643d2a1.png",
+    "buttonTextHtml": "Рассмотреть поближе",
+    "image": {
+      "url": "https://habrastorage.org/extt/b5/1c/bd/b51cbdeaf44cde26e65b0e7f6643d2a1.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3607327",
+    "alias": "ituzov",
+    "fullname": "Илья Тузов",
+    "avatarUrl": "//habrastorage.org/extt/14/7e/f1/147ef1c3682b25ff8ee22383ad0b93c6.jpg",
+    "speciality": "Фулстек-разработчик. Экспериментирую с AI",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 5
+    },
+    "rating": 9,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/ituzov_fun",
+        "value": "ituzov_fun",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Telegram",
+        "url": "https://telegram.me/ituzov_fun",
+        "value": "ituzov_fun",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "16K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 3,
+    "readingCount": 1902,
+    "score": 4,
+    "votesCount": 5,
+    "votesCountPlus": 4,
+    "votesCountMinus": 1,
+    "reach": 10150,
+    "readers": 1611
+  },
+  "hubs": [
+    {
+      "id": "19802",
+      "alias": "graph_design",
+      "type": "collective",
+      "title": "Графический дизайн",
+      "titleHtml": "Графический дизайн",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "23232",
+      "alias": "txt_ide",
+      "type": "collective",
+      "title": "Текстовые редакторы и IDE",
+      "titleHtml": "Текстовые редакторы и IDE",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    },
+    {
+      "id": "2",
+      "alias": "design",
+      "title": "Дизайн",
+      "titleHtml": "Дизайн"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>JetBrains обновила заставки IDE, и вокруг них уже начался холивар. В тикетах просят убрать AI-картинки и вернуть старое оформление. Раз уж пора выбирать сторону, я пока с теми, кто в восторге.</p><p>В PyCharm 2026.3 мужик в защитных очках обрабатывает изумруд лазером. Рядом ноутбук, роботизированная рука и пульт. Внизу подпись <strong>powered with air</strong>.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/8c/86/c8/8c86c82a6a435449c5734eccb8592c2e.png\" alt=\"Заставка PyCharm 2026.3\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/8c/86/c8/8c86c82a6a435449c5734eccb8592c2e.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/8c/86/c8/8c86c82a6a435449c5734eccb8592c2e.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Заставка PyCharm 2026.3</figcaption></div></figure><p>В версии 2026.3 вместе с IDE поставляется Air: подключаешь агентов, раздаёшь задачи, следишь за сессиями и проверяешь изменения. Air я уже погонял, и мне заходит сама логика: агент выполняет задачу, IDE помогает следить за его работой и проверять результат. А за возможность выбирать агента отдельно от редактора спасибо ACP. Протокол вообще легенда.</p><p>Agent Client Protocol команда Zed <a href=\"https://zed.dev/blog/bring-your-own-agent-to-zed\" rel=\"noopener nofollow\">представила 27 августа 2025 года</a>, первой эталонной интеграцией был Gemini CLI. По ACP подключается агент со своим harness: логика обращений к модели и выполнения действий остаётся у агентского инструмента. IDE отправляет задачи, показывает ход работы и изменения, даёт отвечать на запросы разрешений. Она также может предоставлять файлы, терминал и дополнительные инструменты; набор возможностей зависит от интеграции.</p><blockquote><p>То есть ты сохраняешь привычного агента, а редактор становится интерфейсом к его работе. Выбираешь весь инструмент со своей логикой работы, а не только модель в выпадающем списке.</p></blockquote><p>JetBrains <a href=\"https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/\" rel=\"noopener nofollow\">объясняет переход к Air</a> тем, что параллельная работа с агентами требует другого интерфейса. Им делегируешь задачи, а сам разбираешь изменения и отвечаешь за результат. Под такую работу компания и перестраивает IDE. Мужик за пультом хорошо иллюстрирует этот переход: робот работает, человек управляет процессом. Примерно к этому мы с агентами и пришли, только вместо лазера у нас терминал.</p><p>Чтобы рассмотреть заставку без спешки, вытащил оригинал из дистрибутива. Заодно достал картинки остальных IDE и сравнил их.</p><h3>Лаборатория на несколько языков</h3><p>У WebStorm, PhpStorm и RubyMine та же сцена. Меняются цвет камня, подсветка, прядь волос и название IDE.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/f2/23/2a/f2232ae2869c349eaed43e25ce0fd0eb.png\" alt=\"WebStorm 2026.3\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/f2/23/2a/f2232ae2869c349eaed43e25ce0fd0eb.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/f2/23/2a/f2232ae2869c349eaed43e25ce0fd0eb.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>WebStorm 2026.3</figcaption></div></figure><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/4b/e9/af/4be9af7178143f3ae7bf624ba4369d88.png\" alt=\"PhpStorm 2026.3\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/4b/e9/af/4be9af7178143f3ae7bf624ba4369d88.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/4b/e9/af/4be9af7178143f3ae7bf624ba4369d88.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>PhpStorm 2026.3</figcaption></div></figure><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/83/38/65/833865c7905da059e3ec37d3db2e97cb.png\" alt=\"RubyMine 2026.3\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/83/38/65/833865c7905da059e3ec37d3db2e97cb.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/83/38/65/833865c7905da059e3ec37d3db2e97cb.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>RubyMine 2026.3</figcaption></div></figure><p>У WebStorm камень жёлтый, у PhpStorm фиолетовый, у RubyMine красный. Причём у RubyMine красно-оранжевые блики расходятся по всему халату. Рубисты сияют. В CLion, RustRover и IntelliJ IDEA Ultimate тоже работает этот мужик. А в ресурсах PyCharm нашлись два ракурса лаборатории: цветная версия с человеком лицом к нам и тонированная, где он сидит спиной.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/8c/86/c8/8c86c82a6a435449c5734eccb8592c2e.png\" alt=\"PyCharm, вид спереди\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/8c/86/c8/8c86c82a6a435449c5734eccb8592c2e.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/8c/86/c8/8c86c82a6a435449c5734eccb8592c2e.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>PyCharm, вид спереди</figcaption></div></figure><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/a4/27/77/a42777008854fce858bfd6e1c8470c18.png\" alt=\"PyCharm, вид сзади\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a4/27/77/a42777008854fce858bfd6e1c8470c18.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/a4/27/77/a42777008854fce858bfd6e1c8470c18.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>PyCharm, вид сзади</figcaption></div></figure><p>С обратного ракурса лучше видны пульт и рабочее место. Два варианта сцены есть и у IntelliJ IDEA.</p><p>При этом лабораторию получили не все. У DataGrip своя абстрактная графика:</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/4d/cb/00/4dcb00e815d7e9c01b8cb6a45b03caf1.png\" alt=\"Заставка DataGrip 2026.3\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/4d/cb/00/4dcb00e815d7e9c01b8cb6a45b03caf1.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/4d/cb/00/4dcb00e815d7e9c01b8cb6a45b03caf1.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Заставка DataGrip 2026.3</figcaption></div></figure><p>А в проверенных ресурсах GoLand лежит простая заставка с названием. У Rider EAP отдельная сцена.</p><h3>А теперь посмотрите ему в очки</h3><p>На общей картинке в отражении видны какие-то маленькие изображения. Приближаем:</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/d7/82/25/d782256ff2f534010e24913da49a7cd4.jpg\" alt=\"Котики в отражении очков на заставке PyCharm\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/d7/82/25/d782256ff2f534010e24913da49a7cd4.jpg 780w,&#10;       https://habrastorage.org/r/w1560/extt/d7/82/25/d782256ff2f534010e24913da49a7cd4.jpg 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Котики в отражении очков на заставке PyCharm</figcaption></div></figure><p>В отражении очков котики на экране)) Вполне нормальный намёк на то, чем занят разработчик, пока агент работает. А со спины на экране уже камень, котиков нет. Будто тимлид подошёл, а ты успел и вкладку переключить, и ноутбук переставить.</p><h3>Нейросети здесь появились ещё в 2020 году</h3><p>Поддержка JetBrains <a href=\"https://youtrack.jetbrains.com/issue/IJPL-257020/2026.3-EAP-startup-logo-is-AI-generated#focus=Comments-27-14469818.0-0\" rel=\"noopener nofollow\">пишет</a>, что дизайнеры используют ML-модели и дорабатывают картинки вручную. В EAP экспериментируют, а для релизов применяют более гибридные методы. Своими ранними генераторами JetBrains делилась задолго до этого релиза.</p><p>В 2020 году JetBrains уже <a href=\"https://blog.jetbrains.com/blog/2020/09/29/intelligent-code-art/\" rel=\"noopener nofollow\">показывала нейросетевой инструмент</a> для абстрактных изображений и анимаций. В нём можно было выбирать понравившиеся варианты, смешивать параметры и получать новые картинки. Отдельная модель училась предсказывать, какие сочетания параметров людям понравятся.</p><p>В <a href=\"https://blog.jetbrains.com/blog/2023/10/16/ai-graphics-at-jetbrains-story/\" rel=\"noopener nofollow\">разборе 2023 года</a> JetBrains объяснила, как использовала CPPN вместе со Stable Diffusion. CPPN можно представить как функцию: подаёшь координаты пикселя и набор параметров, получаешь цвет. Меняешь параметры, меняется узор; плавно меняешь их со временем, получается анимация. Для Stable Diffusion готовили стили по референсам дизайнеров. Изображение от CPPN использовали как основу, чтобы удержать нужную палитру и композицию. Так получали вариативность, сохраняя узнаваемые цвета продукта.</p><p>Для сравнения, вот более ранняя заставка Rider 2025.2. Она тоже сохранилась внутри проверенного дистрибутива:</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/e0/e1/d9/e0e1d929a3159cf78773d4c85ed53619.png\" alt=\"Старый вариант заставки Rider 2025.2, сохранившийся в ресурсах\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e0/e1/d9/e0e1d929a3159cf78773d4c85ed53619.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/e0/e1/d9/e0e1d929a3159cf78773d4c85ed53619.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>Старый вариант заставки Rider 2025.2, сохранившийся в ресурсах</figcaption></div></figure><p>Какую модель использовали для нынешнего мужика с лазером, JetBrains в прочитанных ответах не раскрывает. Технические статьи описывают прежние эксперименты, поэтому приписывать новой заставке тот же рецепт я бы не стал.</p><h3>Почему тогда столько претензий</h3><p>В <a href=\"https://youtrack.jetbrains.com/issue/RUST-21499/RustRover-2026.3-splash-screen-new-artwork-is-full-of-artifacts\" rel=\"noopener nofollow\">свежем тикете RustRover</a> пользователь показывает на края ноутбука и другие детали, которые считает артефактами.</p><details class=\"spoiler\"><summary>Мнение автора</summary><div class=\"spoiler__content\"><p> Камон, я тут вижу стилистику обработки, которую приняли за артефакты. </p></div></details><p>Другой пользователь пишет, что такая графика удешевляет впечатление от профессионального софта. Ещё один просит вернуть старую заставку или дать выбрать другую. Ему хочется настроить оформление инструмента, которым он пользуется каждый день.</p><p>В ветках, начатых ещё в 2025 году, спор уже шёл. Одни ругали AI-графику, другие отвечали, что почти не замечают экран запуска и оценивают IDE по работе с кодом.</p><blockquote><p>Я за то, чтобы продукты пробовали менять свой дизайн, даже если это вызывает споры. Здесь получилось свежо, необычно и со смыслом: лаборатория с машиной за работой совпала с переходом IDE к агентам.</p></blockquote><p>Но заставка встречает человека при каждом запуске IDE, и смотреть на неё ему. Так что возможность выбрать оформление здесь пригодилась бы.</p><p>Правда, с выбором пока сложно. 6 ноября поддержка <a href=\"https://youtrack.jetbrains.com/issue/IJPL-260728/Splash-screen-artwork-Revert-it-or-add-an-option-to-show-a-different-startup-image\" rel=\"noopener nofollow\">уточнила</a>, что переключатель на упрощённую заставку сейчас есть только в IntelliJ IDEA. Для PyCharm и CLion предлагают скрыть экран запуска через <code>Help | Edit Custom VM Options</code>:</p><pre><code>-Dnosplash=true\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Это отключает заставку целиком. Другую картинку таким способом не поставить.</p><h3>Пока робот работает</h3><p>За несколько лет мы дошли от чатика, которому задаёшь вопросы про код, до агентов, которым можно отдать задачу целиком. Агент сам читает проект, вносит изменения и запускает проверки. Пока один работает, можно разбирать результат другого. Вместе с этим меняется и то, чем мы заняты в течение рабочего дня.</p><p>Нужно сформулировать задачу так, чтобы агент решил нужную проблему, понять его изменения и проверить, что они не сломали остальной проект. Несколько параллельных сессий добавляют вопросов: кто что поменял, какие результаты можно объединить, где пора вмешаться. Поэтому IDE нужны инструменты для работы со всем этим, и Air как раз пробует их собрать.</p><p>Сама картинка здесь не главное. Её можно любить, ругать или отключить. Гораздо существеннее то, что привычный рабочий инструмент перестраивается под разработку с агентами. Вопрос уже в том, как мы будем ставить задачи, проверять чужой код и собирать из него работающий продукт. Вот этот переход и делает мужика за пультом уместным.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "jetbrains"
+    },
+    {
+      "titleHtml": "pycharm"
+    },
+    {
+      "titleHtml": "ide"
+    },
+    {
+      "titleHtml": "acp"
+    },
+    {
+      "titleHtml": "ai-агенты"
+    },
+    {
+      "titleHtml": "дизайн"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105646/5d4c4ee92c99e387cc9a8b2f23ab419d/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105646/5d4c4ee92c99e387cc9a8b2f23ab419d/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105646\\/\"},\"headline\":\"Мужик с лазером в IDE JetBrains: что у него в очках и откуда взялись эти заставки\",\"datePublished\":\"2026-11-09T20:01:24+03:00\",\"dateModified\":\"2026-11-10T18:53:48+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"JetBrains обновила заставки IDE, и вокруг них уже начался холивар. В тикетах просят убрать AI-картинки и вернуть старое оформление. Раз уж пора выбирать...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105646\\/#post-content-body\",\"about\":[\"h_graph_design\",\"h_artificial_intelligence\",\"h_txt_ide\",\"f_develop\",\"f_design\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/8c\\/86\\/c8\\/8c86c82a6a435449c5734eccb8592c2e.png\",\"https:\\/\\/habrastorage.org\\/extt\\/f2\\/23\\/2a\\/f2232ae2869c349eaed43e25ce0fd0eb.png\",\"https:\\/\\/habrastorage.org\\/extt\\/4b\\/e9\\/af\\/4be9af7178143f3ae7bf624ba4369d88.png\",\"https:\\/\\/habrastorage.org\\/extt\\/83\\/38\\/65\\/833865c7905da059e3ec37d3db2e97cb.png\",\"https:\\/\\/habrastorage.org\\/extt\\/a4\\/27\\/77\\/a42777008854fce858bfd6e1c8470c18.png\",\"https:\\/\\/habrastorage.org\\/extt\\/4d\\/cb\\/00\\/4dcb00e815d7e9c01b8cb6a45b03caf1.png\",\"https:\\/\\/habrastorage.org\\/extt\\/d7\\/82\\/25\\/d782256ff2f534010e24913da49a7cd4.jpg\",\"https:\\/\\/habrastorage.org\\/extt\\/e0\\/e1\\/d9\\/e0e1d929a3159cf78773d4c85ed53619.png\"]}",
+    "metaDescription": "JetBrains обновила заставки IDE, и вокруг них уже начался холивар. В тикетах просят убрать AI-картинки и вернуть старое оформление. Раз уж пора выбирать сторону, я пока с теми, кто в восторге. В...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "review",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 4,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

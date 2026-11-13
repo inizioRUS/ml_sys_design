@@ -1,0 +1,210 @@
+{
+  "id": "1105882",
+  "timePublished": "2026-11-10T09:21:54+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Docker против Podman: архитектурные различия, безопасность и практические сценарии миграции",
+  "leadData": {
+    "textHtml": "<p><strong>Docker против Podman</strong><br><br>Разбираемся в архитектурных различиях, безопасности и практических сценариях миграции.</p>",
+    "imageUrl": "https://habrastorage.org/extt/e1/f0/90/e1f0904a2b05eeec12d8dad326ab3059.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/e1/f0/90/e1f0904a2b05eeec12d8dad326ab3059.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5803494",
+    "alias": "hostes_io",
+    "fullname": "Александр",
+    "avatarUrl": "//habrastorage.org/extt/71/33/7a/71337aeb4a6f060b8441f6095f24472d.png",
+    "speciality": "Специалист по интеграции технологий в бизнес",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 1,
+      "votesCount": 1
+    },
+    "rating": 1,
+    "relatedData": null,
+    "contacts": [
+      {
+        "title": "Сайт",
+        "url": "https://hostes.io/?utm_source=habr&utm_campaign=habr&utm_content=profile",
+        "value": "https://hostes.io/?utm_source=habr&utm_campaign=habr&utm_content=profile",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "authorContacts": [
+      {
+        "title": "Сайт",
+        "url": "https://hostes.io/?utm_source=habr&utm_campaign=habr&utm_content=profile",
+        "value": "https://hostes.io/?utm_source=habr&utm_campaign=habr&utm_content=profile",
+        "siteTitle": null,
+        "favicon": null
+      }
+    ],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "8K+"
+  },
+  "statistics": {
+    "commentsCount": 7,
+    "favoritesCount": 15,
+    "readingCount": 2330,
+    "score": 1,
+    "votesCount": 3,
+    "votesCountPlus": 1,
+    "votesCountMinus": 2,
+    "reach": 5975,
+    "readers": 1649
+  },
+  "hubs": [
+    {
+      "id": "27938",
+      "alias": "hostes",
+      "type": "corporative",
+      "title": "Блог компании hostes",
+      "titleHtml": "Блог компании hostes",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "7312",
+      "alias": "virtualization",
+      "type": "collective",
+      "title": "Виртуализация",
+      "titleHtml": "Виртуализация",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "221",
+      "alias": "sys_admin",
+      "type": "collective",
+      "title": "Системное администрирование",
+      "titleHtml": "Системное администрирование",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "6",
+      "alias": "admin",
+      "title": "Администрирование",
+      "titleHtml": "Администрирование"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e1/f0/90/e1f0904a2b05eeec12d8dad326ab3059.png\" width=\"780\" height=\"440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e1/f0/90/e1f0904a2b05eeec12d8dad326ab3059.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/e1/f0/90/e1f0904a2b05eeec12d8dad326ab3059.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Число 1000 в выводе id ещё не гарантирует доступ к каталогу владельца 1000 на сервере. В тесте для статьи rootless Podman ответил Permission denied, хотя Docker записал файл. Внутри обоих контейнеров процесс имел UID 1000.<br/></p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0e/c1/88/0ec188c4691c0baee36d606073325551.png\" width=\"653\" height=\"367\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0e/c1/88/0ec188c4691c0baee36d606073325551.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0e/c1/88/0ec188c4691c0baee36d606073325551.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h2>Два разных пользователя с номером 1000</h2><p>Для теста использовали Alpine 3.24.2, Docker 29.8.2 и Podman 5.8.9. Docker запущен от root без userns‑remap, Podman запущен от author, UID 1000. Каталог /home/author/uploads: владелец 1000:1000, права 0700. У Alpine совпали image ID. Сеть контейнеров отключена, для Docker выбран драйвер vfs. Проверялись права записи, а скорость не измерялась.</p><p>Режим движка и карту пользователей показывают команды:</p><pre><code>docker info\n podman info --debug\n podman unshare cat /proc/self/uid_map</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Проверка записи под author:</p><pre><code>podman run --rm --network none --user 1000:1000 \\\n   -v /home/author/uploads:/data \\\n   docker.io/library/alpine:3.24 \\\n   sh -c \"id; touch /data/podman-file\"</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Вывод unshare объяснил отказ: 0 1000 1 и 1 100 000 65536. Внутренний root отображался как хостовый UID 1000. Процесс с назначенным UID 1000 попадал в диапазон дополнительных идентификаторов и становился 100 999 на хосте. Каталог 0700 запрещал ему запись. Диапазоны заданы в /etc/subuid и /etc/subgid. Карта конкретного контейнера может отличаться от unshare.</p><p>С ‑userns=keep‑id запись прошла, созданный файл принадлежал 1000:1000 на хосте. Приложение должно допускать запуск под пользователем, отличным от указанного в USER образа. Вариант с:U проверен отдельно: папка и существующий файл сменили владельца с <em>1000:1000</em> на <em>100999:100999</em>. <strong>:U рекурсивно меняет владельцев файлов на хосте.</strong> Для общей папки это затронет и соседние проекты.</p><p>На хосте с SELinux отказ может сохраниться и при подходящих Unix‑правах. У <a href=\"https://docs.podman.io/en/latest/markdown/podman-run.1.html\">podman run</a> для этого есть метки::Z для приватных данных,:z для совместного доступа контейнеров. Перемаркировывать так системные пути нельзя. Выключение SELinux заодно снимет другие его ограничения. В опыте с Alpine SELinux не проверялся.</p><h2>Что означает отказ от демона</h2><p>Команда docker run обращается к <a href=\"https://docs.docker.com/get-started/docker-overview/\">демону dockerd</a>. Он управляет контейнерами, сетями и томами. Отсюда свойство rootful‑сокета: приложение, получившее этот сокет, может управлять почти всем сервером. Монтировать такой сокет нужно столь же осторожно, как выдавать административные права.</p><p>Podman не требует постоянной работы общего демона при локальном запуске. Runtime и служебные процессы остаются. В rootless у каждого пользователя своё хранилище; можно запускать Podman и от root. Ядро у контейнеров и хоста остаётся общим. Для чужого недоверенного кода такая степень изоляции может быть недостаточной.</p><p>Убирать Docker ради одного rootless необязательно. В его <a href=\"https://docs.docker.com/engine/security/rootless/\">rootless‑режиме</a> без root хоста работают оба: демон и контейнеры. В отличие от rootless, при <a href=\"https://docs.docker.com/engine/security/userns-remap/\">userns‑remap</a> демон сохраняет привилегии: меняется только отображение UID контейнеров. Иногда достаточно сменить режим Docker.</p><p>При использовании <a href=\"https://docs.podman.io/en/latest/markdown/podman-system-service.1.html\">Podman API</a> снова появляется сокет: его клиент может выполнять код с привилегиями владельца сервиса, вплоть до root в режиме rootful. Нужны доверенные клиенты и проверенные файловые права. Удалённое соединение защищают через SSH или взаимную TLS‑аутентификацию.</p><h2>Образ тот же, окружение другое</h2><p>Запись файла прошла. Но alias docker=podman касается только команд оболочки. Скрипту, использующему Docker API, alias не поможет. Сборку, плагины и сети придётся прогнать отдельно. Несовместимую зависимость нужно менять или сохранять для неё Docker.</p><p>У <a href=\"https://docs.podman.io/en/latest/markdown/podman-compose.1.html\">podman compose</a> есть внешний провайдер Compose. Если установлены docker‑compose и podman‑compose, первым будет выбран docker‑compose. Исполнителя задают через <code>PODMAN_COMPOSE_PROVIDER</code>. Нужно записать версию выбранного провайдера. Поддержку необходимых полей Compose проверяют с выбранным провайдером.</p><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/1e/91/c7/1e91c74365ad50ab692661c34edc834f.png\" width=\"480\" height=\"497\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/1e/91/c7/1e91c74365ad50ab692661c34edc834f.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/1e/91/c7/1e91c74365ad50ab692661c34edc834f.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Во втором тесте PostgreSQL 16.15 перенесена из Docker в rootless Podman. Image ID совпадал, тома разные; драйвер Docker overlay2. Данные: таблица documents и отдельный каталог файлов. Для рабочего переноса нужны старые тома, конфигурационные файлы, секреты, версии, сеть, владельцы, метки SELinux и список постоянных данных. Бэкапы защищают от посторонних и восстанавливают отдельно. <a href=\"https://docs.docker.com/reference/cli/docker/image/pull/#pull-an-image-by-digest-immutable-identifier\">Digest образа</a> исключает случайное обновление приложения; позже его меняют ради исправлений безопасности.</p><h2>У базы и загрузок должна быть общая точка переноса</h2><p>Дамп PostgreSQL согласован в пределах одной базы, файлы приложения в нём отсутствуют. В тесте запись выполнялась последовательно одним скриптом. При настоящем переносе сначала останавливают запись приложения и фоновых процессов, затем согласованно копируют базу данных и файлы. Живую папку PostgreSQL нельзя просто скопировать: нужен штатный бэкап или корректная физическая копия после остановки.</p><p>Контейнер new‑db изолирован, app пуста, роль postgres; дополнительных расширений нет. Версии совместимы. Фрагмент запускается от root; Podman вызывается от author.</p><pre><code>umask 077\n docker exec -u postgres old-db pg_dump -Fc app &gt; /tmp/app.dump &amp;&amp;\n cat /tmp/app.dump | su - author -c \\\n   'XDG_RUNTIME_DIR=/run/user/1000 podman exec -i -u postgres new-db pg_restore --exit-on-error -d app'</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Восстановилась одна строка; скопированный отдельно файл совпал с исходным. После ошибки pg_dump файл непригоден. После ошибки pg_restore в базе могут остаться частично загруженные данные. Перед повтором снова нужна пустая подготовленная база.</p><h2>Когда сервер загрузится без открытой SSH‑сессии</h2><p>Для systemd‑хоста подходит <a href=\"https://docs.podman.io/en/latest/markdown/podman-systemd.unit.5.html\">Quadlet</a>: файл.container преобразуется в.service, rootless‑файлы находятся в <code>~/.config/containers/systemd/</code>. Quadlet доступен с Podman 4.4, ключи зависят от версии, актуальное руководство требует cgroup v2. К описанию контейнера можно добавить:</p><pre><code>[Service]\n Restart=on-failure\n RestartSec=5\n \n [Install]\n WantedBy=default.target</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>После правок выполняют systemctl ‑user daemon‑reload и запускают службу. Автозапуск задаёт [Install], сгенерированной службе enable не нужен. Linger позволяет пользовательскому сервису продолжать работу после выхода пользователя и при загрузке. Перезапуском управляет systemd; команда podman run ‑restart будет конкурировать с ним. Quadlet на Alpine не проверялся.</p><p>На репетиции используют восстановленный бэкап, тот же образ и отдельные порты. Проверяются запись файла, HTTP, перезагрузка с зависимыми службами, архитектура, healthcheck, лимиты и ротация логов. С прокси с 443 на 127.0.0.1:8080 порог низких портов менять не нужно. DNS, IPv6 и адрес клиента зависят от сетевого backend и версии.</p><p><em>Старый сервер не будет автоматически получать записи, сделанные после переключения.</em></p><p>В опыте после добавления второй строки и файла на новой стороне старая сохранила только первую строку и первый файл. Обратное восстановление в отдельную rollback_app вернуло обе строки; файлы совпали. HTTP‑переключение не проверялось: после него нужно прочитать и записать данные через внешний адрес сервиса, проверить ошибки в логах. Запись и фоновые задания разрешены одной стороне; два PostgreSQL с общим каталогом данных не запускают. <em>До открытия записи</em> достаточно остановить новый сервис и вернуть трафик. После неё нужны обратный перенос либо согласованная копия с принятой потерей записей. Оба возврата требуют репетиции.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "docker"
+    },
+    {
+      "titleHtml": "podman"
+    },
+    {
+      "titleHtml": "хостинг"
+    },
+    {
+      "titleHtml": "сервер"
+    },
+    {
+      "titleHtml": "архитектура"
+    },
+    {
+      "titleHtml": "системное администрирование"
+    },
+    {
+      "titleHtml": "linux"
+    },
+    {
+      "titleHtml": "линукс"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105882/4c03390a0f29c4347860ca1d54778669/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105882/4c03390a0f29c4347860ca1d54778669/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/hostes\\/articles\\/1105882\\/\"},\"headline\":\"Docker против Podman: архитектурные различия, безопасность и практические сценарии миграции\",\"datePublished\":\"2026-11-10T12:21:54+03:00\",\"dateModified\":\"2026-11-11T18:58:57+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Число 1000&nbsp;в&nbsp;выводе id ещё не&nbsp;гарантирует доступ к&nbsp;каталогу владельца 1000&nbsp;на&nbsp;сервере. В&nbsp;тесте для&nbsp;статьи rootless...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/hostes\\/articles\\/1105882\\/#post-content-body\",\"about\":[\"c_hostes\",\"h_virtualization\",\"h_sys_admin\",\"f_admin\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/e1\\/f0\\/90\\/e1f0904a2b05eeec12d8dad326ab3059.png\",\"https:\\/\\/habrastorage.org\\/extt\\/0e\\/c1\\/88\\/0ec188c4691c0baee36d606073325551.png\",\"https:\\/\\/habrastorage.org\\/extt\\/1e\\/91\\/c7\\/1e91c74365ad50ab692661c34edc834f.png\"]}",
+    "metaDescription": "Число 1000&nbsp;в&nbsp;выводе id ещё не&nbsp;гарантирует доступ к&nbsp;каталогу владельца 1000&nbsp;на&nbsp;сервере. В&nbsp;тесте для&nbsp;статьи rootless Podman ответил Permission denied, хотя Docker...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "analytics",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": "medium",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "8",
+    "title": "Системное администрирование",
+    "alias": "admin"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true,
+  "allowedFeatures": {
+    "isTestTargetAllow": true
+  }
+}

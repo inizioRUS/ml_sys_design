@@ -1,0 +1,179 @@
+{
+  "id": "1105422",
+  "timePublished": "2026-11-09T10:10:27+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Минцифры получило новые полномочия в сфере ИИ",
+  "leadData": {
+    "textHtml": "<p>Подписано и опубликовано <a href=\"http://publication.pravo.gov.ru/document/0001202611060039\" rel=\"noopener nofollow\">постановление</a> правительства от 6&nbsp;ноября 2026&nbsp;года, расширяющее полномочия Минцифры РФ в&nbsp;сфере искусственного интеллекта.</p>",
+    "imageUrl": "https://habrastorage.org/extt/d1/ff/36/d1ff36895e6ebd168656a12d9893313f.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/d1/ff/36/d1ff36895e6ebd168656a12d9893313f.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "3000027",
+    "alias": "LizzieSimpson",
+    "fullname": null,
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/87d/321/950/87d321950490400be5d296976a5747d0.png",
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 97,
+      "votesCount": 429
+    },
+    "rating": 320.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "128K+"
+  },
+  "statistics": {
+    "commentsCount": 27,
+    "favoritesCount": 7,
+    "readingCount": 4395,
+    "score": 6,
+    "votesCount": 7,
+    "votesCountPlus": 4,
+    "votesCountMinus": 3,
+    "reach": 9086,
+    "readers": 3633
+  },
+  "hubs": [
+    {
+      "id": "20738",
+      "alias": "business-laws",
+      "type": "collective",
+      "title": "Законодательство в IT",
+      "titleHtml": "Законодательство в IT",
+      "isProfiled": false,
+      "relatedData": null
+    },
+    {
+      "id": "21922",
+      "alias": "artificial_intelligence",
+      "type": "collective",
+      "title": "Искусственный интеллект",
+      "titleHtml": "Искусственный интеллект",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "3",
+      "alias": "management",
+      "title": "Менеджмент",
+      "titleHtml": "Менеджмент"
+    },
+    {
+      "id": "7",
+      "alias": "popsci",
+      "title": "Научпоп",
+      "titleHtml": "Научпоп"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/02/f0/16/02f016c4e4f5854483f7cc06dbce537d.png\" width=\"540\" height=\"411\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/02/f0/16/02f016c4e4f5854483f7cc06dbce537d.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/02/f0/16/02f016c4e4f5854483f7cc06dbce537d.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Подписано и опубликовано <a href=\"http://publication.pravo.gov.ru/document/0001202611060039\" rel=\"noopener nofollow\">постановление</a> правительства от 6 ноября 2026 года, расширяющее полномочия Минцифры РФ в сфере искусственного интеллекта.</p><p>Теперь Минцифры осуществляет:</p><ul><li><p>анализ развития больших фундаментальных моделей ИИ, в том числе выработку мер по совершенствованию правового регулирования в сфере разработки, внедрения и применения больших фундаментальных моделей ИИ;</p></li><li><p>оказание методической поддержки государственным органам и органам местного самоуправления в сфере разработки, внедрения и применения больших фундаментальных моделей ИИ в целях повышения эффективности государственного и муниципального управления;</p></li><li><p>выработку мер стимулирования разработки, внедрения и применения больших фундаментальных моделей ИИ.</p></li></ul><p>Версии <a href=\"https://regulation.gov.ru/projects/171039/\" rel=\"noopener nofollow\">изменений</a> в положение Минцифры по части ИИ публиковали для общественного обсуждения четыре раза, начиная с июня 2025 года.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "минцифры"
+    },
+    {
+      "titleHtml": "минцифры рф"
+    },
+    {
+      "titleHtml": "ии"
+    },
+    {
+      "titleHtml": "модели ии"
+    },
+    {
+      "titleHtml": "разработка ии"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105422/99a50a1f12f94b800c8a287408a4031e/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105422/99a50a1f12f94b800c8a287408a4031e/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105422\\/\"},\"headline\":\"Минцифры получило новые полномочия в сфере ИИ\",\"datePublished\":\"2026-11-09T13:10:27+03:00\",\"dateModified\":\"2026-11-09T13:39:02+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Подписано и опубликовано постановление правительства от 6&nbsp;ноября 2026&nbsp;года, расширяющее полномочия Минцифры РФ в&nbsp;сфере искусственного интеллекта....\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105422\\/#post-content-body\",\"about\":[\"h_business-laws\",\"h_artificial_intelligence\",\"f_management\",\"f_popsci\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/02\\/f0\\/16\\/02f016c4e4f5854483f7cc06dbce537d.png\"]}",
+    "metaDescription": "Подписано и опубликовано постановление правительства от 6&nbsp;ноября 2026&nbsp;года, расширяющее полномочия Минцифры РФ в&nbsp;сфере искусственного интеллекта. Теперь Минцифры осуществляет: анализ...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": null,
+  "isEditorial": true,
+  "flowNew": {
+    "id": "50",
+    "title": "Другое",
+    "alias": "other"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

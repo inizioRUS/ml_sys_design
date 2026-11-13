@@ -1,0 +1,163 @@
+{
+  "id": "1105812",
+  "timePublished": "2026-11-10T08:02:47+00:00",
+  "isCorporative": true,
+  "lang": "ru",
+  "titleHtml": "Оживление фото ИИ: 5 шагов в любом искусственном интеллекте. Инструкция для генерации видео без VPN и зарубежной карты",
+  "leadData": {
+    "textHtml": "<p>Из одного снимка за 10 минут получается пятисекундный ролик: человек моргает, улыбается, поворачивает голову. Оживление фото устроено одинаково в любой видеонейросети, поэтому один алгоритм из пяти шагов работает и в Kling, и в Seedance, и в MiniMax. Разбираем шаги, выбор модели, промпты и то, как не испортить лицо.</p>",
+    "imageUrl": "https://habrastorage.org/extt/e7/05/af/e705afae46a15bcaa69faea39bf13b6d.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/e7/05/af/e705afae46a15bcaa69faea39bf13b6d.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "5674151",
+    "alias": "TSNIS",
+    "fullname": "ЦНИС",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": true,
+    "scoreStats": {
+      "score": -4,
+      "votesCount": 10
+    },
+    "rating": 0,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": false,
+    "reach": "64K+"
+  },
+  "statistics": {
+    "commentsCount": 0,
+    "favoritesCount": 0,
+    "readingCount": 17,
+    "score": 0,
+    "votesCount": 0,
+    "votesCountPlus": 0,
+    "votesCountMinus": 0,
+    "reach": 32,
+    "readers": 13
+  },
+  "hubs": [
+    {
+      "id": "23906",
+      "alias": "tsnis",
+      "type": "corporative",
+      "title": "Блог компании ЦНИС",
+      "titleHtml": "Блог компании ЦНИС",
+      "isProfiled": false,
+      "relatedData": null
+    }
+  ],
+  "flows": [],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Из одного снимка за 10 минут получается пятисекундный ролик: человек моргает, улыбается, поворачивает голову. Оживление фото устроено одинаково в любой видеонейросети, поэтому один алгоритм из пяти шагов работает и в Kling, и в Seedance, и в MiniMax. Разбираем шаги, выбор модели, промпты и то, как не испортить лицо.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/e7/05/af/e705afae46a15bcaa69faea39bf13b6d.png\" width=\"780\" height=\"440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/e7/05/af/e705afae46a15bcaa69faea39bf13b6d.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/e7/05/af/e705afae46a15bcaa69faea39bf13b6d.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Коротко: как оживить фото за 5 шагов</h3><ol><li><p>Подготовьте фото: лицо крупно, без фильтров.</p></li><li><p>Выберите модель под задачу.</p></li><li><p>Загрузите снимок первым кадром ролика.</p></li><li><p>Опишите мягкое естественное движение.</p></li><li><p>Сделайте тест на 5 секунд, проверьте лицо и только потом доработайте.</p></li></ol><h4>Главный нюанс в доступе к генераторам видео в России</h4><p>Kling и Hailuo не принимают российские карты, а сервисы Google закрыты для российских IP. В <a href=\"https://speshu.ai/?utm_source=media&amp;utm_medium=habr&amp;utm_campaign=ozhivlenie+foto%3A+5+shagov\">SpeShu.AI</a> видеомодели и ещё 300+ нейросетей собраны в одном окне: оплата в рублях по СБП, вход напрямую из России и оплата только за реально созданные ролики. Промпт для оживления поможет написать бесплатная модель SpeShu Mini.</p><p><a href=\"https://speshu.ai/?utm_source=media&amp;utm_medium=habr&amp;utm_campaign=ozhivlenie+foto%3A+5+shagov\"><strong>Оживить фото в </strong></a><a href=\"http://SpeShu.AI\"><strong>SpeShu.AI</strong></a></p><h3>Где пригодится оживление фото</h3><p>Оживление фото давно вышло за рамки развлечения. Чаще всего его используют в пяти сценариях:</p><ul><li><p><strong>семейный архив:</strong> старые снимки бабушек и дедушек, свадебные и детские фото, которые хочется показать «вживую»;</p></li><li><p><strong>поздравления:</strong> короткий ролик к юбилею или празднику из общей фотографии семьи или коллег;</p></li><li><p><strong>соцсети и блоги:</strong> живые обложки, сторис и посты, которые лучше удерживают внимание, чем статичная картинка;</p></li><li><p><strong>бизнес:</strong> оживлённые фото товаров, команды или офиса для сайта и рекламы;</p></li><li><p><strong>портфолио и творчество:</strong> анимированные портреты, иллюстрации и арт.</p></li></ul><p>Для всех сценариев подходит один и тот же алгоритм из пяти шагов, меняются только промпт и длина ролика.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0c/cc/a7/0ccca74cc1324a84eade3b6345b377ed.png\" width=\"780\" height=\"440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0c/cc/a7/0ccca74cc1324a84eade3b6345b377ed.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0c/cc/a7/0ccca74cc1324a84eade3b6345b377ed.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Какую нейросеть выбрать для оживления фото</h3><p>Алгоритм одинаковый, но модели различаются длиной ролика, качеством и доступом. Срез на осень 2026 года:</p><div><div class=\"table\"><table><tbody><tr><td><p align=\"left\"><strong>Модель</strong></p></td><td><p align=\"left\"><strong>Для чего лучше</strong></p></td><td><p align=\"left\"><strong>Длина ролика</strong></p></td><td><p align=\"left\"><strong>Доступ из РФ</strong></p></td></tr><tr><td><p align=\"left\">Gemini Omni Flash</p></td><td><p align=\"left\">Высокое качество, лидер рейтингов осени 2026</p></td><td><p align=\"left\">10 секунд, продление до 40</p></td><td><p align=\"left\">Закрыта по IP</p></td></tr><tr><td><p align=\"left\">Kling 4.0</p></td><td><p align=\"left\">Длинные ролики, несколько персонажей, речь</p></td><td><p align=\"left\">3–30 секунд</p></td><td><p align=\"left\">Сайт открывается, оплата не проходит</p></td></tr><tr><td><p align=\"left\">MiniMax H3 (бывший Hailuo)</p></td><td><p align=\"left\">Ролики со звуком в 2K</p></td><td><p align=\"left\">До 15 секунд</p></td><td><p align=\"left\">Платёжный барьер</p></td></tr><tr><td><p align=\"left\">Seedance 2.0 / 2.5</p></td><td><p align=\"left\">Динамичные сцены в 1080p</p></td><td><p align=\"left\">15 / 30 секунд</p></td><td><p align=\"left\">Нужно проверять</p></td></tr><tr><td><p align=\"left\">Wan 3.0</p></td><td><p align=\"left\">Длинные ролики по невысокой цене</p></td><td><p align=\"left\">До 30 секунд</p></td><td><p align=\"left\">Платёжный барьер</p></td></tr><tr><td><p align=\"left\">Wan 2.2 локально</p></td><td><p align=\"left\">Бесплатно на своём компьютере</p></td><td><p align=\"left\">Зависит от железа</p></td><td><p align=\"left\">Без ограничений, нужна мощная видеокарта</p></td></tr></tbody></table></div></div><p>Sora от OpenAI в таблице нет: приложение закрыли 26 апреля 2026 года, а API — 24 сентября. Если старые подборки советуют оживлять фото в Sora, они устарели.</p><p>Независимого рейтинга, какая модель лучше всего сохраняет лицо, пока нет. Поэтому надёжнее прогнать одно и то же фото через две-три модели и сравнить результат. Подробнее о том, как работает самая популярная из них, читайте в нашей инструкции <a href=\"https://kod.ru/kak-ozhivit-foto-online-v-kling-bez-vpn\">как оживить фото онлайн в Kling без VPN</a>.</p><p>Открытые веса Wan 2.2 под лицензией Apache 2.0 можно запустить у себя бесплатно и без ограничений, если есть видеокарта с большим объёмом памяти. Узнайте, <a href=\"https://habr.com/ru/companies/speshu_ai/articles/1092304/\">зачем компании обучают крошечные модели под одну узкую задачу</a>, и решите, стоит ли держать нейросеть у себя.</p><p>Как выбрать модель под задачу, если сомневаетесь:</p><ul><li><p><strong>портрет на 5 секунд</strong> — подойдет любая модель, выбирайте ту, где проще оплата;</p></li><li><p><strong>ролик со звуком и речью</strong> — MiniMax H3, Kling 4.0 или Gemini Omni;</p></li><li><p><strong>групповое фото</strong> — Kling 4.0 с отдельными элементами-персонажами;</p></li><li><p><strong>длинный ролик до 30 секунд</strong> — Kling 4.0, Seedance 2.5 или Wan 3.0;</p></li><li><p><strong>бесплатно и без лимитов</strong> — локальный Wan 2.2 при наличии видеокарты.</p></li></ul><h3>Пошаговая инструкция: как оживить фото</h3><h4>Шаг 1. Подготовьте снимок</h4><p>Возьмите оригинал без сжатия из мессенджера. Обрежьте кадр так, чтобы лицо занимало хотя бы треть высоты. Старое фото сначала аккуратно почистите от царапин и пятен, но не прогоняйте через «улучшайзер» с сильным сглаживанием: модель перенесёт этот глянец в видео.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/7f/49/15/7f4915e4dc8ed0236fd2fe2080b22619.png\" width=\"780\" height=\"440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/7f/49/15/7f4915e4dc8ed0236fd2fe2080b22619.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/7f/49/15/7f4915e4dc8ed0236fd2fe2080b22619.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Что должно получиться: чёткое лицо, видна текстура кожи, глаза и рот ничем не закрыты.</p><h4>Шаг 2. Выберите модель и режим</h4><p>Откройте режим Image to Video, он же «видео из фото». Для короткого портрета подойдёт любая модель из таблицы, для речи — модель со звуком, для группового снимка — модель с поддержкой нескольких персонажей.</p><p>Что должно получиться: открыт режим, где первым кадром будет ваше фото.</p><h4>Шаг 3. Загрузите фото первым кадром</h4><p>Загрузите снимок как первый кадр. Если модель поддерживает референсы, добавьте то же лицо отдельным элементом: так оно меньше «плывёт» в середине ролика.</p><p>Что должно получиться: в превью первый кадр совпадает с исходным фото.</p><h4>Шаг 4. Напишите промпт</h4><p>Описывайте мягкое действие, статичную камеру и естественную кожу. Отдельно попросите ничего не менять во внешности.</p><p>The person in the photo slowly breathes, blinks and gives a slight natural smile. Static camera. Natural skin texture, no retouching. Keep the face, hair and clothing exactly as in the first frame.</p><p>Что должно получиться: спокойное короткое движение без резких поворотов и «улучшения» лица.</p><h4>Шаг 5. Сделайте тест и доработайте</h4><p>Для начала выставьте 5 секунд и невысокое разрешение. Посмотрите ролик покадрово: глаза, линию губ, родинки, украшения. Если лицо осталось собой, повторите генерацию в финальном качестве или продлите ролик. Если «поплыло», уменьшите движение или длительность.</p><p>Что должно получиться: ролик, где на последней секунде узнаётся тот же человек, что и на фото.</p><p>Если нужен ролик длиннее 5–10 секунд, не генерируйте его одним проходом. Продлевайте готовый фрагмент по частям или используйте ключевые кадры, если модель их поддерживает: так лицо дольше остаётся собой.</p><h3>Как оживить старое чёрно-белое фото</h3><p>Семейный архив — самый частый сценарий и самый деликатный. Старые снимки маленькие и зернистые, поэтому модели приходится многое додумывать. Порядок такой: сначала бережная реставрация, потом движение. Раскрашивать фото лучше отдельным шагом до оживления.</p><p>Old black-and-white family photo comes to life: subtle head turn, gentle blink, soft daylight. Preserve film grain and original facial features. No beautification.</p><p>Результат — короткий ролик, где сохранились зерно плёнки и черты лица.</p><h3>Как оживить групповое фото</h3><p>На групповом снимке каждое лицо маленькое, и риск, что кто-то «поменяется», выше. Начинайте с двух-трёх человек, движение делайте минимальным, а если модель поддерживает элементы-персонажи, привяжите отдельный референс к каждому.</p><p>Two people in the photo turn to each other and laugh softly. Minimal movement, static camera, no extra objects or people.</p><p>Результат — спокойная сцена без новых людей и лишних предметов в кадре.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0f/58/89/0f58894345d95c9e7787006e03b8f14b.png\" width=\"780\" height=\"440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0f/58/89/0f58894345d95c9e7787006e03b8f14b.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0f/58/89/0f58894345d95c9e7787006e03b8f14b.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><h3>Как оживить фото и добавить речь</h3><p>Синхронизацию губ поддерживают MiniMax H3, Kling 4.0 и Gemini Omni. Для речи выбирайте крупный план и минимум движения головы, а фразу делайте короткой, на 3–5 секунд.</p><p>The man says in Russian: \"[PHRASE IN RUSSIAN]\". Calm voice, natural lip movement, minimal head motion, close-up, soft window light.</p><p>Результат — короткая фраза с естественным движением губ.</p><h3>Как сохранить лицо и не получить «пластик»</h3><p>«Пластиковое» лицо — частая жалоба при оживлении фото в любой модели. Пять правил, которые снижают риск:</p><ul><li><p>генерируйте 3–5 секунд, длиннее собирайте продлением: дрейф лица чаще заметен после седьмой секунды;</p></li><li><p>держите камеру статичной, а движение — мягким;</p></li><li><p>кадрируйте ближе, чтобы на лицо приходилось больше пикселей;</p></li><li><p>не используйте фото с фильтрами и не пишите в промпте «perfect skin» или «flawless»;</p></li><li><p>после генерации не перебарщивайте с апскейлом и шумоподавлением.</p></li></ul><p>Добавка к любому промпту, если кожа выходит глянцевой:</p><p>Natural lighting, slight skin imperfections, no plastic or waxy skin, no airbrushed effect, do not change age, eye color or jewelry.</p><h3>Промпты для оживления фото</h3><p>Рабочая формула: <strong>субъект + мягкое действие + камера + свет + текстура кожи + что не менять</strong>. Каждую часть можно заменить под свою задачу.</p><p><strong>Живой портрет с ветром.</strong> Волосы шевелятся, взгляд в камеру, лёгкая микромимика.</p><p>Wind gently moves the hair, the person looks into the camera, subtle micro-expressions, slow push-in, realistic lighting, 35mm film look.</p><p><strong>Портрет у окна.</strong> Человек поворачивается к свету, тени мягко двигаются по лицу.</p><p>The person slowly turns towards the window, soft afternoon light moves across the face, static camera, keep facial features and clothing unchanged.</p><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/0c/e2/ba/0ce2baeff080c6746aa018e9323b2c5e.png\" width=\"780\" height=\"440\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/0c/e2/ba/0ce2baeff080c6746aa018e9323b2c5e.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/0c/e2/ba/0ce2baeff080c6746aa018e9323b2c5e.png 781w\" loading=\"lazy\" decode=\"async\"/></figure><p>Промпт по этой формуле удобно собрать в текстовой нейросети: опишите фото по-русски и попросите превратить описание в запрос на английском. Это можно сделать бесплатно в модели SpeShu Mini.</p><p><a href=\"https://speshu.ai/chat?model=speshu%2Ffree&amp;utm_source=media&amp;utm_medium=habr&amp;utm_campaign=ozhivlenie+foto%3A+5+shagov\"><strong>Составить промпт бесплатно в SpeShu Mini</strong></a></p><p>Для сложных сцен подойдут и большие текстовые модели. Разберитесь, <a href=\"https://companies.rbc.ru/news/IJrAgFqsIm/modeli-claude-chem-haiku-sonnet-opus-i-fable-otlichayutsya/\">чем отличаются модели Claude: Haiku, Sonnet, Opus и Fable</a>, и выберите подходящую. А если слышали, что Claude «худший», узнайте, <a href=\"https://speshu.ai/blog/claude-hudshaia-neiroset\">почему его так называют и справедливо ли это</a>.</p><h3>Частые ошибки и как их исправить</h3><div><div class=\"table\"><table><tbody><tr><td><p align=\"left\"><strong>Проблема</strong></p></td><td><p align=\"left\"><strong>Почему возникает</strong></p></td><td><p align=\"left\"><strong>Как правильно</strong></p></td></tr><tr><td><p align=\"left\">Модель отклонила фото</p></td><td><p align=\"left\">Фильтр Seedance срабатывает на крупный план лица</p></td><td><p align=\"left\">Взять кадр по пояс или выбрать другую модель</p></td></tr><tr><td><p align=\"left\">Лицо «уплыло» к концу ролика</p></td><td><p align=\"left\">Длинная генерация и сильное движение</p></td><td><p align=\"left\">3–5 секунд, статичная камера, продление по частям</p></td></tr><tr><td><p align=\"left\">Глянцевая восковая кожа</p></td><td><p align=\"left\">Фильтр на исходнике или «perfect skin» в промпте</p></td><td><p align=\"left\">Брать оригинал, писать «natural skin texture»</p></td></tr><tr><td><p align=\"left\">Слишком быстрое движение</p></td><td><p align=\"left\">В промпте нет ограничений на действие</p></td><td><p align=\"left\">Указать «slow», «subtle», «minimal movement»</p></td></tr><tr><td><p align=\"left\">Водяной знак на ролике</p></td><td><p align=\"left\">Бесплатный тариф</p></td><td><p align=\"left\">Использовать платный тариф или сервис с оплатой по факту</p></td></tr><tr><td><p align=\"left\">Аккаунт заблокирован</p></td><td><p align=\"left\">Вход через VPN нарушает правила части сервисов</p></td><td><p align=\"left\">Работать без смены IP, не передавать логин посредникам</p></td></tr></tbody></table></div></div><h3>Как оживить фото бесплатно и онлайн</h3><p>У большинства видеомоделей есть бесплатный лимит: немного генераций в день или пробные кредиты, водяной знак и запрет на коммерческое использование. Лимиты часто меняются, поэтому перед стартом проверьте условия на сайте модели. Полностью бесплатный путь — локальный Wan на своём компьютере, но для него нужна мощная видеокарта.</p><p>Если не хочется подбирать промпт и настройки, оживите фото по готовому пресету. В Студии <a href=\"https://speshu.ai/?utm_source=media&amp;utm_medium=habr&amp;utm_campaign=ozhivlenie+foto%3A+5+shagov\">SpeShu.AI</a> собрано 1000+ сценариев, включая оживление старых снимков: загружаете фото, нажимаете кнопку и получаете ролик без промпта. Генерация идёт на стороне сервиса, поэтому её не оборвёт отвалившееся соединение.</p><p><a href=\"https://speshu.ai/presets/video?utm_source=media&amp;utm_medium=habr&amp;utm_campaign=ozhivlenie+foto%3A+5+shagov\"><strong>Оживить фото по пресету</strong></a></p><p>В том же сервисе работают собственные модели SpeShu ChatGPT, SpeShu Claude и SpeShu Gemini: они помогут описать сцену, составить промпт и подготовить подпись к ролику.</p><p>Перед публикацией помните про закон: по ст. 152.1 ГК РФ изображение человека используется с его согласия. Для снимков родственников и друзей спросите разрешения, особенно если ролик пойдёт в соцсети. Маркировка ИИ-контента в России по закону № 243-ФЗ пока добровольная.</p><h3>Подарок</h3><p>Скачайте бесплатно гайд <a href=\"https://cdn.speshu.ai/%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81_%D0%9A%D1%8D%D0%BC%D0%B5%D1%80%D0%BE%D0%BD_%D0%B2%D0%B0%D0%BC_%D0%BF%D0%BE%D0%B7%D0%B0%D0%B2%D0%B8%D0%B4%D1%83%D0%B5%D1%82_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_%D0%BF%D0%BE_%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE_%D0%BD%D0%B5%D0%B9%D1%80%D0%BE%D1%81%D0%B5%D1%82%D1%8F%D0%BC.pdf\">«Джеймс Кэмерон вам позавидует»</a> и узнайте, как выжать максимум из нейросетей для видео: от промптов для камеры до сборки ролика из нескольких сцен.</p><h3>Частые вопросы</h3><p><strong>Как оживить фото на телефоне?</strong> <br/>У большинства видеомоделей есть мобильная версия сайта или приложение с режимом «видео из фото». Порядок тот же: загрузить снимок, написать промпт, сделать короткий тест.</p><p><strong>Можно ли оживить фото без регистрации?</strong> <br/>Обычно нет: для генерации нужен аккаунт, чтобы учитывать лимиты и кредиты. Регистрация в большинстве сервисов бесплатная.</p><p><strong>Как оживить фото без потери качества?</strong> <br/>Берите оригинал в хорошем разрешении, генерируйте короткий ролик и не используйте сильное шумоподавление при апскейле. Финальное разрешение выбирайте после того, как тест показал, что лицо держится.</p><p><strong>Можно ли оживить фото бесплатно?</strong> <br/>Да, на бесплатных тарифах видеомоделей, но с водяным знаком и лимитами. Полностью бесплатно и без ограничений — локальный Wan, если есть мощная видеокарта.</p><p><strong>Какая нейросеть лучше оживляет фото?</strong> <br/>Независимого рейтинга по сохранению лица нет. Для длинных роликов и речи удобен Kling 4.0, по качеству осенью 2026 года лидирует Gemini Omni Flash, для бесплатной работы у себя подойдёт Wan.</p><p><strong>Сколько времени занимает оживление фото?</strong> <br/>Сама генерация пятисекундного ролика занимает от полминуты до нескольких минут в зависимости от модели и очереди. С подготовкой снимка и парой тестов на первый удачный результат уходит около 10 минут.</p><p><strong>Можно ли выложить оживлённое фото в соцсети?</strong> <br/>Да, если на снимке вы сами или у вас есть согласие людей в кадре. На бесплатных тарифах учитывайте водяной знак и условия коммерческого использования конкретного сервиса.</p><p><strong>Можно ли оживлять фото других людей?</strong> <br/>Только с их согласия: ст. 152.1 ГК РФ защищает право на изображение. Для публичных роликов согласие особенно важно.</p><p><strong>Что случилось с Sora?</strong> <br/>OpenAI закрыла приложение Sora 26 апреля 2026 года, а API — 24 сентября. Для оживления фото Sora больше не используют.</p><h3>Итог</h3><p>Для короткого портрета подойдёт любая модель из таблицы, для длинного ролика и речи — Kling 4.0 или MiniMax H3, для бесплатной работы у себя — Wan, а если нужен результат без промпта — готовый пресет. Оживление фото везде строится по одному алгоритму: подготовить фото, выбрать модель, загрузить первым кадром, описать мягкое движение и начать с теста на 5 секунд.</p><p>Если хочется работать со всеми видеомоделями без поиска иностранной карты, загляните в <a href=\"https://speshu.ai/?utm_source=media&amp;utm_medium=habr&amp;utm_campaign=ozhivlenie+foto%3A+5+shagov\">SpeShu.AI</a>. Подписка за 1690 ₽ даёт больше 20 000 запросов к моделям SpeShu, новым пользователям — скидка −50%, а по промокоду <strong>HABRSPESHUAI</strong> — ещё +15% к пополнению баланса. Туда же можно импортировать архивы диалогов из ChatGPT и Claude, чтобы все нейросети и вся история работы хранились в одном месте.</p><p>Больше готовых промптов для фото и видео — в нашем <a href=\"https://t.me/+-3jM3rOkhAM4NzYy\">телеграм-канале</a>.</p><p><em>Дата проверки: 6 ноября 2026 года.</em></p></div>",
+  "tags": [
+    {
+      "titleHtml": "оживление фото ии"
+    },
+    {
+      "titleHtml": "5 способов"
+    },
+    {
+      "titleHtml": "генерация видео"
+    },
+    {
+      "titleHtml": "без vpn"
+    },
+    {
+      "titleHtml": "без зарубежной карты"
+    },
+    {
+      "titleHtml": "искусственный интеллект"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105812/bc2c1309da4890c1cfe3bf62a54026cd/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105812/bc2c1309da4890c1cfe3bf62a54026cd/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/companies\\/tsnis\\/articles\\/1105812\\/\"},\"headline\":\"Оживление фото ИИ: 5 шагов в любом искусственном интеллекте. Инструкция для генерации видео без VPN и зарубежной карты\",\"datePublished\":\"2026-11-10T11:02:47+03:00\",\"dateModified\":\"2026-11-11T10:17:32+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"Из одного снимка за 10 минут получается пятисекундный ролик: человек моргает, улыбается, поворачивает голову. Оживление фото устроено одинаково в любой...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/companies\\/tsnis\\/articles\\/1105812\\/#post-content-body\",\"about\":[\"c_tsnis\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/e7\\/05\\/af\\/e705afae46a15bcaa69faea39bf13b6d.png\",\"https:\\/\\/habrastorage.org\\/extt\\/0c\\/cc\\/a7\\/0ccca74cc1324a84eade3b6345b377ed.png\",\"https:\\/\\/habrastorage.org\\/extt\\/7f\\/49\\/15\\/7f4915e4dc8ed0236fd2fe2080b22619.png\",\"https:\\/\\/habrastorage.org\\/extt\\/0f\\/58\\/89\\/0f58894345d95c9e7787006e03b8f14b.png\",\"https:\\/\\/habrastorage.org\\/extt\\/0c\\/e2\\/ba\\/0ce2baeff080c6746aa018e9323b2c5e.png\"]}",
+    "metaDescription": "Из одного снимка за 10 минут получается пятисекундный ролик: человек моргает, улыбается, поворачивает голову. Оживление фото устроено одинаково в любой видеонейросети, поэтому один алгоритм из пяти...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": true,
+  "mode": "seo",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": null,
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 8,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "12",
+    "title": "AI и ML",
+    "alias": "ai_and_ml"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": false,
+  "allowedFeatures": {
+    "isTestTargetAllow": false
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "id": "1105546",
+  "timePublished": "2026-11-09T14:33:28+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Экстремальное использование OkHttp",
+  "leadData": {
+    "textHtml": "<p>Обзорная статья для начинающих сетевиков, чей предыдущий опыт с OkHttp ограничивался:</p><p><code>okHttp.newCall(request).execute()</code></p><p>Балуемся с OkHttp и исследуем его возможности🍿🍦🎪🎈</p>",
+    "imageUrl": "https://habrastorage.org/extt/41/ef/75/41ef75356012b809d5585d1f5e341cfd.png",
+    "buttonTextHtml": "Читать далее",
+    "image": {
+      "url": "https://habrastorage.org/extt/41/ef/75/41ef75356012b809d5585d1f5e341cfd.png",
+      "fit": "cover",
+      "positionY": 0,
+      "positionX": 0
+    }
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [],
+  "author": {
+    "id": "1562985",
+    "alias": "DolgopolovDenis",
+    "fullname": "Долгополов Денис",
+    "avatarUrl": "//habrastorage.org/getpro/habr/avatars/826/62c/6a4/82662c6a489a48714b946da7d908f00d.jpg",
+    "speciality": "tg: https://t.me/dolgo_polo_dev — блог",
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": 29,
+      "votesCount": 37
+    },
+    "rating": 0,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "4K+"
+  },
+  "statistics": {
+    "commentsCount": 1,
+    "favoritesCount": 6,
+    "readingCount": 765,
+    "score": 0,
+    "votesCount": 4,
+    "votesCountPlus": 2,
+    "votesCountMinus": 2,
+    "reach": 6164,
+    "readers": 582
+  },
+  "hubs": [
+    {
+      "id": "17107",
+      "alias": "android_dev",
+      "type": "collective",
+      "title": "Android",
+      "titleHtml": "Android",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><figure class=\"full-width \"><img src=\"https://habrastorage.org/r/w1560/extt/c8/22/19/c822193e4f3af20ad53cc9c90d179057.png\" alt=\"нейпрослоп картина, а статья нет\" title=\"нейпрослоп картина, а статья нет\" width=\"1670\" height=\"941\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/c8/22/19/c822193e4f3af20ad53cc9c90d179057.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/c8/22/19/c822193e4f3af20ad53cc9c90d179057.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>нейпрослоп картина, а статья нет</figcaption></div></figure><p>Обзорная статья для начинающих сетевиков, чей предыдущий опыт с OkHttp ограничивался:</p><pre><code class=\"kotlin\">okHttp.newCall(request).execute()</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper\"></span></a></div></pre><p>Балуемся с OkHttp и исследуем его возможности🍿🍦🎪🎈</p><h2>База</h2><p>Пробежимся по стандартным настройкам, никаких хаков</p><h3>Прокси</h3><p>Можем указать кастомный IP, куда польется трафик</p><pre><code class=\"kotlin\">val proxy = Proxy(Proxy.Type.HTTP, InetSocketAddress(\"192.168.1.1\", 8080))\nval client = OkHttpClient.Builder().proxy(proxy).build()</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p>Можно указать как HTTP, так и SOCKS прокси</p><p>По умолчанию берется прокси IP, установленное в системных настройках</p><p><strong>⁉️ Вопрос на засыпку: </strong>если на девайсе подключен VPN (корпоративный, конечно), то на какой IP пойдет трафик?</p><h3>Принудительный выбор сети - Wi-Fi vs Cellular</h3><p>Если у юзера включен и мобильный интернет, и Wi-Fi, через что пойдет трафик?</p><p>Оказывается, можно указать самому:</p><pre><code class=\"kotlin\">val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager\n\nval mobileNetworkRequest = NetworkRequest.Builder()\n    .addTransportType(NetworkCapabilities.TRANSPORT_CELLULAR)\n    .build()\n\nval networkCallback = object : ConnectivityManager.NetworkCallback() {\n    override fun onAvailable(network: Network) {\n        val client = OkHttpClient.Builder() // создаем OkHttp на мобильном интернете\n            .socketFactory(network.socketFactory)\n            .build()\n    }\n}\n\nconnectivityManager.requestNetwork(mobileNetworkRequest, networkCallback)</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><strong>⁉️ Аккуратно:</strong> пользователи могут не обрадоваться расходу мобильного интернета</p><h3>Кастомный DNS-сервер</h3><p>У гугл DNS опять устарели сервера и перестали отвечать? Давайте напишем свой локальный DNS-резолвер:</p><pre><code class=\"kotlin\">val client = OkHttpClient.Builder()\n    .dns(object : Dns {\n        override fun lookup(hostname: String): List&lt;InetAddress&gt; {\n            return try {\n                when (hostname) {\n                    \"api.example.com\" -&gt; listOf(InetAddress.getByName(\"192.168.1.100\"))\n                    \"cdn.example.com\" -&gt; listOf(InetAddress.getByName(\"10.0.0.50\"))\n                    else -&gt; Dns.SYSTEM.lookup(hostname) // fallback на системный DNS\n                }\n            } catch (e: Exception) {\n                Dns.SYSTEM.lookup(hostname)\n            }\n        }\n    })\n    .build()\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><strong>⁉️ Аккуратно:</strong> локально зашитые IP имеют свойство устаревать, нужно не забывать о механизме ротации</p><h2>Мясо и треш</h2><p>Не повторяйте ничего из этого в продакшен коде (без присмотра взрослых / без фича флага на откат)</p><h3>Подмена сетевого слоя</h3><p>В OkHttp запрос выполняется внутри стандартных OkHttp Interceptor-ов:</p><ul><li><p>ConnectInterceptor - резолвинг DNS, установка TCP/TLS соединения</p></li><li><p>CallServerInterceptor - отправляем и принимает хэдеры/body </p></li><li><p>CacheInterceptor - чтение из кэша</p></li><li><p>RetryAndFollowUpInterceptor - обрабатывает редиректы и ретраи</p></li><li><p>BridgeInterceptor - читает cookie из CookieJar</p></li></ul><figure class=\"\"><img src=\"https://habrastorage.org/r/w1560/extt/a9/46/a1/a946a1b42ddd47b65e9188897d575619.png\" alt=\"RealCall\" title=\"RealCall\" width=\"347\" height=\"186\" sizes=\"(max-width: 780px) 100vw, 50vw\" srcset=\"https://habrastorage.org/r/w780/extt/a9/46/a1/a946a1b42ddd47b65e9188897d575619.png 780w,&#10;       https://habrastorage.org/r/w1560/extt/a9/46/a1/a946a1b42ddd47b65e9188897d575619.png 781w\" loading=\"lazy\" decode=\"async\"/><div><figcaption>RealCall</figcaption></div></figure><p>Если вам вдруг понадобится выполнять запрос через другой сетевой движок (например, Cronet), можете выкинуть эти стандартные интерсепторы из цепочки и подсунуть свои</p><p>Красивый вариант — форкнуть OkHttp и заменить их в RealCall</p><p>Дешевый вариант без форка — подсунуть свои интерсепторы «перед» интерсепторами OkHttp, чтобы стандартные перестали вызываться, и оборвать в нем цепочку:</p><pre><code class=\"kotlin\">class CustomInterceptor : Interceptor {\n\n    override fun intercept(chain: Interceptor.Chain): Response {\n        val request = chain.request()\n\n        // Своя логика: DNS, соединение, HTTP и т. д.\n        val response = executeCustomRequest(request)\n\n        // Не вызываем chain.proceed()\n        // дальнейшие интерсепторы не вызываются\n        return response\n    }\n}\n\nval client = OkHttpClient.Builder()\n    .addInterceptor(CustomInterceptor()) // обрывает цепочку и сам выполняет запрос\n\t// дальнейшие CallServerInterceptor / ConnectInterceptor /  CacheInterceptor /  RetryAndFollowUpInterceptor не вызываются\n    .build()\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Независимый запрос внутри Interceptor</h3><p>Внутри любого интерсептора можно выполнить другой сетевой запрос:</p><pre><code class=\"kotlin\">class MyInterceptor(\n    private val client: OkHttpClient\n) : Interceptor {\n\n    override fun intercept(chain: Interceptor.Chain): Response {\n        ...\n        val response = client.newCall(request).execute()\n        val result = response.use { it.body.string() }\n\n        return ...\n    }\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><strong>⁉️ Вопрос на засыпку:</strong> если выполнить запрос внутри запроса, то какая цепочка интерсепторов выполнится в итоге?</p><h3>Ретрай</h3><p>Хотите написать свою retry policy?</p><p>Можно ретраить запрос внутри Interceptor с помощью повторного вызова chain.proceed(...)</p><pre><code class=\"kotlin\">class RetryInterceptor(\n    private val maxRetries: Int = 3\n) : Interceptor {\n\n    override fun intercept(chain: Interceptor.Chain): Response {\n        val request = chain.request()\n        var response: Response? = null\n\n        repeat(maxRetries + 1) { attempt -&gt;\n            response?.close()\n            response = chain.proceed(request)\n            if (response!!.isSuccessful || attempt == maxRetries) return response!!\n        }\n\n        return response!!\n    }\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><strong>⁉️ Вопрос на засыпку:</strong> какие интерсепторы выполнятся, если поставить этот интерсептор в AppInterceptor‑ы? а если в NetworkInterceptor‑ы?</p><p><strong>⁉️ Аккуратно:</strong> у OkHttp уже есть свои ретраи, включенные по умолчанию. Не переборщите</p><h3>Приостановка запроса</h3><p>OkHttp.Interceptor-ы не умеет в корутины, но саспендить то хочется</p><p>Например, чтобы спросить у пользователя разрешение или показать всплывашку перед произвольным запросом</p><p>Можно сделать так:</p><pre><code class=\"kotlin\">class MyInterceptor(\n    private val client: OkHttpClient\n) : Interceptor {\n    override fun intercept(chain: Interceptor.Chain): Response {\n        runBlocking {\n            // делаем грязь\n            // например, просим пользователя пройти авторизацию\n        }\n        return chain.proceed(chain.request())\n    }\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><strong>⁉️ Аккуратно:</strong> это блокирует поток, на котором выполняется запрос</p><h3>Отключение таймаута</h3><p>Знаете, что мы не учли в предыдущих разделах? </p><p>На весь запрос установлен таймаут. По умолчанию примерно 30 секунд (connectTimeout  + readTimeout + writeTimeout)</p><p>И пока мы развлекаемся (ретраим или блочим запрос), часики тикают</p><p>Но это можно исправить, давайте убьем таймер:</p><pre><code class=\"kotlin\">fun Interceptor.Chain.disableTimer() = (call().timeout() as? AsyncTimeout)?.exit()</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><h3>Кастомная валидация SSL-сертификатов</h3><p>Через кастомный X509TrustManager можно разрешать только определенные SSL‑сертификаты (SSL‑pinning) или запрещать определенные серты по публичному ключу (например, слитые недавно eMudhra)</p><pre><code class=\"kotlin\">class CustomTrustManager(\n    private val blockedHash: String\n) : X509TrustManager {\n\n    override fun checkServerTrusted(\n        chain: Array&lt;X509Certificate&gt;,\n        authType: String\n    ) {\n        ...\n        val hash = MessageDigest.getInstance(\"SHA-256\")\n            .digest(chain[0].encoded)\n            .joinToString(\"\") { \"%02x\".format(it) }\n\n        if (hash == blockedHash) throw CertificateException(\"Certificate blocked\")\n        ...\n    }\n}\n</code><div class=\"code-explainer\"><a href=\"https://sourcecraft.dev/\" class=\"tm-button code-explainer__link\" style=\"visibility: hidden;\"><span class=\"sc-logo-wrapper icon-only\"></span></a></div></pre><p><strong>⁉️ Аккуратно: </strong>важно не разрешить лишние SSL‑серты на продакшен сборках, иначе ИБ заставят переделывать. Также бывает важно проверять всю цепочку сертификатов, а не только leaf</p><h2>Выводы</h2><p>OkHttp отлично закрывает базовые потребности</p><p>Но под конец 2k26 по‑прежнему:</p><ul><li><p>не поддерживает http3</p></li><li><p>не дает гибкого коробочного механизма настройки retry policy </p></li><li><p>не поддерживает корутины / suspend в интерсепторах </p></li><li><p>имеет неочевидное разделение на AppInterceptor‑ы (обычные) и NetworkInterceptor‑ы</p></li><li><p>не имеет явного разделения на Request и Response интерсепторы (в отличие от Ktor и других движков)</p></li></ul><p><s>Надо активнее вайбкодить фичи, коллеги</s></p><p>Мой блог с остальными постами по теме: <a href=\"https://t.me/dolgo_polo_dev\" rel=\"noopener nofollow\">https://t.me/dolgo_polo_dev</a></p></div>",
+  "tags": [
+    {
+      "titleHtml": "okhttp"
+    },
+    {
+      "titleHtml": "okhttpclient"
+    },
+    {
+      "titleHtml": "cronet"
+    },
+    {
+      "titleHtml": "okhttp certificatepinner"
+    },
+    {
+      "titleHtml": "retrofit"
+    },
+    {
+      "titleHtml": "retrofit2"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1105546/e27aa6f51b30d29511f9889aa5eb419b/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1105546/e27aa6f51b30d29511f9889aa5eb419b/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105546\\/\"},\"headline\":\"Экстремальное использование OkHttp\",\"datePublished\":\"2026-11-09T17:33:28+03:00\",\"dateModified\":\"2026-11-12T13:36:56+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"нейпрослоп картина, а статья нет Обзорная статья для начинающих сетевиков, чей предыдущий опыт с OkHttp ограничивался: okHttp.newCall(request).execute()...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1105546\\/#post-content-body\",\"about\":[\"h_android_dev\",\"f_develop\"],\"image\":[\"https:\\/\\/habrastorage.org\\/extt\\/c8\\/22\\/19\\/c822193e4f3af20ad53cc9c90d179057.png\",\"https:\\/\\/habrastorage.org\\/extt\\/a9\\/46\\/a1\\/a946a1b42ddd47b65e9188897d575619.png\"]}",
+    "metaDescription": "нейпрослоп картина, а статья нет Обзорная статья для начинающих сетевиков, чей предыдущий опыт с OkHttp ограничивался: okHttp.newCall(request).execute() Балуемся с OkHttp и исследуем его...",
+    "mainImageUrl": null,
+    "amp": true,
+    "customTrackerLinks": []
+  },
+  "polls": [],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "tutorial",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 5,
+  "complexity": "low",
+  "isEditorial": false,
+  "flowNew": {
+    "id": "6",
+    "title": "Мобильная разработка",
+    "alias": "mobile_development"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}

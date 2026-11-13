@@ -1,0 +1,205 @@
+{
+  "id": "1106142",
+  "timePublished": "2026-11-10T13:17:51+00:00",
+  "isCorporative": false,
+  "lang": "ru",
+  "titleHtml": "Репо теперь приватный",
+  "leadData": {
+    "textHtml": "<p>что ж судя по карме вам не понравился перевод вообще. Вы вправе оставлять свою  оценку такой, какой посчитаете нужной, но и я вправе сделать репо приватным и не переводить книги больше. Видите ли весь этот энтузиазм с переводами держался только на поддержке, которой судя по нынешней карме и ваших других оценках моих постов больше нет.</p><p>Сейчас я не собираюсь клянчить у вас карму комменты или что-то подобное, я просто говорю что репо теперь стал приватным.</p><p>Удачи тем кому понравился перевод, если у вас не осталось локального клонированного репо то скажите спасибо тем, кому перевод не зашел. Я не оскорбляю тех кому не понравилась книга или код внутри нее, просто знайте теперь того, что вам не нравится стало меньше.</p><p>Если я увижу что многим перевод все же интересен я подумаю над тем, чтобы сделать репо снова публичным но как я вижу сейчас - смысла нету. Повторяюсь я не клянчу карму комменты и прочее просто жалко, что так получилось.</p>",
+    "imageUrl": null,
+    "buttonTextHtml": "Читать далее",
+    "image": null
+  },
+  "editorVersion": "2.0",
+  "postType": "article",
+  "postLabels": [
+    {
+      "type": "recovery",
+      "typeOf": "system",
+      "title": "Recovery Mode",
+      "data": {
+        "url": null
+      }
+    }
+  ],
+  "author": {
+    "id": "5997042",
+    "alias": "Xz415",
+    "fullname": "Xzscripts",
+    "avatarUrl": null,
+    "speciality": null,
+    "deleted": false,
+    "isSeo": false,
+    "scoreStats": {
+      "score": -9,
+      "votesCount": 13
+    },
+    "rating": -10.5,
+    "relatedData": null,
+    "contacts": [],
+    "authorContacts": [],
+    "paymentDetails": {
+      "paymentYandexMoney": null,
+      "paymentPayPalMe": null,
+      "paymentWebmoney": null
+    },
+    "donationsMethod": null,
+    "isInBlacklist": null,
+    "careerProfile": null,
+    "isShowScores": true,
+    "reach": "32K+"
+  },
+  "statistics": {
+    "commentsCount": 12,
+    "favoritesCount": 1,
+    "readingCount": 830,
+    "score": -10,
+    "votesCount": 10,
+    "votesCountPlus": 0,
+    "votesCountMinus": 10,
+    "reach": 6861,
+    "readers": 617
+  },
+  "hubs": [
+    {
+      "id": "18961",
+      "alias": "rust",
+      "type": "collective",
+      "title": "Rust",
+      "titleHtml": "Rust",
+      "isProfiled": true,
+      "relatedData": null
+    },
+    {
+      "id": "224",
+      "alias": "ruby",
+      "type": "collective",
+      "title": "Ruby",
+      "titleHtml": "Ruby",
+      "isProfiled": true,
+      "relatedData": null
+    }
+  ],
+  "flows": [
+    {
+      "id": "1",
+      "alias": "develop",
+      "title": "Разработка",
+      "titleHtml": "Разработка"
+    }
+  ],
+  "relatedData": {
+    "vote": null,
+    "unreadCommentsCount": 0,
+    "bookmarked": false,
+    "canComment": false,
+    "canEdit": false,
+    "canViewVotes": false,
+    "votePlus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "voteMinus": {
+      "canVote": false,
+      "isChargeEnough": false,
+      "isKarmaEnough": false,
+      "isVotingOver": false,
+      "isPublicationLimitEnough": false
+    },
+    "draftReason": null,
+    "lockReason": null,
+    "canModerateComments": false,
+    "trackerSubscribed": false,
+    "emailSubscribed": false
+  },
+  "textHtml": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>что ж судя по карме вам не понравился перевод вообще. Вы вправе оставлять свою  оценку такой, какой посчитаете нужной, но и я вправе сделать репо приватным и не переводить книги больше. Видите ли весь этот энтузиазм с переводами держался только на поддержке, которой судя по нынешней карме и ваших других оценках моих постов больше нет.</p><p>Сейчас я не собираюсь клянчить у вас карму комменты или что-то подобное, я просто говорю что репо теперь стал приватным.</p><p>Удачи тем кому понравился перевод, если у вас не осталось локального клонированного репо то скажите спасибо тем, кому перевод не зашел. Я не оскорбляю тех кому не понравилась книга или код внутри нее, просто знайте теперь того, что вам не нравится стало меньше.</p></div>",
+  "tags": [
+    {
+      "titleHtml": "книга"
+    },
+    {
+      "titleHtml": "репозиторий"
+    },
+    {
+      "titleHtml": "rust"
+    },
+    {
+      "titleHtml": "ruby"
+    },
+    {
+      "titleHtml": "перевод"
+    }
+  ],
+  "metadata": {
+    "stylesUrls": [],
+    "scriptUrls": [],
+    "shareImageUrl": "https://habr.com/share/publication/1106142/70bb5af95becea18c5f71b69819c69ac/",
+    "shareImageWidth": 1200,
+    "shareImageHeight": 630,
+    "vkShareImageUrl": "https://habr.com/share/publication/1106142/70bb5af95becea18c5f71b69819c69ac/?format=vk",
+    "schemaJsonLd": "{\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"Article\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106142\\/\"},\"headline\":\"Репо теперь приватный\",\"datePublished\":\"2026-11-10T16:17:51+03:00\",\"dateModified\":\"2026-11-10T16:17:51+03:00\",\"author\":{\"@type\":\"Person\",\"name\":null},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Habr\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/habrastorage.org\\/webt\\/a_\\/lk\\/9m\\/a_lk9mjkccjox-zccjrpfolmkmq.png\"}},\"description\":\"что ж судя по карме вам не понравился перевод вообще. Вы вправе оставлять свою оценку такой, какой посчитаете нужной, но и я вправе сделать репо приватным и не...\",\"url\":\"https:\\/\\/habr.com\\/ru\\/articles\\/1106142\\/#post-content-body\",\"about\":[\"h_rust\",\"h_ruby\",\"f_develop\"],\"image\":[\"https:\\/\\/habr.com\\/share\\/publication\\/1106142\\/70bb5af95becea18c5f71b69819c69ac\\/\"]}",
+    "metaDescription": "что ж судя по карме вам не понравился перевод вообще. Вы вправе оставлять свою оценку такой, какой посчитаете нужной, но и я вправе сделать репо приватным и не переводить книги больше. Видите ли весь...",
+    "mainImageUrl": null,
+    "amp": false,
+    "customTrackerLinks": []
+  },
+  "polls": [
+    {
+      "id": "53720",
+      "timeElapsed": null,
+      "answersType": "radio",
+      "votesCount": 14,
+      "passCount": 14,
+      "textHtml": "Давайте на последок проголосуем хотя бы, скольким перевод нравился, а скольким не нравился",
+      "relatedData": {
+        "canVote": false
+      },
+      "variants": [
+        {
+          "id": "242998",
+          "textHtml": "Перевод понравился",
+          "votesCount": 6,
+          "percent": 42.86,
+          "selected": false
+        },
+        {
+          "id": "243000",
+          "textHtml": "Перевод не понравился",
+          "votesCount": 8,
+          "percent": 57.14,
+          "selected": false
+        }
+      ]
+    }
+  ],
+  "commentsEnabled": {
+    "status": true,
+    "reason": null
+  },
+  "rulesRemindEnabled": false,
+  "votesEnabled": true,
+  "status": "published",
+  "plannedPublishTime": null,
+  "isSeo": false,
+  "mode": "standard",
+  "checked": null,
+  "hasPinnedComments": false,
+  "format": "post",
+  "banner": null,
+  "multiwidget": null,
+  "multiwidgetUuid": null,
+  "readingTime": 1,
+  "complexity": null,
+  "isEditorial": false,
+  "flowNew": {
+    "id": "10",
+    "title": "Информационная безопасность",
+    "alias": "information_security"
+  },
+  "linkedPostTranslation": null,
+  "hasRegionalRestrictions": false,
+  "canExplanation": true
+}
